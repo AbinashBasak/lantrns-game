@@ -1,0 +1,224 @@
+{
+  "asset_id": "FX-011",
+  "id": "FX-011",
+  "title": "Rune activation",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011",
+  "prompt": "Procedural: Rune activation rendered by tools/fx_effects.py (fx011) with the ART-002 VFX palette; no generative image model used.",
+  "generation_tool": "procedural (Pillow + numpy; tools/generate_phase07_fx.py)",
+  "production_approved": false,
+  "runtime_integrated": false,
+  "last_updated": "2026-10-17T21:17:44.385715+05:30",
+  "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending",
+  "requested_deliverables_saved_and_reviewed": true,
+  "deliverables": [
+    {
+      "slug": "rune_activation",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/source_images/FX-011_rune_activation_procedural_sheet.png",
+      "frame_count": 8,
+      "cols": 8,
+      "rows": 1,
+      "roles": [
+        "frame_00",
+        "frame_01",
+        "frame_02",
+        "frame_03",
+        "frame_04",
+        "frame_05",
+        "frame_06",
+        "frame_07"
+      ],
+      "sequences": {
+        "main": {
+          "first": 0,
+          "last": 7
+        }
+      },
+      "export_cell_dimensions": [
+        192,
+        192
+      ],
+      "pivot_px": [
+        96,
+        96
+      ],
+      "timing": {
+        "fps": 14
+      },
+      "loop": false,
+      "provenance": "procedural render; deterministic (fixed RNG seeds), no external source image",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_07.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_sheet.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_frames.json"
+      ],
+      "preview_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/previews/FX-011_contact_light.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/previews/FX-011_contact_dark.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/previews/FX-011_rune_activation_preview.gif"
+      ],
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/source_images/FX-011_rune_activation_procedural_sheet.png",
+        "role": "procedural sheet",
+        "sha256": "af020eb428e5e540991a27500cbed28b71733da91e30554af7038a41b538d9c6",
+        "bytes": 115256,
+        "dimensions": [
+          1536,
+          192
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_00.png",
+          "role": "frame png",
+          "sha256": "f88c35ff4711277c90f8b823f457655048aaaeab131d7477e5f6b7a7a0fefe63",
+          "bytes": 2928,
+          "dimensions": [
+            192,
+            192
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            122
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_01.png",
+          "role": "frame png",
+          "sha256": "e2f4075f0a030f8afedfaa054cf414b3f0a77dd2f87e1d17a91cc53c642d48c0",
+          "bytes": 5589,
+          "dimensions": [
+            192,
+            192
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            204
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_02.png",
+          "role": "frame png",
+          "sha256": "7c9ef1b8daef64c5dbe1b8881be9870e8906e4deb994442bfbf389b4ed596e93",
+          "bytes": 9857,
+          "dimensions": [
+            192,
+            192
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_03.png",
+          "role": "frame png",
+          "sha256": "750ee5e219dcbea76ed307ca9b5803ed886524c1734243366a9f123cbfbf2a62",
+          "bytes": 15032,
+          "dimensions": [
+            192,
+            192
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_04.png",
+          "role": "frame png",
+          "sha256": "6721a297f3589e1708331512d35782a5702b7525baa37c4edf05415f31da913d",
+          "bytes": 21839,
+          "dimensions": [
+            192,
+            192
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_05.png",
+          "role": "frame png",
+          "sha256": "f827f03f242ed374a83c1c20deafac8f337fe45d97aa287c1724d4dd0130cfb1",
+          "bytes": 23210,
+          "dimensions": [
+            192,
+            192
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_06.png",
+          "role": "frame png",
+          "sha256": "836690b83d1f887719cbcb1a5026acd374422506797f87fa2e8feadb98c6a6c4",
+          "bytes": 22116,
+          "dimensions": [
+            192,
+            192
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_07.png",
+          "role": "frame png",
+          "sha256": "e71d0fa4abb2b9c96316b95aed03fd1fab418c9ef3fa5c6ec2b50113aeeb4d18",
+          "bytes": 21231,
+          "dimensions": [
+            192,
+            192
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_sheet.png",
+          "role": "sheet png",
+          "sha256": "af020eb428e5e540991a27500cbed28b71733da91e30554af7038a41b538d9c6",
+          "bytes": 115256,
+          "dimensions": [
+            1536,
+            192
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ]
+    }
+  ],
+  "review_notes": [
+    "Prototype effect art for timing and readability; not final production approval.",
+    "No Godot scene, AnimatedSprite2D, particle or shader integration implied."
+  ]
+}

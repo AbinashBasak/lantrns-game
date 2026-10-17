@@ -1,0 +1,225 @@
+{
+  "asset_id": "FX-010",
+  "id": "FX-010",
+  "title": "Mote glow",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010",
+  "prompt": "Procedural: Mote glow rendered by tools/fx_effects.py (fx010) with the ART-002 VFX palette; no generative image model used.",
+  "generation_tool": "procedural (Pillow + numpy; tools/generate_phase07_fx.py)",
+  "production_approved": false,
+  "runtime_integrated": false,
+  "last_updated": "2026-10-17T21:17:43.775900+05:30",
+  "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending",
+  "requested_deliverables_saved_and_reviewed": true,
+  "deliverables": [
+    {
+      "slug": "mote_glow",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/source_images/FX-010_mote_glow_procedural_sheet.png",
+      "frame_count": 8,
+      "cols": 8,
+      "rows": 1,
+      "roles": [
+        "frame_00",
+        "frame_01",
+        "frame_02",
+        "frame_03",
+        "frame_04",
+        "frame_05",
+        "frame_06",
+        "frame_07"
+      ],
+      "sequences": {
+        "main": {
+          "first": 0,
+          "last": 7
+        }
+      },
+      "export_cell_dimensions": [
+        128,
+        128
+      ],
+      "pivot_px": [
+        64,
+        64
+      ],
+      "timing": {
+        "fps": 12
+      },
+      "loop": true,
+      "provenance": "procedural render; deterministic (fixed RNG seeds), no external source image",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/exports/FX-010_mote_glow_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/exports/FX-010_mote_glow_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/exports/FX-010_mote_glow_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/exports/FX-010_mote_glow_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/exports/FX-010_mote_glow_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/exports/FX-010_mote_glow_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/exports/FX-010_mote_glow_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/exports/FX-010_mote_glow_07.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/exports/FX-010_mote_glow_sheet.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/exports/FX-010_mote_glow_frames.json"
+      ],
+      "preview_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/previews/FX-010_contact_light.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/previews/FX-010_contact_dark.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/previews/FX-010_mote_glow_preview.gif"
+      ],
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/source_images/FX-010_mote_glow_procedural_sheet.png",
+        "role": "procedural sheet",
+        "sha256": "6e50e9b26c253351df23e00c0d2f1e34b69eb0f978cdee3885bcab4a22784376",
+        "bytes": 49541,
+        "dimensions": [
+          1024,
+          128
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/exports/FX-010_mote_glow_00.png",
+          "role": "frame png",
+          "sha256": "9b392d7a927e4c170fe4ba6a1dc3fe8481c1141d2d3747df540fd131ce36fd3c",
+          "bytes": 6841,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/exports/FX-010_mote_glow_01.png",
+          "role": "frame png",
+          "sha256": "abc3fee41c4c11b3dfb3f3d9401ac0a6b79d123637f4e5c803ad25819a186316",
+          "bytes": 7444,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/exports/FX-010_mote_glow_02.png",
+          "role": "frame png",
+          "sha256": "e3c3e90c6e803b3c37e71015e9cd4d7f91555b21a57aad0a8e2e77bbb3e409ad",
+          "bytes": 7680,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/exports/FX-010_mote_glow_03.png",
+          "role": "frame png",
+          "sha256": "1e5f96157ecbc03c9a12654916cf5f04d65c917f622ed603967002326d68e361",
+          "bytes": 7328,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/exports/FX-010_mote_glow_04.png",
+          "role": "frame png",
+          "sha256": "ae56c6950d6609fa8a1148a4c5e420ca8751eb2e81d4a86b1b21e735cdb8852c",
+          "bytes": 6372,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/exports/FX-010_mote_glow_05.png",
+          "role": "frame png",
+          "sha256": "a29ebe8d43e2d212f9ce6c67175e7f1d7379a68a7abf1f3b8e59a2f4c877b206",
+          "bytes": 6613,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/exports/FX-010_mote_glow_06.png",
+          "role": "frame png",
+          "sha256": "1b5580abec2d15997d1b8e4e175eed2595c12d2c59595d37857524ac20e19d0e",
+          "bytes": 6696,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/exports/FX-010_mote_glow_07.png",
+          "role": "frame png",
+          "sha256": "8149be43c01b3ed6b4f2735f9b32a867884cd4f2dec42a18488a79e99921545f",
+          "bytes": 6852,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/exports/FX-010_mote_glow_sheet.png",
+          "role": "sheet png",
+          "sha256": "6e50e9b26c253351df23e00c0d2f1e34b69eb0f978cdee3885bcab4a22784376",
+          "bytes": 49541,
+          "dimensions": [
+            1024,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ]
+    }
+  ],
+  "review_notes": [
+    "Seamless loop. The orbiting sparkle dots use the Mote palette from ART-002.",
+    "Prototype effect art for timing and readability; not final production approval.",
+    "No Godot scene, AnimatedSprite2D, particle or shader integration implied."
+  ]
+}

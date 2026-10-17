@@ -1,0 +1,27 @@
+{
+  "asset_id": "FX-020",
+  "cell_size": [
+    128,
+    96
+  ],
+  "columns": 6,
+  "rows": 2,
+  "frame_count": 11,
+  "fps": 16,
+  "loop": false,
+  "pivot_px": [
+    92,
+    48
+  ],
+  "sequences": {
+    "flight_loop": {
+      "first": 0,
+      "last": 5
+    },
+    "impact": {
+      "first": 6,
+      "last": 10
+    }
+  },
+  "sheet": "FX-020_magic_projectile_sheet.png"
+}

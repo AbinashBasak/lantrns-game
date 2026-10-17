@@ -1,0 +1,23 @@
+{
+  "asset_id": "FX-010",
+  "cell_size": [
+    128,
+    128
+  ],
+  "columns": 8,
+  "rows": 1,
+  "frame_count": 8,
+  "fps": 12,
+  "loop": true,
+  "pivot_px": [
+    64,
+    64
+  ],
+  "sequences": {
+    "main": {
+      "first": 0,
+      "last": 7
+    }
+  },
+  "sheet": "FX-010_mote_glow_sheet.png"
+}

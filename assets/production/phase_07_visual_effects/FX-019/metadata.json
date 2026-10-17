@@ -1,0 +1,331 @@
+{
+  "asset_id": "FX-019",
+  "id": "FX-019",
+  "title": "Water ripples and splashes",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019",
+  "prompt": "Procedural: Water ripples and splashes rendered by tools/fx_effects.py (fx019) with the ART-002 VFX palette; no generative image model used.",
+  "generation_tool": "procedural (Pillow + numpy; tools/generate_phase07_fx.py)",
+  "production_approved": false,
+  "runtime_integrated": false,
+  "last_updated": "2026-10-17T21:17:48.169396+05:30",
+  "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending",
+  "requested_deliverables_saved_and_reviewed": true,
+  "deliverables": [
+    {
+      "slug": "water_ripples_splashes",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/source_images/FX-019_water_ripples_splashes_procedural_sheet.png",
+      "frame_count": 14,
+      "cols": 7,
+      "rows": 2,
+      "roles": [
+        "frame_00",
+        "frame_01",
+        "frame_02",
+        "frame_03",
+        "frame_04",
+        "frame_05",
+        "frame_06",
+        "frame_07",
+        "frame_08",
+        "frame_09",
+        "frame_10",
+        "frame_11",
+        "frame_12",
+        "frame_13"
+      ],
+      "sequences": {
+        "ripple": {
+          "first": 0,
+          "last": 5
+        },
+        "splash": {
+          "first": 6,
+          "last": 13
+        }
+      },
+      "export_cell_dimensions": [
+        192,
+        128
+      ],
+      "pivot_px": [
+        96,
+        84
+      ],
+      "timing": {
+        "fps": 14
+      },
+      "loop": false,
+      "provenance": "procedural render; deterministic (fixed RNG seeds), no external source image",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_07.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_08.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_09.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_10.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_11.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_12.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_13.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_sheet.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_frames.json"
+      ],
+      "preview_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/previews/FX-019_contact_light.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/previews/FX-019_contact_dark.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/previews/FX-019_water_ripples_splashes_preview.gif"
+      ],
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/source_images/FX-019_water_ripples_splashes_procedural_sheet.png",
+        "role": "procedural sheet",
+        "sha256": "fc28d6688b2c1b391c28679ba863e768ca3fc5c0a65a68d60b4831acaaa795a2",
+        "bytes": 32979,
+        "dimensions": [
+          1344,
+          256
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_00.png",
+          "role": "frame png",
+          "sha256": "145ab25856d890098cb94b7a514c5294eea8712ffc4654fc895e43230df983a0",
+          "bytes": 729,
+          "dimensions": [
+            192,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            173
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_01.png",
+          "role": "frame png",
+          "sha256": "2c06931ad90cbf9ed32132e080e9b2feb28b19f6644039b4ec756acd5ed36603",
+          "bytes": 1211,
+          "dimensions": [
+            192,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            173
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_02.png",
+          "role": "frame png",
+          "sha256": "f3f2654c4b629fde69fdc458ae67ebdb863edf224e0fb8d589ba1953ce79d43e",
+          "bytes": 1895,
+          "dimensions": [
+            192,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            132
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_03.png",
+          "role": "frame png",
+          "sha256": "46e4ca25d521507d5e95f0e78bcf2f572adf068e1b8f172d1f62a060e060b383",
+          "bytes": 2050,
+          "dimensions": [
+            192,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            89
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_04.png",
+          "role": "frame png",
+          "sha256": "720b1b1ee56268fdf927bcb9b9a5349ad4307bfbde2a4695b728118db6af3e0a",
+          "bytes": 1448,
+          "dimensions": [
+            192,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            47
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_05.png",
+          "role": "frame png",
+          "sha256": "2b3acb6469b8cbf42592a73b09d2df37104a11b46100903132a8abf5b01a338b",
+          "bytes": 1144,
+          "dimensions": [
+            192,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            20
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_06.png",
+          "role": "frame png",
+          "sha256": "4e52b354b3eb22faa54f96df1f4bdc0d6bfe1418a12d5aca9d534adb5b3db7e2",
+          "bytes": 1424,
+          "dimensions": [
+            192,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_07.png",
+          "role": "frame png",
+          "sha256": "2153d1dcb5f386a5d139e3ec5982ad6380a8db14c029aa4d0a19fa2ec2d91f9c",
+          "bytes": 3038,
+          "dimensions": [
+            192,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_08.png",
+          "role": "frame png",
+          "sha256": "b1c88114dc9bc45d8c23b133a12b9b3e4a8a57504f8812894d22cf8d3fab9607",
+          "bytes": 4081,
+          "dimensions": [
+            192,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_09.png",
+          "role": "frame png",
+          "sha256": "b594cc0d4d2d4a7bbc5e37dbe0872263c76aff07c42126480df6e8572315ef3a",
+          "bytes": 4245,
+          "dimensions": [
+            192,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_10.png",
+          "role": "frame png",
+          "sha256": "09d688b050bf7ec1fce3a98752b3f0f9df766bd4e152a2cb3523763f099f3e57",
+          "bytes": 3576,
+          "dimensions": [
+            192,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_11.png",
+          "role": "frame png",
+          "sha256": "ffbee9ea82ee56b2ff06300d4f57554fed4817e835c27a92d9991772fed0ab8a",
+          "bytes": 3332,
+          "dimensions": [
+            192,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            249
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_12.png",
+          "role": "frame png",
+          "sha256": "17140d628a9420f2ec6b79b08eaae71a29da00955d0100f86e9b70e04fd616e0",
+          "bytes": 2089,
+          "dimensions": [
+            192,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            177
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_13.png",
+          "role": "frame png",
+          "sha256": "d529efb4c63fc4e0d80e808c91ff7b7116e258c4e82ca5bc7bccac47e17aada6",
+          "bytes": 1244,
+          "dimensions": [
+            192,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            31
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports/FX-019_water_ripples_splashes_sheet.png",
+          "role": "sheet png",
+          "sha256": "fc28d6688b2c1b391c28679ba863e768ca3fc5c0a65a68d60b4831acaaa795a2",
+          "bytes": 32979,
+          "dimensions": [
+            1344,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ]
+    }
+  ],
+  "review_notes": [
+    "Water surface line sits at y = 84 in every cell.",
+    "Prototype effect art for timing and readability; not final production approval.",
+    "No Godot scene, AnimatedSprite2D, particle or shader integration implied."
+  ]
+}

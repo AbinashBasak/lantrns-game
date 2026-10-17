@@ -1,0 +1,192 @@
+{
+  "asset_id": "FX-005",
+  "id": "FX-005",
+  "title": "Dust from running",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005",
+  "prompt": "Procedural: Dust from running rendered by tools/fx_effects.py (fx005) with the ART-002 VFX palette; no generative image model used.",
+  "generation_tool": "procedural (Pillow + numpy; tools/generate_phase07_fx.py)",
+  "production_approved": false,
+  "runtime_integrated": false,
+  "last_updated": "2026-10-17T21:17:42.599176+05:30",
+  "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending",
+  "requested_deliverables_saved_and_reviewed": true,
+  "deliverables": [
+    {
+      "slug": "running_dust",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/source_images/FX-005_running_dust_procedural_sheet.png",
+      "frame_count": 6,
+      "cols": 6,
+      "rows": 1,
+      "roles": [
+        "frame_00",
+        "frame_01",
+        "frame_02",
+        "frame_03",
+        "frame_04",
+        "frame_05"
+      ],
+      "sequences": {
+        "main": {
+          "first": 0,
+          "last": 5
+        }
+      },
+      "export_cell_dimensions": [
+        96,
+        96
+      ],
+      "pivot_px": [
+        68,
+        82
+      ],
+      "timing": {
+        "fps": 14
+      },
+      "loop": false,
+      "provenance": "procedural render; deterministic (fixed RNG seeds), no external source image",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/exports/FX-005_running_dust_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/exports/FX-005_running_dust_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/exports/FX-005_running_dust_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/exports/FX-005_running_dust_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/exports/FX-005_running_dust_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/exports/FX-005_running_dust_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/exports/FX-005_running_dust_sheet.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/exports/FX-005_running_dust_frames.json"
+      ],
+      "preview_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/previews/FX-005_contact_light.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/previews/FX-005_contact_dark.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/previews/FX-005_running_dust_preview.gif"
+      ],
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/source_images/FX-005_running_dust_procedural_sheet.png",
+        "role": "procedural sheet",
+        "sha256": "08523248ea769e293ff9cae60d2145d3e84365b2f28659f767944d0b36381259",
+        "bytes": 15945,
+        "dimensions": [
+          576,
+          96
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          253
+        ]
+      },
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/exports/FX-005_running_dust_00.png",
+          "role": "frame png",
+          "sha256": "9b3c61781496d0183f5f6af07cbd6c7ce63c18bf751e731c07467f514acf75d5",
+          "bytes": 1667,
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            253
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/exports/FX-005_running_dust_01.png",
+          "role": "frame png",
+          "sha256": "7c48d0f39d3bd5c47737342e3e00f51d8fb40a46e9e5d3dc386c0d49561de995",
+          "bytes": 2350,
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            253
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/exports/FX-005_running_dust_02.png",
+          "role": "frame png",
+          "sha256": "1e01fc8f5224acf2bbfbdb59f5ab710d1af4db3d69fe797e9a1c09c438988b61",
+          "bytes": 3098,
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            246
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/exports/FX-005_running_dust_03.png",
+          "role": "frame png",
+          "sha256": "bf01930a40978f905bf173ebefa1ebdd4f6d296857ac589e00fd7bdb13f04b7a",
+          "bytes": 3454,
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            226
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/exports/FX-005_running_dust_04.png",
+          "role": "frame png",
+          "sha256": "29c4fc904996729db96e1fb53dab6ffe2649b2dcf4a5f2a90f0beb2b58d95fea",
+          "bytes": 3366,
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            175
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/exports/FX-005_running_dust_05.png",
+          "role": "frame png",
+          "sha256": "4558185b89af28ad38e409373f6e3a73ca5120e162af25bd520fffa52a5a612b",
+          "bytes": 2974,
+          "dimensions": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            71
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/exports/FX-005_running_dust_sheet.png",
+          "role": "sheet png",
+          "sha256": "08523248ea769e293ff9cae60d2145d3e84365b2f28659f767944d0b36381259",
+          "bytes": 15945,
+          "dimensions": [
+            576,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            253
+          ]
+        }
+      ]
+    }
+  ],
+  "review_notes": [
+    "Trails to the left of the pivot for a right-facing runner; flip for left-facing.",
+    "Pivot is the ground contact point behind the foot.",
+    "Prototype effect art for timing and readability; not final production approval.",
+    "No Godot scene, AnimatedSprite2D, particle or shader integration implied."
+  ]
+}

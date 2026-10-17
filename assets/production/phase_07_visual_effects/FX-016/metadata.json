@@ -1,0 +1,225 @@
+{
+  "asset_id": "FX-016",
+  "id": "FX-016",
+  "title": "Boss core energy",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016",
+  "prompt": "Procedural: Boss core energy rendered by tools/fx_effects.py (fx016) with the ART-002 VFX palette; no generative image model used.",
+  "generation_tool": "procedural (Pillow + numpy; tools/generate_phase07_fx.py)",
+  "production_approved": false,
+  "runtime_integrated": false,
+  "last_updated": "2026-10-17T21:17:46.612052+05:30",
+  "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending",
+  "requested_deliverables_saved_and_reviewed": true,
+  "deliverables": [
+    {
+      "slug": "boss_core_energy",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/source_images/FX-016_boss_core_energy_procedural_sheet.png",
+      "frame_count": 8,
+      "cols": 8,
+      "rows": 1,
+      "roles": [
+        "frame_00",
+        "frame_01",
+        "frame_02",
+        "frame_03",
+        "frame_04",
+        "frame_05",
+        "frame_06",
+        "frame_07"
+      ],
+      "sequences": {
+        "main": {
+          "first": 0,
+          "last": 7
+        }
+      },
+      "export_cell_dimensions": [
+        192,
+        192
+      ],
+      "pivot_px": [
+        96,
+        96
+      ],
+      "timing": {
+        "fps": 14
+      },
+      "loop": true,
+      "provenance": "procedural render; deterministic (fixed RNG seeds), no external source image",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/exports/FX-016_boss_core_energy_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/exports/FX-016_boss_core_energy_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/exports/FX-016_boss_core_energy_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/exports/FX-016_boss_core_energy_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/exports/FX-016_boss_core_energy_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/exports/FX-016_boss_core_energy_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/exports/FX-016_boss_core_energy_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/exports/FX-016_boss_core_energy_07.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/exports/FX-016_boss_core_energy_sheet.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/exports/FX-016_boss_core_energy_frames.json"
+      ],
+      "preview_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/previews/FX-016_contact_light.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/previews/FX-016_contact_dark.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/previews/FX-016_boss_core_energy_preview.gif"
+      ],
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/source_images/FX-016_boss_core_energy_procedural_sheet.png",
+        "role": "procedural sheet",
+        "sha256": "b339c38a4fa6499d501e0c8d824092a4ffa47710b6ce281629dafeff24102dc8",
+        "bytes": 121213,
+        "dimensions": [
+          1536,
+          192
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/exports/FX-016_boss_core_energy_00.png",
+          "role": "frame png",
+          "sha256": "50562befafaea75d66448dfc8ed0e7ea825f69d9e75fe71f0f9ee54e0d1dd8db",
+          "bytes": 17029,
+          "dimensions": [
+            192,
+            192
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/exports/FX-016_boss_core_energy_01.png",
+          "role": "frame png",
+          "sha256": "f039204157b1a36b9388702017a0fc8116fefd749bdf357a1135975c0007e648",
+          "bytes": 17095,
+          "dimensions": [
+            192,
+            192
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/exports/FX-016_boss_core_energy_02.png",
+          "role": "frame png",
+          "sha256": "20ebdb827ef9e3ad23cc58ecfa3eeb2f60d1693860b4c993a9e785e01206834f",
+          "bytes": 16950,
+          "dimensions": [
+            192,
+            192
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/exports/FX-016_boss_core_energy_03.png",
+          "role": "frame png",
+          "sha256": "9165d36e47372fc79e5c908569d2616539cef89bb163d0da30eba0d9036d8a75",
+          "bytes": 17350,
+          "dimensions": [
+            192,
+            192
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/exports/FX-016_boss_core_energy_04.png",
+          "role": "frame png",
+          "sha256": "16c91416386a734e68fbc7588c00eb4e78320f4ecf2e320739248de74938ad6e",
+          "bytes": 16739,
+          "dimensions": [
+            192,
+            192
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/exports/FX-016_boss_core_energy_05.png",
+          "role": "frame png",
+          "sha256": "4786cf186bb88bb231beaf2b93bcb79104c2ab6d1072dac5044fa8ad2399ebb3",
+          "bytes": 16726,
+          "dimensions": [
+            192,
+            192
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/exports/FX-016_boss_core_energy_06.png",
+          "role": "frame png",
+          "sha256": "5a24f5c88ba0d61bb324187514ff8602574c63d0d97905b640d249a3d2ab744d",
+          "bytes": 16966,
+          "dimensions": [
+            192,
+            192
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/exports/FX-016_boss_core_energy_07.png",
+          "role": "frame png",
+          "sha256": "c4985e154778fc319e8c6df54ba3bbfd653b9e4c1ecc61294a73af282c0bbe87",
+          "bytes": 17323,
+          "dimensions": [
+            192,
+            192
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/exports/FX-016_boss_core_energy_sheet.png",
+          "role": "sheet png",
+          "sha256": "b339c38a4fa6499d501e0c8d824092a4ffa47710b6ce281629dafeff24102dc8",
+          "bytes": 121213,
+          "dimensions": [
+            1536,
+            192
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ]
+    }
+  ],
+  "review_notes": [
+    "Seamless loop. Three-arm spiral repeats every third of a rotation; crackle lines flicker per frame by design.",
+    "Prototype effect art for timing and readability; not final production approval.",
+    "No Godot scene, AnimatedSprite2D, particle or shader integration implied."
+  ]
+}
