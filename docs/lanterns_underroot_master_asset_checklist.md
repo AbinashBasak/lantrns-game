@@ -675,37 +675,172 @@ Verified across all 11 packs: seven categories have reviewed prototype sources a
 
 # Phase 06 — Props and Interactive Objects
 
+<!-- phase06-summary:start -->
+**Reviewed prototype packs: 26/26.** [Asset and prompt index](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/PHASE06_index.md). Checked items record saved and reviewed prop/object art prototypes, not final production approval. Sources, state/module exports, prompts, crop maps and checker previews are recorded per item. State/pivot registration, modular joins, collision and gameplay behavior require separate Godot validation. No ZIP files or runtime integration added.
+<!-- phase06-summary:end -->
+
 ## Village and forest props
 
-- [ ] PROP-001 — Wooden lantern
-- [ ] PROP-002 — Hanging lantern
-- [ ] PROP-003 — Wooden signpost
-- [ ] PROP-004 — Wooden crate
-- [ ] PROP-005 — Barrel
-- [ ] PROP-006 — Rope bridge
-- [ ] PROP-007 — Wooden ladder
-- [ ] PROP-008 — Rope and chain
-- [ ] PROP-009 — Wooden door
-- [ ] PROP-010 — Village window and roof components
-- [ ] PROP-011 — Bushes, flowers, and mushrooms
-- [ ] PROP-012 — Small tree and root clusters
-- [ ] PROP-013 — Broken cart and abandoned equipment
-- [ ] PROP-014 — Treasure chest
+- [x] PROP-001 — Wooden lantern
+  <!-- phase06-record:PROP-001:start -->
+  - Production stage: reviewed prototype source and fixed cell exports. Final production approval pending.
+  - Saved folder: [PROP-001](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/previews)
+  - Selected source: [PROP-001_prop_states_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/source_images/PROP-001_prop_states_original.png)
+  <!-- phase06-record:PROP-001:end -->
+- [x] PROP-002 — Hanging lantern
+  <!-- phase06-record:PROP-002:start -->
+  - Production stage: reviewed prototype source and fixed cell exports. Final production approval pending.
+  - Saved folder: [PROP-002](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/previews)
+  - Selected source: [PROP-002_prop_states_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/source_images/PROP-002_prop_states_original.png)
+  <!-- phase06-record:PROP-002:end -->
+- [x] PROP-003 — Wooden signpost
+  <!-- phase06-record:PROP-003:start -->
+  - Production stage: reviewed prototype source and fixed cell exports. Final production approval pending.
+  - Saved folder: [PROP-003](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-003) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-003/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-003/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-003/previews)
+  - Selected source: [PROP-003_prop_states_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-003/source_images/PROP-003_prop_states_original.png)
+  <!-- phase06-record:PROP-003:end -->
+- [x] PROP-004 — Wooden crate
+  <!-- phase06-record:PROP-004:start -->
+  - Production stage: reviewed prototype source and fixed cell exports. Final production approval pending.
+  - Saved folder: [PROP-004](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-004) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-004/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-004/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-004/previews)
+  - Selected source: [PROP-004_prop_states_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-004/source_images/PROP-004_prop_states_original.png)
+  <!-- phase06-record:PROP-004:end -->
+- [x] PROP-005 — Barrel
+  <!-- phase06-record:PROP-005:start -->
+  - Production stage: reviewed prototype source and fixed cell exports. Final production approval pending.
+  - Saved folder: [PROP-005](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-005) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-005/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-005/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-005/previews)
+  - Selected source: [PROP-005_prop_states_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-005/source_images/PROP-005_prop_states_original.png)
+  <!-- phase06-record:PROP-005:end -->
+- [x] PROP-006 — Rope bridge
+  <!-- phase06-record:PROP-006:start -->
+  - Production stage: reviewed prototype source and fixed cell exports. Final production approval pending.
+  - Saved folder: [PROP-006](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/previews)
+  - Selected source: [PROP-006_prop_states_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/source_images/PROP-006_prop_states_original.png)
+  <!-- phase06-record:PROP-006:end -->
+- [x] PROP-007 — Wooden ladder
+  <!-- phase06-record:PROP-007:start -->
+  - Production stage: reviewed prototype source and fixed cell exports. Final production approval pending.
+  - Saved folder: [PROP-007](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-007) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-007/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-007/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-007/previews)
+  - Selected source: [PROP-007_prop_states_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-007/source_images/PROP-007_prop_states_original.png)
+  <!-- phase06-record:PROP-007:end -->
+- [x] PROP-008 — Rope and chain
+  <!-- phase06-record:PROP-008:start -->
+  - Production stage: generated prop prototype saved and reviewed. Final production approval pending.
+  - Saved folder: [PROP-008](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-008) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-008/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-008/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-008/previews)
+  - Selected source: [PROP-008_sheet_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-008/source_images/PROP-008_sheet_original.png)
+  <!-- phase06-record:PROP-008:end -->
+- [x] PROP-009 — Wooden door
+  <!-- phase06-record:PROP-009:start -->
+  - Production stage: generated prop prototype saved and reviewed. Final production approval pending.
+  - Saved folder: [PROP-009](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/previews)
+  - Selected source: [PROP-009_sheet_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/source_images/PROP-009_sheet_original.png)
+  <!-- phase06-record:PROP-009:end -->
+- [x] PROP-010 — Village window and roof components
+  <!-- phase06-record:PROP-010:start -->
+  - Production stage: generated prop prototype saved and reviewed. Final production approval pending.
+  - Saved folder: [PROP-010](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-010) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-010/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-010/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-010/previews)
+  - Selected source: [PROP-010_sheet_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-010/source_images/PROP-010_sheet_original.png)
+  <!-- phase06-record:PROP-010:end -->
+- [x] PROP-011 — Bushes, flowers, and mushrooms
+  <!-- phase06-record:PROP-011:start -->
+  - Production stage: generated prop prototype saved and reviewed. Final production approval pending.
+  - Saved folder: [PROP-011](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/previews)
+  - Selected source: [PROP-011_sheet_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_sheet_original.png)
+  <!-- phase06-record:PROP-011:end -->
+- [x] PROP-012 — Small tree and root clusters
+  <!-- phase06-record:PROP-012:start -->
+  - Production stage: generated prop prototype saved and reviewed. Final production approval pending.
+  - Saved folder: [PROP-012](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012/previews)
+  - Selected source: [PROP-012_sheet_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012/source_images/PROP-012_sheet_original.png)
+  <!-- phase06-record:PROP-012:end -->
+- [x] PROP-013 — Broken cart and abandoned equipment
+  <!-- phase06-record:PROP-013:start -->
+  - Production stage: generated prop prototype saved and reviewed. Final production approval pending.
+  - Saved folder: [PROP-013](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-013) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-013/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-013/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-013/previews)
+  - Selected source: [PROP-013_sheet_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-013/source_images/PROP-013_sheet_original.png)
+  - Selected source: [PROP-013_complete_cart_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-013/source_images/PROP-013_complete_cart_original.png)
+  <!-- phase06-record:PROP-013:end -->
+- [x] PROP-014 — Treasure chest
+  <!-- phase06-record:PROP-014:start -->
+  - Production stage: generated prop prototype saved and reviewed. Final production approval pending.
+  - Saved folder: [PROP-014](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-014) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-014/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-014/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-014/previews)
+  - Selected source: [PROP-014_sheet_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-014/source_images/PROP-014_sheet_original.png)
+  <!-- phase06-record:PROP-014:end -->
 
 ## Gameplay objects
 
-- [ ] OBJ-001 — Checkpoint lantern
-- [ ] OBJ-002 — Gold fragment collectible
-- [ ] OBJ-003 — Rune switch
-- [ ] OBJ-004 — Rune-activated door
-- [ ] OBJ-005 — Hidden-platform rune marker
-- [ ] OBJ-006 — Moving platform art
-- [ ] OBJ-007 — Falling platform art
-- [ ] OBJ-008 — Thorn hazard
-- [ ] OBJ-009 — Spike hazard
-- [ ] OBJ-010 — Breakable object
-- [ ] OBJ-011 — Temple seal
-- [ ] OBJ-012 — Level exit doorway or portal
+- [x] OBJ-001 — Checkpoint lantern
+  <!-- phase06-record:OBJ-001:start -->
+  - Production stage: generated prototype reviewed exported. Final production approval pending.
+  - Saved folder: [OBJ-001](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-001) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-001/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-001/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-001/previews)
+  - Selected source: [OBJ-001_state_atlas_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-001/source_images/OBJ-001_state_atlas_original.png)
+  <!-- phase06-record:OBJ-001:end -->
+- [x] OBJ-002 — Gold fragment collectible
+  <!-- phase06-record:OBJ-002:start -->
+  - Production stage: generated prototype reviewed exported. Final production approval pending.
+  - Saved folder: [OBJ-002](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-002) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-002/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-002/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-002/previews)
+  - Selected source: [OBJ-002_state_atlas_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-002/source_images/OBJ-002_state_atlas_original.png)
+  <!-- phase06-record:OBJ-002:end -->
+- [x] OBJ-003 — Rune switch
+  <!-- phase06-record:OBJ-003:start -->
+  - Production stage: generated prototype reviewed exported. Final production approval pending.
+  - Saved folder: [OBJ-003](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-003) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-003/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-003/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-003/previews)
+  - Selected source: [OBJ-003_state_atlas_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-003/source_images/OBJ-003_state_atlas_original.png)
+  <!-- phase06-record:OBJ-003:end -->
+- [x] OBJ-004 — Rune-activated door
+  <!-- phase06-record:OBJ-004:start -->
+  - Production stage: generated prototype reviewed exported. Final production approval pending.
+  - Saved folder: [OBJ-004](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004/previews)
+  - Selected source: [OBJ-004_state_atlas_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004/source_images/OBJ-004_state_atlas_original.png)
+  <!-- phase06-record:OBJ-004:end -->
+- [x] OBJ-005 — Hidden-platform rune marker
+  <!-- phase06-record:OBJ-005:start -->
+  - Production stage: generated prototype reviewed exported. Final production approval pending.
+  - Saved folder: [OBJ-005](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-005) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-005/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-005/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-005/previews)
+  - Selected source: [OBJ-005_state_atlas_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-005/source_images/OBJ-005_state_atlas_original.png)
+  <!-- phase06-record:OBJ-005:end -->
+- [x] OBJ-006 — Moving platform art
+  <!-- phase06-record:OBJ-006:start -->
+  - Production stage: generated prototype reviewed exported. Final production approval pending.
+  - Saved folder: [OBJ-006](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-006) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-006/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-006/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-006/previews)
+  - Selected source: [OBJ-006_state_atlas_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-006/source_images/OBJ-006_state_atlas_original.png)
+  <!-- phase06-record:OBJ-006:end -->
+- [x] OBJ-007 — Falling platform art
+  <!-- phase06-record:OBJ-007:start -->
+  - Production stage: reviewed generated object art and state/module exports; registration and gameplay integration pending. Final production approval pending.
+  - Saved folder: [OBJ-007](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-007) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-007/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-007/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-007/previews)
+  - Selected source: [OBJ-007_falling_platform_states_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-007/source_images/OBJ-007_falling_platform_states_original.png)
+  <!-- phase06-record:OBJ-007:end -->
+- [x] OBJ-008 — Thorn hazard
+  <!-- phase06-record:OBJ-008:start -->
+  - Production stage: reviewed generated object art and state/module exports; registration and gameplay integration pending. Final production approval pending.
+  - Saved folder: [OBJ-008](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-008) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-008/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-008/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-008/previews)
+  - Selected source: [OBJ-008_thorn_hazard_modules_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-008/source_images/OBJ-008_thorn_hazard_modules_original.png)
+  <!-- phase06-record:OBJ-008:end -->
+- [x] OBJ-009 — Spike hazard
+  <!-- phase06-record:OBJ-009:start -->
+  - Production stage: reviewed generated object art and state/module exports; registration and gameplay integration pending. Final production approval pending.
+  - Saved folder: [OBJ-009](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-009) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-009/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-009/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-009/previews)
+  - Selected source: [OBJ-009_spike_hazard_modules_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-009/source_images/OBJ-009_spike_hazard_modules_original.png)
+  <!-- phase06-record:OBJ-009:end -->
+- [x] OBJ-010 — Breakable object
+  <!-- phase06-record:OBJ-010:start -->
+  - Production stage: reviewed generated object art and state/module exports; registration and gameplay integration pending. Final production approval pending.
+  - Saved folder: [OBJ-010](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-010) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-010/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-010/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-010/previews)
+  - Selected source: [OBJ-010_breakable_vessel_states_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-010/source_images/OBJ-010_breakable_vessel_states_original.png)
+  <!-- phase06-record:OBJ-010:end -->
+- [x] OBJ-011 — Temple seal
+  <!-- phase06-record:OBJ-011:start -->
+  - Production stage: reviewed generated object art and state/module exports; registration and gameplay integration pending. Final production approval pending.
+  - Saved folder: [OBJ-011](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-011) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-011/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-011/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-011/previews)
+  - Selected source: [OBJ-011_temple_seal_states_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-011/source_images/OBJ-011_temple_seal_states_original.png)
+  <!-- phase06-record:OBJ-011:end -->
+- [x] OBJ-012 — Level exit doorway or portal
+  <!-- phase06-record:OBJ-012:start -->
+  - Production stage: reviewed generated object art and state/module exports; registration and gameplay integration pending. Final production approval pending.
+  - Saved folder: [OBJ-012](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/previews)
+  - Selected source: [OBJ-012_exit_doorway_states_original_v2.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/source_images/OBJ-012_exit_doorway_states_original_v2.png)
+  <!-- phase06-record:OBJ-012:end -->
 
 # Phase 07 — Visual Effects
 
