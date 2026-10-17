@@ -1,0 +1,144 @@
+{
+  "last_updated": "2026-10-17T17:55:48.256843+05:30",
+  "reviewed_packs": 17,
+  "expected": 17,
+  "production_approved": false,
+  "packs": [
+    {
+      "id": "TILE-001",
+      "title": "Grass-topped ground tiles",
+      "source_count": 2,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/metadata.json",
+      "stage": "reviewed_prototype_sources_and_64px_exports"
+    },
+    {
+      "id": "TILE-002",
+      "title": "Dirt and soil tiles",
+      "source_count": 2,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/metadata.json",
+      "stage": "reviewed_prototype_sources_and_64px_exports"
+    },
+    {
+      "id": "TILE-003",
+      "title": "Stone platform tiles",
+      "source_count": 2,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/metadata.json",
+      "stage": "reviewed_prototype_sources_and_64px_exports"
+    },
+    {
+      "id": "TILE-004",
+      "title": "Moss-covered rock tiles",
+      "source_count": 1,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-004/metadata.json",
+      "stage": "reviewed_prototype_sources_and_64px_exports"
+    },
+    {
+      "id": "TILE-005",
+      "title": "Root platforms",
+      "source_count": 1,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-005/metadata.json",
+      "stage": "reviewed_prototype_sources_and_64px_exports"
+    },
+    {
+      "id": "TILE-006",
+      "title": "Wood platforms and bridges",
+      "source_count": 1,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/metadata.json",
+      "stage": "generated_terrain_prototype_saved_and_reviewed"
+    },
+    {
+      "id": "TILE-007",
+      "title": "Edge and corner variants",
+      "source_count": 2,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/metadata.json",
+      "stage": "generated_terrain_prototype_saved_and_reviewed"
+    },
+    {
+      "id": "TILE-008",
+      "title": "Slopes and uneven terrain",
+      "source_count": 1,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/metadata.json",
+      "stage": "generated_terrain_prototype_saved_and_reviewed"
+    },
+    {
+      "id": "TILE-009",
+      "title": "One-way platforms",
+      "source_count": 1,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-009/metadata.json",
+      "stage": "generated_terrain_prototype_saved_and_reviewed"
+    },
+    {
+      "id": "TILE-010",
+      "title": "Broken platforms",
+      "source_count": 1,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-010/metadata.json",
+      "stage": "generated_terrain_prototype_saved_and_reviewed"
+    },
+    {
+      "id": "TILE-011",
+      "title": "Hanging platforms",
+      "source_count": 1,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-011/metadata.json",
+      "stage": "generated_prototype_reviewed_exported"
+    },
+    {
+      "id": "TILE-012",
+      "title": "Temple wall tiles",
+      "source_count": 1,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-012/metadata.json",
+      "stage": "generated_prototype_reviewed_exported"
+    },
+    {
+      "id": "TILE-013",
+      "title": "Temple floor and ceiling tiles",
+      "source_count": 1,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-013/metadata.json",
+      "stage": "generated_prototype_reviewed_exported"
+    },
+    {
+      "id": "TILE-014",
+      "title": "Rune-embedded stone tiles",
+      "source_count": 1,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-014/metadata.json",
+      "stage": "generated_prototype_reviewed_exported"
+    },
+    {
+      "id": "TILE-015",
+      "title": "Water edges and river tiles",
+      "source_count": 2,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/metadata.json",
+      "stage": "reviewed generated tile prototypes and64px exports; seam cleanup and engine validation pending"
+    },
+    {
+      "id": "TILE-016",
+      "title": "Decorative foliage and rock overlays",
+      "source_count": 1,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016/metadata.json",
+      "stage": "reviewed generated tile prototypes and64px exports; seam cleanup and engine validation pending"
+    },
+    {
+      "id": "TILE-017",
+      "title": "Tile transition edges for blending environments",
+      "source_count": 1,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-017/metadata.json",
+      "stage": "reviewed generated tile prototypes and64px exports; seam cleanup and engine validation pending"
+    }
+  ]
+}

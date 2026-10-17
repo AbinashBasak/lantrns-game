@@ -1,0 +1,7 @@
+[
+  {
+    "slug": "foliage_rock_overlays",
+    "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer production prototype tile atlas. Muted moss green, warm brown earth, cool blue-gray stone, painterly texture with crisp readable silhouettes. Strict orthographic FRONT/SIDE ELEVATION, never isometric, top-down, 3D perspective or an environment scene. No characters, text, labels, numbers, borders, grid strokes, ground shadows, glow, scenery or presentation board. Transparent PNG, true alpha-zero in empty space. All cells equal, no gutters, no outer margin; artwork never crosses cell boundaries. ONE WIDE atlas1536x768, EXACTLY SIX equal columns and THREE equal rows, eighteen square cells. One separate complete small decorative overlay inside each cell, 20px transparent padding each side. Reading order row1: grass tuftA, grass tuftB, fernA, fernB, low leaf clusterA, low leaf clusterB. Row2 small gray rockA, small gray rockB, pebble clusterA, pebble clusterB, moss rockA, moss rockB. Row3 short ground vineA, short ground vineB, hanging moss fringeA, hanging moss fringeB, tiny root fragmentA, tiny root fragmentB. Six objects every row, exactly18. Only small isolated foliage/rock/root sprites, no terrain blocks, soil slabs, flat platform tops, trees or rectangular backing. No lighting haze. Complete silhouette fits inside each own cell without touching borders, consistent object scale, designed for 64px export cells.",
+    "reference_images": []
+  }
+]

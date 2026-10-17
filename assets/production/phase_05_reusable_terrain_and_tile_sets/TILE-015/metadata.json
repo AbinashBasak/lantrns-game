@@ -1,0 +1,954 @@
+{
+  "id": "TILE-015",
+  "title": "Water edges and river tiles",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015",
+  "story_basis": "Reusable trail waterways and flooded-forest material for Glasswater Fen; full-story.md Chapter Three and environment pack references. Reflected characters and narrative illusions are separate assets.",
+  "deliverables": [
+    {
+      "cols": 4,
+      "rows": 4,
+      "slug": "river_water_atlas",
+      "roles": [
+        "water surface left bank",
+        "water surface middle repeat",
+        "water surface right bank",
+        "isolated narrow water pool",
+        "underwater fill A",
+        "underwater fill B",
+        "left vertical shore",
+        "right vertical shore",
+        "inner top-left shoreline corner",
+        "inner top-right shoreline corner",
+        "outer bottom-left shoreline corner",
+        "outer bottom-right shoreline corner",
+        "calm surface A",
+        "calm surface B",
+        "ripple surface A",
+        "ripple surface B"
+      ],
+      "body": "ONE SQUARE atlas, exactly FOUR equal columns and FOUR equal rows,16 cells. Cool teal river water with thin pale-cyan horizontal surface ripple in side elevation; modest brown soil banks match soil tiles. All modules have the same water-line height at one quarter cell height. Air above water is transparent. Water fill has blue/teal semitransparent body, not a glass cube and no visible perspective top. Reading order: Row1 left-bank surface, middle surface repeat, right-bank surface, isolated narrow pool. Row2 underwater full fillA, underwater full fillB, vertical left shoreline, vertical right shoreline. Row3 inner top-left shoreline corner, inner top-right shoreline corner, outer bottom-left shoreline corner, outer bottom-right shoreline corner. Row4 calm surface variantA, calm surface variantB, ripple surface variantA, ripple surface variantB. Four tiles in every row. Same boundary levels and matching water color at connected edges. No reflected scenery, waterfalls, fish or props. Static alternatives, not animation. Intended 64px per cell after export.",
+      "prompt": "Use case: precise-object-edit. Repair this existing 4-column 4-row sixteen-cell river tile atlas, preserve its hand-painted colors, exact grid, source canvas and all sixteen module roles. Remove the narrow transparent gutters between occupied connecting cell edges: water and soil that connect must reach their own cell boundary, no visible light stripes or gap seams. MOST IMPORTANT: second row, THIRD cell (left vertical shoreline) and FOURTH cell (right vertical shoreline) are UNDERWATER wall continuation tiles. Fill their currently empty upper air region with the same teal water beside a full-height soil bank. They must have NO water surface line and NO transparent air pocket; shoreline bank occupies the left/right cell edge, teal water fills all remaining height to top and bottom. Preserve first-row and last-row water surfaces and their clear alpha air above. Preserve all other module designs and grid positions. Don't add labels, text, outlines, background, margins or new objects. Third-row bottom shore corner tiles remain bank corners; retain genuine alpha only outside exposed bank/water regions. This is a static modular 2D game tileset, not an assembled scene.",
+      "type": "reviewed static modular tile atlas prototype",
+      "transparent_background": true,
+      "export_mode": "atlas",
+      "frame_count": 16,
+      "timing": null,
+      "loop": false,
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/source_images/TILE-015_river_water_atlas_original.png"
+      ],
+      "style_reference_paths_inspected": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-001/ART-001_final_visual_style_guide.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-006/ART-006_rendering_consistency_guide.png"
+      ],
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-9316a3d1-a79b-4bc0-946b-3d87aba2bd04.png",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/source_images/TILE-015_river_water_atlas_original_v2.png",
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/source_images/TILE-015_river_water_atlas_original_v2.png",
+        "sha256": "1fee08cc7eae27dd650522234f51d0f68a3343a7f28c13ae72689bb206a820dc",
+        "bytes": 1959378,
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; not downloaded source-chat original",
+      "source_crop_boundaries": [
+        [
+          0,
+          0,
+          314,
+          314
+        ],
+        [
+          314,
+          0,
+          627,
+          314
+        ],
+        [
+          627,
+          0,
+          940,
+          314
+        ],
+        [
+          940,
+          0,
+          1254,
+          314
+        ],
+        [
+          0,
+          314,
+          314,
+          627
+        ],
+        [
+          314,
+          314,
+          627,
+          627
+        ],
+        [
+          627,
+          314,
+          940,
+          627
+        ],
+        [
+          940,
+          314,
+          1254,
+          627
+        ],
+        [
+          0,
+          627,
+          314,
+          940
+        ],
+        [
+          314,
+          627,
+          627,
+          940
+        ],
+        [
+          627,
+          627,
+          940,
+          940
+        ],
+        [
+          940,
+          627,
+          1254,
+          940
+        ],
+        [
+          0,
+          940,
+          314,
+          1254
+        ],
+        [
+          314,
+          940,
+          627,
+          1254
+        ],
+        [
+          627,
+          940,
+          940,
+          1254
+        ],
+        [
+          940,
+          940,
+          1254,
+          1254
+        ]
+      ],
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_07.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_08.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_09.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_10.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_11.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_12.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_13.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_14.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_15.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_sheet.png"
+      ],
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_00.png",
+          "sha256": "9ba42506276370abc9d94d6d880a5b3317517d3e1c10d8f09f2d629a7f92d2b7",
+          "bytes": 6571,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_01.png",
+          "sha256": "5f1e78e1d574ca61de1a51296fb9779ede08d41c99e4d5d9972e48a2e7e03c2a",
+          "bytes": 4337,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_02.png",
+          "sha256": "d8357367140b0b72052f91ea96ab010322cf3ee2604fdff0a59b64a1d53c0564",
+          "bytes": 6235,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_03.png",
+          "sha256": "82c1e55654199d3b07a490b138ede927d9754e9b882936263f75cfe059950d15",
+          "bytes": 6934,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_04.png",
+          "sha256": "36c0cf420297c07a6025691137175f2e7fb10c5fc689b90ec1160cbe5d9cd200",
+          "bytes": 8181,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            129,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_05.png",
+          "sha256": "1a7b2e0f3e633880016956618a5771183f8b1a7334e67dfe7c36774cfbb730cf",
+          "bytes": 7451,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            132,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_06.png",
+          "sha256": "37715283088ba4920137e15b6d2e44c52223128cd6cd090675f5618282a7c034",
+          "bytes": 8283,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            127,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_07.png",
+          "sha256": "e995d6747714f32fe8ed0c9d3bfb88ed22463daa049aa0f486d0df5c7227a79d",
+          "bytes": 8266,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            131,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_08.png",
+          "sha256": "3d430b7ec4a6ce3ae058a52940794cb50719b7b99aa12623f86ea08b5a254b7f",
+          "bytes": 8869,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_09.png",
+          "sha256": "d99c7fe1153d794dd82712c07a8af3f01a04633dbcc8ad071ef87a19321d3d19",
+          "bytes": 8819,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_10.png",
+          "sha256": "b0da3a78527a68857669bb42c35a0e80f59ac17e4dcd083b4bd2543adfc2cce4",
+          "bytes": 7799,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_11.png",
+          "sha256": "bb25b70f35718e026469826fee7ba8625b7a806ae74ff3698bd6b1fb6da2626f",
+          "bytes": 7710,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_12.png",
+          "sha256": "31005a07569f4ccabfed84dce3b4eeb3942de50bd28a2e03f4cb53f2fc743fe1",
+          "bytes": 6840,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_13.png",
+          "sha256": "c7fc201204c09b8db3eecb7f1a160070524644af0693357cd9abcdb002fcfba3",
+          "bytes": 6434,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_14.png",
+          "sha256": "bdfa0cb4d1f1d7924363a8937a4b9e0d3347a9ab419bfd26ebdbe52d463235d5",
+          "bytes": 6714,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_15.png",
+          "sha256": "aab0bca7b6aabb67624bebc81d96b99ec645de0b4abadc400fae42c311c1ffb7",
+          "bytes": 6888,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/TILE-015_river_water_atlas_sheet.png",
+          "sha256": "9dc5278fd289cb1211b3a1fdc9345d5ecfd2f52da0a2e3e6159de7c9bfa07b26",
+          "bytes": 113069,
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        }
+      ],
+      "export_cell_dimensions": [
+        64,
+        64
+      ],
+      "pivot_px": [
+        32,
+        32
+      ],
+      "preview_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/previews/TILE-015_source_checker_light.jpg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/previews/TILE-015_source_checker_dark.jpg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/previews/TILE-015_export_contact.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/previews/TILE-015_assembly_diagnostic.png"
+      ],
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/previews/TILE-015_source_checker_light.jpg",
+      "review_notes": [
+        "Selectedv2 visually reviewed on checkerboard:16modules, full-height underwater sidewalls and removed intercell gutters. Static modules; seams/material continuity still require final cleanup."
+      ],
+      "additional_sources": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/source_images/TILE-015_river_water_atlas_original.png",
+          "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-eb139785-1d14-43f3-a678-607f6d01437e.png",
+          "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer production prototype tile atlas. Muted moss green, warm brown earth, cool blue-gray stone, painterly texture with crisp readable silhouettes. Strict orthographic FRONT/SIDE ELEVATION, never isometric, top-down, 3D perspective or an environment scene. No characters, text, labels, numbers, borders, grid strokes, ground shadows, glow, scenery or presentation board. Transparent PNG, true alpha-zero in empty space. All cells equal, no gutters, no outer margin; artwork never crosses cell boundaries. ONE SQUARE atlas, exactly FOUR equal columns and FOUR equal rows,16 cells. Cool teal river water with thin pale-cyan horizontal surface ripple in side elevation; modest brown soil banks match soil tiles. All modules have the same water-line height at one quarter cell height. Air above water is transparent. Water fill has blue/teal semitransparent body, not a glass cube and no visible perspective top. Reading order: Row1 left-bank surface, middle surface repeat, right-bank surface, isolated narrow pool. Row2 underwater full fillA, underwater full fillB, vertical left shoreline, vertical right shoreline. Row3 inner top-left shoreline corner, inner top-right shoreline corner, outer bottom-left shoreline corner, outer bottom-right shoreline corner. Row4 calm surface variantA, calm surface variantB, ripple surface variantA, ripple surface variantB. Four tiles in every row. Same boundary levels and matching water color at connected edges. No reflected scenery, waterfalls, fish or props. Static alternatives, not animation. Intended 64px per cell after export.",
+          "review": "Preserved initial generation; underwater shoreline gaps corrected in selectedv2."
+        }
+      ]
+    }
+  ],
+  "asset_id": "TILE-015",
+  "generation_tool": "built-in image_gen",
+  "production_approved": false,
+  "runtime_integrated": false,
+  "last_updated": "2026-10-17T17:39:08.179055+05:30",
+  "stage": "reviewed generated tile prototypes and64px exports; seam cleanup and engine validation pending",
+  "requested_deliverables_saved_and_reviewed": true,
+  "review_notes": [
+    "Selectedv2 repairs underwater shoreline air pockets and connecting-edge gutters. No claim of final seam/collision/physics approval.",
+    "Static modules only; no water physics, animation, collision, autotile or Godot scene integration implied.",
+    "Assembly previews are diagnostics. Native64px joins, edge alpha, material matching and collision readability need manual cleanup and runtime validation before production approval."
+  ],
+  "all_source_files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/source_images/TILE-015_river_water_atlas_original.png",
+      "sha256": "96f30320f47fa20538e6caf300ff0cd0709ffd7786fec1f67fb51216d790541b",
+      "bytes": 2581373,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/source_images/TILE-015_river_water_atlas_original_v2.png",
+      "sha256": "1fee08cc7eae27dd650522234f51d0f68a3343a7f28c13ae72689bb206a820dc",
+      "bytes": 1959378,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "previous_generations": [
+    {
+      "cols": 4,
+      "rows": 4,
+      "slug": "river_water_atlas",
+      "roles": [
+        "water surface left bank",
+        "water surface middle repeat",
+        "water surface right bank",
+        "isolated narrow water pool",
+        "underwater fill A",
+        "underwater fill B",
+        "left vertical shore",
+        "right vertical shore",
+        "inner top-left shoreline corner",
+        "inner top-right shoreline corner",
+        "outer bottom-left shoreline corner",
+        "outer bottom-right shoreline corner",
+        "calm surface A",
+        "calm surface B",
+        "ripple surface A",
+        "ripple surface B"
+      ],
+      "body": "ONE SQUARE atlas, exactly FOUR equal columns and FOUR equal rows,16 cells. Cool teal river water with thin pale-cyan horizontal surface ripple in side elevation; modest brown soil banks match soil tiles. All modules have the same water-line height at one quarter cell height. Air above water is transparent. Water fill has blue/teal semitransparent body, not a glass cube and no visible perspective top. Reading order: Row1 left-bank surface, middle surface repeat, right-bank surface, isolated narrow pool. Row2 underwater full fillA, underwater full fillB, vertical left shoreline, vertical right shoreline. Row3 inner top-left shoreline corner, inner top-right shoreline corner, outer bottom-left shoreline corner, outer bottom-right shoreline corner. Row4 calm surface variantA, calm surface variantB, ripple surface variantA, ripple surface variantB. Four tiles in every row. Same boundary levels and matching water color at connected edges. No reflected scenery, waterfalls, fish or props. Static alternatives, not animation. Intended 64px per cell after export.",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer production prototype tile atlas. Muted moss green, warm brown earth, cool blue-gray stone, painterly texture with crisp readable silhouettes. Strict orthographic FRONT/SIDE ELEVATION, never isometric, top-down, 3D perspective or an environment scene. No characters, text, labels, numbers, borders, grid strokes, ground shadows, glow, scenery or presentation board. Transparent PNG, true alpha-zero in empty space. All cells equal, no gutters, no outer margin; artwork never crosses cell boundaries. ONE SQUARE atlas, exactly FOUR equal columns and FOUR equal rows,16 cells. Cool teal river water with thin pale-cyan horizontal surface ripple in side elevation; modest brown soil banks match soil tiles. All modules have the same water-line height at one quarter cell height. Air above water is transparent. Water fill has blue/teal semitransparent body, not a glass cube and no visible perspective top. Reading order: Row1 left-bank surface, middle surface repeat, right-bank surface, isolated narrow pool. Row2 underwater full fillA, underwater full fillB, vertical left shoreline, vertical right shoreline. Row3 inner top-left shoreline corner, inner top-right shoreline corner, outer bottom-left shoreline corner, outer bottom-right shoreline corner. Row4 calm surface variantA, calm surface variantB, ripple surface variantA, ripple surface variantB. Four tiles in every row. Same boundary levels and matching water color at connected edges. No reflected scenery, waterfalls, fish or props. Static alternatives, not animation. Intended 64px per cell after export.",
+      "type": "reviewed static modular tile atlas prototype",
+      "transparent_background": true,
+      "export_mode": "atlas",
+      "frame_count": 16,
+      "timing": null,
+      "loop": false,
+      "reference_images": [],
+      "style_reference_paths_inspected": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-001/ART-001_final_visual_style_guide.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-006/ART-006_rendering_consistency_guide.png"
+      ],
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-eb139785-1d14-43f3-a678-607f6d01437e.png",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/source_images/TILE-015_river_water_atlas_original.png",
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/source_images/TILE-015_river_water_atlas_original.png",
+        "sha256": "96f30320f47fa20538e6caf300ff0cd0709ffd7786fec1f67fb51216d790541b",
+        "bytes": 2581373,
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; not downloaded source-chat original",
+      "source_crop_boundaries": [
+        [
+          0,
+          0,
+          314,
+          314
+        ],
+        [
+          314,
+          0,
+          627,
+          314
+        ],
+        [
+          627,
+          0,
+          940,
+          314
+        ],
+        [
+          940,
+          0,
+          1254,
+          314
+        ],
+        [
+          0,
+          314,
+          314,
+          627
+        ],
+        [
+          314,
+          314,
+          627,
+          627
+        ],
+        [
+          627,
+          314,
+          940,
+          627
+        ],
+        [
+          940,
+          314,
+          1254,
+          627
+        ],
+        [
+          0,
+          627,
+          314,
+          940
+        ],
+        [
+          314,
+          627,
+          627,
+          940
+        ],
+        [
+          627,
+          627,
+          940,
+          940
+        ],
+        [
+          940,
+          627,
+          1254,
+          940
+        ],
+        [
+          0,
+          940,
+          314,
+          1254
+        ],
+        [
+          314,
+          940,
+          627,
+          1254
+        ],
+        [
+          627,
+          940,
+          940,
+          1254
+        ],
+        [
+          940,
+          940,
+          1254,
+          1254
+        ]
+      ],
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_07.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_08.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_09.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_10.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_11.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_12.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_13.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_14.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_15.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_sheet.png"
+      ],
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_00.png",
+          "sha256": "e1fbb7304503b24f0d962ba836dafb4f9c7ad26d5d313f444c9984fb6f78aa2f",
+          "bytes": 7996,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_01.png",
+          "sha256": "c036cfb0cfec5419970c2e3212dba151a08d2249f07c1f114713b8bda758313c",
+          "bytes": 5675,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_02.png",
+          "sha256": "94967c75dda39720fe54a49bd4017646a5775ec45082e683ddc813d87fa8a170",
+          "bytes": 7317,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_03.png",
+          "sha256": "196ca3949eff6839fa2d318060ed3c77379ab7a4069148204d2b5b5f8702cbf2",
+          "bytes": 8163,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_04.png",
+          "sha256": "847f5f0549bd6c182dc880bd12cac462a5c455945bf9afb98fc241f18210df16",
+          "bytes": 7763,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_05.png",
+          "sha256": "119d0eb19fe8e211da13cbacdf8220274bc2b6a12ba734be0b668072cbe00b6e",
+          "bytes": 7262,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            8,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_06.png",
+          "sha256": "6584f878275aebee9579e4448cd66210d0128560a98d2023b22544751412735c",
+          "bytes": 8862,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_07.png",
+          "sha256": "541b840311513b55d29ee5b6269dbec61c88020b7de4548ce111018c4d838f3d",
+          "bytes": 8988,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_08.png",
+          "sha256": "0415a5b1e8066913ea17aca9b409e0118cd2f3d8d260380ecd0fc0e1b728cd01",
+          "bytes": 9424,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_09.png",
+          "sha256": "f83f6eda6c8474bc37cc8f80331eabf525962ce26c67bf5980c45cb08eb374b9",
+          "bytes": 9315,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_10.png",
+          "sha256": "42afa4daddb2b8ce822945c78f475cb4ab6089c4ca74493f37095bd6d6c559f2",
+          "bytes": 8825,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_11.png",
+          "sha256": "c670baeb3333f20afa42cf8ccf516bcf8547e4294483f2432923a7377ac90c42",
+          "bytes": 9067,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_12.png",
+          "sha256": "81644d19ab64124b58029ac756024c4bc5e750da326aca7bfc4ec854b5ce7bd7",
+          "bytes": 7491,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_13.png",
+          "sha256": "e6b67eaf18dfce8e12f8bb04e5f5c380097224af11bb4175bbe91a375d8dfbb7",
+          "bytes": 7151,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_14.png",
+          "sha256": "3b31f5b62ebb6bbddb22a74cbf93600d08c2098c426b092e2421b1df0b6b5d7d",
+          "bytes": 7286,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_15.png",
+          "sha256": "98c914ae6f8d6fe275127d87d01e478e7eabf53a5b515efba1f7e785f9166086",
+          "bytes": 7528,
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports/generation_v1/TILE-015_river_water_atlas_sheet.png",
+          "sha256": "9130d74ea4689ef820e06001566bd63690cd634e1fc1df66df01236e8acf861e",
+          "bytes": 125247,
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop and resize"
+        }
+      ],
+      "export_cell_dimensions": [
+        64,
+        64
+      ],
+      "pivot_px": [
+        32,
+        32
+      ],
+      "preview_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/previews/generation_v1/TILE-015_source_checker_light.jpg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/previews/generation_v1/TILE-015_source_checker_dark.jpg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/previews/generation_v1/TILE-015_export_contact.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/previews/generation_v1/TILE-015_assembly_diagnostic.png"
+      ],
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/previews/generation_v1/TILE-015_source_checker_light.jpg",
+      "review_notes": [
+        "Sixteen shore/fill/surface modules visually reviewed over checkerboard. Static alternatives only; source contains narrow intercell padding and illustrated submerged rocks. Export joins/material continuity need cleanup; translucent-water blending not approved."
+      ]
+    }
+  ]
+}

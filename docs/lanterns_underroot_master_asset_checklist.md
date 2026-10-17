@@ -566,23 +566,112 @@ Verified across all 11 packs: seven categories have reviewed prototype sources a
 
 # Phase 05 — Reusable Terrain and Tile Sets
 
-- [ ] TILE-001 — Grass-topped ground tiles
-- [ ] TILE-002 — Dirt and soil tiles
-- [ ] TILE-003 — Stone platform tiles
-- [ ] TILE-004 — Moss-covered rock tiles
-- [ ] TILE-005 — Root platforms
-- [ ] TILE-006 — Wood platforms and bridges
-- [ ] TILE-007 — Edge and corner variants
-- [ ] TILE-008 — Slopes and uneven terrain
-- [ ] TILE-009 — One-way platforms
-- [ ] TILE-010 — Broken platforms
-- [ ] TILE-011 — Hanging platforms
-- [ ] TILE-012 — Temple wall tiles
-- [ ] TILE-013 — Temple floor and ceiling tiles
-- [ ] TILE-014 — Rune-embedded stone tiles
-- [ ] TILE-015 — Water edges and river tiles
-- [ ] TILE-016 — Decorative foliage and rock overlays
-- [ ] TILE-017 — Tile transition edges for blending environments
+<!-- phase05-summary:start -->
+**Reviewed prototype packs: 17/17.** [Asset and prompt index](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/PHASE05_index.md). Checked items record saved and reviewed tile prototypes, not final production approval. Sources, 64 px exports, prompts, crop maps and assembly previews are recorded per item. Tile seam cleanup, collision/autotile setup and Godot validation remain separate. No ZIP files or runtime integration added.
+<!-- phase05-summary:end -->
+
+- [x] TILE-001 — Grass-topped ground tiles
+  <!-- phase05-record:TILE-001:start -->
+  - Production stage: reviewed prototype sources and 64px exports. Final production approval pending.
+  - Saved folder: [TILE-001](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/previews)
+  - Selected source: [TILE-001_terrain_atlas_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/source_images/TILE-001_terrain_atlas_original.png)
+  <!-- phase05-record:TILE-001:end -->
+- [x] TILE-002 — Dirt and soil tiles
+  <!-- phase05-record:TILE-002:start -->
+  - Production stage: reviewed prototype sources and 64px exports. Final production approval pending.
+  - Saved folder: [TILE-002](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/previews)
+  - Selected source: [TILE-002_terrain_atlas_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/source_images/TILE-002_terrain_atlas_original.png)
+  <!-- phase05-record:TILE-002:end -->
+- [x] TILE-003 — Stone platform tiles
+  <!-- phase05-record:TILE-003:start -->
+  - Production stage: reviewed prototype sources and 64px exports. Final production approval pending.
+  - Saved folder: [TILE-003](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/previews)
+  - Selected source: [TILE-003_terrain_atlas_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/source_images/TILE-003_terrain_atlas_original.png)
+  <!-- phase05-record:TILE-003:end -->
+- [x] TILE-004 — Moss-covered rock tiles
+  <!-- phase05-record:TILE-004:start -->
+  - Production stage: reviewed prototype sources and 64px exports. Final production approval pending.
+  - Saved folder: [TILE-004](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-004) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-004/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-004/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-004/previews)
+  - Selected source: [TILE-004_terrain_atlas_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-004/source_images/TILE-004_terrain_atlas_original.png)
+  <!-- phase05-record:TILE-004:end -->
+- [x] TILE-005 — Root platforms
+  <!-- phase05-record:TILE-005:start -->
+  - Production stage: reviewed prototype sources and 64px exports. Final production approval pending.
+  - Saved folder: [TILE-005](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-005) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-005/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-005/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-005/previews)
+  - Selected source: [TILE-005_terrain_atlas_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-005/source_images/TILE-005_terrain_atlas_original.png)
+  <!-- phase05-record:TILE-005:end -->
+- [x] TILE-006 — Wood platforms and bridges
+  <!-- phase05-record:TILE-006:start -->
+  - Production stage: generated terrain prototype saved and reviewed. Final production approval pending.
+  - Saved folder: [TILE-006](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/previews)
+  - Selected source: [TILE-006_atlas_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/source_images/TILE-006_atlas_original.png)
+  <!-- phase05-record:TILE-006:end -->
+- [x] TILE-007 — Edge and corner variants
+  <!-- phase05-record:TILE-007:start -->
+  - Production stage: generated terrain prototype saved and reviewed. Final production approval pending.
+  - Saved folder: [TILE-007](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/previews)
+  - Selected source: [TILE-007_atlas_v2_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/source_images/TILE-007_atlas_v2_original.png)
+  <!-- phase05-record:TILE-007:end -->
+- [x] TILE-008 — Slopes and uneven terrain
+  <!-- phase05-record:TILE-008:start -->
+  - Production stage: generated terrain prototype saved and reviewed. Final production approval pending.
+  - Saved folder: [TILE-008](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/previews)
+  - Selected source: [TILE-008_atlas_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/source_images/TILE-008_atlas_original.png)
+  <!-- phase05-record:TILE-008:end -->
+- [x] TILE-009 — One-way platforms
+  <!-- phase05-record:TILE-009:start -->
+  - Production stage: generated terrain prototype saved and reviewed. Final production approval pending.
+  - Saved folder: [TILE-009](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-009) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-009/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-009/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-009/previews)
+  - Selected source: [TILE-009_atlas_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-009/source_images/TILE-009_atlas_original.png)
+  <!-- phase05-record:TILE-009:end -->
+- [x] TILE-010 — Broken platforms
+  <!-- phase05-record:TILE-010:start -->
+  - Production stage: generated terrain prototype saved and reviewed. Final production approval pending.
+  - Saved folder: [TILE-010](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-010) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-010/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-010/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-010/previews)
+  - Selected source: [TILE-010_atlas_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-010/source_images/TILE-010_atlas_original.png)
+  <!-- phase05-record:TILE-010:end -->
+- [x] TILE-011 — Hanging platforms
+  <!-- phase05-record:TILE-011:start -->
+  - Production stage: generated prototype reviewed exported. Final production approval pending.
+  - Saved folder: [TILE-011](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-011) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-011/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-011/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-011/previews)
+  - Selected source: [TILE-011_terrain_atlas_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-011/source_images/TILE-011_terrain_atlas_original.png)
+  <!-- phase05-record:TILE-011:end -->
+- [x] TILE-012 — Temple wall tiles
+  <!-- phase05-record:TILE-012:start -->
+  - Production stage: generated prototype reviewed exported. Final production approval pending.
+  - Saved folder: [TILE-012](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-012) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-012/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-012/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-012/previews)
+  - Selected source: [TILE-012_terrain_atlas_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-012/source_images/TILE-012_terrain_atlas_original.png)
+  <!-- phase05-record:TILE-012:end -->
+- [x] TILE-013 — Temple floor and ceiling tiles
+  <!-- phase05-record:TILE-013:start -->
+  - Production stage: generated prototype reviewed exported. Final production approval pending.
+  - Saved folder: [TILE-013](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-013) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-013/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-013/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-013/previews)
+  - Selected source: [TILE-013_terrain_atlas_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-013/source_images/TILE-013_terrain_atlas_original.png)
+  <!-- phase05-record:TILE-013:end -->
+- [x] TILE-014 — Rune-embedded stone tiles
+  <!-- phase05-record:TILE-014:start -->
+  - Production stage: generated prototype reviewed exported. Final production approval pending.
+  - Saved folder: [TILE-014](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-014) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-014/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-014/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-014/previews)
+  - Selected source: [TILE-014_terrain_atlas_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-014/source_images/TILE-014_terrain_atlas_original.png)
+  <!-- phase05-record:TILE-014:end -->
+- [x] TILE-015 — Water edges and river tiles
+  <!-- phase05-record:TILE-015:start -->
+  - Production stage: reviewed generated tile prototypes and64px exports; seam cleanup and engine validation pending. Final production approval pending.
+  - Saved folder: [TILE-015](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/previews)
+  - Selected source: [TILE-015_river_water_atlas_original_v2.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/source_images/TILE-015_river_water_atlas_original_v2.png)
+  <!-- phase05-record:TILE-015:end -->
+- [x] TILE-016 — Decorative foliage and rock overlays
+  <!-- phase05-record:TILE-016:start -->
+  - Production stage: reviewed generated tile prototypes and64px exports; seam cleanup and engine validation pending. Final production approval pending.
+  - Saved folder: [TILE-016](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016/previews)
+  - Selected source: [TILE-016_foliage_rock_overlays_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016/source_images/TILE-016_foliage_rock_overlays_original.png)
+  <!-- phase05-record:TILE-016:end -->
+- [x] TILE-017 — Tile transition edges for blending environments
+  <!-- phase05-record:TILE-017:start -->
+  - Production stage: reviewed generated tile prototypes and64px exports; seam cleanup and engine validation pending. Final production approval pending.
+  - Saved folder: [TILE-017](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-017) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-017/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-017/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-017/previews)
+  - Selected source: [TILE-017_terrain_transition_overlays_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-017/source_images/TILE-017_terrain_transition_overlays_original.png)
+  <!-- phase05-record:TILE-017:end -->
 
 # Phase 06 — Props and Interactive Objects
 

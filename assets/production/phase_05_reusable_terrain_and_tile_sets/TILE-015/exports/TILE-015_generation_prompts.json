@@ -1,0 +1,9 @@
+[
+  {
+    "slug": "river_water_atlas",
+    "prompt": "Use case: precise-object-edit. Repair this existing 4-column 4-row sixteen-cell river tile atlas, preserve its hand-painted colors, exact grid, source canvas and all sixteen module roles. Remove the narrow transparent gutters between occupied connecting cell edges: water and soil that connect must reach their own cell boundary, no visible light stripes or gap seams. MOST IMPORTANT: second row, THIRD cell (left vertical shoreline) and FOURTH cell (right vertical shoreline) are UNDERWATER wall continuation tiles. Fill their currently empty upper air region with the same teal water beside a full-height soil bank. They must have NO water surface line and NO transparent air pocket; shoreline bank occupies the left/right cell edge, teal water fills all remaining height to top and bottom. Preserve first-row and last-row water surfaces and their clear alpha air above. Preserve all other module designs and grid positions. Don't add labels, text, outlines, background, margins or new objects. Third-row bottom shore corner tiles remain bank corners; retain genuine alpha only outside exposed bank/water regions. This is a static modular 2D game tileset, not an assembled scene.",
+    "reference_images": [
+      "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/source_images/TILE-015_river_water_atlas_original.png"
+    ]
+  }
+]
