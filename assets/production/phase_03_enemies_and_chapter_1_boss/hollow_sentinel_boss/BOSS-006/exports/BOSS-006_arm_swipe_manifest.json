@@ -1,0 +1,240 @@
+{
+  "asset_id": "BOSS-006",
+  "clip": "arm_swipe",
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    150,
+    180,
+    100,
+    100,
+    160,
+    200
+  ],
+  "loop": false,
+  "preview_loops_for_review": true,
+  "pivot_px": [
+    256,
+    480
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006/exports/arm_swipe/frames/BOSS-006_arm_swipe_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006/exports/arm_swipe/frames/BOSS-006_arm_swipe_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006/exports/arm_swipe/frames/BOSS-006_arm_swipe_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006/exports/arm_swipe/frames/BOSS-006_arm_swipe_04.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006/exports/arm_swipe/frames/BOSS-006_arm_swipe_05.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006/exports/arm_swipe/frames/BOSS-006_arm_swipe_06.png"
+  ],
+  "poses": [
+    "ready fists low",
+    "coil torso active arm drawn left behind",
+    "start horizontal fist swing across chest toward right",
+    "fully extend active fist horizontally to right other fist stays low",
+    "follow through with torso rotation",
+    "lower arm return ready"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006/source_images/BOSS-006_arm_swipe_original.png",
+      "source_crop": [
+        0,
+        0,
+        512,
+        530
+      ],
+      "source_regions": null,
+      "scale": 0.75,
+      "offset": [
+        64,
+        96
+      ],
+      "alpha230_bbox": [
+        58,
+        65,
+        468,
+        512
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006/source_images/BOSS-006_arm_swipe_original.png",
+      "source_crop": [
+        512,
+        0,
+        1024,
+        530
+      ],
+      "source_regions": null,
+      "scale": 0.75,
+      "offset": [
+        64,
+        96
+      ],
+      "alpha230_bbox": [
+        17,
+        85,
+        488,
+        508
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006/source_images/BOSS-006_arm_swipe_original.png",
+      "source_crop": [
+        1024,
+        0,
+        1536,
+        530
+      ],
+      "source_regions": null,
+      "scale": 0.75,
+      "offset": [
+        64,
+        96
+      ],
+      "alpha230_bbox": [
+        30,
+        86,
+        467,
+        508
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006/source_images/BOSS-006_arm_swipe_original.png",
+      "source_crop": [
+        0,
+        530,
+        600,
+        1024
+      ],
+      "source_regions": [
+        [
+          0,
+          530,
+          600,
+          800
+        ],
+        [
+          0,
+          800,
+          530,
+          1024
+        ]
+      ],
+      "scale": 0.75,
+      "offset": [
+        31,
+        152
+      ],
+      "alpha230_bbox": [
+        29,
+        12,
+        590,
+        433
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 5,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006/source_images/BOSS-006_arm_swipe_original.png",
+      "source_crop": [
+        530,
+        530,
+        1065,
+        1024
+      ],
+      "source_regions": [
+        [
+          600,
+          530,
+          1065,
+          800
+        ],
+        [
+          530,
+          800,
+          1024,
+          1024
+        ]
+      ],
+      "scale": 0.75,
+      "offset": [
+        55,
+        152
+      ],
+      "alpha230_bbox": [
+        23,
+        12,
+        526,
+        437
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 6,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006/source_images/BOSS-006_arm_swipe_original.png",
+      "source_crop": [
+        1024,
+        530,
+        1536,
+        1024
+      ],
+      "source_regions": [
+        [
+          1065,
+          530,
+          1536,
+          800
+        ],
+        [
+          1024,
+          800,
+          1536,
+          1024
+        ]
+      ],
+      "scale": 0.75,
+      "offset": [
+        64,
+        152
+      ],
+      "alpha230_bbox": [
+        52,
+        2,
+        454,
+        436
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "review_notes": [
+    "Readable coil/horizontal swing/follow through/recovery. Arm side and torso rotation drift across phases; continuity redraw needed. Bottom-row arms cross nominal cells: stepped region extraction keeps full fists without adjacent leg artifacts."
+  ],
+  "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+}

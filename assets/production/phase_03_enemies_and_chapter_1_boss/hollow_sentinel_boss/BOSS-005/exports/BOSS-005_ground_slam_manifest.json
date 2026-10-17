@@ -1,0 +1,201 @@
+{
+  "asset_id": "BOSS-005",
+  "clip": "ground_slam",
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    150,
+    140,
+    280,
+    90,
+    220,
+    200
+  ],
+  "loop": false,
+  "preview_loops_for_review": true,
+  "pivot_px": [
+    256,
+    480
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/exports/ground_slam/frames/BOSS-005_ground_slam_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/exports/ground_slam/frames/BOSS-005_ground_slam_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/exports/ground_slam/frames/BOSS-005_ground_slam_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/exports/ground_slam/frames/BOSS-005_ground_slam_04.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/exports/ground_slam/frames/BOSS-005_ground_slam_05.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/exports/ground_slam/frames/BOSS-005_ground_slam_06.png"
+  ],
+  "poses": [
+    "brace crouch two fists at waist",
+    "raise both fists over head",
+    "hold both fists overhead torso tall",
+    "slam BOTH fists down to invisible ground front-right with deep crouch",
+    "hold low fists planted on invisible ground",
+    "lift fists recover upright"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/source_images/BOSS-005_ground_slam_original.png",
+      "source_crop": [
+        0,
+        0,
+        512,
+        590
+      ],
+      "source_regions": null,
+      "scale": 0.7627118644067796,
+      "offset": [
+        61,
+        44
+      ],
+      "alpha230_bbox": [
+        65,
+        182,
+        474,
+        567
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/source_images/BOSS-005_ground_slam_original.png",
+      "source_crop": [
+        512,
+        0,
+        1024,
+        590
+      ],
+      "source_regions": null,
+      "scale": 0.7627118644067796,
+      "offset": [
+        61,
+        44
+      ],
+      "alpha230_bbox": [
+        77,
+        32,
+        451,
+        572
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/source_images/BOSS-005_ground_slam_original.png",
+      "source_crop": [
+        1024,
+        0,
+        1536,
+        590
+      ],
+      "source_regions": null,
+      "scale": 0.7627118644067796,
+      "offset": [
+        61,
+        44
+      ],
+      "alpha230_bbox": [
+        116,
+        9,
+        460,
+        570
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/source_images/BOSS-005_ground_slam_original.png",
+      "source_crop": [
+        0,
+        590,
+        512,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.7627118644067796,
+      "offset": [
+        61,
+        170
+      ],
+      "alpha230_bbox": [
+        49,
+        91,
+        508,
+        402
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 5,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/source_images/BOSS-005_ground_slam_original.png",
+      "source_crop": [
+        512,
+        590,
+        1024,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.7627118644067796,
+      "offset": [
+        61,
+        170
+      ],
+      "alpha230_bbox": [
+        47,
+        84,
+        492,
+        403
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 6,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/source_images/BOSS-005_ground_slam_original.png",
+      "source_crop": [
+        1024,
+        590,
+        1536,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.7627118644067796,
+      "offset": [
+        61,
+        170
+      ],
+      "alpha230_bbox": [
+        71,
+        15,
+        477,
+        407
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "review_notes": [
+    "Clear overhead double-fist anticipation, low double-fist ground contact and recovery. Different row layout requires y590 split to retain top-row feet. Armor/moss layout shifts with crouching."
+  ],
+  "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+}

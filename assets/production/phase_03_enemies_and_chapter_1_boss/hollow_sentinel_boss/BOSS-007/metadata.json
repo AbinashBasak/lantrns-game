@@ -1,0 +1,538 @@
+{
+  "asset_id": "BOSS-007",
+  "title": "Ranged core attack",
+  "checked": true,
+  "stage": "animation prototype generated and visually reviewed; 1 deliverable clip/view set(s); cleanup and production approval pending",
+  "last_updated": "2026-10-17T01:42:52.790076+05:30",
+  "generation_tool": "built-in image_gen",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/source_images/BOSS-007_ranged_core_attack_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-ef8d7b53-d957-43da-a6b7-c0861268305d.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted 2D game animation prototype sprite sheet, EXACTLY six full-body poses, equal 3 columns x 2 rows on 1536x1024 canvas. Read left-right then top-bottom. Each cell512x512, guardian centered, generous70px clear transparent padding. Uniform scale, camera fixed front-three-quarter facing RIGHT, full body fits every cell. Genuine transparent background, opaque stone/root interiors. No background, ground, shadow, atmosphere, labels, borders, text, other characters, or external weapon. Reference image1 identity: Hollow Sentinel compact heavy bluegray stone plate armor, spiked stone crown/helmet, amber eyes, single amber faceted chest crystal, cracked chest plates, thick brown root joints, mossy green shoulders, huge stone fists, two arms two legs. Preserve armor design and amber core, never blue. Use rightmost reference figure as angle. Model is proposal. Ranged CORE energy attack, one coherent cycle. 1 ready fists low. 2 shoulders draw back, hands spread beside chest, amber crystal brightens. 3 lean forward to aim chest toward right, elbows pull back, glowing condensed amber orb just at chest. 4 discharge ONE short amber bolt from chest toward RIGHT, bolt stays compact inside cell, torso snaps forward, arms spread. 5 recoil backward, amber light subsides, knees flex. 6 settle same ready stance as1. Clearly distinct charge release recovery, never sword or punching attack. CRITICAL SIZE: each guardian pose only 340px tall and 300px wide including both hands. Leave all four cell edges at least70px empty. RELEASE cell4: bolt only60px long starting at chest, extending right no farther than the guardian's forward hand, entire effect within first512px cell. No energy crosses cell boundary. Six isolated miniature subjects, ample empty space all around. Avoid giant near-full-cell figures.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/source_images/BOSS-001_model_original.png"
+      ],
+      "clip": "ranged_core_attack",
+      "review": "selected prototype",
+      "bytes": 2143377,
+      "sha256": "43370e1d650e932caa65209701e217a1f98c5c998ad0a8a29e93bbf8cc188c5e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-70a5f916-bdd5-45de-98ad-2cf813668ecb.png",
+      "prompt": "Use case: stylized-concept. Hand-painted 2D game animation prototype sprite sheet, EXACTLY six full-body poses, equal 3 columns x 2 rows on 1536x1024 canvas. Read left-right then top-bottom. Each cell512x512, guardian centered, generous70px clear transparent padding. Uniform scale, camera fixed front-three-quarter facing RIGHT, full body fits every cell. Genuine transparent background, opaque stone/root interiors. No background, ground, shadow, atmosphere, labels, borders, text, other characters, or external weapon. Reference image1 identity: Hollow Sentinel compact heavy bluegray stone plate armor, spiked stone crown/helmet, amber eyes, single amber faceted chest crystal, cracked chest plates, thick brown root joints, mossy green shoulders, huge stone fists, two arms two legs. Preserve armor design and amber core, never blue. Use rightmost reference figure as angle. Model is proposal. Ranged CORE energy attack, one coherent cycle. 1 ready fists low. 2 shoulders draw back, hands spread beside chest, amber crystal brightens. 3 lean forward to aim chest toward right, elbows pull back, glowing condensed amber orb just at chest. 4 discharge ONE short amber bolt from chest toward RIGHT, bolt stays compact inside cell, torso snaps forward, arms spread. 5 recoil backward, amber light subsides, knees flex. 6 settle same ready stance as1. Clearly distinct charge release recovery, never sword or punching attack.",
+      "review": "Rejected for release bolt crossing cell boundary.",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/source_images/BOSS-007_ranged_core_attack_attempt01_original.png",
+      "provenance": "unchanged built-in image_gen attempt",
+      "source_message_id": null,
+      "clip": "ranged_core_attack",
+      "bytes": 2692988,
+      "sha256": "556e936b8342d26889b373d7c37fdee08d2f9b38236682edef09ed7aedb30f3a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "clips": [
+    {
+      "asset_id": "BOSS-007",
+      "clip": "ranged_core_attack",
+      "frame_count": 6,
+      "frame_dimensions": [
+        512,
+        512
+      ],
+      "frame_durations_ms": [
+        140,
+        180,
+        200,
+        100,
+        120,
+        180
+      ],
+      "loop": false,
+      "preview_loops_for_review": true,
+      "pivot_px": [
+        256,
+        480
+      ],
+      "frames": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/ranged_core_attack/frames/BOSS-007_ranged_core_attack_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/ranged_core_attack/frames/BOSS-007_ranged_core_attack_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/ranged_core_attack/frames/BOSS-007_ranged_core_attack_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/ranged_core_attack/frames/BOSS-007_ranged_core_attack_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/ranged_core_attack/frames/BOSS-007_ranged_core_attack_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/ranged_core_attack/frames/BOSS-007_ranged_core_attack_06.png"
+      ],
+      "poses": [
+        "ready",
+        "charge chest",
+        "aim",
+        "release core bolt",
+        "recoil",
+        "recover"
+      ],
+      "transforms": [
+        {
+          "frame": 1,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/source_images/BOSS-007_ranged_core_attack_original.png",
+          "source_crop": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "source_regions": null,
+          "scale": 0.8035714285714286,
+          "offset": [
+            50,
+            92
+          ],
+          "alpha230_bbox": [
+            117,
+            105,
+            420,
+            483
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 2,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/source_images/BOSS-007_ranged_core_attack_original.png",
+          "source_crop": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "source_regions": null,
+          "scale": 0.8035714285714286,
+          "offset": [
+            50,
+            92
+          ],
+          "alpha230_bbox": [
+            77,
+            107,
+            446,
+            483
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 3,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/source_images/BOSS-007_ranged_core_attack_original.png",
+          "source_crop": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "source_regions": null,
+          "scale": 0.8035714285714286,
+          "offset": [
+            50,
+            92
+          ],
+          "alpha230_bbox": [
+            96,
+            141,
+            416,
+            483
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 4,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/source_images/BOSS-007_ranged_core_attack_original.png",
+          "source_crop": [
+            0,
+            512,
+            560,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.8035714285714286,
+          "offset": [
+            31,
+            130
+          ],
+          "alpha230_bbox": [
+            79,
+            66,
+            507,
+            426
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 5,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/source_images/BOSS-007_ranged_core_attack_original.png",
+          "source_crop": [
+            560,
+            512,
+            1024,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.8035714285714286,
+          "offset": [
+            70,
+            130
+          ],
+          "alpha230_bbox": [
+            64,
+            71,
+            418,
+            423
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 6,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/source_images/BOSS-007_ranged_core_attack_original.png",
+          "source_crop": [
+            1024,
+            512,
+            1536,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.8035714285714286,
+          "offset": [
+            50,
+            130
+          ],
+          "alpha230_bbox": [
+            80,
+            57,
+            383,
+            435
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "review_notes": [
+        "Second generation selected; clear charge/release/recoil cycle. Release effect reaches near right cell boundary but stays in cell; preserve full cell width.",
+        "No external weapon, amber core retained."
+      ],
+      "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+    }
+  ],
+  "review_notes": [
+    "Proposal/prototype; armor/finger geometry and soft ambient alpha need cleanup.",
+    "Generated designs are proposals based on project art/story; user production approval is not inferred.",
+    "Generated alpha is preserved. Source haze, armor/anatomy continuity, foot contacts and timing require cleanup and Godot review. No runtime integration performed."
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/BOSS-007_ranged_core_attack_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/previews/BOSS-007_ranged_core_attack_preview.gif",
+  "asset_pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/BOSS-007_prototype_pack.zip",
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/BOSS-007_README.md",
+      "bytes": 1042,
+      "sha256": "f52eab5b41b1958abb07de0b67d0ce3e652f1935dc35b47848bfd8ffda79f647"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/BOSS-007_prototype_pack.zip",
+      "bytes": 7224003,
+      "sha256": "37d4a5c3af75169b9aac8180fe5bc3f820229ea19606c00b3392166632f671c7"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/BOSS-007_ranged_core_attack_generation_prompts.json",
+      "bytes": 5265,
+      "sha256": "a8b1226a0f998ecea7ee9c8b623cd05c269db67118f7c71d01b1459aacf98b11"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/BOSS-007_ranged_core_attack_manifest.json",
+      "bytes": 5548,
+      "sha256": "1aa01410338cdc050ae47626fef3d4286f2cae20b9edb41f7fb68279f3bcc823"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/BOSS-007_ranged_core_attack_silhouettes_strip.png",
+      "bytes": 17873,
+      "sha256": "c52c52444759bf6773ff03f9dda66186c88cfa7aa1e2121aa7306792f094694c",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/BOSS-007_ranged_core_attack_strip.png",
+      "bytes": 939709,
+      "sha256": "47623942f216422e9110d2a2c47b2500e7d01c351f36cf1a6bb5df5491534e2d",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/ranged_core_attack/frames/BOSS-007_ranged_core_attack_01.png",
+      "bytes": 152588,
+      "sha256": "0e204de3dfc33878303b4a8d646bd09caa4306927bda8460365a849e4a42049d",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/ranged_core_attack/frames/BOSS-007_ranged_core_attack_02.png",
+      "bytes": 165525,
+      "sha256": "b3a1c462f0f2bd15225ea879d72777f724f9681ade5adcb238c7355d08e68239",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/ranged_core_attack/frames/BOSS-007_ranged_core_attack_03.png",
+      "bytes": 141983,
+      "sha256": "eef7316a762e5692ba574e8f683beafbc3ccfbff0d46dda532f12673dfd72023",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/ranged_core_attack/frames/BOSS-007_ranged_core_attack_04.png",
+      "bytes": 176163,
+      "sha256": "b2833c7f55d9e1e5c97b5dbda7d45422b098a289ed86cd94876870409d36d795",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/ranged_core_attack/frames/BOSS-007_ranged_core_attack_05.png",
+      "bytes": 154588,
+      "sha256": "84e4129629da5c0d5ba391cf77edf533781942842b8bdb87e4ad58892add08ec",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/ranged_core_attack/frames/BOSS-007_ranged_core_attack_06.png",
+      "bytes": 151547,
+      "sha256": "79c28f558fd4aa290e99628897df475aaea52aa74fe1242d1e6b9ef14c5b96b4",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/ranged_core_attack/silhouettes/BOSS-007_ranged_core_attack_01_silhouette.png",
+      "bytes": 3501,
+      "sha256": "bcd53b9e89c6723bbd80c2e85d884a321a6da5a8a50c1c5421b741592e6819a2",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/ranged_core_attack/silhouettes/BOSS-007_ranged_core_attack_02_silhouette.png",
+      "bytes": 3681,
+      "sha256": "91b42ba1dce131c030a111950522717622f8ed6baf032e8414290101ec04933b",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/ranged_core_attack/silhouettes/BOSS-007_ranged_core_attack_03_silhouette.png",
+      "bytes": 3382,
+      "sha256": "a05cca4d552306c4c2235066606d2843cecfb2fc75760b9c19434328d1018650",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/ranged_core_attack/silhouettes/BOSS-007_ranged_core_attack_04_silhouette.png",
+      "bytes": 3858,
+      "sha256": "febfc9554e30b76b77369a9d41f87c79dada6d9380320e2c2be708eb90d3dd2b",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/ranged_core_attack/silhouettes/BOSS-007_ranged_core_attack_05_silhouette.png",
+      "bytes": 3496,
+      "sha256": "235f80a0cb6fadcf5230dda6fba124c7ca8917dd01f79115ce4ca5cad0f51999",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/ranged_core_attack/silhouettes/BOSS-007_ranged_core_attack_06_silhouette.png",
+      "bytes": 3483,
+      "sha256": "f5c3b01264d573c110c573bda44fca37e7d3ccd99cc672e4dc2d891b65f00b6c",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/previews/BOSS-007_ranged_core_attack_contact_sheet.jpg",
+      "bytes": 206412,
+      "sha256": "77576964b0f3760eea33ca879d3582d646337a1cc69697f967c66945d4a501b0",
+      "dimensions": [
+        1536,
+        1104
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/previews/BOSS-007_ranged_core_attack_preview.gif",
+      "bytes": 315375,
+      "sha256": "a2a3107fa51250633e33a23e9c6b43d7da42aa02cc2355271922782b0d44e524",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/source_images/BOSS-007_ranged_core_attack_attempt01_original.png",
+      "bytes": 2692988,
+      "sha256": "556e936b8342d26889b373d7c37fdee08d2f9b38236682edef09ed7aedb30f3a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/source_images/BOSS-007_ranged_core_attack_original.png",
+      "bytes": 2143377,
+      "sha256": "43370e1d650e932caa65209701e217a1f98c5c998ad0a8a29e93bbf8cc188c5e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "production_approved": false,
+  "checklist_status_source": "/Users/abinashbasak/Downloads/lanterns_underroot_master_asset_checklist.md"
+}

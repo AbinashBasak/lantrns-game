@@ -1,0 +1,29 @@
+{
+  "asset_id": "BOSS-008",
+  "clip": "stagger_damage",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/source_images/BOSS-008_stagger_damage_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-606d4087-4848-4079-8e39-6bd08bc60bf0.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted 2D game animation prototype sprite sheet, EXACTLY six full-body poses, equal 3 columns x 2 rows on 1536x1024 canvas. Read left-right then top-bottom. Each cell512x512, guardian centered, generous70px clear transparent padding. Uniform scale, camera fixed front-three-quarter facing RIGHT, full body fits every cell. Genuine transparent background, opaque stone/root interiors. No background, ground, shadow, atmosphere, labels, borders, text, other characters, or external weapon. Reference image1 identity: Hollow Sentinel compact heavy bluegray stone plate armor, spiked stone crown/helmet, amber eyes, single amber faceted chest crystal, cracked chest plates, thick brown root joints, mossy green shoulders, huge stone fists, two arms two legs. Preserve armor design and amber core, never blue. Use rightmost reference figure as angle. Model is proposal.  CRITICAL: compact guardians with maximum340px standing height, rather than filling the cell. Every pose should have substantial blank padding. One coherent STAGGER AND DAMAGE reaction. 1 ready upright. 2 sharp nonviolent impact recoil backward to LEFT, chest tilted, arms flung slightly forward, amber core flicker. 3 deep staggering leanback, one foot sliding, knees bent, offbalance, no fall. 4 brace with a fist low and one knee bending strongly, head bowed, chest core dim. 5 push upright, shoulders recovering. 6 return ready, stable feet. No attacker or impact object, no explosions. Clearly different silhouettes and body angles.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/source_images/BOSS-001_model_original.png"
+      ],
+      "clip": "stagger_damage",
+      "review": "selected prototype",
+      "bytes": 2314664,
+      "sha256": "88a8c7befcf7ed1b784fe833714aa801249732effaae451be767c622a2da84da",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

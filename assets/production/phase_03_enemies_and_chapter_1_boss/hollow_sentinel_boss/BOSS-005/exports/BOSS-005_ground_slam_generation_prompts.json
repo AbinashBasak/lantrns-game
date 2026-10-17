@@ -1,0 +1,29 @@
+{
+  "asset_id": "BOSS-005",
+  "clip": "ground_slam",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/source_images/BOSS-005_ground_slam_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-a656beb9-898e-4ce2-a32e-3b00beb6158c.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Lanterns Underroot Hollow Sentinel 2D illustrated boss animation sprite sheet. Reference is the SAME approved-for-reference model PROPOSAL: stocky compact temple warden, angular cool bluegray stone plates, heavy block fists, thick squat stone legs, brown twisted root joints, moss shoulders, pointed crownlike stone head and side root horns, narrow amber eyes, ONE ambergold crystal in cracked chest, no separate weapon. Match model identity and hand-painted rendering, consistent armor/roots/palette/proportions, not a new monster design. Exactly SIX fullbody chronological poses in precise equal3columns x2rows on1536x1024. Each512x512cell all parts entirely inside cell with 65px padding; do not enlarge body, standing height330px. Constant headsize, camera, view threequarter facing RIGHT. Character isolated with genuine transparent background, opaque body. No environment/groundplane/castshadow/haze/background vignette/text/labels/panels/borders/otherchars. Two arms/two legs only. No colored glow outside compact chest. Arms can bend but never duplicate. Floor is invisible at y450 within eachcell. Asset BOSS-005 Ground slam. Six DISTINCT poses: 1 brace crouch two fists at waist; 2 raise both fists over head; 3 hold both fists overhead torso tall; 4 slam BOTH fists down to invisible ground front-right with deep crouch; 5 hold low fists planted on invisible ground; 6 lift fists recover upright. No arena, no impactshockwave, characterbody only; no gore.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/source_images/BOSS-001_model_original.png"
+      ],
+      "clip": "ground_slam",
+      "review": "selected prototype",
+      "bytes": 2447099,
+      "sha256": "3f73e5aa4717f5bae52882e3a2cb33214984f98eb5ab99645bf78c7e98c9e978",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

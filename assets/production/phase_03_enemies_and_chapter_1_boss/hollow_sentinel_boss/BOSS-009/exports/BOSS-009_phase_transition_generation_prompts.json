@@ -1,0 +1,29 @@
+{
+  "asset_id": "BOSS-009",
+  "clip": "phase_transition",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/source_images/BOSS-009_phase_transition_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-92acd363-1b55-4451-8da2-02fccd49172c.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted 2D game animation prototype sprite sheet, EXACTLY six full-body poses, equal 3 columns x 2 rows on 1536x1024 canvas. Read left-right then top-bottom. Each cell512x512, guardian centered, generous70px clear transparent padding. Uniform scale, camera fixed front-three-quarter facing RIGHT, full body fits every cell. Genuine transparent background, opaque stone/root interiors. No background, ground, shadow, atmosphere, labels, borders, text, other characters, or external weapon. Reference image1 identity: Hollow Sentinel compact heavy bluegray stone plate armor, spiked stone crown/helmet, amber eyes, single amber faceted chest crystal, cracked chest plates, thick brown root joints, mossy green shoulders, huge stone fists, two arms two legs. Preserve armor design and amber core, never blue. Use rightmost reference figure as angle. Model is proposal.  CRITICAL: compact guardians with maximum340px standing height, rather than filling the cell. Every pose should have substantial blank padding. One coherent PHASE TRANSITION from weary to active. 1 tired ready, shoulders bowed, amber core dim. 2 raises RIGHT arm overhead palm open, left fist low. 3 raised arm, brown roots spread from leg joints with a FEW short root tendrils in air near feet, amber crystal intensifies. 4 peak bright amber chest core, guardian stands taller arm overhead, roots expand slightly, tiny amber sparks bounded around torso. 5 lower raised arm, roots retract tightly toward feet, brightness settles. 6 alert stable ready fists low, amber eyes brighter than1. NO floor/arena/ground, root effect floating isolated and contained well inside cell.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/source_images/BOSS-001_model_original.png"
+      ],
+      "clip": "phase_transition",
+      "review": "selected prototype",
+      "bytes": 2428261,
+      "sha256": "1b1aee40b055d66cc5eee127701a005c5f299c9d9f1c04f1a82d4075f03d0667",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

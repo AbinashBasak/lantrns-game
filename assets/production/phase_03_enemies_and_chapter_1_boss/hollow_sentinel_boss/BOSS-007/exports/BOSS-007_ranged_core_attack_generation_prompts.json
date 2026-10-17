@@ -1,0 +1,49 @@
+{
+  "asset_id": "BOSS-007",
+  "clip": "ranged_core_attack",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/source_images/BOSS-007_ranged_core_attack_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-ef8d7b53-d957-43da-a6b7-c0861268305d.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted 2D game animation prototype sprite sheet, EXACTLY six full-body poses, equal 3 columns x 2 rows on 1536x1024 canvas. Read left-right then top-bottom. Each cell512x512, guardian centered, generous70px clear transparent padding. Uniform scale, camera fixed front-three-quarter facing RIGHT, full body fits every cell. Genuine transparent background, opaque stone/root interiors. No background, ground, shadow, atmosphere, labels, borders, text, other characters, or external weapon. Reference image1 identity: Hollow Sentinel compact heavy bluegray stone plate armor, spiked stone crown/helmet, amber eyes, single amber faceted chest crystal, cracked chest plates, thick brown root joints, mossy green shoulders, huge stone fists, two arms two legs. Preserve armor design and amber core, never blue. Use rightmost reference figure as angle. Model is proposal. Ranged CORE energy attack, one coherent cycle. 1 ready fists low. 2 shoulders draw back, hands spread beside chest, amber crystal brightens. 3 lean forward to aim chest toward right, elbows pull back, glowing condensed amber orb just at chest. 4 discharge ONE short amber bolt from chest toward RIGHT, bolt stays compact inside cell, torso snaps forward, arms spread. 5 recoil backward, amber light subsides, knees flex. 6 settle same ready stance as1. Clearly distinct charge release recovery, never sword or punching attack. CRITICAL SIZE: each guardian pose only 340px tall and 300px wide including both hands. Leave all four cell edges at least70px empty. RELEASE cell4: bolt only60px long starting at chest, extending right no farther than the guardian's forward hand, entire effect within first512px cell. No energy crosses cell boundary. Six isolated miniature subjects, ample empty space all around. Avoid giant near-full-cell figures.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/source_images/BOSS-001_model_original.png"
+      ],
+      "clip": "ranged_core_attack",
+      "review": "selected prototype",
+      "bytes": 2143377,
+      "sha256": "43370e1d650e932caa65209701e217a1f98c5c998ad0a8a29e93bbf8cc188c5e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-70a5f916-bdd5-45de-98ad-2cf813668ecb.png",
+      "prompt": "Use case: stylized-concept. Hand-painted 2D game animation prototype sprite sheet, EXACTLY six full-body poses, equal 3 columns x 2 rows on 1536x1024 canvas. Read left-right then top-bottom. Each cell512x512, guardian centered, generous70px clear transparent padding. Uniform scale, camera fixed front-three-quarter facing RIGHT, full body fits every cell. Genuine transparent background, opaque stone/root interiors. No background, ground, shadow, atmosphere, labels, borders, text, other characters, or external weapon. Reference image1 identity: Hollow Sentinel compact heavy bluegray stone plate armor, spiked stone crown/helmet, amber eyes, single amber faceted chest crystal, cracked chest plates, thick brown root joints, mossy green shoulders, huge stone fists, two arms two legs. Preserve armor design and amber core, never blue. Use rightmost reference figure as angle. Model is proposal. Ranged CORE energy attack, one coherent cycle. 1 ready fists low. 2 shoulders draw back, hands spread beside chest, amber crystal brightens. 3 lean forward to aim chest toward right, elbows pull back, glowing condensed amber orb just at chest. 4 discharge ONE short amber bolt from chest toward RIGHT, bolt stays compact inside cell, torso snaps forward, arms spread. 5 recoil backward, amber light subsides, knees flex. 6 settle same ready stance as1. Clearly distinct charge release recovery, never sword or punching attack.",
+      "review": "Rejected for release bolt crossing cell boundary.",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/source_images/BOSS-007_ranged_core_attack_attempt01_original.png",
+      "provenance": "unchanged built-in image_gen attempt",
+      "source_message_id": null,
+      "clip": "ranged_core_attack",
+      "bytes": 2692988,
+      "sha256": "556e936b8342d26889b373d7c37fdee08d2f9b38236682edef09ed7aedb30f3a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

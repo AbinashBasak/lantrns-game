@@ -1,0 +1,504 @@
+{
+  "asset_id": "BOSS-008",
+  "title": "Stagger and damage reaction",
+  "checked": true,
+  "stage": "animation prototype generated and visually reviewed; 1 deliverable clip/view set(s); cleanup and production approval pending",
+  "last_updated": "2026-10-17T01:42:52.790076+05:30",
+  "generation_tool": "built-in image_gen",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/source_images/BOSS-008_stagger_damage_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-606d4087-4848-4079-8e39-6bd08bc60bf0.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted 2D game animation prototype sprite sheet, EXACTLY six full-body poses, equal 3 columns x 2 rows on 1536x1024 canvas. Read left-right then top-bottom. Each cell512x512, guardian centered, generous70px clear transparent padding. Uniform scale, camera fixed front-three-quarter facing RIGHT, full body fits every cell. Genuine transparent background, opaque stone/root interiors. No background, ground, shadow, atmosphere, labels, borders, text, other characters, or external weapon. Reference image1 identity: Hollow Sentinel compact heavy bluegray stone plate armor, spiked stone crown/helmet, amber eyes, single amber faceted chest crystal, cracked chest plates, thick brown root joints, mossy green shoulders, huge stone fists, two arms two legs. Preserve armor design and amber core, never blue. Use rightmost reference figure as angle. Model is proposal.  CRITICAL: compact guardians with maximum340px standing height, rather than filling the cell. Every pose should have substantial blank padding. One coherent STAGGER AND DAMAGE reaction. 1 ready upright. 2 sharp nonviolent impact recoil backward to LEFT, chest tilted, arms flung slightly forward, amber core flicker. 3 deep staggering leanback, one foot sliding, knees bent, offbalance, no fall. 4 brace with a fist low and one knee bending strongly, head bowed, chest core dim. 5 push upright, shoulders recovering. 6 return ready, stable feet. No attacker or impact object, no explosions. Clearly different silhouettes and body angles.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/source_images/BOSS-001_model_original.png"
+      ],
+      "clip": "stagger_damage",
+      "review": "selected prototype",
+      "bytes": 2314664,
+      "sha256": "88a8c7befcf7ed1b784fe833714aa801249732effaae451be767c622a2da84da",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "clips": [
+    {
+      "asset_id": "BOSS-008",
+      "clip": "stagger_damage",
+      "frame_count": 6,
+      "frame_dimensions": [
+        512,
+        512
+      ],
+      "frame_durations_ms": [
+        130,
+        90,
+        160,
+        220,
+        180,
+        170
+      ],
+      "loop": false,
+      "preview_loops_for_review": true,
+      "pivot_px": [
+        256,
+        480
+      ],
+      "frames": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/frames/BOSS-008_stagger_damage_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/frames/BOSS-008_stagger_damage_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/frames/BOSS-008_stagger_damage_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/frames/BOSS-008_stagger_damage_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/frames/BOSS-008_stagger_damage_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/frames/BOSS-008_stagger_damage_06.png"
+      ],
+      "poses": [
+        "ready",
+        "impact recoil",
+        "deep stagger",
+        "bracing",
+        "rise recovery",
+        "ready"
+      ],
+      "transforms": [
+        {
+          "frame": 1,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/source_images/BOSS-008_stagger_damage_original.png",
+          "source_crop": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            40
+          ],
+          "alpha230_bbox": [
+            112,
+            49,
+            460,
+            501
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 2,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/source_images/BOSS-008_stagger_damage_original.png",
+          "source_crop": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            40
+          ],
+          "alpha230_bbox": [
+            47,
+            66,
+            479,
+            501
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 3,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/source_images/BOSS-008_stagger_damage_original.png",
+          "source_crop": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            40
+          ],
+          "alpha230_bbox": [
+            50,
+            97,
+            481,
+            491
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 4,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/source_images/BOSS-008_stagger_damage_original.png",
+          "source_crop": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            70
+          ],
+          "alpha230_bbox": [
+            106,
+            82,
+            511,
+            443
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 5,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/source_images/BOSS-008_stagger_damage_original.png",
+          "source_crop": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            70
+          ],
+          "alpha230_bbox": [
+            111,
+            36,
+            497,
+            463
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 6,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/source_images/BOSS-008_stagger_damage_original.png",
+          "source_crop": [
+            1024,
+            512,
+            1536,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            70
+          ],
+          "alpha230_bbox": [
+            69,
+            14,
+            418,
+            467
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "review_notes": [
+        "Visible backward impact, deeper stagger, fist brace, recovery. One combined stagger/damage cycle as assigned.",
+        "Model amber identity preserved. Body scale shifts slightly during deep lean."
+      ],
+      "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+    }
+  ],
+  "review_notes": [
+    "Prototype; armor plates/fingers vary slightly, ambient alpha cleanup pending.",
+    "Generated designs are proposals based on project art/story; user production approval is not inferred.",
+    "Generated alpha is preserved. Source haze, armor/anatomy continuity, foot contacts and timing require cleanup and Godot review. No runtime integration performed."
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/BOSS-008_stagger_damage_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/previews/BOSS-008_stagger_damage_preview.gif",
+  "asset_pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/BOSS-008_prototype_pack.zip",
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/BOSS-008_README.md",
+      "bytes": 1036,
+      "sha256": "461ee860fafc528335ae47251bbacbd54b6bb29d046f37e7487ec34a0a27cff2"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/BOSS-008_prototype_pack.zip",
+      "bytes": 5626225,
+      "sha256": "891837b2b16be3a90e4fe848318affb4efdda4f335bc3a87be2013eee1132c3c"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/BOSS-008_stagger_damage_generation_prompts.json",
+      "bytes": 2671,
+      "sha256": "2d84e3051eb79a9c889bba114e6dc529153a3a0157f8bd48b0e64bee283295f0"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/BOSS-008_stagger_damage_manifest.json",
+      "bytes": 5414,
+      "sha256": "4a3c035155e4ae0952f3aa09304328d1fc01fdb51adfcc5c592adcdb27456b1b"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/BOSS-008_stagger_damage_silhouettes_strip.png",
+      "bytes": 20451,
+      "sha256": "02ac0e3ebd1fa8b5d18ac31a5b7966ae9602e4637cab566d0e68b68c60e50946",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/BOSS-008_stagger_damage_strip.png",
+      "bytes": 1297851,
+      "sha256": "a6093d1840e7ec9cf2d618d879f3501c49a5b4601e0568c7f9d364c5aaa06089",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/frames/BOSS-008_stagger_damage_01.png",
+      "bytes": 229094,
+      "sha256": "96b26ece2ff15a460d13aa58b746c7568ab8c77b413087bf1221e83e15de84dd",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/frames/BOSS-008_stagger_damage_02.png",
+      "bytes": 211298,
+      "sha256": "54e8c42d20fda350ee4e1cacf9bc5110cafb93dc1c7d633458791e1fcea9cacf",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/frames/BOSS-008_stagger_damage_03.png",
+      "bytes": 196177,
+      "sha256": "7389e407a4d186b15deea54151ebfaf1e84a43e10b55c6fbaae1a740da6ca5d1",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/frames/BOSS-008_stagger_damage_04.png",
+      "bytes": 200895,
+      "sha256": "c8e0c4d5729594d373ff3e4c24253cd6dd3fc3614eb0ac8c2790e99a1b06d9d1",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/frames/BOSS-008_stagger_damage_05.png",
+      "bytes": 229647,
+      "sha256": "219a23ec1f0737306a57e3fff753dfbfd38528084a44c65cdd39b143dc3d4b89",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/frames/BOSS-008_stagger_damage_06.png",
+      "bytes": 228598,
+      "sha256": "fbc34f12518585ec2e0d020478f2cf1ade7c0f50bf01db0ebe44201a73176e69",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/silhouettes/BOSS-008_stagger_damage_01_silhouette.png",
+      "bytes": 4262,
+      "sha256": "0f6b8961fc94d46625a2656ed415a0ddd26c9ce27f8fbd80a02da38678ae4fd4",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/silhouettes/BOSS-008_stagger_damage_02_silhouette.png",
+      "bytes": 4317,
+      "sha256": "4d791f9afd3d09cd7ee2226893a915ec1b017ca73aa4d6fdbab00b0c2d52d4a9",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/silhouettes/BOSS-008_stagger_damage_03_silhouette.png",
+      "bytes": 4112,
+      "sha256": "69f504c75d9bb428d533187db82f105a491c61b931daa57f275a637789f1cb6e",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/silhouettes/BOSS-008_stagger_damage_04_silhouette.png",
+      "bytes": 3432,
+      "sha256": "ca2f3568b21ae11716cabda32aeacdf88f0afd3bc08f3f19d27cb65a15992541",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/silhouettes/BOSS-008_stagger_damage_05_silhouette.png",
+      "bytes": 4408,
+      "sha256": "a80b9b2749f733688023da0f3a80f8b5712d317cfb91135048d14d7762a22195",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/silhouettes/BOSS-008_stagger_damage_06_silhouette.png",
+      "bytes": 4369,
+      "sha256": "be06779b66d19a5943258213579d631df847bb1aeacc6a44f880e47e6f12cb0d",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/previews/BOSS-008_stagger_damage_contact_sheet.jpg",
+      "bytes": 263390,
+      "sha256": "c283d490ee75c72542b4588fbfaed0ca8aa20d8585464fe14f603677048c696f",
+      "dimensions": [
+        1536,
+        1104
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/previews/BOSS-008_stagger_damage_preview.gif",
+      "bytes": 447951,
+      "sha256": "58ad78420e1e7078ab96ee6ee4ae138f47c6987e98c4522a83f8981e1de647d4",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/source_images/BOSS-008_stagger_damage_original.png",
+      "bytes": 2314664,
+      "sha256": "88a8c7befcf7ed1b784fe833714aa801249732effaae451be767c622a2da84da",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "production_approved": false,
+  "checklist_status_source": "/Users/abinashbasak/Downloads/lanterns_underroot_master_asset_checklist.md"
+}

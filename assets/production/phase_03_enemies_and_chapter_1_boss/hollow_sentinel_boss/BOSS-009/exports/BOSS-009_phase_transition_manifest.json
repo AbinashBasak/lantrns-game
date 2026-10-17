@@ -1,0 +1,202 @@
+{
+  "asset_id": "BOSS-009",
+  "clip": "phase_transition",
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    160,
+    160,
+    200,
+    300,
+    180,
+    180
+  ],
+  "loop": false,
+  "preview_loops_for_review": true,
+  "pivot_px": [
+    256,
+    480
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/exports/phase_transition/frames/BOSS-009_phase_transition_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/exports/phase_transition/frames/BOSS-009_phase_transition_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/exports/phase_transition/frames/BOSS-009_phase_transition_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/exports/phase_transition/frames/BOSS-009_phase_transition_04.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/exports/phase_transition/frames/BOSS-009_phase_transition_05.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/exports/phase_transition/frames/BOSS-009_phase_transition_06.png"
+  ],
+  "poses": [
+    "tired ready",
+    "raise arm",
+    "root awakening",
+    "core peak",
+    "lower arm",
+    "alert ready"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/source_images/BOSS-009_phase_transition_original.png",
+      "source_crop": [
+        0,
+        0,
+        512,
+        522
+      ],
+      "source_regions": null,
+      "scale": 0.8458646616541353,
+      "offset": [
+        39,
+        38
+      ],
+      "alpha230_bbox": [
+        103,
+        153,
+        433,
+        519
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/source_images/BOSS-009_phase_transition_original.png",
+      "source_crop": [
+        512,
+        0,
+        1024,
+        532
+      ],
+      "source_regions": null,
+      "scale": 0.8458646616541353,
+      "offset": [
+        39,
+        38
+      ],
+      "alpha230_bbox": [
+        86,
+        13,
+        433,
+        520
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/source_images/BOSS-009_phase_transition_original.png",
+      "source_crop": [
+        1024,
+        0,
+        1536,
+        532
+      ],
+      "source_regions": null,
+      "scale": 0.8458646616541353,
+      "offset": [
+        39,
+        38
+      ],
+      "alpha230_bbox": [
+        62,
+        18,
+        467,
+        523
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/source_images/BOSS-009_phase_transition_original.png",
+      "source_crop": [
+        0,
+        522,
+        512,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.8458646616541353,
+      "offset": [
+        39,
+        70
+      ],
+      "alpha230_bbox": [
+        79,
+        0,
+        507,
+        485
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 5,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/source_images/BOSS-009_phase_transition_original.png",
+      "source_crop": [
+        512,
+        532,
+        1024,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.8458646616541353,
+      "offset": [
+        39,
+        70
+      ],
+      "alpha230_bbox": [
+        84,
+        90,
+        465,
+        472
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 6,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/source_images/BOSS-009_phase_transition_original.png",
+      "source_crop": [
+        1024,
+        532,
+        1536,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.8458646616541353,
+      "offset": [
+        39,
+        70
+      ],
+      "alpha230_bbox": [
+        107,
+        87,
+        436,
+        472
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "review_notes": [
+    "Distinct raised arm, roots/amber peak, lowered arm, ready. Generated row break is near y522 not512; custom crop boxes prevent cutting top-row feet.",
+    "Root curls isolated no arena scenery."
+  ],
+  "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+}

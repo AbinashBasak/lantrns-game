@@ -1,0 +1,72 @@
+{
+  "asset_id": "BOSS-003",
+  "clip": "walk_reposition_profile_corrected",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/source_images/BOSS-003_walk_profile_correction_v02_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-2b46d364-ed51-49a3-a716-bf004710d2bb.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Edit target image1 six-frame sprite sheet. Change ONLY TWO cells: TOP RIGHT cell3 and BOTTOM LEFT cell4. Keep other fourcells/heads/torso/armor/colors/scale/transparentbackground exactly unchanged. This is a walk cycle with wrongly repeated sameleg. In TOP RIGHT cell3, SWAP both leg and arm poses: visible LIGHT NEAR leg (with moss on its kneeplate) must extend BACKWARD to LEFT of hips with heel raised; DARK FAR leg must extend FORWARD to RIGHT of hips and plant foot. The near LIGHT arm must swing FORWARD to RIGHT, and far DARK arm BACKWARD to LEFT. In BOTTOM LEFT cell4, visible LIGHT NEAR leg bends behind hips toward LEFT, lifted off ground; DARK FAR leg vertical planted supporting underhip. Near LIGHT arm swings forwardRIGHT. CRITICAL: do not keep mossy near knee/foot forward in cell3; mossy near knee must be BEHIND hips at LEFT while dark far knee is in FRONT atRIGHT. Both leg silhouettes visible and anatomically connected through root hips. Preserve allothercells. No new background, labels or additional characters. Genuine alpha. Two legs only, no extra arms.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/source_images/BOSS-003_walk_profile_correction_attempt01_original.png"
+      ],
+      "clip": "walk_reposition_profile_corrected",
+      "review": "selected prototype",
+      "bytes": 2182071,
+      "sha256": "3687d9a38973b01f3df5d43d24b98a39d373272b8464cace6ce8c120747300b3",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-0801366c-9806-48e9-963e-1e2f67f2c446.png",
+      "prompt": "Use case: stylized-concept. Corrected WALK CYCLE sprite sheet for Hollow Sentinel, hand-painted 2D game prototype. Reference1 model proposal identity ONLY; match second figure RIGHT SIDE PROFILE, amber eyes/one amber chest crystal, angular bluegray stone armor, brown root joints, moss shoulders, no weapon. Exactly SIX full-body SIDE PROFILE frames in 3columns x2rows on1536x1024, each512cell, left-right top-bottom. Camera strictly PURE RIGHT SIDE view, nose always pointsRIGHT, identical head/torso orientation and scale, each guardian body330px tall with70px empty transparent padding. No threequarter/front view. Two distinct legs and arms in every frame. NEAR leg/arm slightly lighter stone, FAR leg/arm darker cool shadow, same design throughout, so one can track them. Critical UNAMBIGUOUS ALTERNATING stride, far leg must move forward in middle of cycle. Frame1 CONTACT A: LIGHT nearleg extended FORWARD RIGHT with foot flat, DARK farleg stretched BACK LEFT toe on ground; neararm swingsBACKleft, fararm swingsFORWARDright. Frame2 DOWN/PASS: LIGHT nearleg vertical weightbearing under hips; DARK farleg knee bent foot raised passing behind it; arms pass close to torso. Frame3 CONTACT B: DARK FARLEG extended FORWARD RIGHT footflat, LIGHT nearleg stretched BACK LEFT toe on ground; LIGHT neararm swingsFORWARDright, darkfararm BACKleft. Frame4 DOWN B: DARK farleg vertical weightbearing under hips, LIGHT nearleg bent lifted behind body; arms close to torso. Frame5 PASS A: LIGHT nearleg knee lifted and foot passing FORWARD RIGHT of supporting darkfarleg; lightneararm movesBACKleft. Frame6 RETURN CONTACT A: LIGHT nearleg extended FORWARD RIGHT and darkfarleg stretched BACK LEFT as frame1; opposite arms. These are a continuous alternating walk cycle, NOT six repeats of one leg stepping. Keep feet close to baseline except passing lifted foot, no huge high-knee pose. Genuine transparent background, opaque character interior. No ground/castshadow/scenery, no haze/glow outside chest, no labels/text/borders/othercharacters or extra anatomy. All parts fit own512cell.",
+      "review": "Correction fails alternating gait: near leg still leads both contact phases.",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/source_images/BOSS-003_walk_profile_correction_attempt01_original.png",
+      "provenance": "unchanged built-in image_gen attempt",
+      "source_message_id": null,
+      "clip": "walk_reposition_profile_corrected",
+      "bytes": 2152537,
+      "sha256": "724c1e3dfc99b79c2ab4a61835892a7d755b7bfb89f5aa735a8aaec76198dabf",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-6d3c74d6-2e19-4c73-8d6b-8d352e6b98c7.png",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot Hollow Sentinel 2D illustrated boss animation sprite sheet. Reference is the SAME approved-for-reference model PROPOSAL: stocky compact temple warden, angular cool bluegray stone plates, heavy block fists, thick squat stone legs, brown twisted root joints, moss shoulders, pointed crownlike stone head and side root horns, narrow amber eyes, ONE ambergold crystal in cracked chest, no separate weapon. Match model identity and hand-painted rendering, consistent armor/roots/palette/proportions, not a new monster design. Exactly SIX fullbody chronological poses in precise equal3columns x2rows on1536x1024. Each512x512cell all parts entirely inside cell with 65px padding; do not enlarge body, standing height330px. Constant headsize, camera, view threequarter facing RIGHT. Character isolated with genuine transparent background, opaque body. No environment/groundplane/castshadow/haze/background vignette/text/labels/panels/borders/otherchars. Two arms/two legs only. No colored glow outside compact chest. Arms can bend but never duplicate. Floor is invisible at y450 within eachcell. Asset BOSS-003 Walking and repositioning. Six DISTINCT poses: 1 right forward foot plants left trailing; 2 weight shifts front right foot left heel lifts; 3 left knee passes right leg; 4 left foot steps forward right foot trails; 5 weight shifts left foot right heel lifts; 6 right knee passes to return first stride. Clear readable anticipation and recovery. No gore.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/source_images/BOSS-001_model_original.png"
+      ],
+      "review": "Rejected as active walk: repeated near-leg advance, no clear alternating gait.",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/source_images/BOSS-003_walk_reposition_original.png",
+      "provenance": "unchanged built-in image_gen attempt",
+      "source_message_id": null,
+      "clip": "walk_reposition_profile_corrected",
+      "bytes": 2391515,
+      "sha256": "4e653a2f0d8abd309ede023415aa5f74f8ac088b813cdd34231f295904258136",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

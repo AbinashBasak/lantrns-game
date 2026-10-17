@@ -1,0 +1,201 @@
+{
+  "asset_id": "BOSS-003",
+  "clip": "walk_reposition_profile_corrected",
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    150,
+    150,
+    150,
+    150,
+    150,
+    150
+  ],
+  "loop": true,
+  "preview_loops_for_review": true,
+  "pivot_px": [
+    256,
+    480
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/exports/walk_reposition_profile_corrected/frames/BOSS-003_walk_reposition_profile_corrected_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/exports/walk_reposition_profile_corrected/frames/BOSS-003_walk_reposition_profile_corrected_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/exports/walk_reposition_profile_corrected/frames/BOSS-003_walk_reposition_profile_corrected_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/exports/walk_reposition_profile_corrected/frames/BOSS-003_walk_reposition_profile_corrected_04.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/exports/walk_reposition_profile_corrected/frames/BOSS-003_walk_reposition_profile_corrected_05.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/exports/walk_reposition_profile_corrected/frames/BOSS-003_walk_reposition_profile_corrected_06.png"
+  ],
+  "poses": [
+    "near leg forward, far leg back",
+    "near support, far passing",
+    "far leg forward, near leg back",
+    "far support, near bent behind",
+    "near passing forward too high",
+    "near forward, far back"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/source_images/BOSS-003_walk_profile_correction_v02_original.png",
+      "source_crop": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        48
+      ],
+      "alpha230_bbox": [
+        97,
+        28,
+        493,
+        492
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/source_images/BOSS-003_walk_profile_correction_v02_original.png",
+      "source_crop": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        48
+      ],
+      "alpha230_bbox": [
+        130,
+        27,
+        372,
+        492
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/source_images/BOSS-003_walk_profile_correction_v02_original.png",
+      "source_crop": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        48
+      ],
+      "alpha230_bbox": [
+        30,
+        27,
+        453,
+        491
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/source_images/BOSS-003_walk_profile_correction_v02_original.png",
+      "source_crop": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        59
+      ],
+      "alpha230_bbox": [
+        103,
+        15,
+        486,
+        478
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 5,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/source_images/BOSS-003_walk_profile_correction_v02_original.png",
+      "source_crop": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        59
+      ],
+      "alpha230_bbox": [
+        98,
+        15,
+        470,
+        476
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 6,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/source_images/BOSS-003_walk_profile_correction_v02_original.png",
+      "source_crop": [
+        1024,
+        512,
+        1536,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        59
+      ],
+      "alpha230_bbox": [
+        62,
+        16,
+        457,
+        479
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "review_notes": [
+    "Equal512 cell crops contain stone bodies. Alternating legs visible after targeted edit, arm counter-swing still fails. Prototype cleanup required."
+  ],
+  "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+}
