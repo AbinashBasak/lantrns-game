@@ -1,0 +1,54 @@
+{
+  "asset_id": "BOSS-012",
+  "clip": "health_icon",
+  "frame_count": 1,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": null,
+  "loop": false,
+  "preview_loops_for_review": false,
+  "pivot_px": [
+    256,
+    256
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/exports/health_icon/frames/BOSS-012_health_icon_01.png"
+  ],
+  "poses": [
+    "Amber core health bar icon"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/source_images/BOSS-012_health_icon_original.png",
+      "source_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "source_regions": null,
+      "scale": 0.45307443365695793,
+      "offset": [
+        -28,
+        -23
+      ],
+      "alpha230_bbox": [
+        312,
+        152,
+        943,
+        1079
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "review_notes": [
+    "Single amber crystal/socket icon, no health bar or text. UI small-size legibility requires review."
+  ],
+  "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+}

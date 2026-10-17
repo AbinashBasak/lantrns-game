@@ -1,0 +1,29 @@
+{
+  "asset_id": "BOSS-012",
+  "clip": "health_icon",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/source_images/BOSS-012_health_icon_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-a8b09fbf-ce5c-429c-9064-e0080c122ed3.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. UI health bar boss icon proposal for hand-painted 2D game Lanterns Underroot. Input1 is Hollow Sentinel identity model. Create ONE isolated centered AMBER faceted diamond-shaped chest crystal, matching the reference chest's golden-orange crystal exactly, with very small dark bluegray cracked stone socket rim around crystal. Icon should read clearly at64px. Square1024x1024 canvas, icon occupies central60percent, ample transparent margin. Warm cream-gold center, amber facets, subtle dark stone outline, no character body, no portrait, no health bar, letters, numerals, frame, text, square background, scenery, or additional icon. Genuine transparent background, crystal/stone interiors opaque. Minimal glow confined close to crystal; no broad haze. This is health bar icon only.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/source_images/BOSS-001_model_original.png"
+      ],
+      "clip": "health_icon",
+      "review": "selected prototype",
+      "bytes": 693397,
+      "sha256": "4c2a7dfaae261e2a6c3acc9114b0e2510d5675df26ba409175926240c01993db",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}

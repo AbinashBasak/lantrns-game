@@ -1,0 +1,55 @@
+{
+  "asset_id": "BOSS-012",
+  "clip": "ui_portrait",
+  "frame_count": 1,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": null,
+  "loop": false,
+  "preview_loops_for_review": false,
+  "pivot_px": [
+    256,
+    256
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/exports/ui_portrait/frames/BOSS-012_ui_portrait_01.png"
+  ],
+  "poses": [
+    "Hollow Sentinel head and upper chest portrait"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/source_images/BOSS-012_ui_portrait_original.png",
+      "source_crop": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "source_regions": null,
+      "scale": 0.38817005545286504,
+      "offset": [
+        12,
+        9
+      ],
+      "alpha230_bbox": [
+        88,
+        116,
+        1170,
+        1156
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "review_notes": [
+    "Amber eyes/chest core, bluegray stone helmet, brown roots and moss shoulders match proposal identity.",
+    "Portrait shoulder width fills most canvas; small-size UI reduction needs review."
+  ],
+  "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+}

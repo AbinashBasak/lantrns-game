@@ -1,0 +1,29 @@
+{
+  "asset_id": "BOSS-012",
+  "clip": "ui_portrait",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/source_images/BOSS-012_ui_portrait_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-f29549b3-2024-4d0a-913d-937038ed795c.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. UI boss portrait proposal for hand-painted 2D game Lanterns Underroot. Input1 is Hollow Sentinel identity model, preserve exact character. ONE centered portrait showing helmet/head, shoulders and upper chest with amber crystal, front-three-quarter facing right. Same angular spiked dark bluegray stone helmet, narrow amber eyes, brown root horns/joints, moss green shoulders, cracked gray chest plates, AMBER diamond crystal. Crop at upper chest bottom as a clean portrait bust, do not show detached arms or full legs. Square1024x1024 canvas, head and shoulders fit safely with100px transparent margin. No UI frame, border, health bar, lettering, labels, other characters or scenery. Genuine transparent background, opaque stone/root interiors. No broad glow or atmosphere, no new character design.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/source_images/BOSS-001_model_original.png"
+      ],
+      "clip": "ui_portrait",
+      "review": "selected prototype",
+      "bytes": 1532394,
+      "sha256": "d8f2fa580eddf984c734cb0e8b0edf6372173ef498f27e7a9451d573b4d25ced",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}

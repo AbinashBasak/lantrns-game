@@ -1,0 +1,506 @@
+{
+  "asset_id": "BOSS-010",
+  "title": "Defeat animation",
+  "checked": true,
+  "stage": "animation prototype generated and visually reviewed; 1 deliverable clip/view set(s); cleanup and production approval pending",
+  "last_updated": "2026-10-17T01:42:52.790076+05:30",
+  "generation_tool": "built-in image_gen",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/source_images/BOSS-010_defeat_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-40fbbd07-d6e8-4ffb-b47a-37a4b9c6f217.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted 2D game animation prototype sprite sheet, EXACTLY six full-body poses, equal 3 columns x 2 rows on 1536x1024 canvas. Read left-right then top-bottom. Each cell512x512, guardian centered, generous70px clear transparent padding. Uniform scale, camera fixed front-three-quarter facing RIGHT, full body fits every cell. Genuine transparent background, opaque stone/root interiors. No background, ground, shadow, atmosphere, labels, borders, text, other characters, or external weapon. Reference image1 identity: Hollow Sentinel compact heavy bluegray stone plate armor, spiked stone crown/helmet, amber eyes, single amber faceted chest crystal, cracked chest plates, thick brown root joints, mossy green shoulders, huge stone fists, two arms two legs. Preserve armor design and amber core, never blue. Use rightmost reference figure as angle. Model is proposal.  CRITICAL: compact guardians with maximum340px standing height, rather than filling the cell. Every pose should have substantial blank padding. One coherent NONVIOLENT DEFEAT DISASSEMBLY. 1 weakened hunched standing, dim core. 2 guardian kneels on one knee and lowers both fists peacefully. 3 head bowed, stone chest plates and shoulder stones loosen with gaps, roots untwist. 4 shell sinks into separated large stones and loose roots, head/limbs no longer connected, AMBER chest crystal floats just above remnants. 5 low small pile of detached stone and root remnants beneath floating amber crystal, no intact body. 6 ONLY small faceted golden fragment floating at original chest height, few tiny root flecks low, no intact guardian. Last core becomes quest fragment; do NOT draw a humanoid in last two cells. No explosion, gore, rubble ground, violent blast or new character.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/source_images/BOSS-001_model_original.png"
+      ],
+      "clip": "defeat",
+      "review": "selected prototype",
+      "bytes": 2225059,
+      "sha256": "f59abd7274ffa76b8a83180f3f36f6ad4a94c0a05b3371e4687b949b97cd13e3",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "clips": [
+    {
+      "asset_id": "BOSS-010",
+      "clip": "defeat",
+      "frame_count": 6,
+      "frame_dimensions": [
+        512,
+        512
+      ],
+      "frame_durations_ms": [
+        160,
+        220,
+        180,
+        200,
+        220,
+        400
+      ],
+      "loop": false,
+      "preview_loops_for_review": true,
+      "pivot_px": [
+        256,
+        480
+      ],
+      "frames": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/frames/BOSS-010_defeat_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/frames/BOSS-010_defeat_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/frames/BOSS-010_defeat_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/frames/BOSS-010_defeat_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/frames/BOSS-010_defeat_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/frames/BOSS-010_defeat_06.png"
+      ],
+      "poses": [
+        "weakened",
+        "kneel lower fists",
+        "shell loosens",
+        "shell disassembles",
+        "root stone remnants",
+        "floating golden fragment"
+      ],
+      "transforms": [
+        {
+          "frame": 1,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/source_images/BOSS-010_defeat_original.png",
+          "source_crop": [
+            0,
+            0,
+            512,
+            532
+          ],
+          "source_regions": null,
+          "scale": 0.8458646616541353,
+          "offset": [
+            39,
+            37
+          ],
+          "alpha230_bbox": [
+            100,
+            65,
+            437,
+            518
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 2,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/source_images/BOSS-010_defeat_original.png",
+          "source_crop": [
+            512,
+            0,
+            1024,
+            532
+          ],
+          "source_regions": null,
+          "scale": 0.8458646616541353,
+          "offset": [
+            39,
+            37
+          ],
+          "alpha230_bbox": [
+            51,
+            136,
+            434,
+            521
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 3,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/source_images/BOSS-010_defeat_original.png",
+          "source_crop": [
+            1024,
+            0,
+            1536,
+            532
+          ],
+          "source_regions": null,
+          "scale": 0.8458646616541353,
+          "offset": [
+            39,
+            37
+          ],
+          "alpha230_bbox": [
+            59,
+            134,
+            466,
+            524
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 4,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/source_images/BOSS-010_defeat_original.png",
+          "source_crop": [
+            0,
+            532,
+            512,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.8458646616541353,
+          "offset": [
+            39,
+            113
+          ],
+          "alpha230_bbox": [
+            59,
+            28,
+            485,
+            434
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 5,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/source_images/BOSS-010_defeat_original.png",
+          "source_crop": [
+            512,
+            532,
+            1024,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.8458646616541353,
+          "offset": [
+            39,
+            113
+          ],
+          "alpha230_bbox": [
+            42,
+            158,
+            477,
+            433
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 6,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/source_images/BOSS-010_defeat_original.png",
+          "source_crop": [
+            1024,
+            532,
+            1536,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.8458646616541353,
+          "offset": [
+            39,
+            113
+          ],
+          "alpha230_bbox": [
+            157,
+            174,
+            334,
+            407
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "review_notes": [
+        "Top-row subject extends below512; custom y532 crop boundary preserves feet, bottom-row starts near558.",
+        "Preserve shrinking remnant/crystal composition; do not independently normalize latter frames to full body size.",
+        "Ambient alpha halos, core size/height continuity require cleanup."
+      ],
+      "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+    }
+  ],
+  "review_notes": [
+    "Prototype; requested nonviolent root/stone disassembly and final amber fragment present.",
+    "Independent quest collectible not delivered by this animation; amber fragment here is animation component.",
+    "Generated designs are proposals based on project art/story; user production approval is not inferred.",
+    "Generated alpha is preserved. Source haze, armor/anatomy continuity, foot contacts and timing require cleanup and Godot review. No runtime integration performed."
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/BOSS-010_defeat_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/previews/BOSS-010_defeat_preview.gif",
+  "asset_pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/BOSS-010_prototype_pack.zip",
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/BOSS-010_README.md",
+      "bytes": 1230,
+      "sha256": "4908ff7d8f28db02b2fe3cf0ce9357142524242de5bc246210a7e4c03630bb44"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/BOSS-010_defeat_generation_prompts.json",
+      "bytes": 2887,
+      "sha256": "9465c3013b9e030ce3c763dbdb69247a971411740fd140379c2f55da89c8327c"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/BOSS-010_defeat_manifest.json",
+      "bytes": 5462,
+      "sha256": "ba22e9753b2d0c8b024b9ccba13c3ea7b8dec67c40cc211514fab6dab96ecdd9"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/BOSS-010_defeat_silhouettes_strip.png",
+      "bytes": 20197,
+      "sha256": "e30f66804edc247c1bcee15b06bb68d92a4dfef8a3766942867651c14c3911fe",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/BOSS-010_defeat_strip.png",
+      "bytes": 1121959,
+      "sha256": "c5a9e2a47fd23fda36a7ecb5a317e8117c7925cf66a265f5fc4573269059414e",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/BOSS-010_prototype_pack.zip",
+      "bytes": 5054601,
+      "sha256": "cec49d1ffe1d32cf52e979cf0eecda03d59775c3cde5b2fc405d045b0c852ebb"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/frames/BOSS-010_defeat_01.png",
+      "bytes": 231332,
+      "sha256": "0d3caac11907fb80186b5fc322284afc5e996d7791becba980f5eee85559dfc5",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/frames/BOSS-010_defeat_02.png",
+      "bytes": 199252,
+      "sha256": "2a34d9cb12be6e40ffb887ecaa651c5d48dec4b6632131ac3c260e842579efa1",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/frames/BOSS-010_defeat_03.png",
+      "bytes": 244966,
+      "sha256": "fa3b90572a798fe26474de32a1b7b68c35da70ced9a476a3c3558e285c388d4f",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/frames/BOSS-010_defeat_04.png",
+      "bytes": 250701,
+      "sha256": "085f1b6acc9ae4837562b3a2f7526d7ab281a3d0abb94557a9f42864757caec3",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/frames/BOSS-010_defeat_05.png",
+      "bytes": 143337,
+      "sha256": "6ba8ffbe5fd783ba65df5189f4368926cec679abea1280abbc6acc47ee5d99f4",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/frames/BOSS-010_defeat_06.png",
+      "bytes": 36195,
+      "sha256": "18ef9957ffe62a0b83147432851d260249601cdf9a22494d2aee2049113c84a7",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/silhouettes/BOSS-010_defeat_01_silhouette.png",
+      "bytes": 3947,
+      "sha256": "a7024a421faced7d71debd1990848aa223bcb09198948af82653226f2b1c4d63",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/silhouettes/BOSS-010_defeat_02_silhouette.png",
+      "bytes": 3462,
+      "sha256": "e6d9db48f74f44948a9c5c53b5a2e8822adaf2bc8ab6c46862d97cf4acdab518",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/silhouettes/BOSS-010_defeat_03_silhouette.png",
+      "bytes": 4051,
+      "sha256": "15afda7c91a0a1e24e0b54f3016c7eb6342d129779f4890e34ea9e66e7f47c06",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/silhouettes/BOSS-010_defeat_04_silhouette.png",
+      "bytes": 5854,
+      "sha256": "cb6a8b219a22dfbbddd15c3b09e618fc116a7abff427cee3bff1fb815ce733a5",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/silhouettes/BOSS-010_defeat_05_silhouette.png",
+      "bytes": 3681,
+      "sha256": "b2853c8c5b40080c2c4aabf22a765f9295c48ddc62902dd1f7a60dcdcc078b99",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/silhouettes/BOSS-010_defeat_06_silhouette.png",
+      "bytes": 2379,
+      "sha256": "1883212fe10394f60fbda46cb550b86fd42f425562236b7ea431bdc4cf3f87cb",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/previews/BOSS-010_defeat_contact_sheet.jpg",
+      "bytes": 225212,
+      "sha256": "37ef7883e6620f2b904ac0798f3c76c2f425aeccd21e5f6488a855a6ea263a8c",
+      "dimensions": [
+        1536,
+        1104
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/previews/BOSS-010_defeat_preview.gif",
+      "bytes": 375692,
+      "sha256": "6a4177aeb9bd22134cf911eeb3565c25c9b1b8c43ab2c8636c1b5e1401d10971",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/source_images/BOSS-010_defeat_original.png",
+      "bytes": 2225059,
+      "sha256": "f59abd7274ffa76b8a83180f3f36f6ad4a94c0a05b3371e4687b949b97cd13e3",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "production_approved": false,
+  "checklist_status_source": "/Users/abinashbasak/Downloads/lanterns_underroot_master_asset_checklist.md"
+}

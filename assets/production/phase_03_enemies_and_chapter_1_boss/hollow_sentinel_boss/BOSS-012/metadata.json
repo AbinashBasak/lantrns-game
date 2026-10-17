@@ -1,0 +1,375 @@
+{
+  "asset_id": "BOSS-012",
+  "title": "Boss health bar icon and UI portrait",
+  "checked": true,
+  "stage": "UI proposal generated and visually reviewed; 2 deliverable clip/view set(s); cleanup and production approval pending",
+  "last_updated": "2026-10-17T01:42:52.790076+05:30",
+  "generation_tool": "built-in image_gen",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/source_images/BOSS-012_health_icon_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-a8b09fbf-ce5c-429c-9064-e0080c122ed3.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. UI health bar boss icon proposal for hand-painted 2D game Lanterns Underroot. Input1 is Hollow Sentinel identity model. Create ONE isolated centered AMBER faceted diamond-shaped chest crystal, matching the reference chest's golden-orange crystal exactly, with very small dark bluegray cracked stone socket rim around crystal. Icon should read clearly at64px. Square1024x1024 canvas, icon occupies central60percent, ample transparent margin. Warm cream-gold center, amber facets, subtle dark stone outline, no character body, no portrait, no health bar, letters, numerals, frame, text, square background, scenery, or additional icon. Genuine transparent background, crystal/stone interiors opaque. Minimal glow confined close to crystal; no broad haze. This is health bar icon only.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/source_images/BOSS-001_model_original.png"
+      ],
+      "clip": "health_icon",
+      "review": "selected prototype",
+      "bytes": 693397,
+      "sha256": "4c2a7dfaae261e2a6c3acc9114b0e2510d5675df26ba409175926240c01993db",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/source_images/BOSS-012_ui_portrait_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-f29549b3-2024-4d0a-913d-937038ed795c.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. UI boss portrait proposal for hand-painted 2D game Lanterns Underroot. Input1 is Hollow Sentinel identity model, preserve exact character. ONE centered portrait showing helmet/head, shoulders and upper chest with amber crystal, front-three-quarter facing right. Same angular spiked dark bluegray stone helmet, narrow amber eyes, brown root horns/joints, moss green shoulders, cracked gray chest plates, AMBER diamond crystal. Crop at upper chest bottom as a clean portrait bust, do not show detached arms or full legs. Square1024x1024 canvas, head and shoulders fit safely with100px transparent margin. No UI frame, border, health bar, lettering, labels, other characters or scenery. Genuine transparent background, opaque stone/root interiors. No broad glow or atmosphere, no new character design.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/source_images/BOSS-001_model_original.png"
+      ],
+      "clip": "ui_portrait",
+      "review": "selected prototype",
+      "bytes": 1532394,
+      "sha256": "d8f2fa580eddf984c734cb0e8b0edf6372173ef498f27e7a9451d573b4d25ced",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "frame_count": 2,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "clips": [
+    {
+      "asset_id": "BOSS-012",
+      "clip": "health_icon",
+      "frame_count": 1,
+      "frame_dimensions": [
+        512,
+        512
+      ],
+      "frame_durations_ms": null,
+      "loop": false,
+      "preview_loops_for_review": false,
+      "pivot_px": [
+        256,
+        256
+      ],
+      "frames": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/exports/health_icon/frames/BOSS-012_health_icon_01.png"
+      ],
+      "poses": [
+        "Amber core health bar icon"
+      ],
+      "transforms": [
+        {
+          "frame": 1,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/source_images/BOSS-012_health_icon_original.png",
+          "source_crop": [
+            0,
+            0,
+            1254,
+            1254
+          ],
+          "source_regions": null,
+          "scale": 0.45307443365695793,
+          "offset": [
+            -28,
+            -23
+          ],
+          "alpha230_bbox": [
+            312,
+            152,
+            943,
+            1079
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "review_notes": [
+        "Single amber crystal/socket icon, no health bar or text. UI small-size legibility requires review."
+      ],
+      "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+    },
+    {
+      "asset_id": "BOSS-012",
+      "clip": "ui_portrait",
+      "frame_count": 1,
+      "frame_dimensions": [
+        512,
+        512
+      ],
+      "frame_durations_ms": null,
+      "loop": false,
+      "preview_loops_for_review": false,
+      "pivot_px": [
+        256,
+        256
+      ],
+      "frames": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/exports/ui_portrait/frames/BOSS-012_ui_portrait_01.png"
+      ],
+      "poses": [
+        "Hollow Sentinel head and upper chest portrait"
+      ],
+      "transforms": [
+        {
+          "frame": 1,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/source_images/BOSS-012_ui_portrait_original.png",
+          "source_crop": [
+            0,
+            0,
+            1254,
+            1254
+          ],
+          "source_regions": null,
+          "scale": 0.38817005545286504,
+          "offset": [
+            12,
+            9
+          ],
+          "alpha230_bbox": [
+            88,
+            116,
+            1170,
+            1156
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "review_notes": [
+        "Amber eyes/chest core, bluegray stone helmet, brown roots and moss shoulders match proposal identity.",
+        "Portrait shoulder width fills most canvas; small-size UI reduction needs review."
+      ],
+      "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+    }
+  ],
+  "review_notes": [
+    "Two separate UI deliverables: amber-core health icon and matching head/upper-chest portrait; no bar or frame required.",
+    "Proposal; final UI sizing/legibility and consistency pending review.",
+    "Generated designs are proposals based on project art/story; user production approval is not inferred.",
+    "Generated alpha is preserved. Source haze, armor/anatomy continuity, foot contacts and timing require cleanup and Godot review. No runtime integration performed."
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/exports/BOSS-012_health_icon_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/previews/BOSS-012_health_icon_contact_sheet.jpg",
+  "asset_pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/exports/BOSS-012_prototype_pack.zip",
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/exports/BOSS-012_README.md",
+      "bytes": 1254,
+      "sha256": "e04ba54387e2d0e41f9bda2cbdec740529018365adc7e13ac00550116627e998"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/exports/BOSS-012_health_icon_generation_prompts.json",
+      "bytes": 1934,
+      "sha256": "3cf3c641991a10324af7eb4ac22eece32495ae05e2b60866794c795095fcf302"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/exports/BOSS-012_health_icon_manifest.json",
+      "bytes": 1316,
+      "sha256": "6ca3de379a55b21e5c28bccb882d4f6c6671329981fbcba5c3a0178b0e85a32d"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/exports/BOSS-012_health_icon_silhouettes_strip.png",
+      "bytes": 3663,
+      "sha256": "ef6b985772f4d9a2a69570974cde9ae7672a7f061972097bb3f31e09023b9e90",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/exports/BOSS-012_health_icon_strip.png",
+      "bytes": 168958,
+      "sha256": "a9581adc197d5396e2cd88ac60002f73617d2631697d43c69bd300360f1ba2b2",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/exports/BOSS-012_prototype_pack.zip",
+      "bytes": 3166008,
+      "sha256": "34167918a0a347b7245649b2f3e24b125ff11b81ec016f3d838e99177cbb1bea"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/exports/BOSS-012_ui_portrait_generation_prompts.json",
+      "bytes": 1952,
+      "sha256": "b3ccaa42bc62dae1a424616604754e75eb5fd0337ab33cc30af06fc61bc282d2"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/exports/BOSS-012_ui_portrait_manifest.json",
+      "bytes": 1423,
+      "sha256": "ce1a905a2a6876b14e4f6398c0197d325efcf7f20cd5806f3f6275cff3ab435b"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/exports/BOSS-012_ui_portrait_silhouettes_strip.png",
+      "bytes": 4162,
+      "sha256": "85cc57dc8b18fce89758cda0b534ce7db2ae6d50898413a45279852c6e3b8595",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/exports/BOSS-012_ui_portrait_strip.png",
+      "bytes": 278914,
+      "sha256": "eaeba3f827b49a711edad397af11250019cc515ed7247b5573b77046ac940233",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/exports/health_icon/frames/BOSS-012_health_icon_01.png",
+      "bytes": 168958,
+      "sha256": "a9581adc197d5396e2cd88ac60002f73617d2631697d43c69bd300360f1ba2b2",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/exports/health_icon/silhouettes/BOSS-012_health_icon_01_silhouette.png",
+      "bytes": 3663,
+      "sha256": "ef6b985772f4d9a2a69570974cde9ae7672a7f061972097bb3f31e09023b9e90",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/exports/ui_portrait/frames/BOSS-012_ui_portrait_01.png",
+      "bytes": 278914,
+      "sha256": "eaeba3f827b49a711edad397af11250019cc515ed7247b5573b77046ac940233",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/exports/ui_portrait/silhouettes/BOSS-012_ui_portrait_01_silhouette.png",
+      "bytes": 4162,
+      "sha256": "85cc57dc8b18fce89758cda0b534ce7db2ae6d50898413a45279852c6e3b8595",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/previews/BOSS-012_health_icon_contact_sheet.jpg",
+      "bytes": 42275,
+      "sha256": "3dd3610fe9d555912d01e06371cdc4a407fd707e7aa0069a15986866d74fd43f",
+      "dimensions": [
+        512,
+        552
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/previews/BOSS-012_ui_portrait_contact_sheet.jpg",
+      "bytes": 62398,
+      "sha256": "480c390bf8fcd34edb89460ffcd17513f1c22662971e6caa18fc2ca81ba528ea",
+      "dimensions": [
+        512,
+        552
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/source_images/BOSS-012_health_icon_original.png",
+      "bytes": 693397,
+      "sha256": "4c2a7dfaae261e2a6c3acc9114b0e2510d5675df26ba409175926240c01993db",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/source_images/BOSS-012_ui_portrait_original.png",
+      "bytes": 1532394,
+      "sha256": "d8f2fa580eddf984c734cb0e8b0edf6372173ef498f27e7a9451d573b4d25ced",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "production_approved": false,
+  "checklist_status_source": "/Users/abinashbasak/Downloads/lanterns_underroot_master_asset_checklist.md"
+}

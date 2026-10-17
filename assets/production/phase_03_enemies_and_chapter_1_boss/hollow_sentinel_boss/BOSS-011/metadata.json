@@ -1,0 +1,1068 @@
+{
+  "asset_id": "BOSS-011",
+  "title": "Boss arena entrance and awakening effects",
+  "checked": true,
+  "stage": "animation prototype generated and visually reviewed; 2 deliverable clip/view set(s); cleanup and production approval pending",
+  "last_updated": "2026-10-17T01:42:52.790076+05:30",
+  "generation_tool": "built-in image_gen",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/source_images/BOSS-011_awakening_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-a50c60d7-bf4a-42ab-84ac-3a83ae9e3fc4.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted 2D game animation prototype sprite sheet, EXACTLY six full-body poses, equal 3 columns x 2 rows on 1536x1024 canvas. Read left-right then top-bottom. Each cell512x512, guardian centered, generous70px clear transparent padding. Uniform scale, camera fixed front-three-quarter facing RIGHT, full body fits every cell. Genuine transparent background, opaque stone/root interiors. No background, ground, shadow, atmosphere, labels, borders, text, other characters, or external weapon. Reference image1 identity: Hollow Sentinel compact heavy bluegray stone plate armor, spiked stone crown/helmet, amber eyes, single amber faceted chest crystal, cracked chest plates, thick brown root joints, mossy green shoulders, huge stone fists, two arms two legs. Preserve armor design and amber core, never blue. Use rightmost reference figure as angle. Model is proposal.  CRITICAL: compact guardians with maximum340px standing height, rather than filling the cell. Every pose should have substantial blank padding. One coherent ENTRANCE / AWAKENING animation, guardian only plus tiny bounded effects, no arena. 1 dormant kneeling on one knee, head down, fists near bent legs, chest faint amber and eyes dark. 2 same kneel but amber eyes ignite, head lifts. 3 one huge fist plants beneath shoulder, body leans forward to push up. 4 halfway rising, knees still bent, planted fist uncoils. 5 stands tall, arms lower, short root curls loosen from feet and a FEW dust specks only around ankles. 6 alert ready, fists low, compact roots at joints, amber chest and eyes steady. Continuous rise from visibly LOW kneeling silhouette into full standing silhouette; no repeated six standing poses.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/source_images/BOSS-001_model_original.png"
+      ],
+      "clip": "awakening",
+      "review": "selected prototype",
+      "bytes": 2332874,
+      "sha256": "d5fd4242d00138dc5197a5e20cc719948f7cccd746400331c984e72ac4e421c4",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/source_images/BOSS-011_awakening_fx_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-ab6a7610-f40f-4db7-b66c-23202a0469b9.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Asset BOSS-011 Hollow Sentinel arena awakening FX layer ONLY, isolated transparent 2D fantasy game effect sprites. No guardian/character/stonebody/portrait/environment/arena backdrop. Six chronological FX phases in EXACT3columns2rows equal512pxcells on1536x1024. Every entire effect within own cell with80px empty margin, no overlap. Same origin x256 y420 in eachcell, no opaque floor. Warm amber-gold magic, sparse graygold dust flecks, SMALL brown root tendrils curling upward from invisible floor; coolshadow rootbark. Original hand-painted illustrated game FX matching reference palette only, never copy reference board text/panels/scenes. 1 dormant fewdim amberdustspecks nearorigin;2 faint compact amber ring lights atfloororigin two shortroot tips;3 four small curling roots rising with dust and stronger ambercenter;4 peak bounded goldenburst rising 180px with roots curled aside;5 roots settle low dust drifts up glow subsides;6 only fewfading amberdust specks. Six DISTINCT phases readable atsmallscale. Genuinely transparent alpha with feathered luminous effects, no black/background rectangle, no haze fillingcanvas, no squarecellmatte. Do NOT draw characters or rocks, no textlabels borders floorplane castshadow scenery swords or giantlightbeams. Each effect maximaldiameter320px withcleartransparentgaps.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-005/ART-005_magic_rune_glow_particle_reference.png"
+      ],
+      "clip": "awakening_fx",
+      "review": "selected prototype",
+      "bytes": 1602149,
+      "sha256": "8920f7ec6eb38ee5a34e2704e1a8ed883021f10ac2505f6cd51a02a960cc6095",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "frame_count": 12,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "clips": [
+    {
+      "asset_id": "BOSS-011",
+      "clip": "awakening",
+      "frame_count": 6,
+      "frame_dimensions": [
+        512,
+        512
+      ],
+      "frame_durations_ms": [
+        280,
+        180,
+        180,
+        220,
+        180,
+        220
+      ],
+      "loop": false,
+      "preview_loops_for_review": true,
+      "pivot_px": [
+        256,
+        480
+      ],
+      "frames": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/frames/BOSS-011_awakening_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/frames/BOSS-011_awakening_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/frames/BOSS-011_awakening_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/frames/BOSS-011_awakening_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/frames/BOSS-011_awakening_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/frames/BOSS-011_awakening_06.png"
+      ],
+      "poses": [
+        "dormant kneel",
+        "eyes ignite",
+        "hand plant",
+        "half rise",
+        "stand",
+        "ready"
+      ],
+      "transforms": [
+        {
+          "frame": 1,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/source_images/BOSS-011_awakening_original.png",
+          "source_crop": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "source_regions": null,
+          "scale": 0.8653846153846154,
+          "offset": [
+            34,
+            36
+          ],
+          "alpha230_bbox": [
+            79,
+            161,
+            462,
+            508
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 2,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/source_images/BOSS-011_awakening_original.png",
+          "source_crop": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "source_regions": null,
+          "scale": 0.8653846153846154,
+          "offset": [
+            34,
+            36
+          ],
+          "alpha230_bbox": [
+            65,
+            147,
+            430,
+            509
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 3,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/source_images/BOSS-011_awakening_original.png",
+          "source_crop": [
+            1024,
+            0,
+            1536,
+            520
+          ],
+          "source_regions": null,
+          "scale": 0.8653846153846154,
+          "offset": [
+            34,
+            36
+          ],
+          "alpha230_bbox": [
+            43,
+            136,
+            446,
+            513
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 4,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/source_images/BOSS-011_awakening_original.png",
+          "source_crop": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.8653846153846154,
+          "offset": [
+            34,
+            78
+          ],
+          "alpha230_bbox": [
+            81,
+            33,
+            498,
+            465
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 5,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/source_images/BOSS-011_awakening_original.png",
+          "source_crop": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.8653846153846154,
+          "offset": [
+            34,
+            78
+          ],
+          "alpha230_bbox": [
+            73,
+            18,
+            442,
+            463
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 6,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/source_images/BOSS-011_awakening_original.png",
+          "source_crop": [
+            1024,
+            520,
+            1536,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.8653846153846154,
+          "offset": [
+            34,
+            78
+          ],
+          "alpha230_bbox": [
+            63,
+            13,
+            423,
+            454
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "review_notes": [
+        "Dormant eyes dark then ignite; kneel/hand plant/half rise/stand/ready distinguishable.",
+        "Standing bodies generated slightly larger than kneel anatomy; align baseline and review scale in engine."
+      ],
+      "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+    },
+    {
+      "asset_id": "BOSS-011",
+      "clip": "awakening_fx",
+      "frame_count": 6,
+      "frame_dimensions": [
+        512,
+        512
+      ],
+      "frame_durations_ms": [
+        160,
+        180,
+        180,
+        240,
+        200,
+        220
+      ],
+      "loop": false,
+      "preview_loops_for_review": true,
+      "pivot_px": [
+        256,
+        480
+      ],
+      "frames": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/frames/BOSS-011_awakening_fx_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/frames/BOSS-011_awakening_fx_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/frames/BOSS-011_awakening_fx_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/frames/BOSS-011_awakening_fx_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/frames/BOSS-011_awakening_fx_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/frames/BOSS-011_awakening_fx_06.png"
+      ],
+      "poses": [
+        "dormant amber specks",
+        "faint ring and root tips",
+        "root rise",
+        "peak amber awakening",
+        "roots settle",
+        "fading specks"
+      ],
+      "transforms": [
+        {
+          "frame": 1,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/source_images/BOSS-011_awakening_fx_original.png",
+          "source_crop": [
+            0,
+            0,
+            512,
+            475
+          ],
+          "source_regions": null,
+          "scale": 0.819672131147541,
+          "offset": [
+            46,
+            61
+          ],
+          "alpha230_bbox": [
+            209,
+            385,
+            214,
+            389
+          ],
+          "alpha_extrema": [
+            0,
+            236
+          ]
+        },
+        {
+          "frame": 2,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/source_images/BOSS-011_awakening_fx_original.png",
+          "source_crop": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "source_regions": null,
+          "scale": 0.819672131147541,
+          "offset": [
+            46,
+            46
+          ],
+          "alpha230_bbox": [
+            151,
+            314,
+            365,
+            418
+          ],
+          "alpha_extrema": [
+            0,
+            251
+          ]
+        },
+        {
+          "frame": 3,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/source_images/BOSS-011_awakening_fx_original.png",
+          "source_crop": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "source_regions": null,
+          "scale": 0.819672131147541,
+          "offset": [
+            46,
+            46
+          ],
+          "alpha230_bbox": [
+            117,
+            197,
+            399,
+            432
+          ],
+          "alpha_extrema": [
+            0,
+            253
+          ]
+        },
+        {
+          "frame": 4,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/source_images/BOSS-011_awakening_fx_original.png",
+          "source_crop": [
+            0,
+            475,
+            512,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.819672131147541,
+          "offset": [
+            46,
+            31
+          ],
+          "alpha230_bbox": [
+            102,
+            105,
+            470,
+            450
+          ],
+          "alpha_extrema": [
+            0,
+            254
+          ]
+        },
+        {
+          "frame": 5,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/source_images/BOSS-011_awakening_fx_original.png",
+          "source_crop": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.819672131147541,
+          "offset": [
+            46,
+            46
+          ],
+          "alpha230_bbox": [
+            113,
+            227,
+            415,
+            405
+          ],
+          "alpha_extrema": [
+            0,
+            253
+          ]
+        },
+        {
+          "frame": 6,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/source_images/BOSS-011_awakening_fx_original.png",
+          "source_crop": [
+            1024,
+            512,
+            1536,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.819672131147541,
+          "offset": [
+            46,
+            46
+          ],
+          "alpha230_bbox": [
+            177,
+            259,
+            317,
+            280
+          ],
+          "alpha_extrema": [
+            0,
+            236
+          ]
+        }
+      ],
+      "review_notes": [
+        "Separate FX-only layer; no character or arena environment. Six rise/peak/fade phases present. Broad gold alpha haze persists, taper/coverage cleanup needed.",
+        "Custom first-column split475 preserves peak beam which rises above nominal row boundary."
+      ],
+      "mask_method": "alpha >=16 coverage mask for effect"
+    }
+  ],
+  "review_notes": [
+    "Guardian entrance/awakening animation with bounded root/dust accents; arena scenery not part of this asset.",
+    "Proposal/prototype; soft ambient alpha and armor continuity cleanup pending.",
+    "Generated designs are proposals based on project art/story; user production approval is not inferred.",
+    "Generated alpha is preserved. Source haze, armor/anatomy continuity, foot contacts and timing require cleanup and Godot review. No runtime integration performed."
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/BOSS-011_awakening_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/previews/BOSS-011_awakening_preview.gif",
+  "asset_pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/BOSS-011_prototype_pack.zip",
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/BOSS-011_README.md",
+      "bytes": 1420,
+      "sha256": "e4eeb05f8f20aa982f4e536f949d70e1b13c255ab53cab8888c17a6b8f518fa9"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/BOSS-011_awakening_fx_coverage_masks_strip.png",
+      "bytes": 14131,
+      "sha256": "fa545532fc478b219857276a1d7ac47eafc33cc6f2a84fb3cf19ca3d00e677e5",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/BOSS-011_awakening_fx_generation_prompts.json",
+      "bytes": 2447,
+      "sha256": "4c26a064ae96111e5c1aa2b58f775ec163c6f8b9f0627358d06a075a103b6f9d"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/BOSS-011_awakening_fx_manifest.json",
+      "bytes": 5512,
+      "sha256": "b35861e04e80eae4a7459eea1e4d7d44ff0e1f66898f2106e4ba0707f644cce9"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/BOSS-011_awakening_fx_silhouettes_strip.png",
+      "bytes": 14131,
+      "sha256": "fa545532fc478b219857276a1d7ac47eafc33cc6f2a84fb3cf19ca3d00e677e5",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/BOSS-011_awakening_fx_strip.png",
+      "bytes": 601836,
+      "sha256": "0762083edbcaa3cc9e3e3e382c4d885583bdf7f855818e91bc140ec9e458c688",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/BOSS-011_awakening_generation_prompts.json",
+      "bytes": 2833,
+      "sha256": "78138be6bf0a5c8dacae4d8722ce6155f65c688b175d208758a2525b4adddc99"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/BOSS-011_awakening_manifest.json",
+      "bytes": 5371,
+      "sha256": "161085bd6a688db2056c2f783795df3f3d0d6eabe16cf3752aabbceea619d0ad"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/BOSS-011_awakening_silhouettes_strip.png",
+      "bytes": 19656,
+      "sha256": "0cb74e41b5257fb7637c793c562435723b2ea4e93b913e2c810cc09116730644",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/BOSS-011_awakening_strip.png",
+      "bytes": 1295172,
+      "sha256": "c59181168c352459945ec40249186dcb98b2044a35ec64732fb3e695d12b4ac1",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/BOSS-011_prototype_pack.zip",
+      "bytes": 8735207,
+      "sha256": "161922984360f5f53dfed089e0f4e0c0cab149f01c8b74da1a62675ba80cbbe7"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/frames/BOSS-011_awakening_01.png",
+      "bytes": 183688,
+      "sha256": "8eaad6b9e693d93150d3860fbd013c34fa7cf05ace216986af44fc8681073855",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/frames/BOSS-011_awakening_02.png",
+      "bytes": 181423,
+      "sha256": "bbbb82b395354d2fade2d4fc9907ced9b72199c21233acf9e690e873aec46b83",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/frames/BOSS-011_awakening_03.png",
+      "bytes": 216161,
+      "sha256": "594def71308b85e69e5413ce4c82bdb3947372b9e1d6f42d656bfabc713d7809",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/frames/BOSS-011_awakening_04.png",
+      "bytes": 238494,
+      "sha256": "5de6cbb4246e959f3e330663ad853f349d6b0da4b5019c70fcf87bbfb0d40bc7",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/frames/BOSS-011_awakening_05.png",
+      "bytes": 245287,
+      "sha256": "947026ff2d49149a56b5b62d8fec08b936a8e1575ff4610dfa26ef14bec70e81",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/frames/BOSS-011_awakening_06.png",
+      "bytes": 226284,
+      "sha256": "bccb6a93bbe2150a0e214de76dc31f940f09fd25bdc14e97c67bb2fb8741ea07",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/silhouettes/BOSS-011_awakening_01_silhouette.png",
+      "bytes": 3131,
+      "sha256": "4521564042cb7c22c081054476f149befeb71a4b633e24d8cff58ef9dc9c0121",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/silhouettes/BOSS-011_awakening_02_silhouette.png",
+      "bytes": 3276,
+      "sha256": "b5e352fe94e7df9fb3da0ebf88f1a04055417350cd0da2e312fe2e6263ad0686",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/silhouettes/BOSS-011_awakening_03_silhouette.png",
+      "bytes": 4062,
+      "sha256": "48a472711a149f3e720b2fa4a5ee80b1a6c0b8b444db7ca1cf3954b03794b4b9",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/silhouettes/BOSS-011_awakening_04_silhouette.png",
+      "bytes": 4523,
+      "sha256": "19f3ace14c2c867f17fa209609b7b530f3ca7807759024b79febb3a7f2d52a41",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/silhouettes/BOSS-011_awakening_05_silhouette.png",
+      "bytes": 4714,
+      "sha256": "c10d5c3597a281a02775cd678abc70cb85269cb872c4bbd094e51d34033f38e2",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/silhouettes/BOSS-011_awakening_06_silhouette.png",
+      "bytes": 4264,
+      "sha256": "a184a8f1f7f35aee41bc68bdcce5c7f1b6ffd03e28fe91f59be6494e8905615a",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/coverage_masks/BOSS-011_awakening_fx_01_coverage_mask.png",
+      "bytes": 1879,
+      "sha256": "b4936219ecb745e4f4fb9c548f873a14fc3dd0ba088e71d079bd6b01f632e229",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/coverage_masks/BOSS-011_awakening_fx_02_coverage_mask.png",
+      "bytes": 2150,
+      "sha256": "c21d13747a8a049cafc334db0265b1f7b6e93ce0a1873076caee6b1cfa48d52e",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/coverage_masks/BOSS-011_awakening_fx_03_coverage_mask.png",
+      "bytes": 3160,
+      "sha256": "581e8b0854e801382ca085a7cb53e3877856045b1e8b93edfd20529c0e82e394",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/coverage_masks/BOSS-011_awakening_fx_04_coverage_mask.png",
+      "bytes": 3765,
+      "sha256": "821aae9b4797a037753457a63f445b8c3c9bb56071bc763d3a918adb47617606",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/coverage_masks/BOSS-011_awakening_fx_05_coverage_mask.png",
+      "bytes": 2956,
+      "sha256": "080968b7052a2b798534d23544695bcbc815b5fb933495e1ed0a1cfe19973a41",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/coverage_masks/BOSS-011_awakening_fx_06_coverage_mask.png",
+      "bytes": 1952,
+      "sha256": "bf1c16bc5fb7797443446d31147c7faa1ff1f972d5d91e9f7f0b80ed622e5978",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/frames/BOSS-011_awakening_fx_01.png",
+      "bytes": 31663,
+      "sha256": "7cec4337486df686a968a0f5055791f7de84991c0ea24be9c93544324866abda",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        236
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/frames/BOSS-011_awakening_fx_02.png",
+      "bytes": 65229,
+      "sha256": "bff412c8633b42087e206fe92b3ce7a707fca81e853757227cb0582c439328f1",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        251
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/frames/BOSS-011_awakening_fx_03.png",
+      "bytes": 123170,
+      "sha256": "6c31ea5b5a907e9fb241c58cdaaf12ea2204a55a255f99f0d0e42f4d2696d24d",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/frames/BOSS-011_awakening_fx_04.png",
+      "bytes": 217191,
+      "sha256": "5598157a05b0011ddbacac7e9f86f6b3dce6170ff7e85bb0255ce9777311a1ab",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/frames/BOSS-011_awakening_fx_05.png",
+      "bytes": 114950,
+      "sha256": "d31528224f4b0a22a9b79a54ac56ac38b65082f7c424ff4a96befa0401779a70",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/frames/BOSS-011_awakening_fx_06.png",
+      "bytes": 35023,
+      "sha256": "944e0c1be5616c5157b792402bc3583067c2654f2f74082967ebdd2a2a26e9a3",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        236
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/silhouettes/BOSS-011_awakening_fx_01_silhouette.png",
+      "bytes": 1879,
+      "sha256": "b4936219ecb745e4f4fb9c548f873a14fc3dd0ba088e71d079bd6b01f632e229",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/silhouettes/BOSS-011_awakening_fx_02_silhouette.png",
+      "bytes": 2150,
+      "sha256": "c21d13747a8a049cafc334db0265b1f7b6e93ce0a1873076caee6b1cfa48d52e",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/silhouettes/BOSS-011_awakening_fx_03_silhouette.png",
+      "bytes": 3160,
+      "sha256": "581e8b0854e801382ca085a7cb53e3877856045b1e8b93edfd20529c0e82e394",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/silhouettes/BOSS-011_awakening_fx_04_silhouette.png",
+      "bytes": 3765,
+      "sha256": "821aae9b4797a037753457a63f445b8c3c9bb56071bc763d3a918adb47617606",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/silhouettes/BOSS-011_awakening_fx_05_silhouette.png",
+      "bytes": 2956,
+      "sha256": "080968b7052a2b798534d23544695bcbc815b5fb933495e1ed0a1cfe19973a41",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening_fx/silhouettes/BOSS-011_awakening_fx_06_silhouette.png",
+      "bytes": 1952,
+      "sha256": "bf1c16bc5fb7797443446d31147c7faa1ff1f972d5d91e9f7f0b80ed622e5978",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/previews/BOSS-011_awakening_contact_sheet.jpg",
+      "bytes": 259434,
+      "sha256": "41cefb697a0c709806edf3ab98d6a2d1aa3c2ade0cb68376c93e6743c48716dc",
+      "dimensions": [
+        1536,
+        1104
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/previews/BOSS-011_awakening_fx_contact_sheet.jpg",
+      "bytes": 100854,
+      "sha256": "4baffa7a24e3d4a9a6363dd64bfdb2659761a0faa529f3398927bcb3ede3a464",
+      "dimensions": [
+        1536,
+        1104
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/previews/BOSS-011_awakening_fx_preview.gif",
+      "bytes": 197038,
+      "sha256": "7b66f59bfc4d0e0c1bb405934fbea3336aa77b91542d81a34d3b9352cd87bde1",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/previews/BOSS-011_awakening_preview.gif",
+      "bytes": 458460,
+      "sha256": "c50ab8cac242341f0a7d9b7c82abdd08e433ad5c6ca439e39cb2b47bbefe4807",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/source_images/BOSS-011_awakening_fx_original.png",
+      "bytes": 1602149,
+      "sha256": "8920f7ec6eb38ee5a34e2704e1a8ed883021f10ac2505f6cd51a02a960cc6095",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/source_images/BOSS-011_awakening_original.png",
+      "bytes": 2332874,
+      "sha256": "d5fd4242d00138dc5197a5e20cc719948f7cccd746400331c984e72ac4e421c4",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "production_approved": false,
+  "checklist_status_source": "/Users/abinashbasak/Downloads/lanterns_underroot_master_asset_checklist.md"
+}

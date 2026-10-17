@@ -1,0 +1,29 @@
+{
+  "asset_id": "BOSS-011",
+  "clip": "awakening_fx",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/source_images/BOSS-011_awakening_fx_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-ab6a7610-f40f-4db7-b66c-23202a0469b9.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Asset BOSS-011 Hollow Sentinel arena awakening FX layer ONLY, isolated transparent 2D fantasy game effect sprites. No guardian/character/stonebody/portrait/environment/arena backdrop. Six chronological FX phases in EXACT3columns2rows equal512pxcells on1536x1024. Every entire effect within own cell with80px empty margin, no overlap. Same origin x256 y420 in eachcell, no opaque floor. Warm amber-gold magic, sparse graygold dust flecks, SMALL brown root tendrils curling upward from invisible floor; coolshadow rootbark. Original hand-painted illustrated game FX matching reference palette only, never copy reference board text/panels/scenes. 1 dormant fewdim amberdustspecks nearorigin;2 faint compact amber ring lights atfloororigin two shortroot tips;3 four small curling roots rising with dust and stronger ambercenter;4 peak bounded goldenburst rising 180px with roots curled aside;5 roots settle low dust drifts up glow subsides;6 only fewfading amberdust specks. Six DISTINCT phases readable atsmallscale. Genuinely transparent alpha with feathered luminous effects, no black/background rectangle, no haze fillingcanvas, no squarecellmatte. Do NOT draw characters or rocks, no textlabels borders floorplane castshadow scenery swords or giantlightbeams. Each effect maximaldiameter320px withcleartransparentgaps.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-005/ART-005_magic_rune_glow_particle_reference.png"
+      ],
+      "clip": "awakening_fx",
+      "review": "selected prototype",
+      "bytes": 1602149,
+      "sha256": "8920f7ec6eb38ee5a34e2704e1a8ed883021f10ac2505f6cd51a02a960cc6095",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

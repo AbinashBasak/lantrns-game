@@ -1,0 +1,29 @@
+{
+  "asset_id": "BOSS-010",
+  "clip": "defeat",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/source_images/BOSS-010_defeat_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-40fbbd07-d6e8-4ffb-b47a-37a4b9c6f217.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted 2D game animation prototype sprite sheet, EXACTLY six full-body poses, equal 3 columns x 2 rows on 1536x1024 canvas. Read left-right then top-bottom. Each cell512x512, guardian centered, generous70px clear transparent padding. Uniform scale, camera fixed front-three-quarter facing RIGHT, full body fits every cell. Genuine transparent background, opaque stone/root interiors. No background, ground, shadow, atmosphere, labels, borders, text, other characters, or external weapon. Reference image1 identity: Hollow Sentinel compact heavy bluegray stone plate armor, spiked stone crown/helmet, amber eyes, single amber faceted chest crystal, cracked chest plates, thick brown root joints, mossy green shoulders, huge stone fists, two arms two legs. Preserve armor design and amber core, never blue. Use rightmost reference figure as angle. Model is proposal.  CRITICAL: compact guardians with maximum340px standing height, rather than filling the cell. Every pose should have substantial blank padding. One coherent NONVIOLENT DEFEAT DISASSEMBLY. 1 weakened hunched standing, dim core. 2 guardian kneels on one knee and lowers both fists peacefully. 3 head bowed, stone chest plates and shoulder stones loosen with gaps, roots untwist. 4 shell sinks into separated large stones and loose roots, head/limbs no longer connected, AMBER chest crystal floats just above remnants. 5 low small pile of detached stone and root remnants beneath floating amber crystal, no intact body. 6 ONLY small faceted golden fragment floating at original chest height, few tiny root flecks low, no intact guardian. Last core becomes quest fragment; do NOT draw a humanoid in last two cells. No explosion, gore, rubble ground, violent blast or new character.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/source_images/BOSS-001_model_original.png"
+      ],
+      "clip": "defeat",
+      "review": "selected prototype",
+      "bytes": 2225059,
+      "sha256": "f59abd7274ffa76b8a83180f3f36f6ad4a94c0a05b3371e4687b949b97cd13e3",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

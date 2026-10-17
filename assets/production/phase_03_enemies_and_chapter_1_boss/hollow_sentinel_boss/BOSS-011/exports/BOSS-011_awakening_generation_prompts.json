@@ -1,0 +1,29 @@
+{
+  "asset_id": "BOSS-011",
+  "clip": "awakening",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/source_images/BOSS-011_awakening_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-a50c60d7-bf4a-42ab-84ac-3a83ae9e3fc4.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted 2D game animation prototype sprite sheet, EXACTLY six full-body poses, equal 3 columns x 2 rows on 1536x1024 canvas. Read left-right then top-bottom. Each cell512x512, guardian centered, generous70px clear transparent padding. Uniform scale, camera fixed front-three-quarter facing RIGHT, full body fits every cell. Genuine transparent background, opaque stone/root interiors. No background, ground, shadow, atmosphere, labels, borders, text, other characters, or external weapon. Reference image1 identity: Hollow Sentinel compact heavy bluegray stone plate armor, spiked stone crown/helmet, amber eyes, single amber faceted chest crystal, cracked chest plates, thick brown root joints, mossy green shoulders, huge stone fists, two arms two legs. Preserve armor design and amber core, never blue. Use rightmost reference figure as angle. Model is proposal.  CRITICAL: compact guardians with maximum340px standing height, rather than filling the cell. Every pose should have substantial blank padding. One coherent ENTRANCE / AWAKENING animation, guardian only plus tiny bounded effects, no arena. 1 dormant kneeling on one knee, head down, fists near bent legs, chest faint amber and eyes dark. 2 same kneel but amber eyes ignite, head lifts. 3 one huge fist plants beneath shoulder, body leans forward to push up. 4 halfway rising, knees still bent, planted fist uncoils. 5 stands tall, arms lower, short root curls loosen from feet and a FEW dust specks only around ankles. 6 alert ready, fists low, compact roots at joints, amber chest and eyes steady. Continuous rise from visibly LOW kneeling silhouette into full standing silhouette; no repeated six standing poses.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/source_images/BOSS-001_model_original.png"
+      ],
+      "clip": "awakening",
+      "review": "selected prototype",
+      "bytes": 2332874,
+      "sha256": "d5fd4242d00138dc5197a5e20cc719948f7cccd746400331c984e72ac4e421c4",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}
