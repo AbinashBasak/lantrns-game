@@ -1,0 +1,1420 @@
+{
+  "id": "ENV-04",
+  "title": "Briarwake orchard",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04",
+  "story_basis": {
+    "sources": [
+      "docs/lanterns_underroot_chapters.md",
+      "docs/full-story.md"
+    ],
+    "summary": "Chapters Chapter2 missions2.1–2.4 and full-story Chapter2: sideways orchard trees over ravines, permanently open blossoms/unripe fruit, root/fallen-trunk/stone-irrigation platforms, bound groves and root-stone. Mossjaw arena uses three climbable root platforms and destructible stone column. Guardian not baked into environment.",
+    "status": "Lore references for generated prototype; design and production approval not inferred."
+  },
+  "review_notes": [
+    "All eight requested image types saved and reviewed as generated prototypes. Source alpha reviewed over checkerboard; raw RGB under transparent pixels is not a visible backdrop.",
+    "Terrain source regenerated to regular four-by-four material grid. Seam matching, collision alignment and slopes remain unapproved until cleanup/testing.",
+    "Environment proposals and FX timing are provisional; no runtime assets or scene integrations changed."
+  ],
+  "deliverables": [
+    {
+      "slug": "lighting_reference",
+      "type": "lighting reference only",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer art. Reference images define painterly shape/edge rendering, warm amber focal light, muted moss/earth and cool teal-blue shadows; do not copy their boards, lettering or example characters. Consistent side-on orthographic platformer camera, restrained surface detail, readable silhouettes at mobile scale. No characters, UI, text, labels, borders, watermark or contact sheet unless an explicit production grid is requested. Ancient overgrown orchard with sideways trees spanning ravines, pale blossoms frozen open and unripe green fruit. Moss, warm bark and cool green shade; no ripe harvest abundance. Singlelandscape illustrative lighting study1536x1024 of this location using the same side-on camera and approved material vocabulary. Show Ancient overgrown orchard with sideways trees spanning ravines, pale blossoms frozen open and unripe green fruit. Moss, warm bark and cool green shade; no ripe harvest abundance. Balance clear playable-edge values against distant desaturation, amber focus versus cool shadows; no characters, UI, lettering or palette-board panels. Reference only: this assembled study does not replace separately delivered layers, props, FX or tiles. This image is a single whole-scene illustrative reference, NOT a runtime layer or proof of packcompletion.",
+      "transparent_background": false,
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-001/ART-001_final_visual_style_guide.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-002/ART-002_color_palette_and_lighting.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-006/ART-006_rendering_consistency_guide.png"
+      ],
+      "export_mode": "image",
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "lighting_reference"
+      ],
+      "timing": null,
+      "loop": false,
+      "review_notes": [],
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_lighting_reference_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441c-ffb3-7622-ab52-0c9bb160e6d7/exec-15c3271a-25fd-432a-8672-ea31981e8234.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; generated in Codex, not a downloaded original",
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_lighting_reference_original.png",
+        "bytes": 3038316,
+        "sha256": "00330a2cfd173e658ad150c010fe1e6b99d971067aaaaf5839db61d9bb000d72",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGB",
+        "alpha_extrema": null
+      },
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_lighting_reference.png"
+      ],
+      "source_crop_boundaries": [],
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_lighting_reference.png",
+          "bytes": 3038316,
+          "sha256": "00330a2cfd173e658ad150c010fe1e6b99d971067aaaaf5839db61d9bb000d72",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGB",
+          "alpha_extrema": null,
+          "provenance": "unchanged source copy"
+        }
+      ],
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/previews/ENV-04_lighting_reference_review.jpg",
+      "export_review_note": "Prototype extraction. Source crop geometry recorded; tile joins, pivots, timings and scale need in-engine testing."
+    },
+    {
+      "slug": "distant_background",
+      "type": "far parallax background",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer art. Reference images define painterly shape/edge rendering, warm amber focal light, muted moss/earth and cool teal-blue shadows; do not copy their boards, lettering or example characters. Consistent side-on orthographic platformer camera, restrained surface detail, readable silhouettes at mobile scale. No characters, UI, text, labels, borders, watermark or contact sheet unless an explicit production grid is requested. Ancient overgrown orchard with sideways trees spanning ravines, pale blossoms frozen open and unripe green fruit. Moss, warm bark and cool green shade; no ripe harvest abundance. Single separate parallax layer, landscape landscape 1536x1024, no assembled full scene or embedded playable platforms. All layers share a level side-on horizon at y460, ambient light from upper left. Horizontally repeating peripheral shapes and similar edge luminance, no unique landmark cut at image edges; verify seam in export. Draw ONLY hazy orchard canopy ridges and pale sky glimpses, distant ravine atmosphere. Fully opaque far backdrop, no midground or foreground. Additional lightingreference defines palette/camera only. Do not copy assembledscene. Draw ONLY requesteddepthlayer.",
+      "transparent_background": false,
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_lighting_reference_original.png"
+      ],
+      "export_mode": "image",
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "distant_background"
+      ],
+      "timing": null,
+      "loop": false,
+      "review_notes": [],
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_distant_background_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-ea6c06c0-e78b-43d4-a908-25aef44fca9f.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; generated in Codex, not a downloaded original",
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_distant_background_original.png",
+        "bytes": 2639930,
+        "sha256": "101969d4b68162f07889ff09e2996de573de638ed3237b300b7ea5a23a031402",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGB",
+        "alpha_extrema": null
+      },
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_distant_background.png"
+      ],
+      "source_crop_boundaries": [],
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_distant_background.png",
+          "bytes": 2639930,
+          "sha256": "101969d4b68162f07889ff09e2996de573de638ed3237b300b7ea5a23a031402",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGB",
+          "alpha_extrema": null,
+          "provenance": "unchanged source copy"
+        }
+      ],
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/previews/ENV-04_distant_background_review.jpg",
+      "export_review_note": "Prototype extraction. Source crop geometry recorded; tile joins, pivots, timings and scale need in-engine testing."
+    },
+    {
+      "slug": "midground",
+      "type": "separate parallax midground",
+      "prompt": "Use case: precise-object-edit. Edit this midground game layer for Briarwake orchard. Preserve all physical branches, leaves, pale flowers, unripe green fruit and masonry shapes, positions and canvas. Remove ALL diffuse golden haze, sky color, background paint, lighting bloom, shadow halos and glow outside the actual solid objects. Every gap between branches, leaves, roots and buildings and all blank background must become fully alpha-zero transparent; preserve opaque interiors of solid objects. No fog or yellow ambient cloud anywhere. Remove lantern fixtures and bright amber light; desaturate physical art for a low contrast distant depth band. Return true transparent PNG, never a colored background. Do not add any new objects.",
+      "transparent_background": true,
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_midground_original.png"
+      ],
+      "export_mode": "image",
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "midground"
+      ],
+      "timing": null,
+      "loop": false,
+      "review_notes": [
+        "Checkerboard composite verifies genuine transparent gaps; v2 removes lantern lighting. Parallax placement and contrast need in-engine review."
+      ],
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_midground_original_v2.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-2ce8ba57-5d5c-4541-8d0e-ba0993fee67d.png",
+      "additional_sources": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_midground_original.png",
+          "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-6ed75c06-bdc4-43f7-ae45-e50136d1e5cf.png",
+          "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer art. Reference images define painterly shape/edge rendering, warm amber focal light, muted moss/earth and cool teal-blue shadows; do not copy their boards, lettering or example characters. Consistent side-on orthographic platformer camera, restrained surface detail, readable silhouettes at mobile scale. No characters, UI, text, labels, borders, watermark or contact sheet unless an explicit production grid is requested. Ancient overgrown orchard with sideways trees spanning ravines, pale blossoms frozen open and unripe green fruit. Moss, warm bark and cool green shade; no ripe harvest abundance. Single separate parallax layer, landscape landscape 1536x1024, no assembled full scene or embedded playable platforms. All layers share a level side-on horizon at y460, ambient light from upper left. Horizontally repeating peripheral shapes and similar edge luminance, no unique landmark cut at image edges; verify seam in export. Draw ONLY large sideways orchard trunks crossing distant ravines with unripe-fruit branches and old irrigation remnants behind playable plane. Transparent clear negative space, opaque structural material; no floor or interactive props. Additional lightingreference defines palette/camera only. Do not copy assembledscene. Draw ONLY requesteddepthlayer. TRUEALPHA: gaps and all unpaintedareas fullytransparent, NO sky/backdrop/water/groundscene, no colored haze.",
+          "review": "Earlier preserved version; superseded by selected v2.",
+          "source_file": {
+            "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_midground_original.png",
+            "bytes": 3066432,
+            "sha256": "3424fd86b74a2306d17108be28fc8997166e5ab2447140526a0f2188c58201cb",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "mode": "RGBA",
+            "alpha_extrema": [
+              0,
+              254
+            ]
+          },
+          "reference_images": [
+            "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_lighting_reference_original.png"
+          ]
+        }
+      ],
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; generated in Codex, not a downloaded original",
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_midground_original_v2.png",
+        "bytes": 3029282,
+        "sha256": "957b74f023cfccf45c8dc7f714ca9136bf43e4125b488fc14d993373d6c8a185",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          254
+        ]
+      },
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_midground.png"
+      ],
+      "source_crop_boundaries": [],
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_midground.png",
+          "bytes": 3029282,
+          "sha256": "957b74f023cfccf45c8dc7f714ca9136bf43e4125b488fc14d993373d6c8a185",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            254
+          ],
+          "provenance": "unchanged source copy"
+        }
+      ],
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/previews/ENV-04_midground_review.jpg",
+      "export_review_note": "Prototype extraction. Source crop geometry recorded; tile joins, pivots, timings and scale need in-engine testing."
+    },
+    {
+      "slug": "foreground",
+      "type": "separate parallax foreground",
+      "prompt": "Use case: precise-object-edit. Edit this foreground game layer for Briarwake orchard. Preserve all physical branches, leaves, pale flowers, unripe green fruit and masonry shapes, positions and canvas. Remove ALL diffuse golden haze, sky color, background paint, lighting bloom, shadow halos and glow outside the actual solid objects. Every gap between branches, leaves, roots and buildings and all blank background must become fully alpha-zero transparent; preserve opaque interiors of solid objects. No fog or yellow ambient cloud anywhere. Keep the broad center fully empty and clear for gameplay; no foreground light bloom. Return true transparent PNG, never a colored background. Do not add any new objects.",
+      "transparent_background": true,
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_foreground_original.png"
+      ],
+      "export_mode": "image",
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "foreground"
+      ],
+      "timing": null,
+      "loop": false,
+      "review_notes": [
+        "Checkerboard composite verifies genuine transparent gaps; v2 removes lantern lighting. Parallax placement and contrast need in-engine review."
+      ],
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_foreground_original_v2.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-42198d75-27c3-4099-901e-d052cc7cf3d7.png",
+      "additional_sources": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_foreground_original.png",
+          "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-ccd21844-97c5-483c-8f92-a67ef69ae48f.png",
+          "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer art. Reference images define painterly shape/edge rendering, warm amber focal light, muted moss/earth and cool teal-blue shadows; do not copy their boards, lettering or example characters. Consistent side-on orthographic platformer camera, restrained surface detail, readable silhouettes at mobile scale. No characters, UI, text, labels, borders, watermark or contact sheet unless an explicit production grid is requested. Ancient overgrown orchard with sideways trees spanning ravines, pale blossoms frozen open and unripe green fruit. Moss, warm bark and cool green shade; no ripe harvest abundance. Single separate parallax layer, landscape landscape 1536x1024, no assembled full scene or embedded playable platforms. All layers share a level side-on horizon at y460, ambient light from upper left. Horizontally repeating peripheral shapes and similar edge luminance, no unique landmark cut at image edges; verify seam in export. Draw ONLY dark close blossom/leaf clusters and tangled fine roots at margins; avoid hiding landings. Transparent all other pixels, no background or playable ledges. Additional lightingreference defines palette/camera only. Do not copy assembledscene. Draw ONLY requesteddepthlayer. TRUEALPHA: gaps and all unpaintedareas fullytransparent, NO sky/backdrop/water/groundscene, no colored haze.",
+          "review": "Earlier preserved version; superseded by selected v2.",
+          "source_file": {
+            "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_foreground_original.png",
+            "bytes": 2267057,
+            "sha256": "842091a2deb55fe34ca3c1f4a406b7a25754ee0d0fe60496df6a3f2df55e7bac",
+            "dimensions": [
+              1536,
+              1024
+            ],
+            "mode": "RGBA",
+            "alpha_extrema": [
+              0,
+              254
+            ]
+          },
+          "reference_images": [
+            "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_lighting_reference_original.png"
+          ]
+        }
+      ],
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; generated in Codex, not a downloaded original",
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_foreground_original_v2.png",
+        "bytes": 2272887,
+        "sha256": "6a9073c353844a6060085b2fb85bbb5992636653d5d167e6b9e38cb6ee652d12",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          254
+        ]
+      },
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_foreground.png"
+      ],
+      "source_crop_boundaries": [],
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_foreground.png",
+          "bytes": 2272887,
+          "sha256": "6a9073c353844a6060085b2fb85bbb5992636653d5d167e6b9e38cb6ee652d12",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            254
+          ],
+          "provenance": "unchanged source copy"
+        }
+      ],
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/previews/ENV-04_foreground_review.jpg",
+      "export_review_note": "Prototype extraction. Source crop geometry recorded; tile joins, pivots, timings and scale need in-engine testing."
+    },
+    {
+      "slug": "terrain_atlas",
+      "type": "16-module terrain prototype",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot Briarwake orchard TERRAIN TILE atlas for a hand-painted 2D side-scroller. ONE SQUARE image tightly divided into EXACTLY FOUR EQUAL COLUMNS and FOUR EQUAL ROWS, 16 equal square cells, no gutters or margins, full canvas used. Exactly four tiles per row, never three rows of three plus a strip. Each tile is simple moss-topped brown earth with sparse blue-gray irrigation stone and tiny embedded roots, no branches, fruit, lanterns, blossoms, plants, ruins, glows, shadows, arches or scenery. Front orthographic elevation, no perspective. Exact content reading order: row1: outer top-left solid terrain corner; top middle terrain surface; outer top-right solid terrain corner; isolated single solid terrain block. Row2: vertical left terrain wall; opaque full square interior earth/stone fill NO holes; vertical right wall; repeatable narrow ledge middle. Row3: outer bottom-left terrain corner; repeatable terrain underside; outer bottom-right terrain corner; narrow ledge left cap. Row4: narrow ledge right cap; 45-degree rising slope; 45-degree falling slope; three-step ascending terrain stairs. Solid fill reaches all connecting cell edges, never floating decorative islands inside tiles. Thin moss only on upward exposed edges. All modules fit own cell, connecting edges match, empty outside corners are genuinely alpha-zero transparent. No text, numbers, labels or drawn grid. Designed for 64px export per tile. Crisp readable game tiles, restrained painterly texture and muted green/brown/blue-gray palette. Background transparent.",
+      "transparent_background": true,
+      "reference_images": [],
+      "export_mode": "atlas",
+      "cols": 4,
+      "rows": 4,
+      "frame_count": 16,
+      "roles": [
+        "outer top-left",
+        "top middle",
+        "outer top-right",
+        "isolated block",
+        "left wall",
+        "full interior fill",
+        "right wall",
+        "narrow ledge middle",
+        "bottom-left",
+        "underside",
+        "bottom-right",
+        "ledge left cap",
+        "ledge right cap",
+        "rising slope",
+        "falling slope",
+        "stairs"
+      ],
+      "timing": null,
+      "loop": false,
+      "review_notes": [
+        "Regenerated to obtain regular 4x4 grid and remove baked orchard props. Actual source size governs crop boundaries; seams/collision topology require cleanup before Godot integration."
+      ],
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_terrain_atlas_original_v2.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-ebc89844-4a89-43bd-9544-7fbe0baa1900.png",
+      "additional_sources": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_terrain_atlas_original.png",
+          "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-760f9b38-1e6a-4327-ad57-db8f61abfd71.png",
+          "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer art. Reference images define painterly shape/edge rendering, warm amber focal light, muted moss/earth and cool teal-blue shadows; do not copy their boards, lettering or example characters. Consistent side-on orthographic platformer camera, restrained surface detail, readable silhouettes at mobile scale. No characters, UI, text, labels, borders, watermark or contact sheet unless an explicit production grid is requested. Ancient overgrown orchard with sideways trees spanning ravines, pale blossoms frozen open and unripe green fruit. Moss, warm bark and cool green shade; no ripe harvest abundance. Terrain SOURCE atlas exactly16modules in4columns4rows on1024squarecanvas, each256pxsourcecell, intended64pxruntimecells after4:1export. Readingorder 1:top-left, 2:top-center, 3:top-right, 4:middle-left, 5:middle-center, 6:middle-right, 7:bottom-left, 8:bottom-center, 9:bottom-right, 10:isolated single-tile island, 11:left ledge cap, 12:repeating narrow ledge, 13:right ledge cap, 14:ascending slope, 15:descending slope, 16:stair module. Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer art. Reference images define painterly shape/edge rendering, warm amber focal light, muted moss/earth and cool teal-blue shadows; do not copy their boards, lettering or example characters. Consistent side-on orthographic platformer camera, restrained surface detail, readable silhouettes at mobile scale. No characters, UI, text, labels, borders, watermark or contact sheet unless an explicit production grid is requested. Ancient overgrown orchard with sideways trees spanning ravines, pale blossoms frozen open and unripe green fruit. Moss, warm bark and cool green shade; no ripe harvest abundance.  Material: mossy orchard earth, stone irrigation banks and sturdy root/trunk caps. Allmodules squaregridaligned, matchingboundarysockets and collisiontops. Exact ninepatch roles1-9. No labels/gutters/shadows, no scenery or decorative props. Opaque solidmaterial, transparent emptyspace. Proposedsource not seamapprovedtiles.",
+          "review": "Earlier preserved version; superseded by selected v2.",
+          "source_file": {
+            "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_terrain_atlas_original.png",
+            "bytes": 2651901,
+            "sha256": "f1ee435299cea30d4e5eac246c3c915fd3aa8aa97f9b06d552e629b6ec551584",
+            "dimensions": [
+              1254,
+              1254
+            ],
+            "mode": "RGBA",
+            "alpha_extrema": [
+              0,
+              255
+            ]
+          },
+          "reference_images": [
+            "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_lighting_reference_original.png"
+          ]
+        }
+      ],
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; generated in Codex, not a downloaded original",
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_terrain_atlas_original_v2.png",
+        "bytes": 2259764,
+        "sha256": "812471d6822e29a0c39b5482bdbad592d9977335c1bbec69db7610d119926708",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_07.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_08.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_09.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_10.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_11.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_12.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_13.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_14.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_15.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_sheet.png"
+      ],
+      "source_crop_boundaries": [
+        [
+          0,
+          0,
+          314,
+          314
+        ],
+        [
+          314,
+          0,
+          627,
+          314
+        ],
+        [
+          627,
+          0,
+          940,
+          314
+        ],
+        [
+          940,
+          0,
+          1254,
+          314
+        ],
+        [
+          0,
+          314,
+          314,
+          627
+        ],
+        [
+          314,
+          314,
+          627,
+          627
+        ],
+        [
+          627,
+          314,
+          940,
+          627
+        ],
+        [
+          940,
+          314,
+          1254,
+          627
+        ],
+        [
+          0,
+          627,
+          314,
+          940
+        ],
+        [
+          314,
+          627,
+          627,
+          940
+        ],
+        [
+          627,
+          627,
+          940,
+          940
+        ],
+        [
+          940,
+          627,
+          1254,
+          940
+        ],
+        [
+          0,
+          940,
+          314,
+          1254
+        ],
+        [
+          314,
+          940,
+          627,
+          1254
+        ],
+        [
+          627,
+          940,
+          940,
+          1254
+        ],
+        [
+          940,
+          940,
+          1254,
+          1254
+        ]
+      ],
+      "export_cell_size": 64,
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_00.png",
+          "bytes": 7333,
+          "sha256": "db45c88ba7fc89dff451bfa9d182f4475cfdfa50534c43613c379ca2410578a7",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_01.png",
+          "bytes": 8451,
+          "sha256": "582393b1d743118ae2ea942c992f257ee5e54b286d5e6fb1399d13600f99a1b0",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_02.png",
+          "bytes": 7288,
+          "sha256": "168a7aa4407f892f46f1677ce9b85dca5a43b5f6c233921ed805acb7f9095b62",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_03.png",
+          "bytes": 10653,
+          "sha256": "af8a604ab29e9c0195264ed07d8e1feed16903d5a94e9fce203f97dfd17844de",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_04.png",
+          "bytes": 10033,
+          "sha256": "3b6c90548eb5f0a7fe632cf0a6a3b04fb3eb5d712b018e425342d05f8818bea8",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_05.png",
+          "bytes": 10170,
+          "sha256": "28b42378b8892781d223892bab94eca2a58db8bed5d0998143f6d6b8a51c0d96",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_06.png",
+          "bytes": 9629,
+          "sha256": "d3654cf6e6a092a9c1486e08f346c15d87c9299937866fce36e2f95fe0ec435d",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_07.png",
+          "bytes": 5115,
+          "sha256": "834b7b59e5f4ce00454a36579651c770d6ba165b8291b5243aac7d31fdd5a0fe",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_08.png",
+          "bytes": 8646,
+          "sha256": "d2f134f2fb8822d571b950695d158238b2e6e2b03bda68a30ac6f480828cf7c7",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_09.png",
+          "bytes": 7000,
+          "sha256": "28879b074181f032a03f286d3947890d3738e8cfefd314401b8f87156ad3030b",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_10.png",
+          "bytes": 9159,
+          "sha256": "762e6fc2fb4a9e862f8a08aacee6674c39af86564ed4a58fcff2553e9351f445",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_11.png",
+          "bytes": 5969,
+          "sha256": "0c60a4ea5d6a8dfc091260088f25a577ffe1e9306d093ade726abd2404fc63cc",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_12.png",
+          "bytes": 5431,
+          "sha256": "afcf2ebbce2e8c7a17e46e5851773de0107ec1586c225387144f1fef633ea0d2",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_13.png",
+          "bytes": 8231,
+          "sha256": "b0eac950ab08f8f8ea4603b4192e7a9d24d22136e48ba51b1306885bf1187c72",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_14.png",
+          "bytes": 8127,
+          "sha256": "acedac28c9513ecaf882d15fcfb82f19442781bf3b10f45880def3d97b1acf95",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_15.png",
+          "bytes": 8684,
+          "sha256": "0e7bd36a03c1032b740fbbf9d724048658538ed6183aa198b7be7086a718dd56",
+          "dimensions": [
+            64,
+            64
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_terrain_atlas_sheet.png",
+          "bytes": 127857,
+          "sha256": "106494a79a07776763933e1a34005befa68da20da9d4f5df7e27c545fa9bb12c",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        }
+      ],
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/previews/ENV-04_terrain_atlas_review.jpg",
+      "export_review_note": "Prototype extraction. Source crop geometry recorded; tile joins, pivots, timings and scale need in-engine testing."
+    },
+    {
+      "slug": "decorative_props",
+      "type": "8-object decorative prop atlas",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer. Match ART001/002/006 painterly shading, readable silhouettes, warm amber accents, muted moss/earth and cool teal shadows. Fixed side-on orthographic gamecamera. No characters, UI, lettering, logos, panels, gridlines or contactboard. Chapters Chapter2 missions2.1–2.4 and full-story Chapter2: sideways orchard trees over ravines, permanently open blossoms/unripe fruit, root/fallen-trunk/stone-irrigation platforms, bound groves and root-stone. Mossjaw arena uses three climbable root platforms and destructible stone column. Guardian not baked into environment. EXACTLY8distinct isolatedprops in equal4column2rowcells on1536x1024landscape. Per-cell384x512, chronologicalreadingorder: 1:blossom branch with unripe fruit, 2:broken irrigation channel, 3:worn family carving, 4:mossy orchard wall section, 5:small exposed root cluster, 6:fallen blossom cluster, 7:short fallen trunk, 8:unripe fruit twig. Side-on matchinglightingreference, allfullobjects safelyinsidecell with50pxpadding. Max260pxwide/360pxtall. No ground/shadow, no connectedscenery, no materialboards, true transparent gaps and opaqueobjects. All space outside physical objects or compact FX must be true alpha-zero, no diffuse environmental glow or haze.",
+      "transparent_background": true,
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_lighting_reference_original.png"
+      ],
+      "export_mode": "atlas",
+      "cols": 4,
+      "rows": 2,
+      "frame_count": 8,
+      "roles": [
+        "blossom branch with unripe fruit",
+        "broken irrigation channel",
+        "worn family carving",
+        "mossy orchard wall section",
+        "small exposed root cluster",
+        "fallen blossom cluster",
+        "short fallen trunk",
+        "unripe fruit twig"
+      ],
+      "timing": null,
+      "loop": false,
+      "review_notes": [
+        "Eight separate object types in 4x2 source layout reviewed over checkerboard; minor edge padding requires review."
+      ],
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_decorative_props_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-ceea23a1-8e6a-4f17-898d-823cafc498e6.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; generated in Codex, not a downloaded original",
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_decorative_props_original.png",
+        "bytes": 2392822,
+        "sha256": "ccd82225f9dad7e9aecf44840f4caf2e4d705c89b9726d1a2a4b819a476406fa",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          254
+        ]
+      },
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_decorative_props_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_decorative_props_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_decorative_props_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_decorative_props_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_decorative_props_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_decorative_props_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_decorative_props_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_decorative_props_07.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_decorative_props_sheet.png"
+      ],
+      "source_crop_boundaries": [
+        [
+          0,
+          0,
+          384,
+          512
+        ],
+        [
+          384,
+          0,
+          768,
+          512
+        ],
+        [
+          768,
+          0,
+          1152,
+          512
+        ],
+        [
+          1152,
+          0,
+          1536,
+          512
+        ],
+        [
+          0,
+          512,
+          384,
+          1024
+        ],
+        [
+          384,
+          512,
+          768,
+          1024
+        ],
+        [
+          768,
+          512,
+          1152,
+          1024
+        ],
+        [
+          1152,
+          512,
+          1536,
+          1024
+        ]
+      ],
+      "export_cell_size": 256,
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_decorative_props_00.png",
+          "bytes": 89691,
+          "sha256": "c35a40a03ceb4b39eb3c76345b7ae5d66df08f35687947a62a7cc097baa0f41a",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_decorative_props_01.png",
+          "bytes": 86306,
+          "sha256": "bdc99f3b7698ffc6030de7d3a0668de410b683425177852ff4987e184218ca3f",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_decorative_props_02.png",
+          "bytes": 94127,
+          "sha256": "a3b630bcd6ad067d18d5c5cbab15de3169c17296eef24a76fe32357a8a8e0737",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_decorative_props_03.png",
+          "bytes": 92954,
+          "sha256": "5cf5137cc10bf06cfdc8f17072f7f027b046754177fb5b66b445554c6bb77829",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_decorative_props_04.png",
+          "bytes": 81786,
+          "sha256": "2806dd20f21296c6a226d4c4b65e119507e461a25fb3cee593ca1eb1274b3302",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_decorative_props_05.png",
+          "bytes": 58338,
+          "sha256": "dcdf5a2781f3f45a3da90fdd987aa628126f999b2820cb3bb0b0a70b9d27d9ee",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_decorative_props_06.png",
+          "bytes": 72847,
+          "sha256": "f2dd267aafec4847e447b6d652c5b43b7ab7c7b11f7137d459aaa7460072ce2c",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_decorative_props_07.png",
+          "bytes": 73602,
+          "sha256": "6c0179e97094d25ee190c50f08c264d26aab7d66d58b92f3ccd5de2e10a1c631",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_decorative_props_sheet.png",
+          "bytes": 650218,
+          "sha256": "cdf29867014bb645f24eda489e14f609a53ccebf4cb2125e966c479e9181fec9",
+          "dimensions": [
+            1024,
+            512
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        }
+      ],
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/previews/ENV-04_decorative_props_review.jpg",
+      "export_review_note": "Prototype extraction. Source crop geometry recorded; tile joins, pivots, timings and scale need in-engine testing."
+    },
+    {
+      "slug": "interactive_props",
+      "type": "three interactive neutral-active pairs",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer. Match ART001/002/006 painterly shading, readable silhouettes, warm amber accents, muted moss/earth and cool teal shadows. Fixed side-on orthographic gamecamera. No characters, UI, lettering, logos, panels, gridlines or contactboard. Chapters Chapter2 missions2.1–2.4 and full-story Chapter2: sideways orchard trees over ravines, permanently open blossoms/unripe fruit, root/fallen-trunk/stone-irrigation platforms, bound groves and root-stone. Mossjaw arena uses three climbable root platforms and destructible stone column. Guardian not baked into environment. EXACTLY6isolated fullprops in equal3columns2rows,1536x1024canvas,512squarecells, readingorder 1:stone node with threeintact rootbindings, 2:same stone node with rootbindings severed andcurledout, 3:freestanding cracked stonecolumn intact, 4:samecolumn brokenbase exposes rootstone socket, 5:sturdy horizontal rootedbranch neutral straight, 6:samebranch bentdown underweight but nocharacter. Pairs1/2,3/4,5/6 MUST preserve exactsameobject design, scale, view andpivot, only requestedstate changes. Centerallobjects with70pxpadding; maximum360px inanydimension. No characters, scene, floor, shadow or extraFX. No unreadabletext. Truealpha gaps, opaquebodyinteriors excepttranslucentrootplatform. No panels or visual labels. All space outside physical objects or compact FX must be true alpha-zero, no diffuse environmental glow or haze.",
+      "transparent_background": true,
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_lighting_reference_original.png"
+      ],
+      "export_mode": "atlas",
+      "cols": 3,
+      "rows": 2,
+      "frame_count": 6,
+      "roles": [
+        "stone node with threeintact rootbindings",
+        "same stone node with rootbindings severed andcurledout",
+        "freestanding cracked stonecolumn intact",
+        "samecolumn brokenbase exposes rootstone socket",
+        "sturdy horizontal rootedbranch neutral straight",
+        "samebranch bentdown underweight but nocharacter"
+      ],
+      "timing": null,
+      "loop": false,
+      "review_notes": [
+        "Six row-major states: bound root column, released root column, intact breakable column, broken column, bridge root neutral, bridge root active. Proposals only; pivot/state alignment requires runtime review."
+      ],
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_interactive_props_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-bfa9352a-d051-49ba-97d9-d5b34940eb83.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; generated in Codex, not a downloaded original",
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_interactive_props_original.png",
+        "bytes": 2605428,
+        "sha256": "4ba87c1c6b6a74ef8ba241769c9786c2a7a057a1f3b4ff71b88e540cf4c25910",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          254
+        ]
+      },
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_interactive_props_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_interactive_props_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_interactive_props_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_interactive_props_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_interactive_props_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_interactive_props_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_interactive_props_sheet.png"
+      ],
+      "source_crop_boundaries": [
+        [
+          0,
+          0,
+          512,
+          512
+        ],
+        [
+          512,
+          0,
+          1024,
+          512
+        ],
+        [
+          1024,
+          0,
+          1536,
+          512
+        ],
+        [
+          0,
+          512,
+          512,
+          1024
+        ],
+        [
+          512,
+          512,
+          1024,
+          1024
+        ],
+        [
+          1024,
+          512,
+          1536,
+          1024
+        ]
+      ],
+      "export_cell_size": 256,
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_interactive_props_00.png",
+          "bytes": 101552,
+          "sha256": "8fd990f19cc87e9570c7a57d2ea6534d7bcd1cc9c3ce69540fa885c114706530",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_interactive_props_01.png",
+          "bytes": 128977,
+          "sha256": "2e459856f10f51d7dc42d9b3f1b6ec55357824adb7eedd76db32c9ec8fb868b3",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_interactive_props_02.png",
+          "bytes": 79985,
+          "sha256": "eeb8d9a36f9a010f3d7dd91fc641d5b6d87e9291db1183b650876e4535effed9",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_interactive_props_03.png",
+          "bytes": 86260,
+          "sha256": "f8580056a29be1df7b32f2d17056fa3aaac4f1d33e6210f488f02f056cb448fb",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_interactive_props_04.png",
+          "bytes": 78000,
+          "sha256": "a75ab0a1346d472c9947faa44221ac9b20ebc7e465140b48bd1d0902359b7e7b",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_interactive_props_05.png",
+          "bytes": 79188,
+          "sha256": "ccb7b418d23a1f66c3f5f91a5ced86fb97d2db86e47d85d15af6b338ada93d65",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_interactive_props_sheet.png",
+          "bytes": 553425,
+          "sha256": "ebacbd51b0748480b791933e6f221929803152bfd807f0fb6379b51d2d7f646e",
+          "dimensions": [
+            768,
+            512
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        }
+      ],
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/previews/ENV-04_interactive_props_review.jpg",
+      "export_review_note": "Prototype extraction. Source crop geometry recorded; tile joins, pivots, timings and scale need in-engine testing."
+    },
+    {
+      "slug": "location_fx",
+      "type": "six-phase location effect",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer. Match ART001/002/006 painterly shading, readable silhouettes, warm amber accents, muted moss/earth and cool teal shadows. Fixed side-on orthographic gamecamera. No characters, UI, lettering, logos, panels, gridlines or contactboard.  FXonly coherent6phaseatlas equal3cols2rows on1536x1024,512squarecells, samefixedpivot. One rootbinding release particleburst only, no node/rootgeometry. Tiny leaf/fiber seed, smallburst, outwardspread, leavesdrift, fewfaintleaves, finalfadingleaf. No gore. EXACTLY6distinctphases readingorder 1:seed, 2:burst, 3:spread, 4:drift, 5:diminish, 6:fade. Each boundedFX including softfalloff withincentral320squarebox ofcell. Fullytransparentotherpixels, no object, terrain, backdrop, characters or bakedfloor. No celloverlap. All space outside physical objects or compact FX must be true alpha-zero, no diffuse environmental glow or haze.",
+      "transparent_background": true,
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_lighting_reference_original.png"
+      ],
+      "export_mode": "atlas",
+      "cols": 3,
+      "rows": 2,
+      "frame_count": 6,
+      "roles": [
+        "seed",
+        "burst",
+        "spread",
+        "drift",
+        "diminish",
+        "fade"
+      ],
+      "timing": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": false,
+      "review_notes": [
+        "Six chronological petal/leaf light phases, checkerboard reviewed. Timing is prototype, needs playback review."
+      ],
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_location_fx_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-e05f6c21-7044-4535-a86d-5415bf3ed0ae.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; generated in Codex, not a downloaded original",
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_location_fx_original.png",
+        "bytes": 1569626,
+        "sha256": "e6422359ea18baf930821a09a3c3c7ebf56501e51a184cab71c9e6d66b4aac86",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          254
+        ]
+      },
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_location_fx_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_location_fx_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_location_fx_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_location_fx_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_location_fx_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_location_fx_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_location_fx_sheet.png"
+      ],
+      "source_crop_boundaries": [
+        [
+          0,
+          0,
+          512,
+          512
+        ],
+        [
+          512,
+          0,
+          1024,
+          512
+        ],
+        [
+          1024,
+          0,
+          1536,
+          512
+        ],
+        [
+          0,
+          512,
+          512,
+          1024
+        ],
+        [
+          512,
+          512,
+          1024,
+          1024
+        ],
+        [
+          1024,
+          512,
+          1536,
+          1024
+        ]
+      ],
+      "export_cell_size": 256,
+      "animation_preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/previews/ENV-04_location_fx_preview.gif",
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_location_fx_00.png",
+          "bytes": 12831,
+          "sha256": "a31b0f98adff9e3195a4edb4058847bcbade2d0bdebd8c37e1b36a9b3eacd411",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            254
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_location_fx_01.png",
+          "bytes": 50406,
+          "sha256": "c1933c2457d59861cf41710882b1f55420473b9998f0dcbeb4b432abf958529b",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_location_fx_02.png",
+          "bytes": 58169,
+          "sha256": "0e8b5c4d90a484e7031eadc6a0ca9c36bb43b9e516363c5ae6b535c592b475e4",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_location_fx_03.png",
+          "bytes": 42668,
+          "sha256": "aae7f02202980ee1f6b637f80f0714a95c1ef20fbd60c4877fefda95ccf01148",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_location_fx_04.png",
+          "bytes": 26993,
+          "sha256": "43ea3bc62065d08888d68cd704bdda5715ba354f2018409f7073fe0b1580cbab",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_location_fx_05.png",
+          "bytes": 12581,
+          "sha256": "910f05eefe5704b6990316323d71ba55150d5ad1dbd5e75a5f12e01404bcd96e",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_location_fx_sheet.png",
+          "bytes": 204846,
+          "sha256": "67a081fff3192a784016f326835e786ba074e771f0568fe6e2fa7557f53f28e2",
+          "dimensions": [
+            768,
+            512
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived crop/resize from unchanged source"
+        }
+      ],
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/previews/ENV-04_location_fx_review.jpg",
+      "export_review_note": "Prototype extraction. Source crop geometry recorded; tile joins, pivots, timings and scale need in-engine testing."
+    }
+  ],
+  "stage": "prototype sources and exports visually reviewed; tile cleanup and runtime validation pending",
+  "asset_id": "ENV-04",
+  "last_updated": "2026-10-17T13:54:17.868918+05:30",
+  "requested_deliverables_saved_and_reviewed": true,
+  "production_approved": false
+}
