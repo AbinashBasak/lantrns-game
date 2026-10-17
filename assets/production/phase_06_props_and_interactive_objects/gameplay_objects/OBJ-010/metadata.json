@@ -1,0 +1,201 @@
+{
+  "id": "OBJ-010",
+  "title": "Breakable object",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-010",
+  "deliverables": [
+    {
+      "slug": "breakable_vessel_states",
+      "type": "transparent object state/module atlas prototype",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted illustrated 2D side-scrolling game sprite art. Muted blue-gray stone, moss green, warm wood/soil and restrained amber/cyan magical accents. Crisp readable full silhouettes and soft painterly local material shading; not pixel art, photoreal or 3D. ONE SQUARE transparent PNG atlas in EXACTLY TWO EQUAL COLUMNS and TWO EQUAL ROWS, four equal square cells. Each cell contains one complete named object/state with generous transparent margin at least12% on every side. Fixed side-on orthographic game camera, no floor, perspective groundplane, scenery, characters, UI, arrows, labels, text, gridlines, shadows, border, glow cloud or vignette. Genuine alpha-zero outside solid objects and tightly bounded requested local light. Don't let artwork cross a cell boundary. Consistent scale, alignment, base level, object geometry and pivot between states. Breakable object: one squat old blue-gray ceramic/stone storage vessel with narrow rim and subtle moss at its base, generic forest-temple prop without special lore symbols or rewards. Four static aligned state sprites reading order: intact vessel; SAME vessel with strong visible cracks; same vessel broken open with jagged rim and hollow opening; its small group of broken fragments resting near same anchor. Keep unbroken and cracked silhouettes and base pivot identical. All shards fit own cell with padding; no flying trails, dust clouds, ground shadows, contents or extra objects. These are prototype art states, not a full break animation.",
+      "transparent_background": true,
+      "reference_images": [],
+      "cols": 2,
+      "rows": 2,
+      "frame_count": 4,
+      "roles": [
+        "intact vessel",
+        "cracked vessel",
+        "broken-open vessel",
+        "vessel fragments"
+      ],
+      "export_mode": "atlas",
+      "export_cell_size": 256,
+      "timing": null,
+      "loop": false,
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-005cb2f3-14a0-4f5d-9585-537b4a5ef287.png",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-010/source_images/OBJ-010_breakable_vessel_states_original.png",
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-010/source_images/OBJ-010_breakable_vessel_states_original.png",
+        "bytes": 1126201,
+        "sha256": "a59531cc22192cb19d05bf980c2ac59d72f498088873f7daa7698c27ec25a08a",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output generated in Codex; not downloaded source-chat original",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-010/exports/OBJ-010_breakable_vessel_states_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-010/exports/OBJ-010_breakable_vessel_states_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-010/exports/OBJ-010_breakable_vessel_states_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-010/exports/OBJ-010_breakable_vessel_states_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-010/exports/OBJ-010_breakable_vessel_states_sheet.png"
+      ],
+      "source_crop_boundaries": [
+        [
+          0,
+          0,
+          627,
+          627
+        ],
+        [
+          627,
+          0,
+          1254,
+          627
+        ],
+        [
+          0,
+          627,
+          627,
+          1254
+        ],
+        [
+          627,
+          627,
+          1254,
+          1254
+        ]
+      ],
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-010/exports/OBJ-010_breakable_vessel_states_00.png",
+          "bytes": 56454,
+          "sha256": "33d0c70724e8823588e810062eb6232a0954d1ce19008c4ade082307cc33515b",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop/resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-010/exports/OBJ-010_breakable_vessel_states_01.png",
+          "bytes": 58107,
+          "sha256": "cf2d18e11e32e3356a2a4c7c5cf8a096284c46c8b3c691b4115a96b29bbdb60f",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop/resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-010/exports/OBJ-010_breakable_vessel_states_02.png",
+          "bytes": 55988,
+          "sha256": "9765894ed7f3fd86b7ae5e18fb34259c6130c8b6143b1eb0ca02cd9cd4a16fd1",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop/resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-010/exports/OBJ-010_breakable_vessel_states_03.png",
+          "bytes": 30202,
+          "sha256": "b35cd473529c74aa73137a797e57cc4e2aa0d0ed47d809d78abd588481d6b66c",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop/resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-010/exports/OBJ-010_breakable_vessel_states_sheet.png",
+          "bytes": 199357,
+          "sha256": "7f57305bd0789f9d4e05d4f87864a130b26b5837facd26c7c7926f3858034100",
+          "dimensions": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop/resize"
+        }
+      ],
+      "export_cell_dimensions": [
+        256,
+        256
+      ],
+      "pivot_px": [
+        128,
+        224
+      ],
+      "pivot_status": "proposed registration anchor; manual state/module alignment and runtime test pending",
+      "preview_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-010/previews/OBJ-010_source_checker_light.jpg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-010/previews/OBJ-010_source_checker_dark.jpg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-010/previews/OBJ-010_export_contact.jpg"
+      ],
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-010/previews/OBJ-010_source_checker_light.jpg",
+      "review_notes": [
+        "Four vessel states reviewed with intact/cracked/broken/fragments. Static states only; bottom pivots and break animation require production registration."
+      ]
+    }
+  ],
+  "asset_id": "OBJ-010",
+  "generation_tool": "built-in image_gen",
+  "production_approved": false,
+  "runtime_integrated": false,
+  "requested_deliverables_saved_and_reviewed": true,
+  "stage": "reviewed generated object art and state/module exports; registration and gameplay integration pending",
+  "last_updated": "2026-10-17T20:11:09.495142+05:30",
+  "review_notes": [
+    "Four vessel states reviewed with intact/cracked/broken/fragments. Static states only; bottom pivots and break animation require production registration.",
+    "Static object state/module proposals. No complete animation, collision, hazard damage, portal transitions, falling logic or other gameplay behavior is implied.",
+    "Exact state geometry, pivots, scale and emission separation need final cleanup and Godot validation; rune motifs require design approval."
+  ],
+  "all_source_files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-010/source_images/OBJ-010_breakable_vessel_states_original.png",
+      "bytes": 1126201,
+      "sha256": "a59531cc22192cb19d05bf980c2ac59d72f498088873f7daa7698c27ec25a08a",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}

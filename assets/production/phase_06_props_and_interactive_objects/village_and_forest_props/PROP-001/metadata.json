@@ -1,0 +1,203 @@
+{
+  "asset_id": "PROP-001",
+  "id": "PROP-001",
+  "title": "Wooden lantern",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001",
+  "prompt": "Use case: stylized-concept. Lanterns Underroot illustrated handpainted2D platformer prop sprite sheet. Restrained painterly texture, readable silhouettes, warm weathered timber, muted forestgreen moss only smallpatches, bluegray metal bands, amber lanternlight. Strict orthographic front side-on game elevation, no perspective floor. ONE square1024x1024 image EXACTLY2equalcolumns2equalrows, FOUR equalcells512x512. One full isolated object percell,70pxclear padding each side, no objectcrossing boundaries. True transparent background, no groundshadows, people, UI, logos, labels, letters or numbers. Objects same scale family, neutral/active pairs identicalgeometry, cellrelativepivot and camera. Static prototype artstates, not gameplay claims. Asset wooden floorstanding lantern. Readingorder row1left/right then row2left/right: same wooden lantern unlit; same lantern amberlit; simple wooden wallmounted lantern unlit; same wallmounted lantern amberlit. Fullsilhouettes including handles chains andrope ends mustfit cells.",
+  "roles": [
+    "standing_unlit",
+    "standing_lit",
+    "wall_unlit",
+    "wall_lit"
+  ],
+  "deliverables": [
+    {
+      "slug": "prop_states",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/source_images/PROP-001_prop_states_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148ba-e578-7432-a445-11a2541d4ec5/exec-6f30a658-6284-4918-9717-f3023893c7d1.png",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot illustrated handpainted2D platformer prop sprite sheet. Restrained painterly texture, readable silhouettes, warm weathered timber, muted forestgreen moss only smallpatches, bluegray metal bands, amber lanternlight. Strict orthographic front side-on game elevation, no perspective floor. ONE square1024x1024 image EXACTLY2equalcolumns2equalrows, FOUR equalcells512x512. One full isolated object percell,70pxclear padding each side, no objectcrossing boundaries. True transparent background, no groundshadows, people, UI, logos, labels, letters or numbers. Objects same scale family, neutral/active pairs identicalgeometry, cellrelativepivot and camera. Static prototype artstates, not gameplay claims. Asset wooden floorstanding lantern. Readingorder row1left/right then row2left/right: same wooden lantern unlit; same lantern amberlit; simple wooden wallmounted lantern unlit; same wallmounted lantern amberlit. Fullsilhouettes including handles chains andrope ends mustfit cells.",
+      "reference_images": [],
+      "transparent_background": true,
+      "cols": 2,
+      "rows": 2,
+      "frame_count": 4,
+      "export_mode": "atlas",
+      "roles": [
+        "standing_unlit",
+        "standing_lit",
+        "wall_unlit",
+        "wall_lit"
+      ],
+      "timing": null,
+      "loop": false,
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen original",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "4d0842d2ea8609377b15c2c5135a8dbda3cbf26ec428ffa6da8477b186afc190",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "crop_boundaries": [
+        [
+          0,
+          0,
+          627,
+          627
+        ],
+        [
+          627,
+          0,
+          1254,
+          627
+        ],
+        [
+          0,
+          627,
+          627,
+          1254
+        ],
+        [
+          627,
+          627,
+          1254,
+          1254
+        ]
+      ],
+      "exports": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/exports/PROP-001_00_standing_unlit.png",
+          "dimensions": [
+            512,
+            512
+          ],
+          "sha256": "2ca307ecfff6a7cb8b249a4b9e98528309f8303a8be8dff5c6135d919624cb6c",
+          "role": "standing_unlit",
+          "source_crop": [
+            0,
+            0,
+            627,
+            627
+          ],
+          "pivot": [
+            256,
+            512
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/exports/PROP-001_01_standing_lit.png",
+          "dimensions": [
+            512,
+            512
+          ],
+          "sha256": "8bd7647f296c9c6e51d9f73e502d2f133c69a4fa9c585195da86962ce1a678c7",
+          "role": "standing_lit",
+          "source_crop": [
+            627,
+            0,
+            1254,
+            627
+          ],
+          "pivot": [
+            256,
+            512
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/exports/PROP-001_02_wall_unlit.png",
+          "dimensions": [
+            512,
+            512
+          ],
+          "sha256": "b141058124b58d02fec153d31b59c3b919fdfe6f57bd354ff1d5f5807a604399",
+          "role": "wall_unlit",
+          "source_crop": [
+            0,
+            627,
+            627,
+            1254
+          ],
+          "pivot": [
+            256,
+            512
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/exports/PROP-001_03_wall_lit.png",
+          "dimensions": [
+            512,
+            512
+          ],
+          "sha256": "59e949763b3064967464f642cb2e9739575bbee622d98597a5bd2ec51ca20ee2",
+          "role": "wall_lit",
+          "source_crop": [
+            627,
+            627,
+            1254,
+            1254
+          ],
+          "pivot": [
+            256,
+            512
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/exports/PROP-001_512px_states_sheet.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "727222078cdd34d589ae6462ef507499507a3c78c0696bb39a1cc266caf7ac74"
+        }
+      ],
+      "pivot": {
+        "x": 256,
+        "y": 512,
+        "description": "bottom-center cell anchor; manual state alignment pending"
+      },
+      "animated": false,
+      "common_scale": "All cells use identical scale factor512/source_cell_width; no per-object trim or scaling.",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/exports/PROP-001_00_standing_unlit.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/exports/PROP-001_01_standing_lit.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/exports/PROP-001_02_wall_unlit.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/exports/PROP-001_03_wall_lit.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/exports/PROP-001_512px_states_sheet.png"
+      ],
+      "previews": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/previews/PROP-001_source_alpha_checker.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/previews/PROP-001_export_contact.png"
+      ],
+      "review_notes": [
+        "Source checkerboard visually reviewed:four complete distinct intended states or modules, genuine alpha-zero outside objects, no text/UI or environment. Static artstate variants do not assert gameplay behavior.",
+        "Fixed512pxcell exports preserve common whole-sheet scale factor and cell-local bottom-center pivot. Generated paired geometry/baselines require precise runtime alignment before state switching; modular attachment seams not production-certified."
+      ]
+    }
+  ],
+  "production_approved": false,
+  "requested_deliverables_saved_and_reviewed": true,
+  "stage": "reviewed_prototype_source_and_fixed_cell_exports",
+  "runtime_integrated": false,
+  "metadata_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/metadata.json",
+  "review_notes": [
+    "Source checkerboard visually reviewed:four complete distinct intended states or modules, genuine alpha-zero outside objects, no text/UI or environment. Static artstate variants do not assert gameplay behavior.",
+    "Fixed512pxcell exports preserve common whole-sheet scale factor and cell-local bottom-center pivot. Generated paired geometry/baselines require precise runtime alignment before state switching; modular attachment seams not production-certified."
+  ],
+  "source_images": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/source_images/PROP-001_prop_states_original.png"
+  ],
+  "exports": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/exports/PROP-001_00_standing_unlit.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/exports/PROP-001_01_standing_lit.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/exports/PROP-001_02_wall_unlit.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/exports/PROP-001_03_wall_lit.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/exports/PROP-001_512px_states_sheet.png"
+  ],
+  "previews": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/previews/PROP-001_source_alpha_checker.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/previews/PROP-001_export_contact.png"
+  ]
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "slug": "exit_doorway_states",
+    "prompt": "Use case: precise-object-edit. Repair cell padding only in this 2x2 four-state doorway atlas. Preserve the exact four doorway designs, state order, materials, runes, active portal fill and genuine transparent holes. EACH complete arch must be SHRUNK to75% of its current size inside ITS OWN equal square cell, same uniform scale for all four states. Recenter each shrunken arch horizontally and vertically inside that own cell so at least10% cell width of alpha-zero clear padding is visible on ALL FOUR sides. Nothing may touch a cell boundary or canvas edge; restore any cut off tiny outer stone/root edge. No object may cross into an adjacent cell. Keep matching geometry and scale across all four states, align all arch bases at same localcellheight. Return same square source canvas and exact TWO equal columns TWO equal rows, four full objects. Do not add frames/gridlines/text/shadows/scenery. Outside each arch and inside empty doorway openings is fully transparent; preserve only active lower-left portal's bounded interior membrane. All existing detail intact, just smaller to fit safe margins.",
+    "reference_images": [
+      "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/source_images/OBJ-012_exit_doorway_states_original.png"
+    ]
+  }
+]

@@ -1,0 +1,201 @@
+{
+  "id": "OBJ-009",
+  "title": "Spike hazard",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-009",
+  "deliverables": [
+    {
+      "slug": "spike_hazard_modules",
+      "type": "transparent object state/module atlas prototype",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted illustrated 2D side-scrolling game sprite art. Muted blue-gray stone, moss green, warm wood/soil and restrained amber/cyan magical accents. Crisp readable full silhouettes and soft painterly local material shading; not pixel art, photoreal or 3D. ONE SQUARE transparent PNG atlas in EXACTLY TWO EQUAL COLUMNS and TWO EQUAL ROWS, four equal square cells. Each cell contains one complete named object/state with generous transparent margin at least12% on every side. Fixed side-on orthographic game camera, no floor, perspective groundplane, scenery, characters, UI, arrows, labels, text, gridlines, shadows, border, glow cloud or vignette. Genuine alpha-zero outside solid objects and tightly bounded requested local light. Don't let artwork cross a cell boundary. Consistent scale, alignment, base level, object geometry and pivot between states. Spike hazard: cool dark blue-gray ancient stone trap base carrying sharp angular silver-gray metal spike teeth. Four static modules: upper-left left cap with three spikes; upper-right repeating middle strip with three spikes; lower-left right cap with three spikes; lower-right isolated compact three-spike trap with finished ends. Same spike height/spacing and flat bottom anchor at75%cellheight, front side elevation, no visible top plane, no perspective floor. Clear dangerous pointed silhouette, entire tips and trap bases fit each cell. No blood, gore, characters, skulls, light effects or scene. Module art only; collision is separate.",
+      "transparent_background": true,
+      "reference_images": [],
+      "cols": 2,
+      "rows": 2,
+      "frame_count": 4,
+      "roles": [
+        "left spike cap",
+        "repeat spike middle",
+        "right spike cap",
+        "isolated three-spike trap"
+      ],
+      "export_mode": "atlas",
+      "export_cell_size": 256,
+      "timing": null,
+      "loop": false,
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-14e14a47-7e97-480d-b6a7-dbbcabff57aa.png",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-009/source_images/OBJ-009_spike_hazard_modules_original.png",
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-009/source_images/OBJ-009_spike_hazard_modules_original.png",
+        "bytes": 1179917,
+        "sha256": "cea0012876181d8d9325b1be9d446b187255579757ce9771e37474f4b2959796",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output generated in Codex; not downloaded source-chat original",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-009/exports/OBJ-009_spike_hazard_modules_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-009/exports/OBJ-009_spike_hazard_modules_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-009/exports/OBJ-009_spike_hazard_modules_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-009/exports/OBJ-009_spike_hazard_modules_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-009/exports/OBJ-009_spike_hazard_modules_sheet.png"
+      ],
+      "source_crop_boundaries": [
+        [
+          0,
+          0,
+          627,
+          627
+        ],
+        [
+          627,
+          0,
+          1254,
+          627
+        ],
+        [
+          0,
+          627,
+          627,
+          1254
+        ],
+        [
+          627,
+          627,
+          1254,
+          1254
+        ]
+      ],
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-009/exports/OBJ-009_spike_hazard_modules_00.png",
+          "bytes": 52258,
+          "sha256": "a5470bbcf45b28c4ca8930ee88e098f400b485201496027c23da5b4272144476",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop/resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-009/exports/OBJ-009_spike_hazard_modules_01.png",
+          "bytes": 48729,
+          "sha256": "ae7d5c315e90ab396f481b7d259c819d7942431c8af50808e63320133e6b1b7c",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop/resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-009/exports/OBJ-009_spike_hazard_modules_02.png",
+          "bytes": 53402,
+          "sha256": "0139bddc89c0c5e82d3c9bf2ab0e9cfbe58606d8f65fac1319024dd999f22c76",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop/resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-009/exports/OBJ-009_spike_hazard_modules_03.png",
+          "bytes": 54225,
+          "sha256": "ae28d57e8b5faa037dd4a32c39f7cc496049bcb55e23ffad32f33d0522064c25",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop/resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-009/exports/OBJ-009_spike_hazard_modules_sheet.png",
+          "bytes": 204173,
+          "sha256": "0e3c78a540dda8e878b7ceb9afdb24f92f0fb46ca7215af0bc70daca23c7855b",
+          "dimensions": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop/resize"
+        }
+      ],
+      "export_cell_dimensions": [
+        256,
+        256
+      ],
+      "pivot_px": [
+        128,
+        192
+      ],
+      "pivot_status": "proposed registration anchor; manual state/module alignment and runtime test pending",
+      "preview_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-009/previews/OBJ-009_source_checker_light.jpg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-009/previews/OBJ-009_source_checker_dark.jpg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-009/previews/OBJ-009_export_contact.jpg"
+      ],
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-009/previews/OBJ-009_source_checker_light.jpg",
+      "review_notes": [
+        "Four complete spike trap modules reviewed; three-spike repeat/caps/isolated trap distinct. Collision and module joins remain separate."
+      ]
+    }
+  ],
+  "asset_id": "OBJ-009",
+  "generation_tool": "built-in image_gen",
+  "production_approved": false,
+  "runtime_integrated": false,
+  "requested_deliverables_saved_and_reviewed": true,
+  "stage": "reviewed generated object art and state/module exports; registration and gameplay integration pending",
+  "last_updated": "2026-10-17T20:07:21.786268+05:30",
+  "review_notes": [
+    "Four complete spike trap modules reviewed; three-spike repeat/caps/isolated trap distinct. Collision and module joins remain separate.",
+    "Static object state/module proposals. No complete animation, collision, hazard damage, portal transitions, falling logic or other gameplay behavior is implied.",
+    "Exact state geometry, pivots, scale and emission separation need final cleanup and Godot validation; rune motifs require design approval."
+  ],
+  "all_source_files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-009/source_images/OBJ-009_spike_hazard_modules_original.png",
+      "bytes": 1179917,
+      "sha256": "cea0012876181d8d9325b1be9d446b187255579757ce9771e37474f4b2959796",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}
