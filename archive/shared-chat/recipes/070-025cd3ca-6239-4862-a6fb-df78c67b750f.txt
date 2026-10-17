@@ -1,0 +1,6 @@
+bash -lc python - <<'PY'
+from PIL import Image
+im=Image.open('/mnt/data/a_clean_high_quality_game_asset_animation_referen.png').convert('RGBA')
+for pt in [(1000,600),(100,200),(100,500),(1000,450),(1000,550),(100,20),(1000,20),(20,300)]:
+ print(pt, im.getpixel(pt))
+PY

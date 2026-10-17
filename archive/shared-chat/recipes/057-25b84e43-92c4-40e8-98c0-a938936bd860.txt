@@ -1,0 +1,82 @@
+bash -lc cat > /tmp/make_jump_asset.py <<'PY'
+from PIL import Image, ImageOps, ImageDraw
+from pathlib import Path
+import numpy as np, zipfile, json
+
+src=Path('/mnt/data/a_clean_high_resolution_game_asset_sheet_preview.png')
+out=Path('/mnt/data')
+im=Image.open(src).convert('RGBA')
+arr=np.array(im)
+alpha=arr[:,:,3]
+# The jump-start segment is only the first three poses: prepare, crouch, takeoff.
+regions=[(0,240),(240,472),(472,704)]
+names=['prepare','crouch','takeoff']
+frame_size=(288,288)
+frames=[]
+for idx,((x0,x1),name) in enumerate(zip(regions,names),1):
+    # Avoid the heading and numbered caption strip; keep only the character artwork and its soft ground contact.
+    crop=im.crop((x0,120,x1,480))
+    ca=np.array(crop.getchannel('A'))
+    # Tight bbox from visible pixels, ignoring almost-transparent generation residue.
+    ys,xs=np.where(ca>24)
+    if not len(xs): raise RuntimeError(f'No visible pixels in frame {idx}')
+    bbox=(int(xs.min()),int(ys.min()),int(xs.max()+1),int(ys.max()+1))
+    sprite=crop.crop(bbox)
+    # Trim very faint colored fringe pixels by zeroing pixels with negligible alpha.
+    sarr=np.array(sprite)
+    sarr[sarr[:,:,3] < 8, 3]=0
+    sprite=Image.fromarray(sarr,'RGBA')
+    # Normalize to consistent character height while staying inside square cell.
+    # Keep 12px side margins for the wide scarf silhouette.
+    max_w,max_h=264,248
+    scale=min(max_w/sprite.width,max_h/sprite.height)
+    new_size=(max(1,round(sprite.width*scale)),max(1,round(sprite.height*scale)))
+    sprite=sprite.resize(new_size,Image.Resampling.LANCZOS)
+    canvas=Image.new('RGBA',frame_size,(0,0,0,0))
+    # Align character's feet/ground contact to the same baseline; the takeoff pose can rise naturally.
+    x=(frame_size[0]-sprite.width)//2
+    y=frame_size[1]-24-sprite.height
+    if idx==3: y-=5
+    canvas.alpha_composite(sprite,(x,max(4,y)))
+    path=out/f'tavi_012_{name}.png'
+    canvas.save(path)
+    frames.append(canvas)
+
+# 3-cell spritesheet, no labels or UI, usable as a strip.
+sheet=Image.new('RGBA',(frame_size[0]*len(frames),frame_size[1]),(0,0,0,0))
+for i,fr in enumerate(frames): sheet.alpha_composite(fr,(i*frame_size[0],0))
+sheet_path=out/'tavi_012_jump_start_spritesheet.png'
+sheet.save(sheet_path)
+
+# Animated preview (loop only for preview; animation is meant to transition into rise/in-air).
+gif_frames=[]
+for fr in frames:
+    # Dark-neutral background for legibility in preview only.
+    bg=Image.new('RGBA',frame_size,(31,39,48,255))
+    bg.alpha_composite(fr)
+    gif_frames.append(bg.convert('P',palette=Image.Palette.ADAPTIVE))
+gif_path=out/'tavi_012_jump_start_preview.gif'
+gif_frames[0].save(gif_path,save_all=True,append_images=gif_frames[1:],duration=[110,90,70],loop=0,disposal=2,optimize=False)
+
+# Contact sheet display with a simple neutral gray background to show transparency and ordering.
+contact=Image.new('RGB',(frame_size[0]*3,frame_size[1]+34),(235,235,235))
+d=ImageDraw.Draw(contact)
+for i,fr in enumerate(frames):
+    bg=Image.new('RGBA',frame_size,(228,231,234,255)); bg.alpha_composite(fr)
+    contact.paste(bg.convert('RGB'),(i*frame_size[0],0))
+    d.text((i*frame_size[0]+12,frame_size[1]+9),f'{i+1}. {names[i].title()}',fill=(30,35,40))
+contact_path=out/'tavi_012_jump_start_contact_sheet.jpg'
+contact.save(contact_path,quality=95)
+
+readme='''TAVI-012 — Jump Start Animation\n\nAsset ID: TAVI-012\nFrames: 3 (prepare, crouch, takeoff)\nFrame size: 288 × 288 pixels\nFormat: PNG with alpha transparency\nDirection: facing right\nSuggested timing: 9–14 FPS for the short 3-frame anticipation/takeoff sequence\nLoop: No — transition to the rising-jump animation (TAVI-013).\n\nFiles\n- tavi_012_jump_start_spritesheet.png: 3 frames horizontally, 864 × 288 px, transparent.\n- tavi_012_prepare.png\n- tavi_012_crouch.png\n- tavi_012_takeoff.png\n- tavi_012_jump_start_preview.gif: preview on a neutral background.\n- tavi_012_jump_start_contact_sheet.jpg: labeled review image.\n\nImportant\nThese are prototype-ready extracted and normalized frames from a generated concept sheet, not final hand-authored animation. Check edge artifacts, alignment, and motion timing in Godot before release. The last frame should transition into the separate rising-jump animation, not loop.\n\nGodot SpriteFrames suggestion\nCreate an AnimatedSprite2D with an animation named `jump_start`, add the three individual PNGs in order, set speed to 10 FPS as a starting point, and set loop = false. On animation_finished, switch to `jump_rise` (TAVI-013).\n'''
+readme_path=out/'tavi_012_README.txt'
+readme_path.write_text(readme)
+zip_path=out/'tavi_012_jump_start_asset_pack.zip'
+with zipfile.ZipFile(zip_path,'w',zipfile.ZIP_DEFLATED) as z:
+    for p in [sheet_path,gif_path,contact_path,readme_path]+[out/f'tavi_012_{n}.png' for n in names]:
+        z.write(p,p.name)
+print('CREATED')
+for p in [sheet_path,gif_path,contact_path,readme_path,zip_path]+[out/f'tavi_012_{n}.png' for n in names]:
+    print(p, p.stat().st_size)
+PY
+python /tmp/make_jump_asset.py

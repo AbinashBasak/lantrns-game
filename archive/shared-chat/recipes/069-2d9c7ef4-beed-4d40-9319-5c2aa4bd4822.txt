@@ -1,0 +1,8 @@
+bash -lc python - <<'PY'
+from PIL import Image
+p='/mnt/data/a_clean_high_quality_game_asset_animation_referen.png'
+im=Image.open(p)
+print(im.mode, im.size)
+print('bands', im.getbands())
+if 'A' in im.getbands(): print('alpha extrema',im.getchannel('A').getextrema())
+PY

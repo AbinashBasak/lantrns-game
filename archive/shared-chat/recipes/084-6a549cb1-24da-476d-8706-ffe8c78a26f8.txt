@@ -1,0 +1,1 @@
+bash -lc ls -lah /mnt/data | tail -30 && find /mnt/data -maxdepth 3 -type f | sort | tail -50

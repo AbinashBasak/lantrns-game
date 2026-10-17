@@ -1,0 +1,6 @@
+bash -lc python - <<'PY'
+from PIL import Image
+p='/mnt/data/a_clean_high_quality_sprite_sheet_animation_refer.png'
+im=Image.open(p).convert('RGBA')
+print(im.size, im.getpixel((1000,120)), im.getpixel((1000,500)))
+PY

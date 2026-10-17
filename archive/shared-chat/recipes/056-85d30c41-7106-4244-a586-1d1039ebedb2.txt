@@ -1,0 +1,11 @@
+bash -lc python - <<'PY'
+from PIL import Image
+import numpy as np
+im=Image.open('/mnt/data/a_clean_high_resolution_game_asset_sheet_preview.png').convert('RGBA')
+a=np.array(im.getchannel('A'))
+ranges=[(0,240),(240,470),(470,700),(700,925),(925,1145),(1145,1370),(1370,1590),(1590,1880)]
+for i,(x0,x1) in enumerate(ranges,1):
+ arr=a[120:478,x0:x1]
+ ys,xs=np.where(arr>32)
+ print(i,(xs.min()+x0,ys.min()+120,xs.max()+x0,ys.max()+120) if len(xs) else None)
+PY

@@ -1,0 +1,10 @@
+bash -lc python - <<'PY'
+from PIL import Image
+im=Image.open('/mnt/data/a_wide_clean_game_asset_style_presentation_image.png').convert('RGBA')
+print(im.size)
+for y in [0,100,105,110,120,400,420,430,440,460,500]:
+ if y<im.height:
+  a=im.crop((0,y,im.width,min(y+1,im.height))).getchannel('A')
+  px=list(a.getdata())
+  print(y, sum(v>0 for v in px), sum(v>100 for v in px))
+PY

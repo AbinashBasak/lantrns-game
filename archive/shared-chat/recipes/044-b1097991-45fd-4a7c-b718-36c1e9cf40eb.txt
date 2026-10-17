@@ -1,0 +1,6 @@
+bash -lc python - <<'PY'
+from PIL import Image
+p='/mnt/data/wide_clean_sprite_sheet_style_presentation_on_a_t.png'
+im=Image.open(p).convert('RGBA')
+print(im.size, im.getpixel((1000,150)))
+PY

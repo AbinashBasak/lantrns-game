@@ -1,0 +1,20 @@
+bash -lc python - <<'PY'
+from PIL import Image
+import numpy as np
+from scipy import ndimage
+im=Image.open('/mnt/data/wide_clean_game_asset_style_reference_sheet_on_a.png').convert('RGBA')
+a=np.array(im)[:,:,3]
+for th in [10,30,60,100,150,200]:
+ m=a[100:450,:]>th
+ lab,n=ndimage.label(m)
+ objs=ndimage.find_objects(lab)
+ arr=[]
+ for i,sl in enumerate(objs,1):
+  if sl is None: continue
+  y,x=sl
+  area=(lab[sl]==i).sum()
+  if area>1000:
+   arr.append((int(x.start),int(x.stop),int(y.start+100),int(y.stop+100),int(area)))
+ arr.sort(key=lambda q:q[0])
+ print(th,arr[:20], 'n=',len(arr))
+PY

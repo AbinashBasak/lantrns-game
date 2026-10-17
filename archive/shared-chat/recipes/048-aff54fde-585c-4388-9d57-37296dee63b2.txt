@@ -1,0 +1,84 @@
+bash -lc cat <<'PY' > /tmp/create_run_asset.py
+from PIL import Image, ImageDraw
+from pathlib import Path
+import json, zipfile, shutil, os
+
+base=Path('/mnt/data')
+src=base/'a_clean_high_quality_sprite_sheet_animation_refer.png'
+outdir=base/'TAVI-011_run_frames'
+if outdir.exists(): shutil.rmtree(outdir)
+outdir.mkdir(parents=True)
+im=Image.open(src).convert('RGBA')
+W,H=im.size
+cols=6
+cell_w=W//cols
+# Crop only the character rows, excluding header and number plaques.
+rows=[(120,398),(421,699)]
+frames=[]
+for idx in range(12):
+    r=0 if idx<6 else 1
+    c=idx%6
+    y0,y1=rows[r]
+    frame=im.crop((c*cell_w,y0,(c+1)*cell_w,y1))
+    # Keep the original frame dimensions and alpha.
+    frame.save(outdir/f'run_{idx+1:02d}.png', optimize=True)
+    frames.append(frame)
+# Pack a 6x2 spritesheet with exact same-sized frames.
+fw,fh=frames[0].size
+sheet=Image.new('RGBA',(fw*6,fh*2),(0,0,0,0))
+for idx,frame in enumerate(frames):
+    sheet.alpha_composite(frame,((idx%6)*fw,(idx//6)*fh))
+sheet_path=base/'tavi_011_run_spritesheet.png'
+sheet.save(sheet_path,optimize=True)
+# Create a preview, composited on a check-like neutral backdrop and downscaled for viewing.
+preview_frames=[]
+for fr in frames:
+    # Centered transparent animation frame on a muted checkerboard
+    bg=Image.new('RGBA',(fw,fh),(0,0,0,0))
+    d=ImageDraw.Draw(bg)
+    sq=24
+    for yy in range(0,fh,sq):
+        for xx in range(0,fw,sq):
+            if (xx//sq+yy//sq)%2==0:
+                d.rectangle((xx,yy,xx+sq-1,yy+sq-1),fill=(222,222,222,255))
+            else:
+                d.rectangle((xx,yy,xx+sq-1,yy+sq-1),fill=(246,246,246,255))
+    bg.alpha_composite(fr)
+    # Scale down
+    bg=bg.convert('RGB').resize((fw//2,fh//2),Image.Resampling.LANCZOS)
+    preview_frames.append(bg)
+gif_path=base/'tavi_011_run_preview.gif'
+preview_frames[0].save(gif_path,save_all=True,append_images=preview_frames[1:],duration=100,loop=0,optimize=True)
+readme=f'''# TAVI-011 — Run Animation\n\nAsset: Tavi right-facing side-view run cycle\n\n## Files\n- `tavi_011_run_spritesheet.png` — 12-frame sprite sheet (6 columns × 2 rows)\n- `tavi_011_run_preview.gif` — quick preview over a checkerboard\n- `TAVI-011_run_frames/run_01.png` … `run_12.png` — individual RGBA frames\n\n## Frame layout\n- Frame size: {fw} × {fh} pixels\n- Sheet size: {fw*6} × {fh*2} pixels\n- Frame order: left-to-right across row 1, then left-to-right across row 2\n- Suggested initial playback: 10–12 FPS, loop enabled (tune in-engine)\n- Direction: facing right\n\n## Godot setup\nFor a quick Sprite2D sprite sheet, set `hframes = 6` and `vframes = 2`, then animate `frame` from 0 through 11. For more robust control, create an `AnimatedSprite2D` with the 12 individual PNGs in order. Use a consistent bottom/feet baseline when adjusting the character origin in the scene.\n\n## Production note\nThese frames are derived from a generated concept sprite sheet and are suitable for prototype integration after visual QA. Inspect frame edges and foot alignment in Godot; AI-generated cycles can contain subtle proportion or timing inconsistencies that may need cleanup before a final release.\n'''
+(base/'TAVI-011_README.md').write_text(readme)
+# Contact sheet of extracted frames for QA
+thumb_w,thumb_h=173,139
+contact=Image.new('RGB',(thumb_w*6, (thumb_h+25)*2),(50,55,62))
+d=ImageDraw.Draw(contact)
+for idx,fr in enumerate(frames):
+    bg=Image.new('RGBA',fr.size,(0,0,0,0)); bg.alpha_composite(fr)
+    # Checker bg
+    cb=Image.new('RGBA',fr.size,(0,0,0,0)); dd=ImageDraw.Draw(cb)
+    sq=20
+    for yy in range(0,fh,sq):
+        for xx in range(0,fw,sq):
+            color=(90,90,90,255) if (xx//sq+yy//sq)%2==0 else (115,115,115,255)
+            dd.rectangle((xx,yy,xx+sq-1,yy+sq-1),fill=color)
+    cb.alpha_composite(fr)
+    thumb=cb.convert('RGB').resize((thumb_w,thumb_h),Image.Resampling.LANCZOS)
+    x=(idx%6)*thumb_w; y=(idx//6)*(thumb_h+25)
+    contact.paste(thumb,(x,y))
+    d.text((x+thumb_w//2-20,y+thumb_h+3),f'Frame {idx+1}',fill=(245,245,245))
+contact.save(base/'tavi_011_run_contact_sheet.jpg',quality=92)
+# Zip pack with sheet, frames folder, preview, README
+zip_path=base/'tavi_011_run_asset_pack.zip'
+with zipfile.ZipFile(zip_path,'w',zipfile.ZIP_DEFLATED) as z:
+    z.write(sheet_path,'tavi_011_run_spritesheet.png')
+    z.write(gif_path,'tavi_011_run_preview.gif')
+    z.write(base/'TAVI-011_README.md','README.md')
+    for p in sorted(outdir.glob('*.png')):
+        z.write(p, f'TAVI-011_run_frames/{p.name}')
+print('frame',fw,fh,'sheet',sheet.size,'files',zip_path)
+PY
+python /tmp/create_run_asset.py
+ls -lh /mnt/data/tavi_011_run_* /mnt/data/TAVI-011_README.md

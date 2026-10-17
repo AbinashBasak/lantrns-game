@@ -1,0 +1,52 @@
+bash -lc cat > /tmp/build_tavi_idle.py <<'PY'
+from PIL import Image
+import numpy as np, cv2, zipfile
+from pathlib import Path
+src=Path('/mnt/data/wide_clean_sprite_sheet_style_image_on_a_transpare.png')
+outdir=Path('/mnt/data/TAVI-010_idle_frames'); outdir.mkdir(exist_ok=True)
+im=Image.open(src).convert('RGBA'); arr=np.array(im); alpha=arr[:,:,3]
+b=(alpha>30).astype(np.uint8); b[:100,:]=0; b[530:,:]=0
+n, labmap, stats, cent=cv2.connectedComponentsWithStats(b,8)
+comps=[]
+for lab,stat in enumerate(stats[1:],start=1):
+ x,y,w,h,area=map(int,stat)
+ if area>500 and h>150: comps.append((lab,x,y,w,h,area))
+comps.sort(key=lambda c:c[1])
+if len(comps)!=8: raise RuntimeError(f'Expected 8 frames, found {len(comps)}')
+CW,CH,TARGET_H=288,448,400
+frames=[]
+for i,(lab,x,y,w,h,area) in enumerate(comps,1):
+ left=max(0,x-4); top=max(100,y-4); right=min(im.width,x+w+4); bottom=min(530,y+h+4)
+ crop_rgba=arr[top:bottom,left:right].copy()
+ labels_crop=labmap[top:bottom,left:right]
+ # Keep only this frame's connected artwork and a narrow anti-aliased edge around it.
+ mask=(labels_crop==lab).astype(np.uint8)
+ mask=cv2.dilate(mask,np.ones((5,5),np.uint8),iterations=1)
+ crop_rgba[:,:,3]=np.where(mask>0,crop_rgba[:,:,3],0).astype(np.uint8)
+ crop=Image.fromarray(crop_rgba,'RGBA')
+ # Remove any now-empty margin before normalization.
+ bbox=crop.getbbox()
+ if bbox: crop=crop.crop(bbox)
+ cw,ch=crop.size
+ scale=TARGET_H/ch; nw=max(1,round(cw*scale)); nh=TARGET_H
+ crop=crop.resize((nw,nh),Image.Resampling.LANCZOS)
+ cell=Image.new('RGBA',(CW,CH),(0,0,0,0))
+ cell.alpha_composite(crop,((CW-nw)//2,CH-16-nh))
+ frame=outdir/f'frame_{i:02d}.png'; cell.save(frame)
+ frames.append(cell)
+sheet=Image.new('RGBA',(CW*8,CH),(0,0,0,0))
+for i,f in enumerate(frames): sheet.alpha_composite(f,(i*CW,0))
+sheet_path=Path('/mnt/data/tavi_010_idle_spritesheet.png'); sheet.save(sheet_path,optimize=True)
+preview=[]
+for f in frames:
+ bg=Image.new('RGBA',f.size,(33,42,51,255)); bg.alpha_composite(f); preview.append(bg.convert('RGB'))
+gif_path=Path('/mnt/data/tavi_010_idle_preview.gif')
+preview[0].save(gif_path,save_all=True,append_images=preview[1:],duration=140,loop=0,optimize=False)
+(outdir/'README.txt').write_text('''TAVI-010 — Idle Animation Asset Pack\n\nContents\n- tavi_010_idle_spritesheet.png: 8 columns × 1 row; each cell is 288 × 448 px; RGBA transparent background.\n- frame_01.png … frame_08.png: individual RGBA frames, each 288 × 448 px.\n- tavi_010_idle_preview.gif: preview only; solid background, not a game asset.\n\nGodot setup\n- Add the eight PNG frames in numeric order to an AnimatedSprite2D SpriteFrames resource, animation name `idle`.\n- Suggested starting speed: 6–7 FPS; loop enabled.\n- Configure collision separately; do not use sprite dimensions as collision dimensions.\n\nProduction note\nThese AI-generated frames have been isolated and normalized, but should still be reviewed in-engine for loop and edge consistency before release. Tavi is shown in a front three-quarter view rather than strict side profile; a dedicated side-view set may be needed for the side-scrolling gameplay.\n''',encoding='utf-8')
+zip_path=Path('/mnt/data/tavi_010_idle_asset_pack.zip')
+with zipfile.ZipFile(zip_path,'w',zipfile.ZIP_DEFLATED) as z:
+ z.write(sheet_path,sheet_path.name); z.write(gif_path,gif_path.name)
+ for p in sorted(outdir.iterdir()): z.write(p,f'TAVI-010_idle_frames/{p.name}')
+print('DONE',sheet.size,[(p.name,p.stat().st_size) for p in [sheet_path,gif_path,zip_path]])
+PY
+python /tmp/build_tavi_idle.py

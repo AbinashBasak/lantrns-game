@@ -1,0 +1,73 @@
+bash -lc cat <<'PY' > /tmp/create_run_asset.py
+from PIL import Image, ImageDraw
+from pathlib import Path
+import zipfile, shutil, json
+base=Path('/mnt/data')
+src=base/'a_clean_high_quality_sprite_sheet_animation_refer.png'
+outdir=base/'TAVI-011_run_frames'
+if outdir.exists(): shutil.rmtree(outdir)
+outdir.mkdir(parents=True)
+im=Image.open(src).convert('RGBA')
+W,H=im.size
+cols=6; cell_w=W//cols
+raw=[]
+# Main row avoids header above and number plaques below.
+for i in range(6):
+    fr=im.crop((i*cell_w,120,(i+1)*cell_w,398)) # 346x278
+    raw.append(fr)
+# Lower row: crop beneath upper-row number plaques; restore shared cell height with transparent top padding.
+for i in range(6):
+    fr0=im.crop((i*cell_w,432,(i+1)*cell_w,698)) # 346x266, no row number plaque
+    fr=Image.new('RGBA',(cell_w,278),(0,0,0,0))
+    fr.alpha_composite(fr0,(0,12))
+    raw.append(fr)
+# Standardized frame size and baseline, scaled so the runner height is comparable to the idle sprite.
+FW,FH=512,448
+frames=[]
+for idx,fr in enumerate(raw):
+    scaled=fr.resize((FW,round(fr.height*FW/fr.width)),Image.Resampling.LANCZOS)
+    canvas=Image.new('RGBA',(FW,FH),(0,0,0,0))
+    canvas.alpha_composite(scaled,(0,FH-scaled.height))  # align feet to common baseline
+    p=outdir/f'run_{idx+1:02d}.png'
+    canvas.save(p,optimize=True)
+    frames.append(canvas)
+# Godot-compatible sheet: 6 columns × 2 rows, 512×448 per frame
+sheet=Image.new('RGBA',(FW*6,FH*2),(0,0,0,0))
+for idx,fr in enumerate(frames):
+    sheet.alpha_composite(fr,((idx%6)*FW,(idx//6)*FH))
+sheet_path=base/'tavi_011_run_spritesheet.png'; sheet.save(sheet_path,optimize=True)
+# Preview GIF with checkerboard composite
+preview=[]
+for fr in frames:
+    bg=Image.new('RGBA',(FW,FH),(0,0,0,0)); d=ImageDraw.Draw(bg); s=32
+    for y in range(0,FH,s):
+        for x in range(0,FW,s):
+            col=(223,223,223,255) if (x//s+y//s)%2==0 else (245,245,245,255)
+            d.rectangle((x,y,x+s-1,y+s-1),fill=col)
+    bg.alpha_composite(fr)
+    preview.append(bg.convert('RGB').resize((FW//2,FH//2),Image.Resampling.LANCZOS))
+gif_path=base/'tavi_011_run_preview.gif'; preview[0].save(gif_path,save_all=True,append_images=preview[1:],duration=90,loop=0,optimize=True)
+# Frame contact sheet for QA
+thumb=(192,168); cellh=thumb[1]+24
+contact=Image.new('RGB',(thumb[0]*6,cellh*2),(44,49,56)); d=ImageDraw.Draw(contact)
+for idx,fr in enumerate(frames):
+    bg=Image.new('RGBA',(FW,FH),(0,0,0,0)); dd=ImageDraw.Draw(bg); s=32
+    for y in range(0,FH,s):
+        for x in range(0,FW,s):
+            co=(95,95,95,255) if (x//s+y//s)%2==0 else (120,120,120,255)
+            dd.rectangle((x,y,x+s-1,y+s-1),fill=co)
+    bg.alpha_composite(fr)
+    t=bg.convert('RGB').resize(thumb,Image.Resampling.LANCZOS)
+    x=(idx%6)*thumb[0]; y=(idx//6)*cellh
+    contact.paste(t,(x,y)); d.text((x+65,y+thumb[1]+4),f'Frame {idx+1}',fill=(245,245,245))
+contact_path=base/'tavi_011_run_contact_sheet.jpg'; contact.save(contact_path,quality=93)
+readme=f'''# TAVI-011 — Run Animation\n\n**Asset ID:** TAVI-011\n**Animation:** right-facing, side-view run cycle\n**Frame count:** 12\n**Standard frame size:** {FW} × {FH} px\n**Sprite sheet:** {sheet.width} × {sheet.height} px (6 columns × 2 rows)\n**Background:** transparent RGBA PNG\n\n## Files\n- `tavi_011_run_spritesheet.png` — assembled sheet\n- `tavi_011_run_preview.gif` — quick animation preview over checkerboard\n- `TAVI-011_run_frames/run_01.png` through `run_12.png` — individual frames\n\n## Godot setup\nFor `Sprite2D`, set `hframes = 6` and `vframes = 2`; animate `frame` from 0 to 11. Alternatively, add the individual PNGs in order to an `AnimatedSprite2D` `SpriteFrames` resource. Suggested starting speed: 10–12 FPS, loop enabled; tune after playtesting. Frames are bottom-aligned to a shared baseline.\n\n## Production QA note\nThe frames were extracted from an AI-generated animation sheet and normalized to a consistent canvas and baseline. Review them in Godot for silhouette continuity, foot sliding, hitbox alignment, and stray edge pixels before treating them as final release art. AI-generated poses can contain small inconsistencies.\n'''
+readme_path=base/'TAVI-011_README.md'; readme_path.write_text(readme)
+zip_path=base/'tavi_011_run_asset_pack.zip'
+with zipfile.ZipFile(zip_path,'w',zipfile.ZIP_DEFLATED) as z:
+    z.write(sheet_path,'tavi_011_run_spritesheet.png'); z.write(gif_path,'tavi_011_run_preview.gif'); z.write(readme_path,'README.md')
+    for p in sorted(outdir.glob('*.png')): z.write(p,f'TAVI-011_run_frames/{p.name}')
+print('Created:', sheet_path, sheet.size, 'frame=',FW,FH)
+PY
+python /tmp/create_run_asset.py
+ls -lh /mnt/data/tavi_011_run_spritesheet.png /mnt/data/tavi_011_run_preview.gif /mnt/data/tavi_011_run_asset_pack.zip

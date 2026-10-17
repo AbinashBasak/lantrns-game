@@ -1,0 +1,7 @@
+bash -lc python - <<'PY'
+from zipfile import ZipFile
+for p in ['/mnt/data/tavi_015_landing_asset_pack.zip','/mnt/data/tavi_011_run_asset_pack.zip']:
+ print('\n',p)
+ with ZipFile(p) as z:
+  for n in z.namelist()[:25]: print(n)
+PY

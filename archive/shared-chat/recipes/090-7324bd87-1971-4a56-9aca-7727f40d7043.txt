@@ -1,0 +1,96 @@
+bash -lc cat > /tmp/build_tavi016.py <<'PY'
+from PIL import Image, ImageDraw, ImageFont
+from pathlib import Path
+import json, zipfile, shutil
+
+src = Path('/mnt/data/a_wide_clean_game_asset_style_presentation_image.png')
+out = Path('/mnt/data/tavi_016_sword_attack_asset_pack')
+if out.exists(): shutil.rmtree(out)
+frames_dir = out / 'frames'
+frames_dir.mkdir(parents=True)
+
+im = Image.open(src).convert('RGBA')
+W,H = im.size
+# Eight equal columns; isolate the action row only, excluding title, labels, silhouettes, and metadata panels.
+y0, y1 = 108, 427
+bounds = [round(i*W/8) for i in range(9)]
+FRAME_W, FRAME_H = 288, 448
+frames=[]
+for i in range(8):
+    x0,x1=bounds[i],bounds[i+1]
+    crop=im.crop((x0,y0,x1,y1))
+    # Keep full cell contents, scale uniformly to target width, then align all frames to a shared baseline.
+    nw=FRAME_W
+    nh=round(crop.height*(nw/crop.width))
+    crop=crop.resize((nw,nh), Image.Resampling.LANCZOS)
+    canvas=Image.new('RGBA',(FRAME_W,FRAME_H),(0,0,0,0))
+    y=FRAME_H-nh-16
+    canvas.alpha_composite(crop,(0,y))
+    # Preserve transparency, crop slight low-alpha noise only if alpha is effectively zero already.
+    p=frames_dir/f'tavi_016_sword_attack_{i+1:02d}.png'
+    canvas.save(p)
+    frames.append(canvas)
+
+# One-row transparent sprite strip
+sheet=Image.new('RGBA',(FRAME_W*8,FRAME_H),(0,0,0,0))
+for i,f in enumerate(frames): sheet.alpha_composite(f,(i*FRAME_W,0))
+sheet.save(out/'tavi_016_sword_attack_spritesheet.png')
+# animated preview: loop for easy review, exported only as a preview
+preview_frames=[]
+for f in frames:
+    # Fit to a dark transparent checkerboard preview for viewing
+    bg=Image.new('RGBA',f.size,(30,35,43,255))
+    # simple checkerboard
+    d=ImageDraw.Draw(bg)
+    tile=24
+    for yy in range(0,FRAME_H,tile):
+        for xx in range(0,FRAME_W,tile):
+            if (xx//tile+yy//tile)%2==0: d.rectangle((xx,yy,xx+tile-1,yy+tile-1),fill=(42,47,56,255))
+    bg.alpha_composite(f)
+    preview_frames.append(bg.convert('RGB'))
+preview_frames[0].save(out/'tavi_016_sword_attack_preview.gif',save_all=True,append_images=preview_frames[1:],duration=100,loop=0,optimize=True)
+# contact sheet with per-frame preview cells
+cols=4; rows=2; pad=18; header=54; label_h=28
+cw,ch=FRAME_W,FRAME_H
+contact=Image.new('RGB',(pad*2+cols*cw,pad*2+header+rows*(ch+label_h)),(24,29,36))
+d=ImageDraw.Draw(contact)
+try:
+    font=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',18)
+    headfont=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf',22)
+except: font=headfont=None
+d.text((pad,pad),'TAVI-016 — SWORD ATTACK (PROTOTYPE FRAME EXTRACTION)',fill=(242,232,210),font=headfont)
+for i,f in enumerate(frames):
+    r,c=divmod(i,cols); x=pad+c*cw; y=pad+header+r*(ch+label_h)
+    bg=Image.new('RGBA',(cw,ch),(35,40,49,255)); dd=ImageDraw.Draw(bg)
+    tile=24
+    for yy in range(0,ch,tile):
+        for xx in range(0,cw,tile):
+            if (xx//tile+yy//tile)%2==0: dd.rectangle((xx,yy,xx+tile-1,yy+tile-1),fill=(49,54,63,255))
+    bg.alpha_composite(f)
+    contact.paste(bg.convert('RGB'),(x,y))
+    d.text((x+cw//2-31,y+ch+4),f'Frame {i+1}',fill=(236,230,218),font=font)
+contact.save(out/'tavi_016_sword_attack_contact_sheet.jpg',quality=92)
+
+manifest={
+  'asset_id':'TAVI-016','name':'Sword Attack','direction':'right','frame_count':8,
+  'frame_size_px':[FRAME_W,FRAME_H],'sprite_sheet_size_px':list(sheet.size),
+  'sprite_sheet_layout':'8 columns x 1 row','format':'PNG RGBA with transparency',
+  'suggested_fps':10,'loop':False,
+  'note':'Frames were isolated from an AI-generated reference sheet and normalized to common cells. Attack slash effects are included in some source cells and are not separated into a dedicated VFX layer. Validate edge artifacts, spacing, and animation continuity in Godot before production use.'
+}
+(out/'manifest.json').write_text(json.dumps(manifest,indent=2))
+readme='''# TAVI-016 — Sword Attack Animation\n\nPrototype asset extraction for Lanterns Underroot.\n\n## Contents\n- `tavi_016_sword_attack_spritesheet.png` — transparent 8-frame horizontal strip\n- `tavi_016_sword_attack_preview.gif` — quick looping preview\n- `tavi_016_sword_attack_contact_sheet.jpg` — frames shown on checkerboard previews\n- `frames/` — 8 individual RGBA PNG frames\n- `manifest.json` — frame dimensions and metadata\n\n## Godot starting settings\n- Animation name: `attack_1`\n- Frames: 8\n- Frame size: 288 x 448 px\n- Suggested FPS: 10 (tune during playtesting)\n- Loop: Off\n- Direction: right-facing\n\n## Important production note\nThese frames were cropped from generated reference artwork, not hand-drawn frame-by-frame. The source includes sword-slash glow in several frames, so this pack is suitable for a prototype visual test, not yet a final optimized character/VFX-separated animation. Check for cropped elements at the cell edges, visual consistency, transparent edge noise, hit timing, and foot/pivot alignment in Godot. Consider separating slash VFX into a dedicated animated effect before release.\n'''
+(out/'README.md').write_text(readme)
+zip_path=Path('/mnt/data/tavi_016_sword_attack_asset_pack.zip')
+with zipfile.ZipFile(zip_path,'w',zipfile.ZIP_DEFLATED) as z:
+    for p in out.rglob('*'):
+        if p.is_file(): z.write(p,p.relative_to(out))
+# Copy prominent output files to /mnt/data for exact links
+for fname in ['tavi_016_sword_attack_spritesheet.png','tavi_016_sword_attack_preview.gif','tavi_016_sword_attack_contact_sheet.jpg','manifest.json','README.md']:
+    shutil.copy2(out/fname,Path('/mnt/data')/fname)
+print('source', im.size, 'bounds',bounds, 'crop y',y0,y1)
+print('outputs')
+for p in [zip_path,Path('/mnt/data/tavi_016_sword_attack_spritesheet.png'),Path('/mnt/data/tavi_016_sword_attack_preview.gif'),Path('/mnt/data/tavi_016_sword_attack_contact_sheet.jpg')]:
+    print(p, p.stat().st_size)
+PY
+python /tmp/build_tavi016.py

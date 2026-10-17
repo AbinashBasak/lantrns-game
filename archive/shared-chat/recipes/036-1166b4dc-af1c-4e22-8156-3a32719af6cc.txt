@@ -1,0 +1,16 @@
+bash -lc python - <<'PY'
+import cv2, numpy as np
+from PIL import Image
+p='/mnt/data/wide_clean_sprite_sheet_style_image_on_a_transpare.png'
+im=Image.open(p).convert('RGBA')
+a=np.array(im)[:,:,3]
+b=(a>30).astype(np.uint8); b[:100,:]=0; b[530:,:]=0
+n,l,stats,c=cv2.connectedComponentsWithStats(b,8)
+items=[]
+for s in stats[1:]:
+ x,y,w,h,area=map(int,s)
+ if area>500 and h>150:
+  items.append((x,y,w,h,area))
+print(im.size, len(items))
+for i in sorted(items): print(i)
+PY

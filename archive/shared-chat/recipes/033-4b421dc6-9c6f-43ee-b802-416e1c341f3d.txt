@@ -1,0 +1,9 @@
+bash -lc python - <<'PY'
+import cv2, numpy as np
+from PIL import Image
+im=Image.open('/mnt/data/a_wide_clean_sprite_sheet_illustration_on_a_trans.png').convert('RGBA')
+a=np.array(im)[:,:,3]
+b=(a>30).astype('uint8'); b[:150,:]=0; b[612:,:]=0
+n,l,st,c=cv2.connectedComponentsWithStats(b,8)
+for x,y,w,h,area in sorted([tuple(map(int,s)) for s in st[1:] if s[4]>1000 and s[3]>100]): print(x,y,w,h,area)
+PY

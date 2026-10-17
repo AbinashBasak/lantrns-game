@@ -1,0 +1,8 @@
+bash -lc python - <<'PY'
+p='/tmp/make_tavi013.py'
+s=open(p).read()
+s=s.replace("from PIL import Image, ImageDraw, ImageFont\n", "from PIL import Image, ImageDraw, ImageFont\nimport numpy as np, cv2\n")
+s=s.replace("    # Keep original scale; scale down only if a crop exceeds the cell width.\n", "    # Remove disconnected fragments left by neighboring poses in the generated board.\n    arr=np.array(crop)\n    mask=(arr[:,:,:3].max(axis=2)>8).astype('uint8')\n    n, labels, stats, centers=cv2.connectedComponentsWithStats(mask, 8)\n    if n>1:\n        largest=1+int(np.argmax(stats[1:,cv2.CC_STAT_AREA]))\n        alpha=arr[:,:,3]\n        alpha[labels!=largest]=0\n        arr[:,:,3]=alpha\n        crop=Image.fromarray(arr, 'RGBA')\n    # Keep original scale; scale down only if a crop exceeds the cell width.\n")
+open(p,'w').write(s)
+PY
+python /tmp/make_tavi013.py

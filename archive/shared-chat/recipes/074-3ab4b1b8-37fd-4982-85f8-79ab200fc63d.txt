@@ -1,0 +1,16 @@
+bash -lc python - <<'PY'
+import cv2, numpy as np
+from PIL import Image
+im=np.array(Image.open('/mnt/data/a_clean_high_quality_game_asset_animation_referen.png').convert('RGBA'))
+a=im[:,:,3]
+for i in range(8):
+ x0=round(i*im.shape[1]/8); x1=round((i+1)*im.shape[1]/8)
+ sub=a[100:495,x0:x1]
+ _,mask=cv2.threshold(sub,60,255,cv2.THRESH_BINARY)
+ n,l,stats,c=cv2.connectedComponentsWithStats(mask,8)
+ res=[]
+ for j in range(1,n):
+  x,y,w,h,area=stats[j]
+  if area>10: res.append((area,(x,y+100,x+w-1,y+100+h-1)))
+ print('\n',i+1, sorted(res,reverse=True)[:15])
+PY

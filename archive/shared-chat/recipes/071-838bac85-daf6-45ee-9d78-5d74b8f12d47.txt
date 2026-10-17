@@ -1,0 +1,12 @@
+bash -lc python - <<'PY'
+from PIL import Image
+import numpy as np
+im=Image.open('/mnt/data/a_clean_high_quality_game_asset_animation_referen.png').convert('RGBA')
+a=np.array(im)[:,:,3]
+w,h=im.size
+for i in range(8):
+ x0=round(i*w/8); x1=round((i+1)*w/8)
+ crop=a[105:448,x0:x1]
+ ys,xs=np.where(crop>30)
+ print(i+1,(x0,x1), (xs.min() if len(xs) else None, ys.min()+105 if len(ys) else None, xs.max()+x0 if len(xs) else None, ys.max()+105 if len(ys) else None))
+PY

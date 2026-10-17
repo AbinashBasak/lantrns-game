@@ -1,0 +1,6 @@
+bash -lc python - <<'PY'
+try:
+ import cairosvg
+ print('cairosvg yes')
+except Exception as e: print('no',e)
+PY

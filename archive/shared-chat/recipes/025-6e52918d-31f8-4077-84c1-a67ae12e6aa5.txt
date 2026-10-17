@@ -1,0 +1,14 @@
+bash -lc python - <<'PY'
+from PIL import Image
+src='/mnt/data/a_clean_high_resolution_character_design_sheet_on.png'
+out='/mnt/data/lanterns_underroot_tavi001_turnaround.png'
+im=Image.open(src).convert('RGBA')
+# Isolate the four full-body turnaround views and their captions only.
+crop=im.crop((292, 12, 1204, 505))
+# Add a clean white margin so the sheet stands alone without other reference panels.
+margin=24
+canvas=Image.new('RGBA',(crop.width+margin*2,crop.height+margin*2),(255,255,255,255))
+canvas.alpha_composite(crop,(margin,margin))
+canvas.convert('RGB').save(out, quality=95)
+print(out, Image.open(out).size)
+PY

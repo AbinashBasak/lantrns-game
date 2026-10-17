@@ -1,0 +1,100 @@
+bash -lc cat > /tmp/make_tavi014_clean.py <<'PY'
+from PIL import Image, ImageDraw, ImageFont
+import numpy as np, cv2, os, zipfile
+src='/mnt/data/a_clean_high_quality_game_asset_animation_referen.png'
+out='/mnt/data'
+frames_dir=os.path.join(out,'TAVI-014_jump_fall_frames')
+os.makedirs(frames_dir,exist_ok=True)
+im=Image.open(src).convert('RGBA')
+arr=np.array(im)
+a=arr[:,:,3]
+# Get major sprite components in the upper animation band, separate from labels and lower reference panels.
+region=a[100:495,:]
+_,binary=cv2.threshold(region,60,255,cv2.THRESH_BINARY)
+n,labels,stats,centroids=cv2.connectedComponentsWithStats(binary,8)
+components=[]
+for j in range(1,n):
+    x,y,w,h,area=stats[j]
+    if area>20000:
+        components.append((int(x),int(y+100),int(w),int(h),int(area),j))
+components.sort(key=lambda x:x[0])
+if len(components)!=8:
+    raise RuntimeError(f'Expected 8 animation sprites; detected {len(components)}: {components}')
+fw,fh=288,448
+frames=[]
+for i,(x,y,w,h,area,j) in enumerate(components):
+    # Use the connected sprite mask, expanded slightly to preserve soft anti-aliased edges without capturing labels.
+    main=(labels==j).astype(np.uint8)
+    kernel=np.ones((3,3),np.uint8)
+    keep=cv2.dilate(main,kernel,iterations=1).astype(bool)
+    # Work only in a padded bbox around this character.
+    pad=4
+    x0=max(0,x-pad); y0=max(100,y-pad); x1=min(arr.shape[1],x+w+pad); y1=min(495,y+h+pad)
+    local=arr[y0:y1,x0:x1].copy()
+    local_keep=keep[y0-100:y1-100,x0:x1]
+    local[~local_keep,3]=0
+    local[local[:,:,3]<18,3]=0
+    sprite=Image.fromarray(local,'RGBA')
+    # Trim transparent margins created by padding.
+    bbox=sprite.getchannel('A').getbbox()
+    if bbox: sprite=sprite.crop(bbox)
+    # Scale on width to consistent apparent character size, preserving aspect ratio.
+    target_w=250
+    scale=target_w/sprite.width
+    new_size=(target_w,max(1,round(sprite.height*scale)))
+    sprite=sprite.resize(new_size,Image.Resampling.LANCZOS)
+    frame=Image.new('RGBA',(fw,fh),(0,0,0,0))
+    # Keep a stable visual center so the animation changes pose instead of moving the sprite origin.
+    px=(fw-sprite.width)//2
+    py=(fh-sprite.height)//2
+    frame.alpha_composite(sprite,(px,py))
+    fp=os.path.join(frames_dir,f'tavi_014_jump_fall_{i+1:02d}.png')
+    frame.save(fp,optimize=True)
+    frames.append(frame)
+
+sheet=Image.new('RGBA',(fw*8,fh),(0,0,0,0))
+for i,f in enumerate(frames): sheet.alpha_composite(f,(i*fw,0))
+sheet_path=os.path.join(out,'tavi_014_jump_fall_spritesheet.png')
+sheet.save(sheet_path,optimize=True)
+
+# GIF preview with checkerboard matte (GIF itself cannot preserve alpha).
+def checker_bg():
+    bg=Image.new('RGBA',(fw,fh),(242,242,238,255)); d=ImageDraw.Draw(bg); sz=24
+    for yy in range(0,fh,sz):
+        for xx in range(0,fw,sz):
+            if ((xx//sz)+(yy//sz))%2: d.rectangle((xx,yy,xx+sz-1,yy+sz-1),fill=(224,226,223,255))
+    return bg
+pal_frames=[]
+for f in frames:
+    bg=checker_bg(); bg.alpha_composite(f)
+    pal_frames.append(bg.convert('P',palette=Image.Palette.ADAPTIVE,colors=255))
+gif_path=os.path.join(out,'tavi_014_jump_fall_preview.gif')
+pal_frames[0].save(gif_path,save_all=True,append_images=pal_frames[1:],duration=100,loop=0,disposal=2,optimize=False)
+
+# Contact sheet contains only the falling animation frames.
+margin,gap,cols=24,18,4; rows=2
+cw=margin*2+cols*fw+gap*(cols-1); ch=margin*2+rows*(fh+34)+gap
+contact=Image.new('RGB',(cw,ch),(244,244,240)); draw=ImageDraw.Draw(contact)
+try: font=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',22)
+except: font=ImageFont.load_default()
+for i,f in enumerate(frames):
+    r,c=divmod(i,cols); x=margin+c*(fw+gap); y=margin+r*(fh+34+gap)
+    bg=checker_bg(); bg.alpha_composite(f); contact.paste(bg.convert('RGB'),(x,y))
+    draw.text((x+fw//2,y+fh+5),f'Frame {i+1}',font=font,fill=(35,40,42),anchor='mt')
+contact_path=os.path.join(out,'tavi_014_jump_fall_contact_sheet.jpg')
+contact.save(contact_path,quality=94)
+
+readme='''# TAVI-014 — Jump Fall Animation\n\nAsset ID: `TAVI-014`\n\n- Animation name: `jump_fall`\n- Frame count: 8\n- Frame canvas: 288 × 448 px, RGBA PNG\n- Sprite sheet: 2304 × 448 px, 8 columns × 1 row\n- Facing direction: right\n- Suggested FPS: 8–10 FPS\n- Playback: use as a short pose transition and then hold the last frame, or loop selected airborne poses after in-engine review\n- Transition to landing: trigger from physics (`is_on_floor()`), not solely from animation completion\n\n## Included\n- `tavi_014_jump_fall_spritesheet.png` — transparent horizontal sheet\n- `frames/` — 8 individual transparent PNG frames\n- `tavi_014_jump_fall_preview.gif` — preview with checkerboard matte (not transparent)\n- `tavi_014_jump_fall_contact_sheet.jpg` — contact sheet of this animation only\n\n## Godot setup\nCreate an `AnimatedSprite2D` `SpriteFrames` animation named `jump_fall`, import the frames in numeric order, and start at 8–10 FPS. Use the character physics state to transition to `land` when grounded.\n\n## Quality note\nFrames were extracted from the generated animation reference and normalized to a shared transparent canvas. This is a prototype asset pack, not hand-cleaned final animation art; inspect foot/limb contours, scale, alpha edges, and motion continuity in-engine before shipping.\n'''
+readme_path=os.path.join(out,'TAVI-014_README.md')
+with open(readme_path,'w') as f: f.write(readme)
+zip_path=os.path.join(out,'tavi_014_jump_fall_asset_pack.zip')
+with zipfile.ZipFile(zip_path,'w',zipfile.ZIP_DEFLATED) as z:
+    for p in [sheet_path,gif_path,contact_path,readme_path]: z.write(p,os.path.basename(p))
+    for fn in sorted(os.listdir(frames_dir)):
+        z.write(os.path.join(frames_dir,fn),os.path.join('frames',fn))
+print('Created:')
+for p in [sheet_path,contact_path,gif_path,zip_path,readme_path]: print(p,os.path.getsize(p))
+print('Source component boxes:')
+for i,c in enumerate(components,1): print(i,c[:5])
+PY
+python /tmp/make_tavi014_clean.py

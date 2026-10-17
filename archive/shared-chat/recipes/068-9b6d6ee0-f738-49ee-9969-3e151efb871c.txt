@@ -1,0 +1,1 @@
+bash -lc ls -lah /mnt/data | tail -40 && find /mnt/data -maxdepth 3 -type f \( -iname '*tavi_013*' -o -iname '*jump*' \) | head -80

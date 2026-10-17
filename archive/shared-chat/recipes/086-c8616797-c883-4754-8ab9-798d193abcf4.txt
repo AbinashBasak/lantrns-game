@@ -1,0 +1,7 @@
+bash -lc python - <<'PY'
+from PIL import Image
+p='/mnt/data/a_wide_clean_game_asset_style_presentation_image.png'
+im=Image.open(p)
+print(im.size, im.mode)
+print('corners', [im.getpixel(xy) for xy in [(0,0),(im.width-1,0),(0,im.height-1),(1000,120)]])
+PY

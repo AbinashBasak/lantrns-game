@@ -1,0 +1,5 @@
+bash -lc file /mnt/data/a_wide_clean_sprite_sheet_illustration_on_a_trans.png && python - <<'PY'
+from PIL import Image
+im=Image.open('/mnt/data/a_wide_clean_sprite_sheet_illustration_on_a_trans.png').convert('RGBA')
+print(im.size, im.getpixel((0,700)), im.getextrema()[3])
+PY

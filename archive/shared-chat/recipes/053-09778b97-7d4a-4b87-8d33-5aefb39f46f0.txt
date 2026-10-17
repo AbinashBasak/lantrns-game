@@ -1,0 +1,1 @@
+bash -lc ls -l /mnt/data | tail -30 && file /mnt/data/a_clean_high_resolution_game_asset_sheet_preview.png

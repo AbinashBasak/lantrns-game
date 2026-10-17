@@ -1,0 +1,17 @@
+bash -lc python - <<'PY'
+from PIL import Image, ImageDraw
+im=Image.open('/mnt/data/a_clean_high_resolution_game_art_sprite_sheet_pre.png').convert('RGBA')
+W,H=im.size
+print('cellw',W//12, 'remainder',W%12)
+for i in range(12):
+ c=im.crop((i*181,130,(i+1)*181,450))
+ bbox=c.getchannel('A').getbbox()
+ print(i+1,bbox)
+# montage crops at their basic sizes against gray
+out=Image.new('RGB',(181*6,320*2),(70,70,70))
+for i in range(12):
+ c=im.crop((i*181,130,(i+1)*181,450))
+ bg=Image.new('RGBA', c.size, (80,80,80,255)); bg.alpha_composite(c)
+ out.paste(bg.convert('RGB'),((i%6)*181,(i//6)*320))
+out.save('/mnt/data/run_crops_montage.jpg')
+PY

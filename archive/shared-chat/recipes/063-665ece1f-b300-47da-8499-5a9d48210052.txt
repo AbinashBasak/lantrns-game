@@ -1,0 +1,2 @@
+bash -lc sed -i "s/z.write(p,str(Path(outdir.name)\/p.name)$/z.write(p,str(Path(outdir.name)\/p.name))/" /tmp/make_tavi013.py
+python /tmp/make_tavi013.py

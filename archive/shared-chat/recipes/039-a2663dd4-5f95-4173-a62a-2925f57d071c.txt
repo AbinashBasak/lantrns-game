@@ -1,0 +1,1 @@
+bash -lc ls -l /mnt/data | tail -30

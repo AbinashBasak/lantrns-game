@@ -1,0 +1,8 @@
+bash -lc python - <<'PY'
+from PIL import Image
+p='/mnt/data/a_clean_high_resolution_game_art_sprite_sheet_pre.png'
+im=Image.open(p)
+print(im.size, im.mode)
+print(im.getpixel((1000,100)))
+print(im.getpixel((100,400)))
+PY

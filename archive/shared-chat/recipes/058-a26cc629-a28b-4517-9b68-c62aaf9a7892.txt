@@ -1,0 +1,7 @@
+bash -lc python - <<'PY'
+p='/tmp/make_jump_asset.py'
+s=open(p).read().replace("regions=[(0,240),(240,472),(472,704)]", "regions=[(0,240),(240,472),(700,925)]")
+s=s.replace("# The jump-start segment is only the first three poses: prepare, crouch, takeoff.", "# Select the prepare, crouch, and clearly airborne takeoff poses from the generated board.")
+open(p,'w').write(s)
+PY
+python /tmp/make_jump_asset.py

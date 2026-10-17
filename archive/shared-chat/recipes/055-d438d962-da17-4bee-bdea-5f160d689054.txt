@@ -1,0 +1,14 @@
+bash -lc python - <<'PY'
+from PIL import Image
+im=Image.open('/mnt/data/a_clean_high_resolution_game_asset_sheet_preview.png').convert('RGBA')
+a=im.getchannel('A')
+# row-by-row connected parts maybe split at x ranges and bounds y 70:480
+ranges=[(0,240),(240,470),(470,700),(700,925),(925,1145),(1145,1370),(1370,1590),(1590,1880)]
+for i,(x0,x1) in enumerate(ranges,1):
+    crop=a.crop((x0,70,x1,480))
+    # bbox alpha > 32
+    import numpy as np
+    ar=np.array(crop)
+    ys,xs=np.where(ar>32)
+    print(i,(x0,x1), (xs.min()+x0,ys.min()+70,xs.max()+x0,ys.max()+70) if len(xs) else None)
+PY

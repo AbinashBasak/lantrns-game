@@ -1,0 +1,13 @@
+bash -lc python - <<'PY'
+from PIL import Image
+im=Image.open('/mnt/data/wide_clean_sprite_sheet_style_presentation_on_a_t.png').convert('RGBA')
+W,H=im.size
+out=Image.new('RGB',(173*6,330*2),(90,90,90))
+for i in range(12):
+ x0=round(i*W/12); x1=round((i+1)*W/12)
+ c=im.crop((x0,175,x1,505))
+ bg=Image.new('RGBA', c.size, (90,90,90,255)); bg.alpha_composite(c)
+ out.paste(bg.convert('RGB'),((i%6)*173,(i//6)*330))
+print(W,H)
+out.save('/mnt/data/run_crops_montage2.jpg')
+PY

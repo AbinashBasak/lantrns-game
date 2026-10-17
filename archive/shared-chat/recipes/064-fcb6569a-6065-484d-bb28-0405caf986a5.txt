@@ -1,0 +1,13 @@
+bash -lc python - <<'PY'
+from PIL import Image
+import numpy as np
+import cv2
+im=Image.open('/mnt/data/wide_black_background_game_art_reference_sheet_s.png').convert('RGB')
+boxes=[(15,210,230,455),(250,180,490,455),(485,145,745,450),(750,115,1005,420),(995,65,1260,390),(1245,65,1515,375),(1510,20,1785,360),(1780,20,2075,350)]
+for i,b in enumerate(boxes,1):
+ arr=np.array(im.crop(b))
+ mask=np.max(arr,axis=2)>8
+ n,lab,stats,cent=cv2.connectedComponentsWithStats(mask.astype('uint8'),8)
+ comps=sorted(stats[1:,cv2.CC_STAT_AREA], reverse=True)[:8]
+ print(i, arr.shape[:2], comps)
+PY

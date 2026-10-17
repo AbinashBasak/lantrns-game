@@ -1,0 +1,13 @@
+bash -lc python - <<'PY'
+try: import cv2; print('cv2',cv2.__version__)
+except Exception as e: print('no cv2',e)
+from PIL import Image
+import numpy as np
+im=np.array(Image.open('/mnt/data/a_clean_high_quality_game_asset_animation_referen.png').convert('RGBA'))
+a=im[:,:,3]
+print(im.shape)
+for i in range(8):
+ x0=round(i*im.shape[1]/8); x1=round((i+1)*im.shape[1]/8)
+ sub=a[112:490,x0:x1]
+ print(i+1, 'alpha >30',np.sum(sub>30), 'bbox', tuple([int(np.where(sub>30)[1].min()),int(np.where(sub>30)[0].min()+112),int(np.where(sub>30)[1].max()),int(np.where(sub>30)[0].max()+112)]))
+PY

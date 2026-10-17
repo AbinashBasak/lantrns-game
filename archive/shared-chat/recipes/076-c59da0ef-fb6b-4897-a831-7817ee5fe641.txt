@@ -1,0 +1,11 @@
+bash -lc python - <<'PY'
+import cv2,numpy as np
+from PIL import Image
+im=np.array(Image.open('/mnt/data/a_clean_high_quality_game_asset_animation_referen.png').convert('RGBA'))
+a=im[:,:,3]
+for th in [1,5,10,20,30,60,100]:
+ _,mask=cv2.threshold(a[100:495,:],th,255,cv2.THRESH_BINARY)
+ n,l,stats,c=cv2.connectedComponentsWithStats(mask,8)
+ res=sorted([(int(stats[j,4]),(int(stats[j,0]),int(stats[j,1]+100),int(stats[j,0]+stats[j,2]-1),int(stats[j,1]+100+stats[j,3]-1))) for j in range(1,n) if stats[j,4]>1000],reverse=True)
+ print('th',th,'largest',res[:10])
+PY

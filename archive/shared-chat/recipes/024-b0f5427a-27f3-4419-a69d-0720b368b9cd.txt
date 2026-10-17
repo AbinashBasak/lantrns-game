@@ -1,0 +1,5 @@
+bash -lc ls -l /mnt/data/a_clean_high_resolution_character_design_sheet_on.png && python - <<'PY'
+from PIL import Image
+im=Image.open('/mnt/data/a_clean_high_resolution_character_design_sheet_on.png')
+print(im.size)
+PY

@@ -1,0 +1,8 @@
+bash -lc python - <<'PY'
+p='/tmp/create_run_asset.py'
+s=open(p).read()
+s=s.replace("from PIL import Image, ImageDraw\n", "from PIL import Image, ImageDraw\nimport numpy as np, cv2\n")
+s=s.replace("    fr0=im.crop((i*cell_w,432,(i+1)*cell_w,698)) # 346x266, no row number plaque\n    fr=Image.new('RGBA',(cell_w,278),(0,0,0,0))\n    fr.alpha_composite(fr0,(0,12))\n    raw.append(fr)", "    fr0=im.crop((i*cell_w,432,(i+1)*cell_w,698)) # 346x266, remove remnants of previous row's numbered plaques\n    # Remove isolated plaque/label remnants in the upper center of this cell while retaining the character's hair.\n    arr=np.array(fr0)\n    alpha=arr[:,:,3]\n    n, labels, stats, centroids=cv2.connectedComponentsWithStats((alpha>0).astype('uint8'), 8)\n    for lab in range(1,n):\n        x,y,w,h,area=stats[lab]\n        if y <= 20 and h <= 32 and 100 <= x <= 220 and w <= 100 and area < 1800:\n            arr[labels==lab,3]=0\n    fr0=Image.fromarray(arr, 'RGBA')\n    fr=Image.new('RGBA',(cell_w,278),(0,0,0,0))\n    fr.alpha_composite(fr0,(0,12))\n    raw.append(fr)")
+open(p,'w').write(s)
+PY
+python /tmp/create_run_asset.py

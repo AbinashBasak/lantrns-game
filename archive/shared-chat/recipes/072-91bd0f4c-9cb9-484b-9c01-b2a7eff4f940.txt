@@ -1,0 +1,98 @@
+bash -lc cat > /tmp/make_tavi014.py <<'PY'
+from PIL import Image, ImageDraw, ImageFont
+import numpy as np, os, zipfile, json, math
+src='/mnt/data/a_clean_high_quality_game_asset_animation_referen.png'
+out='/mnt/data'
+frames_dir=os.path.join(out,'TAVI-014_jump_fall_frames')
+os.makedirs(frames_dir,exist_ok=True)
+im=Image.open(src).convert('RGBA')
+W,H=im.size
+cell_w=W/8
+frame_w,frame_h=288,448
+frames=[]
+for i in range(8):
+    x0=round(i*cell_w); x1=round((i+1)*cell_w)
+    crop=im.crop((x0,112,x1,444)).convert('RGBA')
+    arr=np.array(crop)
+    # Suppress low-alpha generation noise while preserving antialiased edges.
+    arr[arr[:,:,3] < 18, 3] = 0
+    # Crop around visible character pixels, excluding transparent space.
+    alpha=arr[:,:,3]
+    mask=alpha>45
+    ys,xs=np.where(mask)
+    if len(xs)==0:
+        raise RuntimeError(f'No sprite detected in frame {i+1}')
+    bx0=max(0,int(xs.min())-2); by0=max(0,int(ys.min())-2)
+    bx1=min(arr.shape[1],int(xs.max())+3); by1=min(arr.shape[0],int(ys.max())+3)
+    sprite=Image.fromarray(arr).crop((bx0,by0,bx1,by1))
+    # Keep scale consistent by limiting sprite width, not height; horizontal falling poses are naturally shorter.
+    max_sprite_w=252
+    if sprite.width>max_sprite_w:
+        nh=round(sprite.height*max_sprite_w/sprite.width)
+        sprite=sprite.resize((max_sprite_w,nh),Image.Resampling.LANCZOS)
+    # Keep a common canvas/origin; center poses to avoid frame-edge clipping and visual jitter.
+    canvas=Image.new('RGBA',(frame_w,frame_h),(0,0,0,0))
+    px=(frame_w-sprite.width)//2
+    py=(frame_h-sprite.height)//2
+    canvas.alpha_composite(sprite,(px,py))
+    fp=os.path.join(frames_dir,f'tavi_014_jump_fall_{i+1:02d}.png')
+    canvas.save(fp)
+    frames.append(canvas)
+
+# 8-frame horizontal sprite sheet (transparent)
+sheet=Image.new('RGBA',(frame_w*8,frame_h),(0,0,0,0))
+for i,f in enumerate(frames): sheet.alpha_composite(f,(i*frame_w,0))
+sheet_path=os.path.join(out,'tavi_014_jump_fall_spritesheet.png')
+sheet.save(sheet_path,optimize=True)
+
+# Animated GIF preview with neutral matte; GIF does not support partial alpha, so use a muted checker.
+gif_frames=[]
+for f in frames:
+    bg=Image.new('RGBA',(frame_w,frame_h),(238,238,234,255))
+    d=ImageDraw.Draw(bg)
+    sz=24
+    for yy in range(0,frame_h,sz):
+        for xx in range(0,frame_w,sz):
+            if ((xx//sz)+(yy//sz))%2:
+                d.rectangle([xx,yy,xx+sz-1,yy+sz-1],fill=(220,222,220,255))
+    bg.alpha_composite(f)
+    gif_frames.append(bg.convert('P',palette=Image.Palette.ADAPTIVE,colors=255))
+gif_path=os.path.join(out,'tavi_014_jump_fall_preview.gif')
+gif_frames[0].save(gif_path,save_all=True,append_images=gif_frames[1:],duration=100,loop=0,disposal=2,optimize=False)
+
+# Contact sheet: only this animation, numbered frames; no unrelated art or information panels.
+margin=24; gap=16; cols=4; rows=2; cell=(frame_w,frame_h)
+contact=Image.new('RGB',(margin*2+cols*frame_w+gap*(cols-1), margin*2+rows*(frame_h+34)+gap*(rows-1)),(242,242,238))
+d=ImageDraw.Draw(contact)
+try: font=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',22)
+except: font=ImageFont.load_default()
+for i,f in enumerate(frames):
+    r,c=divmod(i,cols); x=margin+c*(frame_w+gap); y=margin+r*(frame_h+34+gap)
+    bg=Image.new('RGBA',(frame_w,frame_h),(245,245,241,255))
+    dd=ImageDraw.Draw(bg); sz=24
+    for yy in range(0,frame_h,sz):
+      for xx in range(0,frame_w,sz):
+        if ((xx//sz)+(yy//sz))%2: dd.rectangle((xx,yy,xx+sz-1,yy+sz-1),fill=(230,231,228,255))
+    bg.alpha_composite(f)
+    contact.paste(bg.convert('RGB'),(x,y))
+    d.text((x+frame_w//2,y+frame_h+4),f'Frame {i+1}',fill=(35,40,42),font=font,anchor='mt')
+contact_path=os.path.join(out,'tavi_014_jump_fall_contact_sheet.jpg')
+contact.save(contact_path,quality=92)
+
+readme='''# TAVI-014 — Jump Fall Animation\n\nAsset for Lanterns Underroot.\n\n- Animation: `jump_fall`\n- Frames: 8\n- Canvas per frame: 288 × 448 px, RGBA PNG\n- Sprite sheet: 2304 × 448 px, 8 columns × 1 row\n- Facing: right\n- Suggested playback: 8–10 FPS; for a looping fall state, loop frames 4–8 after review\n- Next state: `land` when the physics body detects ground contact\n\n## Files\n- `tavi_014_jump_fall_spritesheet.png` — horizontal sprite sheet\n- `frames/tavi_014_jump_fall_01.png` … `08.png` — individual frames\n- `tavi_014_jump_fall_preview.gif` — preview (matte/checkerboard; not game transparency)\n- `tavi_014_jump_fall_contact_sheet.jpg` — labeled contact sheet\n\n## Godot setup\nImport the PNGs as ordinary 2D textures. For an `AnimatedSprite2D`, create a SpriteFrames animation named `jump_fall`; add the 8 frames in numerical order and set the FPS to 8–10 as a starting point. Transition to `land` on `is_on_floor()` rather than relying on the animation to complete.\n\n## Production note\nFrames were isolated from generated concept artwork and normalized onto a shared transparent canvas. They are prototype assets and should be reviewed in-engine for stray edge pixels, consistent silhouette/scale, and motion continuity before final release.\n'''
+readme_path=os.path.join(out,'TAVI-014_README.md')
+open(readme_path,'w').write(readme)
+zip_path=os.path.join(out,'tavi_014_jump_fall_asset_pack.zip')
+with zipfile.ZipFile(zip_path,'w',zipfile.ZIP_DEFLATED) as z:
+    z.write(sheet_path,os.path.basename(sheet_path))
+    z.write(gif_path,os.path.basename(gif_path))
+    z.write(contact_path,os.path.basename(contact_path))
+    z.write(readme_path,os.path.basename(readme_path))
+    for fn in sorted(os.listdir(frames_dir)):
+        z.write(os.path.join(frames_dir,fn),os.path.join('frames',fn))
+print('CREATED')
+for p in [sheet_path,contact_path,gif_path,zip_path,readme_path]:
+    print(p, os.path.getsize(p))
+print('frames:',len(frames))
+PY
+python /tmp/make_tavi014.py

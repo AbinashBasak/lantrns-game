@@ -1,0 +1,98 @@
+bash -lc cat > /tmp/make_tavi013.py <<'PY'
+from PIL import Image, ImageDraw, ImageFont
+from pathlib import Path
+import zipfile, json, shutil
+
+base=Path('/mnt/data')
+src=base/'wide_black_background_game_art_reference_sheet_s.png'
+outdir=base/'TAVI-013_jump_rise_frames'
+outdir.mkdir(exist_ok=True)
+im=Image.open(src).convert('RGBA')
+# Source crops bounded to each character only; y bounds keep the character's rise position
+# while excluding the title and frame labels.
+boxes=[
+    (15,210,230,455),
+    (250,180,490,455),
+    (485,145,745,450),
+    (750,115,1005,420),
+    (995,65,1260,390),
+    (1245,65,1515,375),
+    (1510,20,1785,360),
+    (1780,20,2075,350),
+]
+W,H=288,448
+frames=[]
+for i,box in enumerate(boxes,1):
+    crop=im.crop(box)
+    # Generated sheet uses black as background. Remove only near-black pixels to retain dark outlines.
+    px=crop.load()
+    for y in range(crop.height):
+        for x in range(crop.width):
+            r,g,b,a=px[x,y]
+            if max(r,g,b) <= 8:
+                px[x,y]=(r,g,b,0)
+    # Keep original scale; scale down only if a crop exceeds the cell width.
+    if crop.width > W-12 or crop.height > H-8:
+        scale=min((W-12)/crop.width,(H-8)/crop.height,1.0)
+        crop=crop.resize((round(crop.width*scale),round(crop.height*scale)),Image.Resampling.LANCZOS)
+    cell=Image.new('RGBA',(W,H),(0,0,0,0))
+    # Preserve source vertical position during rise, but keep full-body silhouette inside frame.
+    y_offset=max(0,min(H-crop.height,box[1]-15))
+    x_offset=(W-crop.width)//2
+    cell.alpha_composite(crop,(x_offset,y_offset))
+    p=outdir/f'tavi_013_jump_rise_{i:02d}.png'
+    cell.save(p)
+    frames.append(cell)
+
+# Sprite sheet: 8 columns x 1 row
+sheet=Image.new('RGBA',(W*len(frames),H),(0,0,0,0))
+for i,fr in enumerate(frames): sheet.alpha_composite(fr,(i*W,0))
+sheet_path=base/'tavi_013_jump_rise_spritesheet.png'
+sheet.save(sheet_path)
+
+# Contact sheet on neutral checkerboard (display only)
+cols=4; cellw=288; cellh=448; gap=16; top=55
+cw=cols*cellw+(cols+1)*gap
+ch=top+2*cellh+3*gap
+contact=Image.new('RGB',(cw,ch),(34,39,47))
+d=ImageDraw.Draw(contact)
+try: font=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',20)
+except: font=ImageFont.load_default()
+for i,fr in enumerate(frames):
+    x=gap+(i%cols)*(cellw+gap); y=top+(i//cols)*(cellh+gap)
+    # checkerboard
+    bg=Image.new('RGB',(cellw,cellh),(224,224,224)); bd=ImageDraw.Draw(bg); sz=24
+    for yy in range(0,cellh,sz):
+        for xx in range(0,cellw,sz):
+            if (xx//sz+yy//sz)%2: bd.rectangle((xx,yy,xx+sz-1,yy+sz-1),fill=(194,194,194))
+    bg_rgba=bg.convert('RGBA'); bg_rgba.alpha_composite(fr)
+    contact.paste(bg_rgba.convert('RGB'),(x,y))
+    d.text((x+8,y+cellh+3),f'Frame {i+1}',font=font,fill=(245,245,245))
+contact_path=base/'tavi_013_jump_rise_contact_sheet.jpg'
+contact.save(contact_path,quality=92)
+
+# GIF preview on checkerboard background
+preview_frames=[]
+for fr in frames:
+    bg=Image.new('RGBA',(W,H),(224,224,224,255)); bd=ImageDraw.Draw(bg); sz=24
+    for yy in range(0,H,sz):
+        for xx in range(0,W,sz):
+            if (xx//sz+yy//sz)%2: bd.rectangle((xx,yy,xx+sz-1,yy+sz-1),fill=(194,194,194,255))
+    bg.alpha_composite(fr)
+    preview_frames.append(bg.convert('P',palette=Image.Palette.ADAPTIVE))
+gif_path=base/'tavi_013_jump_rise_preview.gif'
+preview_frames[0].save(gif_path,save_all=True,append_images=preview_frames[1:],duration=100,loop=0,optimize=False)
+
+readme=base/'TAVI-013_README.md'
+readme.write_text('''# TAVI-013 — Jump Rise Animation\n\n- **Status:** Prototype extraction from generated concept sheet; inspect before production use.\n- **Frames:** 8\n- **Cell size:** 288 × 448 px\n- **Sprite sheet:** `tavi_013_jump_rise_spritesheet.png` (8 columns × 1 row)\n- **Direction:** Right-facing\n- **Suggested playback:** 10 FPS\n- **Loop:** Off; transition to `jump_fall` when vertical velocity becomes negative.\n- **Files:** `TAVI-013_jump_rise_frames/tavi_013_jump_rise_01.png` through `_08.png`\n\n## Godot setup\n\nCreate an `AnimatedSprite2D` with a `SpriteFrames` resource, add an animation named `jump_rise`, and import the eight PNG frames in order. Set the animation to non-looping. Use `jump_start` before this animation and transition to `jump_fall` based on the player's vertical velocity.\n\n## Important limitations\n\nThese frames were extracted from an AI-generated reference image, not hand-drawn as a true production spritesheet. The poses and silhouette vary between frames, so check foot/weapon/scarf consistency, edge pixels, scale, and animation continuity in Godot before using them in a release build. The original image's black background was keyed to transparency; inspect dark outlines for any lost pixels.\n''')
+zip_path=base/'tavi_013_jump_rise_asset_pack.zip'
+with zipfile.ZipFile(zip_path,'w',zipfile.ZIP_DEFLATED) as z:
+    z.write(sheet_path,sheet_path.name)
+    z.write(contact_path,contact_path.name)
+    z.write(gif_path,gif_path.name)
+    z.write(readme,readme.name)
+    for p in sorted(outdir.glob('*.png')): z.write(p,str(Path(outdir.name)/p.name)
+print('created')
+for p in [sheet_path,contact_path,gif_path,zip_path,readme]: print(p, p.stat().st_size)
+PY
+python /tmp/make_tavi013.py

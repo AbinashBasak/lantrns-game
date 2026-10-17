@@ -1,0 +1,1 @@
+bash -lc ls -l /mnt/data | tail -20 && find /mnt/data/user-* -type f -name '*landing*' -o -name '*ca9e14c1*' 2>/dev/null | head

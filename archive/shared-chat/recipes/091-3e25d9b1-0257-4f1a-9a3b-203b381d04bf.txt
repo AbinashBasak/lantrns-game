@@ -1,0 +1,15 @@
+bash -lc python - <<'PY'
+import cv2
+from PIL import Image
+import numpy as np
+im=np.array(Image.open('/mnt/data/a_wide_clean_game_asset_style_presentation_image.png').convert('RGBA'))
+for th in [10,40,100,180]:
+ m=(im[:,:,3]>th).astype('uint8')
+ n,lab,stats,cents=cv2.connectedComponentsWithStats(m[108:430,:])
+ arr=[]
+ for x,y,w,h,a in stats[1:]:
+  if a>500 and h>35:
+   arr.append((int(a),int(x),int(y+108),int(w),int(h)))
+ print('th',th,'components',len(arr))
+ print(sorted(arr,reverse=True)[:40])
+PY

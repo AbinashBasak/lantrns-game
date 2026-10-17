@@ -1,0 +1,6 @@
+bash -lc ls -lh /mnt/data/a_clean_high_resolution_concept_art_texture_refer.png && python - <<'PY'
+from PIL import Image
+p='/mnt/data/a_clean_high_resolution_concept_art_texture_refer.png'
+im=Image.open(p)
+print(im.size)
+PY

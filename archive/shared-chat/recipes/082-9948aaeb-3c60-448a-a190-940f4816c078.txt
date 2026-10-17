@@ -1,0 +1,112 @@
+bash -lc cat > /tmp/make_landing.py <<'PY'
+from PIL import Image, ImageDraw, ImageFont
+import os, json, zipfile
+import numpy as np
+from scipy import ndimage
+
+src='/mnt/data/wide_clean_game_asset_style_reference_sheet_on_a.png'
+out='/mnt/data/tavi_015_landing_asset_pack'
+frames_dir=os.path.join(out,'frames')
+os.makedirs(frames_dir,exist_ok=True)
+im=Image.open(src).convert('RGBA')
+a=np.array(im.getchannel('A'))
+# Find the eight discrete connected components for the illustrated characters in the middle band.
+# Restrict to the frame region so header and bottom reference panels are excluded.
+band=a[112:460,:]
+mask=band>30
+lab,n=ndimage.label(mask)
+components=[]
+for idx,sl in enumerate(ndimage.find_objects(lab),1):
+    if sl is None: continue
+    ys,xs=sl
+    area=int((lab[sl]==idx).sum())
+    y0,y1=ys.start+112,ys.stop+112
+    x0,x1=xs.start,xs.stop
+    if area>18000 and y0<310 and y1>420 and x1-x0>180:
+        components.append((x0,y0,x1,y1,area))
+components.sort(key=lambda b:b[0])
+# Explicitly select the eight main frame components; ignores header and small detached effects.
+if len(components)<8:
+    raise RuntimeError(f'Only found {len(components)} components: {components}')
+components=components[:8]
+print('components:',components)
+W,H=288,448
+frame_imgs=[]
+manifest=[]
+for i,(x0,y0,x1,y1,area) in enumerate(components,1):
+    # Crop only the character and any authored impact dust that is attached to the pose.
+    crop=im.crop((max(0,x0-2),max(0,y0-2),min(im.width,x1+2),min(im.height,y1+2)))
+    # Remove very faint stray pixels while keeping anti-aliased edges.
+    rgba=np.array(crop)
+    rgba[:,:,3][rgba[:,:,3]<6]=0
+    crop=Image.fromarray(rgba,'RGBA')
+    # Uniform scale across all frames for consistent scale and proportion.
+    scale=min(1.0, 264/crop.width, 354/crop.height)
+    nw,nh=max(1,round(crop.width*scale)),max(1,round(crop.height*scale))
+    crop=crop.resize((nw,nh),Image.Resampling.LANCZOS)
+    canvas=Image.new('RGBA',(W,H),(0,0,0,0))
+    x=(W-nw)//2
+    # Ground/impact baseline is fixed. It allows impact crouch to be grounded and character height to vary naturally.
+    y=409-nh
+    canvas.alpha_composite(crop,(x,y))
+    path=os.path.join(frames_dir,f'tavi_015_landing_{i:02d}.png')
+    canvas.save(path)
+    frame_imgs.append(canvas)
+    manifest.append({'frame':i,'file':os.path.basename(path),'size_px':[W,H],'source_bbox':[x0,y0,x1,y1],'scaled_character_bbox':[x,y,x+nw,y+nh]})
+
+# Sprite sheet in a single row, exactly 8 equal-sized cells.
+sheet=Image.new('RGBA',(W*8,H),(0,0,0,0))
+for i,frame in enumerate(frame_imgs): sheet.alpha_composite(frame,(i*W,0))
+sheet_path='/mnt/data/tavi_015_landing_spritesheet.png'
+sheet.save(sheet_path)
+
+# Transparent preview GIF on solid dark green-gray background for viewing; PNG frames remain alpha transparent.
+gif_frames=[]
+for frame in frame_imgs:
+    bg=Image.new('RGBA',(W,H),(25,32,34,255)); bg.alpha_composite(frame)
+    gif_frames.append(bg.convert('P',palette=Image.Palette.ADAPTIVE))
+gif_path='/mnt/data/tavi_015_landing_preview.gif'
+gif_frames[0].save(gif_path,save_all=True,append_images=gif_frames[1:],duration=110,loop=0,disposal=2,optimize=False)
+
+# Contact sheet only shows the 8 poses, with labels; no extraneous UI panels.
+CW,CH=8*170,280
+contact=Image.new('RGB',(CW,CH),(34,40,43))
+d=ImageDraw.Draw(contact)
+try:
+    font=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',16)
+    small=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',12)
+except:
+    font=small=ImageFont.load_default()
+for i,frame in enumerate(frame_imgs):
+    prev=frame.copy(); prev.thumbnail((160,235),Image.Resampling.LANCZOS)
+    # checker backdrop for transparency
+    bx=i*170+5; by=5
+    tile=Image.new('RGBA',(160,235),(42,48,51,255)); td=ImageDraw.Draw(tile)
+    sz=16
+    for yy in range(0,235,sz):
+        for xx in range(0,160,sz):
+            if (xx//sz+yy//sz)%2:
+                td.rectangle((xx,yy,xx+sz-1,yy+sz-1),fill=(54,60,63,255))
+    tile.alpha_composite(prev,((160-prev.width)//2,235-prev.height))
+    contact.paste(tile.convert('RGB'),(bx,5))
+    d.text((bx+70,245),f'{i+1}',font=font,fill=(245,230,195))
+contact_path='/mnt/data/tavi_015_landing_contact_sheet.jpg'
+contact.save(contact_path,quality=94)
+
+readme='''# TAVI-015 — Landing Animation\n\nPrototype asset pack for Lanterns Underroot.\n\n- Animation key: `landing`\n- Frames: 8\n- Frame size: 288 × 448 px\n- Sprite sheet: `tavi_015_landing_spritesheet.png` (8 columns × 1 row)\n- Frame files: `frames/tavi_015_landing_01.png` through `_08.png`\n- Direction: right-facing side view\n- Suggested initial playback: 8–10 FPS, non-looping\n- Intended transition: `idle` after the landing recovery; use `run` if movement is held\n- Format: PNG RGBA; transparent background\n\n## Integration notes\n\nThe image was generated as concept art, then isolated into 8 equally sized transparent frame canvases. The baseline is aligned for a prototype, but the sequence is not a hand-authored rigged animation. Review in Godot for consistent silhouette, alpha fringe, foot contact, and motion timing before production release. The contact sheet and GIF are previews; import the PNG frames or sprite sheet for the game.\n\n## Godot setup\n\nCreate an `AnimatedSprite2D` `SpriteFrames` animation named `landing`, add frames 1–8 in order, set speed to 8–10 FPS, and disable looping. Trigger it when the character touches the floor after falling. Transition to idle/run once the recovery animation completes.\n'''
+readme_path=os.path.join(out,'README.md')
+open(readme_path,'w').write(readme)
+open(os.path.join(out,'manifest.json'),'w').write(json.dumps({'asset_id':'TAVI-015','animation':'landing','frame_size':[W,H],'frame_count':8,'source':os.path.basename(src),'frames':manifest},indent=2))
+zip_path='/mnt/data/tavi_015_landing_asset_pack.zip'
+with zipfile.ZipFile(zip_path,'w',zipfile.ZIP_DEFLATED) as z:
+    z.write(sheet_path,arcname='tavi_015_landing_spritesheet.png')
+    z.write(gif_path,arcname='tavi_015_landing_preview.gif')
+    z.write(contact_path,arcname='tavi_015_landing_contact_sheet.jpg')
+    z.write(readme_path,arcname='README.md')
+    z.write(os.path.join(out,'manifest.json'),arcname='manifest.json')
+    for p in sorted(os.listdir(frames_dir)):
+        z.write(os.path.join(frames_dir,p),arcname='frames/'+p)
+print('created',sheet_path,gif_path,contact_path,zip_path)
+PY
+python /tmp/make_landing.py
+ls -lh /mnt/data/tavi_015_landing_*

@@ -1,0 +1,89 @@
+bash -lc cat > /tmp/build_tavi_idle.py <<'PY'
+from PIL import Image
+import numpy as np, cv2, os, zipfile, json
+from pathlib import Path
+
+src = Path('/mnt/data/wide_clean_sprite_sheet_style_image_on_a_transpare.png')
+outdir = Path('/mnt/data/TAVI-010_idle_frames')
+outdir.mkdir(exist_ok=True)
+im = Image.open(src).convert('RGBA')
+a = np.array(im)[:,:,3]
+# Detect the eight full-body figures in the top row only, avoiding header and labels.
+bin_img = (a > 30).astype(np.uint8)
+bin_img[:100,:] = 0
+bin_img[530:,:] = 0
+n, labels, stats, centroids = cv2.connectedComponentsWithStats(bin_img, 8)
+components = []
+for stat in stats[1:]:
+    x,y,w,h,area = map(int, stat)
+    if area > 500 and h > 150:
+        components.append((x,y,w,h,area))
+components.sort(key=lambda c: c[0])
+if len(components) != 8:
+    raise RuntimeError(f'Expected 8 full-body frames; found {len(components)}')
+
+CELL_W, CELL_H = 288, 448
+TARGET_ART_H = 400
+# Center each cropped frame horizontally and align the soles/shadow to one shared baseline.
+frames=[]
+for i,(x,y,w,h,area) in enumerate(components, start=1):
+    # Small margin catches anti-aliased edges; y crop stays above the frame labels.
+    left=max(0,x-3); top=max(100,y-3); right=min(im.width,x+w+3); bottom=min(530,y+h+3)
+    crop=im.crop((left,top,right,bottom))
+    cw,ch=crop.size
+    scale=TARGET_ART_H/ch
+    nw=max(1,round(cw*scale)); nh=TARGET_ART_H
+    crop=crop.resize((nw,nh), Image.Resampling.LANCZOS)
+    cell=Image.new('RGBA',(CELL_W,CELL_H),(0,0,0,0))
+    px=(CELL_W-nw)//2
+    py=CELL_H-16-nh
+    cell.alpha_composite(crop,(px,py))
+    frame_path=outdir/f'frame_{i:02d}.png'
+    cell.save(frame_path)
+    frames.append(cell)
+
+sheet=Image.new('RGBA',(CELL_W*len(frames),CELL_H),(0,0,0,0))
+for i,frame in enumerate(frames):
+    sheet.alpha_composite(frame,(i*CELL_W,0))
+sheet_path=Path('/mnt/data/tavi_010_idle_spritesheet.png')
+sheet.save(sheet_path,optimize=True)
+
+# Preview GIF (solid neutral background for easy viewing; production PNG assets remain transparent).
+preview_frames=[]
+for f in frames:
+    bg=Image.new('RGBA', f.size, (33,42,51,255))
+    bg.alpha_composite(f)
+    preview_frames.append(bg.convert('RGB'))
+gif_path=Path('/mnt/data/tavi_010_idle_preview.gif')
+preview_frames[0].save(gif_path, save_all=True, append_images=preview_frames[1:], duration=140, loop=0, optimize=False)
+
+readme='''TAVI-010 — Idle Animation Asset Pack
+
+Contents
+- tavi_010_idle_spritesheet.png: 8 columns × 1 row; each cell is 288 × 448 px; RGBA transparent background.
+- frame_01.png … frame_08.png: individual RGBA frames, each 288 × 448 px.
+- tavi_010_idle_preview.gif: preview only; uses a solid background and is not a game asset.
+
+Godot setup
+- Create a SpriteFrames resource for AnimatedSprite2D.
+- Add the eight PNG frames in numeric order as animation `idle`.
+- Suggested starting speed: 6–7 FPS; loop enabled.
+- Keep the sprite's bottom center as its visual ground alignment; collision shapes should be configured separately.
+
+Important production note
+These are AI-generated, isolated and normalized concept frames. Review the loop in-engine for small style/pose inconsistencies and clean up edges or redraw frames as needed before treating the animation as final shipping art. The generated pose is front three-quarter rather than a strict profile; if gameplay requires a strict side-on silhouette, produce a dedicated side-view idle set next.
+'''
+readme_path=outdir/'README.txt'
+readme_path.write_text(readme, encoding='utf-8')
+zip_path=Path('/mnt/data/tavi_010_idle_asset_pack.zip')
+with zipfile.ZipFile(zip_path,'w',zipfile.ZIP_DEFLATED) as z:
+    z.write(sheet_path, sheet_path.name)
+    z.write(gif_path, gif_path.name)
+    for p in sorted(outdir.iterdir()):
+        z.write(p, f'TAVI-010_idle_frames/{p.name}')
+print('Created:')
+for p in [sheet_path,gif_path,zip_path]: print(p, p.stat().st_size)
+print('Frame count:',len(frames),'cell size:',(CELL_W,CELL_H),'sheet size:',sheet.size)
+PY
+python /tmp/build_tavi_idle.py
+file /mnt/data/tavi_010_idle_spritesheet.png /mnt/data/tavi_010_idle_preview.gif /mnt/data/tavi_010_idle_asset_pack.zip

@@ -1,0 +1,9 @@
+bash -lc python - <<'PY'
+from PIL import Image
+p='/mnt/data/wide_clean_game_asset_style_reference_sheet_on_a.png'
+im=Image.open(p)
+print(im.mode, im.size)
+print(im.getpixel((1000,130)), im.getpixel((2000,400)), im.getpixel((10,100)))
+if im.mode=='RGBA':
+ a=im.getchannel('A'); print('alpha extrema',a.getextrema(),'transparent',sum(1 for x in a.getdata() if x==0),'pixels',im.width*im.height)
+PY

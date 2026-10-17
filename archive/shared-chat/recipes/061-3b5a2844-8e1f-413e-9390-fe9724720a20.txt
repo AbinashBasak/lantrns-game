@@ -1,0 +1,6 @@
+bash -lc python - <<'PY'
+from PIL import Image
+p='/mnt/data/wide_black_background_game_art_reference_sheet_s.png'
+im=Image.open(p)
+print(im.size, im.mode)
+PY

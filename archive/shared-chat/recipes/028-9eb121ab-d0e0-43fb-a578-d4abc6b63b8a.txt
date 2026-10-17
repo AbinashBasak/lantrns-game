@@ -1,0 +1,5 @@
+bash -lc python - <<'PY'
+from PIL import Image
+im=Image.open('/mnt/data/a_clean_game_asset_style_sprite_sheet_image_on_a_t.png').convert('RGBA')
+print(im.size, im.getpixel((0,700)), im.getpixel((1000,400)), im.getextrema()[3])
+PY

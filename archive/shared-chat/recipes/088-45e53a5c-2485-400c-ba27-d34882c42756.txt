@@ -1,0 +1,1 @@
+bash -lc ls -lt /mnt/data | head -25

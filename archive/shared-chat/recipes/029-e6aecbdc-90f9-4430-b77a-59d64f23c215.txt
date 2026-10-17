@@ -1,0 +1,18 @@
+bash -lc python - <<'PY'
+import cv2
+from PIL import Image
+p='/mnt/data/a_clean_game_asset_style_sprite_sheet_image_on_a_t.png'
+im=Image.open(p).convert('RGBA')
+import numpy as np
+alpha=np.array(im)[:,:,3]
+bin=(alpha>30).astype('uint8')
+bin[:150,:]=0
+bin[600:,:]=0
+n,l,stats,c=cv2.connectedComponentsWithStats(bin,8)
+items=[]
+for x,y,w,h,area in stats[1:]:
+ if area>1000 and h>100:
+  items.append((x,y,w,h,area))
+print('size',im.size, 'components',len(items))
+for it in sorted(items):print(it)
+PY

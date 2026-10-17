@@ -1,0 +1,6 @@
+bash -lc python - <<'PY'
+p='/tmp/make_tavi013.py'
+s=open(p).read().replace("    (995,65,1260,390),\n    (1245,65,1515,375),", "    (1015,65,1260,390),\n    (1260,65,1515,375),")
+open(p,'w').write(s)
+PY
+python /tmp/make_tavi013.py
