@@ -1,0 +1,67 @@
+{
+  "move_left": {
+    "keyboard": [
+      "keyboard_a",
+      "keyboard_left"
+    ],
+    "controller": [
+      "gamepad_ls_left"
+    ]
+  },
+  "move_right": {
+    "keyboard": [
+      "keyboard_d",
+      "keyboard_right"
+    ],
+    "controller": [
+      "gamepad_ls_right"
+    ]
+  },
+  "jump": {
+    "keyboard": [
+      "keyboard_space",
+      "keyboard_w",
+      "keyboard_up"
+    ],
+    "controller": [
+      "gamepad_a"
+    ]
+  },
+  "attack": {
+    "keyboard": [
+      "keyboard_j",
+      "keyboard_x"
+    ],
+    "controller": [
+      "gamepad_x"
+    ]
+  },
+  "interact": {
+    "keyboard": [
+      "keyboard_e"
+    ],
+    "controller": [
+      "gamepad_y"
+    ]
+  },
+  "pause": {
+    "keyboard": [
+      "keyboard_esc"
+    ],
+    "controller": [
+      "gamepad_start"
+    ]
+  },
+  "restart": {
+    "keyboard": [
+      "keyboard_r"
+    ],
+    "controller": []
+  },
+  "start": {
+    "keyboard": [
+      "keyboard_enter"
+    ],
+    "controller": []
+  }
+}

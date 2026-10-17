@@ -1,0 +1,86 @@
+{
+  "id": "UI-023",
+  "title": "Level-complete panel",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023",
+  "deliverables": [
+    {
+      "slug": "level_complete_panel",
+      "transparent_background": true,
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "transparent level-complete panel skin"
+      ],
+      "export_mode": "image",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot illustrated hand-painted fantasy game UI art. Restrained antique brass/gold, weathered dark wood and root details, deep blue-teal recesses, moss green and warm cream highlights. Selective crisp readable edges and soft painted material shading, elegant low-ornament UI suited to small screens. No characters, text, letters, numbers, interface labels, mockup boards, screenshots, gridlines, watermarks or drop shadows. ONE isolated WIDE landscape level-complete menu PANEL SKIN, complete centered object with at least8% clear alpha margin all around. Dark opaque blue-teal inset rectangle with gently rounded weathered wooden/brass rim, restrained roots at corners. A compact small glowing amber lantern with two fresh moss-green leaves forms an upper-center success crest; gentle bounded warm accent, no confettiorbeams. Interior is quiet almost-uniform dark teal readable backing, generous empty title region under crest, empty center for dynamic results, broad empty lower space for separately rendered Continue/Main Menu buttons. No lettering, actual buttons, scores, stars, numerals, placeholder labels or scenery. Frame+backingskin only, NOT a full screenshot. All outside complete panel alpha-zero transparent.",
+      "type": "UI component prototype",
+      "reference_images": [],
+      "timing": null,
+      "loop": false,
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-d2fceedb-4380-4ac1-8937-ce64070ae51e.png",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/source_images/UI-023_level_complete_panel_original.png",
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/source_images/UI-023_level_complete_panel_original.png",
+        "sha256": "be690e9493ec7decf41ce0eea8c173c944afbee188378a4046e7d8164fb45e61",
+        "dimensions": [
+          1672,
+          940
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output generated in Codex",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/exports/UI-023_level_complete_panel.png"
+      ],
+      "preview_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/previews/UI-023_source_checker.jpg"
+      ],
+      "scaling_policy": "preserve full panel aspect; no approved nine-slice for integral lantern crest",
+      "content_safe_rect_normalized": [
+        0.13,
+        0.29,
+        0.74,
+        0.51
+      ],
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/exports/UI-023_level_complete_panel.png",
+          "sha256": "be690e9493ec7decf41ce0eea8c173c944afbee188378a4046e7d8164fb45e61",
+          "dimensions": [
+            1672,
+            940
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived export; native image copy or documented crop/resample"
+        }
+      ],
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/previews/UI-023_source_checker.jpg"
+    }
+  ],
+  "layout_spec": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/exports/UI-023_layout.json",
+  "asset_id": "UI-023",
+  "generation_tool": "built-in image_gen",
+  "stage": "reviewed UI texture/component prototypes and separate data layout; Godot implementation pending",
+  "requested_deliverables_saved_and_reviewed": true,
+  "production_approved": false,
+  "runtime_integrated": false,
+  "text_overlays_deferred": true,
+  "review_notes": [
+    "Assembled layout preview reviewed: separate title/button/progress labels legible, controls fit quiet interior; no UI text baked into source.",
+    "Labels/buttons/progress and state behaviors are separate data controls; source artwork contains no baked interface text.",
+    "Aspect-preserving layout, focus navigation, contrast, touch target sizes, accessibility and localization require Godot implementation/testing."
+  ],
+  "assembled_preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/previews/UI-023_assembled_layout_preview.png",
+  "preview_provenance": "data-layout render using separate artwork and text, not an image_gen source",
+  "preview_button_asset": "UI-018"
+}

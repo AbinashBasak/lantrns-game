@@ -1,0 +1,59 @@
+{
+  "asset_id": "UI-021",
+  "design_canvas": [
+    1920,
+    1080
+  ],
+  "text_overlays_deferred": true,
+  "runtime_integrated": false,
+  "layout_type": "editable control/layout proposal, not a Godot scene",
+  "nodes": [
+    {
+      "type": "TextureRect",
+      "texture": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-021/exports/UI-021_loading_background_1920x1080_cover.png",
+      "rect_norm": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scaling": "cover"
+    },
+    {
+      "type": "Label",
+      "text": "Loading…",
+      "rect_norm": [
+        0.25,
+        0.78,
+        0.5,
+        0.07
+      ],
+      "align": "center"
+    },
+    {
+      "type": "ProgressBar",
+      "value_source": "runtime_loading_progress",
+      "rect_norm": [
+        0.25,
+        0.87,
+        0.5,
+        0.018
+      ],
+      "colors": {
+        "track": "#142c34",
+        "fill": "#d8b673"
+      }
+    },
+    {
+      "type": "Label",
+      "text_source": "runtime_tip",
+      "rect_norm": [
+        0.15,
+        0.92,
+        0.7,
+        0.04
+      ],
+      "align": "center"
+    }
+  ]
+}

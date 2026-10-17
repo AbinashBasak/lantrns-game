@@ -971,36 +971,165 @@ Verified across all 11 packs: seven categories have reviewed prototype sources a
 
 # Phase 08 — User Interface
 
+<!-- phase08-summary:start -->
+**Reviewed prototype packs: 25/25.** [Asset and prompt index](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/PHASE08_index.md). Checked items record saved and reviewed UI art/component prototypes, not final production approval. Sources, state/module exports, prompts, crop maps and checker previews are recorded per item. Responsive layout, focus/input navigation, text/localization, accessibility and Godot integration require separate validation. No ZIP files or runtime integration added.
+<!-- phase08-summary:end -->
+
 ## HUD elements
 
-- [ ] UI-001 — Health indicators
-- [ ] UI-002 — Health bar frame
-- [ ] UI-003 — Collectible icon
-- [ ] UI-004 — Objective banner
-- [ ] UI-005 — Interaction prompt
-- [ ] UI-006 — Checkpoint icon
-- [ ] UI-007 — Treasure indicator
-- [ ] UI-008 — Boss health bar
-- [ ] UI-009 — Dialogue panel
-- [ ] UI-010 — Dialogue portrait frames
-- [ ] UI-011 — Pause icon
-- [ ] UI-012 — Settings icon
-- [ ] UI-013 — Touch movement controls
-- [ ] UI-014 — Touch jump button
-- [ ] UI-015 — Touch attack button
+- [x] UI-001 — Health indicators
+  <!-- phase08-record:UI-001:start -->
+  - Production stage: reviewed prototype components and fixed cell exports. Final production approval pending.
+  - Saved folder: [UI-001](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-001) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-001/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-001/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-001/previews)
+  - Selected source: [UI-001_ui_components_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-001/source_images/UI-001_ui_components_original.png)
+  <!-- phase08-record:UI-001:end -->
+- [x] UI-002 — Health bar frame
+  <!-- phase08-record:UI-002:start -->
+  - Production stage: reviewed prototype components and fixed cell exports. Final production approval pending.
+  - Saved folder: [UI-002](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/previews)
+  - Selected source: [UI-002_ui_components_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/source_images/UI-002_ui_components_original.png)
+  <!-- phase08-record:UI-002:end -->
+- [x] UI-003 — Collectible icon
+  <!-- phase08-record:UI-003:start -->
+  - Production stage: reviewed prototype components and fixed cell exports. Final production approval pending.
+  - Saved folder: [UI-003](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-003) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-003/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-003/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-003/previews)
+  - Selected source: [UI-003_ui_components_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-003/source_images/UI-003_ui_components_original.png)
+  <!-- phase08-record:UI-003:end -->
+- [x] UI-004 — Objective banner
+  <!-- phase08-record:UI-004:start -->
+  - Production stage: reviewed prototype components and fixed cell exports. Final production approval pending.
+  - Saved folder: [UI-004](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/previews)
+  - Selected source: [UI-004_ui_components_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/source_images/UI-004_ui_components_original.png)
+  <!-- phase08-record:UI-004:end -->
+- [x] UI-005 — Interaction prompt
+  <!-- phase08-record:UI-005:start -->
+  - Production stage: reviewed prototype components and fixed cell exports. Final production approval pending.
+  - Saved folder: [UI-005](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-005) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-005/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-005/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-005/previews)
+  - Selected source: [UI-005_ui_components_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-005/source_images/UI-005_ui_components_original.png)
+  <!-- phase08-record:UI-005:end -->
+- [x] UI-006 — Checkpoint icon
+  <!-- phase08-record:UI-006:start -->
+  - Production stage: reviewed prototype components and fixed cell exports. Final production approval pending.
+  - Saved folder: [UI-006](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-006) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-006/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-006/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-006/previews)
+  - Selected source: [UI-006_ui_components_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-006/source_images/UI-006_ui_components_original.png)
+  <!-- phase08-record:UI-006:end -->
+- [x] UI-007 — Treasure indicator
+  <!-- phase08-record:UI-007:start -->
+  - Production stage: reviewed prototype components and fixed cell exports. Final production approval pending.
+  - Saved folder: [UI-007](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-007) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-007/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-007/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-007/previews)
+  - Selected source: [UI-007_ui_components_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-007/source_images/UI-007_ui_components_original.png)
+  <!-- phase08-record:UI-007:end -->
+- [x] UI-008 — Boss health bar
+  <!-- phase08-record:UI-008:start -->
+  - Production stage: generated ui prototype saved and reviewed. Final production approval pending.
+  - Saved folder: [UI-008](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/previews)
+  - Selected source: [UI-008_sheet_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/source_images/UI-008_sheet_original.png)
+  <!-- phase08-record:UI-008:end -->
+- [x] UI-009 — Dialogue panel
+  <!-- phase08-record:UI-009:start -->
+  - Production stage: generated ui prototype saved and reviewed. Final production approval pending.
+  - Saved folder: [UI-009](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/previews)
+  - Selected source: [UI-009_sheet_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/source_images/UI-009_sheet_original.png)
+  <!-- phase08-record:UI-009:end -->
+- [x] UI-010 — Dialogue portrait frames
+  <!-- phase08-record:UI-010:start -->
+  - Production stage: generated ui prototype saved and reviewed. Final production approval pending.
+  - Saved folder: [UI-010](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/previews)
+  - Selected source: [UI-010_sheet_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/source_images/UI-010_sheet_original.png)
+  <!-- phase08-record:UI-010:end -->
+- [x] UI-011 — Pause icon
+  <!-- phase08-record:UI-011:start -->
+  - Production stage: generated ui prototype saved and reviewed. Final production approval pending.
+  - Saved folder: [UI-011](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/previews)
+  - Selected source: [UI-011_sheet_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/source_images/UI-011_sheet_original.png)
+  <!-- phase08-record:UI-011:end -->
+- [x] UI-012 — Settings icon
+  <!-- phase08-record:UI-012:start -->
+  - Production stage: generated ui prototype saved and reviewed. Final production approval pending.
+  - Saved folder: [UI-012](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-012) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-012/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-012/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-012/previews)
+  - Selected source: [UI-012_sheet_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-012/source_images/UI-012_sheet_original.png)
+  <!-- phase08-record:UI-012:end -->
+- [x] UI-013 — Touch movement controls
+  <!-- phase08-record:UI-013:start -->
+  - Production stage: generated ui prototype saved and reviewed. Final production approval pending.
+  - Saved folder: [UI-013](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-013) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-013/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-013/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-013/previews)
+  - Selected source: [UI-013_sheet_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-013/source_images/UI-013_sheet_original.png)
+  <!-- phase08-record:UI-013:end -->
+- [x] UI-014 — Touch jump button
+  <!-- phase08-record:UI-014:start -->
+  - Production stage: generated ui prototype saved and reviewed. Final production approval pending.
+  - Saved folder: [UI-014](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-014) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-014/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-014/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-014/previews)
+  - Selected source: [UI-014_sheet_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-014/source_images/UI-014_sheet_original.png)
+  <!-- phase08-record:UI-014:end -->
+- [x] UI-015 — Touch attack button
+  <!-- phase08-record:UI-015:start -->
+  - Production stage: generated ui prototype saved and reviewed. Final production approval pending.
+  - Saved folder: [UI-015](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-015) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-015/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-015/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-015/previews)
+  - Selected source: [UI-015_sheet_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-015/source_images/UI-015_sheet_original.png)
+  <!-- phase08-record:UI-015:end -->
 
 ## Menus and screens
 
-- [ ] UI-016 — Main menu background
-- [ ] UI-017 — Game logo
-- [ ] UI-018 — Main menu buttons
-- [ ] UI-019 — Pause menu
-- [ ] UI-020 — Settings screen
-- [ ] UI-021 — Loading screen
-- [ ] UI-022 — Game-over panel
-- [ ] UI-023 — Level-complete panel
-- [ ] UI-024 — Save/checkpoint indicator
-- [ ] UI-025 — Controller and keyboard prompts
+- [x] UI-016 — Main menu background
+  <!-- phase08-record:UI-016:start -->
+  - Production stage: generated prototype reviewed exported. Final production approval pending.
+  - Saved folder: [UI-016](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-016) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-016/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-016/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-016/previews)
+  - Selected source: [UI-016_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-016/source_images/UI-016_original.png)
+  <!-- phase08-record:UI-016:end -->
+- [x] UI-017 — Game logo
+  <!-- phase08-record:UI-017:start -->
+  - Production stage: generated prototype reviewed exported. Final production approval pending.
+  - Saved folder: [UI-017](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-017) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-017/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-017/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-017/previews)
+  - Selected source: [UI-017_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-017/source_images/UI-017_original.png)
+  <!-- phase08-record:UI-017:end -->
+- [x] UI-018 — Main menu buttons
+  <!-- phase08-record:UI-018:start -->
+  - Production stage: generated prototype reviewed exported. Final production approval pending.
+  - Saved folder: [UI-018](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-018) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-018/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-018/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-018/previews)
+  - Selected source: [UI-018_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-018/source_images/UI-018_original.png)
+  <!-- phase08-record:UI-018:end -->
+- [x] UI-019 — Pause menu
+  <!-- phase08-record:UI-019:start -->
+  - Production stage: generated prototype reviewed exported. Final production approval pending.
+  - Saved folder: [UI-019](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-019) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-019/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-019/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-019/previews)
+  - Selected source: [UI-019_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-019/source_images/UI-019_original.png)
+  <!-- phase08-record:UI-019:end -->
+- [x] UI-020 — Settings screen
+  <!-- phase08-record:UI-020:start -->
+  - Production stage: generated prototype reviewed exported. Final production approval pending.
+  - Saved folder: [UI-020](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-020) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-020/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-020/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-020/previews)
+  - Selected source: [UI-020_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-020/source_images/UI-020_original.png)
+  <!-- phase08-record:UI-020:end -->
+- [x] UI-021 — Loading screen
+  <!-- phase08-record:UI-021:start -->
+  - Production stage: reviewed UI texture/component prototypes and separate data layout; Godot implementation pending. Final production approval pending.
+  - Saved folder: [UI-021](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-021) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-021/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-021/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-021/previews)
+  - Selected source: [UI-021_loading_background_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-021/source_images/UI-021_loading_background_original.png)
+  <!-- phase08-record:UI-021:end -->
+- [x] UI-022 — Game-over panel
+  <!-- phase08-record:UI-022:start -->
+  - Production stage: reviewed UI texture/component prototypes and separate data layout; Godot implementation pending. Final production approval pending.
+  - Saved folder: [UI-022](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-022) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-022/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-022/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-022/previews)
+  - Selected source: [UI-022_game_over_panel_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-022/source_images/UI-022_game_over_panel_original.png)
+  <!-- phase08-record:UI-022:end -->
+- [x] UI-023 — Level-complete panel
+  <!-- phase08-record:UI-023:start -->
+  - Production stage: reviewed UI texture/component prototypes and separate data layout; Godot implementation pending. Final production approval pending.
+  - Saved folder: [UI-023](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/previews)
+  - Selected source: [UI-023_level_complete_panel_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/source_images/UI-023_level_complete_panel_original.png)
+  <!-- phase08-record:UI-023:end -->
+- [x] UI-024 — Save/checkpoint indicator
+  <!-- phase08-record:UI-024:start -->
+  - Production stage: reviewed UI texture/component prototypes and separate data layout; Godot implementation pending. Final production approval pending.
+  - Saved folder: [UI-024](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-024) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-024/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-024/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-024/previews)
+  - Selected source: [UI-024_save_indicator_states_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-024/source_images/UI-024_save_indicator_states_original.png)
+  <!-- phase08-record:UI-024:end -->
+- [x] UI-025 — Controller and keyboard prompts
+  <!-- phase08-record:UI-025:start -->
+  - Production stage: reviewed editable input glyphs, raster exports and current-binding map. Final production approval pending.
+  - Saved folder: [UI-025](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/previews)
+  - Selected source: [UI-025_prompt_atlas.svg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/source_images/UI-025_prompt_atlas.svg)
+  <!-- phase08-record:UI-025:end -->
 
 # Phase 09 — Audio Asset Inventory
 

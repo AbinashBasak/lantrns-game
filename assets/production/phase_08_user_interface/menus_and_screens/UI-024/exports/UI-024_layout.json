@@ -1,0 +1,18 @@
+{
+  "asset_id": "UI-024",
+  "text_overlays_deferred": true,
+  "states": {
+    "idle save lantern": "",
+    "saving lantern": "Saving…",
+    "save confirmed": "Saved",
+    "save warning": "Could not save"
+  },
+  "suggested_icon_sizes_px": [
+    32,
+    48,
+    64
+  ],
+  "screen_reader_labels_required": true,
+  "timing": null,
+  "runtime_integrated": false
+}

@@ -1,0 +1,1033 @@
+{
+  "id": "UI-025",
+  "asset_id": "UI-025",
+  "title": "Controller and keyboard prompts",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025",
+  "stage": "reviewed editable input glyphs, raster exports and current-binding map",
+  "generation_tool": "authored SVG geometry and deterministic Pillow raster export",
+  "deliverables": [
+    {
+      "slug": "input_prompt_glyphs",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/source_images/UI-025_prompt_atlas.svg",
+      "type": "authored editable vector prompt atlas with raster derivatives",
+      "provenance": "original code-native SVG and text specification; not an image_gen output",
+      "source_message_id": null,
+      "transparent_background": true,
+      "cols": 4,
+      "rows": 10,
+      "frame_count": 40,
+      "roles": [
+        "keyboard_a_normal",
+        "keyboard_a_pressed",
+        "keyboard_d_normal",
+        "keyboard_d_pressed",
+        "keyboard_w_normal",
+        "keyboard_w_pressed",
+        "keyboard_j_normal",
+        "keyboard_j_pressed",
+        "keyboard_x_normal",
+        "keyboard_x_pressed",
+        "keyboard_e_normal",
+        "keyboard_e_pressed",
+        "keyboard_r_normal",
+        "keyboard_r_pressed",
+        "keyboard_space_normal",
+        "keyboard_space_pressed",
+        "keyboard_enter_normal",
+        "keyboard_enter_pressed",
+        "keyboard_esc_normal",
+        "keyboard_esc_pressed",
+        "keyboard_left_normal",
+        "keyboard_left_pressed",
+        "keyboard_right_normal",
+        "keyboard_right_pressed",
+        "keyboard_up_normal",
+        "keyboard_up_pressed",
+        "gamepad_a_normal",
+        "gamepad_a_pressed",
+        "gamepad_b_normal",
+        "gamepad_b_pressed",
+        "gamepad_x_normal",
+        "gamepad_x_pressed",
+        "gamepad_y_normal",
+        "gamepad_y_pressed",
+        "gamepad_start_normal",
+        "gamepad_start_pressed",
+        "gamepad_ls_left_normal",
+        "gamepad_ls_left_pressed",
+        "gamepad_ls_right_normal",
+        "gamepad_ls_right_pressed"
+      ],
+      "timing": null,
+      "loop": false,
+      "source_crop_boundaries": [
+        [
+          0,
+          0,
+          128,
+          128
+        ],
+        [
+          128,
+          0,
+          256,
+          128
+        ],
+        [
+          256,
+          0,
+          384,
+          128
+        ],
+        [
+          384,
+          0,
+          512,
+          128
+        ],
+        [
+          0,
+          128,
+          128,
+          256
+        ],
+        [
+          128,
+          128,
+          256,
+          256
+        ],
+        [
+          256,
+          128,
+          384,
+          256
+        ],
+        [
+          384,
+          128,
+          512,
+          256
+        ],
+        [
+          0,
+          256,
+          128,
+          384
+        ],
+        [
+          128,
+          256,
+          256,
+          384
+        ],
+        [
+          256,
+          256,
+          384,
+          384
+        ],
+        [
+          384,
+          256,
+          512,
+          384
+        ],
+        [
+          0,
+          384,
+          128,
+          512
+        ],
+        [
+          128,
+          384,
+          256,
+          512
+        ],
+        [
+          256,
+          384,
+          384,
+          512
+        ],
+        [
+          384,
+          384,
+          512,
+          512
+        ],
+        [
+          0,
+          512,
+          128,
+          640
+        ],
+        [
+          128,
+          512,
+          256,
+          640
+        ],
+        [
+          256,
+          512,
+          384,
+          640
+        ],
+        [
+          384,
+          512,
+          512,
+          640
+        ],
+        [
+          0,
+          640,
+          128,
+          768
+        ],
+        [
+          128,
+          640,
+          256,
+          768
+        ],
+        [
+          256,
+          640,
+          384,
+          768
+        ],
+        [
+          384,
+          640,
+          512,
+          768
+        ],
+        [
+          0,
+          768,
+          128,
+          896
+        ],
+        [
+          128,
+          768,
+          256,
+          896
+        ],
+        [
+          256,
+          768,
+          384,
+          896
+        ],
+        [
+          384,
+          768,
+          512,
+          896
+        ],
+        [
+          0,
+          896,
+          128,
+          1024
+        ],
+        [
+          128,
+          896,
+          256,
+          1024
+        ],
+        [
+          256,
+          896,
+          384,
+          1024
+        ],
+        [
+          384,
+          896,
+          512,
+          1024
+        ],
+        [
+          0,
+          1024,
+          128,
+          1152
+        ],
+        [
+          128,
+          1024,
+          256,
+          1152
+        ],
+        [
+          256,
+          1024,
+          384,
+          1152
+        ],
+        [
+          384,
+          1024,
+          512,
+          1152
+        ],
+        [
+          0,
+          1152,
+          128,
+          1280
+        ],
+        [
+          128,
+          1152,
+          256,
+          1280
+        ],
+        [
+          256,
+          1152,
+          384,
+          1280
+        ],
+        [
+          384,
+          1152,
+          512,
+          1280
+        ]
+      ],
+      "export_cell_dimensions": [
+        128,
+        128
+      ],
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_a_normal.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_a_normal.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_a_pressed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_a_pressed.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_d_normal.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_d_normal.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_d_pressed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_d_pressed.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_w_normal.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_w_normal.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_w_pressed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_w_pressed.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_j_normal.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_j_normal.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_j_pressed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_j_pressed.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_x_normal.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_x_normal.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_x_pressed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_x_pressed.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_e_normal.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_e_normal.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_e_pressed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_e_pressed.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_r_normal.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_r_normal.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_r_pressed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_r_pressed.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_space_normal.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_space_normal.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_space_pressed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_space_pressed.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_enter_normal.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_enter_normal.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_enter_pressed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_enter_pressed.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_esc_normal.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_esc_normal.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_esc_pressed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_esc_pressed.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_left_normal.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_left_normal.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_left_pressed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_left_pressed.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_right_normal.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_right_normal.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_right_pressed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_right_pressed.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_up_normal.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_up_normal.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_up_pressed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_up_pressed.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_a_normal.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_a_normal.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_a_pressed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_a_pressed.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_b_normal.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_b_normal.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_b_pressed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_b_pressed.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_x_normal.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_x_normal.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_x_pressed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_x_pressed.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_y_normal.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_y_normal.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_y_pressed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_y_pressed.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_start_normal.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_start_normal.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_start_pressed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_start_pressed.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_ls_left_normal.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_ls_left_normal.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_ls_left_pressed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_ls_left_pressed.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_ls_right_normal.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_ls_right_normal.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_ls_right_pressed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_ls_right_pressed.svg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_prompt_atlas.png"
+      ],
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_a_normal.png",
+          "sha256": "2751ce7cb61e7b55e25cd856f5809ccb1d2c5538a0db01501f0630b5c609565e",
+          "bytes": 1358,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_a_normal.svg",
+          "sha256": "c448b80c5048fab1545ff2a86f238c20bc568a0f2f2f40c171ce6a30a872624c",
+          "bytes": 389
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_a_pressed.png",
+          "sha256": "11c5065798ea2d02d259f6059315de7385b708dfec28893bd0a9a30d690e4656",
+          "bytes": 1321,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_a_pressed.svg",
+          "sha256": "26e0cf4ab3957e6aaf906d4f3c99298c69071e71d4b5c3a5ff7b72936de4ae47",
+          "bytes": 389
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_d_normal.png",
+          "sha256": "e861adfe810d1547749dd4085b2a6461cdfee4e521e8244b39346b80dd53ff31",
+          "bytes": 1218,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_d_normal.svg",
+          "sha256": "e0670b5bc96a68fd063a77d34f1613a551fb9efcf94a948305ec1a540c8a6d73",
+          "bytes": 389
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_d_pressed.png",
+          "sha256": "50dd2d7cedf10b59845693ab4f290797cbec839d2f28081fcc6c1aed70a3ad97",
+          "bytes": 1213,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_d_pressed.svg",
+          "sha256": "a1d7d9bd749c72fd90956932b0b7f0f1fc050e64541c788067db0afb17fcc6fe",
+          "bytes": 389
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_w_normal.png",
+          "sha256": "8c2f9d8d02784e163a3ac4cd5a2b1cafd661b4f9b49142286a940849a348eaea",
+          "bytes": 1620,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_w_normal.svg",
+          "sha256": "642445b20a8fe27ece0cb3e4e3e72ffcb8fd29eae880df6607bc56be869135dc",
+          "bytes": 389
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_w_pressed.png",
+          "sha256": "df674ed207076aa3954ae4fe78bf8c53950e9afb88f1a5993ce4714dbc5226bc",
+          "bytes": 1608,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_w_pressed.svg",
+          "sha256": "6b5119017e33a3f4cb03551dade2dd61d13d3e2adcd1559b4ff256ddf09211d5",
+          "bytes": 389
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_j_normal.png",
+          "sha256": "d46819aca51420fac8b0d1d08504a2888e1550f268bd43e35e099dc0479b80b7",
+          "bytes": 1027,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_j_normal.svg",
+          "sha256": "74ef09268768f6b66a185aa47ecdf8e95c0ce43fe723eb7c5f9b4a0ef787e770",
+          "bytes": 389
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_j_pressed.png",
+          "sha256": "bb65df9bbaee63c5b686b3562caa5a3c867918df3b21eb5b5410e4effb8fa4cf",
+          "bytes": 1027,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_j_pressed.svg",
+          "sha256": "5925aba429575dcb4cda78c066d945470678d93f6c6f36701841319b19c70ecb",
+          "bytes": 389
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_x_normal.png",
+          "sha256": "d8b511dfe1f28771d59a3abca9cbc63ff3c50aee983a14910645e5e388034ced",
+          "bytes": 1576,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_x_normal.svg",
+          "sha256": "d0ff1a4159891e2613850ca0f958b0e6c60d46e710ca257bf5c19787e69efd6f",
+          "bytes": 389
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_x_pressed.png",
+          "sha256": "0f05d695b7ddd4c78bf6a37c0ab14301a7e682b2a1d5f5adb81595808bbfebb3",
+          "bytes": 1565,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_x_pressed.svg",
+          "sha256": "9fe03100364af2edf4ae6c083fda2dfacc20a28515b829a4cdaec3db632a64e6",
+          "bytes": 389
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_e_normal.png",
+          "sha256": "57527e61040158773a3829878bacab740238acb335ec508a29720a0be34eb975",
+          "bytes": 721,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_e_normal.svg",
+          "sha256": "9df2dea88aa2b60ab20cee609bf8e42f3c8c1c75b697e5cbea07f9e580901a27",
+          "bytes": 389
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_e_pressed.png",
+          "sha256": "06d29f0f0d818b046174045806d745466137540de1ba7d57bde24547b93b3c72",
+          "bytes": 723,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_e_pressed.svg",
+          "sha256": "04711ad061d2f62ff32f662d233d716daa5436a4bfdf8e9604e5944f5372b9e0",
+          "bytes": 389
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_r_normal.png",
+          "sha256": "c0127387bbd694518f0ccb753c7a9fc461c55edf30624b5bfa23b210558c95c2",
+          "bytes": 1311,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_r_normal.svg",
+          "sha256": "a3911d39ff6cfdffc3b9704dccd168bcdf37ec40f858dc6de44a24383dcb3135",
+          "bytes": 389
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_r_pressed.png",
+          "sha256": "35caa71fcc8681f973c2fe8821f730d11c738d71d923a935174ee41ccb26ad56",
+          "bytes": 1315,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_r_pressed.svg",
+          "sha256": "ec60bc6f30d1cb7d2b2e68c3cb0d170a44e86c94ce066fda554628c8c707af7a",
+          "bytes": 389
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_space_normal.png",
+          "sha256": "3033a6124bf34209a95869fc08e6f4bae6ebdd22ba8c139eb60f88018c617df8",
+          "bytes": 2528,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_space_normal.svg",
+          "sha256": "361f8049b52c949f1968b95f9b73f1ee659665ca49d1e58b2924240e01be61fc",
+          "bytes": 393
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_space_pressed.png",
+          "sha256": "6d42939d5b7eabd6d33058d9831ac5ad6ef98f8c3f6f8882a82b83fd2d947f8f",
+          "bytes": 2521,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_space_pressed.svg",
+          "sha256": "1004a46764da96310c062f018839331db18c362c1fc1356a98d02b830b02f352",
+          "bytes": 393
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_enter_normal.png",
+          "sha256": "41a21b35ec0fcc08e9436eddbe57a3c13738debcc2a16df81300868365bf7750",
+          "bytes": 1623,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_enter_normal.svg",
+          "sha256": "2f5ea07eaf661d9ae4ea980cabb8cd360c939dc5f46cfe22e257c58e01fefc98",
+          "bytes": 393
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_enter_pressed.png",
+          "sha256": "d967698de515811f762dece69c563134efbdc35611cab73a78ca07d00993c4d6",
+          "bytes": 1607,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_enter_pressed.svg",
+          "sha256": "4122c5dbc5fc6f7a3ee477078efccf50753d95d0137ddb999af351f7d31872df",
+          "bytes": 393
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_esc_normal.png",
+          "sha256": "71b2405386e03af73fd947a7da8231049964d56027dfc7985b8c231b4cd7b549",
+          "bytes": 1561,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_esc_normal.svg",
+          "sha256": "680767f8bcf103e8b339a3084020ea35256e08baf30cef04880c1caa1e693dbc",
+          "bytes": 391
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_esc_pressed.png",
+          "sha256": "76de1e922c98e9f20ea589793f80bf5e1f1a6fadbf68d1bf21caa30d52623056",
+          "bytes": 1567,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_esc_pressed.svg",
+          "sha256": "f63ae914d9819e16268e5a7e89112431b12ac0f4d8fce2f6cf3bc05723d18a57",
+          "bytes": 391
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_left_normal.png",
+          "sha256": "b2db1fd1686fc3258640b505e3a4c86ede677f375d31f87d8172d77996105932",
+          "bytes": 713,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_left_normal.svg",
+          "sha256": "faad00d28d7aa27957672999ea59195d64c7083ac8b644a93a2af7396f16dbdf",
+          "bytes": 377
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_left_pressed.png",
+          "sha256": "e91e595fdf5385ad2a2895d326fd94307c2c253cdbf0716d97ea29608f60e79f",
+          "bytes": 716,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_left_pressed.svg",
+          "sha256": "297fe9e06b0158428de6959e0b13c3956181c414390ecea0315913bfc8eeee64",
+          "bytes": 377
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_right_normal.png",
+          "sha256": "ccd7c3f4b1c828d4b3b91d04f67a3b7ef9a8995f9be13515d67c76d6e6aa7770",
+          "bytes": 715,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_right_normal.svg",
+          "sha256": "83555de38b4ca20b772d3578db4ffeffb1f4b4a0a3fe7354abba510c6b609656",
+          "bytes": 377
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_right_pressed.png",
+          "sha256": "d67ba89a69c5105a4b44a75573431b54178a8dcc1b9e16ac7d50d93892caaf75",
+          "bytes": 718,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_right_pressed.svg",
+          "sha256": "863e1ca7af2cb676facf714e6c5eada4872915a61d922c09667559684ce0a4e8",
+          "bytes": 377
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_up_normal.png",
+          "sha256": "1abea4f153627b86a619d440dad4513805eee438b4d10676d6b94654eba284aa",
+          "bytes": 742,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_up_normal.svg",
+          "sha256": "2c715a7479cc3e27bf43bf2d7334c45093217bfbe5ae27e5ad8f8c7baac72391",
+          "bytes": 377
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_up_pressed.png",
+          "sha256": "bd2b373f3be15b62f8a138a23e2bcd8bdc6c13403566ea8853bcd9bc02f63619",
+          "bytes": 745,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keyboard_up_pressed.svg",
+          "sha256": "eea1dd0f45285798fa88a02cc1cb42340936c02ced425550f36aad522812c602",
+          "bytes": 377
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_a_normal.png",
+          "sha256": "20d3d78463df002041d8584e61aa3801a8f026aa4e162144a22725971c78fd21",
+          "bytes": 1627,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_a_normal.svg",
+          "sha256": "2c553fd8ebcf262ba791dd81179a5d81de53b57ff3d7df195dda0d9e114ff2e9",
+          "bytes": 329
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_a_pressed.png",
+          "sha256": "63c1263bddf43024f1aa030e1377229f150887250f06294aa7c6e4e3a21a6ec5",
+          "bytes": 1596,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_a_pressed.svg",
+          "sha256": "217bc1053305a06433c46ffbda6000fda767679d7d6d2ffac183540b7452e1ae",
+          "bytes": 329
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_b_normal.png",
+          "sha256": "84f419f38b90979c951c8ba292fe2a2ad5e8b0a04c2b871a4575fac0b747c6ec",
+          "bytes": 1541,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_b_normal.svg",
+          "sha256": "a3fadb41ab0a6808ae9865958aed971b3fced170ec9ffb3beebc22826b4ef5e5",
+          "bytes": 329
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_b_pressed.png",
+          "sha256": "79e3a347c082d69d8c24d2617a34f608d274be94f5158689f159fa6ad8c56410",
+          "bytes": 1533,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_b_pressed.svg",
+          "sha256": "e2eae2ebc67a0199baeb478c055d5b371671264c5f61b37101425c73afa38eab",
+          "bytes": 329
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_x_normal.png",
+          "sha256": "563e3bf371e8a316f27b49d6f2054c477992c43293587f60a421510d047b88f0",
+          "bytes": 1829,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_x_normal.svg",
+          "sha256": "fa20ed13ad95b83e3397d66930df34b5ad60ad195aad3ae4b275db88ad846671",
+          "bytes": 329
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_x_pressed.png",
+          "sha256": "ed1ad35d02953d8b3a3f6fa4802a3a9c4baeeeae0fa17331be3000a8fcfa5f15",
+          "bytes": 1821,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_x_pressed.svg",
+          "sha256": "89eb5ef4ccb8a5820e746f555586ebd8f8b06392bc68ca9b6b2d548ee8bfd8fb",
+          "bytes": 329
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_y_normal.png",
+          "sha256": "3f4003964929c036a00241faf5c292a60def6250ea99cee46856ef82f3ee9302",
+          "bytes": 1438,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_y_normal.svg",
+          "sha256": "53111a075413a97ea98acbe21a7afd38be8321a1507e8d0904f479b87d8f8c39",
+          "bytes": 329
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_y_pressed.png",
+          "sha256": "118068e55adcbccc56a84163f2244f0cb90a54321907dac2a59c3378c6a8baa7",
+          "bytes": 1437,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_y_pressed.svg",
+          "sha256": "fc0c5e2cd461710fb7525517aab7b7ea4d9e60e907992d63e6637296cb814efc",
+          "bytes": 329
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_start_normal.png",
+          "sha256": "38bce918f54c3f2014d72b3cc3537fe299144cbc237c521925967ba8ed49275e",
+          "bytes": 2020,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_start_normal.svg",
+          "sha256": "17086165f59d847a56e892e0d114304ba2f3c129094b918320289722d7b31530",
+          "bytes": 393
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_start_pressed.png",
+          "sha256": "d07d4ae987868346c29f2f30eda4c635d7c7fbbc2b1518cf16519ac7489470de",
+          "bytes": 1989,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_start_pressed.svg",
+          "sha256": "4d02f98ae38d43b33dee0ab8f06afe25d79e33e30b0b0eca691ffdf8586db63d",
+          "bytes": 393
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_ls_left_normal.png",
+          "sha256": "94599fc707163ec9434692842d73f1b2381829c32fa66358799a71f1731a4c40",
+          "bytes": 1335,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_ls_left_normal.svg",
+          "sha256": "1cd235c87f288ecbe47c4e0bda52b5d588faf2ab0b4e02b6ba9064333789cfe7",
+          "bytes": 506
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_ls_left_pressed.png",
+          "sha256": "9e8a44e348d422c65513afafb7574c5bb4b532764df163a0217323782cb21bad",
+          "bytes": 1331,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_ls_left_pressed.svg",
+          "sha256": "5f65ae81fe532cd83821f8dd382251edbe3bab3c05b913b3a796071bb14d769e",
+          "bytes": 506
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_ls_right_normal.png",
+          "sha256": "77d6406dca45bbdb48e89c0bb000f66b153d3746a3a5c2e0db52662de65eda95",
+          "bytes": 1337,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_ls_right_normal.svg",
+          "sha256": "15eae4543d66474086e48dd77ed2684ff572444e96f10dc961a1b44c325bd962",
+          "bytes": 506
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_ls_right_pressed.png",
+          "sha256": "151eae813f7fdeac16b11009753e061b12802da6e581084104ad2cd4fa271cb7",
+          "bytes": 1334,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_gamepad_ls_right_pressed.svg",
+          "sha256": "5f563e750a87b5f716486e38216b5dda6fd87d64f3052f9f6787795b89ab6e6e",
+          "bytes": 506
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_prompt_atlas.png",
+          "sha256": "5c159be75e17d60dd2297fbe6c5059fabeaea1f999e3472d620c1548e37b5126",
+          "bytes": 42610,
+          "dimensions": [
+            512,
+            1280
+          ],
+          "mode": "RGBA"
+        }
+      ],
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/previews/UI-025_contact_128px.png",
+      "preview_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/previews/UI-025_contact_128px.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/previews/UI-025_contact_64px.png"
+      ],
+      "prompt": "Author exact keyboard and generic controller glyphs matching current project bindings, with dark-teal/brass/cream normal and pressed states. Editable text; no manufacturer marks."
+    }
+  ],
+  "source_files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/source_images/UI-025_prompt_atlas.svg",
+      "sha256": "225911628d850e1274d84412cb903726bef66f8ed2f3bfe5df182c88bd29b527",
+      "bytes": 13379
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/source_images/UI-025_prompt_spec.json",
+      "sha256": "ece9e67aafcf5756704a68c14920efb0d0c082bf696307406011d5c00153de83",
+      "bytes": 23513
+    }
+  ],
+  "layout_spec": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_action_prompt_map.json",
+  "requested_deliverables_saved_and_reviewed": true,
+  "production_approved": false,
+  "runtime_integrated": false,
+  "review_notes": [
+    "128px and64pxcontactpreviews visually reviewed: exact labels and arrow directions readable, normal/pressed pairs present. No gamepadmanufacturer branding.",
+    "All20 normal/pressed glyph pairs and current input mappings reviewed. Readability preview at64px included.",
+    "SVG text uses system sans-serif fallback; final Godot font, platform input changes and focus/remapping still require integration/testing."
+  ]
+}
