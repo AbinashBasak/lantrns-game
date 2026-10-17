@@ -1,0 +1,161 @@
+{
+  "asset_id": "TAVI-025",
+  "animation": "climbing",
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    140,
+    140,
+    140,
+    140,
+    140,
+    140
+  ],
+  "loop": true,
+  "preview_loops_for_review": true,
+  "pivot_px": [
+    256,
+    480
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/frames/TAVI-025_climbing_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/frames/TAVI-025_climbing_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/frames/TAVI-025_climbing_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/frames/TAVI-025_climbing_04.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/frames/TAVI-025_climbing_05.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/frames/TAVI-025_climbing_06.png"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/source_images/TAVI-025_climbing_sheet_original.png",
+      "source_crop": [
+        0,
+        0,
+        512,
+        507
+      ],
+      "opaque_alpha230_bbox": [
+        129,
+        17,
+        429,
+        505
+      ],
+      "scale": 0.84,
+      "offset": [
+        22,
+        56
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/source_images/TAVI-025_climbing_sheet_original.png",
+      "source_crop": [
+        512,
+        0,
+        1024,
+        500
+      ],
+      "opaque_alpha230_bbox": [
+        87,
+        49,
+        368,
+        498
+      ],
+      "scale": 0.9292035398230089,
+      "offset": [
+        45,
+        17
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/source_images/TAVI-025_climbing_alternate_grip_original.png",
+      "source_crop": null,
+      "opaque_alpha230_bbox": [
+        342,
+        24,
+        1006,
+        1194
+      ],
+      "scale": 0.38461538461538464,
+      "offset": [
+        -3,
+        21
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/source_images/TAVI-025_climbing_sheet_original.png",
+      "source_crop": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "opaque_alpha230_bbox": [
+        130,
+        40,
+        429,
+        418
+      ],
+      "scale": 0.9130434782608695,
+      "offset": [
+        1,
+        98
+      ]
+    },
+    {
+      "frame": 5,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/source_images/TAVI-025_climbing_sheet_original.png",
+      "source_crop": [
+        512,
+        500,
+        1024,
+        1024
+      ],
+      "opaque_alpha230_bbox": [
+        93,
+        6,
+        389,
+        501
+      ],
+      "scale": 0.8536585365853658,
+      "offset": [
+        50,
+        52
+      ]
+    },
+    {
+      "frame": 6,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/source_images/TAVI-025_climbing_sheet_original.png",
+      "source_crop": [
+        1024,
+        505,
+        1536,
+        1024
+      ],
+      "opaque_alpha230_bbox": [
+        78,
+        7,
+        378,
+        501
+      ],
+      "scale": 0.860655737704918,
+      "offset": [
+        60,
+        49
+      ]
+    }
+  ],
+  "silhouette_method": "binary alpha >=230, black RGB",
+  "review_notes": [
+    "Soft colored alpha halos persist in source and color exports; alpha is preserved, not a production-clean cutout.",
+    "Hand anatomy, costume/equipment consistency, scale, camera, timing and contact alignment need cleanup and Godot review.",
+    "No runtime integration performed; exported root motion is not authored.",
+    "First repeated-pose sheet preserved as rejected. Revised sheet plus separate opposite-limb grip forms a six-frame study; camera, head turn, scarf direction and limb-cycle transitions vary and require redraw. Not a finished seamless climbing loop."
+  ]
+}

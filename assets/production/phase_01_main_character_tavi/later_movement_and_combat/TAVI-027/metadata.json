@@ -1,0 +1,307 @@
+{
+  "asset_id": "TAVI-027",
+  "title": "Victory",
+  "checked": false,
+  "stage": "six-frame animation prototype generated and visually reviewed; cleanup and in-engine review pending; not production approved",
+  "last_updated": "2026-10-16T15:21:29.156737+05:30",
+  "generation_tool": "built-in image_gen",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/source_images/TAVI-027_victory_sheet_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-c98b1282-ce49-43d6-851d-f307641b0cf5.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output",
+      "prompt": "Use case: stylized-concept. Asset type: 2D fantasy platformer animation pose sheet. Reference image defines ONLY Tavi identity and illustrated rendering. Same boy, cobalt blue spiky hair, peach skin, cream rolled-sleeve tunic, red scarf and brass shoulder clasp, brown leather harness/gloves/pouch, charcoal trousers, tall brown buckled boots. Clean hand-painted outlines and shading matching reference. Create exactly SIX full-body poses in a precise equal 3-column by 2-row grid, chronological left-to-right top row then bottom row. Canvas landscape 1536x1024; each cell 512x512. All character parts and held swords inside their own cell with ample padding, no overlap. Same scale and camera in every cell. Right-facing side/three-quarter view. Each pose isolated on genuine transparent background, opaque character interiors, NO floor/shadow, no panels, no text, no numbers, no borders, no scenery. Normal standing character height approximately 390px in each 512px cell. Preserve consistent head size, costume, equipment, hand anatomy. No motion duplicates or extra limbs. Asset TAVI-027 \u2014 Victory. Sword stays sheathed at belt, both hands free. No drawn weapon.  Six distinct poses: 1: relaxed standing ready; 2: smile and draw fist toward chest; 3: raise right fist high in celebration; 4: hold fist overhead with joyful smile; 5: lower fist toward chest; 6: settle smiling upright. No giant aura or slash effects. Strictly keep each pose completely within cell, with 40px margin. Flat transparent empty gaps without colored halos.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png"
+      ],
+      "review": "selected prototype sheet; continuity cleanup pending",
+      "bytes": 2015727,
+      "sha256": "adc81d4e3e263dc8043c81c36c756f0e620c595aea7dac8f49e79bd858a5d1c6",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    150,
+    140,
+    160,
+    400,
+    160,
+    200
+  ],
+  "loop": false,
+  "review_notes": [
+    "Soft colored alpha halos persist in source and color exports; alpha is preserved, not a production-clean cutout.",
+    "Hand anatomy, costume/equipment consistency, scale, camera, timing and contact alignment need cleanup and Godot review.",
+    "No runtime integration performed; exported root motion is not authored.",
+    "Celebration includes fist raise and hold; arm orientation and equipment vary. Pose 3 shows apparent doubled hilt/pommel shapes; pose 4 has a stray low brass hilt shape requiring redraw."
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/exports/TAVI-027_victory_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/previews/TAVI-027_victory_preview.gif",
+  "asset_pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/exports/TAVI-027_victory_prototype_pack.zip",
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/exports/TAVI-027_README.md",
+      "bytes": 975,
+      "sha256": "d2b6f47dcbdc27f11226a11731244e9cdb7906a720a313b1b5effc76d2978a56"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/exports/TAVI-027_animation_manifest.json",
+      "bytes": 4998,
+      "sha256": "bf1c47be56a8de7798e4b1004806d19cdbb669a9d2f437a6835981820e5dc66c"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/exports/TAVI-027_generation_prompts.json",
+      "bytes": 2759,
+      "sha256": "b6e12205da239660ce0217c3ec91d8d11e23faad8115d604503ab88062f65f60"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/exports/TAVI-027_victory_prototype_pack.zip",
+      "bytes": 4588635,
+      "sha256": "2ad813a7d056a876e2ad7e45cde76df6ae21784e8f9b159621b517557a8ea48a"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/exports/TAVI-027_victory_silhouettes_strip.png",
+      "bytes": 19554,
+      "sha256": "14b5aad6e068abc977b07bb25fe0e031d6af27d85e55df50730360b5b5f9eb5a",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/exports/TAVI-027_victory_strip.png",
+      "bytes": 996051,
+      "sha256": "3ea550e67873fce82ef56b3cb4d16609b01cc05746b80b942eba83195fce5f31",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/exports/frames/TAVI-027_victory_01.png",
+      "bytes": 167543,
+      "sha256": "aca791eca86c8694e6652e8ea3ca0af9524653f3e49d8227019a0a146a8906ce",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/exports/frames/TAVI-027_victory_02.png",
+      "bytes": 163578,
+      "sha256": "a7ee40da7b0da108f26e21385d17215a674866a013a2229d868d79822a27b0f8",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/exports/frames/TAVI-027_victory_03.png",
+      "bytes": 173359,
+      "sha256": "ec1242aa5a9a07b462634fabbf01ab0be753bb7898f0b85b555649958bee9bba",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/exports/frames/TAVI-027_victory_04.png",
+      "bytes": 177257,
+      "sha256": "2ba6f7251a4332faf41394577ac19322852e16a66478721d890aa825d58cf2e3",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/exports/frames/TAVI-027_victory_05.png",
+      "bytes": 161729,
+      "sha256": "ce4626b9b000d16c5aa3f50b57f3885d6eb0261e2a4f06d4e477ec5c21b3c4d3",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/exports/frames/TAVI-027_victory_06.png",
+      "bytes": 160985,
+      "sha256": "9d1c85e731f3fc2222792bdbbedda3cbcc8d01d44f25f5ab528056a62dae03e9",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/exports/silhouettes/TAVI-027_victory_01_silhouette.png",
+      "bytes": 4174,
+      "sha256": "2d6b3f7dc34b5e23e5bd772a1abd7fef9c740943ca8dce12b3fdc7be48223ce9",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/exports/silhouettes/TAVI-027_victory_02_silhouette.png",
+      "bytes": 4174,
+      "sha256": "226c9ee7d7453245eb4003c487742b987c810366d6ac9f7ed55500d80bbc1677",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/exports/silhouettes/TAVI-027_victory_03_silhouette.png",
+      "bytes": 4296,
+      "sha256": "3909684049309fe137ee0db365219174d221f1fb6e0886e74cdb31691a20c576",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/exports/silhouettes/TAVI-027_victory_04_silhouette.png",
+      "bytes": 4432,
+      "sha256": "33659fd7041e1c4c57b20b4e7661b3994756ea8a99cb835ce1028c9531139371",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/exports/silhouettes/TAVI-027_victory_05_silhouette.png",
+      "bytes": 4221,
+      "sha256": "4a8d86af490d8cbb9a03fc25a29635fa0e00ab285de510e1b676e3fc9e31bb8f",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/exports/silhouettes/TAVI-027_victory_06_silhouette.png",
+      "bytes": 4093,
+      "sha256": "0640f1cf96edb25f92bf94b3b52c78b0a0b909bdca4057a984aa530c7e0e114e",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/previews/TAVI-027_victory_contact_sheet.jpg",
+      "bytes": 233996,
+      "sha256": "697b1b3bf0ce03767e2dbf286af4a3df0066d7030d26203e563a97ccac83b74f",
+      "dimensions": [
+        1536,
+        1104
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/previews/TAVI-027_victory_preview.gif",
+      "bytes": 332710,
+      "sha256": "dc7d6f2757390667e6d3bf4a46bc3bc4f72cf5e2137649a547e9a7d8c422c0cc",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/source_images/TAVI-027_victory_sheet_original.png",
+      "bytes": 2015727,
+      "sha256": "adc81d4e3e263dc8043c81c36c756f0e620c595aea7dac8f49e79bd858a5d1c6",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

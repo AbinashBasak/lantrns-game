@@ -1,0 +1,27 @@
+{
+  "reference_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-022/source_images/TAVI-022_dash_sheet_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-c6fc7b81-7cd5-4c75-8f8b-0c699e1fb375.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output",
+      "prompt": "Use case: stylized-concept. Asset type: 2D fantasy platformer animation pose sheet. Reference image defines ONLY Tavi identity and illustrated rendering. Same boy, cobalt blue spiky hair, peach skin, cream rolled-sleeve tunic, red scarf and brass shoulder clasp, brown leather harness/gloves/pouch, charcoal trousers, tall brown buckled boots. Clean hand-painted outlines and shading matching reference. Create exactly SIX full-body poses in a precise equal 3-column by 2-row grid, chronological left-to-right top row then bottom row. Canvas landscape 1536x1024; each cell 512x512. All character parts and held swords inside their own cell with ample padding, no overlap. Same scale and camera in every cell. Right-facing side/three-quarter view. Each pose isolated on genuine transparent background, opaque character interiors, NO floor/shadow, no panels, no text, no numbers, no borders, no scenery. Normal standing character height approximately 390px in each 512px cell. Preserve consistent head size, costume, equipment, hand anatomy. No motion duplicates or extra limbs. Asset TAVI-022 \u2014 Dodge or dash. Sword stays sheathed at belt, both hands free. No drawn weapon.  Six distinct poses: 1: standing ready facing right; 2: deep crouch anticipation; 3: explosive forward push off, torso leaning right; 4: low airborne dash stretched right, both boots off baseline; 5: landing crouch with front boot planted; 6: recover upright ready. No giant aura or slash effects.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png"
+      ],
+      "review": "selected prototype sheet; continuity cleanup pending",
+      "bytes": 2103230,
+      "sha256": "4fc77b5e9e618b7f0d985a32ab661f1a9b6fd2fe13cc1681cc73f331ea7b99dd",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

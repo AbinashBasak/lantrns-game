@@ -1,0 +1,166 @@
+{
+  "asset_id": "TAVI-026",
+  "animation": "opening_chest",
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    160,
+    160,
+    180,
+    280,
+    160,
+    200
+  ],
+  "loop": false,
+  "preview_loops_for_review": true,
+  "pivot_px": [
+    256,
+    480
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/frames/TAVI-026_opening_chest_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/frames/TAVI-026_opening_chest_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/frames/TAVI-026_opening_chest_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/frames/TAVI-026_opening_chest_04.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/frames/TAVI-026_opening_chest_05.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/frames/TAVI-026_opening_chest_06.png"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/source_images/TAVI-026_opening_chest_sheet_original.png",
+      "source_crop": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "opaque_alpha230_bbox": [
+        108,
+        31,
+        377,
+        489
+      ],
+      "scale": 0.9782608695652174,
+      "offset": [
+        19,
+        -9
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/source_images/TAVI-026_opening_chest_sheet_original.png",
+      "source_crop": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "opaque_alpha230_bbox": [
+        73,
+        65,
+        418,
+        489
+      ],
+      "scale": 0.9782608695652174,
+      "offset": [
+        16,
+        -9
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/source_images/TAVI-026_opening_chest_sheet_original.png",
+      "source_crop": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "opaque_alpha230_bbox": [
+        17,
+        65,
+        432,
+        489
+      ],
+      "scale": 0.9782608695652174,
+      "offset": [
+        36,
+        -9
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/source_images/TAVI-026_opening_chest_sheet_original.png",
+      "source_crop": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "opaque_alpha230_bbox": [
+        113,
+        15,
+        479,
+        471
+      ],
+      "scale": 0.9782608695652174,
+      "offset": [
+        -34,
+        -9
+      ]
+    },
+    {
+      "frame": 5,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/source_images/TAVI-026_opening_chest_sheet_original.png",
+      "source_crop": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "opaque_alpha230_bbox": [
+        80,
+        13,
+        404,
+        472
+      ],
+      "scale": 0.9782608695652174,
+      "offset": [
+        19,
+        -9
+      ]
+    },
+    {
+      "frame": 6,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/source_images/TAVI-026_opening_chest_sheet_original.png",
+      "source_crop": [
+        1024,
+        512,
+        1536,
+        1024
+      ],
+      "opaque_alpha230_bbox": [
+        69,
+        12,
+        336,
+        472
+      ],
+      "scale": 0.9782608695652174,
+      "offset": [
+        58,
+        -9
+      ]
+    }
+  ],
+  "silhouette_method": "binary alpha >=230, black RGB",
+  "review_notes": [
+    "Soft colored alpha halos persist in source and color exports; alpha is preserved, not a production-clean cutout.",
+    "Hand anatomy, costume/equipment consistency, scale, camera, timing and contact alignment need cleanup and Godot review.",
+    "No runtime integration performed; exported root motion is not authored.",
+    "Character-only lid-opening gesture; forward contact is chest-height rather than waist-height and needs fitting to the actual chest. No chest prop delivered."
+  ]
+}

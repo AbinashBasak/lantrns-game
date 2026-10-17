@@ -1,0 +1,166 @@
+{
+  "asset_id": "TAVI-028",
+  "animation": "knockback_recovery",
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    120,
+    90,
+    120,
+    180,
+    160,
+    180
+  ],
+  "loop": false,
+  "preview_loops_for_review": true,
+  "pivot_px": [
+    256,
+    480
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/frames/TAVI-028_knockback_recovery_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/frames/TAVI-028_knockback_recovery_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/frames/TAVI-028_knockback_recovery_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/frames/TAVI-028_knockback_recovery_04.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/frames/TAVI-028_knockback_recovery_05.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/frames/TAVI-028_knockback_recovery_06.png"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/source_images/TAVI-028_knockback_recovery_sheet_original.png",
+      "source_crop": [
+        0,
+        0,
+        512,
+        518
+      ],
+      "opaque_alpha230_bbox": [
+        105,
+        29,
+        436,
+        513
+      ],
+      "scale": 0.9297520661157025,
+      "offset": [
+        5,
+        15
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/source_images/TAVI-028_knockback_recovery_sheet_original.png",
+      "source_crop": [
+        512,
+        0,
+        1000,
+        518
+      ],
+      "opaque_alpha230_bbox": [
+        60,
+        69,
+        474,
+        512
+      ],
+      "scale": 0.9297520661157025,
+      "offset": [
+        8,
+        15
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/source_images/TAVI-028_knockback_recovery_sheet_original.png",
+      "source_crop": [
+        1000,
+        0,
+        1536,
+        518
+      ],
+      "opaque_alpha230_bbox": [
+        20,
+        62,
+        487,
+        489
+      ],
+      "scale": 0.9297520661157025,
+      "offset": [
+        20,
+        15
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/source_images/TAVI-028_knockback_recovery_sheet_original.png",
+      "source_crop": [
+        0,
+        525,
+        550,
+        1024
+      ],
+      "opaque_alpha230_bbox": [
+        104,
+        91,
+        543,
+        443
+      ],
+      "scale": 0.9297520661157025,
+      "offset": [
+        -45,
+        15
+      ]
+    },
+    {
+      "frame": 5,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/source_images/TAVI-028_knockback_recovery_sheet_original.png",
+      "source_crop": [
+        550,
+        525,
+        1024,
+        1024
+      ],
+      "opaque_alpha230_bbox": [
+        50,
+        34,
+        394,
+        441
+      ],
+      "scale": 0.9297520661157025,
+      "offset": [
+        50,
+        15
+      ]
+    },
+    {
+      "frame": 6,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/source_images/TAVI-028_knockback_recovery_sheet_original.png",
+      "source_crop": [
+        1024,
+        525,
+        1536,
+        1024
+      ],
+      "opaque_alpha230_bbox": [
+        28,
+        0,
+        394,
+        451
+      ],
+      "scale": 0.9297520661157025,
+      "offset": [
+        60,
+        15
+      ]
+    }
+  ],
+  "silhouette_method": "binary alpha >=230, black RGB",
+  "review_notes": [
+    "Soft colored alpha halos persist in source and color exports; alpha is preserved, not a production-clean cutout.",
+    "Hand anatomy, costume/equipment consistency, scale, camera, timing and contact alignment need cleanup and Godot review.",
+    "No runtime integration performed; exported root motion is not authored.",
+    "Recoil, airborne backward pose, landing and recovery present; landing reads seated/braced rather than crouched. Root motion and impact timing need gameplay review."
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "asset_id": "TAVI-028",
+  "title": "Knockback and recovery",
+  "checked": false,
+  "stage": "six-frame animation prototype generated and visually reviewed; cleanup and in-engine review pending; not production approved",
+  "last_updated": "2026-10-16T15:21:29.156737+05:30",
+  "generation_tool": "built-in image_gen",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/source_images/TAVI-028_knockback_recovery_sheet_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-e96f7a6d-3534-40f0-b4f3-4a5d7339d1de.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output",
+      "prompt": "Use case: stylized-concept. Asset type: 2D fantasy platformer animation pose sheet. Reference image defines ONLY Tavi identity and illustrated rendering. Same boy, cobalt blue spiky hair, peach skin, cream rolled-sleeve tunic, red scarf and brass shoulder clasp, brown leather harness/gloves/pouch, charcoal trousers, tall brown buckled boots. Clean hand-painted outlines and shading matching reference. Create exactly SIX full-body poses in a precise equal 3-column by 2-row grid, chronological left-to-right top row then bottom row. Canvas landscape 1536x1024; each cell 512x512. All character parts and held swords inside their own cell with ample padding, no overlap. Same scale and camera in every cell. Right-facing side/three-quarter view. Each pose isolated on genuine transparent background, opaque character interiors, NO floor/shadow, no panels, no text, no numbers, no borders, no scenery. Normal standing character height approximately 390px in each 512px cell. Preserve consistent head size, costume, equipment, hand anatomy. No motion duplicates or extra limbs. Asset TAVI-028 \u2014 Knockback and recovery. Sword stays sheathed at belt, both hands free. No drawn weapon.  Six distinct poses: 1: standing ready facing right; 2: impact recoil torso thrown left, eyes wince; 3: airborne backward left with bent knees arms bracing; 4: land low crouch leaning back; 5: push upright regaining balance; 6: recover stable ready stance. No giant aura or slash effects. Strictly keep each pose completely within cell, with 40px margin. Flat transparent empty gaps without colored halos.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png"
+      ],
+      "review": "selected prototype sheet; continuity cleanup pending",
+      "bytes": 2199634,
+      "sha256": "fb6bbd03ddfe8a912a9523aced2ba131f158047579e21c1871590f7b857acb3c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    120,
+    90,
+    120,
+    180,
+    160,
+    180
+  ],
+  "loop": false,
+  "review_notes": [
+    "Soft colored alpha halos persist in source and color exports; alpha is preserved, not a production-clean cutout.",
+    "Hand anatomy, costume/equipment consistency, scale, camera, timing and contact alignment need cleanup and Godot review.",
+    "No runtime integration performed; exported root motion is not authored.",
+    "Recoil, airborne backward pose, landing and recovery present; landing reads seated/braced rather than crouched. Root motion and impact timing need gameplay review."
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/TAVI-028_knockback_recovery_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/previews/TAVI-028_knockback_recovery_preview.gif",
+  "asset_pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/TAVI-028_knockback_recovery_prototype_pack.zip",
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/TAVI-028_README.md",
+      "bytes": 968,
+      "sha256": "cdaa281721f3a8e79bf1c3ae7c30719e236fb702575d29fdf544e676b17ac2a1"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/TAVI-028_animation_manifest.json",
+      "bytes": 5116,
+      "sha256": "5526120b6b481e0f6dc212f39974b2f17350bdd7a4f714ce63799a9dd73ba0b1"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/TAVI-028_generation_prompts.json",
+      "bytes": 2820,
+      "sha256": "0cf6d406fcbd12f7ce520a7724229c1052c57d383401d27091e6e32f2d5bb8df"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/TAVI-028_knockback_recovery_prototype_pack.zip",
+      "bytes": 5382007,
+      "sha256": "304a71dcc99b81a1e6ad6be4f97de2d45d578cf75df7647cec5f32cc42477499"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/TAVI-028_knockback_recovery_silhouettes_strip.png",
+      "bytes": 24366,
+      "sha256": "1016f2e2e1e70e7c61c5bd1a9ad9dcdbd0cf3aa16ef7812ccb9132be9a43240a",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/TAVI-028_knockback_recovery_strip.png",
+      "bytes": 1247121,
+      "sha256": "833d5ae9f41c5a8017d99f609da14dc3c132849395c99a33e2586ef39835f62b",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/frames/TAVI-028_knockback_recovery_01.png",
+      "bytes": 207693,
+      "sha256": "5a12ebd8cdbef38391ce9c64afa0401d128abfc905d4852d96a19730e83be645",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/frames/TAVI-028_knockback_recovery_02.png",
+      "bytes": 215955,
+      "sha256": "3b1e63f1b890a866c4c94647c368eaa63c7b7497bfd2782e78c1978b17f3aa52",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/frames/TAVI-028_knockback_recovery_03.png",
+      "bytes": 229118,
+      "sha256": "babddb6ea6ab4609d387f21267d959c3a79ec124c93cca2d7912bb2f46fa3b07",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/frames/TAVI-028_knockback_recovery_04.png",
+      "bytes": 192378,
+      "sha256": "eeb5fcb18209b9a46d323b05280ae6a6087aa6d14f6035f97bb1ba4188084ea7",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/frames/TAVI-028_knockback_recovery_05.png",
+      "bytes": 193556,
+      "sha256": "e82898063a442c9b0ac56bb9778fbc4656be80c6ef28e3d37a31b57d279b65a5",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/frames/TAVI-028_knockback_recovery_06.png",
+      "bytes": 201746,
+      "sha256": "224a36f299479dd6c38845620deec354603910bfd3675f10eeec5908509b378e",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/silhouettes/TAVI-028_knockback_recovery_01_silhouette.png",
+      "bytes": 4677,
+      "sha256": "b8012b9f72f2c7005e420fc3e623b4ff9bd707f67bdc1da08d575947824afb3c",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/silhouettes/TAVI-028_knockback_recovery_02_silhouette.png",
+      "bytes": 5061,
+      "sha256": "3e7be907a116821599af7029317af043c5b85bcd2c190236e006193b3e47870b",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/silhouettes/TAVI-028_knockback_recovery_03_silhouette.png",
+      "bytes": 5336,
+      "sha256": "d13574cb1b93b7f124941d9b6ba410ff5937510703fd68319f66dc4d25ba19cc",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/silhouettes/TAVI-028_knockback_recovery_04_silhouette.png",
+      "bytes": 4259,
+      "sha256": "7d7d805c5bdbded5db210132932772153128cc438ecbafd763f72ae71f46080e",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/silhouettes/TAVI-028_knockback_recovery_05_silhouette.png",
+      "bytes": 4349,
+      "sha256": "e61442b0845f583d3a3adbc7e27b776c0100e3b48ab64c9aae07fab0c42f0072",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/silhouettes/TAVI-028_knockback_recovery_06_silhouette.png",
+      "bytes": 4728,
+      "sha256": "7f7f6cd056eaa5deece0088000bc021cc9ce692c226f27f8523fbf7c79ad9f3c",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/previews/TAVI-028_knockback_recovery_contact_sheet.jpg",
+      "bytes": 277191,
+      "sha256": "2c53e03a8c1e491e629df8110b4470a6e5b1afb2a1e2c501f112c0f15af57123",
+      "dimensions": [
+        1536,
+        1104
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/previews/TAVI-028_knockback_recovery_preview.gif",
+      "bytes": 399522,
+      "sha256": "baacaf7ca0f51b4366f1254b4339def75b99b76a33c0a9c74af840f97d9286dc",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/source_images/TAVI-028_knockback_recovery_sheet_original.png",
+      "bytes": 2199634,
+      "sha256": "fb6bbd03ddfe8a912a9523aced2ba131f158047579e21c1871590f7b857acb3c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

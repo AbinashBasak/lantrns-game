@@ -1,0 +1,71 @@
+{
+  "reference_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/source_images/TAVI-025_climbing_sheet_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-fb65f509-1c81-4594-b623-f2c10bf4916e.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output",
+      "prompt": "Use case: stylized-concept. Asset type: 2D fantasy platformer animation pose sheet. Reference image defines ONLY Tavi identity and illustrated rendering. Same boy, cobalt blue spiky hair, peach skin, cream rolled-sleeve tunic, red scarf and brass shoulder clasp, brown leather harness/gloves/pouch, charcoal trousers, tall brown buckled boots. Clean hand-painted outlines and shading matching reference. Create exactly SIX full-body poses in a precise equal 3-column by 2-row grid, chronological left-to-right top row then bottom row. Canvas landscape 1536x1024; each cell 512x512. All character parts and held swords inside their own cell with ample padding, no overlap. Same scale and camera in every cell. Three-quarter BACK view facing the invisible wall, head angled right, so both arms and both legs can be clearly distinguished. Each pose isolated on genuine transparent background, opaque character interiors, NO floor/shadow, no panels, no text, no numbers, no borders, no scenery. Normal standing character height approximately 390px in each 512px cell. Preserve consistent head size, costume, equipment, hand anatomy. No motion duplicates or extra limbs. Asset TAVI-025 \u2014 Climbing. Sword stays sheathed at belt, both hands free. No drawn weapon. Invisible climbing wall: do not draw wall, ladder, vines or props; show hands gripping imaginary holds. Climbing loop. Six distinct poses: 1: vertical climbing stance, left hand high right knee raised; 2: left hand grips overhead, right boot pushes; 3: right hand reaching overhead, left knee rising; 4: right hand grips high, left boot pushes; 5: left hand reaching overhead again, right knee rises; 6: return to first climbing stance. No giant aura or slash effects. IMPORTANT anatomy choreography: all six poses must be different, NOT six copies with one arm up. Top-left: LEFT arm straight overhead, RIGHT arm bent at chest, RIGHT knee high. Top-middle: BOTH hands at head height, legs partly extended as body pulls up. Top-right: RIGHT arm straight overhead, LEFT arm bent at chest, LEFT knee high. Bottom-left: BOTH hands at head height and both knees bent during upward pull. Bottom-middle: LEFT arm stretching overhead again, RIGHT hand low chest, RIGHT knee rising. Bottom-right: match start loop. Clearly alternate which hand is highest and which knee is raised. No ladder, wall, background, glow, cast shadows or colored haze. Genuine empty transparent margins.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png"
+      ],
+      "review": "selected prototype sheet; continuity cleanup pending",
+      "bytes": 2012907,
+      "sha256": "2442080604dafbf2e13fc0610d9c9cbefe6540c1d1387d5855a444b27bad0f65",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/source_images/TAVI-025_climbing_repeated_attempt_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-fbe2d9a0-462e-4f16-8739-bb1a79db002d.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output",
+      "prompt": "Use case: stylized-concept. Asset type: 2D fantasy platformer animation pose sheet. Reference image defines ONLY Tavi identity and illustrated rendering. Same boy, cobalt blue spiky hair, peach skin, cream rolled-sleeve tunic, red scarf and brass shoulder clasp, brown leather harness/gloves/pouch, charcoal trousers, tall brown buckled boots. Clean hand-painted outlines and shading matching reference. Create exactly SIX full-body poses in a precise equal 3-column by 2-row grid, chronological left-to-right top row then bottom row. Canvas landscape 1536x1024; each cell 512x512. All character parts and held swords inside their own cell with ample padding, no overlap. Same scale and camera in every cell. Right-facing side/three-quarter view. Each pose isolated on genuine transparent background, opaque character interiors, NO floor/shadow, no panels, no text, no numbers, no borders, no scenery. Normal standing character height approximately 390px in each 512px cell. Preserve consistent head size, costume, equipment, hand anatomy. No motion duplicates or extra limbs. Asset TAVI-025 \u2014 Climbing. Sword stays sheathed at belt, both hands free. No drawn weapon. Invisible climbing wall: do not draw wall, ladder, vines or props; show hands gripping imaginary holds. Climbing loop. Six distinct poses: 1: vertical climbing stance, left hand high right knee raised; 2: left hand grips overhead, right boot pushes; 3: right hand reaching overhead, left knee rising; 4: right hand grips high, left boot pushes; 5: left hand reaching overhead again, right knee rises; 6: return to first climbing stance. No giant aura or slash effects. Strictly keep each pose completely within cell, with 40px margin. Flat transparent empty gaps without colored halos.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png"
+      ],
+      "review": "rejected as active sequence: repeated limb poses; preserved unchanged",
+      "bytes": 2029719,
+      "sha256": "19d6f9abacff454d5443a428f3693cdd3898e6e8323551213fd844930a3f2dc3",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/source_images/TAVI-025_climbing_alternate_grip_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-6f5b3cbc-7f6c-49e5-abe1-e081b5801ed4.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output",
+      "prompt": "Use case: stylized-concept. One single full-body climbing sprite, genuine transparent background, no sheet. Match Tavi reference identity cobalt blue hair, peach skin, red scarf, cream tunic, brown leather harness/pouch/gloves and boots, charcoal trousers, sheathed sword. Three-quarter back view facing invisible wall, head turns slightly right. IMPORTANT: arm on LEFT side of image is fully extended straight UP to grip overhead. Arm on RIGHT side of image is bent with fist LOW beside chest. Boot on LEFT side of image is raised to waist with sharply bent knee; leg on RIGHT side extends downward pushing. This is the reverse limb phase of climbing. Show both hands clearly at different heights, left high right low. Whole body no clipping, same hand painted game style. No ladder wall ground props text glow haze or shadow. Centered in square canvas with generous padding.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png"
+      ],
+      "review": "selected as frame 3; camera/scarf continuity requires cleanup",
+      "bytes": 727753,
+      "sha256": "19fb366e1bc234f8b62ef00514c6ac8d34aba6c534693a0105b9f8278f36bdd9",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}

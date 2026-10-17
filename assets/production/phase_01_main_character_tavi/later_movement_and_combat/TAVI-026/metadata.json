@@ -1,0 +1,307 @@
+{
+  "asset_id": "TAVI-026",
+  "title": "Opening chest",
+  "checked": false,
+  "stage": "six-frame animation prototype generated and visually reviewed; cleanup and in-engine review pending; not production approved",
+  "last_updated": "2026-10-16T15:21:29.156737+05:30",
+  "generation_tool": "built-in image_gen",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/source_images/TAVI-026_opening_chest_sheet_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-ddd70c00-a0e3-4d29-92d6-4fe71731c7ef.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output",
+      "prompt": "Use case: stylized-concept. Asset type: 2D fantasy platformer animation pose sheet. Reference image defines ONLY Tavi identity and illustrated rendering. Same boy, cobalt blue spiky hair, peach skin, cream rolled-sleeve tunic, red scarf and brass shoulder clasp, brown leather harness/gloves/pouch, charcoal trousers, tall brown buckled boots. Clean hand-painted outlines and shading matching reference. Create exactly SIX full-body poses in a precise equal 3-column by 2-row grid, chronological left-to-right top row then bottom row. Canvas landscape 1536x1024; each cell 512x512. All character parts and held swords inside their own cell with ample padding, no overlap. Same scale and camera in every cell. Right-facing side/three-quarter view. Each pose isolated on genuine transparent background, opaque character interiors, NO floor/shadow, no panels, no text, no numbers, no borders, no scenery. Normal standing character height approximately 390px in each 512px cell. Preserve consistent head size, costume, equipment, hand anatomy. No motion duplicates or extra limbs. Asset TAVI-026 \u2014 Opening chest. Sword stays sheathed at belt, both hands free. No drawn weapon. Chest interaction character ONLY, do not draw chest or environment; imaginary lid contact target to image right. Separate chest prop not part of request. Six distinct poses: 1: stand right-facing with hands free; 2: bend knees and lean toward invisible waist-high chest to right; 3: both hands reach forward to waist-height lid edge; 4: lift both hands up and forward opening hinged lid; 5: release raised lid and begin straightening; 6: stand upright looking down at opened chest. No giant aura or slash effects. Strictly keep each pose completely within cell, with 40px margin. Flat transparent empty gaps without colored halos.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png"
+      ],
+      "review": "selected prototype sheet; continuity cleanup pending",
+      "bytes": 2072792,
+      "sha256": "5449863f22fbc5962dbd096f4da3273a835a9f4547467bd159b126528dfde5c6",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    160,
+    160,
+    180,
+    280,
+    160,
+    200
+  ],
+  "loop": false,
+  "review_notes": [
+    "Soft colored alpha halos persist in source and color exports; alpha is preserved, not a production-clean cutout.",
+    "Hand anatomy, costume/equipment consistency, scale, camera, timing and contact alignment need cleanup and Godot review.",
+    "No runtime integration performed; exported root motion is not authored.",
+    "Character-only lid-opening gesture; forward contact is chest-height rather than waist-height and needs fitting to the actual chest. No chest prop delivered."
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/TAVI-026_opening_chest_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/previews/TAVI-026_opening_chest_preview.gif",
+  "asset_pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/TAVI-026_opening_chest_prototype_pack.zip",
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/TAVI-026_README.md",
+      "bytes": 952,
+      "sha256": "4d175653c0bd8616208555fac43367dccf48d5b189b7b1338db6f16544bb6e34"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/TAVI-026_animation_manifest.json",
+      "bytes": 5048,
+      "sha256": "9c9825520ca24e54be4f8fa88b197cffc4437218956e8890498835091baefb86"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/TAVI-026_generation_prompts.json",
+      "bytes": 3031,
+      "sha256": "e13706e865bc9744ef613a1fe68023f7739e2b87bda91c0b3bd8e8778e39396e"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/TAVI-026_opening_chest_prototype_pack.zip",
+      "bytes": 5110850,
+      "sha256": "de6ff0838b802e021903b57c2716d00a5a91bbcc786948f09d0fcf35901aa54c"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/TAVI-026_opening_chest_silhouettes_strip.png",
+      "bytes": 23703,
+      "sha256": "95d0f147efe9a673dd53a5dcaa2ba5a3652669f7ea9345397ad41c57f11c143c",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/TAVI-026_opening_chest_strip.png",
+      "bytes": 1185531,
+      "sha256": "c6a6dee398bc50b73e08eb25f64667a806347145dad58be300825eb04096a00c",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/frames/TAVI-026_opening_chest_01.png",
+      "bytes": 184652,
+      "sha256": "aa66755ff69388fadb43de08ffb8b4be318f44605a658e9924155c658526bc1b",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/frames/TAVI-026_opening_chest_02.png",
+      "bytes": 198136,
+      "sha256": "58968fab1c947ad7cd76780d60bab03647b8d50d283f32f03ba7352ff55afdc9",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/frames/TAVI-026_opening_chest_03.png",
+      "bytes": 209762,
+      "sha256": "29b447305d96bf6851fed763a0239e91a25fc742809f1adf12edb957195b3501",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/frames/TAVI-026_opening_chest_04.png",
+      "bytes": 212362,
+      "sha256": "d6752bac2f9ecec6d23dbf9d4654656e0c31f980eebfea1427a445df8a27e30c",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/frames/TAVI-026_opening_chest_05.png",
+      "bytes": 194416,
+      "sha256": "4689fa4a42a8fa7fb37c71276d7e4a75090f88725591967ced7c4daee23adfd7",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/frames/TAVI-026_opening_chest_06.png",
+      "bytes": 185621,
+      "sha256": "6aa873469da255a105fc5d43713516a4fcc8cf92ef6049063caf6c0e297de9df",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/silhouettes/TAVI-026_opening_chest_01_silhouette.png",
+      "bytes": 4459,
+      "sha256": "3fdcd9e363f572fc7e2c39087f3a7433d7e0e70892505ce594aead2312eadf1a",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/silhouettes/TAVI-026_opening_chest_02_silhouette.png",
+      "bytes": 4927,
+      "sha256": "098e58891c1d6bd6c83f273572d8be4cc92bf92f13101570c70c2fc0b772ff43",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/silhouettes/TAVI-026_opening_chest_03_silhouette.png",
+      "bytes": 5151,
+      "sha256": "ac531bd88dca613ec8b7500ed52abe7ce9ac7aae82bf26f48207c8eea48dbea7",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/silhouettes/TAVI-026_opening_chest_04_silhouette.png",
+      "bytes": 5263,
+      "sha256": "ccc8b82031ce2a1237c120cf7279eda5cbd8ac0ccfca36e8b1b14718f00b4b6e",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/silhouettes/TAVI-026_opening_chest_05_silhouette.png",
+      "bytes": 4789,
+      "sha256": "c245be8887a5231716d4796b2590943934d35d46f12ffbf1528898a1395d14d4",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/silhouettes/TAVI-026_opening_chest_06_silhouette.png",
+      "bytes": 4362,
+      "sha256": "14f2308198d65b8e7de335da94527c49e3639bf9d489ce0cb06e0f7392dccc1c",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/previews/TAVI-026_opening_chest_contact_sheet.jpg",
+      "bytes": 263773,
+      "sha256": "e4a46f67f0095062b1cd75c996f066826269382a2449f7cb12373fc58a4eb30a",
+      "dimensions": [
+        1536,
+        1104
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/previews/TAVI-026_opening_chest_preview.gif",
+      "bytes": 384989,
+      "sha256": "c76665994db0f0795d0fed9e72dbdafa6affa919d273508fdc40c80db9878047",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/source_images/TAVI-026_opening_chest_sheet_original.png",
+      "bytes": 2072792,
+      "sha256": "5449863f22fbc5962dbd096f4da3273a835a9f4547467bd159b126528dfde5c6",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

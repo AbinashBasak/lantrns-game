@@ -1,0 +1,166 @@
+{
+  "asset_id": "TAVI-023",
+  "animation": "second_sword_combo",
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    120,
+    100,
+    80,
+    100,
+    80,
+    180
+  ],
+  "loop": false,
+  "preview_loops_for_review": true,
+  "pivot_px": [
+    256,
+    480
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-023/exports/frames/TAVI-023_second_sword_combo_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-023/exports/frames/TAVI-023_second_sword_combo_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-023/exports/frames/TAVI-023_second_sword_combo_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-023/exports/frames/TAVI-023_second_sword_combo_04.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-023/exports/frames/TAVI-023_second_sword_combo_05.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-023/exports/frames/TAVI-023_second_sword_combo_06.png"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-023/source_images/TAVI-023_second_sword_combo_sheet_original.png",
+      "source_crop": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "opaque_alpha230_bbox": [
+        87,
+        98,
+        454,
+        480
+      ],
+      "scale": 0.9719222462203023,
+      "offset": [
+        -7,
+        -6
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-023/source_images/TAVI-023_second_sword_combo_sheet_original.png",
+      "source_crop": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "opaque_alpha230_bbox": [
+        69,
+        35,
+        437,
+        486
+      ],
+      "scale": 0.9719222462203023,
+      "offset": [
+        10,
+        -6
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-023/source_images/TAVI-023_second_sword_combo_sheet_original.png",
+      "source_crop": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "opaque_alpha230_bbox": [
+        9,
+        38,
+        472,
+        486
+      ],
+      "scale": 0.9719222462203023,
+      "offset": [
+        22,
+        -6
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-023/source_images/TAVI-023_second_sword_combo_sheet_original.png",
+      "source_crop": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "opaque_alpha230_bbox": [
+        103,
+        16,
+        449,
+        461
+      ],
+      "scale": 0.9719222462203023,
+      "offset": [
+        -12,
+        -6
+      ]
+    },
+    {
+      "frame": 5,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-023/source_images/TAVI-023_second_sword_combo_sheet_original.png",
+      "source_crop": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "opaque_alpha230_bbox": [
+        31,
+        75,
+        482,
+        450
+      ],
+      "scale": 0.9719222462203023,
+      "offset": [
+        7,
+        -6
+      ]
+    },
+    {
+      "frame": 6,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-023/source_images/TAVI-023_second_sword_combo_sheet_original.png",
+      "source_crop": [
+        1024,
+        512,
+        1536,
+        1024
+      ],
+      "opaque_alpha230_bbox": [
+        24,
+        68,
+        465,
+        457
+      ],
+      "scale": 0.9719222462203023,
+      "offset": [
+        18,
+        -6
+      ]
+    }
+  ],
+  "silhouette_method": "binary alpha >=230, black RGB",
+  "review_notes": [
+    "Soft colored alpha halos persist in source and color exports; alpha is preserved, not a production-clean cutout.",
+    "Hand anatomy, costume/equipment consistency, scale, camera, timing and contact alignment need cleanup and Godot review.",
+    "No runtime integration performed; exported root motion is not authored.",
+    "Two distinct sword strikes are present; grip and sword geometry vary between poses."
+  ]
+}

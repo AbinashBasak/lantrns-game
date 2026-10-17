@@ -1,0 +1,114 @@
+{
+  "asset_id": "MOTE-001",
+  "asset_type": "model-sheet proposal",
+  "animation": "model_sheet",
+  "frame_count": 4,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": null,
+  "loop": false,
+  "preview_loops_for_review": false,
+  "pivot_px": [
+    256,
+    256
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/exports/frames/MOTE-001_model_sheet_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/exports/frames/MOTE-001_model_sheet_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/exports/frames/MOTE-001_model_sheet_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/exports/frames/MOTE-001_model_sheet_04.png"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/source_images/MOTE-001_model_sheet_original.png",
+      "source_crop": [
+        0,
+        0,
+        435,
+        1024
+      ],
+      "scale": 1.024390243902439,
+      "offset": [
+        28,
+        -256
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/source_images/MOTE-001_model_sheet_original.png",
+      "source_crop": [
+        435,
+        0,
+        768,
+        1024
+      ],
+      "scale": 0.9438202247191011,
+      "offset": [
+        93,
+        -200
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/source_images/MOTE-001_model_sheet_original.png",
+      "source_crop": [
+        768,
+        0,
+        1152,
+        1024
+      ],
+      "scale": 1.0344827586206897,
+      "offset": [
+        51,
+        -265
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/source_images/MOTE-001_model_sheet_original.png",
+      "source_crop": [
+        1152,
+        0,
+        1536,
+        1024
+      ],
+      "scale": 1.0144927536231885,
+      "offset": [
+        54,
+        -249
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "mask_method": "binary alpha >=230 silhouette reference",
+  "poses": [
+    "front",
+    "right profile",
+    "back",
+    "three-quarter front right"
+  ],
+  "review_notes": [
+    "Four views present: front, right profile, back, three-quarter. Generated model proposal, not user-approved canonical model.",
+    "Soft yellow-green alpha halo remains. Leaf scale and proportions drift slightly between views.",
+    "Generated model MOTE-001 is a proposal based on ART-003 and ART-005; user design approval has not been inferred.",
+    "Generated alpha is preserved. Review edge halos, tiny anatomy, identity consistency and timing before runtime use. No Godot integration or in-engine review performed."
+  ]
+}

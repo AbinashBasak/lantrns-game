@@ -1,0 +1,30 @@
+{
+  "reference_images": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-003/ART-003_character_proportion_and_scale.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-005/ART-005_magic_rune_glow_particle_reference.png"
+  ],
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/source_images/MOTE-001_model_sheet_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-7c0a8223-b9b6-4715-90f2-5692fbfeede7.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "prompt": "Use case: stylized-concept. Asset MOTE-001, companion character model sheet for Lanterns Underroot. Reference 1 defines Mote's proportion: ONLY the tiny ivory leaf-eared companion above label MOTE, not the other characters. Reference 2 defines hand-painted material and Mote details in its panel 3; never reproduce board/scenery/text. Exactly FOUR full-body views of the SAME Mote in an equal horizontal row: front, right profile, back, three-quarter front facing right. A tiny friendly forest root-seed creature with rounded ivory seed-shaped head and small tapered body, two cyan-blue oval eyes, tiny warm smile, TWO pointed pale mint green leaf ears with visible veins, TWO short root arms and TWO short root legs with tiny claw-like tips, restrained warm gold light from within. Head about two thirds of height, body short. No wings, no antenna, no extra leaves, no clothes, no equipment. Polished hand-painted 2D illustrated platformer character, crisp fine dark teal/brown outlines, soft restrained shading, readable at small sizes. Same anatomy/materials and scale in all four views; neutral relaxed hovering, full body visible with lots of clear padding. Genuine transparent background and opaque character interiors. No glow haze, no particles, no ground or shadows, no other characters, no title/text/labels/measurements, no panels or borders. Landscape 1536x1024 with four equal 384px-wide cells, each whole character 300px high centered at y512; only four views.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-003/ART-003_character_proportion_and_scale.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-005/ART-005_magic_rune_glow_particle_reference.png"
+      ],
+      "bytes": 1280928,
+      "sha256": "0a282c1dfbd1b684569abec242b90636769470575442aef4c43be0432e932041",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

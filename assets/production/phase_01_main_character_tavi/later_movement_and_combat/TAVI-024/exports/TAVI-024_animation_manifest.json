@@ -1,0 +1,166 @@
+{
+  "asset_id": "TAVI-024",
+  "animation": "charged_attack",
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    140,
+    180,
+    450,
+    90,
+    160,
+    200
+  ],
+  "loop": false,
+  "preview_loops_for_review": true,
+  "pivot_px": [
+    256,
+    480
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-024/exports/frames/TAVI-024_charged_attack_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-024/exports/frames/TAVI-024_charged_attack_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-024/exports/frames/TAVI-024_charged_attack_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-024/exports/frames/TAVI-024_charged_attack_04.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-024/exports/frames/TAVI-024_charged_attack_05.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-024/exports/frames/TAVI-024_charged_attack_06.png"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-024/source_images/TAVI-024_charged_attack_sheet_original.png",
+      "source_crop": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "opaque_alpha230_bbox": [
+        56,
+        28,
+        471,
+        496
+      ],
+      "scale": 0.8490566037735849,
+      "offset": [
+        32,
+        55
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-024/source_images/TAVI-024_charged_attack_sheet_original.png",
+      "source_crop": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "opaque_alpha230_bbox": [
+        42,
+        97,
+        441,
+        489
+      ],
+      "scale": 0.8490566037735849,
+      "offset": [
+        51,
+        55
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-024/source_images/TAVI-024_charged_attack_sheet_original.png",
+      "source_crop": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "opaque_alpha230_bbox": [
+        66,
+        67,
+        449,
+        492
+      ],
+      "scale": 0.8490566037735849,
+      "offset": [
+        37,
+        55
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-024/source_images/TAVI-024_charged_attack_sheet_original.png",
+      "source_crop": [
+        0,
+        512,
+        575,
+        1024
+      ],
+      "opaque_alpha230_bbox": [
+        40,
+        33,
+        570,
+        456
+      ],
+      "scale": 0.8490566037735849,
+      "offset": [
+        -3,
+        55
+      ]
+    },
+    {
+      "frame": 5,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-024/source_images/TAVI-024_charged_attack_sheet_original.png",
+      "source_crop": [
+        575,
+        512,
+        1050,
+        1024
+      ],
+      "opaque_alpha230_bbox": [
+        10,
+        90,
+        465,
+        442
+      ],
+      "scale": 0.8490566037735849,
+      "offset": [
+        54,
+        55
+      ]
+    },
+    {
+      "frame": 6,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-024/source_images/TAVI-024_charged_attack_sheet_original.png",
+      "source_crop": [
+        1050,
+        512,
+        1536,
+        1024
+      ],
+      "opaque_alpha230_bbox": [
+        31,
+        17,
+        456,
+        456
+      ],
+      "scale": 0.8490566037735849,
+      "offset": [
+        49,
+        55
+      ]
+    }
+  ],
+  "silhouette_method": "binary alpha >=230, black RGB",
+  "review_notes": [
+    "Soft colored alpha halos persist in source and color exports; alpha is preserved, not a production-clean cutout.",
+    "Hand anatomy, costume/equipment consistency, scale, camera, timing and contact alignment need cleanup and Godot review.",
+    "No runtime integration performed; exported root motion is not authored.",
+    "Amber charge glow is baked into pose 3; heavy release and follow-through are present. Separate attack FX not delivered."
+  ]
+}

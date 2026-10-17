@@ -1,0 +1,379 @@
+{
+  "asset_id": "TAVI-025",
+  "title": "Climbing",
+  "checked": false,
+  "stage": "six-frame climbing study generated and reviewed; alternating-limb continuity and camera correction pending; not production approved",
+  "last_updated": "2026-10-16T15:21:29.156737+05:30",
+  "generation_tool": "built-in image_gen",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/source_images/TAVI-025_climbing_sheet_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-fb65f509-1c81-4594-b623-f2c10bf4916e.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output",
+      "prompt": "Use case: stylized-concept. Asset type: 2D fantasy platformer animation pose sheet. Reference image defines ONLY Tavi identity and illustrated rendering. Same boy, cobalt blue spiky hair, peach skin, cream rolled-sleeve tunic, red scarf and brass shoulder clasp, brown leather harness/gloves/pouch, charcoal trousers, tall brown buckled boots. Clean hand-painted outlines and shading matching reference. Create exactly SIX full-body poses in a precise equal 3-column by 2-row grid, chronological left-to-right top row then bottom row. Canvas landscape 1536x1024; each cell 512x512. All character parts and held swords inside their own cell with ample padding, no overlap. Same scale and camera in every cell. Three-quarter BACK view facing the invisible wall, head angled right, so both arms and both legs can be clearly distinguished. Each pose isolated on genuine transparent background, opaque character interiors, NO floor/shadow, no panels, no text, no numbers, no borders, no scenery. Normal standing character height approximately 390px in each 512px cell. Preserve consistent head size, costume, equipment, hand anatomy. No motion duplicates or extra limbs. Asset TAVI-025 \u2014 Climbing. Sword stays sheathed at belt, both hands free. No drawn weapon. Invisible climbing wall: do not draw wall, ladder, vines or props; show hands gripping imaginary holds. Climbing loop. Six distinct poses: 1: vertical climbing stance, left hand high right knee raised; 2: left hand grips overhead, right boot pushes; 3: right hand reaching overhead, left knee rising; 4: right hand grips high, left boot pushes; 5: left hand reaching overhead again, right knee rises; 6: return to first climbing stance. No giant aura or slash effects. IMPORTANT anatomy choreography: all six poses must be different, NOT six copies with one arm up. Top-left: LEFT arm straight overhead, RIGHT arm bent at chest, RIGHT knee high. Top-middle: BOTH hands at head height, legs partly extended as body pulls up. Top-right: RIGHT arm straight overhead, LEFT arm bent at chest, LEFT knee high. Bottom-left: BOTH hands at head height and both knees bent during upward pull. Bottom-middle: LEFT arm stretching overhead again, RIGHT hand low chest, RIGHT knee rising. Bottom-right: match start loop. Clearly alternate which hand is highest and which knee is raised. No ladder, wall, background, glow, cast shadows or colored haze. Genuine empty transparent margins.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png"
+      ],
+      "review": "selected prototype sheet; continuity cleanup pending",
+      "bytes": 2012907,
+      "sha256": "2442080604dafbf2e13fc0610d9c9cbefe6540c1d1387d5855a444b27bad0f65",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/source_images/TAVI-025_climbing_repeated_attempt_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-fbe2d9a0-462e-4f16-8739-bb1a79db002d.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output",
+      "prompt": "Use case: stylized-concept. Asset type: 2D fantasy platformer animation pose sheet. Reference image defines ONLY Tavi identity and illustrated rendering. Same boy, cobalt blue spiky hair, peach skin, cream rolled-sleeve tunic, red scarf and brass shoulder clasp, brown leather harness/gloves/pouch, charcoal trousers, tall brown buckled boots. Clean hand-painted outlines and shading matching reference. Create exactly SIX full-body poses in a precise equal 3-column by 2-row grid, chronological left-to-right top row then bottom row. Canvas landscape 1536x1024; each cell 512x512. All character parts and held swords inside their own cell with ample padding, no overlap. Same scale and camera in every cell. Right-facing side/three-quarter view. Each pose isolated on genuine transparent background, opaque character interiors, NO floor/shadow, no panels, no text, no numbers, no borders, no scenery. Normal standing character height approximately 390px in each 512px cell. Preserve consistent head size, costume, equipment, hand anatomy. No motion duplicates or extra limbs. Asset TAVI-025 \u2014 Climbing. Sword stays sheathed at belt, both hands free. No drawn weapon. Invisible climbing wall: do not draw wall, ladder, vines or props; show hands gripping imaginary holds. Climbing loop. Six distinct poses: 1: vertical climbing stance, left hand high right knee raised; 2: left hand grips overhead, right boot pushes; 3: right hand reaching overhead, left knee rising; 4: right hand grips high, left boot pushes; 5: left hand reaching overhead again, right knee rises; 6: return to first climbing stance. No giant aura or slash effects. Strictly keep each pose completely within cell, with 40px margin. Flat transparent empty gaps without colored halos.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png"
+      ],
+      "review": "rejected as active sequence: repeated limb poses; preserved unchanged",
+      "bytes": 2029719,
+      "sha256": "19d6f9abacff454d5443a428f3693cdd3898e6e8323551213fd844930a3f2dc3",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/source_images/TAVI-025_climbing_alternate_grip_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-6f5b3cbc-7f6c-49e5-abe1-e081b5801ed4.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output",
+      "prompt": "Use case: stylized-concept. One single full-body climbing sprite, genuine transparent background, no sheet. Match Tavi reference identity cobalt blue hair, peach skin, red scarf, cream tunic, brown leather harness/pouch/gloves and boots, charcoal trousers, sheathed sword. Three-quarter back view facing invisible wall, head turns slightly right. IMPORTANT: arm on LEFT side of image is fully extended straight UP to grip overhead. Arm on RIGHT side of image is bent with fist LOW beside chest. Boot on LEFT side of image is raised to waist with sharply bent knee; leg on RIGHT side extends downward pushing. This is the reverse limb phase of climbing. Show both hands clearly at different heights, left high right low. Whole body no clipping, same hand painted game style. No ladder wall ground props text glow haze or shadow. Centered in square canvas with generous padding.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png"
+      ],
+      "review": "selected as frame 3; camera/scarf continuity requires cleanup",
+      "bytes": 727753,
+      "sha256": "19fb366e1bc234f8b62ef00514c6ac8d34aba6c534693a0105b9f8278f36bdd9",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    140,
+    140,
+    140,
+    140,
+    140,
+    140
+  ],
+  "loop": true,
+  "review_notes": [
+    "Soft colored alpha halos persist in source and color exports; alpha is preserved, not a production-clean cutout.",
+    "Hand anatomy, costume/equipment consistency, scale, camera, timing and contact alignment need cleanup and Godot review.",
+    "No runtime integration performed; exported root motion is not authored.",
+    "First repeated-pose sheet preserved as rejected. Revised sheet plus separate opposite-limb grip forms a six-frame study; camera, head turn, scarf direction and limb-cycle transitions vary and require redraw. Not a finished seamless climbing loop."
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/TAVI-025_climbing_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/previews/TAVI-025_climbing_preview.gif",
+  "asset_pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/TAVI-025_climbing_prototype_pack.zip",
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/TAVI-025_README.md",
+      "bytes": 1044,
+      "sha256": "dbea3e282b72ba3769ddcc77636e46e787943e54dd75f46a7bcd5290b686e1ec"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/TAVI-025_animation_manifest.json",
+      "bytes": 5010,
+      "sha256": "2cc8d125f750feac4a1eac9bfc23402ee9ad454d78de50e349f7aee306346058"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/TAVI-025_climbing_prototype_pack.zip",
+      "bytes": 7024908,
+      "sha256": "89212e88dedf3feb483fd3f68944c8c6d152d408173b5b3de167bd84210db023"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/TAVI-025_climbing_silhouettes_strip.png",
+      "bytes": 21129,
+      "sha256": "e5a73ccde50c723d5eb3170adb0b775b76623c0455efa9ce81ad6b48a6b2471b",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/TAVI-025_climbing_strip.png",
+      "bytes": 892332,
+      "sha256": "51b63ffd730334cb337b799860f504232f56b68a7a22301a46be03c065fe7ef9",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/TAVI-025_generation_prompts.json",
+      "bytes": 8351,
+      "sha256": "738b2d64f5581d70692d124b7d391fd6eb665197490f349573843a958b7d465c"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/frames/TAVI-025_climbing_01.png",
+      "bytes": 142524,
+      "sha256": "ab2ab8f0f77257d66bf588907d93f62c5429ee124509ad2dcbb78fcc29c6d489",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/frames/TAVI-025_climbing_02.png",
+      "bytes": 163520,
+      "sha256": "a6bc2f9abfb3779438efeecf8d347e43e513463517faceb671881ab2dc3bcd24",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/frames/TAVI-025_climbing_03.png",
+      "bytes": 131608,
+      "sha256": "7eb0ba712ae5dccca28284c369f8480e934db28ab924104d58280a06e003efc9",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/frames/TAVI-025_climbing_04.png",
+      "bytes": 159608,
+      "sha256": "741f7f96dcc14c11f2f18453346150c10778b929d9b3662c91b6a155b620d989",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/frames/TAVI-025_climbing_05.png",
+      "bytes": 143883,
+      "sha256": "bcb823cb0cabdcf0d3f18fcb001759885f49da811591a248219b09f8bbaa8b87",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/frames/TAVI-025_climbing_06.png",
+      "bytes": 149618,
+      "sha256": "d7428192e20ca8973fdef52d6b22286b0fbbdd5f6c063321a14940c0e53ab452",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/silhouettes/TAVI-025_climbing_01_silhouette.png",
+      "bytes": 4287,
+      "sha256": "b0a7f5adb18a135e6ab0fa78cabe3d4eece38f1534f42d66199f8884b23562bb",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/silhouettes/TAVI-025_climbing_02_silhouette.png",
+      "bytes": 4304,
+      "sha256": "9151c9c1a6b1764e3589b2a3c384a008589e5eef3a43776c48731c213df083ce",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/silhouettes/TAVI-025_climbing_03_silhouette.png",
+      "bytes": 4734,
+      "sha256": "4e0c2244bb9778a5871afb158d6fbc4d0189adf728627b36c96b7429ed704f22",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/silhouettes/TAVI-025_climbing_04_silhouette.png",
+      "bytes": 4120,
+      "sha256": "bf20cb70b5bc7f66eef2fcf8e1c6b448174a5e8fbe08f429c116e776980f2e87",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/silhouettes/TAVI-025_climbing_05_silhouette.png",
+      "bytes": 4288,
+      "sha256": "fbd781cedbda5c56cdb09f268eb536f8b2d8b6910e2243e8db92b21276f15f72",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/silhouettes/TAVI-025_climbing_06_silhouette.png",
+      "bytes": 4418,
+      "sha256": "7141df7cbf730f24d1138117a0b3c63d0c5fcdfac50ceee097daeaf6258135b9",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/previews/TAVI-025_climbing_contact_sheet.jpg",
+      "bytes": 208993,
+      "sha256": "59ed06fb94bd4f7dd1f6952c4aa6525bbb341893eea6922fd740ab9b6ab5893e",
+      "dimensions": [
+        1536,
+        1104
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/previews/TAVI-025_climbing_preview.gif",
+      "bytes": 299477,
+      "sha256": "e35ca5c373635f8b7a28efc093ee144f8788b06baf5e49ecf5898f7fe290355b",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/source_images/TAVI-025_climbing_alternate_grip_original.png",
+      "bytes": 727753,
+      "sha256": "19fb366e1bc234f8b62ef00514c6ac8d34aba6c534693a0105b9f8278f36bdd9",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/source_images/TAVI-025_climbing_repeated_attempt_original.png",
+      "bytes": 2029719,
+      "sha256": "19d6f9abacff454d5443a428f3693cdd3898e6e8323551213fd844930a3f2dc3",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/source_images/TAVI-025_climbing_sheet_original.png",
+      "bytes": 2012907,
+      "sha256": "2442080604dafbf2e13fc0610d9c9cbefe6540c1d1387d5855a444b27bad0f65",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}
