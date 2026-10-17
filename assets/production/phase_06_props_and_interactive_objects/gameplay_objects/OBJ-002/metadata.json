@@ -1,0 +1,221 @@
+{
+  "asset_id": "OBJ-002",
+  "id": "OBJ-002",
+  "title": "Gold fragment collectible",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-002",
+  "stage": "generated_prototype_reviewed_exported",
+  "deliverables": [
+    {
+      "slug": "state_atlas",
+      "type": "static game object art prototype",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted illustrated2D game object atlas. ONE square1024x1024 image arranged EXACTLY TWO EQUAL COLUMNS and TWO EQUAL ROWS, FOUR separate equal squarecells. Exactly one complete isolated physical object percell, 70px transparentpadding inside eachcell; no gutters lines, labels, words or numbers. True alpha-zero background throughout emptyspace. No opaque fill, haze, gradient, floor, groundplane, scenery, shadow, UI or characters. Strict side-on orthographic front elevation. Rich restrained painterly wood/moss/coolbluegraystone/bronze, warmamberlight/cyanrunes. Consistent frontcamera, same scale, center and bottom anchor for repeated states; preserve object geometry precisely, only requested state changes. Bounded emission only inside/adjacent to physical object, no fullscreen glow. Fullsilhouettes, no objects crossing cellboundaries. One small irregular golden fragment collectible with crisp faceted warm gold shape, four slight static facet orientations of the SAME design. Small compact golden edge sheen only, not a coin, not currency text, no frame or support. Four static variants only, not a complete spin animation. Exact rowmajor order: topleft front facet; topright right tilted facet; bottomleft rear facet; bottomright left tilted facet.",
+      "reference_images": [],
+      "style_references_inspected": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-001/ART-001_final_visual_style_guide.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-002/ART-002_color_palette_and_lighting.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-006/ART-006_rendering_consistency_guide.png"
+      ],
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-002/source_images/OBJ-002_state_atlas_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148bb-0c6e-7f82-b09b-4cb2e5949b56/exec-116cd961-0f36-4880-9cb0-bde75205a483.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "8469c46b837c3f3d11b5dc26a3da114299fedce1535afdbf9b1a90155004d97b",
+      "transparent_background": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "export_mode": "atlas",
+      "cols": 2,
+      "rows": 2,
+      "frame_count": 4,
+      "roles": [
+        "front facet",
+        "right tilted facet",
+        "rear facet",
+        "left tilted facet"
+      ],
+      "source_crop_boundaries": {
+        "x": [
+          0,
+          627,
+          1254
+        ],
+        "y": [
+          0,
+          627,
+          1254
+        ]
+      },
+      "source_crop_boxes": [
+        [
+          0,
+          0,
+          627,
+          627
+        ],
+        [
+          627,
+          0,
+          1254,
+          627
+        ],
+        [
+          0,
+          627,
+          627,
+          1254
+        ],
+        [
+          627,
+          627,
+          1254,
+          1254
+        ]
+      ],
+      "timing": null,
+      "loop": false,
+      "animated": false,
+      "pivots": [
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "export_cell_size": [
+        256,
+        256
+      ],
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-002/exports/OBJ-002_state_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-002/exports/OBJ-002_state_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-002/exports/OBJ-002_state_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-002/exports/OBJ-002_state_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-002/exports/OBJ-002_state_sheet_256.png"
+      ],
+      "preview_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-002/previews/OBJ-002_source_checkerboard.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-002/previews/OBJ-002_export_contact.png"
+      ],
+      "source_message_id": null,
+      "generation_tool": "built-in image_gen",
+      "review_notes": [
+        "Static art states only; no gameplay logic, finalized animation or engine behavior implied.",
+        "Source reviewed over checkerboard: four complete isolated objects in2\u00d72 equal cells, genuine alpha-zero surroundings.",
+        "Fixed256px cell exports reviewed. Minor state geometry/painted margins vary; register pivots and verify readability at actual game scale before runtime use.",
+        "Four static facet/orientation proposals; not a completed spin animation. Gold fragment pivot should use objectcenter[0.5,0.5]."
+      ],
+      "export_content_bounds": [
+        [
+          7,
+          16,
+          249,
+          253
+        ],
+        [
+          7,
+          14,
+          224,
+          240
+        ],
+        [
+          49,
+          13,
+          256,
+          242
+        ],
+        [
+          0,
+          1,
+          232,
+          243
+        ]
+      ],
+      "alpha_valid": true
+    }
+  ],
+  "derived_files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-002/exports/OBJ-002_state_02.png",
+      "dimensions": [
+        256,
+        256
+      ],
+      "sha256": "f9dd6ec7579128f9e4e8a16398dea3c8e2941bbc58165278e7392cc2360c9288",
+      "provenance": "derived export/review preview"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-002/exports/OBJ-002_state_03.png",
+      "dimensions": [
+        256,
+        256
+      ],
+      "sha256": "b8f1a48dcf7b16b307268b3c4da53ca8d7832c243c3b9dbbf9d2cac768031321",
+      "provenance": "derived export/review preview"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-002/exports/OBJ-002_state_01.png",
+      "dimensions": [
+        256,
+        256
+      ],
+      "sha256": "90fc848b53ae8b60fb8f0282118025c486df3837f385642586f9718f7a2cb3f8",
+      "provenance": "derived export/review preview"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-002/exports/OBJ-002_state_04.png",
+      "dimensions": [
+        256,
+        256
+      ],
+      "sha256": "e60e1c82a9477de4a7adcfd9ed0236cb225522960579a251b4a7fffa40df1d86",
+      "provenance": "derived export/review preview"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-002/exports/OBJ-002_state_sheet_256.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "sha256": "9b474e32d420dc4461be66f3af59e8a6270f426f152b374469302372e272e608",
+      "provenance": "derived export/review preview"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-002/previews/OBJ-002_source_checkerboard.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "d17a2493dde90bcfa032391f6a1dc30e27191e7705186756e3a706bae5f4cd0d",
+      "provenance": "derived export/review preview"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-002/previews/OBJ-002_export_contact.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "sha256": "c79615db05479a86909a1adc7b075983727f5053c091bb7e43c49d60f08f4268",
+      "provenance": "derived export/review preview"
+    }
+  ],
+  "requested_deliverables_saved_and_reviewed": true,
+  "production_approved": false,
+  "runtime_integrated": false,
+  "provenance": "New built-in image_gen original copied unchanged; exports/previews derived locally.",
+  "review_notes": []
+}

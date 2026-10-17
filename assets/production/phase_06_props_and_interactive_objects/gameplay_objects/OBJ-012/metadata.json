@@ -1,0 +1,383 @@
+{
+  "id": "OBJ-012",
+  "title": "Level exit doorway or portal",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012",
+  "deliverables": [
+    {
+      "slug": "exit_doorway_states",
+      "type": "transparent object state/module atlas prototype",
+      "prompt": "Use case: precise-object-edit. Repair cell padding only in this 2x2 four-state doorway atlas. Preserve the exact four doorway designs, state order, materials, runes, active portal fill and genuine transparent holes. EACH complete arch must be SHRUNK to75% of its current size inside ITS OWN equal square cell, same uniform scale for all four states. Recenter each shrunken arch horizontally and vertically inside that own cell so at least10% cell width of alpha-zero clear padding is visible on ALL FOUR sides. Nothing may touch a cell boundary or canvas edge; restore any cut off tiny outer stone/root edge. No object may cross into an adjacent cell. Keep matching geometry and scale across all four states, align all arch bases at same localcellheight. Return same square source canvas and exact TWO equal columns TWO equal rows, four full objects. Do not add frames/gridlines/text/shadows/scenery. Outside each arch and inside empty doorway openings is fully transparent; preserve only active lower-left portal's bounded interior membrane. All existing detail intact, just smaller to fit safe margins.",
+      "transparent_background": true,
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/source_images/OBJ-012_exit_doorway_states_original.png"
+      ],
+      "cols": 2,
+      "rows": 2,
+      "frame_count": 4,
+      "roles": [
+        "dormant doorway",
+        "faintly activated doorway",
+        "active portal doorway",
+        "open empty doorway"
+      ],
+      "export_mode": "atlas",
+      "export_cell_size": 256,
+      "timing": null,
+      "loop": false,
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-debd65b2-a432-45eb-a7d7-df7ee5923667.png",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/source_images/OBJ-012_exit_doorway_states_original_v2.png",
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/source_images/OBJ-012_exit_doorway_states_original_v2.png",
+        "bytes": 1414866,
+        "sha256": "3b47b497ed2a2d67bfcbe7eb9b598bf90fc44ddd524d4f1d0786bc54fd589b76",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output generated in Codex; not downloaded source-chat original",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/exports/OBJ-012_exit_doorway_states_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/exports/OBJ-012_exit_doorway_states_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/exports/OBJ-012_exit_doorway_states_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/exports/OBJ-012_exit_doorway_states_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/exports/OBJ-012_exit_doorway_states_sheet.png"
+      ],
+      "source_crop_boundaries": [
+        [
+          0,
+          0,
+          627,
+          627
+        ],
+        [
+          627,
+          0,
+          1254,
+          627
+        ],
+        [
+          0,
+          627,
+          627,
+          1254
+        ],
+        [
+          627,
+          627,
+          1254,
+          1254
+        ]
+      ],
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/exports/OBJ-012_exit_doorway_states_00.png",
+          "bytes": 61573,
+          "sha256": "764258bbcc2e4ab8bc9ff6c56342ce3a6dc5af5131a83e490a8f368753ede1fb",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop/resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/exports/OBJ-012_exit_doorway_states_01.png",
+          "bytes": 61727,
+          "sha256": "99e4f9ce9187d22cfccb39e4a9e9d7da141bd6194d3e161696117fef0099233d",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop/resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/exports/OBJ-012_exit_doorway_states_02.png",
+          "bytes": 78285,
+          "sha256": "c4c862acf51c6ecf9e053eecd5f57e8eb16c452e68e5f3d3cd2bbff4a2319123",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop/resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/exports/OBJ-012_exit_doorway_states_03.png",
+          "bytes": 62100,
+          "sha256": "b0ea9001d5df32031ec645d778c6a07bd7d3d548c7c2fb01a090f81a78196ad5",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop/resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/exports/OBJ-012_exit_doorway_states_sheet.png",
+          "bytes": 260670,
+          "sha256": "4f3b2e15ad54895a6324ca88150e4746b2259445c3ef92c8f7bd76229c1de495",
+          "dimensions": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop/resize"
+        }
+      ],
+      "export_cell_dimensions": [
+        256,
+        256
+      ],
+      "pivot_px": [
+        128,
+        224
+      ],
+      "pivot_status": "proposed registration anchor; manual state/module alignment and runtime test pending",
+      "preview_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/previews/OBJ-012_source_checker_light.jpg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/previews/OBJ-012_source_checker_dark.jpg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/previews/OBJ-012_export_contact.jpg"
+      ],
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/previews/OBJ-012_source_checker_light.jpg",
+      "review_notes": [
+        "Selectedv2 checkerboard and exported contact reviewed: all four complete arches fit safely inside cells, including original clipped outer edge. State base positions still need final registration; portal behavior not integrated."
+      ]
+    }
+  ],
+  "asset_id": "OBJ-012",
+  "generation_tool": "built-in image_gen",
+  "production_approved": false,
+  "runtime_integrated": false,
+  "requested_deliverables_saved_and_reviewed": true,
+  "stage": "reviewed generated object art and state/module exports; registration and gameplay integration pending",
+  "last_updated": "2026-10-17T20:23:09.772262+05:30",
+  "review_notes": [
+    "Selectedv2 checkerboard and exported contact reviewed: all four complete arches fit safely inside cells, including original clipped outer edge. State base positions still need final registration; portal behavior not integrated.",
+    "Original and first exports archived. Selectedv2 reviewed after padding correction; no runtime portal logic or production approval implied.",
+    "Static object state/module proposals. No complete animation, collision, hazard damage, portal transitions, falling logic or other gameplay behavior is implied.",
+    "Exact state geometry, pivots, scale and emission separation need final cleanup and Godot validation; rune motifs require design approval."
+  ],
+  "all_source_files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/source_images/OBJ-012_exit_doorway_states_original.png",
+      "bytes": 1972310,
+      "sha256": "e6209973772e281a1a9f1c666337a2dba733f00c702f4cfad70bcf65574d3f37",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/source_images/OBJ-012_exit_doorway_states_original_v2.png",
+      "bytes": 1414866,
+      "sha256": "3b47b497ed2a2d67bfcbe7eb9b598bf90fc44ddd524d4f1d0786bc54fd589b76",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "previous_generations": [
+    {
+      "slug": "exit_doorway_states",
+      "type": "transparent object state/module atlas prototype",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted illustrated 2D side-scrolling game sprite art. Muted blue-gray stone, moss green, warm wood/soil and restrained amber/cyan magical accents. Crisp readable full silhouettes and soft painterly local material shading; not pixel art, photoreal or 3D. ONE SQUARE transparent PNG atlas in EXACTLY TWO EQUAL COLUMNS and TWO EQUAL ROWS, four equal square cells. Each cell contains one complete named object/state with generous transparent margin at least12% on every side. Fixed side-on orthographic game camera, no floor, perspective groundplane, scenery, characters, UI, arrows, labels, text, gridlines, shadows, border, glow cloud or vignette. Genuine alpha-zero outside solid objects and tightly bounded requested local light. Don't let artwork cross a cell boundary. Consistent scale, alignment, base level, object geometry and pivot between states. Level exit doorway/portal: one complete root-trimmed blue-gray stone arch and low sill, generic design compatible with ancient woodland temples. Four identical aligned arch state proposals: upper-left dormant dark arch with transparent opening; upper-right faint thin cyan light only along inner arch; lower-left active subtle amber/cyan portal membrane confined entirely INSIDE the arch opening; lower-right empty open arch with a few tiny restrained amber edge accents and transparent opening. Keep arch outer silhouette, geometry, moss, scale and ground pivot identical across four cells. No vista/landscape through doorway, text/signs, giant light beams, square background or terrain. Active membrane bounded by arch, all outer canvas truly transparent. Four static art states only.",
+      "transparent_background": true,
+      "reference_images": [],
+      "cols": 2,
+      "rows": 2,
+      "frame_count": 4,
+      "roles": [
+        "dormant doorway",
+        "faintly activated doorway",
+        "active portal doorway",
+        "open empty doorway"
+      ],
+      "export_mode": "atlas",
+      "export_cell_size": 256,
+      "timing": null,
+      "loop": false,
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-14453431-1eab-4bd7-9f46-83b8b68c33b6.png",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/source_images/OBJ-012_exit_doorway_states_original.png",
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/source_images/OBJ-012_exit_doorway_states_original.png",
+        "bytes": 1972310,
+        "sha256": "e6209973772e281a1a9f1c666337a2dba733f00c702f4cfad70bcf65574d3f37",
+        "dimensions": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output generated in Codex; not downloaded source-chat original",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/exports/generation_v1/OBJ-012_exit_doorway_states_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/exports/generation_v1/OBJ-012_exit_doorway_states_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/exports/generation_v1/OBJ-012_exit_doorway_states_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/exports/generation_v1/OBJ-012_exit_doorway_states_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/exports/generation_v1/OBJ-012_exit_doorway_states_sheet.png"
+      ],
+      "source_crop_boundaries": [
+        [
+          0,
+          0,
+          627,
+          627
+        ],
+        [
+          627,
+          0,
+          1254,
+          627
+        ],
+        [
+          0,
+          627,
+          627,
+          1254
+        ],
+        [
+          627,
+          627,
+          1254,
+          1254
+        ]
+      ],
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/exports/generation_v1/OBJ-012_exit_doorway_states_00.png",
+          "bytes": 84008,
+          "sha256": "206218fae81db64f3f63286b8be8c104257fbe50494f90fc06b7e30f0abd1cb1",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop/resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/exports/generation_v1/OBJ-012_exit_doorway_states_01.png",
+          "bytes": 84694,
+          "sha256": "f4a343cbef7278864b0aff51c8f31f0c6c6ac1edbdf56d3962eb4fff6da8de48",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop/resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/exports/generation_v1/OBJ-012_exit_doorway_states_02.png",
+          "bytes": 109693,
+          "sha256": "bca0974e606240b1788cf238907b570741c285698926764b699c66d741f70d6c",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop/resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/exports/generation_v1/OBJ-012_exit_doorway_states_03.png",
+          "bytes": 84062,
+          "sha256": "cea49d5541dd8e6f9a55055cd132518bd831d27106bdaa08a49d773cab443ccd",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop/resize"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/exports/generation_v1/OBJ-012_exit_doorway_states_sheet.png",
+          "bytes": 359212,
+          "sha256": "c952e085e281f8039e3468a452551334f86f3b37ee9e7ba91684694aa0152d44",
+          "dimensions": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ],
+          "provenance": "derived source-cell crop/resize"
+        }
+      ],
+      "export_cell_dimensions": [
+        256,
+        256
+      ],
+      "pivot_px": [
+        128,
+        224
+      ],
+      "pivot_status": "proposed registration anchor; manual state/module alignment and runtime test pending",
+      "preview_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/previews/generation_v1/OBJ-012_source_checker_light.jpg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/previews/generation_v1/OBJ-012_source_checker_dark.jpg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/previews/generation_v1/OBJ-012_export_contact.jpg"
+      ],
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-012/previews/generation_v1/OBJ-012_source_checker_light.jpg"
+    }
+  ]
+}
