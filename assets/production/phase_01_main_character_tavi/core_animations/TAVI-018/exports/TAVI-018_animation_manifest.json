@@ -1,0 +1,184 @@
+{
+  "asset_id": "TAVI-018",
+  "animation": "death",
+  "frame_count": 6,
+  "frame_dimensions": [
+    1024,
+    768
+  ],
+  "pivot_px": [
+    512,
+    704
+  ],
+  "frame_durations_ms": [
+    180,
+    140,
+    140,
+    160,
+    180,
+    900
+  ],
+  "loop": false,
+  "preview_loops_for_review": true,
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/frames/TAVI-018_death_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/frames/TAVI-018_death_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/frames/TAVI-018_death_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/frames/TAVI-018_death_04.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/frames/TAVI-018_death_05.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/frames/TAVI-018_death_06.png"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/source_images/TAVI-018_death_pose_01_original.png",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "blue_hair_bbox": [
+        781,
+        104,
+        1060,
+        307
+      ],
+      "body_alpha230_bbox": [
+        505,
+        102,
+        1062,
+        914
+      ],
+      "scale": 0.6451612903225806,
+      "offset": [
+        7,
+        114
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/source_images/TAVI-018_death_pose_02_original.png",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "blue_hair_bbox": [
+        871,
+        154,
+        1201,
+        431
+      ],
+      "body_alpha230_bbox": [
+        412,
+        150,
+        1203,
+        865
+      ],
+      "scale": 0.5454545454545454,
+      "offset": [
+        72,
+        232
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/source_images/TAVI-018_death_pose_03_original.png",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "blue_hair_bbox": [
+        919,
+        174,
+        1249,
+        496
+      ],
+      "body_alpha230_bbox": [
+        399,
+        174,
+        1249,
+        876
+      ],
+      "scale": 0.5454545454545454,
+      "offset": [
+        63,
+        226
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/source_images/TAVI-018_death_pose_04_original.png",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "blue_hair_bbox": [
+        1065,
+        288,
+        1392,
+        558
+      ],
+      "body_alpha230_bbox": [
+        287,
+        288,
+        1393,
+        827
+      ],
+      "scale": 0.5504587155963303,
+      "offset": [
+        50,
+        249
+      ]
+    },
+    {
+      "frame": 5,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/source_images/TAVI-018_death_pose_05_original.png",
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "blue_hair_bbox": [
+        1247,
+        317,
+        1612,
+        530
+      ],
+      "body_alpha230_bbox": [
+        75,
+        316,
+        1613,
+        743
+      ],
+      "scale": 0.4931506849315068,
+      "offset": [
+        96,
+        338
+      ]
+    },
+    {
+      "frame": 6,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/source_images/TAVI-018_death_pose_06_original.png",
+      "source_dimensions": [
+        1671,
+        941
+      ],
+      "blue_hair_bbox": [
+        1298,
+        338,
+        1643,
+        526
+      ],
+      "body_alpha230_bbox": [
+        46,
+        337,
+        1643,
+        716
+      ],
+      "scale": 0.5217391304347826,
+      "offset": [
+        71,
+        330
+      ]
+    }
+  ],
+  "silhouette_method": "black RGB with binary alpha threshold >=230; glow deliberately excluded from silhouette reference"
+}

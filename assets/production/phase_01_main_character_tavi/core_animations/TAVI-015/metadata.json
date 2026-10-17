@@ -1,0 +1,113 @@
+{
+  "asset_id": "TAVI-015",
+  "title": "Landing",
+  "phase": "01",
+  "subsection": "Core animations — prototype priority",
+  "checked": true,
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-015",
+  "source_chat": "https://chatgpt.com/share/6ad136a4-4cc8-83ee-9742-05bc90e2a1dc",
+  "last_updated": "2026-10-16T10:24:37+05:30",
+  "stage": "source images recovered; production approval not inferred from checklist",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-015/source_images/TAVI-015_generation_01_23d8.png",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/archive/shared-chat/images/00000000-23d8-8211-844b-a339dd806bea.png",
+      "sha256": "cbf15684da2293087f4b0b28fd762c99511082c90223857c4f92404667bfe44b",
+      "chat_message_id": "4811d304-acca-426b-9a1c-22fcf7819835",
+      "title": "Tavi Landing Animation Sprite Sheet"
+    }
+  ],
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-015/TAVI-015_landing_rebuilt_asset_pack.zip",
+      "bytes": 1819636,
+      "sha256": "fb371412eed8602fec66441bff2b2bdfdfd81e08d59e7c5a09a6e009ec37aa8b"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-015/TAVI-015_landing_source_sheet.png",
+      "bytes": 1501373,
+      "sha256": "cbf15684da2293087f4b0b28fd762c99511082c90223857c4f92404667bfe44b"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-015/exports/TAVI-015_animation_manifest.json",
+      "bytes": 923,
+      "sha256": "879ebf026686222c7962a7eb0cf290ce1098065670672a5f30ea80e090d331b6"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-015/exports/TAVI-015_landing_spritesheet.png",
+      "bytes": 844542,
+      "sha256": "ab4d045a5769f8bc3c5fd79a4407177710bd4f4c9b1de787ee9ece24f53f10ef"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-015/exports/frames/TAVI-015_landing_frame_01.png",
+      "bytes": 109746,
+      "sha256": "1aa999f9ee1c620e74011e1f000b90c5be6c881846bf2ee3007f2b9d308e6634"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-015/exports/frames/TAVI-015_landing_frame_02.png",
+      "bytes": 101861,
+      "sha256": "5408da47cc14eec7e0d5fa6050eca6ef5f004021f2572e7670e7aeea3b756079"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-015/exports/frames/TAVI-015_landing_frame_03.png",
+      "bytes": 101327,
+      "sha256": "5f6d280bad13957548ce5f647c50bbd13f5ebffb7bae1c3b83c4f37828c12fa9"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-015/exports/frames/TAVI-015_landing_frame_04.png",
+      "bytes": 106457,
+      "sha256": "671709f896ae26277c4b62499b9cd2bc3e16d9a7500b7979153bc5b2ff1c8fc7"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-015/exports/frames/TAVI-015_landing_frame_05.png",
+      "bytes": 95095,
+      "sha256": "8fc92daed5dfda5c54685724b8a53535b7eb75fca749d8734a1f90056255a6b5"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-015/exports/frames/TAVI-015_landing_frame_06.png",
+      "bytes": 100543,
+      "sha256": "703f0b31fba5564ecbfcc86440a1fbc94bcbbe289dbf2425aa47d7d0dc8650d8"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-015/exports/frames/TAVI-015_landing_frame_07.png",
+      "bytes": 107969,
+      "sha256": "92ad1f4416656a32f1d54d056a4fa42ba2a3bbdb77a4bff65b412be00d301a56"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-015/exports/frames/TAVI-015_landing_frame_08.png",
+      "bytes": 119759,
+      "sha256": "bcc56ba254b76d115a635ba7eb043cb9f1b562bb809ef474bbd1fa9bf57572a7"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-015/previews/TAVI-015_landing_contact_sheet.jpg",
+      "bytes": 57078,
+      "sha256": "d9bdf6409bc31b247143fdf5535f95df70636cdd384773570503ea6ec3b2889e"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-015/previews/TAVI-015_landing_preview.gif",
+      "bytes": 88244,
+      "sha256": "53eede6502cc2d61b528834bafa59947e409f3e26b8a3cea35c6813abd5b4978"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-015/source_images/TAVI-015_generation_01_23d8.png",
+      "bytes": 1501373,
+      "sha256": "cbf15684da2293087f4b0b28fd762c99511082c90223857c4f92404667bfe44b"
+    }
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-015/TAVI-015_landing_source_sheet.png",
+  "primary_image_provenance": "original generated image downloaded from the chat",
+  "primary_image_dimensions": [
+    2138,
+    736
+  ],
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-015/previews/TAVI-015_landing_preview.gif",
+  "export_provenance": "locally rebuilt prototype derivatives; not the original sandbox ZIP bytes",
+  "frame_count": 8,
+  "fps": 14,
+  "loop": false,
+  "frame_dimensions": [
+    320,
+    448
+  ],
+  "runtime_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/characters/tavi/landing"
+}

@@ -1,0 +1,549 @@
+{
+  "asset_id": "TAVI-017",
+  "title": "Hurt reaction",
+  "checked": false,
+  "stage": "downloaded and visually reviewed prototype; cleanup and model consistency review required; not production approved",
+  "source_chat": "https://chatgpt.com/g/g-p-6ad13478f7f48191b9fc5a41e9a9842b/c/6ace7fa5-5288-83ee-b574-4413f6c4939d",
+  "source_message_id": null,
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/source_images/TAVI-017_project_chat_generation_01.png",
+      "bytes": 2743015,
+      "sha256": "b9e84fd690f8df89ffdbae23d4c7e186f2a7849f1ab129da343e9d7266705d8d",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        197,
+        251
+      ],
+      "downloaded_filename": "Tavi Hurt Reaction Animation Sheet-1.png",
+      "download_path": "/Users/abinashbasak/Downloads/Tavi Hurt Reaction Animation Sheet-1.png",
+      "source_chat": "https://chatgpt.com/g/g-p-6ad13478f7f48191b9fc5a41e9a9842b/c/6ace7fa5-5288-83ee-b574-4413f6c4939d",
+      "source_message_id": null,
+      "provenance": "unchanged original generated image downloaded from project chat",
+      "review": "Hurt/recoil reference board; character model differs from approved Tavi"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/source_images/TAVI-017_project_chat_generation_03.png",
+      "bytes": 2780288,
+      "sha256": "c68294477097cce8a9e17ff5d4759cd994491c6234b5e5ea8de86fdb68597b77",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        252
+      ],
+      "downloaded_filename": "Tavi Hurt Reaction Asset Sheet-3.png",
+      "download_path": "/Users/abinashbasak/Downloads/Tavi Hurt Reaction Asset Sheet-3.png",
+      "source_chat": "https://chatgpt.com/g/g-p-6ad13478f7f48191b9fc5a41e9a9842b/c/6ace7fa5-5288-83ee-b574-4413f6c4939d",
+      "source_message_id": null,
+      "provenance": "unchanged original generated image downloaded from project chat",
+      "review": "Hurt/recoil reference board; character model differs from approved Tavi"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/source_images/TAVI-017_project_chat_generation_04.png",
+      "bytes": 2024795,
+      "sha256": "98c08a489b3394220c9505fd79c8880c697bc4f27a5feb0bb9ad752f565730b1",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "downloaded_filename": "Tavi Hurt Reaction Sprite Sheet-4.png",
+      "download_path": "/Users/abinashbasak/Downloads/Tavi Hurt Reaction Sprite Sheet-4.png",
+      "source_chat": "https://chatgpt.com/g/g-p-6ad13478f7f48191b9fc5a41e9a9842b/c/6ace7fa5-5288-83ee-b574-4413f6c4939d",
+      "source_message_id": null,
+      "provenance": "unchanged original generated image downloaded from project chat",
+      "review": "Hurt/recoil reference board; character model differs from approved Tavi"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/source_images/TAVI-017_project_chat_generation_05.png",
+      "bytes": 1811689,
+      "sha256": "8c58c5ebb405a1d688c2127215f614cd3e3d89d9844bcf8537a21f146c1dcab3",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "downloaded_filename": "Tavi-017 Hurt Reaction Sprite Sheet-5.png",
+      "download_path": "/Users/abinashbasak/Downloads/Tavi-017 Hurt Reaction Sprite Sheet-5.png",
+      "source_chat": "https://chatgpt.com/g/g-p-6ad13478f7f48191b9fc5a41e9a9842b/c/6ace7fa5-5288-83ee-b574-4413f6c4939d",
+      "source_message_id": null,
+      "provenance": "unchanged original generated image downloaded from project chat",
+      "review": "Hurt/recoil reference board; character model differs from approved Tavi"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/source_images/TAVI-017_project_chat_generation_06.png",
+      "bytes": 1742000,
+      "sha256": "b5cf25b07a1def32f29faeaf775d7d41efb78661ba779e826fe0abcbc0915a8d",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "downloaded_filename": "Tavi Hurt Reaction Sprite Sheet-6.png",
+      "download_path": "/Users/abinashbasak/Downloads/Tavi Hurt Reaction Sprite Sheet-6.png",
+      "source_chat": "https://chatgpt.com/g/g-p-6ad13478f7f48191b9fc5a41e9a9842b/c/6ace7fa5-5288-83ee-b574-4413f6c4939d",
+      "source_message_id": null,
+      "provenance": "unchanged original generated image downloaded from project chat",
+      "review": "Hurt/recoil reference board; character model differs from approved Tavi"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/source_images/TAVI-017_project_chat_generation_07.png",
+      "bytes": 1803165,
+      "sha256": "a8d32593258f6bbf1930847ed6196a45768cec3d9036a7629c17589ce309c3e8",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "downloaded_filename": "Hurt Reaction Sprite Sheet Reference-7.png",
+      "download_path": "/Users/abinashbasak/Downloads/Hurt Reaction Sprite Sheet Reference-7.png",
+      "source_chat": "https://chatgpt.com/g/g-p-6ad13478f7f48191b9fc5a41e9a9842b/c/6ace7fa5-5288-83ee-b574-4413f6c4939d",
+      "source_message_id": null,
+      "provenance": "unchanged original generated image downloaded from project chat",
+      "review": "Hurt/recoil reference board; character model differs from approved Tavi"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/source_images/TAVI-017_project_chat_generation_08.png",
+      "bytes": 1937657,
+      "sha256": "9e3b4b0a668141978f103ca06e55df38d23f2b97dfe69a81e4949b88946039e5",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "downloaded_filename": "Tavi-017 Hurt Reaction Sprite Sheet-8.png",
+      "download_path": "/Users/abinashbasak/Downloads/Tavi-017 Hurt Reaction Sprite Sheet-8.png",
+      "source_chat": "https://chatgpt.com/g/g-p-6ad13478f7f48191b9fc5a41e9a9842b/c/6ace7fa5-5288-83ee-b574-4413f6c4939d",
+      "source_message_id": null,
+      "provenance": "unchanged original generated image downloaded from project chat",
+      "review": "Hurt/recoil reference board; character model differs from approved Tavi"
+    }
+  ],
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/TAVI-017_downloaded_hurt_asset_pack.zip",
+      "bytes": 8029183,
+      "sha256": "5da522a4df5417e589c3d5d1beb708090d91f58f9981861621ced0b15e09251d"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/TAVI-017_README.md",
+      "bytes": 1362,
+      "sha256": "e77f2a8f2b3470a8c41896f9c1c3c79540ff13a4577136e313a1212557f6aaed"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/previews/TAVI-017_hurt_preview_sheet.jpg",
+      "bytes": 244982,
+      "sha256": "718b4309619dd1f252f18de3b5d21dec0bcd98d2513122ac51e346ec8a27dada",
+      "dimensions": [
+        1114,
+        878
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/TAVI-017_hurt_silhouette_sheet_full.png",
+      "bytes": 272265,
+      "sha256": "27dfdbac07a271901fe9fc3ac037570375ee5c82e4bf5c356172645d64bdb3bc",
+      "dimensions": [
+        4096,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/previews/TAVI-017_hurt_silhouette_preview.jpg",
+      "bytes": 85456,
+      "sha256": "69a1b645a5ed27e202e3e9dca0ab7d5a2831e42f90e108f79446b54ab9bb4496",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/TAVI-017_hurt_silhouette_sheet.png",
+      "bytes": 102968,
+      "sha256": "83a7fa9ad53f642e975dab0a8f00231d04b75f732fabe1ea4c8d867cdbc9c648",
+      "dimensions": [
+        2048,
+        384
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/previews/TAVI-017_hurt_contact_sheet.png",
+      "bytes": 830163,
+      "sha256": "0a292c4a547c52c7de5dea6c739bd2ce917857316bbc2025801d6b85209cc7e1",
+      "dimensions": [
+        2048,
+        384
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/previews/TAVI-017_hurt_preview.gif",
+      "bytes": 521546,
+      "sha256": "278a8d04beb4711ffa0afef9fd6c66b5bb28a4900682c6eb3f4943801dc3c100",
+      "dimensions": [
+        512,
+        768
+      ],
+      "mode": "P",
+      "frame_count": 8,
+      "frame_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/TAVI-017_manifest.json",
+      "bytes": 1489,
+      "sha256": "2317c4159dbdd000a67848bda152b438727236abd00da4a239990235b2c06843"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/TAVI-017_hurt_spritesheet.png",
+      "bytes": 2400510,
+      "sha256": "46a25e91f99be86fa4d834f18044e563c8d463e0526658fa66d61ce814bcd1de",
+      "dimensions": [
+        4096,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/silhouettes/TAVI-017_hurt_01_silhouette.png",
+      "bytes": 38657,
+      "sha256": "0080aced91f659802d0ba731e243ae3f5e0c2d16216b196cb92e1c7df78670e4",
+      "dimensions": [
+        512,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/silhouettes/TAVI-017_hurt_04_silhouette.png",
+      "bytes": 34116,
+      "sha256": "44f0c9871fe5904e6836dd48d37a980ec00480928c89e3725793caa605dd3fde",
+      "dimensions": [
+        512,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/silhouettes/TAVI-017_hurt_02_silhouette.png",
+      "bytes": 41060,
+      "sha256": "e876013a7f96923199176e2f322483de7cad795888b0c85467d58bbee18f2d29",
+      "dimensions": [
+        512,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/silhouettes/TAVI-017_hurt_06_silhouette.png",
+      "bytes": 27963,
+      "sha256": "eda2b16ca2ee7e9efdeefe58d0bd04069ed1b056d99cfe228fe2a8022307bc8a",
+      "dimensions": [
+        512,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/silhouettes/TAVI-017_hurt_03_silhouette.png",
+      "bytes": 37591,
+      "sha256": "cce76ed964171d75014ca2c988efdce931c5d9ed971ecedb6255813de5155db4",
+      "dimensions": [
+        512,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/silhouettes/TAVI-017_hurt_05_silhouette.png",
+      "bytes": 32265,
+      "sha256": "f2a2fa0ea7625f7364446b1fbeb6e4b476654a845d6d9e778af15410421eab98",
+      "dimensions": [
+        512,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/silhouettes/TAVI-017_hurt_08_silhouette.png",
+      "bytes": 35877,
+      "sha256": "cdcc2b8abe345c653837c2bf8d48fa6afae5823475e5d0e655a9520b5fbd4f2a",
+      "dimensions": [
+        512,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/silhouettes/TAVI-017_hurt_07_silhouette.png",
+      "bytes": 31815,
+      "sha256": "2e8a66665adadb3cc6a87ea7d9fc71d1821c8dd2b67638b7118028fadb72110d",
+      "dimensions": [
+        512,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/frames/TAVI-017_hurt_08.png",
+      "bytes": 459227,
+      "sha256": "83849cc269311c6cf13561089b64531476987d9112c37663b9b04315831fb5d9",
+      "dimensions": [
+        512,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/frames/TAVI-017_hurt_04.png",
+      "bytes": 420884,
+      "sha256": "059e18ac5894d03ff713fe935d1b0956695ca011edd22489e3f6ecd90c97cc19",
+      "dimensions": [
+        512,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/frames/TAVI-017_hurt_05.png",
+      "bytes": 403026,
+      "sha256": "a72869e342a69b18db93eed9b2b0d3267fb26fab1fc29e1ce2b3daef4c614968",
+      "dimensions": [
+        512,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/frames/TAVI-017_hurt_01.png",
+      "bytes": 455826,
+      "sha256": "e628614cec86ae45a21d3488c40990b6c4a4e403e378092192004a897e8ac7b1",
+      "dimensions": [
+        512,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/frames/TAVI-017_hurt_06.png",
+      "bytes": 333381,
+      "sha256": "6a98862530671737aedabb8b26505d78d01b0ec121ee09e41c92621f7d69611a",
+      "dimensions": [
+        512,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/frames/TAVI-017_hurt_07.png",
+      "bytes": 388552,
+      "sha256": "6f655227031e520ab259945556970e7b9761e4f00c657fdd0dc6c3052e580360",
+      "dimensions": [
+        512,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/frames/TAVI-017_hurt_03.png",
+      "bytes": 428604,
+      "sha256": "eb8588ffb3cc354a6206aca380500ee042596c2e2efb2141ec57398095e33d81",
+      "dimensions": [
+        512,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/frames/TAVI-017_hurt_02.png",
+      "bytes": 465536,
+      "sha256": "f7d1389a44b80304d9adfac63a580c59b742515a4d6c0e835a9035f702550ed1",
+      "dimensions": [
+        512,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "recovery_report": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/project-chat-recovery-2026-10-16.md",
+  "downloaded": true,
+  "reviewed": true,
+  "reported_frame_count": 8,
+  "reported_strip_dimensions": [
+    4096,
+    768
+  ],
+  "verified_dimensions": [
+    4096,
+    768
+  ],
+  "fps": 8,
+  "notes": [
+    "Original downloaded ZIP retained byte-for-byte. Extracted member bytes unchanged; only asset-ID prefixes and organization changed.",
+    "Exported frames are source-chat derivatives of a generated reference board, with background keying and recoloring; they are not independent high-resolution pose generations.",
+    "Reviewed: hurt/recoil poses present. Blue recoloring spills onto face/skin; some hair remains brown; alpha holes and edge artifacts visible. Costume differs from approved model.",
+    "TAVI-017 remains unchecked pending cleanup. No runtime integration performed.",
+    "One sword-attack generation was filed under TAVI-016, not accepted as a hurt animation."
+  ],
+  "last_updated": "2026-10-16T14:10:31.923633+05:30",
+  "downloaded_pack": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/TAVI-017_downloaded_hurt_asset_pack.zip",
+    "bytes": 8029183,
+    "sha256": "5da522a4df5417e589c3d5d1beb708090d91f58f9981861621ced0b15e09251d"
+  },
+  "pack_member_paths": {
+    "README.md": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/TAVI-017_README.md",
+    "tavi_017_hurt_preview_sheet.jpg": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/previews/TAVI-017_hurt_preview_sheet.jpg",
+    "tavi_017_hurt_silhouette_sheet_full.png": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/TAVI-017_hurt_silhouette_sheet_full.png",
+    "tavi_017_hurt_silhouette_preview.jpg": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/previews/TAVI-017_hurt_silhouette_preview.jpg",
+    "tavi_017_hurt_silhouette_sheet.png": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/TAVI-017_hurt_silhouette_sheet.png",
+    "tavi_017_hurt_contact_sheet.png": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/previews/TAVI-017_hurt_contact_sheet.png",
+    "tavi_017_hurt_preview.gif": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/previews/TAVI-017_hurt_preview.gif",
+    "manifest.json": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/TAVI-017_manifest.json",
+    "tavi_017_hurt_spritesheet.png": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/TAVI-017_hurt_spritesheet.png",
+    "silhouettes/tavi_017_hurt_01_silhouette.png": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/silhouettes/TAVI-017_hurt_01_silhouette.png",
+    "silhouettes/tavi_017_hurt_04_silhouette.png": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/silhouettes/TAVI-017_hurt_04_silhouette.png",
+    "silhouettes/tavi_017_hurt_02_silhouette.png": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/silhouettes/TAVI-017_hurt_02_silhouette.png",
+    "silhouettes/tavi_017_hurt_06_silhouette.png": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/silhouettes/TAVI-017_hurt_06_silhouette.png",
+    "silhouettes/tavi_017_hurt_03_silhouette.png": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/silhouettes/TAVI-017_hurt_03_silhouette.png",
+    "silhouettes/tavi_017_hurt_05_silhouette.png": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/silhouettes/TAVI-017_hurt_05_silhouette.png",
+    "silhouettes/tavi_017_hurt_08_silhouette.png": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/silhouettes/TAVI-017_hurt_08_silhouette.png",
+    "silhouettes/tavi_017_hurt_07_silhouette.png": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/silhouettes/TAVI-017_hurt_07_silhouette.png",
+    "frames/tavi_017_hurt_08.png": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/frames/TAVI-017_hurt_08.png",
+    "frames/tavi_017_hurt_04.png": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/frames/TAVI-017_hurt_04.png",
+    "frames/tavi_017_hurt_05.png": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/frames/TAVI-017_hurt_05.png",
+    "frames/tavi_017_hurt_01.png": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/frames/TAVI-017_hurt_01.png",
+    "frames/tavi_017_hurt_06.png": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/frames/TAVI-017_hurt_06.png",
+    "frames/tavi_017_hurt_07.png": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/frames/TAVI-017_hurt_07.png",
+    "frames/tavi_017_hurt_03.png": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/frames/TAVI-017_hurt_03.png",
+    "frames/tavi_017_hurt_02.png": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/frames/TAVI-017_hurt_02.png"
+  },
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/TAVI-017_hurt_spritesheet.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/previews/TAVI-017_hurt_preview.gif",
+  "frame_count": 8,
+  "frame_dimensions": [
+    512,
+    768
+  ],
+  "loop": false
+}

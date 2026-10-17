@@ -1,0 +1,40 @@
+{
+  "asset_id": "TAVI-017",
+  "animation": "hurt",
+  "frame_count": 8,
+  "frame_size_px": [
+    512,
+    768
+  ],
+  "format": "PNG RGBA with transparent background",
+  "facing": "right-facing (approximate 3/4 side view)",
+  "suggested_fps": 8,
+  "loop": false,
+  "transition": "return to idle or run after final frame",
+  "frames": [
+    "frames/tavi_017_hurt_01.png",
+    "frames/tavi_017_hurt_02.png",
+    "frames/tavi_017_hurt_03.png",
+    "frames/tavi_017_hurt_04.png",
+    "frames/tavi_017_hurt_05.png",
+    "frames/tavi_017_hurt_06.png",
+    "frames/tavi_017_hurt_07.png",
+    "frames/tavi_017_hurt_08.png"
+  ],
+  "silhouettes": [
+    "silhouettes/tavi_017_hurt_01_silhouette.png",
+    "silhouettes/tavi_017_hurt_02_silhouette.png",
+    "silhouettes/tavi_017_hurt_03_silhouette.png",
+    "silhouettes/tavi_017_hurt_04_silhouette.png",
+    "silhouettes/tavi_017_hurt_05_silhouette.png",
+    "silhouettes/tavi_017_hurt_06_silhouette.png",
+    "silhouettes/tavi_017_hurt_07_silhouette.png",
+    "silhouettes/tavi_017_hurt_08_silhouette.png"
+  ],
+  "notes": [
+    "These are extracted from a generated contact sheet and background-keyed, not hand-drawn production sprites.",
+    "Hair and cloth colors were adjusted toward Tavi\u2019s approved blue-hair / cream-tunic palette; inspect each frame.",
+    "The source generator changed some clothing/details; use as prototype reference, not final-release artwork.",
+    "Review edges, timing, scale, and hit-stop in Godot before use."
+  ]
+}

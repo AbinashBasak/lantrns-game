@@ -1,0 +1,183 @@
+{
+  "asset_id": "TAVI-016",
+  "title": "Sword attack",
+  "phase": "01",
+  "subsection": "Core animations \u2014 prototype priority",
+  "checked": true,
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016",
+  "source_chat": "https://chatgpt.com/share/6ad136a4-4cc8-83ee-9742-05bc90e2a1dc",
+  "last_updated": "2026-10-16T14:10:31.923633+05:30",
+  "stage": "source images recovered; production approval not inferred from checklist",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/source_images/TAVI-016_generation_01_ded4.png",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/archive/shared-chat/images/00000000-ded4-8211-9eaa-40e6a43d15c4.png",
+      "sha256": "f427702d5feb6e3400275023f57ca8a75e5061fa1bcccd9eb9f73da369ce1622",
+      "chat_message_id": "9b314233-0412-4176-bbe5-c7108cf5fc31",
+      "title": "Tavi Sword Attack Animation Sheet"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/source_images/TAVI-016_generation_02_3f88.png",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/archive/shared-chat/images/00000000-3f88-8207-ba3c-4ce66fc7424e.png",
+      "sha256": "d086c65b6c1495266e43e4add26931155586f51cf77f1efb56540378bff01ea9",
+      "chat_message_id": "73342b05-e39a-40d9-8945-e5a74bc3f2d0",
+      "title": "Tavi Sword Attack Animation Sheet"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/source_images/TAVI-016_generation_03_f458.png",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/archive/shared-chat/images/00000000-f458-8211-ac9b-f89748772312.png",
+      "sha256": "f82c41ab982f2fabd2481433b3980fd3450e610ffa1c25e6a9a7ad47e0ca81f6",
+      "chat_message_id": "2196bbb9-7fe6-440b-ac78-8633cc2a68e9",
+      "title": "Tavi\u2019s Sword Attack Animation Sheet"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/source_images/TAVI-016_generation_04_1ec4.png",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/archive/shared-chat/images/00000000-1ec4-8208-b19d-ccb2b5ef816b.png",
+      "sha256": "2bb88d832e767e84eaa9e1b7f534b70771bc5f894c5f9ba5d1a77b759915af28",
+      "chat_message_id": "784195ae-5ce4-46a8-a083-a802d02c9a20",
+      "title": "Tavi Sword Attack Animation Sheet"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/source_images/TAVI-016_project_chat_generation_02.png",
+      "bytes": 2569580,
+      "sha256": "be286096044d0469111b35df379db47d3bfe702e5ffc2850aec72ce247e8f205",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        40,
+        252
+      ],
+      "downloaded_filename": "Tavi Sword Attack Sprite Sheet-2.png",
+      "download_path": "/Users/abinashbasak/Downloads/Tavi Sword Attack Sprite Sheet-2.png",
+      "source_chat": "https://chatgpt.com/g/g-p-6ad13478f7f48191b9fc5a41e9a9842b/c/6ace7fa5-5288-83ee-b574-4413f6c4939d",
+      "source_message_id": null,
+      "provenance": "unchanged original generated image downloaded from project chat",
+      "review": "Sword attack; not a hurt deliverable"
+    }
+  ],
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/TAVI-016_sword_attack_rebuilt_asset_pack.zip",
+      "bytes": 1936565,
+      "sha256": "da9164724b8943b878734b8b91f86c0ab961301464244772c70f396b7c411fba"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/TAVI-016_sword_attack_source_sheet.png",
+      "bytes": 1749768,
+      "sha256": "f427702d5feb6e3400275023f57ca8a75e5061fa1bcccd9eb9f73da369ce1622"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/exports/TAVI-016_animation_manifest.json",
+      "bytes": 924,
+      "sha256": "30df28f8a2b6d102d57650bd111f06c0834859cd717585483e9262987c7edb58"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/exports/TAVI-016_sword_attack_spritesheet.png",
+      "bytes": 895742,
+      "sha256": "5c9021b4efdda076b978f2124652b62b7e6dcee6bd94b8bf70240328b42e7452"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/exports/frames/TAVI-016_sword_attack_frame_01.png",
+      "bytes": 96794,
+      "sha256": "7fc99ab7203e1d10adcdb5575dfa13bf7776781e4e7f1451c81d4a88ed9208a3"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/exports/frames/TAVI-016_sword_attack_frame_02.png",
+      "bytes": 108507,
+      "sha256": "6a54c96373cb8e619e821e2ae127a83ff1e6e6092fdc001c7aa8f752e6aa1052"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/exports/frames/TAVI-016_sword_attack_frame_03.png",
+      "bytes": 147924,
+      "sha256": "abe9d45ece8fbd3e9037e99b08af51250402dc5e12d328b7cb9fd41261f1d2f7"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/exports/frames/TAVI-016_sword_attack_frame_04.png",
+      "bytes": 138778,
+      "sha256": "73e74878f444d219c9364c94db2916891284e3b93168308fe9ce447f7bffcc1c"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/exports/frames/TAVI-016_sword_attack_frame_05.png",
+      "bytes": 101061,
+      "sha256": "d79bfc742696963e8e6a789e282c0a8abf2036c8f5160108e0ed1664a064de22"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/exports/frames/TAVI-016_sword_attack_frame_06.png",
+      "bytes": 103902,
+      "sha256": "edac03442da1f699ff46f8e582299da5de5a684711656180f06a56766adca2fc"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/exports/frames/TAVI-016_sword_attack_frame_07.png",
+      "bytes": 104578,
+      "sha256": "a6b3ca416e081f84db36a3c2204ee2f72e6feaf21c5eaab84093f5ce8a9dbe03"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/exports/frames/TAVI-016_sword_attack_frame_08.png",
+      "bytes": 97831,
+      "sha256": "a0c4c836ce42ad1995b4ae70c769e3a3a1200bd44ff84f234a65498d71ee2277"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/previews/TAVI-016_sword_attack_contact_sheet.jpg",
+      "bytes": 60695,
+      "sha256": "f044b419c9b9ee0bdc297922fb261308e33fb349ee3ba9bcc739a4f31ad858c7"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/previews/TAVI-016_sword_attack_preview.gif",
+      "bytes": 91669,
+      "sha256": "317185b471a7b0e1800079926f7849a735afd689781f11e4b7215e9b558f1171"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/source_images/TAVI-016_generation_01_ded4.png",
+      "bytes": 1749768,
+      "sha256": "f427702d5feb6e3400275023f57ca8a75e5061fa1bcccd9eb9f73da369ce1622"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/source_images/TAVI-016_generation_02_3f88.png",
+      "bytes": 1637732,
+      "sha256": "d086c65b6c1495266e43e4add26931155586f51cf77f1efb56540378bff01ea9"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/source_images/TAVI-016_generation_03_f458.png",
+      "bytes": 1858883,
+      "sha256": "f82c41ab982f2fabd2481433b3980fd3450e610ffa1c25e6a9a7ad47e0ca81f6"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/source_images/TAVI-016_generation_04_1ec4.png",
+      "bytes": 1706742,
+      "sha256": "2bb88d832e767e84eaa9e1b7f534b70771bc5f894c5f9ba5d1a77b759915af28"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/source_images/TAVI-016_project_chat_generation_02.png",
+      "bytes": 2569580,
+      "sha256": "be286096044d0469111b35df379db47d3bfe702e5ffc2850aec72ce247e8f205",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        40,
+        252
+      ]
+    }
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/TAVI-016_sword_attack_source_sheet.png",
+  "primary_image_provenance": "original generated image downloaded from the chat",
+  "primary_image_dimensions": [
+    2078,
+    757
+  ],
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/previews/TAVI-016_sword_attack_preview.gif",
+  "export_provenance": "locally rebuilt prototype derivatives; not the original sandbox ZIP bytes",
+  "frame_count": 8,
+  "fps": 21,
+  "loop": false,
+  "frame_dimensions": [
+    320,
+    448
+  ],
+  "runtime_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/characters/tavi/attack_1"
+}

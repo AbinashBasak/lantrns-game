@@ -1,0 +1,64 @@
+{
+  "animation": "jump_fall",
+  "fps": 10,
+  "loop": false,
+  "frame_count": 8,
+  "frame_size": [
+    320,
+    448
+  ],
+  "source": "archive/shared-chat/images/00000000-bf74-8207-a0a1-c5e04ce4ab5c.png",
+  "source_sha256": "51e497f5d3672a893bbb8df1fec2b6e3abb368b21bf150f23b6aa515ff012e16",
+  "source_rects": [
+    [
+      24,
+      134,
+      255,
+      437
+    ],
+    [
+      282,
+      123,
+      501,
+      440
+    ],
+    [
+      535,
+      151,
+      759,
+      434
+    ],
+    [
+      780,
+      167,
+      1021,
+      451
+    ],
+    [
+      1049,
+      160,
+      1262,
+      466
+    ],
+    [
+      1299,
+      203,
+      1529,
+      470
+    ],
+    [
+      1559,
+      241,
+      1793,
+      470
+    ],
+    [
+      1822,
+      263,
+      2063,
+      470
+    ]
+  ],
+  "status": "rebuilt prototype derivative; review animation consistency and cropped scarf/sword edges before release",
+  "checklist_asset_id": "TAVI-014"
+}
