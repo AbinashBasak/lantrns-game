@@ -1,0 +1,427 @@
+{
+  "asset_id": "TAVI-021",
+  "title": "Lantern reveal ability",
+  "checked": false,
+  "stage": "six-pose lantern_reveal prototype generated and reviewed; continuity and in-engine review pending; not production approved",
+  "last_updated": "2026-10-16T15:03:03.416702+05:30",
+  "generation_tool": "built-in image_gen",
+  "reference_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/source_images/TAVI-021_lantern_reveal_pose_01_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-73db49d6-a034-45b2-bcb1-50c5139cc719.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot individual full-body animation sprite PNG. Reference 1 is approved Tavi identity and rendering; reference 2 is magic/material palette only, never reproduce its board, text, scene or layout. Match exactly this original illustrated boy: short spiky cobalt blue hair, warm peach skin, cream rolled-sleeve tunic, red scarf clasped at shoulder trailing left, brown leather harness, brown fingerless gloves, belt pouch, charcoal pants, tall brown buckled boots. Clean 2D hand-painted fantasy platformer character. Calm focused eyes open. RIGHT-facing side/three-quarter view. Whole character, hair, boots, fingertips, held item fully visible with padding. Same camera, scale, perspective, costume, face and grounded stance across all frames. Feet stay planted, no walking. Isolated character cutout on genuine transparent alpha. Even lighting, opaque character interior. No environment, ground plane, floor, cast shadows, text, labels, panels, extra characters, giant aura, fog or background vignette. The arm toward RIGHT EDGE OF IMAGE is the active arm. The other arm visible on LEFT side beside the pouch stays relaxed down. One pose only. Landscape canvas 1536x1024, generous clear room for held items. Asset TAVI-021 \u2014 Lantern reveal ability. Sword stays completely sheathed at belt for all poses. Active arm toward image right holds a small original wooden lantern by a brass loop handle. Lantern design: compact hexagonal warm brown wood frame, four amber glass panels, brass cap and base, little warm golden flame inside; no electric bulb. Same lantern, grip, handle and materials in every pose. Other hand hangs down beside left-side pouch. Later additional reference is first generated pose of THIS sequence, use it to lock lantern and costume only. Revealed world geometry is external, must not be drawn. Pose 01 READY: standing looking right, lantern held low beside the right-edge thigh by handle, flame dim amber, active arm relaxed. Other arm down. Sword sheathed.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-005/ART-005_magic_rune_glow_particle_reference.png"
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/source_images/TAVI-021_lantern_reveal_pose_02_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-795a1c2d-5698-457f-9887-35491c9d248d.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot individual full-body animation sprite PNG. Reference 1 is approved Tavi identity and rendering; reference 2 is magic/material palette only, never reproduce its board, text, scene or layout. Match exactly this original illustrated boy: short spiky cobalt blue hair, warm peach skin, cream rolled-sleeve tunic, red scarf clasped at shoulder trailing left, brown leather harness, brown fingerless gloves, belt pouch, charcoal pants, tall brown buckled boots. Clean 2D hand-painted fantasy platformer character. Calm focused eyes open. RIGHT-facing side/three-quarter view. Whole character, hair, boots, fingertips, held item fully visible with padding. Same camera, scale, perspective, costume, face and grounded stance across all frames. Feet stay planted, no walking. Isolated character cutout on genuine transparent alpha. Even lighting, opaque character interior. No environment, ground plane, floor, cast shadows, text, labels, panels, extra characters, giant aura, fog or background vignette. The arm toward RIGHT EDGE OF IMAGE is the active arm. The other arm visible on LEFT side beside the pouch stays relaxed down. One pose only. Landscape canvas 1536x1024, generous clear room for held items. Asset TAVI-021 \u2014 Lantern reveal ability. Sword stays completely sheathed at belt for all poses. Active arm toward image right holds a small original wooden lantern by a brass loop handle. Lantern design: compact hexagonal warm brown wood frame, four amber glass panels, brass cap and base, little warm golden flame inside; no electric bulb. Same lantern, grip, handle and materials in every pose. Other hand hangs down beside left-side pouch. Later additional reference is first generated pose of THIS sequence, use it to lock lantern and costume only. Revealed world geometry is external, must not be drawn. Pose 02 RAISE: bend same active right-edge elbow to lift lantern to belt/chest level slightly in front of torso, lantern remains vertical hanging from loop handle. Other hand down.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-005/ART-005_magic_rune_glow_particle_reference.png",
+        "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-73db49d6-a034-45b2-bcb1-50c5139cc719.png"
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/source_images/TAVI-021_lantern_reveal_pose_03_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-ef19dc79-b226-4b5e-9196-a20a1aa74cde.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot individual full-body animation sprite PNG. Reference 1 is approved Tavi identity and rendering; reference 2 is magic/material palette only, never reproduce its board, text, scene or layout. Match exactly this original illustrated boy: short spiky cobalt blue hair, warm peach skin, cream rolled-sleeve tunic, red scarf clasped at shoulder trailing left, brown leather harness, brown fingerless gloves, belt pouch, charcoal pants, tall brown buckled boots. Clean 2D hand-painted fantasy platformer character. Calm focused eyes open. RIGHT-facing side/three-quarter view. Whole character, hair, boots, fingertips, held item fully visible with padding. Same camera, scale, perspective, costume, face and grounded stance across all frames. Feet stay planted, no walking. Isolated character cutout on genuine transparent alpha. Even lighting, opaque character interior. No environment, ground plane, floor, cast shadows, text, labels, panels, extra characters, giant aura, fog or background vignette. The arm toward RIGHT EDGE OF IMAGE is the active arm. The other arm visible on LEFT side beside the pouch stays relaxed down. One pose only. Landscape canvas 1536x1024, generous clear room for held items. Asset TAVI-021 \u2014 Lantern reveal ability. Sword stays completely sheathed at belt for all poses. Active arm toward image right holds a small original wooden lantern by a brass loop handle. Lantern design: compact hexagonal warm brown wood frame, four amber glass panels, brass cap and base, little warm golden flame inside; no electric bulb. Same lantern, grip, handle and materials in every pose. Other hand hangs down beside left-side pouch. Later additional reference is first generated pose of THIS sequence, use it to lock lantern and costume only. Revealed world geometry is external, must not be drawn. Pose 03 PRESENT: raise same lantern to face/eye height forward and right, elbow lifted, character looks toward lantern then right, lantern hangs vertically by handle. Other hand down.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-005/ART-005_magic_rune_glow_particle_reference.png",
+        "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-73db49d6-a034-45b2-bcb1-50c5139cc719.png"
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/source_images/TAVI-021_lantern_reveal_pose_04_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-0755d1bf-b7f4-4c4f-be56-c66684110547.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot individual full-body animation sprite PNG. Reference 1 is approved Tavi identity and rendering; reference 2 is magic/material palette only, never reproduce its board, text, scene or layout. Match exactly this original illustrated boy: short spiky cobalt blue hair, warm peach skin, cream rolled-sleeve tunic, red scarf clasped at shoulder trailing left, brown leather harness, brown fingerless gloves, belt pouch, charcoal pants, tall brown buckled boots. Clean 2D hand-painted fantasy platformer character. Calm focused eyes open. RIGHT-facing side/three-quarter view. Whole character, hair, boots, fingertips, held item fully visible with padding. Same camera, scale, perspective, costume, face and grounded stance across all frames. Feet stay planted, no walking. Isolated character cutout on genuine transparent alpha. Even lighting, opaque character interior. No environment, ground plane, floor, cast shadows, text, labels, panels, extra characters, giant aura, fog or background vignette. The arm toward RIGHT EDGE OF IMAGE is the active arm. The other arm visible on LEFT side beside the pouch stays relaxed down. One pose only. Landscape canvas 1536x1024, generous clear room for held items. Asset TAVI-021 \u2014 Lantern reveal ability. Sword stays completely sheathed at belt for all poses. Active arm toward image right holds a small original wooden lantern by a brass loop handle. Lantern design: compact hexagonal warm brown wood frame, four amber glass panels, brass cap and base, little warm golden flame inside; no electric bulb. Same lantern, grip, handle and materials in every pose. Other hand hangs down beside left-side pouch. Later additional reference is first generated pose of THIS sequence, use it to lock lantern and costume only. Revealed world geometry is external, must not be drawn. Pose 04 REVEAL HOLD: hold same lantern high just above and right of eye level, active elbow elevated, warm gold flame brighter INSIDE glass with a tiny contained rim of light, character looks into distance right, alert and focused. No huge aura, no world objects, no rune platform. Other arm down.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-005/ART-005_magic_rune_glow_particle_reference.png",
+        "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-73db49d6-a034-45b2-bcb1-50c5139cc719.png"
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/source_images/TAVI-021_lantern_reveal_pose_05_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-87cadb5f-8d16-4fb5-9915-368fddd52a7b.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot individual full-body animation sprite PNG. Reference 1 is approved Tavi identity and rendering; reference 2 is magic/material palette only, never reproduce its board, text, scene or layout. Match exactly this original illustrated boy: short spiky cobalt blue hair, warm peach skin, cream rolled-sleeve tunic, red scarf clasped at shoulder trailing left, brown leather harness, brown fingerless gloves, belt pouch, charcoal pants, tall brown buckled boots. Clean 2D hand-painted fantasy platformer character. Calm focused eyes open. RIGHT-facing side/three-quarter view. Whole character, hair, boots, fingertips, held item fully visible with padding. Same camera, scale, perspective, costume, face and grounded stance across all frames. Feet stay planted, no walking. Isolated character cutout on genuine transparent alpha. Even lighting, opaque character interior. No environment, ground plane, floor, cast shadows, text, labels, panels, extra characters, giant aura, fog or background vignette. The arm toward RIGHT EDGE OF IMAGE is the active arm. The other arm visible on LEFT side beside the pouch stays relaxed down. One pose only. Landscape canvas 1536x1024, generous clear room for held items. Asset TAVI-021 \u2014 Lantern reveal ability. Sword stays completely sheathed at belt for all poses. Active arm toward image right holds a small original wooden lantern by a brass loop handle. Lantern design: compact hexagonal warm brown wood frame, four amber glass panels, brass cap and base, little warm golden flame inside; no electric bulb. Same lantern, grip, handle and materials in every pose. Other hand hangs down beside left-side pouch. Later additional reference is first generated pose of THIS sequence, use it to lock lantern and costume only. Revealed world geometry is external, must not be drawn. Pose 05 LOWER: lower same lantern from elevated position to chest level, same right-edge active arm and loop grip, elbow bends downward, flame returns to modest amber. Other hand remains down.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-005/ART-005_magic_rune_glow_particle_reference.png",
+        "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-73db49d6-a034-45b2-bcb1-50c5139cc719.png"
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/source_images/TAVI-021_lantern_reveal_pose_06_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-d6c59dd0-c234-46c1-a816-23908ef56a8b.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot individual full-body animation sprite PNG. Reference 1 is approved Tavi identity and rendering; reference 2 is magic/material palette only, never reproduce its board, text, scene or layout. Match exactly this original illustrated boy: short spiky cobalt blue hair, warm peach skin, cream rolled-sleeve tunic, red scarf clasped at shoulder trailing left, brown leather harness, brown fingerless gloves, belt pouch, charcoal pants, tall brown buckled boots. Clean 2D hand-painted fantasy platformer character. Calm focused eyes open. RIGHT-facing side/three-quarter view. Whole character, hair, boots, fingertips, held item fully visible with padding. Same camera, scale, perspective, costume, face and grounded stance across all frames. Feet stay planted, no walking. Isolated character cutout on genuine transparent alpha. Even lighting, opaque character interior. No environment, ground plane, floor, cast shadows, text, labels, panels, extra characters, giant aura, fog or background vignette. The arm toward RIGHT EDGE OF IMAGE is the active arm. The other arm visible on LEFT side beside the pouch stays relaxed down. One pose only. Landscape canvas 1536x1024, generous clear room for held items. Asset TAVI-021 \u2014 Lantern reveal ability. Sword stays completely sheathed at belt for all poses. Active arm toward image right holds a small original wooden lantern by a brass loop handle. Lantern design: compact hexagonal warm brown wood frame, four amber glass panels, brass cap and base, little warm golden flame inside; no electric bulb. Same lantern, grip, handle and materials in every pose. Other hand hangs down beside left-side pouch. Later additional reference is first generated pose of THIS sequence, use it to lock lantern and costume only. Revealed world geometry is external, must not be drawn. Pose 06 SETTLE: return same lantern to low carry beside right-edge thigh, upright ready stance looking right, other hand down. Sword sheathed. Flame dim amber.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-005/ART-005_magic_rune_glow_particle_reference.png",
+        "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-73db49d6-a034-45b2-bcb1-50c5139cc719.png"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/TAVI-021_README.md",
+      "bytes": 910,
+      "sha256": "000b0a16e9b9bf3feadd892f783239bf18913742a639edf6e86fe470c785a1fe"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/TAVI-021_animation_manifest.json",
+      "bytes": 5261,
+      "sha256": "653f0cc669812c28d490c048ea6fc2eca09f3a650f77f919307f6a49fb1fe1bb"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/TAVI-021_generation_prompts.json",
+      "bytes": 16699,
+      "sha256": "d2255e14d711d51e3396eede1add2c47037743ba847e6782c5ba4f98d13d4d04"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/TAVI-021_lantern_reveal_prototype_pack.zip",
+      "bytes": 12479975,
+      "sha256": "e431a264b66cb212fa5dc01ea53b8cc4342cec6d490e77ff2a841133f43d3b6a"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/TAVI-021_lantern_reveal_silhouettes_strip.png",
+      "bytes": 42186,
+      "sha256": "28538ebe634d99027044f8472e59df06876f438e83587e4ea58202b1785762a8",
+      "dimensions": [
+        6144,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/TAVI-021_lantern_reveal_strip.png",
+      "bytes": 1849077,
+      "sha256": "0a088c4fdb88b42cceca5df9023619c462e19c17cfd33b34e7a2e5565d64a117",
+      "dimensions": [
+        6144,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/frames/TAVI-021_lantern_reveal_01.png",
+      "bytes": 293279,
+      "sha256": "af3281bc518c3983b1449b4400904ed998bc00f8dac089541999c8e03d0cf29e",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/frames/TAVI-021_lantern_reveal_02.png",
+      "bytes": 294330,
+      "sha256": "2c341dda7ed2d5b82f20cad4e07bece59db4fa7539d277f98353e31a682cf9e5",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/frames/TAVI-021_lantern_reveal_03.png",
+      "bytes": 330558,
+      "sha256": "22ac3ff64521912217ab9e42f56a33b500cfde5848e1b05ac87e313d6fa4b3da",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/frames/TAVI-021_lantern_reveal_04.png",
+      "bytes": 346970,
+      "sha256": "a1480b5c139665c24bda57915f22f1a1ea52cd0f06a6535e63cb16234cd10942",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/frames/TAVI-021_lantern_reveal_05.png",
+      "bytes": 300997,
+      "sha256": "c7e2d319a7ceeff8f4adebe3191cc2c7ade9ca4bdbfcd994f929f264740a72cd",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/frames/TAVI-021_lantern_reveal_06.png",
+      "bytes": 285928,
+      "sha256": "e6789367decd2e8f97c7b91ae8d1a32eb1579547f13a2f7017f6a577549dd44f",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/silhouettes/TAVI-021_lantern_reveal_01_silhouette.png",
+      "bytes": 8121,
+      "sha256": "0fe4aa0a49fae84b0e77dc2fb02d355aa60eb4db07213807563cd9dc39bb468a",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/silhouettes/TAVI-021_lantern_reveal_02_silhouette.png",
+      "bytes": 8302,
+      "sha256": "b3df71e45e9da27a5d631ad220be41ea1ef712d850873b1a0cc884f58058d44e",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/silhouettes/TAVI-021_lantern_reveal_03_silhouette.png",
+      "bytes": 8640,
+      "sha256": "4711565e0442f1c4c25b8ba897f46005c643ae1cdb61f9f36335bec2657d444b",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/silhouettes/TAVI-021_lantern_reveal_04_silhouette.png",
+      "bytes": 8696,
+      "sha256": "d6dd430f65d3f4f4ef97ae182b15a91ca5090dc625862be0fc11f851c3fe6e7a",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/silhouettes/TAVI-021_lantern_reveal_05_silhouette.png",
+      "bytes": 8211,
+      "sha256": "18af5db1be510d84c3092e776cc47dc5e663fa3b2c6f855a2a2eb23698213394",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/silhouettes/TAVI-021_lantern_reveal_06_silhouette.png",
+      "bytes": 8040,
+      "sha256": "71151f9b3f4a59f1c30d99ea7c4ece2bc12b03ec72a3a2443761fb964c819f10",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/previews/TAVI-021_lantern_reveal_contact_sheet.jpg",
+      "bytes": 147040,
+      "sha256": "a8f381e40bb1e32c225c267134206c58d15bfcdf347b895f572a2fb5dae2c5e3",
+      "dimensions": [
+        1536,
+        820
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/previews/TAVI-021_lantern_reveal_preview.gif",
+      "bytes": 264218,
+      "sha256": "7303a30e47518ce1048879f830a90112b05985036e532df4ab56b630c392c270",
+      "dimensions": [
+        640,
+        480
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/source_images/TAVI-021_lantern_reveal_pose_01_original.png",
+      "bytes": 1369943,
+      "sha256": "a52c74743f70c0d133626a43a2d32f4ff391ed1817809118d51240c39267cce3",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/source_images/TAVI-021_lantern_reveal_pose_02_original.png",
+      "bytes": 1407849,
+      "sha256": "25b052dd76c074d008463f01ec39c4b18da613b6ed320632b9d7c9d8672f495c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/source_images/TAVI-021_lantern_reveal_pose_03_original.png",
+      "bytes": 1426121,
+      "sha256": "3bfaee55024c2ba14261861e4182502983c1f7d234ea7a24cfaa2ddd50fee079",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/source_images/TAVI-021_lantern_reveal_pose_04_original.png",
+      "bytes": 1496896,
+      "sha256": "f9ab824701a6ffca6067521821b80be3bf5f3277b43da9c82a871031a0fc675c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/source_images/TAVI-021_lantern_reveal_pose_05_original.png",
+      "bytes": 1371192,
+      "sha256": "48a0872661d742243ae663e83f527fcb0c15d54405574d5f261aea2c90a9e07c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/source_images/TAVI-021_lantern_reveal_pose_06_original.png",
+      "bytes": 1352850,
+      "sha256": "319c60ba55c1e1896dc3fd7bd87eb9d3a304b657b530aab1a06634e3c4601a20",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/TAVI-021_lantern_reveal_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/previews/TAVI-021_lantern_reveal_preview.gif",
+  "frame_count": 6,
+  "frame_dimensions": [
+    1024,
+    768
+  ],
+  "frame_durations_ms": [
+    150,
+    140,
+    150,
+    450,
+    180,
+    180
+  ],
+  "loop": false,
+  "review_notes": [
+    "Identity/style reference: approved TAVI-001; magic palette: ART-005.",
+    "Held wooden/brass lantern is a provisional design within this animation; PROP-001 is not marked delivered. Reveal world geometry and independent reveal FX remain separate.",
+    "Review hand anatomy, consistent equipment, baseline alignment and exact contact/hold location before runtime use.",
+    "Sources generated individually with built-in image_gen. Derived exports preserve generated alpha. Not tested in Godot."
+  ],
+  "export_provenance": "derived by resampling and placing generated poses on common canvases; generated alpha preserved; silhouettes derived using alpha threshold"
+}

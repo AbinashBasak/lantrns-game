@@ -1,0 +1,420 @@
+{
+  "asset_id": "TAVI-019",
+  "title": "Interact with object",
+  "checked": false,
+  "stage": "six-pose interaction prototype generated and reviewed; continuity and in-engine review pending; not production approved",
+  "last_updated": "2026-10-16T14:44:37.120874+05:30",
+  "generation_tool": "built-in image_gen",
+  "reference_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/source_images/TAVI-019_pose_05_rejected_opposite_arm.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-a25e5e0c-a20e-4371-b984-b8dad3d3f3eb.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot TAVI-019, a single individual full-body game sprite frame for a right-facing reach-and-press object interaction. Input reference: approved Tavi turnaround, identity/style reference only. Match exactly this original boy: short spiky cobalt blue hair, warm peach skin, cream rolled-sleeve tunic, red scarf clasped at shoulder and trailing behind left, brown leather harness, brown gloves with visible fingers, belt pouch, charcoal pants, tall brown buckled boots, short sword sheathed at belt. Clean illustrated 2D fantasy platformer style matching the turnaround. Calm focused expression and eyes open. Same right-facing side/three-quarter view, same scale and perspective for all poses, fixed feet planted on same baseline; both boots fully visible. Entire body including hair, scarf, fingertips, sheath fits with generous clear padding. Isolated opaque character cutout on genuinely transparent alpha. Neutral even lighting. No aura, glow, gradients, haze, particles, vignette, colored rimlight, cast shadows, panels, text, labels, other figures, floor, environment, object, switch or furniture. Prop is external to sprite. No sword attack, hurt or death pose. Single pose only. Portrait canvas 1024x1536; character occupies about 75% of canvas height. FRAME 05 \u2014 retract: right elbow draws back toward waist, hand moving inward after the press, torso returning upright; far hand relaxed.",
+      "review": "rejected for active sequence: opposite arm retracted"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/source_images/TAVI-019_interact_pose_01_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-adcb4263-8fdc-4666-aea4-84effbabccc6.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot TAVI-019, a single individual full-body game sprite frame for a right-facing reach-and-press object interaction. Input reference: approved Tavi turnaround, identity/style reference only. Match exactly this original boy: short spiky cobalt blue hair, warm peach skin, cream rolled-sleeve tunic, red scarf clasped at shoulder and trailing behind left, brown leather harness, brown gloves with visible fingers, belt pouch, charcoal pants, tall brown buckled boots, short sword sheathed at belt. Clean illustrated 2D fantasy platformer style matching the turnaround. Calm focused expression and eyes open. Same right-facing side/three-quarter view, same scale and perspective for all poses, fixed feet planted on same baseline; both boots fully visible. Entire body including hair, scarf, fingertips, sheath fits with generous clear padding. Isolated opaque character cutout on genuinely transparent alpha. Neutral even lighting. No aura, glow, gradients, haze, particles, vignette, colored rimlight, cast shadows, panels, text, labels, other figures, floor, environment, object, switch or furniture. Prop is external to sprite. No sword attack, hurt or death pose. Single pose only. Portrait canvas 1024x1536; character occupies about 75% of canvas height. FRAME 01 \u2014 ready: neutral standing idle, both hands relaxed beside hips, looking right at an off-canvas waist-height interaction point."
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/source_images/TAVI-019_interact_pose_02_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-9269c415-4270-4bc3-843e-c145099ffe20.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot TAVI-019, a single individual full-body game sprite frame for a right-facing reach-and-press object interaction. Input reference: approved Tavi turnaround, identity/style reference only. Match exactly this original boy: short spiky cobalt blue hair, warm peach skin, cream rolled-sleeve tunic, red scarf clasped at shoulder and trailing behind left, brown leather harness, brown gloves with visible fingers, belt pouch, charcoal pants, tall brown buckled boots, short sword sheathed at belt. Clean illustrated 2D fantasy platformer style matching the turnaround. Calm focused expression and eyes open. Same right-facing side/three-quarter view, same scale and perspective for all poses, fixed feet planted on same baseline; both boots fully visible. Entire body including hair, scarf, fingertips, sheath fits with generous clear padding. Isolated opaque character cutout on genuinely transparent alpha. Neutral even lighting. No aura, glow, gradients, haze, particles, vignette, colored rimlight, cast shadows, panels, text, labels, other figures, floor, environment, object, switch or furniture. Prop is external to sprite. No sword attack, hurt or death pose. Single pose only. Portrait canvas 1024x1536; character occupies about 75% of canvas height. FRAME 02 \u2014 anticipation: torso leans slightly forward, near-side right arm lifts and elbow bends, right hand at belt/chest level preparing to reach; far hand remains relaxed near hip."
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/source_images/TAVI-019_interact_pose_03_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-a8260128-c823-4dc2-bac0-d591bd56b14b.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot TAVI-019, a single individual full-body game sprite frame for a right-facing reach-and-press object interaction. Input reference: approved Tavi turnaround, identity/style reference only. Match exactly this original boy: short spiky cobalt blue hair, warm peach skin, cream rolled-sleeve tunic, red scarf clasped at shoulder and trailing behind left, brown leather harness, brown gloves with visible fingers, belt pouch, charcoal pants, tall brown buckled boots, short sword sheathed at belt. Clean illustrated 2D fantasy platformer style matching the turnaround. Calm focused expression and eyes open. Same right-facing side/three-quarter view, same scale and perspective for all poses, fixed feet planted on same baseline; both boots fully visible. Entire body including hair, scarf, fingertips, sheath fits with generous clear padding. Isolated opaque character cutout on genuinely transparent alpha. Neutral even lighting. No aura, glow, gradients, haze, particles, vignette, colored rimlight, cast shadows, panels, text, labels, other figures, floor, environment, object, switch or furniture. Prop is external to sprite. No sword attack, hurt or death pose. Single pose only. Portrait canvas 1024x1536; character occupies about 75% of canvas height. FRAME 03 \u2014 reach: right arm extends forward to the right toward a waist-high off-canvas interaction point, elbow partly bent, open gloved palm and fingertips reaching; torso modestly leaning forward."
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/source_images/TAVI-019_interact_pose_04_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-5c0ba1e3-44ff-41a4-ad4b-2b4a65baebea.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot TAVI-019, a single individual full-body game sprite frame for a right-facing reach-and-press object interaction. Input reference: approved Tavi turnaround, identity/style reference only. Match exactly this original boy: short spiky cobalt blue hair, warm peach skin, cream rolled-sleeve tunic, red scarf clasped at shoulder and trailing behind left, brown leather harness, brown gloves with visible fingers, belt pouch, charcoal pants, tall brown buckled boots, short sword sheathed at belt. Clean illustrated 2D fantasy platformer style matching the turnaround. Calm focused expression and eyes open. Same right-facing side/three-quarter view, same scale and perspective for all poses, fixed feet planted on same baseline; both boots fully visible. Entire body including hair, scarf, fingertips, sheath fits with generous clear padding. Isolated opaque character cutout on genuinely transparent alpha. Neutral even lighting. No aura, glow, gradients, haze, particles, vignette, colored rimlight, cast shadows, panels, text, labels, other figures, floor, environment, object, switch or furniture. Prop is external to sprite. No sword attack, hurt or death pose. Single pose only. Portrait canvas 1024x1536; character occupies about 75% of canvas height. FRAME 04 \u2014 contact/press: right arm fully extended horizontally to the right at waist height, palm facing right as if pressing a small off-canvas switch, fingertips pointing up gently; slight forward shoulder push, feet remain planted."
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/source_images/TAVI-019_interact_pose_05_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-c47a9541-38e2-4f80-8a0b-cd09d09632f7.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: precise-object-edit. Edit target: the provided Tavi press-pose sprite. Make the NEXT animation pose: retract the SAME arm that is extended toward the RIGHT EDGE of the image. Bend that extended arm's elbow and pull that hand back halfway toward the character's chest, open relaxed fingers. The OTHER arm visible along the LEFT side of the image must remain hanging straight down beside the pouch. Do not raise that left-side arm. Preserve the exact boy, blue hair, peach skin, cream tunic, red scarf, leather costume, face, head, sheathed sword, boots, stance, camera, body proportions, canvas and rendering. Feet stay pixel-aligned. Character only, transparent background, NO prop, no glow, no aura, no cast shadow, no text. One full-body pose."
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/source_images/TAVI-019_interact_pose_06_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-d985d759-91a5-4d81-a47e-8715c1b3b4e5.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot TAVI-019, a single individual full-body game sprite frame for a right-facing reach-and-press object interaction. Input reference: approved Tavi turnaround, identity/style reference only. Match exactly this original boy: short spiky cobalt blue hair, warm peach skin, cream rolled-sleeve tunic, red scarf clasped at shoulder and trailing behind left, brown leather harness, brown gloves with visible fingers, belt pouch, charcoal pants, tall brown buckled boots, short sword sheathed at belt. Clean illustrated 2D fantasy platformer style matching the turnaround. Calm focused expression and eyes open. Same right-facing side/three-quarter view, same scale and perspective for all poses, fixed feet planted on same baseline; both boots fully visible. Entire body including hair, scarf, fingertips, sheath fits with generous clear padding. Isolated opaque character cutout on genuinely transparent alpha. Neutral even lighting. No aura, glow, gradients, haze, particles, vignette, colored rimlight, cast shadows, panels, text, labels, other figures, floor, environment, object, switch or furniture. Prop is external to sprite. No sword attack, hurt or death pose. Single pose only. Portrait canvas 1024x1536; character occupies about 75% of canvas height. FRAME 06 \u2014 settle: upright neutral idle, near hand lowered alongside hip and shoulders relaxed, eyes still looking right, same grounded stance as frame 01."
+    }
+  ],
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/exports/TAVI-019_README.md",
+      "bytes": 757,
+      "sha256": "224e83174482b0bfa09174e11b1cbd4ce58b0459a397cccdf834d7efd7674a81"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/exports/TAVI-019_animation_manifest.json",
+      "bytes": 5199,
+      "sha256": "336a615a7e60b428e56cddd9d0fddffbbb740787f1d89d075be287ada0352d5d"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/exports/TAVI-019_generation_prompts.json",
+      "bytes": 12525,
+      "sha256": "e328a9d46794203eff6b26d861adbf24f9a56595218376b7b927862f18348593"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/exports/TAVI-019_interact_prototype_pack.zip",
+      "bytes": 15668932,
+      "sha256": "7b5eac3495a6870f6dbd6358b2015693571c4a1dd6a4d19ddecd8b01f3f85bc2"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/exports/TAVI-019_interact_silhouettes_strip.png",
+      "bytes": 40932,
+      "sha256": "e2c8addba194478ba418791e20bcd9fe005e3a91fa7751af496e5dceaa965234",
+      "dimensions": [
+        6144,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/exports/TAVI-019_interact_strip.png",
+      "bytes": 1599032,
+      "sha256": "d126f0c35b97ea15a86ac54d6eea74f88dcf8f568d509213280bcc6b1acc3c50",
+      "dimensions": [
+        6144,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/exports/frames/TAVI-019_interact_01.png",
+      "bytes": 285122,
+      "sha256": "032934ad669490d1e54b1b268f541a346d56cd1d220339eebe41e834986ac7a7",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/exports/frames/TAVI-019_interact_02.png",
+      "bytes": 268177,
+      "sha256": "bb234da9fed7723a4cb6fd2bd660adf1362654f137453284459e571e11f087dd",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/exports/frames/TAVI-019_interact_03.png",
+      "bytes": 293372,
+      "sha256": "e114463a55dc6bde7b4dadc6a13c5f4d43ed989f2d91fa5029dffe3e91b814aa",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/exports/frames/TAVI-019_interact_04.png",
+      "bytes": 254580,
+      "sha256": "c2f6f38ea88ab65ab9d7d3bee223993ef0c924dfe208e060ebcd58ffc214a918",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/exports/frames/TAVI-019_interact_05.png",
+      "bytes": 251553,
+      "sha256": "4c184238a53ef48534b8aa98188d0a9ba05541688dfeffcde65e316a1a7cbf5a",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/exports/frames/TAVI-019_interact_06.png",
+      "bytes": 253386,
+      "sha256": "6ba07f45ebe0a7168c8d70fe271d3ce7426f3f6f6e3253a4c0d9bdc0cb2a2b61",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/exports/silhouettes/TAVI-019_interact_01_silhouette.png",
+      "bytes": 8133,
+      "sha256": "c839b33a1deedb91f9bde2cec1630a1667ffae76151b811b2565ba53e52f76ee",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/exports/silhouettes/TAVI-019_interact_02_silhouette.png",
+      "bytes": 8019,
+      "sha256": "ac6d26cef22a303950116a5edcfdc2436408e5047776f919e9cc0d483909a576",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/exports/silhouettes/TAVI-019_interact_03_silhouette.png",
+      "bytes": 8371,
+      "sha256": "671d25543d6ca0eca0e3c17f67c24e77667ee739c4ef1fc4d456ea7e3ad7373d",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/exports/silhouettes/TAVI-019_interact_04_silhouette.png",
+      "bytes": 8036,
+      "sha256": "53c0aa2987ab921b1dc5e87569766fb2a4cbe6b79d94800dccfdab883aa70f6c",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/exports/silhouettes/TAVI-019_interact_05_silhouette.png",
+      "bytes": 7976,
+      "sha256": "86e4e4a800fddfe8713a263e4c417e3f57e42a316980ddbd0815f59784a79d77",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/exports/silhouettes/TAVI-019_interact_06_silhouette.png",
+      "bytes": 7817,
+      "sha256": "805f5fe7ed99aa3c7eb2748563217250e105a82f961ae8537fd9942cb8c63613",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/previews/TAVI-019_interact_contact_sheet.jpg",
+      "bytes": 134882,
+      "sha256": "a2a960c0d105a91dc0a4e845753c040ccaeccbe6f752dfb7de53cf3e8da99f6f",
+      "dimensions": [
+        1536,
+        820
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/previews/TAVI-019_interact_preview.gif",
+      "bytes": 240238,
+      "sha256": "524377d4cc87ba2e84e3bdb2f0ee8094afecf2cf3a2826202426d80c4d993baf",
+      "dimensions": [
+        640,
+        480
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/source_images/TAVI-019_interact_pose_01_original.png",
+      "bytes": 1751381,
+      "sha256": "d393b697c6df1fda0bc699e4cc82b2adc8c064b11f2392df5a4ba367585e5ed3",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/source_images/TAVI-019_interact_pose_02_original.png",
+      "bytes": 1779253,
+      "sha256": "17a2e992c0395c932af690a424f19db8913ad67759ffde85c73dfc2ed45e6f2a",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/source_images/TAVI-019_interact_pose_03_original.png",
+      "bytes": 1708511,
+      "sha256": "ac257a72996e48ce50b0da6a66c71000d47635876eaf9a258c9ae995fd14df4e",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/source_images/TAVI-019_interact_pose_04_original.png",
+      "bytes": 1727732,
+      "sha256": "725b69e2d01790884fe14540b1f35a13839865efb89539953ee8c78ee13ddfb0",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/source_images/TAVI-019_interact_pose_05_original.png",
+      "bytes": 1706411,
+      "sha256": "d8c7265bf734d54d8384b90b794e5267673c2e74b73bdf5a6eb0f7a6b95455d4",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/source_images/TAVI-019_interact_pose_06_original.png",
+      "bytes": 1693715,
+      "sha256": "926cb01ee0909a0128c0ace6066e7bcb837466c1f044fe8000238589b80b827b",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/source_images/TAVI-019_pose_05_rejected_opposite_arm.png",
+      "bytes": 1803258,
+      "sha256": "ef2161a0fdc164b507b37f38579dae1d47fe6052589fb1ab8352a46cf9fa86d0",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/exports/TAVI-019_interact_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/previews/TAVI-019_interact_preview.gif",
+  "frame_count": 6,
+  "frame_dimensions": [
+    1024,
+    768
+  ],
+  "frame_durations_ms": [
+    150,
+    100,
+    100,
+    220,
+    100,
+    180
+  ],
+  "loop": false,
+  "review_notes": [
+    "Identity colors match approved Tavi: blue hair, peach skin, cream tunic, red scarf.",
+    "Reusable reach-and-press motion; target object remains separate. Generated contact is closer to chest height than prompt waist-height target.",
+    "Review hand anatomy, fixed-foot alignment, consistent arm length and exact prop contact position before runtime use. Generated soft halos remain in the originals and preserved alpha.",
+    "Scale normalized by hair bounds; not tested in Godot. Runtime integration not requested."
+  ],
+  "export_provenance": "derived by resampling and placing generated poses on common canvases; generated alpha preserved; silhouettes derived using alpha threshold"
+}

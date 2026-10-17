@@ -1,0 +1,208 @@
+{
+  "asset_id": "TAVI-021",
+  "animation": "lantern_reveal",
+  "frame_count": 6,
+  "frame_dimensions": [
+    1024,
+    768
+  ],
+  "pivot_px": [
+    512,
+    704
+  ],
+  "frame_durations_ms": [
+    150,
+    140,
+    150,
+    450,
+    180,
+    180
+  ],
+  "loop": false,
+  "preview_loops_for_review": true,
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/frames/TAVI-021_lantern_reveal_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/frames/TAVI-021_lantern_reveal_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/frames/TAVI-021_lantern_reveal_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/frames/TAVI-021_lantern_reveal_04.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/frames/TAVI-021_lantern_reveal_05.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/frames/TAVI-021_lantern_reveal_06.png"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/source_images/TAVI-021_lantern_reveal_pose_01_original.png",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "blue_hair_bbox": [
+        569,
+        30,
+        859,
+        270
+      ],
+      "body_alpha230_bbox": [
+        394,
+        28,
+        972,
+        966
+      ],
+      "feet_x_bounds": [
+        512,
+        898
+      ],
+      "scale": 0.6206896551724138,
+      "offset": [
+        74,
+        104
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/source_images/TAVI-021_lantern_reveal_pose_02_original.png",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "blue_hair_bbox": [
+        568,
+        29,
+        860,
+        271
+      ],
+      "body_alpha230_bbox": [
+        401,
+        28,
+        1069,
+        970
+      ],
+      "feet_x_bounds": [
+        509,
+        908
+      ],
+      "scale": 0.6164383561643836,
+      "offset": [
+        75,
+        106
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/source_images/TAVI-021_lantern_reveal_pose_03_original.png",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "blue_hair_bbox": [
+        527,
+        17,
+        808,
+        262
+      ],
+      "body_alpha230_bbox": [
+        323,
+        17,
+        1079,
+        953
+      ],
+      "feet_x_bounds": [
+        490,
+        906
+      ],
+      "scale": 0.6405693950177936,
+      "offset": [
+        65,
+        94
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/source_images/TAVI-021_lantern_reveal_pose_04_original.png",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "blue_hair_bbox": [
+        571,
+        22,
+        858,
+        258
+      ],
+      "body_alpha230_bbox": [
+        364,
+        19,
+        1118,
+        970
+      ],
+      "feet_x_bounds": [
+        488,
+        937
+      ],
+      "scale": 0.627177700348432,
+      "offset": [
+        65,
+        96
+      ]
+    },
+    {
+      "frame": 5,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/source_images/TAVI-021_lantern_reveal_pose_05_original.png",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "blue_hair_bbox": [
+        575,
+        33,
+        862,
+        269
+      ],
+      "body_alpha230_bbox": [
+        400,
+        32,
+        1025,
+        967
+      ],
+      "feet_x_bounds": [
+        512,
+        898
+      ],
+      "scale": 0.627177700348432,
+      "offset": [
+        70,
+        98
+      ]
+    },
+    {
+      "frame": 6,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/source_images/TAVI-021_lantern_reveal_pose_06_original.png",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "blue_hair_bbox": [
+        568,
+        29,
+        864,
+        269
+      ],
+      "body_alpha230_bbox": [
+        378,
+        29,
+        974,
+        969
+      ],
+      "feet_x_bounds": [
+        508,
+        902
+      ],
+      "scale": 0.6081081081081081,
+      "offset": [
+        83,
+        115
+      ]
+    }
+  ],
+  "silhouette_method": "black RGB with binary alpha threshold >=230; glow deliberately excluded from silhouette reference"
+}

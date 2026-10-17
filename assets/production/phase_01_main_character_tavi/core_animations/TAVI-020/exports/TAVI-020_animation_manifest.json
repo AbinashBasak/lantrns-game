@@ -1,0 +1,208 @@
+{
+  "asset_id": "TAVI-020",
+  "animation": "rune_activation",
+  "frame_count": 6,
+  "frame_dimensions": [
+    1024,
+    768
+  ],
+  "pivot_px": [
+    512,
+    704
+  ],
+  "frame_durations_ms": [
+    140,
+    120,
+    140,
+    350,
+    140,
+    180
+  ],
+  "loop": false,
+  "preview_loops_for_review": true,
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/frames/TAVI-020_rune_activation_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/frames/TAVI-020_rune_activation_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/frames/TAVI-020_rune_activation_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/frames/TAVI-020_rune_activation_04.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/frames/TAVI-020_rune_activation_05.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/frames/TAVI-020_rune_activation_06.png"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/source_images/TAVI-020_rune_activation_pose_01_original.png",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "blue_hair_bbox": [
+        520,
+        26,
+        799,
+        257
+      ],
+      "body_alpha230_bbox": [
+        222,
+        24,
+        1107,
+        967
+      ],
+      "feet_x_bounds": [
+        457,
+        862
+      ],
+      "scale": 0.6451612903225806,
+      "offset": [
+        87,
+        80
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/source_images/TAVI-020_rune_activation_pose_02_original.png",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "blue_hair_bbox": [
+        525,
+        29,
+        810,
+        259
+      ],
+      "body_alpha230_bbox": [
+        197,
+        27,
+        1220,
+        970
+      ],
+      "feet_x_bounds": [
+        461,
+        872
+      ],
+      "scale": 0.631578947368421,
+      "offset": [
+        91,
+        91
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/source_images/TAVI-020_rune_activation_pose_03_original.png",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "blue_hair_bbox": [
+        463,
+        23,
+        766,
+        264
+      ],
+      "body_alpha230_bbox": [
+        106,
+        22,
+        1427,
+        987
+      ],
+      "feet_x_bounds": [
+        391,
+        856
+      ],
+      "scale": 0.594059405940594,
+      "offset": [
+        142,
+        118
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/source_images/TAVI-020_rune_activation_pose_04_original.png",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "blue_hair_bbox": [
+        445,
+        26,
+        736,
+        256
+      ],
+      "body_alpha230_bbox": [
+        135,
+        26,
+        1453,
+        969
+      ],
+      "feet_x_bounds": [
+        399,
+        833
+      ],
+      "scale": 0.6185567010309279,
+      "offset": [
+        131,
+        105
+      ]
+    },
+    {
+      "frame": 5,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/source_images/TAVI-020_rune_activation_pose_05_original.png",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "blue_hair_bbox": [
+        523,
+        26,
+        804,
+        258
+      ],
+      "body_alpha230_bbox": [
+        236,
+        23,
+        1063,
+        969
+      ],
+      "feet_x_bounds": [
+        457,
+        872
+      ],
+      "scale": 0.6405693950177936,
+      "offset": [
+        86,
+        83
+      ]
+    },
+    {
+      "frame": 6,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/source_images/TAVI-020_rune_activation_pose_06_original.png",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "blue_hair_bbox": [
+        565,
+        20,
+        880,
+        267
+      ],
+      "body_alpha230_bbox": [
+        272,
+        17,
+        1199,
+        995
+      ],
+      "feet_x_bounds": [
+        514,
+        949
+      ],
+      "scale": 0.5714285714285714,
+      "offset": [
+        94,
+        135
+      ]
+    }
+  ],
+  "silhouette_method": "black RGB with binary alpha threshold >=230; glow deliberately excluded from silhouette reference"
+}

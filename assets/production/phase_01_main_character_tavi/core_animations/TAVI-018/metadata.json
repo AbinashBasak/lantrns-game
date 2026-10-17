@@ -1,0 +1,426 @@
+{
+  "asset_id": "TAVI-018",
+  "title": "Death",
+  "checked": false,
+  "stage": "six-pose death prototype generated and reviewed; halo, continuity and alignment cleanup pending; not production approved",
+  "last_updated": "2026-10-16T14:24:39.452872+05:30",
+  "generation_tool": "built-in image_gen",
+  "reference_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/source_images/TAVI-018_death_pose_01_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-fdf438a2-777b-4087-ac21-c5bec6bd7c13.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot TAVI-018 death animation, individual game sprite PNG. Reference image is approved Tavi character turnaround, used only to lock identity and illustrated 2D rendering. Exactly the same boy: vivid cobalt blue tousled hair (never brown), warm peach skin (never blue), cream rolled-sleeve tunic, brown leather cross-body straps and belt pouch, red scarf, dark charcoal trousers, brown gloves and tall buckled leather boots, short sword sheathed at belt. Maintain costume, proportions, face and painterly clean outlined fantasy platformer style of reference. Full character, isolated on real transparent alpha; no background, ground shadow, text, panels, labels, borders, extra figures, silhouette copy or effects. Right-facing profile with slight three-quarter readability. Entire body, scarf and sword visible with generous empty padding. Non-graphic defeated animation, no injury or blood. One pose only. Frame 01 of 6: standing with knees slightly bent, shoulders slumped, head bowed, eyes closed, loose hands, beginning to collapse. IMPORTANT clean production cutout: fully opaque character pixels inside its contours, transparent pixels outside. Absolutely NO colored aura, bloom, glow, haze, vignette, rimlight, halo or cast shadow. Side-on view. Full body with 12% padding all around. Use landscape canvas 1536x1024 so every pose in this sequence uses identical framing."
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/source_images/TAVI-018_death_pose_02_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-bdc16875-5cdd-437f-83b5-dd06bece9a78.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot TAVI-018 death animation, individual game sprite PNG. Reference image is approved Tavi character turnaround, used only to lock identity and illustrated 2D rendering. Exactly the same boy: vivid cobalt blue tousled hair (never brown), warm peach skin (never blue), cream rolled-sleeve tunic, brown leather cross-body straps and belt pouch, red scarf, dark charcoal trousers, brown gloves and tall buckled leather boots, short sword sheathed at belt. Maintain costume, proportions, face and painterly clean outlined fantasy platformer style of reference. Full character, isolated on real transparent alpha; no background, ground shadow, text, panels, labels, borders, extra figures, silhouette copy or effects. Right-facing profile with slight three-quarter readability. Entire body, scarf and sword visible with generous empty padding. Non-graphic defeated animation, no injury or blood. One pose only. Frame 02 of 6: knees buckle deeply into a squat, torso pitches forward, eyes closed, one hand reaches toward the ground, scarf hangs behind. Standing balance visibly lost. Landscape canvas, full body centered with generous 12% margin. Match the approved model, not prior hurt-art. Clean transparent background, no glow or colored fog, no cast shadow."
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/source_images/TAVI-018_death_pose_03_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-c91f70f8-2105-4cc6-b1f6-6000b84ccbf8.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot TAVI-018 death animation, individual game sprite PNG. Reference image is approved Tavi character turnaround, used only to lock identity and illustrated 2D rendering. Exactly the same boy: vivid cobalt blue tousled hair (never brown), warm peach skin (never blue), cream rolled-sleeve tunic, brown leather cross-body straps and belt pouch, red scarf, dark charcoal trousers, brown gloves and tall buckled leather boots, short sword sheathed at belt. Maintain costume, proportions, face and painterly clean outlined fantasy platformer style of reference. Full character, isolated on real transparent alpha; no background, ground shadow, text, panels, labels, borders, extra figures, silhouette copy or effects. Right-facing profile with slight three-quarter readability. Entire body, scarf and sword visible with generous empty padding. Non-graphic defeated animation, no injury or blood. One pose only. Frame 03 of 6: both knees touch ground, body kneeling, one gloved hand braces on ground to the right of knees, head lowered. Collapse progressing downward. Landscape canvas, full body centered with generous 12% margin. Match the approved model, not prior hurt-art. Clean transparent background, no glow or colored fog, no cast shadow."
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/source_images/TAVI-018_death_pose_04_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-41fb6d4c-fb98-4f8e-9d50-efa2ead35cd5.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot TAVI-018 death animation, individual game sprite PNG. Reference image is approved Tavi character turnaround, used only to lock identity and illustrated 2D rendering. Exactly the same boy: vivid cobalt blue tousled hair (never brown), warm peach skin (never blue), cream rolled-sleeve tunic, brown leather cross-body straps and belt pouch, red scarf, dark charcoal trousers, brown gloves and tall buckled leather boots, short sword sheathed at belt. Maintain costume, proportions, face and painterly clean outlined fantasy platformer style of reference. Full character, isolated on real transparent alpha; no background, ground shadow, text, panels, labels, borders, extra figures, silhouette copy or effects. Right-facing profile with slight three-quarter readability. Entire body, scarf and sword visible with generous empty padding. Non-graphic defeated animation, no injury or blood. One pose only. Frame 04 of 6: tipping forward from kneeling, palms and elbows bending, chest halfway toward ground, legs folding behind to the left, head towards right. Clearly lower than kneeling. Landscape canvas, full body centered with generous 12% margin. Match the approved model, not prior hurt-art. Clean transparent background, no glow or colored fog, no cast shadow."
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/source_images/TAVI-018_death_pose_05_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-322a3475-e97e-42af-affe-c03bb0a89160.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot TAVI-018 death animation, individual game sprite PNG. Reference image is approved Tavi character turnaround, used only to lock identity and illustrated 2D rendering. Exactly the same boy: vivid cobalt blue tousled hair (never brown), warm peach skin (never blue), cream rolled-sleeve tunic, brown leather cross-body straps and belt pouch, red scarf, dark charcoal trousers, brown gloves and tall buckled leather boots, short sword sheathed at belt. Maintain costume, proportions, face and painterly clean outlined fantasy platformer style of reference. Full character, isolated on real transparent alpha; no background, ground shadow, text, panels, labels, borders, extra figures, silhouette copy or effects. Right-facing profile with slight three-quarter readability. Entire body, scarf and sword visible with generous empty padding. Non-graphic defeated animation, no injury or blood. One pose only. Frame 05 of 6: body almost prone on its side, forearm cushioning head, shoulder nearly touching ground, legs extend folded to the left, head to right, eyes closed. Landscape canvas, full body centered with generous 12% margin. Match the approved model, not prior hurt-art. Clean transparent background, no glow or colored fog, no cast shadow."
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/source_images/TAVI-018_death_pose_06_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-4590b9b2-c409-45ac-8506-6440c214666a.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot TAVI-018 death animation, individual game sprite PNG. Reference image is approved Tavi character turnaround, used only to lock identity and illustrated 2D rendering. Exactly the same boy: vivid cobalt blue tousled hair (never brown), warm peach skin (never blue), cream rolled-sleeve tunic, brown leather cross-body straps and belt pouch, red scarf, dark charcoal trousers, brown gloves and tall buckled leather boots, short sword sheathed at belt. Maintain costume, proportions, face and painterly clean outlined fantasy platformer style of reference. Full character, isolated on real transparent alpha; no background, ground shadow, text, panels, labels, borders, extra figures, silhouette copy or effects. Right-facing profile with slight three-quarter readability. Entire body, scarf and sword visible with generous empty padding. Non-graphic defeated animation, no injury or blood. One pose only. Frame 06 of 6 final held pose: lying completely motionless on the ground, side profile, head resting on forearm towards right, bent legs trailing left, scarf settled, eyes closed. Entire prone body horizontal and visible. Landscape canvas, full body centered with generous 12% margin. Match the approved model, not prior hurt-art. Clean transparent background, no glow or colored fog, no cast shadow."
+    }
+  ],
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/TAVI-018_README.md",
+      "bytes": 827,
+      "sha256": "57fa0be2b3a8558125f9af515cf1e8a493eddd451de6dd13515e1e3c887c3563"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/TAVI-018_animation_manifest.json",
+      "bytes": 4813,
+      "sha256": "d80f3a7d2b4ca23b0b7684155d9d84bb216521be4669c8ccd2bdb6574cba4379"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/TAVI-018_death_prototype_pack.zip",
+      "bytes": 13286726,
+      "sha256": "385773f345bf0d95737d7df07d333abe1d20dc969a2ac527797d6655815c68bc"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/TAVI-018_death_silhouettes_strip.png",
+      "bytes": 38687,
+      "sha256": "8fecdfa1ab9f6dab61544715c710a33e1d47c88795196ba8d27c624b009ebc4b",
+      "dimensions": [
+        6144,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/TAVI-018_death_strip.png",
+      "bytes": 1543643,
+      "sha256": "d9e9008274503408e0613223eafa8bde302fb99e08d5bbfb899744c6cf377199",
+      "dimensions": [
+        6144,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/TAVI-018_generation_prompts.json",
+      "bytes": 9364,
+      "sha256": "ed1fdb7a11c946718a0542f148a573b06c16a05bcd19522d9ee47102ed174d6a"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/frames/TAVI-018_death_01.png",
+      "bytes": 244124,
+      "sha256": "a56c0ad8bfed34e590b9cb9bea14188c009bc24e43c96a869b5d5011a139b973",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/frames/TAVI-018_death_02.png",
+      "bytes": 253675,
+      "sha256": "e64e20a92d46f62daa50fbb8a3a050d897a2fc45e6e055f32e8da4b86f7a4cc5",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/frames/TAVI-018_death_03.png",
+      "bytes": 282665,
+      "sha256": "4f8589f3ae4db466eb6538e6df420a321e4a15a1d65fccbdc081be1fbd145021",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/frames/TAVI-018_death_04.png",
+      "bytes": 265776,
+      "sha256": "4ec1de5c40ce65560b289cc001a6fd291176ca7956aaf56381536c9d3ca3a166",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/frames/TAVI-018_death_05.png",
+      "bytes": 240051,
+      "sha256": "1e80bcbbb9919dd92a8ac1cea25b6083fe40c43b69c9308f79de535466de759f",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/frames/TAVI-018_death_06.png",
+      "bytes": 245289,
+      "sha256": "36307161dc7cf26dd4272ba5026ed4902d5abf738b60e1c346598bac7e546aaa",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/silhouettes/TAVI-018_death_01_silhouette.png",
+      "bytes": 7505,
+      "sha256": "9ce294862537612a9388e8562025df5e4e1f09f7c18170ce77c6655b053f311e",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/silhouettes/TAVI-018_death_02_silhouette.png",
+      "bytes": 7455,
+      "sha256": "459264c7230168ff444572b2192a32dcc6e5048e6e7f0d976d4f46cc12b19eb8",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/silhouettes/TAVI-018_death_03_silhouette.png",
+      "bytes": 7308,
+      "sha256": "85d1fed212230a61156cda4c5e998748178ca18d5d922557ffa0c39c1cd02113",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/silhouettes/TAVI-018_death_04_silhouette.png",
+      "bytes": 7244,
+      "sha256": "32414572edbcafe3a52f2ad128fb31ff01b06cf290f07d9e2d670880c7d45a55",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/silhouettes/TAVI-018_death_05_silhouette.png",
+      "bytes": 5955,
+      "sha256": "ed2f2b24f087405c4256d3c61cd2decf024c7518d0e76ee8dee25cb30dab1156",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/silhouettes/TAVI-018_death_06_silhouette.png",
+      "bytes": 5806,
+      "sha256": "300315f4e6050e63ba5da119d966c393f50bcfa053ed2eca10a1ebcb3aca119e",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/previews/TAVI-018_death_contact_sheet.jpg",
+      "bytes": 126086,
+      "sha256": "4954fa41e5b11912c63fcd24fc0feb1c9f23100a41ad9e2156275a922a7ca6a2",
+      "dimensions": [
+        1536,
+        820
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/previews/TAVI-018_death_preview.gif",
+      "bytes": 232910,
+      "sha256": "ba8bdd08a2d9e4cb1665c2f6608c7b1a028a2b8841e0b01e17d639b6c8134c34",
+      "dimensions": [
+        640,
+        480
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/source_images/TAVI-018_death_pose_01_original.png",
+      "bytes": 1195116,
+      "sha256": "ff0cc3bbcc41271ccbbc6da2b2d2d599bd3a5fb5549c40607f28f95ecf5b41e5",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/source_images/TAVI-018_death_pose_02_original.png",
+      "bytes": 1392564,
+      "sha256": "d2dd011f0ba5f6ce28ac6719cfc9b9ce52dce8c5639351983e10c5d5e2844616",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/source_images/TAVI-018_death_pose_03_original.png",
+      "bytes": 1496209,
+      "sha256": "f042dde9da5f3aeb7f4a01b0e2809e6b94c08ff070d0ab7d0e4a13fd66e53339",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/source_images/TAVI-018_death_pose_04_original.png",
+      "bytes": 1434437,
+      "sha256": "4382fd08dc0886eff31f2c2f14d579154d812c94bb6c21d6aea34e38cf8ad822",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/source_images/TAVI-018_death_pose_05_original.png",
+      "bytes": 820681,
+      "sha256": "e85e732e47f97c7e480f37d72dd2aa2c6211296b326542ee796c0b700c3665e4",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/source_images/TAVI-018_death_pose_06_original.png",
+      "bytes": 764074,
+      "sha256": "0e356290e61812eb2621de0d66564906f198014791240297ceeca8e043513355",
+      "dimensions": [
+        1671,
+        941
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/source_images/TAVI-018_frame_01_draft_with_glow.png",
+      "bytes": 1714411,
+      "sha256": "15ca726c0c1e852c5cac9d93a30a712f85ae9325f588bed728c09dfe83e32e2e",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/source_images/TAVI-018_frame_01_generation_02.png",
+      "bytes": 1195116,
+      "sha256": "ff0cc3bbcc41271ccbbc6da2b2d2d599bd3a5fb5549c40607f28f95ecf5b41e5",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/TAVI-018_death_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/previews/TAVI-018_death_preview.gif",
+  "frame_count": 6,
+  "frame_dimensions": [
+    1024,
+    768
+  ],
+  "frame_durations_ms": [
+    180,
+    140,
+    140,
+    160,
+    180,
+    900
+  ],
+  "loop": false,
+  "review_notes": [
+    "Identity colors match approved Tavi: blue hair, peach skin, cream tunic, red scarf.",
+    "Death/collapse poses delivered; no attack substitution.",
+    "Soft colored halos persist in poses 1\u20134 despite a correction attempt. Earlier drafts preserved.",
+    "Scale normalized by hair bounds; not tested in Godot. Runtime integration not requested."
+  ],
+  "export_provenance": "derived by resampling and placing generated poses on common canvases; generated alpha preserved; silhouettes derived using alpha threshold"
+}

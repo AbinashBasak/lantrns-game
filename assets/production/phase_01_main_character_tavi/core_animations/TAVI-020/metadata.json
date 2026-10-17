@@ -1,0 +1,427 @@
+{
+  "asset_id": "TAVI-020",
+  "title": "Activate rune with sword",
+  "checked": false,
+  "stage": "six-pose rune_activation prototype generated and reviewed; continuity and in-engine review pending; not production approved",
+  "last_updated": "2026-10-16T15:03:25.805458+05:30",
+  "generation_tool": "built-in image_gen",
+  "reference_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/source_images/TAVI-020_rune_activation_pose_01_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-7eac0582-2054-437c-950b-c98e89a89573.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot individual full-body animation sprite PNG. Reference 1 is approved Tavi identity and rendering; reference 2 is magic/material palette only, never reproduce its board, text, scene or layout. Match exactly this original illustrated boy: short spiky cobalt blue hair, warm peach skin, cream rolled-sleeve tunic, red scarf clasped at shoulder trailing left, brown leather harness, brown fingerless gloves, belt pouch, charcoal pants, tall brown buckled boots. Clean 2D hand-painted fantasy platformer character. Calm focused eyes open. RIGHT-facing side/three-quarter view. Whole character, hair, boots, fingertips, held item fully visible with padding. Same camera, scale, perspective, costume, face and grounded stance across all frames. Feet stay planted, no walking. Isolated character cutout on genuine transparent alpha. Even lighting, opaque character interior. No environment, ground plane, floor, cast shadows, text, labels, panels, extra characters, giant aura, fog or background vignette. The arm toward RIGHT EDGE OF IMAGE is the active arm. The other arm visible on LEFT side beside the pouch stays relaxed down. One pose only. Landscape canvas 1536x1024, generous clear room for held items. Asset TAVI-020 \u2014 Activate rune with sword. One short silver leaf-shaped sword with brass crossguard and brown grip is held in the active arm toward image right; matching EMPTY brown scabbard stays attached to belt. Only one sword. This is a gentle ritual/contact gesture, never a combat swing or slash. Invisible rune surface is external and must NOT be drawn. Later additional reference image is the first generated pose of THIS sequence, use it to lock sword, grip and costume continuity only. Pose 01 READY: stand upright looking right, hold drawn sword low forward with point down-right, active elbow close to hip. Other hand down.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-005/ART-005_magic_rune_glow_particle_reference.png"
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/source_images/TAVI-020_rune_activation_pose_02_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-a1f078d8-f530-41a3-9191-f6b60afc4491.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot individual full-body animation sprite PNG. Reference 1 is approved Tavi identity and rendering; reference 2 is magic/material palette only, never reproduce its board, text, scene or layout. Match exactly this original illustrated boy: short spiky cobalt blue hair, warm peach skin, cream rolled-sleeve tunic, red scarf clasped at shoulder trailing left, brown leather harness, brown fingerless gloves, belt pouch, charcoal pants, tall brown buckled boots. Clean 2D hand-painted fantasy platformer character. Calm focused eyes open. RIGHT-facing side/three-quarter view. Whole character, hair, boots, fingertips, held item fully visible with padding. Same camera, scale, perspective, costume, face and grounded stance across all frames. Feet stay planted, no walking. Isolated character cutout on genuine transparent alpha. Even lighting, opaque character interior. No environment, ground plane, floor, cast shadows, text, labels, panels, extra characters, giant aura, fog or background vignette. The arm toward RIGHT EDGE OF IMAGE is the active arm. The other arm visible on LEFT side beside the pouch stays relaxed down. One pose only. Landscape canvas 1536x1024, generous clear room for held items. Asset TAVI-020 \u2014 Activate rune with sword. One short silver leaf-shaped sword with brass crossguard and brown grip is held in the active arm toward image right; matching EMPTY brown scabbard stays attached to belt. Only one sword. This is a gentle ritual/contact gesture, never a combat swing or slash. Invisible rune surface is external and must NOT be drawn. Later additional reference image is the first generated pose of THIS sequence, use it to lock sword, grip and costume continuity only. Pose 02 LIFT: lift the same sword toward chest-height target at right, elbow bent, blade diagonally up-right; other hand down.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-005/ART-005_magic_rune_glow_particle_reference.png",
+        "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-7eac0582-2054-437c-950b-c98e89a89573.png"
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/source_images/TAVI-020_rune_activation_pose_03_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-eb1fe035-6622-44cc-86cd-9503309e8e6b.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot individual full-body animation sprite PNG. Reference 1 is approved Tavi identity and rendering; reference 2 is magic/material palette only, never reproduce its board, text, scene or layout. Match exactly this original illustrated boy: short spiky cobalt blue hair, warm peach skin, cream rolled-sleeve tunic, red scarf clasped at shoulder trailing left, brown leather harness, brown fingerless gloves, belt pouch, charcoal pants, tall brown buckled boots. Clean 2D hand-painted fantasy platformer character. Calm focused eyes open. RIGHT-facing side/three-quarter view. Whole character, hair, boots, fingertips, held item fully visible with padding. Same camera, scale, perspective, costume, face and grounded stance across all frames. Feet stay planted, no walking. Isolated character cutout on genuine transparent alpha. Even lighting, opaque character interior. No environment, ground plane, floor, cast shadows, text, labels, panels, extra characters, giant aura, fog or background vignette. The arm toward RIGHT EDGE OF IMAGE is the active arm. The other arm visible on LEFT side beside the pouch stays relaxed down. One pose only. Landscape canvas 1536x1024, generous clear room for held items. Asset TAVI-020 \u2014 Activate rune with sword. One short silver leaf-shaped sword with brass crossguard and brown grip is held in the active arm toward image right; matching EMPTY brown scabbard stays attached to belt. Only one sword. This is a gentle ritual/contact gesture, never a combat swing or slash. Invisible rune surface is external and must NOT be drawn. Later additional reference image is the first generated pose of THIS sequence, use it to lock sword, grip and costume continuity only. Pose 03 ALIGN: extend active forearm forward to right, gently aim sword point horizontally right at an invisible rune surface at lower-chest height. Blade in side profile, not foreshortened.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-005/ART-005_magic_rune_glow_particle_reference.png",
+        "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-7eac0582-2054-437c-950b-c98e89a89573.png"
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/source_images/TAVI-020_rune_activation_pose_04_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-50cd61e4-fa59-47c0-858d-2ea4a5f2fb1f.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot individual full-body animation sprite PNG. Reference 1 is approved Tavi identity and rendering; reference 2 is magic/material palette only, never reproduce its board, text, scene or layout. Match exactly this original illustrated boy: short spiky cobalt blue hair, warm peach skin, cream rolled-sleeve tunic, red scarf clasped at shoulder trailing left, brown leather harness, brown fingerless gloves, belt pouch, charcoal pants, tall brown buckled boots. Clean 2D hand-painted fantasy platformer character. Calm focused eyes open. RIGHT-facing side/three-quarter view. Whole character, hair, boots, fingertips, held item fully visible with padding. Same camera, scale, perspective, costume, face and grounded stance across all frames. Feet stay planted, no walking. Isolated character cutout on genuine transparent alpha. Even lighting, opaque character interior. No environment, ground plane, floor, cast shadows, text, labels, panels, extra characters, giant aura, fog or background vignette. The arm toward RIGHT EDGE OF IMAGE is the active arm. The other arm visible on LEFT side beside the pouch stays relaxed down. One pose only. Landscape canvas 1536x1024, generous clear room for held items. Asset TAVI-020 \u2014 Activate rune with sword. One short silver leaf-shaped sword with brass crossguard and brown grip is held in the active arm toward image right; matching EMPTY brown scabbard stays attached to belt. Only one sword. This is a gentle ritual/contact gesture, never a combat swing or slash. Invisible rune surface is external and must NOT be drawn. Later additional reference image is the first generated pose of THIS sequence, use it to lock sword, grip and costume continuity only. Pose 04 ACTIVATE CONTACT: fully extend same sword arm toward right, blade held horizontal, sword tip touching invisible rune at chest height, tiny warm gold bead of light ONLY at blade tip, no drawn rune slab, no slash, no explosion. Other hand down.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-005/ART-005_magic_rune_glow_particle_reference.png",
+        "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-7eac0582-2054-437c-950b-c98e89a89573.png"
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/source_images/TAVI-020_rune_activation_pose_05_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-4bea1705-4c3c-4f63-89a8-ee19484918b8.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot individual full-body animation sprite PNG. Reference 1 is approved Tavi identity and rendering; reference 2 is magic/material palette only, never reproduce its board, text, scene or layout. Match exactly this original illustrated boy: short spiky cobalt blue hair, warm peach skin, cream rolled-sleeve tunic, red scarf clasped at shoulder trailing left, brown leather harness, brown fingerless gloves, belt pouch, charcoal pants, tall brown buckled boots. Clean 2D hand-painted fantasy platformer character. Calm focused eyes open. RIGHT-facing side/three-quarter view. Whole character, hair, boots, fingertips, held item fully visible with padding. Same camera, scale, perspective, costume, face and grounded stance across all frames. Feet stay planted, no walking. Isolated character cutout on genuine transparent alpha. Even lighting, opaque character interior. No environment, ground plane, floor, cast shadows, text, labels, panels, extra characters, giant aura, fog or background vignette. The arm toward RIGHT EDGE OF IMAGE is the active arm. The other arm visible on LEFT side beside the pouch stays relaxed down. One pose only. Landscape canvas 1536x1024, generous clear room for held items. Asset TAVI-020 \u2014 Activate rune with sword. One short silver leaf-shaped sword with brass crossguard and brown grip is held in the active arm toward image right; matching EMPTY brown scabbard stays attached to belt. Only one sword. This is a gentle ritual/contact gesture, never a combat swing or slash. Invisible rune surface is external and must NOT be drawn. Later additional reference image is the first generated pose of THIS sequence, use it to lock sword, grip and costume continuity only. Pose 05 WITHDRAW: retract same active right-edge arm, elbow bending back toward torso, sword point diagonally down-right after contact, tiny tip light fading. Other arm stays down beside left-side pouch.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-005/ART-005_magic_rune_glow_particle_reference.png",
+        "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-7eac0582-2054-437c-950b-c98e89a89573.png"
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/source_images/TAVI-020_rune_activation_pose_06_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-8231d919-2364-4f00-805a-fb35829c9103.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen output",
+      "prompt": "Use case: stylized-concept. Asset: Lanterns Underroot individual full-body animation sprite PNG. Reference 1 is approved Tavi identity and rendering; reference 2 is magic/material palette only, never reproduce its board, text, scene or layout. Match exactly this original illustrated boy: short spiky cobalt blue hair, warm peach skin, cream rolled-sleeve tunic, red scarf clasped at shoulder trailing left, brown leather harness, brown fingerless gloves, belt pouch, charcoal pants, tall brown buckled boots. Clean 2D hand-painted fantasy platformer character. Calm focused eyes open. RIGHT-facing side/three-quarter view. Whole character, hair, boots, fingertips, held item fully visible with padding. Same camera, scale, perspective, costume, face and grounded stance across all frames. Feet stay planted, no walking. Isolated character cutout on genuine transparent alpha. Even lighting, opaque character interior. No environment, ground plane, floor, cast shadows, text, labels, panels, extra characters, giant aura, fog or background vignette. The arm toward RIGHT EDGE OF IMAGE is the active arm. The other arm visible on LEFT side beside the pouch stays relaxed down. One pose only. Landscape canvas 1536x1024, generous clear room for held items. Asset TAVI-020 \u2014 Activate rune with sword. One short silver leaf-shaped sword with brass crossguard and brown grip is held in the active arm toward image right; matching EMPTY brown scabbard stays attached to belt. Only one sword. This is a gentle ritual/contact gesture, never a combat swing or slash. Invisible rune surface is external and must NOT be drawn. Later additional reference image is the first generated pose of THIS sequence, use it to lock sword, grip and costume continuity only. Pose 06 SETTLE: upright stand looking right, same sword held safely low forward point down-right, active elbow near hip, exactly ready stance again. No glow.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-005/ART-005_magic_rune_glow_particle_reference.png",
+        "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-7eac0582-2054-437c-950b-c98e89a89573.png"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/TAVI-020_README.md",
+      "bytes": 959,
+      "sha256": "24d8e7e1cd3150850281f64235d22f198fdf7f913efd92e0c38f68b31f14ae0d"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/TAVI-020_animation_manifest.json",
+      "bytes": 5278,
+      "sha256": "c369ed2542e58a16ce711abbd4d22243031766336e867e92d0393b3935a64fcb"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/TAVI-020_generation_prompts.json",
+      "bytes": 15912,
+      "sha256": "4738b86e15077881188b95af25461ec31122223cda1f7968f925d76557c638a0"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/TAVI-020_rune_activation_prototype_pack.zip",
+      "bytes": 13167593,
+      "sha256": "f96323cb96ddc1a38ecb7387fab9807580e9cc8655673077843833d44c4cbd4f"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/TAVI-020_rune_activation_silhouettes_strip.png",
+      "bytes": 45858,
+      "sha256": "445246c05abbf7175f1a3ded6d6c71ccab9b7b259377ee5a7de62881f64b5a70",
+      "dimensions": [
+        6144,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/TAVI-020_rune_activation_strip.png",
+      "bytes": 1924830,
+      "sha256": "cd95d6630e03d3864db599093ffe9e7ec17575982106e4223b4aebb0a5cc75ba",
+      "dimensions": [
+        6144,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/frames/TAVI-020_rune_activation_01.png",
+      "bytes": 326308,
+      "sha256": "ba75c26d612185c38575dd7197b71ddba07a3a01f1aa43f55e1eafb998bd5003",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/frames/TAVI-020_rune_activation_02.png",
+      "bytes": 334950,
+      "sha256": "8a84f6149fa3f64ea16571c87cea8e789994d7fd53f272ae3e36636f1f34f63c",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/frames/TAVI-020_rune_activation_03.png",
+      "bytes": 323897,
+      "sha256": "7a2f33d10a370455a2fe63422d7326be6cf610a04508d90dafc7809190881de7",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/frames/TAVI-020_rune_activation_04.png",
+      "bytes": 337324,
+      "sha256": "36879b2a4c6e1440860edbca2d99a88bcb8bb1eaa508f33143f7fb30929ef278",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/frames/TAVI-020_rune_activation_05.png",
+      "bytes": 318461,
+      "sha256": "f0340bcef0dafb6a6d827709705358ccae121a410ea594039662b02a764fd31d",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/frames/TAVI-020_rune_activation_06.png",
+      "bytes": 286857,
+      "sha256": "6077b15e32e17c417544a3c9531d411d94d3412a9266e6b6a088edef84a6dbfd",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/silhouettes/TAVI-020_rune_activation_01_silhouette.png",
+      "bytes": 9068,
+      "sha256": "fe8bb3fa0604b08b478ca7d124a75b5c0cb2f82eb1be518e73121e7d3888e737",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/silhouettes/TAVI-020_rune_activation_02_silhouette.png",
+      "bytes": 9211,
+      "sha256": "4ad8901943908c8739b19214a18e95eea6d267f2d3a25770412f97919dfb62d3",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/silhouettes/TAVI-020_rune_activation_03_silhouette.png",
+      "bytes": 8578,
+      "sha256": "d117fda5a1286e67bfdabf7e9b83607903b86a6f6e83fe0269a4922c5dbd994e",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/silhouettes/TAVI-020_rune_activation_04_silhouette.png",
+      "bytes": 8518,
+      "sha256": "e548b39683ada65e6be96f2e2ccf8de4f53bef97b1e6c191eb3dd3613f3dcbbd",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/silhouettes/TAVI-020_rune_activation_05_silhouette.png",
+      "bytes": 8931,
+      "sha256": "0246ee475d0448c172d822393f12b7f4d65c452812c7dfe3d84cd1f186017d2c",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/silhouettes/TAVI-020_rune_activation_06_silhouette.png",
+      "bytes": 8784,
+      "sha256": "07368b4e23f21c1748f84c11ca8228c509a93d501d8466eb288f71aaa192844c",
+      "dimensions": [
+        1024,
+        768
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/previews/TAVI-020_rune_activation_contact_sheet.jpg",
+      "bytes": 155105,
+      "sha256": "a464c3a18c53033ebfbbbd7e6cc5cad4dcc3f538442de5654d184e1861f47029",
+      "dimensions": [
+        1536,
+        820
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/previews/TAVI-020_rune_activation_preview.gif",
+      "bytes": 270930,
+      "sha256": "0a61eabd3485bdd16c1d8615f68949a34e83c7ad647c2b4f5e7f21cffc10d56b",
+      "dimensions": [
+        640,
+        480
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/source_images/TAVI-020_rune_activation_pose_01_original.png",
+      "bytes": 1423851,
+      "sha256": "4c5910bc1b30774583c6bf38cf8a503b2618163b5abae034599eaaef0809721e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/source_images/TAVI-020_rune_activation_pose_02_original.png",
+      "bytes": 1487158,
+      "sha256": "102fb61188ae7b06ee0c0a86f2117f354fd0bb8b4d82bdfed9c31b037edcef60",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/source_images/TAVI-020_rune_activation_pose_03_original.png",
+      "bytes": 1567012,
+      "sha256": "e44144473e0d2efa428bd31183cb1df0f98ded5137f168c5f26887917f8b09ec",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/source_images/TAVI-020_rune_activation_pose_04_original.png",
+      "bytes": 1559732,
+      "sha256": "977c4f67d1b3c85c298e668db478f21cf19b2239140a70bb74b2cd8d276d81d6",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/source_images/TAVI-020_rune_activation_pose_05_original.png",
+      "bytes": 1409496,
+      "sha256": "d6fd9a450bf5a025f7c73868a27cb6828a06dab93ab95026969326707b01cd7d",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/source_images/TAVI-020_rune_activation_pose_06_original.png",
+      "bytes": 1491059,
+      "sha256": "dbed11863492569fe9beed1b221eab09c9a44fda13fd1e6ee0dd5a7b8392a979",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/TAVI-020_rune_activation_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/previews/TAVI-020_rune_activation_preview.gif",
+  "frame_count": 6,
+  "frame_dimensions": [
+    1024,
+    768
+  ],
+  "frame_durations_ms": [
+    140,
+    120,
+    140,
+    350,
+    140,
+    180
+  ],
+  "loop": false,
+  "review_notes": [
+    "Identity/style reference: approved TAVI-001; magic palette: ART-005.",
+    "Sword tip contacts an external rune surface; warm gold tip light is baked into the contact pose. No rune prop is marked delivered.",
+    "Sword crossguard geometry varies between poses and needs cleanup. Review hand anatomy, equipment continuity, baseline alignment and exact contact/hold location before runtime use.",
+    "Sources generated individually with built-in image_gen. Derived exports preserve generated alpha. Not tested in Godot."
+  ],
+  "export_provenance": "derived by resampling and placing generated poses on common canvases; generated alpha preserved; silhouettes derived using alpha threshold"
+}
