@@ -1,0 +1,280 @@
+{
+  "asset_id": "FX-020",
+  "id": "FX-020",
+  "title": "Magic projectile",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020",
+  "prompt": "Procedural: Magic projectile rendered by tools/fx_effects.py (fx020) with the ART-002 VFX palette; no generative image model used.",
+  "generation_tool": "procedural (Pillow + numpy; tools/generate_phase07_fx.py)",
+  "production_approved": false,
+  "runtime_integrated": false,
+  "last_updated": "2026-10-17T21:17:48.318971+05:30",
+  "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending",
+  "requested_deliverables_saved_and_reviewed": true,
+  "deliverables": [
+    {
+      "slug": "magic_projectile",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/source_images/FX-020_magic_projectile_procedural_sheet.png",
+      "frame_count": 11,
+      "cols": 6,
+      "rows": 2,
+      "roles": [
+        "frame_00",
+        "frame_01",
+        "frame_02",
+        "frame_03",
+        "frame_04",
+        "frame_05",
+        "frame_06",
+        "frame_07",
+        "frame_08",
+        "frame_09",
+        "frame_10"
+      ],
+      "sequences": {
+        "flight_loop": {
+          "first": 0,
+          "last": 5
+        },
+        "impact": {
+          "first": 6,
+          "last": 10
+        }
+      },
+      "export_cell_dimensions": [
+        128,
+        96
+      ],
+      "pivot_px": [
+        92,
+        48
+      ],
+      "timing": {
+        "fps": 16
+      },
+      "loop": false,
+      "provenance": "procedural render; deterministic (fixed RNG seeds), no external source image",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_07.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_08.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_09.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_10.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_sheet.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_frames.json"
+      ],
+      "preview_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/previews/FX-020_contact_light.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/previews/FX-020_contact_dark.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/previews/FX-020_magic_projectile_preview.gif"
+      ],
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/source_images/FX-020_magic_projectile_procedural_sheet.png",
+        "role": "procedural sheet",
+        "sha256": "bf7eb3c769ff7d56124c8132bcd726cb9b01f0241c8b0d2ba445fd999c5cf3c3",
+        "bytes": 47440,
+        "dimensions": [
+          768,
+          192
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_00.png",
+          "role": "frame png",
+          "sha256": "fb64054fd60c448921385da72a373fe4be2daf324047a482b55b095277db4e99",
+          "bytes": 3767,
+          "dimensions": [
+            128,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_01.png",
+          "role": "frame png",
+          "sha256": "34bf2ca020c6fdfbf880692b6d060615fb28e46f81a538d3f2c0fdad2eb5641c",
+          "bytes": 3904,
+          "dimensions": [
+            128,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_02.png",
+          "role": "frame png",
+          "sha256": "ce7a15ad18c1aaa5cd3e3925dc2ccd094a05c53a4a9cb7cd87da005828c84b4a",
+          "bytes": 3916,
+          "dimensions": [
+            128,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_03.png",
+          "role": "frame png",
+          "sha256": "4ea83a8c2ffb1aeb9279dd2e3865bad413340295afb8f5d71adeabd3a056ed22",
+          "bytes": 3428,
+          "dimensions": [
+            128,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_04.png",
+          "role": "frame png",
+          "sha256": "c7fdb7ba3a4786ace43f131bc5fdb777deb9a148d6e1d7d06b7890f71fb5d564",
+          "bytes": 3570,
+          "dimensions": [
+            128,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_05.png",
+          "role": "frame png",
+          "sha256": "1d5e32e79debd77c660f29c901e64fd3794b26c353ba44c13a51d3eb9b153c1d",
+          "bytes": 3759,
+          "dimensions": [
+            128,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_06.png",
+          "role": "frame png",
+          "sha256": "3a254b9770af75ce4b2cc114c0c30d5a6b10b795d68f60764ff8077613b65167",
+          "bytes": 6541,
+          "dimensions": [
+            128,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_07.png",
+          "role": "frame png",
+          "sha256": "0107bad4475925bcb4e496f4dec196c6f9522d5f96758a0f5c2739bf9ad3651a",
+          "bytes": 7330,
+          "dimensions": [
+            128,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_08.png",
+          "role": "frame png",
+          "sha256": "3798a4332dd92324e737d806b49a7877195cf594babfdb5b101a1b92c4a492bc",
+          "bytes": 6797,
+          "dimensions": [
+            128,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            206
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_09.png",
+          "role": "frame png",
+          "sha256": "6976ed9aaa0fe58ae5b63840de301765bdbf1157e8d7ce526b0c5194242800ef",
+          "bytes": 5644,
+          "dimensions": [
+            128,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            113
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_10.png",
+          "role": "frame png",
+          "sha256": "7db3faef38225781aefafe1b631f9bbb49ac6cf4598736b37f9dd435b7aa222c",
+          "bytes": 4275,
+          "dimensions": [
+            128,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            38
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports/FX-020_magic_projectile_sheet.png",
+          "role": "sheet png",
+          "sha256": "bf7eb3c769ff7d56124c8132bcd726cb9b01f0241c8b0d2ba445fd999c5cf3c3",
+          "bytes": 47440,
+          "dimensions": [
+            768,
+            192
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ]
+    }
+  ],
+  "review_notes": [
+    "Flight loop flies to the right; the impact burst is centered at x = 64 and is not a continuation of the flight pivot.",
+    "Prototype effect art for timing and readability; not final production approval.",
+    "No Godot scene, AnimatedSprite2D, particle or shader integration implied."
+  ]
+}

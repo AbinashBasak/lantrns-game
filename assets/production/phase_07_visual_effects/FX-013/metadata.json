@@ -1,0 +1,224 @@
+{
+  "asset_id": "FX-013",
+  "id": "FX-013",
+  "title": "Collectible pickup",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013",
+  "prompt": "Procedural: Collectible pickup rendered by tools/fx_effects.py (fx013) with the ART-002 VFX palette; no generative image model used.",
+  "generation_tool": "procedural (Pillow + numpy; tools/generate_phase07_fx.py)",
+  "production_approved": false,
+  "runtime_integrated": false,
+  "last_updated": "2026-10-17T21:17:45.012769+05:30",
+  "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending",
+  "requested_deliverables_saved_and_reviewed": true,
+  "deliverables": [
+    {
+      "slug": "collectible_pickup",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/source_images/FX-013_collectible_pickup_procedural_sheet.png",
+      "frame_count": 8,
+      "cols": 8,
+      "rows": 1,
+      "roles": [
+        "frame_00",
+        "frame_01",
+        "frame_02",
+        "frame_03",
+        "frame_04",
+        "frame_05",
+        "frame_06",
+        "frame_07"
+      ],
+      "sequences": {
+        "main": {
+          "first": 0,
+          "last": 7
+        }
+      },
+      "export_cell_dimensions": [
+        128,
+        128
+      ],
+      "pivot_px": [
+        64,
+        70
+      ],
+      "timing": {
+        "fps": 18
+      },
+      "loop": false,
+      "provenance": "procedural render; deterministic (fixed RNG seeds), no external source image",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_07.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_sheet.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_frames.json"
+      ],
+      "preview_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/previews/FX-013_contact_light.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/previews/FX-013_contact_dark.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/previews/FX-013_collectible_pickup_preview.gif"
+      ],
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/source_images/FX-013_collectible_pickup_procedural_sheet.png",
+        "role": "procedural sheet",
+        "sha256": "92c0600f7fb2156fb34c467b92de3404f6c10b828454f66e93b6f002224e10e2",
+        "bytes": 43044,
+        "dimensions": [
+          1024,
+          128
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_00.png",
+          "role": "frame png",
+          "sha256": "1a12befccfddccde73cb1db2e32b6c7cb885a1e08b63e8f52a8d6c0773d88f1f",
+          "bytes": 3873,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_01.png",
+          "role": "frame png",
+          "sha256": "f72215912a92da867439ef0dc204f0367e3f9c641790fac0344f4a88bee58c74",
+          "bytes": 5800,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_02.png",
+          "role": "frame png",
+          "sha256": "747014bf787cd83081a61f54b5c7f41cf6c38c48883141d2e5a57c451542e419",
+          "bytes": 6538,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_03.png",
+          "role": "frame png",
+          "sha256": "928eb2971432303f89312d53dd841044c567cdbec601e308be901487d8b682de",
+          "bytes": 6877,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_04.png",
+          "role": "frame png",
+          "sha256": "340ab3a73c8f29b8eebd7aeb69e1e1692d4607a2136cf4b0c445ba008f0c7e32",
+          "bytes": 6766,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            203
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_05.png",
+          "role": "frame png",
+          "sha256": "533553969a800b99ecc66b49a4d4e7fad82d044cd6213ba43b2725228c25e9f1",
+          "bytes": 6178,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            135
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_06.png",
+          "role": "frame png",
+          "sha256": "3d403afa0fd1050f4b2a36a182dfaec3567862f95c08fbb7fab8372af7d207ab",
+          "bytes": 5445,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            73
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_07.png",
+          "role": "frame png",
+          "sha256": "869e7186351429cccd2c54e5f5ee4b2ded433b37091cf98b9f0e01a6da28abe3",
+          "bytes": 4308,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            20
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_sheet.png",
+          "role": "sheet png",
+          "sha256": "92c0600f7fb2156fb34c467b92de3404f6c10b828454f66e93b6f002224e10e2",
+          "bytes": 43044,
+          "dimensions": [
+            1024,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ]
+    }
+  ],
+  "review_notes": [
+    "Prototype effect art for timing and readability; not final production approval.",
+    "No Godot scene, AnimatedSprite2D, particle or shader integration implied."
+  ]
+}

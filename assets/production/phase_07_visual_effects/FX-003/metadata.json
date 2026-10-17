@@ -1,0 +1,157 @@
+{
+  "asset_id": "FX-003",
+  "id": "FX-003",
+  "title": "Enemy hit flash",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-003",
+  "prompt": "Procedural: Enemy hit flash rendered by tools/fx_effects.py (fx003) with the ART-002 VFX palette; no generative image model used.",
+  "generation_tool": "procedural (Pillow + numpy; tools/generate_phase07_fx.py)",
+  "production_approved": false,
+  "runtime_integrated": false,
+  "last_updated": "2026-10-17T21:17:42.341953+05:30",
+  "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending",
+  "requested_deliverables_saved_and_reviewed": true,
+  "deliverables": [
+    {
+      "slug": "enemy_hit_flash",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-003/source_images/FX-003_enemy_hit_flash_procedural_sheet.png",
+      "frame_count": 4,
+      "cols": 4,
+      "rows": 1,
+      "roles": [
+        "frame_00",
+        "frame_01",
+        "frame_02",
+        "frame_03"
+      ],
+      "sequences": {
+        "main": {
+          "first": 0,
+          "last": 3
+        }
+      },
+      "export_cell_dimensions": [
+        128,
+        128
+      ],
+      "pivot_px": [
+        64,
+        64
+      ],
+      "timing": {
+        "fps": 30
+      },
+      "loop": false,
+      "provenance": "procedural render; deterministic (fixed RNG seeds), no external source image",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-003/exports/FX-003_enemy_hit_flash_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-003/exports/FX-003_enemy_hit_flash_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-003/exports/FX-003_enemy_hit_flash_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-003/exports/FX-003_enemy_hit_flash_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-003/exports/FX-003_enemy_hit_flash_sheet.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-003/exports/FX-003_enemy_hit_flash_frames.json"
+      ],
+      "preview_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-003/previews/FX-003_contact_light.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-003/previews/FX-003_contact_dark.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-003/previews/FX-003_enemy_hit_flash_preview.gif"
+      ],
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-003/source_images/FX-003_enemy_hit_flash_procedural_sheet.png",
+        "role": "procedural sheet",
+        "sha256": "db72fc2cc9dbe8cbb317682baa54a802e1b58cd2512173a2339e2bbfb61e477c",
+        "bytes": 20886,
+        "dimensions": [
+          512,
+          128
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-003/exports/FX-003_enemy_hit_flash_00.png",
+          "role": "frame png",
+          "sha256": "7d0a6adf8d65a487003e3293eb647db3c13994361887e83b9804a41c48a0dd08",
+          "bytes": 3441,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-003/exports/FX-003_enemy_hit_flash_01.png",
+          "role": "frame png",
+          "sha256": "1c9c11c37575efe919774debc754c8ccae7b0b05d0dec98660837f69e36fa0d9",
+          "bytes": 8039,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-003/exports/FX-003_enemy_hit_flash_02.png",
+          "role": "frame png",
+          "sha256": "9a472368be16593ecaba661537711f956ac055beb48d3d38a2c6e8073549784d",
+          "bytes": 6227,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-003/exports/FX-003_enemy_hit_flash_03.png",
+          "role": "frame png",
+          "sha256": "6d1974676096ce63b1fc32dfce22ceb1ead39b6bc9a6ad23bb684735c26724e0",
+          "bytes": 2799,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            245
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-003/exports/FX-003_enemy_hit_flash_sheet.png",
+          "role": "sheet png",
+          "sha256": "db72fc2cc9dbe8cbb317682baa54a802e1b58cd2512173a2339e2bbfb61e477c",
+          "bytes": 20886,
+          "dimensions": [
+            512,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ]
+    }
+  ],
+  "review_notes": [
+    "Burst overlay only. A full-silhouette white flash of the enemy sprite should be a shader/modulate in Godot, not baked art.",
+    "Prototype effect art for timing and readability; not final production approval.",
+    "No Godot scene, AnimatedSprite2D, particle or shader integration implied."
+  ]
+}

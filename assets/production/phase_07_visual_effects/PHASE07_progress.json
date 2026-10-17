@@ -1,0 +1,288 @@
+{
+  "last_updated": "2026-10-17T21:17:48.432398+05:30",
+  "reviewed_packs": 20,
+  "expected": 20,
+  "production_approved": false,
+  "packs": [
+    {
+      "id": "FX-001",
+      "title": "Sword swing trail",
+      "frames": 6,
+      "cell": [
+        192,
+        192
+      ],
+      "fps": 20,
+      "loop": false,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-001/metadata.json",
+      "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending"
+    },
+    {
+      "id": "FX-002",
+      "title": "Sword impact sparks",
+      "frames": 6,
+      "cell": [
+        128,
+        128
+      ],
+      "fps": 24,
+      "loop": false,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-002/metadata.json",
+      "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending"
+    },
+    {
+      "id": "FX-003",
+      "title": "Enemy hit flash",
+      "frames": 4,
+      "cell": [
+        128,
+        128
+      ],
+      "fps": 30,
+      "loop": false,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-003/metadata.json",
+      "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending"
+    },
+    {
+      "id": "FX-004",
+      "title": "Enemy defeat particles",
+      "frames": 8,
+      "cell": [
+        192,
+        192
+      ],
+      "fps": 16,
+      "loop": false,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-004/metadata.json",
+      "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending"
+    },
+    {
+      "id": "FX-005",
+      "title": "Running dust",
+      "frames": 6,
+      "cell": [
+        96,
+        96
+      ],
+      "fps": 14,
+      "loop": false,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/metadata.json",
+      "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending"
+    },
+    {
+      "id": "FX-006",
+      "title": "Jump take-off puff",
+      "frames": 6,
+      "cell": [
+        128,
+        128
+      ],
+      "fps": 16,
+      "loop": false,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/metadata.json",
+      "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending"
+    },
+    {
+      "id": "FX-007",
+      "title": "Landing dust",
+      "frames": 7,
+      "cell": [
+        192,
+        128
+      ],
+      "fps": 16,
+      "loop": false,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-007/metadata.json",
+      "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending"
+    },
+    {
+      "id": "FX-008",
+      "title": "Falling debris",
+      "frames": 8,
+      "cell": [
+        128,
+        192
+      ],
+      "fps": 12,
+      "loop": false,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-008/metadata.json",
+      "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending"
+    },
+    {
+      "id": "FX-009",
+      "title": "Lantern light pulse",
+      "frames": 8,
+      "cell": [
+        256,
+        256
+      ],
+      "fps": 10,
+      "loop": true,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-009/metadata.json",
+      "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending"
+    },
+    {
+      "id": "FX-010",
+      "title": "Mote glow",
+      "frames": 8,
+      "cell": [
+        128,
+        128
+      ],
+      "fps": 12,
+      "loop": true,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/metadata.json",
+      "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending"
+    },
+    {
+      "id": "FX-011",
+      "title": "Rune activation",
+      "frames": 8,
+      "cell": [
+        192,
+        192
+      ],
+      "fps": 14,
+      "loop": false,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/metadata.json",
+      "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending"
+    },
+    {
+      "id": "FX-012",
+      "title": "Hidden-platform reveal",
+      "frames": 8,
+      "cell": [
+        256,
+        96
+      ],
+      "fps": 14,
+      "loop": false,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/metadata.json",
+      "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending"
+    },
+    {
+      "id": "FX-013",
+      "title": "Collectible pickup",
+      "frames": 8,
+      "cell": [
+        128,
+        128
+      ],
+      "fps": 18,
+      "loop": false,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/metadata.json",
+      "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending"
+    },
+    {
+      "id": "FX-014",
+      "title": "Checkpoint activation",
+      "frames": 10,
+      "cell": [
+        192,
+        256
+      ],
+      "fps": 14,
+      "loop": false,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-014/metadata.json",
+      "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending"
+    },
+    {
+      "id": "FX-015",
+      "title": "Boss ground impact",
+      "frames": 8,
+      "cell": [
+        320,
+        160
+      ],
+      "fps": 16,
+      "loop": false,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-015/metadata.json",
+      "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending"
+    },
+    {
+      "id": "FX-016",
+      "title": "Boss core energy",
+      "frames": 8,
+      "cell": [
+        192,
+        192
+      ],
+      "fps": 14,
+      "loop": true,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/metadata.json",
+      "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending"
+    },
+    {
+      "id": "FX-017",
+      "title": "Boss phase transition",
+      "frames": 10,
+      "cell": [
+        320,
+        320
+      ],
+      "fps": 14,
+      "loop": false,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-017/metadata.json",
+      "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending"
+    },
+    {
+      "id": "FX-018",
+      "title": "Death and respawn effects",
+      "frames": 12,
+      "cell": [
+        192,
+        192
+      ],
+      "fps": 14,
+      "loop": false,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-018/metadata.json",
+      "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending"
+    },
+    {
+      "id": "FX-019",
+      "title": "Water ripples and splashes",
+      "frames": 14,
+      "cell": [
+        192,
+        128
+      ],
+      "fps": 14,
+      "loop": false,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/metadata.json",
+      "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending"
+    },
+    {
+      "id": "FX-020",
+      "title": "Magic projectile",
+      "frames": 11,
+      "cell": [
+        128,
+        96
+      ],
+      "fps": 16,
+      "loop": false,
+      "reviewed_prototype_complete": true,
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/metadata.json",
+      "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending"
+    }
+  ]
+}

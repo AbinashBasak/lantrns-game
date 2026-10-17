@@ -1,0 +1,225 @@
+{
+  "asset_id": "FX-012",
+  "id": "FX-012",
+  "title": "Hidden platform reveal",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012",
+  "prompt": "Procedural: Hidden platform reveal rendered by tools/fx_effects.py (fx012) with the ART-002 VFX palette; no generative image model used.",
+  "generation_tool": "procedural (Pillow + numpy; tools/generate_phase07_fx.py)",
+  "production_approved": false,
+  "runtime_integrated": false,
+  "last_updated": "2026-10-17T21:17:44.853767+05:30",
+  "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending",
+  "requested_deliverables_saved_and_reviewed": true,
+  "deliverables": [
+    {
+      "slug": "hidden_platform_reveal",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/source_images/FX-012_hidden_platform_reveal_procedural_sheet.png",
+      "frame_count": 8,
+      "cols": 8,
+      "rows": 1,
+      "roles": [
+        "frame_00",
+        "frame_01",
+        "frame_02",
+        "frame_03",
+        "frame_04",
+        "frame_05",
+        "frame_06",
+        "frame_07"
+      ],
+      "sequences": {
+        "main": {
+          "first": 0,
+          "last": 7
+        }
+      },
+      "export_cell_dimensions": [
+        256,
+        96
+      ],
+      "pivot_px": [
+        128,
+        56
+      ],
+      "timing": {
+        "fps": 14
+      },
+      "loop": false,
+      "provenance": "procedural render; deterministic (fixed RNG seeds), no external source image",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_07.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_sheet.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_frames.json"
+      ],
+      "preview_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/previews/FX-012_contact_light.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/previews/FX-012_contact_dark.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/previews/FX-012_hidden_platform_reveal_preview.gif"
+      ],
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/source_images/FX-012_hidden_platform_reveal_procedural_sheet.png",
+        "role": "procedural sheet",
+        "sha256": "5977e95c6eb1751f1a367cbdb0b34145c6cb97eda9a90c2326fb3bab5515a35b",
+        "bytes": 20610,
+        "dimensions": [
+          2048,
+          96
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_00.png",
+          "role": "frame png",
+          "sha256": "b39899fa39e804abfd9f62c084a748f537e64e582d7f4959e72ee20c7c7d9f22",
+          "bytes": 903,
+          "dimensions": [
+            256,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            47
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_01.png",
+          "role": "frame png",
+          "sha256": "529ee22c15ea3500eac538141b490fd0c7b22bd3d444e5e24a3898823532306e",
+          "bytes": 4299,
+          "dimensions": [
+            256,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_02.png",
+          "role": "frame png",
+          "sha256": "f1ec46bb59c039bb60ca7f2c22644687f44e8a9f413911f92cd71abed29bccc2",
+          "bytes": 5064,
+          "dimensions": [
+            256,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_03.png",
+          "role": "frame png",
+          "sha256": "524271ecef0b0000084113c3b2f346695ea13f8b5283ba4d906fa48cab067223",
+          "bytes": 4715,
+          "dimensions": [
+            256,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_04.png",
+          "role": "frame png",
+          "sha256": "7c316e60e92fb34e020a7af8a7e4cb0cfdfff9b5f10cabcc04fef37dfa573388",
+          "bytes": 3073,
+          "dimensions": [
+            256,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_05.png",
+          "role": "frame png",
+          "sha256": "034ee3d59749687c97ae703535073b561e9f65fd76cf0fe12bd19a0a0b47876a",
+          "bytes": 2761,
+          "dimensions": [
+            256,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_06.png",
+          "role": "frame png",
+          "sha256": "5b10da406e59c6eb6fb3400c9f780eff6e4183234e2c2c9609e541ba7541d428",
+          "bytes": 2541,
+          "dimensions": [
+            256,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_07.png",
+          "role": "frame png",
+          "sha256": "769918a59a2b0d3e8c213f57c61d57aba03bcee6aed246e5a53844f313f70872",
+          "bytes": 1970,
+          "dimensions": [
+            256,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_sheet.png",
+          "role": "sheet png",
+          "sha256": "5977e95c6eb1751f1a367cbdb0b34145c6cb97eda9a90c2326fb3bab5515a35b",
+          "bytes": 20610,
+          "dimensions": [
+            2048,
+            96
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ]
+    }
+  ],
+  "review_notes": [
+    "Outline is a 200 x 24 px platform footprint; scale or tile the middle for other widths.",
+    "Prototype effect art for timing and readability; not final production approval.",
+    "No Godot scene, AnimatedSprite2D, particle or shader integration implied."
+  ]
+}

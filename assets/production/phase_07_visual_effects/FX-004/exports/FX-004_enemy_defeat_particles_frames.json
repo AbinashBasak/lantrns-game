@@ -1,0 +1,23 @@
+{
+  "asset_id": "FX-004",
+  "cell_size": [
+    192,
+    192
+  ],
+  "columns": 8,
+  "rows": 1,
+  "frame_count": 8,
+  "fps": 16,
+  "loop": false,
+  "pivot_px": [
+    96,
+    92
+  ],
+  "sequences": {
+    "main": {
+      "first": 0,
+      "last": 7
+    }
+  },
+  "sheet": "FX-004_enemy_defeat_particles_sheet.png"
+}

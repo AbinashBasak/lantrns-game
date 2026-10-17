@@ -1,0 +1,23 @@
+{
+  "asset_id": "FX-016",
+  "cell_size": [
+    192,
+    192
+  ],
+  "columns": 8,
+  "rows": 1,
+  "frame_count": 8,
+  "fps": 14,
+  "loop": true,
+  "pivot_px": [
+    96,
+    96
+  ],
+  "sequences": {
+    "main": {
+      "first": 0,
+      "last": 7
+    }
+  },
+  "sheet": "FX-016_boss_core_energy_sheet.png"
+}

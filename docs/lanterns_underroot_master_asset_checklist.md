@@ -709,26 +709,130 @@ Verified across all 11 packs: seven categories have reviewed prototype sources a
 
 # Phase 07 — Visual Effects
 
-- [ ] FX-001 — Sword swing trail
-- [ ] FX-002 — Sword impact sparks
-- [ ] FX-003 — Enemy hit flash
-- [ ] FX-004 — Enemy defeat particles
-- [ ] FX-005 — Running dust
-- [ ] FX-006 — Jump take-off puff
-- [ ] FX-007 — Landing dust
-- [ ] FX-008 — Falling debris
-- [ ] FX-009 — Lantern light pulse
-- [ ] FX-010 — Mote glow
-- [ ] FX-011 — Rune activation
-- [ ] FX-012 — Hidden-platform reveal
-- [ ] FX-013 — Collectible pickup
-- [ ] FX-014 — Checkpoint activation
-- [ ] FX-015 — Boss ground impact
-- [ ] FX-016 — Boss core energy
-- [ ] FX-017 — Boss phase transition
-- [ ] FX-018 — Death and respawn effects
-- [ ] FX-019 — Water ripples and splashes
-- [ ] FX-020 — Magic projectile
+<!-- phase07-summary:start -->
+**Reviewed procedural prototypes: 20/20.** [Asset index](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/PHASE07_index.md). Checked items record saved and reviewed effect frame sheets, not final production approval. Each item has per-frame PNGs, a sheet, a frames.json with cell size, fps, loop and pivot, light/dark contact previews and an animated GIF. Effects are procedural (tools/fx_effects.py), not generated art. In-engine timing, blend modes, color review and runtime integration remain separate. No ZIP files or runtime integration added.
+<!-- phase07-summary:end -->
+
+- [x] FX-001 — Sword swing trail
+  <!-- phase07-record:FX-001:start -->
+  - Production stage: procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending. Final production approval pending.
+  - Saved folder: [FX-001](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-001) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-001/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-001/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-001/previews)
+  - Selected source: [FX-001_sword_swing_trail_procedural_sheet.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-001/source_images/FX-001_sword_swing_trail_procedural_sheet.png)
+  <!-- phase07-record:FX-001:end -->
+- [x] FX-002 — Sword impact sparks
+  <!-- phase07-record:FX-002:start -->
+  - Production stage: procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending. Final production approval pending.
+  - Saved folder: [FX-002](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-002) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-002/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-002/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-002/previews)
+  - Selected source: [FX-002_sword_impact_sparks_procedural_sheet.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-002/source_images/FX-002_sword_impact_sparks_procedural_sheet.png)
+  <!-- phase07-record:FX-002:end -->
+- [x] FX-003 — Enemy hit flash
+  <!-- phase07-record:FX-003:start -->
+  - Production stage: procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending. Final production approval pending.
+  - Saved folder: [FX-003](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-003) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-003/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-003/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-003/previews)
+  - Selected source: [FX-003_enemy_hit_flash_procedural_sheet.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-003/source_images/FX-003_enemy_hit_flash_procedural_sheet.png)
+  <!-- phase07-record:FX-003:end -->
+- [x] FX-004 — Enemy defeat particles
+  <!-- phase07-record:FX-004:start -->
+  - Production stage: procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending. Final production approval pending.
+  - Saved folder: [FX-004](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-004) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-004/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-004/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-004/previews)
+  - Selected source: [FX-004_enemy_defeat_particles_procedural_sheet.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-004/source_images/FX-004_enemy_defeat_particles_procedural_sheet.png)
+  <!-- phase07-record:FX-004:end -->
+- [x] FX-005 — Running dust
+  <!-- phase07-record:FX-005:start -->
+  - Production stage: procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending. Final production approval pending.
+  - Saved folder: [FX-005](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/previews)
+  - Selected source: [FX-005_running_dust_procedural_sheet.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-005/source_images/FX-005_running_dust_procedural_sheet.png)
+  <!-- phase07-record:FX-005:end -->
+- [x] FX-006 — Jump take-off puff
+  <!-- phase07-record:FX-006:start -->
+  - Production stage: procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending. Final production approval pending.
+  - Saved folder: [FX-006](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/previews)
+  - Selected source: [FX-006_jump_takeoff_puff_procedural_sheet.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/source_images/FX-006_jump_takeoff_puff_procedural_sheet.png)
+  <!-- phase07-record:FX-006:end -->
+- [x] FX-007 — Landing dust
+  <!-- phase07-record:FX-007:start -->
+  - Production stage: procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending. Final production approval pending.
+  - Saved folder: [FX-007](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-007) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-007/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-007/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-007/previews)
+  - Selected source: [FX-007_landing_dust_procedural_sheet.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-007/source_images/FX-007_landing_dust_procedural_sheet.png)
+  <!-- phase07-record:FX-007:end -->
+- [x] FX-008 — Falling debris
+  <!-- phase07-record:FX-008:start -->
+  - Production stage: procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending. Final production approval pending.
+  - Saved folder: [FX-008](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-008) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-008/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-008/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-008/previews)
+  - Selected source: [FX-008_falling_debris_procedural_sheet.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-008/source_images/FX-008_falling_debris_procedural_sheet.png)
+  <!-- phase07-record:FX-008:end -->
+- [x] FX-009 — Lantern light pulse
+  <!-- phase07-record:FX-009:start -->
+  - Production stage: procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending. Final production approval pending.
+  - Saved folder: [FX-009](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-009) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-009/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-009/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-009/previews)
+  - Selected source: [FX-009_lantern_light_pulse_procedural_sheet.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-009/source_images/FX-009_lantern_light_pulse_procedural_sheet.png)
+  <!-- phase07-record:FX-009:end -->
+- [x] FX-010 — Mote glow
+  <!-- phase07-record:FX-010:start -->
+  - Production stage: procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending. Final production approval pending.
+  - Saved folder: [FX-010](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/previews)
+  - Selected source: [FX-010_mote_glow_procedural_sheet.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-010/source_images/FX-010_mote_glow_procedural_sheet.png)
+  <!-- phase07-record:FX-010:end -->
+- [x] FX-011 — Rune activation
+  <!-- phase07-record:FX-011:start -->
+  - Production stage: procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending. Final production approval pending.
+  - Saved folder: [FX-011](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/previews)
+  - Selected source: [FX-011_rune_activation_procedural_sheet.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-011/source_images/FX-011_rune_activation_procedural_sheet.png)
+  <!-- phase07-record:FX-011:end -->
+- [x] FX-012 — Hidden-platform reveal
+  <!-- phase07-record:FX-012:start -->
+  - Production stage: procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending. Final production approval pending.
+  - Saved folder: [FX-012](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/previews)
+  - Selected source: [FX-012_hidden_platform_reveal_procedural_sheet.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-012/source_images/FX-012_hidden_platform_reveal_procedural_sheet.png)
+  <!-- phase07-record:FX-012:end -->
+- [x] FX-013 — Collectible pickup
+  <!-- phase07-record:FX-013:start -->
+  - Production stage: procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending. Final production approval pending.
+  - Saved folder: [FX-013](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/previews)
+  - Selected source: [FX-013_collectible_pickup_procedural_sheet.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-013/source_images/FX-013_collectible_pickup_procedural_sheet.png)
+  <!-- phase07-record:FX-013:end -->
+- [x] FX-014 — Checkpoint activation
+  <!-- phase07-record:FX-014:start -->
+  - Production stage: procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending. Final production approval pending.
+  - Saved folder: [FX-014](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-014) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-014/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-014/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-014/previews)
+  - Selected source: [FX-014_checkpoint_activation_procedural_sheet.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-014/source_images/FX-014_checkpoint_activation_procedural_sheet.png)
+  <!-- phase07-record:FX-014:end -->
+- [x] FX-015 — Boss ground impact
+  <!-- phase07-record:FX-015:start -->
+  - Production stage: procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending. Final production approval pending.
+  - Saved folder: [FX-015](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-015) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-015/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-015/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-015/previews)
+  - Selected source: [FX-015_boss_ground_impact_procedural_sheet.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-015/source_images/FX-015_boss_ground_impact_procedural_sheet.png)
+  <!-- phase07-record:FX-015:end -->
+- [x] FX-016 — Boss core energy
+  <!-- phase07-record:FX-016:start -->
+  - Production stage: procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending. Final production approval pending.
+  - Saved folder: [FX-016](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/previews)
+  - Selected source: [FX-016_boss_core_energy_procedural_sheet.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-016/source_images/FX-016_boss_core_energy_procedural_sheet.png)
+  <!-- phase07-record:FX-016:end -->
+- [x] FX-017 — Boss phase transition
+  <!-- phase07-record:FX-017:start -->
+  - Production stage: procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending. Final production approval pending.
+  - Saved folder: [FX-017](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-017) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-017/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-017/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-017/previews)
+  - Selected source: [FX-017_boss_phase_transition_procedural_sheet.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-017/source_images/FX-017_boss_phase_transition_procedural_sheet.png)
+  <!-- phase07-record:FX-017:end -->
+- [x] FX-018 — Death and respawn effects
+  <!-- phase07-record:FX-018:start -->
+  - Production stage: procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending. Final production approval pending.
+  - Saved folder: [FX-018](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-018) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-018/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-018/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-018/previews)
+  - Selected source: [FX-018_death_respawn_procedural_sheet.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-018/source_images/FX-018_death_respawn_procedural_sheet.png)
+  <!-- phase07-record:FX-018:end -->
+- [x] FX-019 — Water ripples and splashes
+  <!-- phase07-record:FX-019:start -->
+  - Production stage: procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending. Final production approval pending.
+  - Saved folder: [FX-019](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/previews)
+  - Selected source: [FX-019_water_ripples_splashes_procedural_sheet.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-019/source_images/FX-019_water_ripples_splashes_procedural_sheet.png)
+  <!-- phase07-record:FX-019:end -->
+- [x] FX-020 — Magic projectile
+  <!-- phase07-record:FX-020:start -->
+  - Production stage: procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending. Final production approval pending.
+  - Saved folder: [FX-020](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/previews)
+  - Selected source: [FX-020_magic_projectile_procedural_sheet.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-020/source_images/FX-020_magic_projectile_procedural_sheet.png)
+  <!-- phase07-record:FX-020:end -->
 
 # Phase 08 — User Interface
 

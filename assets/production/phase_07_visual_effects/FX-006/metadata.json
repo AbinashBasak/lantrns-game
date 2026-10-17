@@ -1,0 +1,190 @@
+{
+  "asset_id": "FX-006",
+  "id": "FX-006",
+  "title": "Jump take-off puff",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006",
+  "prompt": "Procedural: Jump take-off puff rendered by tools/fx_effects.py (fx006) with the ART-002 VFX palette; no generative image model used.",
+  "generation_tool": "procedural (Pillow + numpy; tools/generate_phase07_fx.py)",
+  "production_approved": false,
+  "runtime_integrated": false,
+  "last_updated": "2026-10-17T21:17:42.684873+05:30",
+  "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending",
+  "requested_deliverables_saved_and_reviewed": true,
+  "deliverables": [
+    {
+      "slug": "jump_takeoff_puff",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/source_images/FX-006_jump_takeoff_puff_procedural_sheet.png",
+      "frame_count": 6,
+      "cols": 6,
+      "rows": 1,
+      "roles": [
+        "frame_00",
+        "frame_01",
+        "frame_02",
+        "frame_03",
+        "frame_04",
+        "frame_05"
+      ],
+      "sequences": {
+        "main": {
+          "first": 0,
+          "last": 5
+        }
+      },
+      "export_cell_dimensions": [
+        128,
+        128
+      ],
+      "pivot_px": [
+        64,
+        104
+      ],
+      "timing": {
+        "fps": 16
+      },
+      "loop": false,
+      "provenance": "procedural render; deterministic (fixed RNG seeds), no external source image",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_sheet.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_frames.json"
+      ],
+      "preview_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/previews/FX-006_contact_light.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/previews/FX-006_contact_dark.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/previews/FX-006_jump_takeoff_puff_preview.gif"
+      ],
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/source_images/FX-006_jump_takeoff_puff_procedural_sheet.png",
+        "role": "procedural sheet",
+        "sha256": "2206f76d4e3c4493da0265d20f9e7253b982f5de2cca893b5f86b4e13fcd86fa",
+        "bytes": 23371,
+        "dimensions": [
+          768,
+          128
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_00.png",
+          "role": "frame png",
+          "sha256": "e3476f28c54746d0cd798719fd91a981e6d6f22323716502d7409e0aa5baa5cd",
+          "bytes": 2635,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_01.png",
+          "role": "frame png",
+          "sha256": "5d7b2641e11b8aba7f96ed6b7de70da938350be975b96539209a088d83cc7533",
+          "bytes": 3458,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            254
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_02.png",
+          "role": "frame png",
+          "sha256": "08502558f87bd4031db3cef6da83d0e5bfd2d86174ab9f22efa65552dc313bb0",
+          "bytes": 4187,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            247
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_03.png",
+          "role": "frame png",
+          "sha256": "f85553c97cc679b8a6ac2a9769bd51d9d89d26b3ad8585421a4bdcb7a48e9803",
+          "bytes": 4845,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            223
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_04.png",
+          "role": "frame png",
+          "sha256": "64cc44048f2c2dcd9ce927b51e81b9429ce5ce5a07806d1786f403fa4041685c",
+          "bytes": 4912,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            167
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_05.png",
+          "role": "frame png",
+          "sha256": "6016d3b40796ca7674db7f37a01f1ad4e0bf9d7a122b1c1eb4a35a5c8c4a93df",
+          "bytes": 4654,
+          "dimensions": [
+            128,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            64
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_sheet.png",
+          "role": "sheet png",
+          "sha256": "2206f76d4e3c4493da0265d20f9e7253b982f5de2cca893b5f86b4e13fcd86fa",
+          "bytes": 23371,
+          "dimensions": [
+            768,
+            128
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ]
+    }
+  ],
+  "review_notes": [
+    "Prototype effect art for timing and readability; not final production approval.",
+    "No Godot scene, AnimatedSprite2D, particle or shader integration implied."
+  ]
+}
