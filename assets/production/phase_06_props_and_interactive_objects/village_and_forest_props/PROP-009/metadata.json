@@ -1,0 +1,427 @@
+{
+  "id": "PROP-009",
+  "asset_id": "PROP-009",
+  "title": "Wooden door",
+  "cols": 2,
+  "rows": 2,
+  "roles": [
+    "closed_latched",
+    "closed_unlatched",
+    "ajar",
+    "fully_open"
+  ],
+  "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted illustrated2Dgame PROP sprite sheet. Painterly warm agedwood,muted moss greens,coolbluegray stone/metal,selective crisp silhouettes,restrained brushtexture,subtleamber accents. Strict SIDE-ON ORTHOGRAPHIC sprite camera,flatfront elevation,no dramaticperspective,no3Dfloor. Genuine transparent alpha outside complete objects,opaque object interiors. NO background/scenery/floor/castshadows/coloredbackplate/haze/characters/UI/text/labels/gridlines. Every fullobject centered within equal fixedcells with50pxclear padding,no clipping,no overlaps. FOUR states of ONE wooden village door, EXACT2columns2rows on1024square. Readingorder closedlatched,closedunlatched,ajar,fullyopen. SAME archedwooddoor design,frame,width,height,hinge,latch,and fixedfloorpivot in everycell. Wholeframe always visible. Door swings onleft hinge,frame staysfront elevation. Open doorway interior genuinelytransparent,not blackrectangle,nobuildingwall. No separatebakedglow.",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009",
+  "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148ba-fae3-7fd0-8db9-6aa6385f397c/exec-4b039160-2a8a-49d9-8781-a32a864d33bb.png",
+  "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/source_images/PROP-009_sheet_original.png",
+  "source_info": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/source_images/PROP-009_sheet_original.png",
+    "sha256": "0b5af0c7de4e0d6931ec8d71eabf15e662aa75a0f6cce0fd53ac3d824bc11ed2",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "frame_count": 4,
+  "timing": null,
+  "loop": false,
+  "production_approved": false,
+  "runtime_integrated": false,
+  "requested_deliverables_saved_and_reviewed": true,
+  "stage": "generated_prop_prototype_saved_and_reviewed",
+  "source_message_id": null,
+  "reference_images": [],
+  "provenance": {
+    "tool": "built-in image_gen",
+    "original_unchanged": true,
+    "style_guides_reviewed": [
+      "ART-001",
+      "ART-002",
+      "ART-006"
+    ]
+  },
+  "frames": [
+    {
+      "index": 0,
+      "role": "closed_latched",
+      "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/source_images/PROP-009_sheet_original.png",
+      "source_crop": [
+        84,
+        0,
+        554,
+        584
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        470,
+        584
+      ],
+      "pivot": [
+        256,
+        492
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/exports/PROP-009_closed_latched.png",
+      "sha256": "3415422132ab93ee363c47cd3b941f611795d7b2c8561009f35d8180776254b6",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 1,
+      "role": "closed_unlatched",
+      "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/source_images/PROP-009_sheet_original.png",
+      "source_crop": [
+        700,
+        1,
+        1187,
+        584
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        487,
+        583
+      ],
+      "pivot": [
+        256,
+        492
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/exports/PROP-009_closed_unlatched.png",
+      "sha256": "4aef11c4d4bb995ee9530a0e0521835d96d6b32ac8c424e4a6d7c367c39268fd",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 2,
+      "role": "ajar",
+      "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/source_images/PROP-009_sheet_original.png",
+      "source_crop": [
+        84,
+        624,
+        573,
+        1220
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        489,
+        596
+      ],
+      "pivot": [
+        256,
+        492
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/exports/PROP-009_ajar.png",
+      "sha256": "f4fa88e8e32db009ac7c570ea142d0720f9be6f1e9c2371264cdf615ab4771f7",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 3,
+      "role": "fully_open",
+      "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/source_images/PROP-009_sheet_original.png",
+      "source_crop": [
+        675,
+        623,
+        1193,
+        1218
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        518,
+        595
+      ],
+      "pivot": [
+        256,
+        492
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/exports/PROP-009_fully_open.png",
+      "sha256": "77765a7e45f729456e158312b89590c3527c1233545cadcad3b688e4cab37f7e",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "normalized_sheet": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/exports/PROP-009_prototype_sheet.png",
+    "sha256": "46a95b270f83d013cbefec764da81dedb2f9b41e53fdbcc9bdccadcb4d176150",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/exports/PROP-009_prototype_sheet.png",
+  "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/previews/PROP-009_source_checker.jpg",
+  "contact_preview": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/previews/PROP-009_export_contact.png",
+    "sha256": "ac5cc14c534b380bd6c01dc960ebef46cb9f26112e6f628f3ca288dbb17be4e4",
+    "dimensions": [
+      768,
+      768
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  "review_notes": [
+    "Reviewed full silhouettes,correct type/count and genuinealpha over checkerboard. Originalimagesunchanged;exportsarederivedfixedcellswithalphaboundingcrop,paddingandbottomcenterpivots.",
+    "Connected-object cropbounds remove major neighboring-cell fragments. Tiny detached leaf/ornament fragments may remain for final manualcleanup. Staticstateprototypes only; no animation timing or productionapproval implied. Pairedstategeometry requires finalregistration/pivotpolish before runtime.",
+    "Frame/hinge/latchinterpretation varies slightly between states; topapex has minimaloriginalclearance but retained by paddedexports."
+  ],
+  "source_archive": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/source_images/PROP-009_sheet_original.png",
+      "sha256": "0b5af0c7de4e0d6931ec8d71eabf15e662aa75a0f6cce0fd53ac3d824bc11ed2",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "deliverables": [
+    {
+      "slug": "prop_sheet",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/source_images/PROP-009_sheet_original.png",
+      "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/exports/PROP-009_prototype_sheet.png",
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/previews/PROP-009_source_checker.jpg",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted illustrated2Dgame PROP sprite sheet. Painterly warm agedwood,muted moss greens,coolbluegray stone/metal,selective crisp silhouettes,restrained brushtexture,subtleamber accents. Strict SIDE-ON ORTHOGRAPHIC sprite camera,flatfront elevation,no dramaticperspective,no3Dfloor. Genuine transparent alpha outside complete objects,opaque object interiors. NO background/scenery/floor/castshadows/coloredbackplate/haze/characters/UI/text/labels/gridlines. Every fullobject centered within equal fixedcells with50pxclear padding,no clipping,no overlaps. FOUR states of ONE wooden village door, EXACT2columns2rows on1024square. Readingorder closedlatched,closedunlatched,ajar,fullyopen. SAME archedwooddoor design,frame,width,height,hinge,latch,and fixedfloorpivot in everycell. Wholeframe always visible. Door swings onleft hinge,frame staysfront elevation. Open doorway interior genuinelytransparent,not blackrectangle,nobuildingwall. No separatebakedglow.",
+      "reference_images": [],
+      "cols": 2,
+      "rows": 2,
+      "frame_count": 4,
+      "roles": [
+        "closed_latched",
+        "closed_unlatched",
+        "ajar",
+        "fully_open"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "role": "closed_latched",
+          "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/source_images/PROP-009_sheet_original.png",
+          "source_crop": [
+            84,
+            0,
+            554,
+            584
+          ],
+          "alpha_trim_within_crop": [
+            0,
+            0,
+            470,
+            584
+          ],
+          "pivot": [
+            256,
+            492
+          ],
+          "pivot_units": "pixels_from_top_left",
+          "timing": null,
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/exports/PROP-009_closed_latched.png",
+          "sha256": "3415422132ab93ee363c47cd3b941f611795d7b2c8561009f35d8180776254b6",
+          "dimensions": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "index": 1,
+          "role": "closed_unlatched",
+          "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/source_images/PROP-009_sheet_original.png",
+          "source_crop": [
+            700,
+            1,
+            1187,
+            584
+          ],
+          "alpha_trim_within_crop": [
+            0,
+            0,
+            487,
+            583
+          ],
+          "pivot": [
+            256,
+            492
+          ],
+          "pivot_units": "pixels_from_top_left",
+          "timing": null,
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/exports/PROP-009_closed_unlatched.png",
+          "sha256": "4aef11c4d4bb995ee9530a0e0521835d96d6b32ac8c424e4a6d7c367c39268fd",
+          "dimensions": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "index": 2,
+          "role": "ajar",
+          "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/source_images/PROP-009_sheet_original.png",
+          "source_crop": [
+            84,
+            624,
+            573,
+            1220
+          ],
+          "alpha_trim_within_crop": [
+            0,
+            0,
+            489,
+            596
+          ],
+          "pivot": [
+            256,
+            492
+          ],
+          "pivot_units": "pixels_from_top_left",
+          "timing": null,
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/exports/PROP-009_ajar.png",
+          "sha256": "f4fa88e8e32db009ac7c570ea142d0720f9be6f1e9c2371264cdf615ab4771f7",
+          "dimensions": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "index": 3,
+          "role": "fully_open",
+          "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/source_images/PROP-009_sheet_original.png",
+          "source_crop": [
+            675,
+            623,
+            1193,
+            1218
+          ],
+          "alpha_trim_within_crop": [
+            0,
+            0,
+            518,
+            595
+          ],
+          "pivot": [
+            256,
+            492
+          ],
+          "pivot_units": "pixels_from_top_left",
+          "timing": null,
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/exports/PROP-009_fully_open.png",
+          "sha256": "77765a7e45f729456e158312b89590c3527c1233545cadcad3b688e4cab37f7e",
+          "dimensions": [
+            512,
+            512
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "timing": null,
+      "loop": false,
+      "review_notes": [
+        "Reviewed full silhouettes,correct type/count and genuinealpha over checkerboard. Originalimagesunchanged;exportsarederivedfixedcellswithalphaboundingcrop,paddingandbottomcenterpivots.",
+        "Connected-object cropbounds remove major neighboring-cell fragments. Tiny detached leaf/ornament fragments may remain for final manualcleanup. Staticstateprototypes only; no animation timing or productionapproval implied. Pairedstategeometry requires finalregistration/pivotpolish before runtime.",
+        "Frame/hinge/latchinterpretation varies slightly between states; topapex has minimaloriginalclearance but retained by paddedexports."
+      ]
+    }
+  ],
+  "custom_bounds": [
+    [
+      84,
+      0,
+      554,
+      584
+    ],
+    [
+      700,
+      1,
+      1187,
+      584
+    ],
+    [
+      84,
+      624,
+      573,
+      1220
+    ],
+    [
+      675,
+      623,
+      1193,
+      1218
+    ]
+  ],
+  "validation": {
+    "source_and_export_paths_exist": true,
+    "alpha_reviewed_over_checkerboard": true,
+    "selected_object_count": 4,
+    "runtime_tested": false
+  }
+}

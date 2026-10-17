@@ -1,0 +1,205 @@
+{
+  "asset_id": "PROP-006",
+  "id": "PROP-006",
+  "title": "Rope bridge",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006",
+  "prompt": "Use case: stylized-concept. Lanterns Underroot illustrated handpainted2D platformer prop sprite sheet. Restrained painterly texture, readable silhouettes, warm weathered timber, muted forestgreen moss only smallpatches, bluegray metal bands, amber lanternlight. Strict orthographic front side-on game elevation, no perspective floor. ONE square1024x1024 image EXACTLY2equalcolumns2equalrows, FOUR equalcells512x512. One full isolated object percell,70pxclear padding each side, no objectcrossing boundaries. True transparent background, no groundshadows, people, UI, logos, labels, letters or numbers. Objects same scale family, neutral/active pairs identicalgeometry, cellrelativepivot and camera. Static prototype artstates, not gameplay claims. Asset modular rope bridge. Readingorder row1left/right then row2left/right: left bridgeentry segment with timberanchorpost andropes; straight repeatable bridge middlesegment with levelplanktop andrailingropes; right bridgeentry segment with timberanchorpost andropes; isolated spare timberanchorpost with tiedrope ends. No rear deck perspective: front elevation leveltop. Fullsilhouettes including handles chains andrope ends mustfit cells.",
+  "roles": [
+    "left_entry",
+    "middle_repeat",
+    "right_entry",
+    "anchor_post"
+  ],
+  "deliverables": [
+    {
+      "slug": "prop_states",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/source_images/PROP-006_prop_states_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148ba-e578-7432-a445-11a2541d4ec5/exec-62619525-04d0-4130-9b8f-52e31eff3fa6.png",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot illustrated handpainted2D platformer prop sprite sheet. Restrained painterly texture, readable silhouettes, warm weathered timber, muted forestgreen moss only smallpatches, bluegray metal bands, amber lanternlight. Strict orthographic front side-on game elevation, no perspective floor. ONE square1024x1024 image EXACTLY2equalcolumns2equalrows, FOUR equalcells512x512. One full isolated object percell,70pxclear padding each side, no objectcrossing boundaries. True transparent background, no groundshadows, people, UI, logos, labels, letters or numbers. Objects same scale family, neutral/active pairs identicalgeometry, cellrelativepivot and camera. Static prototype artstates, not gameplay claims. Asset modular rope bridge. Readingorder row1left/right then row2left/right: left bridgeentry segment with timberanchorpost andropes; straight repeatable bridge middlesegment with levelplanktop andrailingropes; right bridgeentry segment with timberanchorpost andropes; isolated spare timberanchorpost with tiedrope ends. No rear deck perspective: front elevation leveltop. Fullsilhouettes including handles chains andrope ends mustfit cells.",
+      "reference_images": [],
+      "transparent_background": true,
+      "cols": 2,
+      "rows": 2,
+      "frame_count": 4,
+      "export_mode": "atlas",
+      "roles": [
+        "left_entry",
+        "middle_repeat",
+        "right_entry",
+        "anchor_post"
+      ],
+      "timing": null,
+      "loop": false,
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen original",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "5337052f97e7d1b149ab0576df1ba518e56dcab40746d3158cae0767e39c7876",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "crop_boundaries": [
+        [
+          0,
+          0,
+          627,
+          627
+        ],
+        [
+          627,
+          0,
+          1254,
+          627
+        ],
+        [
+          0,
+          627,
+          627,
+          1254
+        ],
+        [
+          627,
+          627,
+          1254,
+          1254
+        ]
+      ],
+      "exports": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/exports/PROP-006_00_left_entry.png",
+          "dimensions": [
+            512,
+            512
+          ],
+          "sha256": "bcd751f50fe2affdec48f21000da5e2faed49d43a7e0fb8bf73971121b007d3f",
+          "role": "left_entry",
+          "source_crop": [
+            0,
+            0,
+            627,
+            627
+          ],
+          "pivot": [
+            256,
+            512
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/exports/PROP-006_01_middle_repeat.png",
+          "dimensions": [
+            512,
+            512
+          ],
+          "sha256": "45e81e3f6a055cba42c5b7ca0c5249e2d97c4dd770c47b5d64b12c19abd639d7",
+          "role": "middle_repeat",
+          "source_crop": [
+            627,
+            0,
+            1254,
+            627
+          ],
+          "pivot": [
+            256,
+            512
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/exports/PROP-006_02_right_entry.png",
+          "dimensions": [
+            512,
+            512
+          ],
+          "sha256": "524d15147b8e6cf280e0e1987413c303778b19fd7b9a166eb69de2e4e0663f6d",
+          "role": "right_entry",
+          "source_crop": [
+            0,
+            627,
+            627,
+            1254
+          ],
+          "pivot": [
+            256,
+            512
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/exports/PROP-006_03_anchor_post.png",
+          "dimensions": [
+            512,
+            512
+          ],
+          "sha256": "0cf6da501d06a36509ab343bbfb27ac44c4178d60541324293aebc04f7d08037",
+          "role": "anchor_post",
+          "source_crop": [
+            627,
+            627,
+            1254,
+            1254
+          ],
+          "pivot": [
+            256,
+            512
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/exports/PROP-006_512px_states_sheet.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "1f5e99cac206d0bfa599cc8c230dfda3da65eb5083951f9e4a4de35579f10b9f"
+        }
+      ],
+      "pivot": {
+        "x": 256,
+        "y": 512,
+        "description": "bottom-center cell anchor; manual state alignment pending"
+      },
+      "animated": false,
+      "common_scale": "All cells use identical scale factor512/source_cell_width; no per-object trim or scaling.",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/exports/PROP-006_00_left_entry.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/exports/PROP-006_01_middle_repeat.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/exports/PROP-006_02_right_entry.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/exports/PROP-006_03_anchor_post.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/exports/PROP-006_512px_states_sheet.png"
+      ],
+      "previews": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/previews/PROP-006_source_alpha_checker.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/previews/PROP-006_export_contact.png"
+      ],
+      "review_notes": [
+        "Source checkerboard visually reviewed:four complete distinct intended states or modules, genuine alpha-zero outside objects, no text/UI or environment. Static artstate variants do not assert gameplay behavior.",
+        "Fixed512pxcell exports preserve common whole-sheet scale factor and cell-local bottom-center pivot. Generated paired geometry/baselines require precise runtime alignment before state switching; modular attachment seams not production-certified.",
+        "Bridge left/middle/right/post modules present; rail/deck endpoints require manual socket alignment and repeat-join cleanup."
+      ]
+    }
+  ],
+  "production_approved": false,
+  "requested_deliverables_saved_and_reviewed": true,
+  "stage": "reviewed_prototype_source_and_fixed_cell_exports",
+  "runtime_integrated": false,
+  "metadata_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/metadata.json",
+  "review_notes": [
+    "Source checkerboard visually reviewed:four complete distinct intended states or modules, genuine alpha-zero outside objects, no text/UI or environment. Static artstate variants do not assert gameplay behavior.",
+    "Fixed512pxcell exports preserve common whole-sheet scale factor and cell-local bottom-center pivot. Generated paired geometry/baselines require precise runtime alignment before state switching; modular attachment seams not production-certified.",
+    "Bridge left/middle/right/post modules present; rail/deck endpoints require manual socket alignment and repeat-join cleanup."
+  ],
+  "source_images": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/source_images/PROP-006_prop_states_original.png"
+  ],
+  "exports": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/exports/PROP-006_00_left_entry.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/exports/PROP-006_01_middle_repeat.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/exports/PROP-006_02_right_entry.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/exports/PROP-006_03_anchor_post.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/exports/PROP-006_512px_states_sheet.png"
+  ],
+  "previews": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/previews/PROP-006_source_alpha_checker.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/previews/PROP-006_export_contact.png"
+  ]
+}

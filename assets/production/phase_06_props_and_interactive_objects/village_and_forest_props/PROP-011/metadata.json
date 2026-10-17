@@ -1,0 +1,729 @@
+{
+  "id": "PROP-011",
+  "asset_id": "PROP-011",
+  "title": "Bushes, flowers, and mushrooms",
+  "cols": 4,
+  "rows": 2,
+  "roles": [
+    "bush_round",
+    "bush_tall",
+    "bush_low",
+    "flower_white",
+    "flower_pink",
+    "mushroom_red",
+    "mushroom_brown",
+    "mixed_ground_plants"
+  ],
+  "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted illustrated2Dgame PROP sprite sheet. Painterly warm agedwood,muted moss greens,coolbluegray stone/metal,selective crisp silhouettes,restrained brushtexture,subtleamber accents. Strict SIDE-ON ORTHOGRAPHIC sprite camera,flatfront elevation,no dramaticperspective,no3Dfloor. Genuine transparent alpha outside complete objects,opaque object interiors. NO background/scenery/floor/castshadows/coloredbackplate/haze/characters/UI/text/labels/gridlines. Every fullobject centered within equal fixedcells with50pxclear padding,no clipping,no overlaps. EIGHT isolated forest foliageclusters EXACT4columns2rows on1536x1024. Row1 roundleafbush,tallleafbush,lowspreadingbush,whitewildflowercluster. Row2 pinkwildflowercluster,redcappedmushroomcluster,brownmushroomcluster,mixedfernandtinyflowercluster. Complete fullsilhouettes,roots/basestidy,nosoilgroundpatch. No face/creatures,subduednaturalpalette.",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011",
+  "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148ba-fae3-7fd0-8db9-6aa6385f397c/exec-6eb2dc52-1c0e-4521-846c-a079723d31bf.png",
+  "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_sheet_original.png",
+  "source_info": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_sheet_original.png",
+    "sha256": "6d912f18b6cd21ea23a3e98f71afca548c1a96bc1ab1e5c214769887cd67c6cd",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      254
+    ]
+  },
+  "frame_count": 8,
+  "timing": null,
+  "loop": false,
+  "production_approved": false,
+  "runtime_integrated": false,
+  "requested_deliverables_saved_and_reviewed": true,
+  "stage": "generated_prop_prototype_saved_and_reviewed",
+  "source_message_id": null,
+  "reference_images": [],
+  "provenance": {
+    "tool": "built-in image_gen",
+    "original_unchanged": true,
+    "style_guides_reviewed": [
+      "ART-001",
+      "ART-002",
+      "ART-006"
+    ]
+  },
+  "frames": [
+    {
+      "index": 0,
+      "role": "bush_round",
+      "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_sheet_original.png",
+      "source_crop": [
+        8,
+        125,
+        409,
+        498
+      ],
+      "alpha_trim_within_crop": [
+        1,
+        1,
+        401,
+        373
+      ],
+      "pivot": [
+        128,
+        236
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_bush_round.png",
+      "sha256": "46d6fd9f3bbdf6328177e898b2227efcce8e6327ffba0d8dd1a3133b511b22b7",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 1,
+      "role": "bush_tall",
+      "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_sheet_original.png",
+      "source_crop": [
+        407,
+        71,
+        767,
+        499
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        360,
+        428
+      ],
+      "pivot": [
+        128,
+        236
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_bush_tall.png",
+      "sha256": "3d3b3db74c85cb2b9080ed95d2b7236e5a160287a3206b2946d5f81c0420d7aa",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 2,
+      "role": "bush_low",
+      "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_sheet_original.png",
+      "source_crop": [
+        747,
+        246,
+        1174,
+        507
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        427,
+        261
+      ],
+      "pivot": [
+        128,
+        236
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_bush_low.png",
+      "sha256": "07104903485590bc7dad515ae67b451d32f6e4e572b46bd33758ccb06f3bfc71",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 3,
+      "role": "flower_white",
+      "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_sheet_original.png",
+      "source_crop": [
+        1171,
+        132,
+        1532,
+        496
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        361,
+        364
+      ],
+      "pivot": [
+        128,
+        236
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_flower_white.png",
+      "sha256": "e8b609b304a4017c96fd358ce69d3848421b35630bbbf3df50728f8e680b0537",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 4,
+      "role": "flower_pink",
+      "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_sheet_original.png",
+      "source_crop": [
+        7,
+        572,
+        395,
+        953
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        388,
+        381
+      ],
+      "pivot": [
+        128,
+        236
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_flower_pink.png",
+      "sha256": "e209dd05555d772cac8f2df73115e333173fe7c9afd51c6c29b3be0ab29d7104",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 5,
+      "role": "mushroom_red",
+      "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_sheet_original.png",
+      "source_crop": [
+        403,
+        590,
+        775,
+        953
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        372,
+        363
+      ],
+      "pivot": [
+        128,
+        236
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_mushroom_red.png",
+      "sha256": "a57bb326d62e0eddb6724e1aefe4010452cdd4ad65d53c39a673342a3c9d3920",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 6,
+      "role": "mushroom_brown",
+      "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_sheet_original.png",
+      "source_crop": [
+        774,
+        605,
+        1150,
+        950
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        376,
+        345
+      ],
+      "pivot": [
+        128,
+        236
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_mushroom_brown.png",
+      "sha256": "10c2b044c72fb751340ce7b460e121f4c278c1feced662c65947b6c2e32a6145",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 7,
+      "role": "mixed_ground_plants",
+      "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_sheet_original.png",
+      "source_crop": [
+        1146,
+        548,
+        1530,
+        952
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        384,
+        404
+      ],
+      "pivot": [
+        128,
+        236
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_mixed_ground_plants.png",
+      "sha256": "2e7eb7e0a5e85b1691aac8162c7ba75396a56d6b0256a1318ad7c5ba0d6b37a0",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "normalized_sheet": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_prototype_sheet.png",
+    "sha256": "ad132cfb56ddd92685c4132be9e8eb6e78bc7e4e96eddecae0d52890417cda81",
+    "dimensions": [
+      1024,
+      512
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_prototype_sheet.png",
+  "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/previews/PROP-011_source_checker.jpg",
+  "contact_preview": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/previews/PROP-011_export_contact.png",
+    "sha256": "f8ee1e1d9be47cc46c3b863b67fb244627a4fc4886cf44ed40972dd8cd272bd6",
+    "dimensions": [
+      1024,
+      512
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  "review_notes": [
+    "Reviewed full silhouettes,correct type/count and genuinealpha over checkerboard. Originalimagesunchanged;exportsarederivedfixedcellswithalphaboundingcrop,paddingandbottomcenterpivots.",
+    "Connected-object cropbounds remove major neighboring-cell fragments. Tiny detached leaf/ornament fragments may remain for final manualcleanup. Staticstateprototypes only; no animation timing or productionapproval implied. Pairedstategeometry requires finalregistration/pivotpolish before runtime."
+  ],
+  "source_archive": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_sheet_original.png",
+      "sha256": "6d912f18b6cd21ea23a3e98f71afca548c1a96bc1ab1e5c214769887cd67c6cd",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "deliverables": [
+    {
+      "slug": "prop_sheet",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_sheet_original.png",
+      "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_prototype_sheet.png",
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/previews/PROP-011_source_checker.jpg",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted illustrated2Dgame PROP sprite sheet. Painterly warm agedwood,muted moss greens,coolbluegray stone/metal,selective crisp silhouettes,restrained brushtexture,subtleamber accents. Strict SIDE-ON ORTHOGRAPHIC sprite camera,flatfront elevation,no dramaticperspective,no3Dfloor. Genuine transparent alpha outside complete objects,opaque object interiors. NO background/scenery/floor/castshadows/coloredbackplate/haze/characters/UI/text/labels/gridlines. Every fullobject centered within equal fixedcells with50pxclear padding,no clipping,no overlaps. EIGHT isolated forest foliageclusters EXACT4columns2rows on1536x1024. Row1 roundleafbush,tallleafbush,lowspreadingbush,whitewildflowercluster. Row2 pinkwildflowercluster,redcappedmushroomcluster,brownmushroomcluster,mixedfernandtinyflowercluster. Complete fullsilhouettes,roots/basestidy,nosoilgroundpatch. No face/creatures,subduednaturalpalette.",
+      "reference_images": [],
+      "cols": 4,
+      "rows": 2,
+      "frame_count": 8,
+      "roles": [
+        "bush_round",
+        "bush_tall",
+        "bush_low",
+        "flower_white",
+        "flower_pink",
+        "mushroom_red",
+        "mushroom_brown",
+        "mixed_ground_plants"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "role": "bush_round",
+          "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_sheet_original.png",
+          "source_crop": [
+            8,
+            125,
+            409,
+            498
+          ],
+          "alpha_trim_within_crop": [
+            1,
+            1,
+            401,
+            373
+          ],
+          "pivot": [
+            128,
+            236
+          ],
+          "pivot_units": "pixels_from_top_left",
+          "timing": null,
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_bush_round.png",
+          "sha256": "46d6fd9f3bbdf6328177e898b2227efcce8e6327ffba0d8dd1a3133b511b22b7",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "index": 1,
+          "role": "bush_tall",
+          "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_sheet_original.png",
+          "source_crop": [
+            407,
+            71,
+            767,
+            499
+          ],
+          "alpha_trim_within_crop": [
+            0,
+            0,
+            360,
+            428
+          ],
+          "pivot": [
+            128,
+            236
+          ],
+          "pivot_units": "pixels_from_top_left",
+          "timing": null,
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_bush_tall.png",
+          "sha256": "3d3b3db74c85cb2b9080ed95d2b7236e5a160287a3206b2946d5f81c0420d7aa",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "index": 2,
+          "role": "bush_low",
+          "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_sheet_original.png",
+          "source_crop": [
+            747,
+            246,
+            1174,
+            507
+          ],
+          "alpha_trim_within_crop": [
+            0,
+            0,
+            427,
+            261
+          ],
+          "pivot": [
+            128,
+            236
+          ],
+          "pivot_units": "pixels_from_top_left",
+          "timing": null,
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_bush_low.png",
+          "sha256": "07104903485590bc7dad515ae67b451d32f6e4e572b46bd33758ccb06f3bfc71",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "index": 3,
+          "role": "flower_white",
+          "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_sheet_original.png",
+          "source_crop": [
+            1171,
+            132,
+            1532,
+            496
+          ],
+          "alpha_trim_within_crop": [
+            0,
+            0,
+            361,
+            364
+          ],
+          "pivot": [
+            128,
+            236
+          ],
+          "pivot_units": "pixels_from_top_left",
+          "timing": null,
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_flower_white.png",
+          "sha256": "e8b609b304a4017c96fd358ce69d3848421b35630bbbf3df50728f8e680b0537",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "index": 4,
+          "role": "flower_pink",
+          "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_sheet_original.png",
+          "source_crop": [
+            7,
+            572,
+            395,
+            953
+          ],
+          "alpha_trim_within_crop": [
+            0,
+            0,
+            388,
+            381
+          ],
+          "pivot": [
+            128,
+            236
+          ],
+          "pivot_units": "pixels_from_top_left",
+          "timing": null,
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_flower_pink.png",
+          "sha256": "e209dd05555d772cac8f2df73115e333173fe7c9afd51c6c29b3be0ab29d7104",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "index": 5,
+          "role": "mushroom_red",
+          "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_sheet_original.png",
+          "source_crop": [
+            403,
+            590,
+            775,
+            953
+          ],
+          "alpha_trim_within_crop": [
+            0,
+            0,
+            372,
+            363
+          ],
+          "pivot": [
+            128,
+            236
+          ],
+          "pivot_units": "pixels_from_top_left",
+          "timing": null,
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_mushroom_red.png",
+          "sha256": "a57bb326d62e0eddb6724e1aefe4010452cdd4ad65d53c39a673342a3c9d3920",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "index": 6,
+          "role": "mushroom_brown",
+          "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_sheet_original.png",
+          "source_crop": [
+            774,
+            605,
+            1150,
+            950
+          ],
+          "alpha_trim_within_crop": [
+            0,
+            0,
+            376,
+            345
+          ],
+          "pivot": [
+            128,
+            236
+          ],
+          "pivot_units": "pixels_from_top_left",
+          "timing": null,
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_mushroom_brown.png",
+          "sha256": "10c2b044c72fb751340ce7b460e121f4c278c1feced662c65947b6c2e32a6145",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "index": 7,
+          "role": "mixed_ground_plants",
+          "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_sheet_original.png",
+          "source_crop": [
+            1146,
+            548,
+            1530,
+            952
+          ],
+          "alpha_trim_within_crop": [
+            0,
+            0,
+            384,
+            404
+          ],
+          "pivot": [
+            128,
+            236
+          ],
+          "pivot_units": "pixels_from_top_left",
+          "timing": null,
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_mixed_ground_plants.png",
+          "sha256": "2e7eb7e0a5e85b1691aac8162c7ba75396a56d6b0256a1318ad7c5ba0d6b37a0",
+          "dimensions": [
+            256,
+            256
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "timing": null,
+      "loop": false,
+      "review_notes": [
+        "Reviewed full silhouettes,correct type/count and genuinealpha over checkerboard. Originalimagesunchanged;exportsarederivedfixedcellswithalphaboundingcrop,paddingandbottomcenterpivots.",
+        "Connected-object cropbounds remove major neighboring-cell fragments. Tiny detached leaf/ornament fragments may remain for final manualcleanup. Staticstateprototypes only; no animation timing or productionapproval implied. Pairedstategeometry requires finalregistration/pivotpolish before runtime."
+      ]
+    }
+  ],
+  "custom_bounds": [
+    [
+      8,
+      125,
+      409,
+      498
+    ],
+    [
+      407,
+      71,
+      767,
+      499
+    ],
+    [
+      747,
+      246,
+      1174,
+      507
+    ],
+    [
+      1171,
+      132,
+      1532,
+      496
+    ],
+    [
+      7,
+      572,
+      395,
+      953
+    ],
+    [
+      403,
+      590,
+      775,
+      953
+    ],
+    [
+      774,
+      605,
+      1150,
+      950
+    ],
+    [
+      1146,
+      548,
+      1530,
+      952
+    ]
+  ],
+  "validation": {
+    "source_and_export_paths_exist": true,
+    "alpha_reviewed_over_checkerboard": true,
+    "selected_object_count": 8,
+    "runtime_tested": false
+  }
+}
