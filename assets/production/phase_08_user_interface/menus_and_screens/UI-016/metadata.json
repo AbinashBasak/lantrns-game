@@ -1,0 +1,139 @@
+{
+  "asset_id": "UI-016",
+  "id": "UI-016",
+  "title": "Main menu background",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-016",
+  "stage": "generated_prototype_reviewed_exported",
+  "deliverables": [
+    {
+      "slug": "background",
+      "type": "illustrated bitmap UI prototype",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted illustrated game UI bitmap art. Dark teal wood/root shapes, restrained antique gold trim and cream accents, minimal legible ornaments. Flat orthographic2D UI asset, no perspective. No characters, UI mockup screenshots, concept boards, labels, watermark or guide text. One opaque wide1920x1080-ish main menu background only. Quiet dusk woodland with lanternlit roots and mossy ancient ruins framing mainly right side and outsideedges. Warm amber lanternlight in deepblue/tealshade. Broad dark quiet center and left60percent safearea for separately rendered logo/buttons, no bright details in that safearea. No text or logo. A single coherent softly painted environment view with calm forestdepth.",
+      "reference_images": [],
+      "style_references_inspected": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-001/ART-001_final_visual_style_guide.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-002/ART-002_color_palette_and_lighting.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-006/ART-006_rendering_consistency_guide.png"
+      ],
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-016/source_images/UI-016_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148bb-0c6e-7f82-b09b-4cb2e5949b56/exec-a5bda955-9aef-4bdf-bbc9-6d3d778e0c5f.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "25cdc47aacb315c100d610c38d69c709e37e830a049ddb16f9521ce5406e74d7",
+      "transparent_background": false,
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "export_mode": "image",
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "main menu background"
+      ],
+      "source_crop_boundaries": {
+        "x": [
+          0,
+          1672
+        ],
+        "y": [
+          0,
+          941
+        ]
+      },
+      "source_crop_boxes": [
+        [
+          0,
+          0,
+          1672,
+          941
+        ]
+      ],
+      "source_component_content_bounds": [
+        [
+          0,
+          0,
+          1672,
+          941
+        ]
+      ],
+      "timing": null,
+      "loop": false,
+      "animated": false,
+      "pivots": [
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-016/exports/UI-016_component_01.png"
+      ],
+      "preview_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-016/previews/UI-016_export_contact.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-016/previews/UI-016_source_checkerboard.png"
+      ],
+      "source_message_id": null,
+      "generation_tool": "built-in image_gen",
+      "review_notes": [
+        "Bitmap UI prototype only; no interaction logic, engine layout, localization or final nine-slice approval.",
+        "Wide opaque background with dark left/center safe area. Logo and labels are separate references in layout JSON.",
+        "Source and derived components reviewed over checkerboard; source intact. Padding, typography scaling, nine-slice/stretching, localization and interaction states require engine QA."
+      ],
+      "alpha_valid": true
+    }
+  ],
+  "requested_deliverables_saved_and_reviewed": true,
+  "production_approved": false,
+  "runtime_integrated": false,
+  "provenance": "New built-in image_gen original copied unchanged; exports/previews derived locally.",
+  "review_notes": [],
+  "layout_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-016/exports/UI-016_layout.json",
+  "assembled_preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-016/previews/UI-016_assembled_layout.png",
+  "derived_files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-016/exports/UI-016_layout.json",
+      "sha256": "069c47e0d4167b8ead1670aad8c058463895742e601098b363639476297d3f79",
+      "provenance": "derived export/layout/review preview"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-016/exports/UI-016_component_01.png",
+      "sha256": "1a0436ebcd1e73f3a1b14a9c450ebb9c601ce6b5a038656f6c282f0a2df878c2",
+      "provenance": "derived export/layout/review preview",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-016/previews/UI-016_assembled_layout.png",
+      "sha256": "50526c25d8850d69342252cbd6cbf05015ac2f99fd88e2d0389d2cb0368036bf",
+      "provenance": "derived export/layout/review preview",
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-016/previews/UI-016_export_contact.png",
+      "sha256": "3b1f7cd7a440c022e9e7cb1cf1729060c189b749c81828a6b4f0706aa6c5c6a4",
+      "provenance": "derived export/layout/review preview",
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-016/previews/UI-016_source_checkerboard.png",
+      "sha256": "10dc36d283854e78c09d9b7aa69fa23b5a2539f80235c6a9e2c29f618d569eca",
+      "provenance": "derived export/layout/review preview",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ]
+}

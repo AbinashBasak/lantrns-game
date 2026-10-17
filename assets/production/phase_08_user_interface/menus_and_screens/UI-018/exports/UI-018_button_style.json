@@ -1,0 +1,28 @@
+{
+  "state_component_paths": {
+    "normal": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-018/exports/UI-018_component_01.png",
+    "focused": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-018/exports/UI-018_component_02.png",
+    "pressed": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-018/exports/UI-018_component_03.png",
+    "disabled": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-018/exports/UI-018_component_04.png"
+  },
+  "content_safe_normalized": [
+    0.16,
+    0.2,
+    0.68,
+    0.6
+  ],
+  "proposed_nine_slice_pixels": {
+    "left": 90,
+    "right": 90,
+    "top": 35,
+    "bottom": 35
+  },
+  "slice_status": "proposal; ornamental edges need runtime slicing test",
+  "strings": {
+    "continue": "Continue",
+    "new_game": "New Game",
+    "settings": "Settings",
+    "quit": "Quit"
+  },
+  "labels_are_separate": true
+}

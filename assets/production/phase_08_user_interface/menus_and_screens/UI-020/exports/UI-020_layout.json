@@ -1,0 +1,207 @@
+{
+  "canvas": [
+    1280,
+    720
+  ],
+  "coordinate_system": "normalized x,y,width,height",
+  "scope": "static layout prototype only; runtime bindings, localization, input and nine-slice validation pending",
+  "elements": [
+    {
+      "kind": "image",
+      "asset_id": "UI-020",
+      "component": 1,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-020/exports/UI-020_component_01.png",
+      "rect": [
+        0.25,
+        0.06,
+        0.5,
+        0.88
+      ]
+    },
+    {
+      "kind": "dynamic_text",
+      "string_key": "settings.title",
+      "preview_text": "Settings",
+      "rect": [
+        0.3,
+        0.12,
+        0.4,
+        0.1
+      ],
+      "font_size": 38,
+      "color": "#f5e6bf",
+      "align": "center"
+    },
+    {
+      "kind": "dynamic_text",
+      "string_key": "settings.music",
+      "preview_text": "Music",
+      "rect": [
+        0.29,
+        0.32,
+        0.13,
+        0.07
+      ],
+      "font_size": 26,
+      "color": "#f5e6bf",
+      "align": "center"
+    },
+    {
+      "kind": "image",
+      "asset_id": "UI-020",
+      "component": 2,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-020/exports/UI-020_component_02.png",
+      "rect": [
+        0.43,
+        0.325,
+        0.23,
+        0.05
+      ]
+    },
+    {
+      "kind": "image",
+      "asset_id": "UI-020",
+      "component": 3,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-020/exports/UI-020_component_03.png",
+      "rect": [
+        0.57,
+        0.305,
+        0.04,
+        0.08
+      ]
+    },
+    {
+      "kind": "image",
+      "asset_id": "UI-020",
+      "component": 5,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-020/exports/UI-020_component_05.png",
+      "rect": [
+        0.68,
+        0.315,
+        0.04,
+        0.07
+      ]
+    },
+    {
+      "kind": "dynamic_text",
+      "string_key": "settings.sound",
+      "preview_text": "Sound",
+      "rect": [
+        0.29,
+        0.48,
+        0.13,
+        0.07
+      ],
+      "font_size": 26,
+      "color": "#f5e6bf",
+      "align": "center"
+    },
+    {
+      "kind": "image",
+      "asset_id": "UI-020",
+      "component": 2,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-020/exports/UI-020_component_02.png",
+      "rect": [
+        0.43,
+        0.485,
+        0.23,
+        0.05
+      ]
+    },
+    {
+      "kind": "image",
+      "asset_id": "UI-020",
+      "component": 3,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-020/exports/UI-020_component_03.png",
+      "rect": [
+        0.5900000000000001,
+        0.46499999999999997,
+        0.04,
+        0.08
+      ]
+    },
+    {
+      "kind": "image",
+      "asset_id": "UI-020",
+      "component": 5,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-020/exports/UI-020_component_05.png",
+      "rect": [
+        0.68,
+        0.475,
+        0.04,
+        0.07
+      ]
+    },
+    {
+      "kind": "image",
+      "asset_id": "UI-018",
+      "component": 1,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-018/exports/UI-018_component_01.png",
+      "rect": [
+        0.37,
+        0.64,
+        0.26,
+        0.1
+      ]
+    },
+    {
+      "kind": "dynamic_text",
+      "string_key": "settings.controls",
+      "preview_text": "Controls",
+      "rect": [
+        0.37,
+        0.64,
+        0.26,
+        0.1
+      ],
+      "font_size": 26,
+      "color": "#f5e6bf",
+      "align": "center"
+    },
+    {
+      "kind": "image",
+      "asset_id": "UI-018",
+      "component": 1,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-018/exports/UI-018_component_01.png",
+      "rect": [
+        0.37,
+        0.77,
+        0.26,
+        0.1
+      ]
+    },
+    {
+      "kind": "dynamic_text",
+      "string_key": "settings.back",
+      "preview_text": "Back",
+      "rect": [
+        0.37,
+        0.77,
+        0.26,
+        0.1
+      ],
+      "font_size": 26,
+      "color": "#f5e6bf",
+      "align": "center"
+    }
+  ],
+  "strings": {
+    "settings.title": "Settings",
+    "settings.music": "Music",
+    "settings.sound": "Sound",
+    "settings.controls": "Controls",
+    "settings.back": "Back"
+  },
+  "typography": {
+    "preview_font": "Georgia, system font; not bundled as runtime font",
+    "runtime_font": "TBD",
+    "minimum_localization_review": "English prototype only; scale and longer labels need engine QA"
+  },
+  "panel_content_safe_normalized": [
+    0.12,
+    0.12,
+    0.76,
+    0.76
+  ],
+  "nine_slice_status": "Proposal only; do not stretch corner/root ornaments without engine review"
+}

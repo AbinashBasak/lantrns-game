@@ -1,0 +1,125 @@
+{
+  "asset_id": "UI-017",
+  "id": "UI-017",
+  "title": "Game logo",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-017",
+  "stage": "generated_prototype_reviewed_exported",
+  "deliverables": [
+    {
+      "slug": "wordmark",
+      "type": "illustrated bitmap UI prototype",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted illustrated game UI bitmap art. Dark teal wood/root shapes, restrained antique gold trim and cream accents, minimal legible ornaments. Flat orthographic2D UI asset, no perspective. No characters, UI mockup screenshots, concept boards, labels, watermark or guide text. Create a standalone transparent GAME WORDMARK. Reference image: use ONLY established top-left game title/logo lettering, ignore all theguide panels, characters and othertext. EXACT text, two lines: first line LANTERNS; second line UNDERROOT. Spell exactly L A N T E R N S and U N D E R R O O T, no apostrophe. Elegant storybook antique cream/gold uppercase serif with subtle organic root/vine flourishes and tiny warm lantern motif, clean legible silhouette, balanced centered composition. True transparent background, complete wordmark with generous clearpadding, no plaque or background. Wide landscape aspect about1536x1024, centeredlogo occupies middle65percentwidth.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-001/ART-001_final_visual_style_guide.png"
+      ],
+      "style_references_inspected": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-001/ART-001_final_visual_style_guide.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-002/ART-002_color_palette_and_lighting.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-006/ART-006_rendering_consistency_guide.png"
+      ],
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-017/source_images/UI-017_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148bb-0c6e-7f82-b09b-4cb2e5949b56/exec-21d58eec-246f-454b-bdbf-3ef7f51fdec9.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "c4a3723f2c8e36a764b9339e9ceb8255fd22f5d6d755b5a1edcd9de5f1bc1d91",
+      "transparent_background": true,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "export_mode": "image",
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "LANTERNS UNDERROOT wordmark"
+      ],
+      "source_crop_boundaries": {
+        "x": [
+          0,
+          1536
+        ],
+        "y": [
+          0,
+          1024
+        ]
+      },
+      "source_crop_boxes": [
+        [
+          0,
+          0,
+          1536,
+          1024
+        ]
+      ],
+      "source_component_content_bounds": [
+        [
+          14,
+          49,
+          1523,
+          1000
+        ]
+      ],
+      "timing": null,
+      "loop": false,
+      "animated": false,
+      "pivots": [
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-017/exports/UI-017_component_01.png"
+      ],
+      "preview_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-017/previews/UI-017_source_checkerboard.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-017/previews/UI-017_export_contact.png"
+      ],
+      "source_message_id": null,
+      "generation_tool": "built-in image_gen",
+      "review_notes": [
+        "Bitmap UI prototype only; no interaction logic, engine layout, localization or final nine-slice approval.",
+        "Wordmark visually proofread: LANTERNS UNDERROOT, correct letters, no apostrophe. Complete glyph silhouettes, transparent surrounding; not runtime font.",
+        "Source and derived components reviewed over checkerboard; source intact. Padding, typography scaling, nine-slice/stretching, localization and interaction states require engine QA."
+      ],
+      "alpha_valid": true
+    }
+  ],
+  "requested_deliverables_saved_and_reviewed": true,
+  "production_approved": false,
+  "runtime_integrated": false,
+  "provenance": "New built-in image_gen original copied unchanged; exports/previews derived locally.",
+  "review_notes": [],
+  "derived_files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-017/exports/UI-017_component_01.png",
+      "sha256": "9452af6d74f75a17798e3b2364e13efb610628edf5bde0274cf42eb949dc9171",
+      "provenance": "derived export/layout/review preview",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-017/previews/UI-017_source_checkerboard.png",
+      "sha256": "89e247ad9a0f0cf9c4ac7957fffa31ce7a617c5d8f949a89eef44ea5ccaa5573",
+      "provenance": "derived export/layout/review preview",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-017/previews/UI-017_export_contact.png",
+      "sha256": "5ebd8b710af359de89f5d61b150c81e2f5043e7d75a07bc2fec411bb659d1fb5",
+      "provenance": "derived export/layout/review preview",
+      "dimensions": [
+        512,
+        512
+      ]
+    }
+  ]
+}

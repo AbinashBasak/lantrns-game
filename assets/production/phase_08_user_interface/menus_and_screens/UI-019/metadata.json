@@ -1,0 +1,225 @@
+{
+  "asset_id": "UI-019",
+  "id": "UI-019",
+  "title": "Pause menu",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-019",
+  "stage": "generated_prototype_reviewed_exported",
+  "deliverables": [
+    {
+      "slug": "ui_components",
+      "type": "illustrated bitmap UI prototype",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted illustrated game UI bitmap art. Dark teal wood/root shapes, restrained antique gold trim and cream accents, minimal legible ornaments. Flat orthographic2D UI asset, no perspective. No characters, UI mockup screenshots, concept boards, labels, watermark or guide text. ONE transparent square atlas exactly2columns2rows FOUR separate UI COMPONENTS, not an assembledmenu. Topleft: one large empty darkteal pausepanel body, upright squarewithslightlyroundedrootcorners, solidquietinterior andthinantiquegoldborder. Topright: one separate wideblankheader plaque aspect4:1. Bottomleft: one separate thinhorizontal ornamentaldivider aspect5:1. Bottomright: one separate smallcorner/rootornament. Each completecomponent fits owncell with70pxpadding. Blanktitle/body, no buttons or labels, no text. Truealpha outside physicalcomponents; no scenery.",
+      "reference_images": [],
+      "style_references_inspected": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-001/ART-001_final_visual_style_guide.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-002/ART-002_color_palette_and_lighting.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-006/ART-006_rendering_consistency_guide.png"
+      ],
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-019/source_images/UI-019_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148bb-0c6e-7f82-b09b-4cb2e5949b56/exec-a1b1533a-c7a2-432d-91cd-3b731561a9a3.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "5a87c4db2ebd9219fce53e4600a092d0ac7c72a03b6f4c150bafc2e625cdb75c",
+      "transparent_background": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "export_mode": "atlas",
+      "cols": 2,
+      "rows": 2,
+      "frame_count": 4,
+      "roles": [
+        "pause panel body",
+        "blank header plaque",
+        "divider",
+        "corner root ornament"
+      ],
+      "source_crop_boundaries": {
+        "x": [
+          0,
+          627,
+          1254
+        ],
+        "y": [
+          0,
+          627,
+          1254
+        ]
+      },
+      "source_crop_boxes": [
+        [
+          30,
+          55,
+          665,
+          700
+        ],
+        [
+          665,
+          255,
+          1240,
+          470
+        ],
+        [
+          45,
+          950,
+          660,
+          1060
+        ],
+        [
+          840,
+          830,
+          1135,
+          1200
+        ]
+      ],
+      "source_component_content_bounds": [
+        [
+          19,
+          15,
+          622,
+          631
+        ],
+        [
+          10,
+          27,
+          557,
+          201
+        ],
+        [
+          23,
+          20,
+          603,
+          100
+        ],
+        [
+          15,
+          25,
+          273,
+          337
+        ]
+      ],
+      "timing": null,
+      "loop": false,
+      "animated": false,
+      "pivots": [
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-019/exports/UI-019_component_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-019/exports/UI-019_component_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-019/exports/UI-019_component_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-019/exports/UI-019_component_04.png"
+      ],
+      "preview_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-019/previews/UI-019_export_contact.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-019/previews/UI-019_source_checkerboard.png"
+      ],
+      "source_message_id": null,
+      "generation_tool": "built-in image_gen",
+      "review_notes": [
+        "Bitmap UI prototype only; no interaction logic, engine layout, localization or final nine-slice approval.",
+        "Four components generated in uneven arrangement; custom nonoverlapping boxes preserve complete silhouettes despite original requested equal2\u00d72 grid. Original preserved.",
+        "Source and derived components reviewed over checkerboard; source intact. Padding, typography scaling, nine-slice/stretching, localization and interaction states require engine QA.",
+        "Derived components trim alpha noise below16/255 for content bounding only; retained original alpha within crops, normalized full-size contain exports."
+      ],
+      "source_crop_note": "Four components generated in uneven arrangement; custom nonoverlapping boxes preserve complete silhouettes despite original requested equal2\u00d72 grid. Original preserved.",
+      "alpha_valid": true,
+      "content_crop_alpha_threshold": 16
+    }
+  ],
+  "requested_deliverables_saved_and_reviewed": true,
+  "production_approved": false,
+  "runtime_integrated": false,
+  "provenance": "New built-in image_gen original copied unchanged; exports/previews derived locally.",
+  "review_notes": [],
+  "layout_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-019/exports/UI-019_layout.json",
+  "assembled_preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-019/previews/UI-019_assembled_layout.png",
+  "derived_files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-019/exports/UI-019_component_01.png",
+      "sha256": "b96f898b31c120ab517759ce33a1a7577a395672ecbb061ccf53382733b679eb",
+      "provenance": "derived export/layout/review preview",
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-019/exports/UI-019_component_02.png",
+      "sha256": "78936e3ea062ebbe596233e1f49c8c917e0ffcbd5eaac5db5f97aac322d14f28",
+      "provenance": "derived export/layout/review preview",
+      "dimensions": [
+        512,
+        128
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-019/exports/UI-019_layout.json",
+      "sha256": "de73f5120b739989d32efe6f4c75f8602b2b431aedf11da47f86c5651a4a2e44",
+      "provenance": "derived export/layout/review preview"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-019/exports/UI-019_component_03.png",
+      "sha256": "23fbb08f292ff5712d1f62c463268cc9e4829b12efec5a4136db4c8c181a4312",
+      "provenance": "derived export/layout/review preview",
+      "dimensions": [
+        512,
+        64
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-019/exports/UI-019_component_04.png",
+      "sha256": "3f35eafec53599fd2b1d9c9dd9d6551c1ef6ec642a53e4bdc8791f00af76a2be",
+      "provenance": "derived export/layout/review preview",
+      "dimensions": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-019/previews/UI-019_assembled_layout.png",
+      "sha256": "af7cb1885795370f9431180c620ccdbb781b07fdc4c9aecd2b34c0b453f3cf97",
+      "provenance": "derived export/layout/review preview",
+      "dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-019/previews/UI-019_export_contact.png",
+      "sha256": "6d4ec0eda93dce07402985d8098290980c8ba9d1fdc4374b5736bf815f9c300b",
+      "provenance": "derived export/layout/review preview",
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-019/previews/UI-019_source_checkerboard.png",
+      "sha256": "df397771185077fcff5f8370928f717a16fa3d787c2dd603ccede29e3d49e502",
+      "provenance": "derived export/layout/review preview",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    }
+  ]
+}
