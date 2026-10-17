@@ -1,0 +1,515 @@
+{
+  "id": "UI-010",
+  "asset_id": "UI-010",
+  "title": "Dialogue portrait frames",
+  "cols": 2,
+  "rows": 2,
+  "roles": [
+    "normal",
+    "focus",
+    "disabled",
+    "alternate"
+  ],
+  "prompt": "Use case: ui-mockup. Lanterns Underroot game UI ASSET sheet,not screenshot. Handpainted illustratedfantasy, darkteal/weatheredrootwood/antiquegold/cream,cleanreadablesilhouettes,restrainedornaments. Flatfront UIelevation,no3Dperspective. Truealpha outsidecomponents,no scenery/characters/faces/text/letters/numbers/UIlayout/castshadows/hazebackground. Eachcompletecomponentisolatedwith60pxpaddinginequalcells,noclip,nooverlap. FOURemptyportraitFRAMES2x2on1024square:normal,focusgoldrim,disabledmuted,alternateleafcorners. Eachsquarewithsoftcorners,darkrootwood/antiquegoldborder,ENTIREcenterholeGENUINETRANSPARENTalpha,nointeriorcoloredpanel. Sameouterdimensionsandcontentopening,frontflat. No silhouettes/faces/avatars.",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010",
+  "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148ba-fae3-7fd0-8db9-6aa6385f397c/exec-c2448300-e6a0-4c4d-bb3f-6fd555a37213.png",
+  "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/source_images/UI-010_sheet_original.png",
+  "custom_bounds": [
+    [
+      68,
+      51,
+      599,
+      586
+    ],
+    [
+      653,
+      44,
+      1186,
+      587
+    ],
+    [
+      68,
+      652,
+      600,
+      1188
+    ],
+    [
+      644,
+      654,
+      1193,
+      1192
+    ]
+  ],
+  "source_info": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/source_images/UI-010_sheet_original.png",
+    "sha256": "fa46c75153fbe8dba2bd316eb8731d470db263c856b7146cb60a3ef6b2bfbe13",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "frame_count": 4,
+  "timing": null,
+  "loop": false,
+  "production_approved": false,
+  "runtime_integrated": false,
+  "requested_deliverables_saved_and_reviewed": true,
+  "stage": "generated_ui_prototype_saved_and_reviewed",
+  "source_message_id": null,
+  "reference_images": [],
+  "provenance": {
+    "tool": "built-in image_gen",
+    "original_unchanged": true,
+    "style_guides_reviewed": [
+      "ART-001",
+      "ART-002",
+      "ART-006"
+    ]
+  },
+  "frames": [
+    {
+      "index": 0,
+      "role": "normal",
+      "source_crop": [
+        68,
+        51,
+        599,
+        586
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        531,
+        535
+      ],
+      "pivot": [
+        128.0,
+        128.0
+      ],
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/exports/UI-010_normal.png",
+      "sha256": "03729e51db84a87d89015537616568473586b18d8ce851bfd88bb3f4159cd3c9",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "export_128": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/exports/UI-010_normal_128.png",
+        "sha256": "3da212ffb28866733bde139030540029f6854e345edb4982797f36e645e29d8e",
+        "dimensions": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "role": "focus",
+      "source_crop": [
+        653,
+        44,
+        1186,
+        587
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        533,
+        543
+      ],
+      "pivot": [
+        128.0,
+        128.0
+      ],
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/exports/UI-010_focus.png",
+      "sha256": "2048df53b46f35437b0497456a2c2c77306b624497b3e932749d3896878d2843",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "export_128": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/exports/UI-010_focus_128.png",
+        "sha256": "1bbe7c6a75260da33ef7a4d3b7442ef3fa26219724848f128745638df203dafe",
+        "dimensions": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "role": "disabled",
+      "source_crop": [
+        68,
+        652,
+        600,
+        1188
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        532,
+        536
+      ],
+      "pivot": [
+        128.0,
+        128.0
+      ],
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/exports/UI-010_disabled.png",
+      "sha256": "bcfecab209da749cd7d19ed75a9e8bbbec26dd7811c13903c1b9e3ec7b355873",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "export_128": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/exports/UI-010_disabled_128.png",
+        "sha256": "cbe6a92d107d00c3180b89367df16b214ccaee543c92780651dfc5d9ac46ba35",
+        "dimensions": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "role": "alternate",
+      "source_crop": [
+        644,
+        654,
+        1193,
+        1192
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        549,
+        538
+      ],
+      "pivot": [
+        128.0,
+        128.0
+      ],
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/exports/UI-010_alternate.png",
+      "sha256": "b86c56abba5a99e80c0713323697c07d4143962030fdaea7fecddf8f315ba6ec",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "export_128": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/exports/UI-010_alternate_128.png",
+        "sha256": "939753190ef1ed4f870944db136bf61cd0b76e5c518e777754af357dcf0c470b",
+        "dimensions": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      }
+    }
+  ],
+  "deliverables": [
+    {
+      "slug": "normal",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/source_images/UI-010_sheet_original.png",
+      "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/exports/UI-010_normal.png",
+      "prompt": "Use case: ui-mockup. Lanterns Underroot game UI ASSET sheet,not screenshot. Handpainted illustratedfantasy, darkteal/weatheredrootwood/antiquegold/cream,cleanreadablesilhouettes,restrainedornaments. Flatfront UIelevation,no3Dperspective. Truealpha outsidecomponents,no scenery/characters/faces/text/letters/numbers/UIlayout/castshadows/hazebackground. Eachcompletecomponentisolatedwith60pxpaddinginequalcells,noclip,nooverlap. FOURemptyportraitFRAMES2x2on1024square:normal,focusgoldrim,disabledmuted,alternateleafcorners. Eachsquarewithsoftcorners,darkrootwood/antiquegoldborder,ENTIREcenterholeGENUINETRANSPARENTalpha,nointeriorcoloredpanel. Sameouterdimensionsandcontentopening,frontflat. No silhouettes/faces/avatars.",
+      "reference_images": [],
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "normal"
+      ],
+      "source_crop": [
+        68,
+        51,
+        599,
+        586
+      ],
+      "timing": null,
+      "loop": false,
+      "content_safe_rect_proposal": [
+        48,
+        48,
+        160,
+        160
+      ],
+      "export_info": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/exports/UI-010_normal.png",
+        "sha256": "03729e51db84a87d89015537616568473586b18d8ce851bfd88bb3f4159cd3c9",
+        "dimensions": [
+          256,
+          256
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "review_notes": [
+        "All four requested components or states saved and visually reviewed over checkerboard. Custom object bounds preserve wide parts crossing the nominal source grid.",
+        "Generated prototypes: final registration, consistent border thickness, slicing and contrast tests remain pending. Production approval and runtime integration are false.",
+        "All portrait interiors are genuinely transparent; the focus state has a local gold rim. Final portrait masking and registration remain pending.",
+        "Reviewed at 32px and 64px: symbols remain recognizable, while ornamental rim detail softens naturally."
+      ]
+    },
+    {
+      "slug": "focus",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/source_images/UI-010_sheet_original.png",
+      "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/exports/UI-010_focus.png",
+      "prompt": "Use case: ui-mockup. Lanterns Underroot game UI ASSET sheet,not screenshot. Handpainted illustratedfantasy, darkteal/weatheredrootwood/antiquegold/cream,cleanreadablesilhouettes,restrainedornaments. Flatfront UIelevation,no3Dperspective. Truealpha outsidecomponents,no scenery/characters/faces/text/letters/numbers/UIlayout/castshadows/hazebackground. Eachcompletecomponentisolatedwith60pxpaddinginequalcells,noclip,nooverlap. FOURemptyportraitFRAMES2x2on1024square:normal,focusgoldrim,disabledmuted,alternateleafcorners. Eachsquarewithsoftcorners,darkrootwood/antiquegoldborder,ENTIREcenterholeGENUINETRANSPARENTalpha,nointeriorcoloredpanel. Sameouterdimensionsandcontentopening,frontflat. No silhouettes/faces/avatars.",
+      "reference_images": [],
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "focus"
+      ],
+      "source_crop": [
+        653,
+        44,
+        1186,
+        587
+      ],
+      "timing": null,
+      "loop": false,
+      "content_safe_rect_proposal": [
+        48,
+        48,
+        160,
+        160
+      ],
+      "export_info": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/exports/UI-010_focus.png",
+        "sha256": "2048df53b46f35437b0497456a2c2c77306b624497b3e932749d3896878d2843",
+        "dimensions": [
+          256,
+          256
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "review_notes": [
+        "All four requested components or states saved and visually reviewed over checkerboard. Custom object bounds preserve wide parts crossing the nominal source grid.",
+        "Generated prototypes: final registration, consistent border thickness, slicing and contrast tests remain pending. Production approval and runtime integration are false.",
+        "All portrait interiors are genuinely transparent; the focus state has a local gold rim. Final portrait masking and registration remain pending.",
+        "Reviewed at 32px and 64px: symbols remain recognizable, while ornamental rim detail softens naturally."
+      ]
+    },
+    {
+      "slug": "disabled",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/source_images/UI-010_sheet_original.png",
+      "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/exports/UI-010_disabled.png",
+      "prompt": "Use case: ui-mockup. Lanterns Underroot game UI ASSET sheet,not screenshot. Handpainted illustratedfantasy, darkteal/weatheredrootwood/antiquegold/cream,cleanreadablesilhouettes,restrainedornaments. Flatfront UIelevation,no3Dperspective. Truealpha outsidecomponents,no scenery/characters/faces/text/letters/numbers/UIlayout/castshadows/hazebackground. Eachcompletecomponentisolatedwith60pxpaddinginequalcells,noclip,nooverlap. FOURemptyportraitFRAMES2x2on1024square:normal,focusgoldrim,disabledmuted,alternateleafcorners. Eachsquarewithsoftcorners,darkrootwood/antiquegoldborder,ENTIREcenterholeGENUINETRANSPARENTalpha,nointeriorcoloredpanel. Sameouterdimensionsandcontentopening,frontflat. No silhouettes/faces/avatars.",
+      "reference_images": [],
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "disabled"
+      ],
+      "source_crop": [
+        68,
+        652,
+        600,
+        1188
+      ],
+      "timing": null,
+      "loop": false,
+      "content_safe_rect_proposal": [
+        48,
+        48,
+        160,
+        160
+      ],
+      "export_info": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/exports/UI-010_disabled.png",
+        "sha256": "bcfecab209da749cd7d19ed75a9e8bbbec26dd7811c13903c1b9e3ec7b355873",
+        "dimensions": [
+          256,
+          256
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "review_notes": [
+        "All four requested components or states saved and visually reviewed over checkerboard. Custom object bounds preserve wide parts crossing the nominal source grid.",
+        "Generated prototypes: final registration, consistent border thickness, slicing and contrast tests remain pending. Production approval and runtime integration are false.",
+        "All portrait interiors are genuinely transparent; the focus state has a local gold rim. Final portrait masking and registration remain pending.",
+        "Reviewed at 32px and 64px: symbols remain recognizable, while ornamental rim detail softens naturally."
+      ]
+    },
+    {
+      "slug": "alternate",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/source_images/UI-010_sheet_original.png",
+      "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/exports/UI-010_alternate.png",
+      "prompt": "Use case: ui-mockup. Lanterns Underroot game UI ASSET sheet,not screenshot. Handpainted illustratedfantasy, darkteal/weatheredrootwood/antiquegold/cream,cleanreadablesilhouettes,restrainedornaments. Flatfront UIelevation,no3Dperspective. Truealpha outsidecomponents,no scenery/characters/faces/text/letters/numbers/UIlayout/castshadows/hazebackground. Eachcompletecomponentisolatedwith60pxpaddinginequalcells,noclip,nooverlap. FOURemptyportraitFRAMES2x2on1024square:normal,focusgoldrim,disabledmuted,alternateleafcorners. Eachsquarewithsoftcorners,darkrootwood/antiquegoldborder,ENTIREcenterholeGENUINETRANSPARENTalpha,nointeriorcoloredpanel. Sameouterdimensionsandcontentopening,frontflat. No silhouettes/faces/avatars.",
+      "reference_images": [],
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "alternate"
+      ],
+      "source_crop": [
+        644,
+        654,
+        1193,
+        1192
+      ],
+      "timing": null,
+      "loop": false,
+      "content_safe_rect_proposal": [
+        48,
+        48,
+        160,
+        160
+      ],
+      "export_info": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/exports/UI-010_alternate.png",
+        "sha256": "b86c56abba5a99e80c0713323697c07d4143962030fdaea7fecddf8f315ba6ec",
+        "dimensions": [
+          256,
+          256
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "review_notes": [
+        "All four requested components or states saved and visually reviewed over checkerboard. Custom object bounds preserve wide parts crossing the nominal source grid.",
+        "Generated prototypes: final registration, consistent border thickness, slicing and contrast tests remain pending. Production approval and runtime integration are false.",
+        "All portrait interiors are genuinely transparent; the focus state has a local gold rim. Final portrait masking and registration remain pending.",
+        "Reviewed at 32px and 64px: symbols remain recognizable, while ornamental rim detail softens naturally."
+      ]
+    }
+  ],
+  "contact_preview": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/previews/UI-010_export_contact.png",
+    "sha256": "b36f4ee0d781eaed522b47eefa65fe1f9f05115ca373aa6a2f4ee5287499922e",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/previews/UI-010_export_contact.png",
+  "normalized_sheet": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/exports/UI-010_normalized_sheet.png",
+    "sha256": "c150f9c31958c74aa229b3270498eda33bc660962312f578cc98dfe0136f78f0",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/exports/UI-010_normalized_sheet.png",
+  "source_preview": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/previews/UI-010_source_checker.jpg",
+    "sha256": "32ab7e9e683e8cb8fcd4460d7ea588e8ce41eb2580ba8479660e2e182c7b6245",
+    "dimensions": [
+      768,
+      768
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  "legibility_preview": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/previews/UI-010_32_64px_legibility.png",
+    "sha256": "5abce3f9925dbea738ff27e8f8d065b990ae1c64d0e7f958debbd6fd0c31d0c7",
+    "dimensions": [
+      512,
+      128
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  "review_notes": [
+    "All four requested components or states saved and visually reviewed over checkerboard. Custom object bounds preserve wide parts crossing the nominal source grid.",
+    "Generated prototypes: final registration, consistent border thickness, slicing and contrast tests remain pending. Production approval and runtime integration are false.",
+    "All portrait interiors are genuinely transparent; the focus state has a local gold rim. Final portrait masking and registration remain pending.",
+    "Reviewed at 32px and 64px: symbols remain recognizable, while ornamental rim detail softens naturally."
+  ],
+  "source_archive": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-010/source_images/UI-010_sheet_original.png",
+      "sha256": "fa46c75153fbe8dba2bd316eb8731d470db263c856b7146cb60a3ef6b2bfbe13",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "validation": {
+    "selected_component_count": 4,
+    "all_links_exist": true,
+    "alpha_reviewed_over_checkerboard": true,
+    "small_icon_legibility_reviewed": true,
+    "runtime_tested": false
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "id": "UI-008",
+  "asset_id": "UI-008",
+  "title": "Boss health bar",
+  "cols": 2,
+  "rows": 2,
+  "roles": [
+    "boss_frame",
+    "boss_track",
+    "boss_fill",
+    "boss_endcrest"
+  ],
+  "prompt": "Use case: ui-mockup. Lanterns Underroot game UI ASSET sheet,not screenshot. Handpainted illustratedfantasy, darkteal/weatheredrootwood/antiquegold/cream,cleanreadablesilhouettes,restrainedornaments. Flatfront UIelevation,no3Dperspective. Truealpha outsidecomponents,no scenery/characters/faces/text/letters/numbers/UIlayout/castshadows/hazebackground. Eachcompletecomponentisolatedwith60pxpaddinginequalcells,noclip,nooverlap. Exactly4separatecomponents2x2on1536square. Row1 LEFT wideornateemptybossbarFRAMEwithtransparentlongcenter,nohealthfill;RIGHT isolateddarktealemptyTRACK roundedrectangle matchingframeinneraspect. Row2 LEFT isolateddeepredhealthFILL longroundedrectangle,noframeortrack;RIGHT onecompactantiquegoldrootendcrest. Bars6to1widthheight,safecontentclear,nochars/skulls/faces/nohealthlabels. DoNOTflattenintofourcompletehealthbars.",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008",
+  "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148ba-fae3-7fd0-8db9-6aa6385f397c/exec-77f72b04-69bf-4fbd-abf7-f0c8771b2e23.png",
+  "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/source_images/UI-008_sheet_original.png",
+  "custom_bounds": [
+    [
+      0,
+      257,
+      678,
+      489
+    ],
+    [
+      693,
+      326,
+      1246,
+      421
+    ],
+    [
+      42,
+      846,
+      759,
+      935
+    ],
+    [
+      859,
+      679,
+      1217,
+      1086
+    ]
+  ],
+  "source_info": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/source_images/UI-008_sheet_original.png",
+    "sha256": "0fe29aab1a432008cc16a029b6ad13866ae5ac1b4f946b34eb75b008f6684088",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "frame_count": 4,
+  "timing": null,
+  "loop": false,
+  "production_approved": false,
+  "runtime_integrated": false,
+  "requested_deliverables_saved_and_reviewed": true,
+  "stage": "generated_ui_prototype_saved_and_reviewed",
+  "source_message_id": null,
+  "reference_images": [],
+  "provenance": {
+    "tool": "built-in image_gen",
+    "original_unchanged": true,
+    "style_guides_reviewed": [
+      "ART-001",
+      "ART-002",
+      "ART-006"
+    ]
+  },
+  "frames": [
+    {
+      "index": 0,
+      "role": "boss_frame",
+      "source_crop": [
+        0,
+        257,
+        678,
+        489
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        1,
+        677,
+        232
+      ],
+      "pivot": [
+        512.0,
+        192.0
+      ],
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_boss_frame.png",
+      "sha256": "e049d5d76a056e857627f4f95e249529bb3454512c03bdd7b7b885c1b80fed2a",
+      "dimensions": [
+        1024,
+        384
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 1,
+      "role": "boss_track",
+      "source_crop": [
+        693,
+        326,
+        1246,
+        421
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        553,
+        95
+      ],
+      "pivot": [
+        512.0,
+        80.0
+      ],
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_boss_track.png",
+      "sha256": "bb7f39c15e1e8c34ce3b9c36462dc1aeb2ed3be18878eacbc89820cb2c582d4e",
+      "dimensions": [
+        1024,
+        160
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 2,
+      "role": "boss_fill",
+      "source_crop": [
+        42,
+        846,
+        759,
+        935
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        717,
+        89
+      ],
+      "pivot": [
+        512.0,
+        64.0
+      ],
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_boss_fill.png",
+      "sha256": "641f450e9b3049089eb39e3123d878ce3cac7c5129dc0ca64bf627a2db93244c",
+      "dimensions": [
+        1024,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 3,
+      "role": "boss_endcrest",
+      "source_crop": [
+        859,
+        679,
+        1217,
+        1086
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        358,
+        407
+      ],
+      "pivot": [
+        128.0,
+        128.0
+      ],
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_boss_endcrest.png",
+      "sha256": "c86f1963693a56e82305013935ef6987b2ff81dd79aba5378494e48426566df2",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "deliverables": [
+    {
+      "slug": "boss_frame",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/source_images/UI-008_sheet_original.png",
+      "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_boss_frame.png",
+      "prompt": "Use case: ui-mockup. Lanterns Underroot game UI ASSET sheet,not screenshot. Handpainted illustratedfantasy, darkteal/weatheredrootwood/antiquegold/cream,cleanreadablesilhouettes,restrainedornaments. Flatfront UIelevation,no3Dperspective. Truealpha outsidecomponents,no scenery/characters/faces/text/letters/numbers/UIlayout/castshadows/hazebackground. Eachcompletecomponentisolatedwith60pxpaddinginequalcells,noclip,nooverlap. Exactly4separatecomponents2x2on1536square. Row1 LEFT wideornateemptybossbarFRAMEwithtransparentlongcenter,nohealthfill;RIGHT isolateddarktealemptyTRACK roundedrectangle matchingframeinneraspect. Row2 LEFT isolateddeepredhealthFILL longroundedrectangle,noframeortrack;RIGHT onecompactantiquegoldrootendcrest. Bars6to1widthheight,safecontentclear,nochars/skulls/faces/nohealthlabels. DoNOTflattenintofourcompletehealthbars.",
+      "reference_images": [],
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "boss_frame"
+      ],
+      "source_crop": [
+        0,
+        257,
+        678,
+        489
+      ],
+      "timing": null,
+      "loop": false,
+      "slicing_proposal": {
+        "type": "horizontal_three_slice",
+        "left_margin": 143,
+        "right_margin": 143,
+        "status": "Proposed from visual review; test at target HUD width."
+      },
+      "content_safe_rect_proposal": [
+        143,
+        153,
+        737,
+        76
+      ],
+      "export_info": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_boss_frame.png",
+        "sha256": "e049d5d76a056e857627f4f95e249529bb3454512c03bdd7b7b885c1b80fed2a",
+        "dimensions": [
+          1024,
+          384
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "review_notes": [
+        "All four requested components or states saved and visually reviewed over checkerboard. Custom object bounds preserve wide parts crossing the nominal source grid.",
+        "Generated prototypes: final registration, consistent border thickness, slicing and contrast tests remain pending. Production approval and runtime integration are false.",
+        "Separate frame, track, fill and crest exported. The source frame has minimal left edge clearance; exports pad its visible contour. Match fill and track lengths to the frame inset during layout."
+      ]
+    },
+    {
+      "slug": "boss_track",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/source_images/UI-008_sheet_original.png",
+      "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_boss_track.png",
+      "prompt": "Use case: ui-mockup. Lanterns Underroot game UI ASSET sheet,not screenshot. Handpainted illustratedfantasy, darkteal/weatheredrootwood/antiquegold/cream,cleanreadablesilhouettes,restrainedornaments. Flatfront UIelevation,no3Dperspective. Truealpha outsidecomponents,no scenery/characters/faces/text/letters/numbers/UIlayout/castshadows/hazebackground. Eachcompletecomponentisolatedwith60pxpaddinginequalcells,noclip,nooverlap. Exactly4separatecomponents2x2on1536square. Row1 LEFT wideornateemptybossbarFRAMEwithtransparentlongcenter,nohealthfill;RIGHT isolateddarktealemptyTRACK roundedrectangle matchingframeinneraspect. Row2 LEFT isolateddeepredhealthFILL longroundedrectangle,noframeortrack;RIGHT onecompactantiquegoldrootendcrest. Bars6to1widthheight,safecontentclear,nochars/skulls/faces/nohealthlabels. DoNOTflattenintofourcompletehealthbars.",
+      "reference_images": [],
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "boss_track"
+      ],
+      "source_crop": [
+        693,
+        326,
+        1246,
+        421
+      ],
+      "timing": null,
+      "loop": false,
+      "slicing_proposal": {
+        "type": "horizontal_three_slice",
+        "left_margin": 143,
+        "right_margin": 143,
+        "status": "Proposed from visual review; test at target HUD width."
+      },
+      "content_safe_rect_proposal": [
+        143,
+        64,
+        737,
+        32
+      ],
+      "export_info": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_boss_track.png",
+        "sha256": "bb7f39c15e1e8c34ce3b9c36462dc1aeb2ed3be18878eacbc89820cb2c582d4e",
+        "dimensions": [
+          1024,
+          160
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "review_notes": [
+        "All four requested components or states saved and visually reviewed over checkerboard. Custom object bounds preserve wide parts crossing the nominal source grid.",
+        "Generated prototypes: final registration, consistent border thickness, slicing and contrast tests remain pending. Production approval and runtime integration are false.",
+        "Separate frame, track, fill and crest exported. The source frame has minimal left edge clearance; exports pad its visible contour. Match fill and track lengths to the frame inset during layout."
+      ]
+    },
+    {
+      "slug": "boss_fill",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/source_images/UI-008_sheet_original.png",
+      "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_boss_fill.png",
+      "prompt": "Use case: ui-mockup. Lanterns Underroot game UI ASSET sheet,not screenshot. Handpainted illustratedfantasy, darkteal/weatheredrootwood/antiquegold/cream,cleanreadablesilhouettes,restrainedornaments. Flatfront UIelevation,no3Dperspective. Truealpha outsidecomponents,no scenery/characters/faces/text/letters/numbers/UIlayout/castshadows/hazebackground. Eachcompletecomponentisolatedwith60pxpaddinginequalcells,noclip,nooverlap. Exactly4separatecomponents2x2on1536square. Row1 LEFT wideornateemptybossbarFRAMEwithtransparentlongcenter,nohealthfill;RIGHT isolateddarktealemptyTRACK roundedrectangle matchingframeinneraspect. Row2 LEFT isolateddeepredhealthFILL longroundedrectangle,noframeortrack;RIGHT onecompactantiquegoldrootendcrest. Bars6to1widthheight,safecontentclear,nochars/skulls/faces/nohealthlabels. DoNOTflattenintofourcompletehealthbars.",
+      "reference_images": [],
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "boss_fill"
+      ],
+      "source_crop": [
+        42,
+        846,
+        759,
+        935
+      ],
+      "timing": null,
+      "loop": false,
+      "slicing_proposal": {
+        "type": "horizontal_three_slice",
+        "left_margin": 143,
+        "right_margin": 143,
+        "status": "Proposed from visual review; test at target HUD width."
+      },
+      "content_safe_rect_proposal": [
+        143,
+        51,
+        737,
+        25
+      ],
+      "export_info": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_boss_fill.png",
+        "sha256": "641f450e9b3049089eb39e3123d878ce3cac7c5129dc0ca64bf627a2db93244c",
+        "dimensions": [
+          1024,
+          128
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "review_notes": [
+        "All four requested components or states saved and visually reviewed over checkerboard. Custom object bounds preserve wide parts crossing the nominal source grid.",
+        "Generated prototypes: final registration, consistent border thickness, slicing and contrast tests remain pending. Production approval and runtime integration are false.",
+        "Separate frame, track, fill and crest exported. The source frame has minimal left edge clearance; exports pad its visible contour. Match fill and track lengths to the frame inset during layout."
+      ]
+    },
+    {
+      "slug": "boss_endcrest",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/source_images/UI-008_sheet_original.png",
+      "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_boss_endcrest.png",
+      "prompt": "Use case: ui-mockup. Lanterns Underroot game UI ASSET sheet,not screenshot. Handpainted illustratedfantasy, darkteal/weatheredrootwood/antiquegold/cream,cleanreadablesilhouettes,restrainedornaments. Flatfront UIelevation,no3Dperspective. Truealpha outsidecomponents,no scenery/characters/faces/text/letters/numbers/UIlayout/castshadows/hazebackground. Eachcompletecomponentisolatedwith60pxpaddinginequalcells,noclip,nooverlap. Exactly4separatecomponents2x2on1536square. Row1 LEFT wideornateemptybossbarFRAMEwithtransparentlongcenter,nohealthfill;RIGHT isolateddarktealemptyTRACK roundedrectangle matchingframeinneraspect. Row2 LEFT isolateddeepredhealthFILL longroundedrectangle,noframeortrack;RIGHT onecompactantiquegoldrootendcrest. Bars6to1widthheight,safecontentclear,nochars/skulls/faces/nohealthlabels. DoNOTflattenintofourcompletehealthbars.",
+      "reference_images": [],
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "boss_endcrest"
+      ],
+      "source_crop": [
+        859,
+        679,
+        1217,
+        1086
+      ],
+      "timing": null,
+      "loop": false,
+      "export_info": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_boss_endcrest.png",
+        "sha256": "c86f1963693a56e82305013935ef6987b2ff81dd79aba5378494e48426566df2",
+        "dimensions": [
+          256,
+          256
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "review_notes": [
+        "All four requested components or states saved and visually reviewed over checkerboard. Custom object bounds preserve wide parts crossing the nominal source grid.",
+        "Generated prototypes: final registration, consistent border thickness, slicing and contrast tests remain pending. Production approval and runtime integration are false.",
+        "Separate frame, track, fill and crest exported. The source frame has minimal left edge clearance; exports pad its visible contour. Match fill and track lengths to the frame inset during layout."
+      ]
+    }
+  ],
+  "contact_preview": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/previews/UI-008_export_contact.png",
+    "sha256": "d4ed179f753c06043a1a5c9e00c08a90e0ed8fba1e6a5556c9ac62f4b4d7f914",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/previews/UI-008_export_contact.png",
+  "normalized_sheet": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_normalized_sheet.png",
+    "sha256": "ffb5765ef593465f149aa5ac052f94b568b39caf3008f3b49c08341304be811d",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_normalized_sheet.png",
+  "source_preview": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/previews/UI-008_source_checker.jpg",
+    "sha256": "3c3299f74d3271f6de77c5a62237e3da5b4ddb1198da84cd3fafdb92d81aeb87",
+    "dimensions": [
+      768,
+      768
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  "review_notes": [
+    "All four requested components or states saved and visually reviewed over checkerboard. Custom object bounds preserve wide parts crossing the nominal source grid.",
+    "Generated prototypes: final registration, consistent border thickness, slicing and contrast tests remain pending. Production approval and runtime integration are false.",
+    "Separate frame, track, fill and crest exported. The source frame has minimal left edge clearance; exports pad its visible contour. Match fill and track lengths to the frame inset during layout."
+  ],
+  "source_archive": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/source_images/UI-008_sheet_original.png",
+      "sha256": "0fe29aab1a432008cc16a029b6ad13866ae5ac1b4f946b34eb75b008f6684088",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "validation": {
+    "selected_component_count": 4,
+    "all_links_exist": true,
+    "alpha_reviewed_over_checkerboard": true,
+    "small_icon_legibility_reviewed": false,
+    "runtime_tested": false
+  }
+}

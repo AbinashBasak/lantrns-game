@@ -1,0 +1,486 @@
+{
+  "id": "UI-011",
+  "asset_id": "UI-011",
+  "title": "Pause icon",
+  "cols": 2,
+  "rows": 2,
+  "roles": [
+    "normal",
+    "hover",
+    "pressed",
+    "disabled"
+  ],
+  "prompt": "Use case: ui-mockup. Lanterns Underroot game UI ASSET sheet,not screenshot. Handpainted illustratedfantasy, darkteal/weatheredrootwood/antiquegold/cream,cleanreadablesilhouettes,restrainedornaments. Flatfront UIelevation,no3Dperspective. Truealpha outsidecomponents,no scenery/characters/faces/text/letters/numbers/UIlayout/castshadows/hazebackground. Eachcompletecomponentisolatedwith60pxpaddinginequalcells,noclip,nooverlap. FOUR states of ONE same256pixelicon design on1024square2columns2rows:readingorder normal,hover,pressed,disabled. Sameoutercircularcontrol silhouette,size,geometryandcenter. Normaldarkteal disk thinantiquegoldrim creamglyph;hoverslightwarmrim;pressedinsetdarker;disabledmutedlowcontrastbutglyphstillreadable. Simplehighcontrastglyph dominatescenter,clearat32px. SymbolONLYTWOthickPARALLELverticalcream bars,classicPAUSE. Equalheight,cleargap,noplaytriangle,noletters.",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011",
+  "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148ba-fae3-7fd0-8db9-6aa6385f397c/exec-32444e9a-09af-45ec-a7b5-5ef030c53d06.png",
+  "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/source_images/UI-011_sheet_original.png",
+  "custom_bounds": [
+    [
+      55,
+      51,
+      608,
+      594
+    ],
+    [
+      646,
+      50,
+      1199,
+      594
+    ],
+    [
+      55,
+      643,
+      609,
+      1187
+    ],
+    [
+      645,
+      643,
+      1200,
+      1188
+    ]
+  ],
+  "source_info": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/source_images/UI-011_sheet_original.png",
+    "sha256": "03d3741ad6955ad992bef129b361a563d4e4b6c7fd64a2a527e3473c1e012d68",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "frame_count": 4,
+  "timing": null,
+  "loop": false,
+  "production_approved": false,
+  "runtime_integrated": false,
+  "requested_deliverables_saved_and_reviewed": true,
+  "stage": "generated_ui_prototype_saved_and_reviewed",
+  "source_message_id": null,
+  "reference_images": [],
+  "provenance": {
+    "tool": "built-in image_gen",
+    "original_unchanged": true,
+    "style_guides_reviewed": [
+      "ART-001",
+      "ART-002",
+      "ART-006"
+    ]
+  },
+  "frames": [
+    {
+      "index": 0,
+      "role": "normal",
+      "source_crop": [
+        55,
+        51,
+        608,
+        594
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        553,
+        542
+      ],
+      "pivot": [
+        128.0,
+        128.0
+      ],
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/exports/UI-011_normal.png",
+      "sha256": "79a05637000fada886fcced14db3c66a05569c62fb99bbc26d28e908eeff3ed6",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "export_128": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/exports/UI-011_normal_128.png",
+        "sha256": "c8e7eb39e4d7f0abbfdeab196410023b1c43a26d8f16679a0ec37655d1072abd",
+        "dimensions": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "role": "hover",
+      "source_crop": [
+        646,
+        50,
+        1199,
+        594
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        553,
+        544
+      ],
+      "pivot": [
+        128.0,
+        128.0
+      ],
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/exports/UI-011_hover.png",
+      "sha256": "7153f619e40315a40648ec43f6aebc162b612405fd071157b8d923d2007c1013",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "export_128": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/exports/UI-011_hover_128.png",
+        "sha256": "fd694bba20496c87d2b36d10c4585430ef41bc6e2d65ab2acdf79f97fc21bc44",
+        "dimensions": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "role": "pressed",
+      "source_crop": [
+        55,
+        643,
+        609,
+        1187
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        554,
+        544
+      ],
+      "pivot": [
+        128.0,
+        128.0
+      ],
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/exports/UI-011_pressed.png",
+      "sha256": "2af495f1d893b7efc6f6a751d3f416f6c44d868a2bb5f122f9b56e3b3c716d81",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "export_128": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/exports/UI-011_pressed_128.png",
+        "sha256": "2020c9111e1e0adf525b12075846c059a380278d8695003f16b30466cf0d8c4a",
+        "dimensions": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "role": "disabled",
+      "source_crop": [
+        645,
+        643,
+        1200,
+        1188
+      ],
+      "alpha_trim_within_crop": [
+        1,
+        0,
+        555,
+        545
+      ],
+      "pivot": [
+        128.0,
+        128.0
+      ],
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/exports/UI-011_disabled.png",
+      "sha256": "4dd4639d2bc3a5b17524d66934dc629604b3b3a117c21b93ee211af69a954a06",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "export_128": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/exports/UI-011_disabled_128.png",
+        "sha256": "0bf34df1c6a1dc3770cbb9aa1773e520eda46637b55c5faf3304b6a00a3bc107",
+        "dimensions": [
+          128,
+          128
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      }
+    }
+  ],
+  "deliverables": [
+    {
+      "slug": "normal",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/source_images/UI-011_sheet_original.png",
+      "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/exports/UI-011_normal.png",
+      "prompt": "Use case: ui-mockup. Lanterns Underroot game UI ASSET sheet,not screenshot. Handpainted illustratedfantasy, darkteal/weatheredrootwood/antiquegold/cream,cleanreadablesilhouettes,restrainedornaments. Flatfront UIelevation,no3Dperspective. Truealpha outsidecomponents,no scenery/characters/faces/text/letters/numbers/UIlayout/castshadows/hazebackground. Eachcompletecomponentisolatedwith60pxpaddinginequalcells,noclip,nooverlap. FOUR states of ONE same256pixelicon design on1024square2columns2rows:readingorder normal,hover,pressed,disabled. Sameoutercircularcontrol silhouette,size,geometryandcenter. Normaldarkteal disk thinantiquegoldrim creamglyph;hoverslightwarmrim;pressedinsetdarker;disabledmutedlowcontrastbutglyphstillreadable. Simplehighcontrastglyph dominatescenter,clearat32px. SymbolONLYTWOthickPARALLELverticalcream bars,classicPAUSE. Equalheight,cleargap,noplaytriangle,noletters.",
+      "reference_images": [],
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "normal"
+      ],
+      "source_crop": [
+        55,
+        51,
+        608,
+        594
+      ],
+      "timing": null,
+      "loop": false,
+      "export_info": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/exports/UI-011_normal.png",
+        "sha256": "79a05637000fada886fcced14db3c66a05569c62fb99bbc26d28e908eeff3ed6",
+        "dimensions": [
+          256,
+          256
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "review_notes": [
+        "All four requested components or states saved and visually reviewed over checkerboard. Custom object bounds preserve wide parts crossing the nominal source grid.",
+        "Generated prototypes: final registration, consistent border thickness, slicing and contrast tests remain pending. Production approval and runtime integration are false.",
+        "Reviewed at 32px and 64px: symbols remain recognizable, while ornamental rim detail softens naturally."
+      ]
+    },
+    {
+      "slug": "hover",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/source_images/UI-011_sheet_original.png",
+      "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/exports/UI-011_hover.png",
+      "prompt": "Use case: ui-mockup. Lanterns Underroot game UI ASSET sheet,not screenshot. Handpainted illustratedfantasy, darkteal/weatheredrootwood/antiquegold/cream,cleanreadablesilhouettes,restrainedornaments. Flatfront UIelevation,no3Dperspective. Truealpha outsidecomponents,no scenery/characters/faces/text/letters/numbers/UIlayout/castshadows/hazebackground. Eachcompletecomponentisolatedwith60pxpaddinginequalcells,noclip,nooverlap. FOUR states of ONE same256pixelicon design on1024square2columns2rows:readingorder normal,hover,pressed,disabled. Sameoutercircularcontrol silhouette,size,geometryandcenter. Normaldarkteal disk thinantiquegoldrim creamglyph;hoverslightwarmrim;pressedinsetdarker;disabledmutedlowcontrastbutglyphstillreadable. Simplehighcontrastglyph dominatescenter,clearat32px. SymbolONLYTWOthickPARALLELverticalcream bars,classicPAUSE. Equalheight,cleargap,noplaytriangle,noletters.",
+      "reference_images": [],
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "hover"
+      ],
+      "source_crop": [
+        646,
+        50,
+        1199,
+        594
+      ],
+      "timing": null,
+      "loop": false,
+      "export_info": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/exports/UI-011_hover.png",
+        "sha256": "7153f619e40315a40648ec43f6aebc162b612405fd071157b8d923d2007c1013",
+        "dimensions": [
+          256,
+          256
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "review_notes": [
+        "All four requested components or states saved and visually reviewed over checkerboard. Custom object bounds preserve wide parts crossing the nominal source grid.",
+        "Generated prototypes: final registration, consistent border thickness, slicing and contrast tests remain pending. Production approval and runtime integration are false.",
+        "Reviewed at 32px and 64px: symbols remain recognizable, while ornamental rim detail softens naturally."
+      ]
+    },
+    {
+      "slug": "pressed",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/source_images/UI-011_sheet_original.png",
+      "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/exports/UI-011_pressed.png",
+      "prompt": "Use case: ui-mockup. Lanterns Underroot game UI ASSET sheet,not screenshot. Handpainted illustratedfantasy, darkteal/weatheredrootwood/antiquegold/cream,cleanreadablesilhouettes,restrainedornaments. Flatfront UIelevation,no3Dperspective. Truealpha outsidecomponents,no scenery/characters/faces/text/letters/numbers/UIlayout/castshadows/hazebackground. Eachcompletecomponentisolatedwith60pxpaddinginequalcells,noclip,nooverlap. FOUR states of ONE same256pixelicon design on1024square2columns2rows:readingorder normal,hover,pressed,disabled. Sameoutercircularcontrol silhouette,size,geometryandcenter. Normaldarkteal disk thinantiquegoldrim creamglyph;hoverslightwarmrim;pressedinsetdarker;disabledmutedlowcontrastbutglyphstillreadable. Simplehighcontrastglyph dominatescenter,clearat32px. SymbolONLYTWOthickPARALLELverticalcream bars,classicPAUSE. Equalheight,cleargap,noplaytriangle,noletters.",
+      "reference_images": [],
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "pressed"
+      ],
+      "source_crop": [
+        55,
+        643,
+        609,
+        1187
+      ],
+      "timing": null,
+      "loop": false,
+      "export_info": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/exports/UI-011_pressed.png",
+        "sha256": "2af495f1d893b7efc6f6a751d3f416f6c44d868a2bb5f122f9b56e3b3c716d81",
+        "dimensions": [
+          256,
+          256
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "review_notes": [
+        "All four requested components or states saved and visually reviewed over checkerboard. Custom object bounds preserve wide parts crossing the nominal source grid.",
+        "Generated prototypes: final registration, consistent border thickness, slicing and contrast tests remain pending. Production approval and runtime integration are false.",
+        "Reviewed at 32px and 64px: symbols remain recognizable, while ornamental rim detail softens naturally."
+      ]
+    },
+    {
+      "slug": "disabled",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/source_images/UI-011_sheet_original.png",
+      "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/exports/UI-011_disabled.png",
+      "prompt": "Use case: ui-mockup. Lanterns Underroot game UI ASSET sheet,not screenshot. Handpainted illustratedfantasy, darkteal/weatheredrootwood/antiquegold/cream,cleanreadablesilhouettes,restrainedornaments. Flatfront UIelevation,no3Dperspective. Truealpha outsidecomponents,no scenery/characters/faces/text/letters/numbers/UIlayout/castshadows/hazebackground. Eachcompletecomponentisolatedwith60pxpaddinginequalcells,noclip,nooverlap. FOUR states of ONE same256pixelicon design on1024square2columns2rows:readingorder normal,hover,pressed,disabled. Sameoutercircularcontrol silhouette,size,geometryandcenter. Normaldarkteal disk thinantiquegoldrim creamglyph;hoverslightwarmrim;pressedinsetdarker;disabledmutedlowcontrastbutglyphstillreadable. Simplehighcontrastglyph dominatescenter,clearat32px. SymbolONLYTWOthickPARALLELverticalcream bars,classicPAUSE. Equalheight,cleargap,noplaytriangle,noletters.",
+      "reference_images": [],
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "disabled"
+      ],
+      "source_crop": [
+        645,
+        643,
+        1200,
+        1188
+      ],
+      "timing": null,
+      "loop": false,
+      "export_info": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/exports/UI-011_disabled.png",
+        "sha256": "4dd4639d2bc3a5b17524d66934dc629604b3b3a117c21b93ee211af69a954a06",
+        "dimensions": [
+          256,
+          256
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "review_notes": [
+        "All four requested components or states saved and visually reviewed over checkerboard. Custom object bounds preserve wide parts crossing the nominal source grid.",
+        "Generated prototypes: final registration, consistent border thickness, slicing and contrast tests remain pending. Production approval and runtime integration are false.",
+        "Reviewed at 32px and 64px: symbols remain recognizable, while ornamental rim detail softens naturally."
+      ]
+    }
+  ],
+  "contact_preview": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/previews/UI-011_export_contact.png",
+    "sha256": "bbcc0939778288fb8d949dfefe53a73f76a53b1100f9321b674a52b53d30aa80",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/previews/UI-011_export_contact.png",
+  "normalized_sheet": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/exports/UI-011_normalized_sheet.png",
+    "sha256": "69bf9de72f46d6a2d166bdd7c82da94b950c1788bcc170e80386c3de00dfafee",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/exports/UI-011_normalized_sheet.png",
+  "source_preview": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/previews/UI-011_source_checker.jpg",
+    "sha256": "f58cfb5e3e75815bc88da0e6d77bbbbaf8014967a492e994ea97449e0a1838f4",
+    "dimensions": [
+      768,
+      768
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  "legibility_preview": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/previews/UI-011_32_64px_legibility.png",
+    "sha256": "8403cc7c099f7234740d5198dc8bb0142c4b6a4563e9e800010443dd23405a84",
+    "dimensions": [
+      512,
+      128
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  "review_notes": [
+    "All four requested components or states saved and visually reviewed over checkerboard. Custom object bounds preserve wide parts crossing the nominal source grid.",
+    "Generated prototypes: final registration, consistent border thickness, slicing and contrast tests remain pending. Production approval and runtime integration are false.",
+    "Reviewed at 32px and 64px: symbols remain recognizable, while ornamental rim detail softens naturally."
+  ],
+  "source_archive": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-011/source_images/UI-011_sheet_original.png",
+      "sha256": "03d3741ad6955ad992bef129b361a563d4e4b6c7fd64a2a527e3473c1e012d68",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "validation": {
+    "selected_component_count": 4,
+    "all_links_exist": true,
+    "alpha_reviewed_over_checkerboard": true,
+    "small_icon_legibility_reviewed": true,
+    "runtime_tested": false
+  }
+}

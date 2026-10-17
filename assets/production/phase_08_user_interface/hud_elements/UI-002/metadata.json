@@ -1,0 +1,235 @@
+{
+  "asset_id": "UI-002",
+  "id": "UI-002",
+  "title": "Health bar frame",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002",
+  "prompt": "Use case: stylized-concept. Lanterns Underroot fantasy HUD interface sprite art, handpainted illustrated darkteal/weatheredwood/root antiquegold/cream accents. Legibleat32to64px, minimalornament, crispchunkysilhouette. Nocharacters,scenery,UItext,letters,numbers,labels,logos,drop-shadows. Truealpha outside allfullsilhouettes; generous60pxpadding, no objectcrossingcellboundaries. Static states samecommon scale/pivot. ONEsquare1024x1024 exact1column4equalhorizontalrows four1024x256cells. Asset health bar separate components. FOUR separate horizontal components in4equalrows top-to-bottom. Row1ONLY empty antiquegold weatheredwood longcapsule border FRAME with entire inneropening truealpha; Row2ONLY matching darkteal solidcapsule BACKPLATE; Row3ONLY matching redhealth FILL strip, no border; Row4ONLY matching thincream highlight overlay with majority alpha. Same geometry widths and cellcenters, components aligned when overlaid. Frame interior kepttransparent, fill is independentlyexportable. No assembledbar examples. Each componentfits wide rectangle x80..944 and yrow+70..186.",
+  "roles": [
+    "frame_empty",
+    "backplate",
+    "fill_red",
+    "highlight_overlay"
+  ],
+  "cols": 1,
+  "rows": 4,
+  "deliverables": [
+    {
+      "slug": "ui_components",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/source_images/UI-002_ui_components_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148ba-e578-7432-a445-11a2541d4ec5/exec-78579daa-86b6-4203-b290-809e10bbf780.png",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot fantasy HUD interface sprite art, handpainted illustrated darkteal/weatheredwood/root antiquegold/cream accents. Legibleat32to64px, minimalornament, crispchunkysilhouette. Nocharacters,scenery,UItext,letters,numbers,labels,logos,drop-shadows. Truealpha outside allfullsilhouettes; generous60pxpadding, no objectcrossingcellboundaries. Static states samecommon scale/pivot. ONEsquare1024x1024 exact1column4equalhorizontalrows four1024x256cells. Asset health bar separate components. FOUR separate horizontal components in4equalrows top-to-bottom. Row1ONLY empty antiquegold weatheredwood longcapsule border FRAME with entire inneropening truealpha; Row2ONLY matching darkteal solidcapsule BACKPLATE; Row3ONLY matching redhealth FILL strip, no border; Row4ONLY matching thincream highlight overlay with majority alpha. Same geometry widths and cellcenters, components aligned when overlaid. Frame interior kepttransparent, fill is independentlyexportable. No assembledbar examples. Each componentfits wide rectangle x80..944 and yrow+70..186.",
+      "reference_images": [],
+      "transparent_background": true,
+      "cols": 1,
+      "rows": 4,
+      "frame_count": 4,
+      "export_mode": "atlas",
+      "roles": [
+        "frame_empty",
+        "backplate",
+        "fill_red",
+        "highlight_overlay"
+      ],
+      "timing": null,
+      "loop": false,
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen original",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "8e5f2c97e7b4e27194c5e423200324288291c5435b30a798b727533f888ab372",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "crop_boundaries": [
+        [
+          0,
+          81,
+          1254,
+          394
+        ],
+        [
+          0,
+          400,
+          1254,
+          713
+        ],
+        [
+          0,
+          660,
+          1254,
+          973
+        ],
+        [
+          0,
+          903,
+          1254,
+          1216
+        ]
+      ],
+      "exports": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/exports/UI-002_00_frame_empty.png",
+          "dimensions": [
+            1024,
+            256
+          ],
+          "sha256": "d10fd02436503fa1611dc16a5395da6abcdcc6e4ebacbfa1e5f24f3bd7d8a3ed",
+          "role": "frame_empty",
+          "source_crop": [
+            0,
+            81,
+            1254,
+            394
+          ],
+          "pivot": [
+            512.0,
+            128.0
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/exports/UI-002_01_backplate.png",
+          "dimensions": [
+            1024,
+            256
+          ],
+          "sha256": "c5065fb3a6acf5492b91f5ccbeb12e9dc58d360b5db077788d40bffac3b359ee",
+          "role": "backplate",
+          "source_crop": [
+            0,
+            400,
+            1254,
+            713
+          ],
+          "pivot": [
+            512.0,
+            128.0
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/exports/UI-002_02_fill_red.png",
+          "dimensions": [
+            1024,
+            256
+          ],
+          "sha256": "d770a8daf343745bbaaacea9c340da539013c804e35bd409012f30c9492c6877",
+          "role": "fill_red",
+          "source_crop": [
+            0,
+            660,
+            1254,
+            973
+          ],
+          "pivot": [
+            512.0,
+            128.0
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/exports/UI-002_03_highlight_overlay.png",
+          "dimensions": [
+            1024,
+            256
+          ],
+          "sha256": "5be01281f16ef3be2571e07cc689657c261354d05ae3b65059cf0599012625d9",
+          "role": "highlight_overlay",
+          "source_crop": [
+            0,
+            903,
+            1254,
+            1216
+          ],
+          "pivot": [
+            512.0,
+            128.0
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/exports/UI-002_components_sheet.png",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "256707cd747ad86b6f9af9b11143f55884f5a77012b346869053ad596e6a0c3b"
+        }
+      ],
+      "pivot": {
+        "x": 512.0,
+        "y": 128.0,
+        "description": "cell-center common anchor"
+      },
+      "animated": false,
+      "text_overlays_deferred": true,
+      "common_scale": "Uniform whole-sheet scaling; no per-state trimming or silhouette scaling.",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/exports/UI-002_00_frame_empty.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/exports/UI-002_01_backplate.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/exports/UI-002_02_fill_red.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/exports/UI-002_03_highlight_overlay.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/exports/UI-002_components_sheet.png"
+      ],
+      "previews": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/previews/UI-002_source_alpha_checker.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/previews/UI-002_export_contact.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/previews/UI-002_small_size_legibility.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/previews/UI-002_component_overlay_test.png"
+      ],
+      "slice_margins": {
+        "left": 160,
+        "right": 160,
+        "top": 72,
+        "bottom": 72
+      },
+      "content_safe_rect": {
+        "x": 176,
+        "y": 98,
+        "width": 672,
+        "height": 60,
+        "units": "export pixels",
+        "provisional": true
+      },
+      "review_notes": [
+        "Four distinct requested static HUD states/components visually reviewed over checkerboard; genuine alpha outside silhouettes, no baked lettering or scenery. Export contact and32/64pxsmallsize legibility reviewed.",
+        "Prototype delivery only: exact runtime state alignment, contrast/accessibility, UI scaling and slicing need finalproductionreview. Text overlays deferred for localization and inputbinding changes.",
+        "Empty frame opening verified alpha-zero atcenter. Backplate/redfill/highlight independentlyexported; component-overlay preview reviewed clean. Source rows have irregularspacing; equal-sized custom313pxhigh sourcecrops center each component with common scale."
+      ],
+      "component_assembly": [
+        "backplate",
+        "fill_red clipped by runtimehealthratio",
+        "highlight_overlay",
+        "frame_empty"
+      ],
+      "runtime_fill_direction": "left_to_right",
+      "fill_clipping_deferred": true
+    }
+  ],
+  "production_approved": false,
+  "requested_deliverables_saved_and_reviewed": true,
+  "text_overlays_deferred": true,
+  "stage": "reviewed_prototype_components_and_fixed_cell_exports",
+  "runtime_integrated": false,
+  "metadata_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/metadata.json",
+  "review_notes": [
+    "Four distinct requested static HUD states/components visually reviewed over checkerboard; genuine alpha outside silhouettes, no baked lettering or scenery. Export contact and32/64pxsmallsize legibility reviewed.",
+    "Prototype delivery only: exact runtime state alignment, contrast/accessibility, UI scaling and slicing need finalproductionreview. Text overlays deferred for localization and inputbinding changes.",
+    "Empty frame opening verified alpha-zero atcenter. Backplate/redfill/highlight independentlyexported; component-overlay preview reviewed clean. Source rows have irregularspacing; equal-sized custom313pxhigh sourcecrops center each component with common scale."
+  ],
+  "source_images": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/source_images/UI-002_ui_components_original.png"
+  ],
+  "exports": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/exports/UI-002_00_frame_empty.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/exports/UI-002_01_backplate.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/exports/UI-002_02_fill_red.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/exports/UI-002_03_highlight_overlay.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/exports/UI-002_components_sheet.png"
+  ],
+  "previews": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/previews/UI-002_source_alpha_checker.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/previews/UI-002_export_contact.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/previews/UI-002_small_size_legibility.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-002/previews/UI-002_component_overlay_test.png"
+  ]
+}

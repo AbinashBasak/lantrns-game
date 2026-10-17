@@ -1,0 +1,458 @@
+{
+  "id": "UI-009",
+  "asset_id": "UI-009",
+  "title": "Dialogue panel",
+  "cols": 2,
+  "rows": 2,
+  "roles": [
+    "dialogue_panel",
+    "nameplate",
+    "divider",
+    "tail"
+  ],
+  "prompt": "Use case: ui-mockup. Lanterns Underroot game UI ASSET sheet,not screenshot. Handpainted illustratedfantasy, darkteal/weatheredrootwood/antiquegold/cream,cleanreadablesilhouettes,restrainedornaments. Flatfront UIelevation,no3Dperspective. Truealpha outsidecomponents,no scenery/characters/faces/text/letters/numbers/UIlayout/castshadows/hazebackground. Eachcompletecomponentisolatedwith60pxpaddinginequalcells,noclip,nooverlap. Exactly4separatecomponents2x2on1536square:row1left wideblankcreamparchmentDIALOGUEPANEL rootwoodthinrim5to2aspect,contentareaentirelyblank;row1right smallerblanknameplate4to1aspect;row2left thinantiquegoldhorizontaldivider;row2right tinycreamdialoguetailwithgoldedge. Separateisolatedparts,nofaceportrait,nomockuptext,nomarks/squiggles insidecontent.",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009",
+  "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148ba-fae3-7fd0-8db9-6aa6385f397c/exec-1e8b5ed2-495f-40e7-94de-84c08f2a9efd.png",
+  "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/source_images/UI-009_sheet_original.png",
+  "custom_bounds": [
+    [
+      16,
+      242,
+      780,
+      575
+    ],
+    [
+      802,
+      365,
+      1237,
+      490
+    ],
+    [
+      27,
+      853,
+      757,
+      990
+    ],
+    [
+      955,
+      884,
+      1111,
+      990
+    ]
+  ],
+  "source_info": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/source_images/UI-009_sheet_original.png",
+    "sha256": "824480e73cf39ece48ee5fd8cd3956b590cb4c8da1a7465ed8030b08495cc29d",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "frame_count": 4,
+  "timing": null,
+  "loop": false,
+  "production_approved": false,
+  "runtime_integrated": false,
+  "requested_deliverables_saved_and_reviewed": true,
+  "stage": "generated_ui_prototype_saved_and_reviewed",
+  "source_message_id": null,
+  "reference_images": [],
+  "provenance": {
+    "tool": "built-in image_gen",
+    "original_unchanged": true,
+    "style_guides_reviewed": [
+      "ART-001",
+      "ART-002",
+      "ART-006"
+    ]
+  },
+  "frames": [
+    {
+      "index": 0,
+      "role": "dialogue_panel",
+      "source_crop": [
+        16,
+        242,
+        780,
+        575
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        764,
+        333
+      ],
+      "pivot": [
+        512.0,
+        256.0
+      ],
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_dialogue_panel.png",
+      "sha256": "171de429435ae8a6c8903b997bc5bf0ba9c0c5cb5f96641ed6041ddc064fda25",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 1,
+      "role": "nameplate",
+      "source_crop": [
+        802,
+        365,
+        1237,
+        490
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        435,
+        125
+      ],
+      "pivot": [
+        256.0,
+        80.0
+      ],
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_nameplate.png",
+      "sha256": "fa7e21a20764a5374626268c9f06346bd0107ee2e825c417a3ed0611f54772ef",
+      "dimensions": [
+        512,
+        160
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 2,
+      "role": "divider",
+      "source_crop": [
+        27,
+        853,
+        757,
+        990
+      ],
+      "alpha_trim_within_crop": [
+        1,
+        0,
+        730,
+        137
+      ],
+      "pivot": [
+        512.0,
+        96.0
+      ],
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_divider.png",
+      "sha256": "a1723f3022b07d2383db1b8600375ee6e7cecbfa20c026c37425b593cdfa5b59",
+      "dimensions": [
+        1024,
+        192
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 3,
+      "role": "tail",
+      "source_crop": [
+        955,
+        884,
+        1111,
+        990
+      ],
+      "alpha_trim_within_crop": [
+        0,
+        0,
+        156,
+        106
+      ],
+      "pivot": [
+        80.0,
+        80.0
+      ],
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_tail.png",
+      "sha256": "5d171e28d993b909e01aacaef8a56587b433566d0fec7ff4b2b062938a978a79",
+      "dimensions": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "deliverables": [
+    {
+      "slug": "dialogue_panel",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/source_images/UI-009_sheet_original.png",
+      "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_dialogue_panel.png",
+      "prompt": "Use case: ui-mockup. Lanterns Underroot game UI ASSET sheet,not screenshot. Handpainted illustratedfantasy, darkteal/weatheredrootwood/antiquegold/cream,cleanreadablesilhouettes,restrainedornaments. Flatfront UIelevation,no3Dperspective. Truealpha outsidecomponents,no scenery/characters/faces/text/letters/numbers/UIlayout/castshadows/hazebackground. Eachcompletecomponentisolatedwith60pxpaddinginequalcells,noclip,nooverlap. Exactly4separatecomponents2x2on1536square:row1left wideblankcreamparchmentDIALOGUEPANEL rootwoodthinrim5to2aspect,contentareaentirelyblank;row1right smallerblanknameplate4to1aspect;row2left thinantiquegoldhorizontaldivider;row2right tinycreamdialoguetailwithgoldedge. Separateisolatedparts,nofaceportrait,nomockuptext,nomarks/squiggles insidecontent.",
+      "reference_images": [],
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "dialogue_panel"
+      ],
+      "source_crop": [
+        16,
+        242,
+        780,
+        575
+      ],
+      "timing": null,
+      "loop": false,
+      "slicing_proposal": {
+        "type": "nine_slice",
+        "margins_ltrb": [
+          122,
+          102,
+          122,
+          102
+        ],
+        "status": "Proposed; border ornaments may require separate corners."
+      },
+      "content_safe_rect_proposal": [
+        153,
+        102,
+        716,
+        307
+      ],
+      "dynamic_text": "Rendered separately at runtime; no font/text baked into artwork.",
+      "export_info": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_dialogue_panel.png",
+        "sha256": "171de429435ae8a6c8903b997bc5bf0ba9c0c5cb5f96641ed6041ddc064fda25",
+        "dimensions": [
+          1024,
+          512
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "review_notes": [
+        "All four requested components or states saved and visually reviewed over checkerboard. Custom object bounds preserve wide parts crossing the nominal source grid.",
+        "Generated prototypes: final registration, consistent border thickness, slicing and contrast tests remain pending. Production approval and runtime integration are false.",
+        "Panel and nameplate content areas are blank. Proposed slicing and content safe rectangles require layout tests; dialogue text must be rendered separately."
+      ]
+    },
+    {
+      "slug": "nameplate",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/source_images/UI-009_sheet_original.png",
+      "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_nameplate.png",
+      "prompt": "Use case: ui-mockup. Lanterns Underroot game UI ASSET sheet,not screenshot. Handpainted illustratedfantasy, darkteal/weatheredrootwood/antiquegold/cream,cleanreadablesilhouettes,restrainedornaments. Flatfront UIelevation,no3Dperspective. Truealpha outsidecomponents,no scenery/characters/faces/text/letters/numbers/UIlayout/castshadows/hazebackground. Eachcompletecomponentisolatedwith60pxpaddinginequalcells,noclip,nooverlap. Exactly4separatecomponents2x2on1536square:row1left wideblankcreamparchmentDIALOGUEPANEL rootwoodthinrim5to2aspect,contentareaentirelyblank;row1right smallerblanknameplate4to1aspect;row2left thinantiquegoldhorizontaldivider;row2right tinycreamdialoguetailwithgoldedge. Separateisolatedparts,nofaceportrait,nomockuptext,nomarks/squiggles insidecontent.",
+      "reference_images": [],
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "nameplate"
+      ],
+      "source_crop": [
+        802,
+        365,
+        1237,
+        490
+      ],
+      "timing": null,
+      "loop": false,
+      "slicing_proposal": {
+        "type": "nine_slice",
+        "margins_ltrb": [
+          61,
+          32,
+          61,
+          32
+        ],
+        "status": "Proposed; border ornaments may require separate corners."
+      },
+      "content_safe_rect_proposal": [
+        76,
+        32,
+        358,
+        96
+      ],
+      "dynamic_text": "Rendered separately at runtime; no font/text baked into artwork.",
+      "export_info": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_nameplate.png",
+        "sha256": "fa7e21a20764a5374626268c9f06346bd0107ee2e825c417a3ed0611f54772ef",
+        "dimensions": [
+          512,
+          160
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "review_notes": [
+        "All four requested components or states saved and visually reviewed over checkerboard. Custom object bounds preserve wide parts crossing the nominal source grid.",
+        "Generated prototypes: final registration, consistent border thickness, slicing and contrast tests remain pending. Production approval and runtime integration are false.",
+        "Panel and nameplate content areas are blank. Proposed slicing and content safe rectangles require layout tests; dialogue text must be rendered separately."
+      ]
+    },
+    {
+      "slug": "divider",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/source_images/UI-009_sheet_original.png",
+      "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_divider.png",
+      "prompt": "Use case: ui-mockup. Lanterns Underroot game UI ASSET sheet,not screenshot. Handpainted illustratedfantasy, darkteal/weatheredrootwood/antiquegold/cream,cleanreadablesilhouettes,restrainedornaments. Flatfront UIelevation,no3Dperspective. Truealpha outsidecomponents,no scenery/characters/faces/text/letters/numbers/UIlayout/castshadows/hazebackground. Eachcompletecomponentisolatedwith60pxpaddinginequalcells,noclip,nooverlap. Exactly4separatecomponents2x2on1536square:row1left wideblankcreamparchmentDIALOGUEPANEL rootwoodthinrim5to2aspect,contentareaentirelyblank;row1right smallerblanknameplate4to1aspect;row2left thinantiquegoldhorizontaldivider;row2right tinycreamdialoguetailwithgoldedge. Separateisolatedparts,nofaceportrait,nomockuptext,nomarks/squiggles insidecontent.",
+      "reference_images": [],
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "divider"
+      ],
+      "source_crop": [
+        27,
+        853,
+        757,
+        990
+      ],
+      "timing": null,
+      "loop": false,
+      "export_info": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_divider.png",
+        "sha256": "a1723f3022b07d2383db1b8600375ee6e7cecbfa20c026c37425b593cdfa5b59",
+        "dimensions": [
+          1024,
+          192
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "review_notes": [
+        "All four requested components or states saved and visually reviewed over checkerboard. Custom object bounds preserve wide parts crossing the nominal source grid.",
+        "Generated prototypes: final registration, consistent border thickness, slicing and contrast tests remain pending. Production approval and runtime integration are false.",
+        "Panel and nameplate content areas are blank. Proposed slicing and content safe rectangles require layout tests; dialogue text must be rendered separately."
+      ]
+    },
+    {
+      "slug": "tail",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/source_images/UI-009_sheet_original.png",
+      "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_tail.png",
+      "prompt": "Use case: ui-mockup. Lanterns Underroot game UI ASSET sheet,not screenshot. Handpainted illustratedfantasy, darkteal/weatheredrootwood/antiquegold/cream,cleanreadablesilhouettes,restrainedornaments. Flatfront UIelevation,no3Dperspective. Truealpha outsidecomponents,no scenery/characters/faces/text/letters/numbers/UIlayout/castshadows/hazebackground. Eachcompletecomponentisolatedwith60pxpaddinginequalcells,noclip,nooverlap. Exactly4separatecomponents2x2on1536square:row1left wideblankcreamparchmentDIALOGUEPANEL rootwoodthinrim5to2aspect,contentareaentirelyblank;row1right smallerblanknameplate4to1aspect;row2left thinantiquegoldhorizontaldivider;row2right tinycreamdialoguetailwithgoldedge. Separateisolatedparts,nofaceportrait,nomockuptext,nomarks/squiggles insidecontent.",
+      "reference_images": [],
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "tail"
+      ],
+      "source_crop": [
+        955,
+        884,
+        1111,
+        990
+      ],
+      "timing": null,
+      "loop": false,
+      "export_info": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_tail.png",
+        "sha256": "5d171e28d993b909e01aacaef8a56587b433566d0fec7ff4b2b062938a978a79",
+        "dimensions": [
+          160,
+          160
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ]
+      },
+      "review_notes": [
+        "All four requested components or states saved and visually reviewed over checkerboard. Custom object bounds preserve wide parts crossing the nominal source grid.",
+        "Generated prototypes: final registration, consistent border thickness, slicing and contrast tests remain pending. Production approval and runtime integration are false.",
+        "Panel and nameplate content areas are blank. Proposed slicing and content safe rectangles require layout tests; dialogue text must be rendered separately."
+      ]
+    }
+  ],
+  "contact_preview": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/previews/UI-009_export_contact.png",
+    "sha256": "dbd6656bd60c04372b46503ec4a5d28819e5bf63543e7eec59c292bee3f9cb05",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/previews/UI-009_export_contact.png",
+  "normalized_sheet": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_normalized_sheet.png",
+    "sha256": "bb51fb86735339f0dd3afab3aa9eef57f2fea3ceb2693dce2b722e794cf13c17",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_normalized_sheet.png",
+  "source_preview": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/previews/UI-009_source_checker.jpg",
+    "sha256": "04f970eaf9c222fb8b26317f76aa560747ca5f097fb83c563bb2f856a4d54b06",
+    "dimensions": [
+      768,
+      768
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  "review_notes": [
+    "All four requested components or states saved and visually reviewed over checkerboard. Custom object bounds preserve wide parts crossing the nominal source grid.",
+    "Generated prototypes: final registration, consistent border thickness, slicing and contrast tests remain pending. Production approval and runtime integration are false.",
+    "Panel and nameplate content areas are blank. Proposed slicing and content safe rectangles require layout tests; dialogue text must be rendered separately."
+  ],
+  "source_archive": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/source_images/UI-009_sheet_original.png",
+      "sha256": "824480e73cf39ece48ee5fd8cd3956b590cb4c8da1a7465ed8030b08495cc29d",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "validation": {
+    "selected_component_count": 4,
+    "all_links_exist": true,
+    "alpha_reviewed_over_checkerboard": true,
+    "small_icon_legibility_reviewed": false,
+    "runtime_tested": false
+  }
+}
