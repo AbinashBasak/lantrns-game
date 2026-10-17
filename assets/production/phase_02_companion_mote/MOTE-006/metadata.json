@@ -1,0 +1,308 @@
+{
+  "asset_id": "MOTE-006",
+  "title": "Glow pulse",
+  "checked": false,
+  "stage": "six-frame animation prototype generated and visually reviewed; continuity/alpha cleanup and production approval pending",
+  "last_updated": "2026-10-16T15:39:39.041346+05:30",
+  "generation_tool": "built-in image_gen",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/source_images/MOTE-006_glow_pulse_sheet_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441d-6499-79e0-8b00-ac5fc8abc8c1/exec-10bd40f0-91f4-4457-a785-551267f2b6ce.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "prompt": "Use case: stylized-concept. Asset type: hand-painted 2D fantasy platformer animation sheet. Reference image is identity/style reference ONLY. Same Mote: ivory seed-shaped huge head, cyan oval eyes, mint green leaf ears with pale veins, tiny ivory root body, exactly two stubby tapered arms and two root legs with brown tips. Preserve model identity, opaque character interior, no clothes or extra anatomy. Generate exactly SIX full-body poses arranged in equal 3-column by 2-row grid, chronological reading order, 1536x1024 canvas, six 512x512 cells. Same scale and camera in each cell, total subject height approximately 340px, centered with generous 60px padding on all sides. Every leaf and root limb stays completely inside own cell; no overlap. Genuine transparent background, no panels, text, borders, ground, shadows, scenery or other characters. Avoid colored haze except specifically requested bounded glow. MOTE-006 \u2014 Glow pulse. Stable front-facing neutral hovering pose, identical body position and expression in all six cells. Only warm ivory/gold emission strength changes: 1 low, 2 medium, 3 high, 4 peak, 5 medium, 6 low. Bounded soft warm glow tightly surrounds body, max 25px halo, fades fully to transparent inside cell margin. No rays, stars, particles or giant flare. Peak still retains clear eyes, leaf ears, outline and opaque body detail. Seamless low-to-low loop.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/source_images/MOTE-001_model_sheet_original.png"
+      ],
+      "bytes": 1907243,
+      "sha256": "5078e0af3b79ff3257adc7c5b1778624b98b50a34528b68fc240a1666284a45a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    180,
+    160,
+    180,
+    240,
+    180,
+    180
+  ],
+  "loop": true,
+  "review_notes": [
+    "Character-present glow pulse, distinct from FX-only light asset. Low/medium/high/peak/medium/low warm emission is visibly readable and body pose remains stable.",
+    "Glow exceeds requested 25px bound and neighboring haze may touch cell boundaries. Isolation/cleanup required before runtime use.",
+    "Small scale/leaf/outline drift prevents an exact seamless loop; low endpoints need final match.",
+    "All subject parts fit equal 512x512 cells; source alpha retained.",
+    "Generated model MOTE-001 is a proposal based on ART-003 and ART-005; user design approval has not been inferred.",
+    "Generated alpha is preserved. Review edge halos, tiny anatomy, identity consistency and timing before runtime use. No Godot integration or in-engine review performed."
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/MOTE-006_glow_pulse_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/previews/MOTE-006_glow_pulse_preview.gif",
+  "asset_pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/MOTE-006_glow_pulse_prototype_pack.zip",
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/MOTE-006_README.md",
+      "bytes": 1123,
+      "sha256": "1783d1dfb6c93eecda59402f10452af75291e93a21a4f2f241b4d51b8dcaa3df"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/MOTE-006_generation_prompts.json",
+      "bytes": 2535,
+      "sha256": "9b324c51337cd4212cb47fe6503c0f0ea6fb44a93845d89acc175b36ed9afb5f"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/MOTE-006_glow_pulse_prototype_pack.zip",
+      "bytes": 5783328,
+      "sha256": "3864075a68135f719e492dea644e6421a237226aca9230075ae879cca5e71ec6"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/MOTE-006_glow_pulse_silhouettes_strip.png",
+      "bytes": 17927,
+      "sha256": "160909b2d9591e6256e2c9c09c98a40bad715c2d7eafba197ba696b8489aeef4",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/MOTE-006_glow_pulse_strip.png",
+      "bytes": 1615239,
+      "sha256": "f0b0fa2d5d92d8a921d915396c63ce54923d7ff632766ffd972f26ec9ffc4b2e",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/MOTE-006_manifest.json",
+      "bytes": 4826,
+      "sha256": "2df9702964f44bfa1424acabfeb0f1877e40647b16aea102746260e239fec374"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/frames/MOTE-006_glow_pulse_01.png",
+      "bytes": 258291,
+      "sha256": "fda6c8cc6324e7d70198816cd8c4ba32d3b547e8a8c27ec6ef2a92d73cec478a",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/frames/MOTE-006_glow_pulse_02.png",
+      "bytes": 270783,
+      "sha256": "c2925d40f8540cced98228b387a17bb7d2c244770c983ec5bf0b7e2700b61caa",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/frames/MOTE-006_glow_pulse_03.png",
+      "bytes": 255597,
+      "sha256": "b3c68c97ada70b1997d88045e8d0bad2385a9192c66a39ea805eeeda627f9971",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/frames/MOTE-006_glow_pulse_04.png",
+      "bytes": 278641,
+      "sha256": "34c3eb314de38b9c720b1e91988de69e6c638aa0c129c271936e54188dc1c2d3",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/frames/MOTE-006_glow_pulse_05.png",
+      "bytes": 273619,
+      "sha256": "357caed75b40e6bdffcc0c10f4b50ac95947ad5ed302ee62ebbc7e85437832ad",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/frames/MOTE-006_glow_pulse_06.png",
+      "bytes": 255118,
+      "sha256": "4bd6dddfa1c5a638055c2faedf1879d7c702cc6ec876ba029363f10cb7dab677",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/silhouettes/MOTE-006_glow_pulse_01_silhouette.png",
+      "bytes": 3951,
+      "sha256": "1abb50a3772c2d4d69cc4b81b9ef3781ffcc2254590c6b8e4772661bb8cd2e83",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/silhouettes/MOTE-006_glow_pulse_02_silhouette.png",
+      "bytes": 3808,
+      "sha256": "cffd1b6647b4ebe4349eeb84ba8fcd328cdee72d2b926b25796d4484fa26792a",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/silhouettes/MOTE-006_glow_pulse_03_silhouette.png",
+      "bytes": 3802,
+      "sha256": "ca5c138aa92b131975d3535496a199b3af741b38e16aa70b17d3a9f64b89d979",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/silhouettes/MOTE-006_glow_pulse_04_silhouette.png",
+      "bytes": 3794,
+      "sha256": "1a82ccf440ad412bd1a6735dee2f0f17cfcce752df3fb85601858789530dea9c",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/silhouettes/MOTE-006_glow_pulse_05_silhouette.png",
+      "bytes": 3794,
+      "sha256": "989d0a9005356601ec018e05177496f5b217c6033c10ac0cdd69bb2f84212fcc",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/silhouettes/MOTE-006_glow_pulse_06_silhouette.png",
+      "bytes": 3868,
+      "sha256": "755f4ab4e3bcad41272d510a88ce30876c88a57800981f7b7ea1904c90bc28cb",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/previews/MOTE-006_glow_pulse_contact_sheet.jpg",
+      "bytes": 206804,
+      "sha256": "4a232dd973c59e3a417890e60bc1b373d0cbdd19f6ed844e1eb82ad018aa7b64",
+      "dimensions": [
+        1536,
+        1104
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/previews/MOTE-006_glow_pulse_preview.gif",
+      "bytes": 447159,
+      "sha256": "3ef31749df15ec54884a82fd77264c2ce1dc6fd2f3c0338e63e22c1178980427",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/source_images/MOTE-006_glow_pulse_sheet_original.png",
+      "bytes": 1907243,
+      "sha256": "5078e0af3b79ff3257adc7c5b1778624b98b50a34528b68fc240a1666284a45a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

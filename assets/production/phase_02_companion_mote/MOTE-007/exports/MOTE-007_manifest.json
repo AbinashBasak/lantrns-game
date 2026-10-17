@@ -1,0 +1,166 @@
+{
+  "asset_id": "MOTE-007",
+  "asset_type": "six-frame animation prototype",
+  "animation": "celebrate_discovery",
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    140,
+    140,
+    180,
+    250,
+    150,
+    180
+  ],
+  "loop": false,
+  "preview_loops_for_review": true,
+  "pivot_px": [
+    256,
+    256
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_04.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_05.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_06.png"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-007/source_images/MOTE-007_celebrate_discovery_sheet_original.png",
+      "source_crop": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-007/source_images/MOTE-007_celebrate_discovery_sheet_original.png",
+      "source_crop": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-007/source_images/MOTE-007_celebrate_discovery_sheet_original.png",
+      "source_crop": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-007/source_images/MOTE-007_celebrate_discovery_sheet_original.png",
+      "source_crop": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "frame": 5,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-007/source_images/MOTE-007_celebrate_discovery_sheet_original.png",
+      "source_crop": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "frame": 6,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-007/source_images/MOTE-007_celebrate_discovery_sheet_original.png",
+      "source_crop": [
+        1024,
+        512,
+        1536,
+        1024
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "mask_method": "binary alpha >=230 silhouette reference",
+  "poses": [
+    "curious",
+    "realize discovery",
+    "smile and raise both arms",
+    "little joyful hop",
+    "land with knees slightly bent",
+    "relax smiling"
+  ],
+  "review_notes": [
+    "Six readable celebration phases: curious, realize, arms up, joyful hop with bent root legs, settle/land, relaxed smile.",
+    "Landing pose is mostly straight-legged rather than visibly compressed. Root-leg shape and leaf silhouette drift between poses.",
+    "Broad semi-transparent warm/green haze persists outside character; not final clean cutouts.",
+    "All subject parts fit equal 512x512 cells, with tight leaf padding in a few cells.",
+    "Initial generation returned an output safety filter error and produced no image; benign reworded retry succeeded.",
+    "Generated model MOTE-001 is a proposal based on ART-003 and ART-005; user design approval has not been inferred.",
+    "Generated alpha is preserved. Review edge halos, tiny anatomy, identity consistency and timing before runtime use. No Godot integration or in-engine review performed."
+  ]
+}

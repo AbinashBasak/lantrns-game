@@ -1,0 +1,28 @@
+{
+  "reference_images": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/source_images/MOTE-001_model_sheet_original.png"
+  ],
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/source_images/MOTE-004_alert_reaction_sheet_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441c-ffb3-7622-ab52-0c9bb160e6d7/exec-b6824271-b4bb-4dc8-9a8a-a06b37639d44.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "prompt": "Use case: stylized-concept. Asset type: 2D hand-painted fantasy companion animation sprite pose sheet. Input image role: MOTE-001 character identity and rendering reference only, a proposal model. Same Mote throughout: ivory warm cream seed-shaped LARGE head, bright cyan eyes, two mint green leaf ears with pale veins, very small cream root body, exactly two small arms and two root legs with brown tips. No clothing. Preserve same large-head/smallbody proportions, simple face, outline and shading as reference. Create exactly SIX complete full-body poses arranged chronological left-to-right top row then bottom row in an equal 3 columns x 2 rows grid, landscape 1536x1024, cells512x512. Same character scale and front-three-quarter camera (except specified right-facing follow). Each entire character including leaf tips fits its own cell with generous60px padding. Character height about350px, head about180px wide excluding leaves. Transparent background with opaque character interiors. No floor, shadow, halos, colored background, text, labels, borders, panels, scenery, extra characters or props. Keep clean isolated cutout edges. Asset MOTE-004 Alert reaction. Six sequential alert reaction poses: 1: neutral hovering smile; 2: leaf ears suddenly perk upright; 3: wide cyan eyes and small surprised open mouth; 4: recoil backward left with arms raised; 5: turn and look right with warning expression ears stiff; 6: settle toward neutral hover. Readable gentle surprise and attention, never angry, ears expressive but no extra leaves. Both cyan eyes stay visible. Neutral settles again at end. No speech or icons.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/source_images/MOTE-001_model_sheet_original.png"
+      ],
+      "bytes": 1724644,
+      "sha256": "ec20822b5bcb9e91c7031bfb944a26359cc7a97398c25a813c59d7894436a7d4",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

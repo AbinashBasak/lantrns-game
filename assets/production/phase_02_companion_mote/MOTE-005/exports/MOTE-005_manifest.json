@@ -1,0 +1,165 @@
+{
+  "asset_id": "MOTE-005",
+  "asset_type": "six-frame animation prototype",
+  "animation": "rune_interaction",
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    150,
+    130,
+    160,
+    350,
+    140,
+    180
+  ],
+  "loop": false,
+  "preview_loops_for_review": true,
+  "pivot_px": [
+    256,
+    256
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/frames/MOTE-005_rune_interaction_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/frames/MOTE-005_rune_interaction_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/frames/MOTE-005_rune_interaction_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/frames/MOTE-005_rune_interaction_04.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/frames/MOTE-005_rune_interaction_05.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/frames/MOTE-005_rune_interaction_06.png"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/source_images/MOTE-005_rune_interaction_sheet_original.png",
+      "source_crop": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/source_images/MOTE-005_rune_interaction_sheet_original.png",
+      "source_crop": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/source_images/MOTE-005_rune_interaction_sheet_original.png",
+      "source_crop": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/source_images/MOTE-005_rune_interaction_sheet_original.png",
+      "source_crop": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "frame": 5,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/source_images/MOTE-005_rune_interaction_sheet_original.png",
+      "source_crop": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "frame": 6,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/source_images/MOTE-005_rune_interaction_sheet_original.png",
+      "source_crop": [
+        1024,
+        512,
+        1536,
+        1024
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "mask_method": "binary alpha >=230 silhouette reference",
+  "poses": [
+    "neutral facing right",
+    "lean right curiously",
+    "reach right root hand toward invisible rune",
+    "hold fingertip cyan glow at invisible rune",
+    "withdraw root hand",
+    "settle neutral"
+  ],
+  "review_notes": [
+    "Six clear phases: neutral, lean, reach, cyan fingertip activation hold, withdraw, settle. Rune prop intentionally absent.",
+    "Model identity retained. Some eye/head angle and leaf shape drift across poses; requires continuity cleanup.",
+    "Broad semi-transparent warm/green model haze persists outside character beyond intended fingertip effect; not final clean cutouts.",
+    "All subject parts fit equal 512x512 cells; padding is tighter than requested in places.",
+    "Generated model MOTE-001 is a proposal based on ART-003 and ART-005; user design approval has not been inferred.",
+    "Generated alpha is preserved. Review edge halos, tiny anatomy, identity consistency and timing before runtime use. No Godot integration or in-engine review performed."
+  ]
+}

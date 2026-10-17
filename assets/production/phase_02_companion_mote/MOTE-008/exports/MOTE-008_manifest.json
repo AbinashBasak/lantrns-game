@@ -1,0 +1,164 @@
+{
+  "asset_id": "MOTE-008",
+  "asset_type": "six-frame animation prototype",
+  "animation": "disappear_reappear",
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    160,
+    140,
+    120,
+    220,
+    160,
+    180
+  ],
+  "loop": false,
+  "preview_loops_for_review": true,
+  "pivot_px": [
+    256,
+    256
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/frames/MOTE-008_disappear_reappear_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/frames/MOTE-008_disappear_reappear_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/frames/MOTE-008_disappear_reappear_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/frames/MOTE-008_disappear_reappear_04.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/frames/MOTE-008_disappear_reappear_05.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/frames/MOTE-008_disappear_reappear_06.png"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/source_images/MOTE-008_disappear_reappear_sheet_original.png",
+      "source_crop": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/source_images/MOTE-008_disappear_reappear_sheet_original.png",
+      "source_crop": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/source_images/MOTE-008_disappear_reappear_sheet_original.png",
+      "source_crop": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        252
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/source_images/MOTE-008_disappear_reappear_sheet_original.png",
+      "source_crop": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        241
+      ]
+    },
+    {
+      "frame": 5,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/source_images/MOTE-008_disappear_reappear_sheet_original.png",
+      "source_crop": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "frame": 6,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/source_images/MOTE-008_disappear_reappear_sheet_original.png",
+      "source_crop": [
+        1024,
+        512,
+        1536,
+        1024
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "mask_method": "binary alpha >=230 silhouette reference",
+  "poses": [
+    "whole Mote",
+    "half-dissolved",
+    "few embers",
+    "tiny central dim speck / absence hold",
+    "reforming",
+    "whole Mote"
+  ],
+  "review_notes": [
+    "Generated sheet has clear full-body > partial dissolve > embers > tiny speck absence > reform > full-body progression.",
+    "Some warm/cyan ambient alpha spills toward cell margins; clean for final runtime use.",
+    "Partial dissolve retains more than half of head; prototype transition, not production approved.",
+    "Generated model MOTE-001 is a proposal based on ART-003 and ART-005; user design approval has not been inferred.",
+    "Generated alpha is preserved. Review edge halos, tiny anatomy, identity consistency and timing before runtime use. No Godot integration or in-engine review performed."
+  ]
+}

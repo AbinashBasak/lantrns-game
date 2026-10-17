@@ -1,0 +1,28 @@
+{
+  "reference_images": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/source_images/MOTE-001_model_sheet_original.png"
+  ],
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-007/source_images/MOTE-007_celebrate_discovery_sheet_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441d-6499-79e0-8b00-ac5fc8abc8c1/exec-fde14006-83e9-4acf-946d-492563bde0b7.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "prompt": "Use case: stylized-concept. Asset type: hand-painted 2D fantasy platformer animation sheet. Reference image is identity/style reference ONLY. Same Mote: ivory seed-shaped huge head, cyan oval eyes, mint green leaf ears with pale veins, tiny ivory root body, exactly two stubby tapered arms and two root legs with brown tips. Preserve model identity, opaque character interior, no clothes or extra anatomy. Generate exactly SIX full-body poses arranged in equal 3-column by 2-row grid, chronological reading order, 1536x1024 canvas, six 512x512 cells. Same scale and camera in each cell, total subject height approximately 340px, centered with generous 60px padding on all sides. Every leaf and root limb stays completely inside own cell; no overlap. Genuine transparent background, no panels, text, borders, ground, shadows, scenery or other characters. Avoid colored haze except specifically requested bounded glow. MOTE-007 \u2014 Celebrate discovery. Friendly original seed-sprite mascot celebrates finding something wonderful. Exactly six poses in reading order: curious head tilt; realization with bright happy eyes; smile raising both small root arms; small happy hop with two feet raised; gently landing arms lowered; relaxed smile. No objects, no effects. Preserve reference identity and costume-free plant anatomy.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/source_images/MOTE-001_model_sheet_original.png"
+      ],
+      "bytes": 1770497,
+      "sha256": "939ef507e99487d6f10289d1417b1bac171af4fe2e58d1099163f836c5b376ba",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

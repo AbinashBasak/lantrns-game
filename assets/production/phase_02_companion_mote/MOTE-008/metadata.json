@@ -1,0 +1,307 @@
+{
+  "asset_id": "MOTE-008",
+  "title": "Disappear and reappear",
+  "checked": false,
+  "stage": "six-frame animation prototype generated and visually reviewed; continuity/alpha cleanup and production approval pending",
+  "last_updated": "2026-10-16T15:39:39.041346+05:30",
+  "generation_tool": "built-in image_gen",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/source_images/MOTE-008_disappear_reappear_sheet_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-b9c28354-55a6-4b9a-aa3c-b94b482c2e90.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "prompt": "Use case: stylized-concept. Hand-painted 2D game sprite sheet, exactly SIX poses in equal 3-column x 2-row cells on 1536x1024 canvas. Each cell 512x512, centered subject, generous 60px transparent padding. Read left to right top row then bottom row. No labels, text, borders, props, scenery or other characters. Genuine transparent background and preserved alpha. Input image 1 is identity/style reference only: use Mote front-three-quarter right view, ivory large seed-shaped head, two cyan eyes, mint leaf ears, tiny root body, two arms and two legs ending brown tips. Same scale/camera/identity. No clothes or extra anatomy. Model image background is NOT part of subject; remove it. Primary request: disappearance then reappearance magic sprite sequence, exactly one centered composition per cell. 1 entire opaque full-body Mote calm upright. 2 Mote lower body and half head dissolve into sparse golden root-seed embers, visibly only HALF its solid form remaining. 3 only FIVE tiny scattered golden embers remain near the original torso position, NO face/body. 4 absence hold, just ONE very small dim amber speck at exact center, rest transparent. 5 recognizable translucent body reforms from scattered amber embers, 60 percent solid, visible head and leaves returning. 6 entire opaque Mote same pose and size as cell1. Clear drastic reduction and restoration of size/opacity. Do not repeat six intact characters. Every particle contained within its own cell.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/source_images/MOTE-001_model_sheet_original.png"
+      ],
+      "bytes": 1714496,
+      "sha256": "7cd0f6bd455237217f4075d0f79d134def9b79836af139d45c3714fab1ce542f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    160,
+    140,
+    120,
+    220,
+    160,
+    180
+  ],
+  "loop": false,
+  "review_notes": [
+    "Generated sheet has clear full-body > partial dissolve > embers > tiny speck absence > reform > full-body progression.",
+    "Some warm/cyan ambient alpha spills toward cell margins; clean for final runtime use.",
+    "Partial dissolve retains more than half of head; prototype transition, not production approved.",
+    "Generated model MOTE-001 is a proposal based on ART-003 and ART-005; user design approval has not been inferred.",
+    "Generated alpha is preserved. Review edge halos, tiny anatomy, identity consistency and timing before runtime use. No Godot integration or in-engine review performed."
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/MOTE-008_disappear_reappear_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/previews/MOTE-008_disappear_reappear_preview.gif",
+  "asset_pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/MOTE-008_disappear_reappear_prototype_pack.zip",
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/MOTE-008_README.md",
+      "bytes": 983,
+      "sha256": "c413e01f5cd25a99a0d7df99d39abef46a60a550af0c8914bdf28be01fe522de"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/MOTE-008_disappear_reappear_prototype_pack.zip",
+      "bytes": 4432127,
+      "sha256": "cf0a0754d51e8f3d0f24818aa15ed5902a116a29a8e5b9c64eb192b030909092"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/MOTE-008_disappear_reappear_silhouettes_strip.png",
+      "bytes": 16259,
+      "sha256": "09f270773e99583c666b0a66d4d044096ba468c461c811f7d9bfeeb159c16778",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/MOTE-008_disappear_reappear_strip.png",
+      "bytes": 1158634,
+      "sha256": "84d856ba031670a08c58c7a45517a4d30e698bb29ee26b98a66d2060ca342d40",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/MOTE-008_generation_prompts.json",
+      "bytes": 2612,
+      "sha256": "a56a8f59887df5f37ed19414f3c8666afa17a5864606a31b97be6ea0e99622a8"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/MOTE-008_manifest.json",
+      "bytes": 4772,
+      "sha256": "1d870daa4eda45b5c71f4396e4708cdf576febadf95a62b0a299be5ce0173f4f"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/frames/MOTE-008_disappear_reappear_01.png",
+      "bytes": 181208,
+      "sha256": "21d629be942c91fa1a5d0c52e3a1b689534034bd6d0d2446d56b49e6321a4566",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/frames/MOTE-008_disappear_reappear_02.png",
+      "bytes": 249449,
+      "sha256": "8941622f5dbbe367987ab1928e70940dc2ab28f12d8242a2127af5b53d8395af",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/frames/MOTE-008_disappear_reappear_03.png",
+      "bytes": 154160,
+      "sha256": "84fb0de80919f9069efbf870b3bbc27da7afe340aaccb68fc726cc2f714ca060",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        252
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/frames/MOTE-008_disappear_reappear_04.png",
+      "bytes": 36427,
+      "sha256": "b9d9396576dd36ce51024869fdf1f18c98980fae7ca8d41300691ae516b2d695",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        241
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/frames/MOTE-008_disappear_reappear_05.png",
+      "bytes": 298231,
+      "sha256": "f80ca1adeb6357faf3c11d6cbbe66b9ebf967acb0a69f715cc1b19267b6c4031",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/frames/MOTE-008_disappear_reappear_06.png",
+      "bytes": 186843,
+      "sha256": "8c3790a52e5cf7a611759588b1e0f7275e685e2225b189812375cd412c3d721f",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/silhouettes/MOTE-008_disappear_reappear_01_silhouette.png",
+      "bytes": 3798,
+      "sha256": "1be910f9ae36295b5a91e12a22778978455e2a3d39834c17058607831a903339",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/silhouettes/MOTE-008_disappear_reappear_02_silhouette.png",
+      "bytes": 4245,
+      "sha256": "aa75a2c8231685c8b3591f8bb52b33a4455fe1fd1a0604001c81095af8bb4a68",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/silhouettes/MOTE-008_disappear_reappear_03_silhouette.png",
+      "bytes": 1891,
+      "sha256": "0ed4d0190b6d1a484a6f2787a0aa5d15d0c8881d680a4f312f314292b1919ce2",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/silhouettes/MOTE-008_disappear_reappear_04_silhouette.png",
+      "bytes": 1141,
+      "sha256": "5d2e9b798240cec3f2375d31ff6609c7a544a3af5abdd2b65bc3de507f7ba543",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/silhouettes/MOTE-008_disappear_reappear_05_silhouette.png",
+      "bytes": 4226,
+      "sha256": "a894ed02a925107cd8f9e341c2d10b1a93ebb8054c8151f44762363ffaf821f3",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/exports/silhouettes/MOTE-008_disappear_reappear_06_silhouette.png",
+      "bytes": 3794,
+      "sha256": "732fa15f66bc330ae917884942c7a3ae18a53bde8c5fd528aecadac5ec9a7ab6",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/previews/MOTE-008_disappear_reappear_contact_sheet.jpg",
+      "bytes": 138989,
+      "sha256": "3b196b8ca54af7c38972879e4671cc1851a7431f6c4e2f81312d4c46904e0734",
+      "dimensions": [
+        1536,
+        1104
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/previews/MOTE-008_disappear_reappear_preview.gif",
+      "bytes": 312281,
+      "sha256": "f188b49e4dbd49d0ed38f93285a8870be4ee8eaf1f8c1f6742dd1bdad73d4cf6",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/source_images/MOTE-008_disappear_reappear_sheet_original.png",
+      "bytes": 1714496,
+      "sha256": "7cd0f6bd455237217f4075d0f79d134def9b79836af139d45c3714fab1ce542f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

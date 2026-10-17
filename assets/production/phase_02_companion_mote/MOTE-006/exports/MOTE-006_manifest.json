@@ -1,0 +1,165 @@
+{
+  "asset_id": "MOTE-006",
+  "asset_type": "six-frame animation prototype",
+  "animation": "glow_pulse",
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    180,
+    160,
+    180,
+    240,
+    180,
+    180
+  ],
+  "loop": true,
+  "preview_loops_for_review": true,
+  "pivot_px": [
+    256,
+    256
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/frames/MOTE-006_glow_pulse_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/frames/MOTE-006_glow_pulse_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/frames/MOTE-006_glow_pulse_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/frames/MOTE-006_glow_pulse_04.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/frames/MOTE-006_glow_pulse_05.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/exports/frames/MOTE-006_glow_pulse_06.png"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/source_images/MOTE-006_glow_pulse_sheet_original.png",
+      "source_crop": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/source_images/MOTE-006_glow_pulse_sheet_original.png",
+      "source_crop": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/source_images/MOTE-006_glow_pulse_sheet_original.png",
+      "source_crop": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/source_images/MOTE-006_glow_pulse_sheet_original.png",
+      "source_crop": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "frame": 5,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/source_images/MOTE-006_glow_pulse_sheet_original.png",
+      "source_crop": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "frame": 6,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/source_images/MOTE-006_glow_pulse_sheet_original.png",
+      "source_crop": [
+        1024,
+        512,
+        1536,
+        1024
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "mask_method": "binary alpha >=230 silhouette reference",
+  "poses": [
+    "low glow",
+    "medium glow rising",
+    "high glow rising",
+    "peak warm glow",
+    "medium glow falling",
+    "low glow returns"
+  ],
+  "review_notes": [
+    "Character-present glow pulse, distinct from FX-only light asset. Low/medium/high/peak/medium/low warm emission is visibly readable and body pose remains stable.",
+    "Glow exceeds requested 25px bound and neighboring haze may touch cell boundaries. Isolation/cleanup required before runtime use.",
+    "Small scale/leaf/outline drift prevents an exact seamless loop; low endpoints need final match.",
+    "All subject parts fit equal 512x512 cells; source alpha retained.",
+    "Generated model MOTE-001 is a proposal based on ART-003 and ART-005; user design approval has not been inferred.",
+    "Generated alpha is preserved. Review edge halos, tiny anatomy, identity consistency and timing before runtime use. No Godot integration or in-engine review performed."
+  ]
+}

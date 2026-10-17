@@ -1,0 +1,413 @@
+{
+  "phase": "03",
+  "asset_ids": [
+    "EN-001",
+    "EN-002",
+    "EN-003",
+    "EN-004",
+    "EN-005",
+    "EN-006",
+    "EN-007",
+    "EN-008",
+    "EN-009",
+    "EN-010",
+    "EN-011",
+    "EN-012",
+    "EN-013",
+    "EN-014",
+    "EN-015",
+    "EN-016",
+    "EN-017",
+    "EN-018",
+    "BOSS-001",
+    "BOSS-002",
+    "BOSS-003",
+    "BOSS-004",
+    "BOSS-005",
+    "BOSS-006",
+    "BOSS-007",
+    "BOSS-008",
+    "BOSS-009",
+    "BOSS-010",
+    "BOSS-011",
+    "BOSS-012"
+  ],
+  "asset_count": 30,
+  "clip_view_sets": 39,
+  "exported_frames_views": 214,
+  "generation_tool": "built-in image_gen",
+  "production_approved": false,
+  "runtime_integrated": false,
+  "review_index": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/PHASE03_index.md",
+  "assets": [
+    {
+      "asset_id": "EN-001",
+      "title": "Rootling model sheet",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-001/exports/EN-001_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-001",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-001/previews/EN-001_model_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-001/metadata.json",
+      "clips": 1,
+      "frames": 4
+    },
+    {
+      "asset_id": "EN-002",
+      "title": "Rootling idle animation",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-002/exports/EN-002_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-002",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-002/previews/EN-002_idle_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-002/metadata.json",
+      "clips": 1,
+      "frames": 6
+    },
+    {
+      "asset_id": "EN-003",
+      "title": "Rootling patrol or movement animation",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/EN-003_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/previews/EN-003_patrol_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/metadata.json",
+      "clips": 1,
+      "frames": 6
+    },
+    {
+      "asset_id": "EN-004",
+      "title": "Rootling attack animation",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-004/exports/EN-004_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-004",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-004/previews/EN-004_attack_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-004/metadata.json",
+      "clips": 1,
+      "frames": 6
+    },
+    {
+      "asset_id": "EN-005",
+      "title": "Rootling hurt animation",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-005/exports/EN-005_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-005",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-005/previews/EN-005_hurt_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-005/metadata.json",
+      "clips": 1,
+      "frames": 6
+    },
+    {
+      "asset_id": "EN-006",
+      "title": "Rootling defeat animation",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-006/exports/EN-006_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-006",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-006/previews/EN-006_defeat_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-006/metadata.json",
+      "clips": 1,
+      "frames": 6
+    },
+    {
+      "asset_id": "EN-007",
+      "title": "Thornwing model sheet",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-007/exports/EN-007_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-007",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-007/previews/EN-007_model_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-007/metadata.json",
+      "clips": 1,
+      "frames": 4
+    },
+    {
+      "asset_id": "EN-008",
+      "title": "Thornwing hover and fly animations",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-008/exports/EN-008_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-008",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-008/previews/EN-008_hover_contact_sheet.jpg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-008/previews/EN-008_fly_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-008/metadata.json",
+      "clips": 2,
+      "frames": 12
+    },
+    {
+      "asset_id": "EN-009",
+      "title": "Thornwing dive attack",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-009/exports/EN-009_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-009",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-009/previews/EN-009_dive_attack_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-009/metadata.json",
+      "clips": 1,
+      "frames": 6
+    },
+    {
+      "asset_id": "EN-010",
+      "title": "Thornwing hurt and defeat animations",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/EN-010_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/previews/EN-010_hurt_contact_sheet.jpg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/previews/EN-010_defeat_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/metadata.json",
+      "clips": 2,
+      "frames": 12
+    },
+    {
+      "asset_id": "EN-011",
+      "title": "Sporeling model sheet",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-011/exports/EN-011_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-011",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-011/previews/EN-011_model_sheet_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-011/metadata.json",
+      "clips": 1,
+      "frames": 4
+    },
+    {
+      "asset_id": "EN-012",
+      "title": "Sporeling idle and movement animations",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/EN-012_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/previews/EN-012_idle_contact_sheet.jpg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/previews/EN-012_movement_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/metadata.json",
+      "clips": 2,
+      "frames": 12
+    },
+    {
+      "asset_id": "EN-013",
+      "title": "Sporeling spore attack",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/EN-013_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/previews/EN-013_spore_attack_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/metadata.json",
+      "clips": 1,
+      "frames": 6
+    },
+    {
+      "asset_id": "EN-014",
+      "title": "Sporeling hurt and defeat animations",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/EN-014_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/previews/EN-014_hurt_contact_sheet.jpg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/previews/EN-014_defeat_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/metadata.json",
+      "clips": 2,
+      "frames": 12
+    },
+    {
+      "asset_id": "EN-015",
+      "title": "Brambleguard model sheet",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/exports/EN-015_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/previews/EN-015_model_sheet_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/metadata.json",
+      "clips": 1,
+      "frames": 4
+    },
+    {
+      "asset_id": "EN-016",
+      "title": "Brambleguard walk and idle animations",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/exports/EN-016_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/previews/EN-016_walk_contact_sheet.jpg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/previews/EN-016_idle_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/metadata.json",
+      "clips": 2,
+      "frames": 12
+    },
+    {
+      "asset_id": "EN-017",
+      "title": "Brambleguard heavy attack",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/EN-017_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/previews/EN-017_heavy_attack_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/metadata.json",
+      "clips": 1,
+      "frames": 6
+    },
+    {
+      "asset_id": "EN-018",
+      "title": "Brambleguard stagger, hurt, and defeat animations",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/exports/EN-018_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/previews/EN-018_stagger_contact_sheet.jpg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/previews/EN-018_hurt_contact_sheet.jpg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/previews/EN-018_defeat_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/metadata.json",
+      "clips": 3,
+      "frames": 18
+    },
+    {
+      "asset_id": "BOSS-001",
+      "title": "Final boss design sheet",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/exports/BOSS-001_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/previews/BOSS-001_model_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/metadata.json",
+      "clips": 1,
+      "frames": 4
+    },
+    {
+      "asset_id": "BOSS-002",
+      "title": "Idle animation",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/BOSS-002_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/previews/BOSS-002_idle_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/metadata.json",
+      "clips": 1,
+      "frames": 6
+    },
+    {
+      "asset_id": "BOSS-003",
+      "title": "Walking and repositioning",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/exports/BOSS-003_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/previews/BOSS-003_walk_reposition_profile_corrected_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/metadata.json",
+      "clips": 1,
+      "frames": 6
+    },
+    {
+      "asset_id": "BOSS-004",
+      "title": "Attack wind-up",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-004/exports/BOSS-004_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-004",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-004/previews/BOSS-004_attack_windup_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-004/metadata.json",
+      "clips": 1,
+      "frames": 6
+    },
+    {
+      "asset_id": "BOSS-005",
+      "title": "Ground slam",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/exports/BOSS-005_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/previews/BOSS-005_ground_slam_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/metadata.json",
+      "clips": 1,
+      "frames": 6
+    },
+    {
+      "asset_id": "BOSS-006",
+      "title": "Arm swipe",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006/exports/BOSS-006_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006/previews/BOSS-006_arm_swipe_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006/metadata.json",
+      "clips": 1,
+      "frames": 6
+    },
+    {
+      "asset_id": "BOSS-007",
+      "title": "Ranged core attack",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/BOSS-007_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/previews/BOSS-007_ranged_core_attack_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/metadata.json",
+      "clips": 1,
+      "frames": 6
+    },
+    {
+      "asset_id": "BOSS-008",
+      "title": "Stagger and damage reaction",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/BOSS-008_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/previews/BOSS-008_stagger_damage_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/metadata.json",
+      "clips": 1,
+      "frames": 6
+    },
+    {
+      "asset_id": "BOSS-009",
+      "title": "Phase transition",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/exports/BOSS-009_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/previews/BOSS-009_phase_transition_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/metadata.json",
+      "clips": 1,
+      "frames": 6
+    },
+    {
+      "asset_id": "BOSS-010",
+      "title": "Defeat animation",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/BOSS-010_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/previews/BOSS-010_defeat_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/metadata.json",
+      "clips": 1,
+      "frames": 6
+    },
+    {
+      "asset_id": "BOSS-011",
+      "title": "Boss arena entrance and awakening effects",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/BOSS-011_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/previews/BOSS-011_awakening_contact_sheet.jpg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/previews/BOSS-011_awakening_fx_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/metadata.json",
+      "clips": 2,
+      "frames": 12
+    },
+    {
+      "asset_id": "BOSS-012",
+      "title": "Boss health bar icon and UI portrait",
+      "pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/exports/BOSS-012_prototype_pack.zip",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012",
+      "contacts": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/previews/BOSS-012_health_icon_contact_sheet.jpg",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/previews/BOSS-012_ui_portrait_contact_sheet.jpg"
+      ],
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/metadata.json",
+      "clips": 2,
+      "frames": 2
+    }
+  ]
+}

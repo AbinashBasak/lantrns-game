@@ -1,0 +1,163 @@
+{
+  "asset_id": "MOTE-003",
+  "asset_type": "six-frame animation prototype",
+  "animation": "follow_tavi",
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    120,
+    120,
+    120,
+    120,
+    120,
+    120
+  ],
+  "loop": true,
+  "preview_loops_for_review": true,
+  "pivot_px": [
+    256,
+    256
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_04.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_05.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_06.png"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/source_images/MOTE-003_follow_tavi_sheet_original.png",
+      "source_crop": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/source_images/MOTE-003_follow_tavi_sheet_original.png",
+      "source_crop": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/source_images/MOTE-003_follow_tavi_sheet_original.png",
+      "source_crop": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/source_images/MOTE-003_follow_tavi_sheet_original.png",
+      "source_crop": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "frame": 5,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/source_images/MOTE-003_follow_tavi_sheet_original.png",
+      "source_crop": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "frame": 6,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/source_images/MOTE-003_follow_tavi_sheet_original.png",
+      "source_crop": [
+        1024,
+        512,
+        1536,
+        1024
+      ],
+      "scale": 1.0,
+      "offset": [
+        0,
+        0
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "mask_method": "binary alpha >=230 silhouette reference",
+  "poses": [
+    "right-facing hover, lean forward",
+    "lean right further arms and rootfeet trailing left, ears swept back",
+    "rise slightly on forward chase, ears lifted",
+    "forward glide lower bob ears flutter back",
+    "rise toward neutral chase posture, feet trailing",
+    "return to first right-facing hover lean"
+  ],
+  "review_notes": [
+    "Model proposal, not user-approved. Soft colored alpha halos persist; production cutout cleanup pending.",
+    "All six full subjects fit equal 512x512 cells. Leaf shapes, head proportions and body alignment vary subtly; animation continuity and in-engine review pending.",
+    "Generated model MOTE-001 is a proposal based on ART-003 and ART-005; user design approval has not been inferred.",
+    "Generated alpha is preserved. Review edge halos, tiny anatomy, identity consistency and timing before runtime use. No Godot integration or in-engine review performed."
+  ]
+}

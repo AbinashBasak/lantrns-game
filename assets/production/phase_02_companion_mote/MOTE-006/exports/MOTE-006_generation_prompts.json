@@ -1,0 +1,28 @@
+{
+  "reference_images": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/source_images/MOTE-001_model_sheet_original.png"
+  ],
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-006/source_images/MOTE-006_glow_pulse_sheet_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441d-6499-79e0-8b00-ac5fc8abc8c1/exec-10bd40f0-91f4-4457-a785-551267f2b6ce.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "prompt": "Use case: stylized-concept. Asset type: hand-painted 2D fantasy platformer animation sheet. Reference image is identity/style reference ONLY. Same Mote: ivory seed-shaped huge head, cyan oval eyes, mint green leaf ears with pale veins, tiny ivory root body, exactly two stubby tapered arms and two root legs with brown tips. Preserve model identity, opaque character interior, no clothes or extra anatomy. Generate exactly SIX full-body poses arranged in equal 3-column by 2-row grid, chronological reading order, 1536x1024 canvas, six 512x512 cells. Same scale and camera in each cell, total subject height approximately 340px, centered with generous 60px padding on all sides. Every leaf and root limb stays completely inside own cell; no overlap. Genuine transparent background, no panels, text, borders, ground, shadows, scenery or other characters. Avoid colored haze except specifically requested bounded glow. MOTE-006 \u2014 Glow pulse. Stable front-facing neutral hovering pose, identical body position and expression in all six cells. Only warm ivory/gold emission strength changes: 1 low, 2 medium, 3 high, 4 peak, 5 medium, 6 low. Bounded soft warm glow tightly surrounds body, max 25px halo, fades fully to transparent inside cell margin. No rays, stars, particles or giant flare. Peak still retains clear eyes, leaf ears, outline and opaque body detail. Seamless low-to-low loop.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/source_images/MOTE-001_model_sheet_original.png"
+      ],
+      "bytes": 1907243,
+      "sha256": "5078e0af3b79ff3257adc7c5b1778624b98b50a34528b68fc240a1666284a45a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

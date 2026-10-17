@@ -1,0 +1,339 @@
+{
+  "asset_id": "MOTE-009",
+  "title": "Companion light effect",
+  "checked": false,
+  "stage": "light-effect prototype generated and visually reviewed; continuity/alpha cleanup and production approval pending",
+  "last_updated": "2026-10-16T15:39:39.041346+05:30",
+  "generation_tool": "built-in image_gen",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/source_images/MOTE-009_companion_light_sheet_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-0c8bf2f6-8120-419d-95c0-216d14379dd4.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "prompt": "Use case: stylized-concept. FX-only hand-painted 2D game sprite sheet: exactly SIX separate warm gold radial companion light halos, arranged equal 3-column x 2-row cells on 1536x1024 canvas, each cell 512x512 with 60px padding. Read left-right top-bottom. No character, faces, limbs, symbols, leaves, text, borders, square panels or scenery. A reusable soft radial light glow with warm creamy-gold core and very subtle cyan tint at outer edge, alpha falling smoothly to completely transparent outward. Genuine transparent background, no opaque black/white/checkerboard background. Each glow is perfectly centered in its cell. Pulse phases: 1 SMALL dim halo radius90px; 2 MEDIUM radius130px; 3 LARGE radius165px; 4 PEAK bright radius190px; 5 MEDIUM radius130px; 6 SMALL dim radius90px. All round halos, no directional flares, no opaque disks, no hard outlines. Clearly different expanding then contracting energy levels. Keep 60px clear transparent padding around every effect. This is companion light only, not a rune reveal effect. CORRECTION: all six glows must fit comfortably WITHIN their cells. The peak halo full diameter must be maximum 350 pixels INCLUDING cyan fade. Make the cyan edge far more subtle and thinner (not a dominant blue cloud). The alpha at each cell boundary must be zero: an empty transparent margin 70 pixels on every edge. Do not let light overlap from one cell into adjacent cells. Smaller halos have diameters 150,220,280,350,220,150 respectively. Ensure visible transparent gaps between all six round effects.",
+      "reference_images": [],
+      "bytes": 1444888,
+      "sha256": "ba08c21b1d8074e6bccfb829e78d81ed12bea69b6949beb353f6ac1b45430e5a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ]
+    },
+    {
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-f22e82e4-ae45-4190-b3df-70fb38b6c787.png",
+      "prompt": "Use case: stylized-concept. FX-only hand-painted 2D game sprite sheet: exactly SIX separate warm gold radial companion light halos, arranged equal 3-column x 2-row cells on 1536x1024 canvas, each cell 512x512 with 60px padding. Read left-right top-bottom. No character, faces, limbs, symbols, leaves, text, borders, square panels or scenery. A reusable soft radial light glow with warm creamy-gold core and very subtle cyan tint at outer edge, alpha falling smoothly to completely transparent outward. Genuine transparent background, no opaque black/white/checkerboard background. Each glow is perfectly centered in its cell. Pulse phases: 1 SMALL dim halo radius90px; 2 MEDIUM radius130px; 3 LARGE radius165px; 4 PEAK bright radius190px; 5 MEDIUM radius130px; 6 SMALL dim radius90px. All round halos, no directional flares, no opaque disks, no hard outlines. Clearly different expanding then contracting energy levels. Keep 60px clear transparent padding around every effect. This is companion light only, not a rune reveal effect.",
+      "review": "Earlier attempt retained: broader cyan halo and less consistent padding.",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/source_images/MOTE-009_companion_light_sheet_attempt01_original.png",
+      "provenance": "unchanged built-in image_gen attempt",
+      "source_message_id": null,
+      "bytes": 1601177,
+      "sha256": "20ea1c36b571f1f030bffc53e1a1d8a18225b1929f6defc8ec1f5700e53692c3",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ]
+    }
+  ],
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    180,
+    180,
+    180,
+    180,
+    180,
+    180
+  ],
+  "loop": true,
+  "review_notes": [
+    "FX-only six pulse phases, no character; RGBA transparency verified.",
+    "Corrective generation reduces core diameters but broad cyan light still approaches cell edges; pad/taper exported cells before runtime review.",
+    "Do not normalize each phase size independently: preserve pulse size differences.",
+    "Companion light only; independent FX-010 reveal effect is not delivered.",
+    "Generated model MOTE-001 is a proposal based on ART-003 and ART-005; user design approval has not been inferred.",
+    "Generated alpha is preserved. Review edge halos, tiny anatomy, identity consistency and timing before runtime use. No Godot integration or in-engine review performed."
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/exports/MOTE-009_companion_light_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/previews/MOTE-009_companion_light_preview.gif",
+  "asset_pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/exports/MOTE-009_companion_light_prototype_pack.zip",
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/exports/MOTE-009_README.md",
+      "bytes": 1041,
+      "sha256": "56f23acf8ea747ba8d73808d04f6f436a21a08a4e3d66d9a57ceec0cf810a557"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/exports/MOTE-009_companion_light_coverage_masks_strip.png",
+      "bytes": 13972,
+      "sha256": "3a776726ff1971a1cc165d6ab9609788361c1a19ded75f22ecc145ca9ea05f99",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/exports/MOTE-009_companion_light_prototype_pack.zip",
+      "bytes": 4877211,
+      "sha256": "e409333fc041ced062bde6fc606613dc4ac8ac32c1585b2256f35c0016d9cadc"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/exports/MOTE-009_companion_light_strip.png",
+      "bytes": 753335,
+      "sha256": "2c7744106877a747402d51c7c785c209f5d91796a45b2c32c6502f0e041f93c9",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/exports/MOTE-009_generation_prompts.json",
+      "bytes": 4193,
+      "sha256": "faad4b4d6f5cf84f36cf9bba853bd18e162e5a0bc18ae6aea570ac68a9156703"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/exports/MOTE-009_manifest.json",
+      "bytes": 4796,
+      "sha256": "27b9dea1e930d5bdf13edef41e5c7dbbc34d0c787e116946345e034586baad65"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/exports/frames/MOTE-009_companion_light_01.png",
+      "bytes": 66902,
+      "sha256": "9dd8c143f31f251418ab95c9822063964c46802d93ec19f77d942047715e98b3",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/exports/frames/MOTE-009_companion_light_02.png",
+      "bytes": 109435,
+      "sha256": "1004c149ef55a4512b2efcbde1308c685ed8065d9d9c7124ce41e90c8f9077b1",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/exports/frames/MOTE-009_companion_light_03.png",
+      "bytes": 149730,
+      "sha256": "5f7136f053b22c5d600022cf450d45b34f78ed522f38488204844152924ad89c",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/exports/frames/MOTE-009_companion_light_04.png",
+      "bytes": 215133,
+      "sha256": "d337253dd781c15038748f3845ed0ea58532043729a18367ff11321505ed8f97",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/exports/frames/MOTE-009_companion_light_05.png",
+      "bytes": 115178,
+      "sha256": "15b4a19bf0e82dc92f6d1227cea909e0729bf6bcd1388b472778a2647a8efdcc",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/exports/frames/MOTE-009_companion_light_06.png",
+      "bytes": 65112,
+      "sha256": "570ea8f363bd6ad76c3e8e0cd8b211ff4f0bb6d8f02f49b56d99f1ac6cf5465d",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        252
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/exports/silhouettes/MOTE-009_companion_light_01_coverage_mask.png",
+      "bytes": 2210,
+      "sha256": "30f09712be6a58887ba78d61c612cc8f28e8a28b6992845696fda3ae7822a206",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/exports/silhouettes/MOTE-009_companion_light_02_coverage_mask.png",
+      "bytes": 2763,
+      "sha256": "67d49651cb6c32ce6d45ba55305806bb013ebcd715d935b52193dde41ec31e87",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/exports/silhouettes/MOTE-009_companion_light_03_coverage_mask.png",
+      "bytes": 3206,
+      "sha256": "92384d600cde3eaac9c3f5e4cf12bab9076fac0e348885aa50d0311317cff129",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/exports/silhouettes/MOTE-009_companion_light_04_coverage_mask.png",
+      "bytes": 3889,
+      "sha256": "bfbd93bbd6cda1b08994bd556509d882ec0076ab7aee342252583c14e1720765",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/exports/silhouettes/MOTE-009_companion_light_05_coverage_mask.png",
+      "bytes": 2821,
+      "sha256": "21a46e48c55124edfe8829d9f4787c70e388c1725f71024927657a49fa93079b",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/exports/silhouettes/MOTE-009_companion_light_06_coverage_mask.png",
+      "bytes": 2142,
+      "sha256": "a5d7902b0c645dba4d4620b74dabd0cfdc7f5a7eecf9fc5c13359650b6ed7511",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/previews/MOTE-009_companion_light_contact_sheet.jpg",
+      "bytes": 71805,
+      "sha256": "2414299c293426f2314e9da3eaa14db04c7dc5082342cf9b38c43b0a7a2218a3",
+      "dimensions": [
+        1536,
+        1104
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/previews/MOTE-009_companion_light_preview.gif",
+      "bytes": 303712,
+      "sha256": "d46916b76bfa45601489346e13e90a3c5e4897341f01bf498b1f2110ac8f0679",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/source_images/MOTE-009_companion_light_sheet_attempt01_original.png",
+      "bytes": 1601177,
+      "sha256": "20ea1c36b571f1f030bffc53e1a1d8a18225b1929f6defc8ec1f5700e53692c3",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/source_images/MOTE-009_companion_light_sheet_original.png",
+      "bytes": 1444888,
+      "sha256": "ba08c21b1d8074e6bccfb829e78d81ed12bea69b6949beb353f6ac1b45430e5a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ]
+    }
+  ]
+}

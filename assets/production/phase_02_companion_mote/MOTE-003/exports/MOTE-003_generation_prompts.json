@@ -1,0 +1,28 @@
+{
+  "reference_images": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/source_images/MOTE-001_model_sheet_original.png"
+  ],
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/source_images/MOTE-003_follow_tavi_sheet_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441c-ffb3-7622-ab52-0c9bb160e6d7/exec-4752a831-6a42-4bf1-bcff-e52992435059.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "prompt": "Use case: stylized-concept. Asset type: 2D hand-painted fantasy companion animation sprite pose sheet. Input image role: MOTE-001 character identity and rendering reference only, a proposal model. Same Mote throughout: ivory warm cream seed-shaped LARGE head, bright cyan eyes, two mint green leaf ears with pale veins, very small cream root body, exactly two small arms and two root legs with brown tips. No clothing. Preserve same large-head/smallbody proportions, simple face, outline and shading as reference. Create exactly SIX complete full-body poses arranged chronological left-to-right top row then bottom row in an equal 3 columns x 2 rows grid, landscape 1536x1024, cells512x512. Same character scale and front-three-quarter camera (except specified right-facing follow). Each entire character including leaf tips fits its own cell with generous60px padding. Character height about350px, head about180px wide excluding leaves. Transparent background with opaque character interiors. No floor, shadow, halos, colored background, text, labels, borders, panels, scenery, extra characters or props. Keep clean isolated cutout edges. Asset MOTE-003, Follow Tavi. Draw ONLY the friendly seed spirit Mote. Six animation poses of Mote gently flying rightward: 1 relaxed forward lean; 2 ears sweep back, arms and little root legs trailing; 3 bob upward with ears lifted; 4 glide a little lower with ears bending backward; 5 rise again with leaves fluttering; 6 return to initial forward lean. Face right in three-quarter view; keep both eyes visible. Gentle family-friendly fantasy companion, same anatomy throughout. No other character or props.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/source_images/MOTE-001_model_sheet_original.png"
+      ],
+      "bytes": 1722672,
+      "sha256": "71f3e3d0b959ce8e73cb74c7389f78711346b00e79664bdc6e937e17e4a1c458",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

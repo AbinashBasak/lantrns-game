@@ -1,0 +1,28 @@
+{
+  "reference_images": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/source_images/MOTE-001_model_sheet_original.png"
+  ],
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-008/source_images/MOTE-008_disappear_reappear_sheet_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-b9c28354-55a6-4b9a-aa3c-b94b482c2e90.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "prompt": "Use case: stylized-concept. Hand-painted 2D game sprite sheet, exactly SIX poses in equal 3-column x 2-row cells on 1536x1024 canvas. Each cell 512x512, centered subject, generous 60px transparent padding. Read left to right top row then bottom row. No labels, text, borders, props, scenery or other characters. Genuine transparent background and preserved alpha. Input image 1 is identity/style reference only: use Mote front-three-quarter right view, ivory large seed-shaped head, two cyan eyes, mint leaf ears, tiny root body, two arms and two legs ending brown tips. Same scale/camera/identity. No clothes or extra anatomy. Model image background is NOT part of subject; remove it. Primary request: disappearance then reappearance magic sprite sequence, exactly one centered composition per cell. 1 entire opaque full-body Mote calm upright. 2 Mote lower body and half head dissolve into sparse golden root-seed embers, visibly only HALF its solid form remaining. 3 only FIVE tiny scattered golden embers remain near the original torso position, NO face/body. 4 absence hold, just ONE very small dim amber speck at exact center, rest transparent. 5 recognizable translucent body reforms from scattered amber embers, 60 percent solid, visible head and leaves returning. 6 entire opaque Mote same pose and size as cell1. Clear drastic reduction and restoration of size/opacity. Do not repeat six intact characters. Every particle contained within its own cell.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/source_images/MOTE-001_model_sheet_original.png"
+      ],
+      "bytes": 1714496,
+      "sha256": "7cd0f6bd455237217f4075d0f79d134def9b79836af139d45c3714fab1ce542f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

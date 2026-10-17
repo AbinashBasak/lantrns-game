@@ -1,0 +1,139 @@
+{
+  "asset_id": "EN-001",
+  "clip": "model",
+  "frame_count": 4,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": null,
+  "loop": false,
+  "preview_loops_for_review": false,
+  "pivot_px": [
+    256,
+    256
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-001/exports/model/frames/EN-001_model_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-001/exports/model/frames/EN-001_model_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-001/exports/model/frames/EN-001_model_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-001/exports/model/frames/EN-001_model_04.png"
+  ],
+  "poses": [
+    "front",
+    "right profile",
+    "back",
+    "threequarter right"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-001/source_images/EN-001_model_original.png",
+      "source_crop": [
+        0,
+        0,
+        384,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 1.0994764397905759,
+      "offset": [
+        46,
+        -377
+      ],
+      "alpha230_bbox": [
+        37,
+        417,
+        345,
+        735
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-001/source_images/EN-001_model_original.png",
+      "source_crop": [
+        384,
+        0,
+        780,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 1.0994764397905759,
+      "offset": [
+        44,
+        -378
+      ],
+      "alpha230_bbox": [
+        2,
+        421,
+        384,
+        733
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-001/source_images/EN-001_model_original.png",
+      "source_crop": [
+        780,
+        0,
+        1152,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 1.0994764397905759,
+      "offset": [
+        56,
+        -380
+      ],
+      "alpha230_bbox": [
+        26,
+        418,
+        338,
+        739
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-001/source_images/EN-001_model_original.png",
+      "source_crop": [
+        1152,
+        0,
+        1536,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 1.0994764397905759,
+      "offset": [
+        54,
+        -386
+      ],
+      "alpha230_bbox": [
+        15,
+        432,
+        352,
+        736
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "review_notes": [
+    "All full subjects fit horizontal384px cells; secondview left margin tight. Model proposal not user approved.",
+    "Custom model2/3 boundary atx780 in gap prevents residual profileedge entering backviewcrop."
+  ],
+  "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+}

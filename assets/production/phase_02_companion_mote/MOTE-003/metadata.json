@@ -1,0 +1,306 @@
+{
+  "asset_id": "MOTE-003",
+  "title": "Follow Tavi",
+  "checked": false,
+  "stage": "six-frame animation prototype generated and visually reviewed; continuity/alpha cleanup and production approval pending",
+  "last_updated": "2026-10-16T15:39:39.041346+05:30",
+  "generation_tool": "built-in image_gen",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/source_images/MOTE-003_follow_tavi_sheet_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441c-ffb3-7622-ab52-0c9bb160e6d7/exec-4752a831-6a42-4bf1-bcff-e52992435059.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "prompt": "Use case: stylized-concept. Asset type: 2D hand-painted fantasy companion animation sprite pose sheet. Input image role: MOTE-001 character identity and rendering reference only, a proposal model. Same Mote throughout: ivory warm cream seed-shaped LARGE head, bright cyan eyes, two mint green leaf ears with pale veins, very small cream root body, exactly two small arms and two root legs with brown tips. No clothing. Preserve same large-head/smallbody proportions, simple face, outline and shading as reference. Create exactly SIX complete full-body poses arranged chronological left-to-right top row then bottom row in an equal 3 columns x 2 rows grid, landscape 1536x1024, cells512x512. Same character scale and front-three-quarter camera (except specified right-facing follow). Each entire character including leaf tips fits its own cell with generous60px padding. Character height about350px, head about180px wide excluding leaves. Transparent background with opaque character interiors. No floor, shadow, halos, colored background, text, labels, borders, panels, scenery, extra characters or props. Keep clean isolated cutout edges. Asset MOTE-003, Follow Tavi. Draw ONLY the friendly seed spirit Mote. Six animation poses of Mote gently flying rightward: 1 relaxed forward lean; 2 ears sweep back, arms and little root legs trailing; 3 bob upward with ears lifted; 4 glide a little lower with ears bending backward; 5 rise again with leaves fluttering; 6 return to initial forward lean. Face right in three-quarter view; keep both eyes visible. Gentle family-friendly fantasy companion, same anatomy throughout. No other character or props.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/source_images/MOTE-001_model_sheet_original.png"
+      ],
+      "bytes": 1722672,
+      "sha256": "71f3e3d0b959ce8e73cb74c7389f78711346b00e79664bdc6e937e17e4a1c458",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    120,
+    120,
+    120,
+    120,
+    120,
+    120
+  ],
+  "loop": true,
+  "review_notes": [
+    "Model proposal, not user-approved. Soft colored alpha halos persist; production cutout cleanup pending.",
+    "All six full subjects fit equal 512x512 cells. Leaf shapes, head proportions and body alignment vary subtly; animation continuity and in-engine review pending.",
+    "Generated model MOTE-001 is a proposal based on ART-003 and ART-005; user design approval has not been inferred.",
+    "Generated alpha is preserved. Review edge halos, tiny anatomy, identity consistency and timing before runtime use. No Godot integration or in-engine review performed."
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/MOTE-003_follow_tavi_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/previews/MOTE-003_follow_tavi_preview.gif",
+  "asset_pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/MOTE-003_follow_tavi_prototype_pack.zip",
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/MOTE-003_README.md",
+      "bytes": 934,
+      "sha256": "dc658e562d6aab74e2257d5b9ed2a57d9345641ab382e21b23b7f38de7328b3c"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/MOTE-003_follow_tavi_prototype_pack.zip",
+      "bytes": 4178455,
+      "sha256": "7aaccc850d4229c529c12944c27c813e5a7b4caad137d283dcaef53e9f521ff0"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/MOTE-003_follow_tavi_silhouettes_strip.png",
+      "bytes": 18309,
+      "sha256": "f6a9903e4c26f020ff9bd35c5ef19ee733b166a549fb5527580a800516a88d3f",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/MOTE-003_follow_tavi_strip.png",
+      "bytes": 974809,
+      "sha256": "2db870087032b419b9711ec566a9c4fb60e48aaa40a291bb454637dc6bc1bfc6",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/MOTE-003_generation_prompts.json",
+      "bytes": 2791,
+      "sha256": "a734607c8b640d285655d1b4c1c339ae15624c91442b547125fe7108b52efda6"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/MOTE-003_manifest.json",
+      "bytes": 4816,
+      "sha256": "af257e669706c730bad3a67c6dd8ea660a7d61fc57379c38b217040e4d4b0116"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_01.png",
+      "bytes": 159996,
+      "sha256": "e1b1012836b7440ba40064ba56c4a118900f735ab0c172bb3831d0ef1337011d",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_02.png",
+      "bytes": 158360,
+      "sha256": "48c3385ce8d3ec30aed8f0e6fea392d0885df5c66275a520675c6ada22f8e2d3",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_03.png",
+      "bytes": 166609,
+      "sha256": "ec47f90851ad515e8a3bd913042e92dced807fb756c98f208d610720a580bcef",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_04.png",
+      "bytes": 156192,
+      "sha256": "a38d012c475e03ccdf3b16545b4cb5f8c085ed713fa2e214571288aab18c8cbd",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_05.png",
+      "bytes": 157071,
+      "sha256": "7c2861045051339cec7623e247a44a3944bddb6bd69db298b57c620fd0392487",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_06.png",
+      "bytes": 159043,
+      "sha256": "132a00901b6e52ec9685aa0c8d84b13d3df1b021bb7c8b3261905510247102e4",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/silhouettes/MOTE-003_follow_tavi_01_silhouette.png",
+      "bytes": 3902,
+      "sha256": "641fee2ea08b961b80f3e5abe1d401a767fed6b05be2525b936c25461ed3d13c",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/silhouettes/MOTE-003_follow_tavi_02_silhouette.png",
+      "bytes": 3610,
+      "sha256": "7910c8a8f83dcb581ad14e2a30a5a7a4200cb9b10530efafc320aea14dd9c862",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/silhouettes/MOTE-003_follow_tavi_03_silhouette.png",
+      "bytes": 3966,
+      "sha256": "6d0d346fe1f78f0309b1741cf08b9d32a901c64a30ed511491cff5d6542a045a",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/silhouettes/MOTE-003_follow_tavi_04_silhouette.png",
+      "bytes": 3522,
+      "sha256": "04b81c7fd217bdbfd1d44c5896f27ce1917e7e21ddb09e1623259b563bfbcd75",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/silhouettes/MOTE-003_follow_tavi_05_silhouette.png",
+      "bytes": 3899,
+      "sha256": "3b161f58bf9208801fc3ecf2fb803b7261e76d7dd1307c1e6024f1cf3828170b",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/exports/silhouettes/MOTE-003_follow_tavi_06_silhouette.png",
+      "bytes": 3840,
+      "sha256": "9b82b63e6c2c663bca9f3f3c266be32ff90127e579b67ce5658ee8f1daa015b7",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/previews/MOTE-003_follow_tavi_contact_sheet.jpg",
+      "bytes": 181376,
+      "sha256": "5b6ed310a7ad59a5f437fd2ec6aecba59ae2a3fce5c93679166f0feac1d603d1",
+      "dimensions": [
+        1536,
+        1104
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/previews/MOTE-003_follow_tavi_preview.gif",
+      "bytes": 334375,
+      "sha256": "46a3113fa34098cd712f4cf4b5cba1412e95ff2f6d132fff2ba227fefea49f47",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-003/source_images/MOTE-003_follow_tavi_sheet_original.png",
+      "bytes": 1722672,
+      "sha256": "71f3e3d0b959ce8e73cb74c7389f78711346b00e79664bdc6e937e17e4a1c458",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

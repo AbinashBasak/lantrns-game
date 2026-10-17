@@ -1,0 +1,49 @@
+{
+  "asset_id": "EN-002",
+  "clip": "idle",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-002/source_images/EN-002_idle_v2_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441c-ffb3-7622-ab52-0c9bb160e6d7/exec-e3cd2863-31f0-459d-b965-80355f3e2278.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted 2D fantasy platformer creature sprite sheet. Transparent background, opaque subject interiors, no shadow, floor, haze, scenery, labels, text, panels or borders. Character fits safely with generous70px clear margin inside each cell, no crossing boundaries. Clear hand painted outlines and shading. Reference is Rootling identity only. IMPORTANT ignore other turnaround views: use ONLY RIGHT-FACING PROFILE/threequarter-right consistently for ALL SIX poses, never front view. Exactly6distinct fullbody poses, chronological3columns x2rows on1536x1024, each512cell. Maximum360px subject width/height, generous margins. Same fourleg moss-root body and camera. EN-002 IDLE LOOP. Camera LOCKED: head points toRIGHT with justONEeyevisible in everycell like rightprofile model. NEVER frontfacing. Subtle but distinct sixphases:1neutral lowstance;2body breath rises5percent leaveslift;3highestbreath eyesclosedblink;4lower and eyesopen;5lowestbody crouch headtilt;6returnfirstneutral. Four paws remain planted, no walking or attacks. Tiny creature centered max300pxwide/260pxtall including leaves, hugepadding.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-001/source_images/EN-001_model_original.png"
+      ],
+      "clip": "idle",
+      "review": "selected prototype",
+      "bytes": 2156380,
+      "sha256": "b8f85e7b489b42eb73bde09676715ace6c11796f0b24613d5241e1d1df2113e7",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441c-ffb3-7622-ab52-0c9bb160e6d7/exec-9066e79a-e9f9-4026-9b17-5364b8129ce3.png",
+      "prompt": "Use case: stylized-concept. Hand-painted 2D fantasy platformer creature sprite sheet. Transparent background, opaque subject interiors, no shadow, floor, haze, scenery, labels, text, panels or borders. Character fits safely with generous70px clear margin inside each cell, no crossing boundaries. Clear hand painted outlines and shading. Reference is Rootling identity model, keep same four-legged moss-backed dark root crawler exactly. Animation sheet exactly SIX distinct fullbody chronological poses, 3columns x2rows on1536x1024, each512x512cell. Right-facing threequarter view, uniform scale, maximum370px character width. Rootling idle animation. Six poses: 1: neutral crouched stance; 2: body rises a little on breath, leaves lift; 3: higher breath with eyes blinking; 4: body lowers, leaves settle; 5: lowest gentle crouch with head tilted right; 6: return neutral alert crouch. Breathing movement subtle but clearly changing posture and leaves. Exactly four legs, no extras.",
+      "review": "Earlier idle attempt preserved; frontfirst/lastview versusprofilemiddle camera drift.",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-002/source_images/EN-002_idle_original.png",
+      "provenance": "unchanged built-in image_gen attempt",
+      "source_message_id": null,
+      "clip": "idle",
+      "bytes": 2297240,
+      "sha256": "1cc29281baab84b015cd65a6afd6a62479491995675605d33161a4c29d1a7b87",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

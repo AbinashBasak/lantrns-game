@@ -1,0 +1,28 @@
+{
+  "reference_images": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/source_images/MOTE-001_model_sheet_original.png"
+  ],
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-010/source_images/MOTE-010_story_reactions_sheet_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-e09cbeb2-ed9d-43b3-a310-d51f3b49299b.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "prompt": "Use case: stylized-concept. Hand-painted 2D game sprite sheet, exactly SIX poses in equal 3-column x 2-row cells on 1536x1024 canvas. Each cell 512x512, centered subject, generous 60px transparent padding. Read left to right top row then bottom row. No labels, text, borders, props, scenery or other characters. Genuine transparent background and preserved alpha. Input image 1 is identity/style reference only: use Mote front-three-quarter right view, ivory large seed-shaped head, two cyan eyes, mint leaf ears, tiny root body, two arms and two legs ending brown tips. Same scale/camera/identity. No clothes or extra anatomy. Model image background is NOT part of subject; remove it. Primary request: six SEPARATE expressive full-body story reaction KEYPOSES, not six successive animation frames. Preserve proportions. Cell1 frightened at the Brackenreach fallen-beam rescue: huddled low, knees bent, mint ears drooped, anxious wide cyan eyes, mouth small distressed; no beam. Cell2 relief after Tavi frees Mote: upright, ears lifted, open friendly smile, small arms offered toward unseen friend to right. Cell3 concentration at Forgotten Trail ancient arch rune puzzle: crouched leaning forward right, one brown-tipped hand pressed down for a rhythm tap, attentive eyes. Cell4 empathy at Briarwake Mossjaw: Mote stands protectively between unseen opponents with arms spread gently, planted legs, concerned determined face, NOT attacking. Cell5 cautious alert guidance at Glasswater Fen false reflections: head tilted, one hand near chin, one arm points right, narrowed curious cyan eyes, ears asymmetrical. Cell6 ending eastern trail: calm hopeful smile gazing right toward forest, relaxed arms, leaves open, peaceful posture. Six fullbody subjects, no scene, props, ground, other characters, bubbles, effects or text. Character interiors opaque, eliminate broad ambient glow. These are story-anchored pose studies; exact same Mote identity.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/source_images/MOTE-001_model_sheet_original.png"
+      ],
+      "bytes": 1806692,
+      "sha256": "eb3cc6b508b8db30d93f4cd5eebccafce78e13bd7fa56ccdb45d9c4b84b77869",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "asset_id": "MOTE-004",
+  "title": "Alert reaction",
+  "checked": false,
+  "stage": "six-frame animation prototype generated and visually reviewed; continuity/alpha cleanup and production approval pending",
+  "last_updated": "2026-10-16T15:39:39.041346+05:30",
+  "generation_tool": "built-in image_gen",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/source_images/MOTE-004_alert_reaction_sheet_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441c-ffb3-7622-ab52-0c9bb160e6d7/exec-b6824271-b4bb-4dc8-9a8a-a06b37639d44.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "prompt": "Use case: stylized-concept. Asset type: 2D hand-painted fantasy companion animation sprite pose sheet. Input image role: MOTE-001 character identity and rendering reference only, a proposal model. Same Mote throughout: ivory warm cream seed-shaped LARGE head, bright cyan eyes, two mint green leaf ears with pale veins, very small cream root body, exactly two small arms and two root legs with brown tips. No clothing. Preserve same large-head/smallbody proportions, simple face, outline and shading as reference. Create exactly SIX complete full-body poses arranged chronological left-to-right top row then bottom row in an equal 3 columns x 2 rows grid, landscape 1536x1024, cells512x512. Same character scale and front-three-quarter camera (except specified right-facing follow). Each entire character including leaf tips fits its own cell with generous60px padding. Character height about350px, head about180px wide excluding leaves. Transparent background with opaque character interiors. No floor, shadow, halos, colored background, text, labels, borders, panels, scenery, extra characters or props. Keep clean isolated cutout edges. Asset MOTE-004 Alert reaction. Six sequential alert reaction poses: 1: neutral hovering smile; 2: leaf ears suddenly perk upright; 3: wide cyan eyes and small surprised open mouth; 4: recoil backward left with arms raised; 5: turn and look right with warning expression ears stiff; 6: settle toward neutral hover. Readable gentle surprise and attention, never angry, ears expressive but no extra leaves. Both cyan eyes stay visible. Neutral settles again at end. No speech or icons.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/source_images/MOTE-001_model_sheet_original.png"
+      ],
+      "bytes": 1724644,
+      "sha256": "ec20822b5bcb9e91c7031bfb944a26359cc7a97398c25a813c59d7894436a7d4",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    140,
+    100,
+    160,
+    220,
+    180,
+    160
+  ],
+  "loop": false,
+  "review_notes": [
+    "Model proposal, not user-approved. Soft colored alpha halos persist; production cutout cleanup pending.",
+    "Six complete poses fit equal512x512 cells: neutral, ears perk, surprise, recoil with raised arms, look right, settle.",
+    "Leaf shapes/head proportions drift between poses; recoil reads clearly but needs aligned pivot and continuity cleanup.",
+    "Generated model MOTE-001 is a proposal based on ART-003 and ART-005; user design approval has not been inferred.",
+    "Generated alpha is preserved. Review edge halos, tiny anatomy, identity consistency and timing before runtime use. No Godot integration or in-engine review performed."
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/exports/MOTE-004_alert_reaction_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/previews/MOTE-004_alert_reaction_preview.gif",
+  "asset_pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/exports/MOTE-004_alert_reaction_prototype_pack.zip",
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/exports/MOTE-004_README.md",
+      "bytes": 1015,
+      "sha256": "7fd297be58f973705c9d582a3530805d3d09ecb9aaecbb7e8193638a7aa7a088"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/exports/MOTE-004_alert_reaction_prototype_pack.zip",
+      "bytes": 4210965,
+      "sha256": "6a8ad5ea08f142e591760ab6391dc2f7b535114193941bc950afb5f62f5efb5d"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/exports/MOTE-004_alert_reaction_silhouettes_strip.png",
+      "bytes": 18889,
+      "sha256": "cd8d1d370edaaa4931d0eab79da57ac02d0877b48a2b155e93e5d2312e4c0a7b",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/exports/MOTE-004_alert_reaction_strip.png",
+      "bytes": 980487,
+      "sha256": "bdc389bf7434d9261281df8d04c633fdb3c08b637634216e37fa27b2696dffaf",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/exports/MOTE-004_generation_prompts.json",
+      "bytes": 2768,
+      "sha256": "ea731ae594f89931817d960e90f1224b33bc98b9af260d3d98648e9fa1aaaa02"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/exports/MOTE-004_manifest.json",
+      "bytes": 4886,
+      "sha256": "13ca263497be284e52f85e4b4dff884c941f63a03d34ed0b26099f816cd09c04"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/exports/frames/MOTE-004_alert_reaction_01.png",
+      "bytes": 164185,
+      "sha256": "b6580d44f26f824f36d86b20fe8ba18c0265abc723cc430f8ad07983375f2999",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/exports/frames/MOTE-004_alert_reaction_02.png",
+      "bytes": 163417,
+      "sha256": "316d9fb3d294d51f20a17e6e21fdcabada86caccd60c3b563ffd3ff21b75db84",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/exports/frames/MOTE-004_alert_reaction_03.png",
+      "bytes": 163422,
+      "sha256": "26167e867b87000c4e662d7ac4a646e35c43ed6d88148fcf5befed014fee3693",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/exports/frames/MOTE-004_alert_reaction_04.png",
+      "bytes": 155976,
+      "sha256": "8eacf7ae4a244f0f3874f3862c66da79585aa2222eb9501ab3b6b187a6abcaa2",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/exports/frames/MOTE-004_alert_reaction_05.png",
+      "bytes": 159525,
+      "sha256": "a131e2b3783e4cd10cd74fe196e25180f6f6735877ab8d2513b14afdd42a99b6",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/exports/frames/MOTE-004_alert_reaction_06.png",
+      "bytes": 163862,
+      "sha256": "81b02a6ee140ac4fc3dc5a72950ccda72614a0c7bfcb9434c4c5afd017c77b5e",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/exports/silhouettes/MOTE-004_alert_reaction_01_silhouette.png",
+      "bytes": 3909,
+      "sha256": "f4d9ac6da8dd1baba3a0b0aa4d352b2b49f964925b66738cee4b375115ac4ab0",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/exports/silhouettes/MOTE-004_alert_reaction_02_silhouette.png",
+      "bytes": 4030,
+      "sha256": "40dcdfa573cb5f8b67721686ac33d9626378e3d877b70a3aef00eb50c8b3a8d7",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/exports/silhouettes/MOTE-004_alert_reaction_03_silhouette.png",
+      "bytes": 4028,
+      "sha256": "bbef46ca95e5fdb4c3349ec125c936796a27146d729452a100f6b4e7a0e7cf1f",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/exports/silhouettes/MOTE-004_alert_reaction_04_silhouette.png",
+      "bytes": 3964,
+      "sha256": "56be7966792f3389de0482440ac3d4468445cc91c60f8c453f9c791ab35d433d",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/exports/silhouettes/MOTE-004_alert_reaction_05_silhouette.png",
+      "bytes": 4062,
+      "sha256": "2dff266efda76a5a0b5a5e4fa387845297322757686581d7682586269d9e1515",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/exports/silhouettes/MOTE-004_alert_reaction_06_silhouette.png",
+      "bytes": 3939,
+      "sha256": "e86da0864a71eb2b68b05256530297fdf474bb2ce27beb7235150347aac83b29",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/previews/MOTE-004_alert_reaction_contact_sheet.jpg",
+      "bytes": 188702,
+      "sha256": "59e91dd2a0d6ae16c4d3b56d81ed9fdf7214f1c9486e7480239d2190717e1754",
+      "dimensions": [
+        1536,
+        1104
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/previews/MOTE-004_alert_reaction_preview.gif",
+      "bytes": 335935,
+      "sha256": "69ca36a1aba87ad25daddba8fd5d07135377ce830848f8c6926763d18a919779",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-004/source_images/MOTE-004_alert_reaction_sheet_original.png",
+      "bytes": 1724644,
+      "sha256": "ec20822b5bcb9e91c7031bfb944a26359cc7a97398c25a813c59d7894436a7d4",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

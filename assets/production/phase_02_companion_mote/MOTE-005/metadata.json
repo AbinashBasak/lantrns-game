@@ -1,0 +1,308 @@
+{
+  "asset_id": "MOTE-005",
+  "title": "Rune interaction",
+  "checked": false,
+  "stage": "six-frame animation prototype generated and visually reviewed; continuity/alpha cleanup and production approval pending",
+  "last_updated": "2026-10-16T15:39:39.041346+05:30",
+  "generation_tool": "built-in image_gen",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/source_images/MOTE-005_rune_interaction_sheet_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441d-6499-79e0-8b00-ac5fc8abc8c1/exec-ec7bcd26-eb9d-44ac-a895-861a98e011a8.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "prompt": "Use case: stylized-concept. Asset type: hand-painted 2D fantasy platformer animation sheet. Reference image is identity/style reference ONLY. Same Mote: ivory seed-shaped huge head, cyan oval eyes, mint green leaf ears with pale veins, tiny ivory root body, exactly two stubby tapered arms and two root legs with brown tips. Preserve model identity, opaque character interior, no clothes or extra anatomy. Generate exactly SIX full-body poses arranged in equal 3-column by 2-row grid, chronological reading order, 1536x1024 canvas, six 512x512 cells. Same scale and camera in each cell, total subject height approximately 340px, centered with generous 60px padding on all sides. Every leaf and root limb stays completely inside own cell; no overlap. Genuine transparent background, no panels, text, borders, ground, shadows, scenery or other characters. Avoid colored haze except specifically requested bounded glow. MOTE-005 \u2014 Rune interaction. Three-quarter front facing right. Character-only interaction, no rune symbol, rune stone or prop. Six distinct poses: 1 neutral; 2 lean right; 3 reach root hand toward invisible rune to image right; 4 hold same reach with tiny cyan glow localized at fingertip; 5 withdraw hand toward body; 6 settle neutral. Glow only at fingertip in pose 4, very compact, not a large aura.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-001/source_images/MOTE-001_model_sheet_original.png"
+      ],
+      "bytes": 1739754,
+      "sha256": "9b163e736fbf4a67f6703cf7d011ff47b94be7b2407ddaf8b823387ed4f21e2a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    150,
+    130,
+    160,
+    350,
+    140,
+    180
+  ],
+  "loop": false,
+  "review_notes": [
+    "Six clear phases: neutral, lean, reach, cyan fingertip activation hold, withdraw, settle. Rune prop intentionally absent.",
+    "Model identity retained. Some eye/head angle and leaf shape drift across poses; requires continuity cleanup.",
+    "Broad semi-transparent warm/green model haze persists outside character beyond intended fingertip effect; not final clean cutouts.",
+    "All subject parts fit equal 512x512 cells; padding is tighter than requested in places.",
+    "Generated model MOTE-001 is a proposal based on ART-003 and ART-005; user design approval has not been inferred.",
+    "Generated alpha is preserved. Review edge halos, tiny anatomy, identity consistency and timing before runtime use. No Godot integration or in-engine review performed."
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/MOTE-005_rune_interaction_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/previews/MOTE-005_rune_interaction_preview.gif",
+  "asset_pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/MOTE-005_rune_interaction_prototype_pack.zip",
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/MOTE-005_README.md",
+      "bytes": 1127,
+      "sha256": "2f7fe9029489af611b9157a4d2e86add3a5a758a564824fa2f7e35254fe11cb9"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/MOTE-005_generation_prompts.json",
+      "bytes": 2472,
+      "sha256": "1e5d5bea8bc0577fb9fb529287e14c6ab98b3061a70fcc0fe0a2587c532ece52"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/MOTE-005_manifest.json",
+      "bytes": 4969,
+      "sha256": "004a2659aa340e7a997e343958468c7cb4af8514023287fa53361c548962b7de"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/MOTE-005_rune_interaction_prototype_pack.zip",
+      "bytes": 4301691,
+      "sha256": "0417015497b40d3b629c39b83b8795a7f0f07164ec866379240e9491bcc64617"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/MOTE-005_rune_interaction_silhouettes_strip.png",
+      "bytes": 18693,
+      "sha256": "b07d121f3bfdc5ae4b35fb89d91f6ed95ce152cf4eb9bdd0dcd041a29aac7024",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/MOTE-005_rune_interaction_strip.png",
+      "bytes": 1016659,
+      "sha256": "dce6ede2fe7030fe713e5e9b1494c5e2fd62919ea553689388b0f11e4bcb0e43",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/frames/MOTE-005_rune_interaction_01.png",
+      "bytes": 161856,
+      "sha256": "ca0f799b5c4a61ec2e1380f2afc2d0ba0740efb1582cd6f4b659698e35e66b09",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/frames/MOTE-005_rune_interaction_02.png",
+      "bytes": 164492,
+      "sha256": "afbf705a7605fa9a629bd07f743b566f092af444cc17a1ef230c8d4240c16427",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/frames/MOTE-005_rune_interaction_03.png",
+      "bytes": 169317,
+      "sha256": "6f1fa0a99b32ebd9d333c3c1e292586360d3f10828f72ca265f9f4c1bf7af4ef",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/frames/MOTE-005_rune_interaction_04.png",
+      "bytes": 185334,
+      "sha256": "f41024ff41000d6fe92663ddbe71d388e6b9c6c3cd7f553d1bd2357ca9569950",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/frames/MOTE-005_rune_interaction_05.png",
+      "bytes": 160047,
+      "sha256": "e11fb067cfeb62efeebf92286fadafcef4ee9362ab8b46165ce0456907a82b3b",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/frames/MOTE-005_rune_interaction_06.png",
+      "bytes": 167174,
+      "sha256": "7d78135a4324bff6cc26c65daf4cde3402eb52693d68459baf090c2f1d69bb91",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/silhouettes/MOTE-005_rune_interaction_01_silhouette.png",
+      "bytes": 3919,
+      "sha256": "d13f9afae3a8ffc28f87fbccb9bd571701e81f6abe3e11238e9a9d5dcf4a368f",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/silhouettes/MOTE-005_rune_interaction_02_silhouette.png",
+      "bytes": 3987,
+      "sha256": "d2574ea678135d450d3d5f2f948d432c231e5b5af3d826272b1ca78c14e241ce",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/silhouettes/MOTE-005_rune_interaction_03_silhouette.png",
+      "bytes": 4003,
+      "sha256": "d3873664a866d5ff5bfab7e9bd393365485e5192e2dec7cd3020e64bc6716228",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/silhouettes/MOTE-005_rune_interaction_04_silhouette.png",
+      "bytes": 4092,
+      "sha256": "56a2403acb2dda850b2cdac7c5c90cd107eba8d9a660ced620484e13c84fc76b",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/silhouettes/MOTE-005_rune_interaction_05_silhouette.png",
+      "bytes": 3853,
+      "sha256": "c7e1d8dd39b830aa7e104f4f136741dde392d9582eb06b418c652e023b5198eb",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/exports/silhouettes/MOTE-005_rune_interaction_06_silhouette.png",
+      "bytes": 3991,
+      "sha256": "25d1c5bb66e2e979efae169cb93a67f9ed78f21b26106c5edb0cba53dd9eac58",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/previews/MOTE-005_rune_interaction_contact_sheet.jpg",
+      "bytes": 188323,
+      "sha256": "3dbac2e6015ece8a659e95eefac00094bb58731b7a219a99c037a268b75e7fce",
+      "dimensions": [
+        1536,
+        1104
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/previews/MOTE-005_rune_interaction_preview.gif",
+      "bytes": 338995,
+      "sha256": "396fc5cfc95af77ae55e2c3002d99fb1e94e706a74b2ed93f71e8a95a0b27a24",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-005/source_images/MOTE-005_rune_interaction_sheet_original.png",
+      "bytes": 1739754,
+      "sha256": "9b163e736fbf4a67f6703cf7d011ff47b94be7b2407ddaf8b823387ed4f21e2a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

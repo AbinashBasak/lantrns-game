@@ -1,0 +1,43 @@
+{
+  "reference_images": [],
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/source_images/MOTE-009_companion_light_sheet_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-0c8bf2f6-8120-419d-95c0-216d14379dd4.png",
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "prompt": "Use case: stylized-concept. FX-only hand-painted 2D game sprite sheet: exactly SIX separate warm gold radial companion light halos, arranged equal 3-column x 2-row cells on 1536x1024 canvas, each cell 512x512 with 60px padding. Read left-right top-bottom. No character, faces, limbs, symbols, leaves, text, borders, square panels or scenery. A reusable soft radial light glow with warm creamy-gold core and very subtle cyan tint at outer edge, alpha falling smoothly to completely transparent outward. Genuine transparent background, no opaque black/white/checkerboard background. Each glow is perfectly centered in its cell. Pulse phases: 1 SMALL dim halo radius90px; 2 MEDIUM radius130px; 3 LARGE radius165px; 4 PEAK bright radius190px; 5 MEDIUM radius130px; 6 SMALL dim radius90px. All round halos, no directional flares, no opaque disks, no hard outlines. Clearly different expanding then contracting energy levels. Keep 60px clear transparent padding around every effect. This is companion light only, not a rune reveal effect. CORRECTION: all six glows must fit comfortably WITHIN their cells. The peak halo full diameter must be maximum 350 pixels INCLUDING cyan fade. Make the cyan edge far more subtle and thinner (not a dominant blue cloud). The alpha at each cell boundary must be zero: an empty transparent margin 70 pixels on every edge. Do not let light overlap from one cell into adjacent cells. Smaller halos have diameters 150,220,280,350,220,150 respectively. Ensure visible transparent gaps between all six round effects.",
+      "reference_images": [],
+      "bytes": 1444888,
+      "sha256": "ba08c21b1d8074e6bccfb829e78d81ed12bea69b6949beb353f6ac1b45430e5a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ]
+    },
+    {
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-f22e82e4-ae45-4190-b3df-70fb38b6c787.png",
+      "prompt": "Use case: stylized-concept. FX-only hand-painted 2D game sprite sheet: exactly SIX separate warm gold radial companion light halos, arranged equal 3-column x 2-row cells on 1536x1024 canvas, each cell 512x512 with 60px padding. Read left-right top-bottom. No character, faces, limbs, symbols, leaves, text, borders, square panels or scenery. A reusable soft radial light glow with warm creamy-gold core and very subtle cyan tint at outer edge, alpha falling smoothly to completely transparent outward. Genuine transparent background, no opaque black/white/checkerboard background. Each glow is perfectly centered in its cell. Pulse phases: 1 SMALL dim halo radius90px; 2 MEDIUM radius130px; 3 LARGE radius165px; 4 PEAK bright radius190px; 5 MEDIUM radius130px; 6 SMALL dim radius90px. All round halos, no directional flares, no opaque disks, no hard outlines. Clearly different expanding then contracting energy levels. Keep 60px clear transparent padding around every effect. This is companion light only, not a rune reveal effect.",
+      "review": "Earlier attempt retained: broader cyan halo and less consistent padding.",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_02_companion_mote/MOTE-009/source_images/MOTE-009_companion_light_sheet_attempt01_original.png",
+      "provenance": "unchanged built-in image_gen attempt",
+      "source_message_id": null,
+      "bytes": 1601177,
+      "sha256": "20ea1c36b571f1f030bffc53e1a1d8a18225b1929f6defc8ec1f5700e53692c3",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ]
+    }
+  ]
+}

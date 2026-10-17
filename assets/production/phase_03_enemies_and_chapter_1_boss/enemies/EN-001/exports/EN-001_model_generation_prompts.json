@@ -1,0 +1,30 @@
+{
+  "asset_id": "EN-001",
+  "clip": "model",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-001/source_images/EN-001_model_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441c-ffb3-7622-ab52-0c9bb160e6d7/exec-2f56a4db-8d0a-44d2-ad4d-a6eacef99cdb.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted 2D fantasy platformer creature sprite sheet. Transparent background, opaque subject interiors, no shadow, floor, haze, scenery, labels, text, panels or borders. Character fits safely with generous70px clear margin inside each cell, no crossing boundaries. Clear hand painted outlines and shading. Model proposal EN-001. Rootling: small four-legged dark charcoal bark/root woodland crawler, low squat body, angular narrow snout with two amber eyes, four sturdy bent root legs with brown claw tips, mossy green back shell and tiny leaf/branch sprouts. Match Rootling ground enemy in panel7 enemy style of reference1; scale silhouette from reference2 only, target0.85tile compared with1.75tile hero. NOT ivory companion Mote, no humanoid arms or huge round seed face. Exactly FOUR fullbody turnaround views in four equal horizontal cells in one row, canvas1536x1024; each384x1024 cell. Order: front, right profile, back, threequarter right. Same design proportions/colors in every view, all paws visible where perspective permits. Single creature in each cell. Character about260px wide max percell. No animation, just turnaround.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-001/ART-001_final_visual_style_guide.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-003/ART-003_character_proportion_and_scale.png"
+      ],
+      "clip": "model",
+      "review": "selected prototype",
+      "bytes": 1396563,
+      "sha256": "5b933de35e2491837ff7a3d2a67cee0bb9d7b1cf8e2a8528dd704c4ac8a8703b",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}
