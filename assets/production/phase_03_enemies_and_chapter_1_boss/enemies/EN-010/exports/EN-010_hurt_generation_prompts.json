@@ -1,0 +1,29 @@
+{
+  "asset_id": "EN-010",
+  "clip": "hurt",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/source_images/EN-010_hurt_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441c-ffb3-7622-ab52-0c9bb160e6d7/exec-9723f796-f003-4e3b-b926-8996193364a7.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted 2D fantasy platformer creature sprite sheet. Transparent background, opaque subject interiors, no shadow, floor, haze, scenery, labels, text, panels or borders. Character fits safely with generous70px clear margin inside each cell, no crossing boundaries. Clear hand painted outlines and shading. Reference is Thornwing identity model only. Use ONLY consistent RIGHT-FACINGthreequarter view for all6poses (ignore front/backturnarounds). Same slim darkthorn armored body, amber eyes, antennae, six insectlegs, four copperred leafwings. Exactly SIXdistinct fullbody chronologicalposes equal3columns x2rows on1536x1024, each512cell. Fullsubject MAXIMUM320px wide/tall including wings antennae legs in EVERYcell, centered with90pxsafe margin; no overlap. EN-010 HURT clip only, NOdefeat. Six brief recoil and recovery poses: 1: steady rightfacing hover; 2: body jolts backward left eyes close; 3: roll slightly back with legs splayed; 4: wings asymmetrically braced recovery; 5: regain level hover eyes reopen; 6: steady hover recovered. No attacker, wound, impact flash or gore. Tiltbody backward onphase2and3, then regain upright.  CRITICAL ALL SIX INSECTS TINY: entire silhouette fits central260x260px box of each512cell, including furthestwings antennae andlegs. Each insect occupies ONLYHALFwidth and HALFheight of cell. Large clear gaps, shrinkwholebody uniformly.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-007/source_images/EN-007_model_original.png"
+      ],
+      "clip": "hurt",
+      "review": "selected prototype",
+      "bytes": 1681368,
+      "sha256": "1af807f3c706af94d871396ea2177d79bf3e3f815a0449d0ec2a76de76e49159",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "asset_id": "EN-005",
+  "clip": "hurt",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-005/source_images/EN-005_hurt_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441c-ffb3-7622-ab52-0c9bb160e6d7/exec-14251f47-a125-45e7-9040-b5698de50c50.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted 2D fantasy platformer creature sprite sheet. Transparent background, opaque subject interiors, no shadow, floor, haze, scenery, labels, text, panels or borders. Character fits safely with generous70px clear margin inside each cell, no crossing boundaries. Clear hand painted outlines and shading. Reference is Rootling identity only. IMPORTANT ignore other turnaround views: use ONLY RIGHT-FACING PROFILE/threequarter-right consistently for ALL SIX poses, never front view. Exactly6distinct fullbody poses, chronological3columns x2rows on1536x1024, each512cell. Maximum360px subject width/height, generous margins. Same fourleg moss-root body and camera. Rootling hurt animation. Six non-gory recoil poses, no weapon or attacker: 1: neutral ready; 2: head jolts back left, eyes squeeze; 3: torso recoils up backward, frontfeet lift; 4: low braced crouch looking pained; 5: push up regaining footing; 6: recover ready stance. Fullbody max340px each. NO camera turns.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-001/source_images/EN-001_model_original.png"
+      ],
+      "clip": "hurt",
+      "review": "selected prototype",
+      "bytes": 2143665,
+      "sha256": "0c9b8146f7d522895bd35f14a642cc37149a860fd7203b72d8cee140d132a64b",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

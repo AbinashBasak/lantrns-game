@@ -1,0 +1,30 @@
+{
+  "asset_id": "EN-007",
+  "clip": "model",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-007/source_images/EN-007_model_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441c-ffb3-7622-ab52-0c9bb160e6d7/exec-5543c7d1-b626-4503-b9cf-bae2a0851fc5.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted 2D fantasy platformer creature sprite sheet. Transparent background, opaque subject interiors, no shadow, floor, haze, scenery, labels, text, panels or borders. Character fits safely with generous70px clear margin inside each cell, no crossing boundaries. Clear hand painted outlines and shading. EN-007 Thornwing model proposal. Thornwing flying woodland insect: slim segmented dark charcoal thorn-bark body, pointed armored head with amber eyes, six thin rusty-brown jointed insect legs, small curved antennae, FOUR copper/red-orange veined leaflike wings arranged two pairs, tapered thorn abdomen. Match Thornwing in panel7 enemy examples of ART001 reference1. Reference2 scaleonly at0.85tile, not simplified diagram rendering. No humanoid parts, no clothes, no mascotface. Exactly FOUR fullbody views horizontalrow, equal384x1024cells on1536x1024canvas. Order front, rightprofile, back, threequarter-right. Entire insect including ALLwings antennae and legs within owncell with margin40px. Maximum300px wing-spanpercell. Maintain consistent anatomy, wingcount and colors. Neutral hovering with wings partly open, no floor. Four distinct turnaround views, not animation.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-001/ART-001_final_visual_style_guide.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-003/ART-003_character_proportion_and_scale.png"
+      ],
+      "clip": "model",
+      "review": "selected prototype",
+      "bytes": 1513407,
+      "sha256": "b0bdfd02af9d04efcf62693f1c48fcda0600e7b66e10795ae6d7927ca45cfb2e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "asset_id": "EN-003",
+  "clip": "patrol",
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    120,
+    120,
+    120,
+    120,
+    120,
+    120
+  ],
+  "loop": true,
+  "preview_loops_for_review": true,
+  "pivot_px": [
+    256,
+    480
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_04.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_05.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_06.png"
+  ],
+  "poses": [
+    "near front foot reaches forward, opposite hind pushes",
+    "near front plants, far rear swings forward",
+    "weight passes over front feet, hindfeet gathered",
+    "far front reaches forward, near hind pushes",
+    "far front plants, near rear swings forward",
+    "weight passes, return toward first diagonal foot phase"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/source_images/EN-003_patrol_original.png",
+      "source_crop": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        33
+      ],
+      "alpha230_bbox": [
+        27,
+        142,
+        503,
+        505
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/source_images/EN-003_patrol_original.png",
+      "source_crop": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        33
+      ],
+      "alpha230_bbox": [
+        91,
+        139,
+        503,
+        509
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/source_images/EN-003_patrol_original.png",
+      "source_crop": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        33
+      ],
+      "alpha230_bbox": [
+        87,
+        137,
+        487,
+        509
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/source_images/EN-003_patrol_original.png",
+      "source_crop": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        112
+      ],
+      "alpha230_bbox": [
+        40,
+        51,
+        512,
+        412
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 5,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/source_images/EN-003_patrol_original.png",
+      "source_crop": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        112
+      ],
+      "alpha230_bbox": [
+        67,
+        49,
+        502,
+        419
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 6,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/source_images/EN-003_patrol_original.png",
+      "source_crop": [
+        1024,
+        512,
+        1536,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        112
+      ],
+      "alpha230_bbox": [
+        36,
+        57,
+        487,
+        412
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "review_notes": [
+    "Six distinct quadruped stride poses visible, consistent right-facing camera. Body fits512cells but snout/claw margins tight in some. Root-leg anatomy, foot contacts and foliage drift need cleanup. Soft green/brown alpha haze persists."
+  ],
+  "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+}

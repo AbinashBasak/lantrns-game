@@ -1,0 +1,138 @@
+{
+  "asset_id": "EN-007",
+  "clip": "model",
+  "frame_count": 4,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": null,
+  "loop": false,
+  "preview_loops_for_review": false,
+  "pivot_px": [
+    256,
+    256
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-007/exports/model/frames/EN-007_model_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-007/exports/model/frames/EN-007_model_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-007/exports/model/frames/EN-007_model_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-007/exports/model/frames/EN-007_model_04.png"
+  ],
+  "poses": [
+    "front",
+    "rightprofile",
+    "back",
+    "threequarter right"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-007/source_images/EN-007_model_original.png",
+      "source_crop": [
+        0,
+        0,
+        384,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.9150326797385621,
+      "offset": [
+        70,
+        -182
+      ],
+      "alpha230_bbox": [
+        29,
+        268,
+        377,
+        689
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-007/source_images/EN-007_model_original.png",
+      "source_crop": [
+        384,
+        0,
+        768,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.9150326797385621,
+      "offset": [
+        82,
+        -165
+      ],
+      "alpha230_bbox": [
+        15,
+        233,
+        365,
+        688
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-007/source_images/EN-007_model_original.png",
+      "source_crop": [
+        768,
+        0,
+        1152,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.9150326797385621,
+      "offset": [
+        73,
+        -183
+      ],
+      "alpha230_bbox": [
+        22,
+        272,
+        379,
+        688
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-007/source_images/EN-007_model_original.png",
+      "source_crop": [
+        1152,
+        0,
+        1536,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.9150326797385621,
+      "offset": [
+        72,
+        -170
+      ],
+      "alpha230_bbox": [
+        37,
+        236,
+        365,
+        695
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "review_notes": [
+    "Four clear turnaround views with dark thorn armor, amber eyes and copper/red leaf wings. Fullsubjects fit384px modelcells; some wing/antenna margins tight. Hidden wings/legs vary in visibility by camera; anatomy continuity needs review. Strong orange alpha haze persists."
+  ],
+  "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+}

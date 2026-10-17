@@ -1,0 +1,967 @@
+{
+  "asset_id": "EN-010",
+  "title": "Thornwing hurt and defeat animations",
+  "checked": true,
+  "stage": "animation prototype generated and visually reviewed; 2 deliverable clip/view set(s); cleanup and production approval pending",
+  "last_updated": "2026-10-17T01:42:52.790076+05:30",
+  "generation_tool": "built-in image_gen",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/source_images/EN-010_hurt_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441c-ffb3-7622-ab52-0c9bb160e6d7/exec-9723f796-f003-4e3b-b926-8996193364a7.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted 2D fantasy platformer creature sprite sheet. Transparent background, opaque subject interiors, no shadow, floor, haze, scenery, labels, text, panels or borders. Character fits safely with generous70px clear margin inside each cell, no crossing boundaries. Clear hand painted outlines and shading. Reference is Thornwing identity model only. Use ONLY consistent RIGHT-FACINGthreequarter view for all6poses (ignore front/backturnarounds). Same slim darkthorn armored body, amber eyes, antennae, six insectlegs, four copperred leafwings. Exactly SIXdistinct fullbody chronologicalposes equal3columns x2rows on1536x1024, each512cell. Fullsubject MAXIMUM320px wide/tall including wings antennae legs in EVERYcell, centered with90pxsafe margin; no overlap. EN-010 HURT clip only, NOdefeat. Six brief recoil and recovery poses: 1: steady rightfacing hover; 2: body jolts backward left eyes close; 3: roll slightly back with legs splayed; 4: wings asymmetrically braced recovery; 5: regain level hover eyes reopen; 6: steady hover recovered. No attacker, wound, impact flash or gore. Tiltbody backward onphase2and3, then regain upright.  CRITICAL ALL SIX INSECTS TINY: entire silhouette fits central260x260px box of each512cell, including furthestwings antennae andlegs. Each insect occupies ONLYHALFwidth and HALFheight of cell. Large clear gaps, shrinkwholebody uniformly.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-007/source_images/EN-007_model_original.png"
+      ],
+      "clip": "hurt",
+      "review": "selected prototype",
+      "bytes": 1681368,
+      "sha256": "1af807f3c706af94d871396ea2177d79bf3e3f815a0449d0ec2a76de76e49159",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/source_images/EN-010_defeat_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441c-ffb3-7622-ab52-0c9bb160e6d7/exec-9833fe64-7b15-4418-b853-92fca14c02bc.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted 2D fantasy platformer creature sprite sheet. Transparent background, opaque subject interiors, no shadow, floor, haze, scenery, labels, text, panels or borders. Character fits safely with generous70px clear margin inside each cell, no crossing boundaries. Clear hand painted outlines and shading. Reference is Thornwing identity model only. Use ONLY consistent RIGHT-FACINGthreequarter view for all6poses (ignore front/backturnarounds). Same slim darkthorn armored body, amber eyes, antennae, six insectlegs, four copperred leafwings. Exactly SIXdistinct fullbody chronologicalposes equal3columns x2rows on1536x1024, each512cell. Fullsubject MAXIMUM320px wide/tall including wings antennae legs in EVERYcell, centered with90pxsafe margin; no overlap. EN-010 DEFEAT clip only. Nonviolent magical insect withering collapse, no gore. Six clearlydifferent progressiveposes: 1: hover unsteady amber eyes dim; 2: wings droop and body tilts downward; 3: gently falling curled legs and folded wings; 4: land collapsed on side wings bent inward; 5: legs curl still amber light faded; 6: final inert thorn husk with leafwings settled no gore. End fullylying sideways foldedlegs and droopingwings, NOT hovering. Body rotates and drops to bottomthird of itscell, but no floor/shadowdrawn. CRITICAL ALL SIX INSECTS TINY: entire silhouette fits central260x260px box of each512cell, including furthestwings antennae andlegs. Each insect occupies ONLYHALFwidth and HALFheight of cell. Large clear gaps, shrinkwholebody uniformly.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-007/source_images/EN-007_model_original.png"
+      ],
+      "clip": "defeat",
+      "review": "selected prototype",
+      "bytes": 1600229,
+      "sha256": "3dd35eeca0fc7aa30e1e4f15b3ef837749a573c7b03168e2022061554df87c96",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "frame_count": 12,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "clips": [
+    {
+      "asset_id": "EN-010",
+      "clip": "hurt",
+      "frame_count": 6,
+      "frame_dimensions": [
+        512,
+        512
+      ],
+      "frame_durations_ms": [
+        140,
+        90,
+        140,
+        180,
+        160,
+        180
+      ],
+      "loop": false,
+      "preview_loops_for_review": true,
+      "pivot_px": [
+        256,
+        480
+      ],
+      "frames": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/hurt/frames/EN-010_hurt_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/hurt/frames/EN-010_hurt_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/hurt/frames/EN-010_hurt_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/hurt/frames/EN-010_hurt_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/hurt/frames/EN-010_hurt_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/hurt/frames/EN-010_hurt_06.png"
+      ],
+      "poses": [
+        "steady rightfacing hover",
+        "body jolts backward left eyes close",
+        "roll slightly back with legs splayed",
+        "wings asymmetrically braced recovery",
+        "regain level hover eyes reopen",
+        "steady hover recovered"
+      ],
+      "transforms": [
+        {
+          "frame": 1,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/source_images/EN-010_hurt_original.png",
+          "source_crop": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            84
+          ],
+          "alpha230_bbox": [
+            185,
+            151,
+            401,
+            450
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 2,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/source_images/EN-010_hurt_original.png",
+          "source_crop": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            84
+          ],
+          "alpha230_bbox": [
+            112,
+            153,
+            410,
+            440
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 3,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/source_images/EN-010_hurt_original.png",
+          "source_crop": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            84
+          ],
+          "alpha230_bbox": [
+            85,
+            151,
+            362,
+            444
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 4,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/source_images/EN-010_hurt_original.png",
+          "source_crop": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            142
+          ],
+          "alpha230_bbox": [
+            175,
+            61,
+            415,
+            385
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 5,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/source_images/EN-010_hurt_original.png",
+          "source_crop": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            142
+          ],
+          "alpha230_bbox": [
+            143,
+            87,
+            371,
+            379
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 6,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/source_images/EN-010_hurt_original.png",
+          "source_crop": [
+            1024,
+            512,
+            1536,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            142
+          ],
+          "alpha230_bbox": [
+            114,
+            87,
+            332,
+            380
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "review_notes": [
+        "Readable wince/backwardrecoil with eyesclosed, legs splay, then recovery to hover. All full subjects safelyinside512cells. Moderate recoil versus strong knockback, pose4-6 fairlysimilar with wing/legphase differences. Anatomy/wingcount visibility/shape drift and orangealpha haze remain."
+      ],
+      "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+    },
+    {
+      "asset_id": "EN-010",
+      "clip": "defeat",
+      "frame_count": 6,
+      "frame_dimensions": [
+        512,
+        512
+      ],
+      "frame_durations_ms": [
+        140,
+        160,
+        180,
+        220,
+        260,
+        450
+      ],
+      "loop": false,
+      "preview_loops_for_review": true,
+      "pivot_px": [
+        256,
+        480
+      ],
+      "frames": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/defeat/frames/EN-010_defeat_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/defeat/frames/EN-010_defeat_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/defeat/frames/EN-010_defeat_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/defeat/frames/EN-010_defeat_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/defeat/frames/EN-010_defeat_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/defeat/frames/EN-010_defeat_06.png"
+      ],
+      "poses": [
+        "hover unsteady amber eyes dim",
+        "wings droop and body tilts downward",
+        "gently falling curled legs and folded wings",
+        "land collapsed on side wings bent inward",
+        "legs curl still amber light faded",
+        "final inert thorn husk with leafwings settled no gore"
+      ],
+      "transforms": [
+        {
+          "frame": 1,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/source_images/EN-010_defeat_original.png",
+          "source_crop": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            48
+          ],
+          "alpha230_bbox": [
+            145,
+            149,
+            403,
+            482
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 2,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/source_images/EN-010_defeat_original.png",
+          "source_crop": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            48
+          ],
+          "alpha230_bbox": [
+            116,
+            193,
+            388,
+            476
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 3,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/source_images/EN-010_defeat_original.png",
+          "source_crop": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            48
+          ],
+          "alpha230_bbox": [
+            86,
+            264,
+            348,
+            492
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 4,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/source_images/EN-010_defeat_original.png",
+          "source_crop": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            157
+          ],
+          "alpha230_bbox": [
+            85,
+            178,
+            432,
+            367
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 5,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/source_images/EN-010_defeat_original.png",
+          "source_crop": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            157
+          ],
+          "alpha230_bbox": [
+            94,
+            196,
+            438,
+            352
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 6,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/source_images/EN-010_defeat_original.png",
+          "source_crop": [
+            1024,
+            512,
+            1536,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            157
+          ],
+          "alpha230_bbox": [
+            75,
+            223,
+            431,
+            347
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "review_notes": [
+        "Six progressive non-gory defeatposes: hoverwobble, droop, fall, sidewayslanding, curl and inertleafwing husk. Amber eyes fade. All subjects fit512cells safely. Leafwing/antenna/leg geometry drift and softorangealpha haze remain."
+      ],
+      "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+    }
+  ],
+  "review_notes": [
+    "Proposal/prototype only; identity continuity, alpha cleanup, pivot/timing and in-engine review pending.",
+    "Generated designs are proposals based on project art/story; user production approval is not inferred.",
+    "Generated alpha is preserved. Source haze, armor/anatomy continuity, foot contacts and timing require cleanup and Godot review. No runtime integration performed."
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/EN-010_hurt_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/previews/EN-010_hurt_preview.gif",
+  "asset_pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/EN-010_prototype_pack.zip",
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/EN-010_README.md",
+      "bytes": 1399,
+      "sha256": "0bf9caa3d106fb7567411b98da2cdc49ef288d64607792d7ca0e450a5cf4d686"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/EN-010_defeat_generation_prompts.json",
+      "bytes": 2629,
+      "sha256": "f78111710184f306c7cb7a36252f75079e41f583656722d1c4d1416aff6962ba"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/EN-010_defeat_manifest.json",
+      "bytes": 5278,
+      "sha256": "11c791cee8888e7917d894caf898ff5a721980001f1ff26bdf647d5403517972"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/EN-010_defeat_silhouettes_strip.png",
+      "bytes": 18162,
+      "sha256": "b051204b69ad7ac4db379d6a8cb195a19c33d2729271abb25662c0407f2a4ce3",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/EN-010_defeat_strip.png",
+      "bytes": 553756,
+      "sha256": "dd0d4f5a48841b1ceb03504a7fba6873afa8d5fbcaf6eb277c60a3a5af8d6c6c",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/EN-010_hurt_generation_prompts.json",
+      "bytes": 2476,
+      "sha256": "53d15aa6cdd74ab4b5027da7fbc4556170c4ba6b42cc90ea0e8f44aa895ba500"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/EN-010_hurt_manifest.json",
+      "bytes": 5248,
+      "sha256": "ca9c217fd5cd5c567ab85a01e978b7e4a230c79dc704b9abe4c255dca1c7d638"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/EN-010_hurt_silhouettes_strip.png",
+      "bytes": 20191,
+      "sha256": "2bca9490eec595c922049d11a0f01bfa73fabb38f13ed715db73dd948f5e6ffa",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/EN-010_hurt_strip.png",
+      "bytes": 572230,
+      "sha256": "2d784f46f4ca73a40cccb9b605434bc3c0fc97fa71dc4a8c3d928823a2b342a2",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/EN-010_prototype_pack.zip",
+      "bytes": 6194244,
+      "sha256": "078edc4d853b2013169ef8fddf1c16f8a21c4542af249ed9ca9de37fc00e9f6c"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/defeat/frames/EN-010_defeat_01.png",
+      "bytes": 112499,
+      "sha256": "73477519d50085d9f5409d63907345b0cbcc6939da0c171494a4ff07aa4bcdcb",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/defeat/frames/EN-010_defeat_02.png",
+      "bytes": 101285,
+      "sha256": "62f5c16330c2134f48e70cd4e863f46b7066fe7f5df6e4c5b9eb35b055e04814",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/defeat/frames/EN-010_defeat_03.png",
+      "bytes": 84987,
+      "sha256": "35f77a5fb182697eb36d57eace82f11291e294456b0533b42f21c1e7c75a9572",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/defeat/frames/EN-010_defeat_04.png",
+      "bytes": 94182,
+      "sha256": "9d9c205e53020472d1339f04cdaee0f973a9fdfb3d8d1b1bc3df893f865e9fe9",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/defeat/frames/EN-010_defeat_05.png",
+      "bytes": 83349,
+      "sha256": "185d3812354ce76da0d08d0a5fad8a4fa4caabdd4873306c9ad6944b23551081",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/defeat/frames/EN-010_defeat_06.png",
+      "bytes": 72808,
+      "sha256": "1e173a85a035dfeed49538a88d974c4e1526f4dbb1450321c736b56d4e95d3eb",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/defeat/silhouettes/EN-010_defeat_01_silhouette.png",
+      "bytes": 4177,
+      "sha256": "3eb28e94a8f427ddf36c3593be6f90e547c57ff0b8ae9c504200ac416c7e7a3e",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/defeat/silhouettes/EN-010_defeat_02_silhouette.png",
+      "bytes": 3773,
+      "sha256": "d9cb69ae37f7d2f864b7df7932a7d91ef1bf8880c59d90c61048c7af6f84f27d",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/defeat/silhouettes/EN-010_defeat_03_silhouette.png",
+      "bytes": 3171,
+      "sha256": "ad1f729cd6d5d841cd5574cd95b72604b668eccace07edc8299c6a183e439420",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/defeat/silhouettes/EN-010_defeat_04_silhouette.png",
+      "bytes": 3345,
+      "sha256": "5e23268f68f0f2a30ef2f42c763f3093cefc063061d024e35981ea0c6ad23c0d",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/defeat/silhouettes/EN-010_defeat_05_silhouette.png",
+      "bytes": 2918,
+      "sha256": "c6848ef43b99ab48ac02e371cc7d76606f51630dad17f2cb55d0699e30e4b6c3",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/defeat/silhouettes/EN-010_defeat_06_silhouette.png",
+      "bytes": 2501,
+      "sha256": "956ac898bfabf358bc60976c9eb2b8bb4a3120d164a7fee5fc1db9f23c07fa92",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/hurt/frames/EN-010_hurt_01.png",
+      "bytes": 92699,
+      "sha256": "b9b7b2b86d91dc8c3ad3d93886f2969e2965b9de32c9f9cd258a9b203ae19945",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/hurt/frames/EN-010_hurt_02.png",
+      "bytes": 99180,
+      "sha256": "deecfa949467e371227206cf620afd6cfc53006d39c2546046f44a0d416a164a",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/hurt/frames/EN-010_hurt_03.png",
+      "bytes": 101249,
+      "sha256": "8f4c9644490e86aa03a54874eb1364ffdae934fcda78af2399950b9276f1db0e",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/hurt/frames/EN-010_hurt_04.png",
+      "bytes": 104334,
+      "sha256": "f8e61b8d6011f5370945490c532a2695d47d3d540797f65ba597c2446e323633",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/hurt/frames/EN-010_hurt_05.png",
+      "bytes": 90997,
+      "sha256": "01c5ba45666527597deb664f333dce42df518ef66d51cf7c03ac4c2d0814713c",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/hurt/frames/EN-010_hurt_06.png",
+      "bytes": 89310,
+      "sha256": "baaaf7679fb11f9594df96a0cf4a3ac47fdbee05d02308838214af14d826e957",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/hurt/silhouettes/EN-010_hurt_01_silhouette.png",
+      "bytes": 3786,
+      "sha256": "3acba3b8f0dc88b705a4bff6157bd28fa8c3f8e5903e14e5bdc610f366909758",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/hurt/silhouettes/EN-010_hurt_02_silhouette.png",
+      "bytes": 3961,
+      "sha256": "d06d2ceba453fecb8205823f186113d83c5e2a865a13bc50b105c17934663ce7",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/hurt/silhouettes/EN-010_hurt_03_silhouette.png",
+      "bytes": 4008,
+      "sha256": "6d223cc756b5ef640a6fd8c3df1eeba1c5f4a873541028c8dbd0401f6396cf9a",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/hurt/silhouettes/EN-010_hurt_04_silhouette.png",
+      "bytes": 4115,
+      "sha256": "3bcb0bc0b0e62efa78a117a1e692a2a62e50bb273b18e1d7aa5df4c62bc647fc",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/hurt/silhouettes/EN-010_hurt_05_silhouette.png",
+      "bytes": 3801,
+      "sha256": "09a7bfae2dbee940af56db443d706a700cd9d00799afb31fe21723792e7b5389",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/hurt/silhouettes/EN-010_hurt_06_silhouette.png",
+      "bytes": 3741,
+      "sha256": "f2b8d60ed37624d08c25f79d3f7ed8f4edd1fbce459c3370445f43f3ed43dfbf",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/previews/EN-010_defeat_contact_sheet.jpg",
+      "bytes": 148037,
+      "sha256": "5ccca15ba46cdc40bee3136e85ba252e36d7359b531e3722e91ad0b305b08c24",
+      "dimensions": [
+        1536,
+        1104
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/previews/EN-010_defeat_preview.gif",
+      "bytes": 191970,
+      "sha256": "5b1f0222a9dadc42f1a12d65ec0032da03bf390926c1d6c4f43ac7dd56e70acd",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/previews/EN-010_hurt_contact_sheet.jpg",
+      "bytes": 145389,
+      "sha256": "f05a7c9e1674b54f968105d91e0941ef72576d67df3d4968c658fa8fa205707a",
+      "dimensions": [
+        1536,
+        1104
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/previews/EN-010_hurt_preview.gif",
+      "bytes": 192785,
+      "sha256": "66e93111f6c0270f92967662179c19d73de113ea922111b8d1d105021a683cc5",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/source_images/EN-010_defeat_original.png",
+      "bytes": 1600229,
+      "sha256": "3dd35eeca0fc7aa30e1e4f15b3ef837749a573c7b03168e2022061554df87c96",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/source_images/EN-010_hurt_original.png",
+      "bytes": 1681368,
+      "sha256": "1af807f3c706af94d871396ea2177d79bf3e3f815a0449d0ec2a76de76e49159",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "production_approved": false,
+  "checklist_status_source": "/Users/abinashbasak/Downloads/lanterns_underroot_master_asset_checklist.md"
+}

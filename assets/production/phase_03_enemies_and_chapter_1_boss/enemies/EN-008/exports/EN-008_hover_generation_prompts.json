@@ -1,0 +1,49 @@
+{
+  "asset_id": "EN-008",
+  "clip": "hover",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-008/source_images/EN-008_hover_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441c-ffb3-7622-ab52-0c9bb160e6d7/exec-a8062786-2dce-4801-8d91-fef20e644918.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted 2D fantasy platformer creature sprite sheet. Transparent background, opaque subject interiors, no shadow, floor, haze, scenery, labels, text, panels or borders. Character fits safely with generous70px clear margin inside each cell, no crossing boundaries. Clear hand painted outlines and shading. Reference is Thornwing identity model only. Use ONLY consistent RIGHT-FACINGthreequarter view for all6poses (ignore front/backturnarounds). Same slim darkthorn armored body, amber eyes, antennae, six insectlegs, four copperred leafwings. Exactly SIXdistinct fullbody chronologicalposes equal3columns x2rows on1536x1024, each512cell. Fullsubject MAXIMUM320px wide/tall including wings antennae legs in EVERYcell, centered with90pxsafe margin; no overlap. EN-008 HOVER animation only. Six hovering wingbeat phases: 1: body upright hovering, wings high upstroke; 2: wings halfway down outward; 3: wings fully down, body bobs up; 4: wings rising halfway, body settles; 5: wings high with abdomen curled; 6: return wings high toward initial hover. Clearly vary wingangles by70degrees or more across sequence, body stays generallyupright, not forwardflight. CRITICAL OVERRIDE: ALL SIX INSECTS MUST BE TINY WITH LARGE EMPTY GAPS. Each full insect fits inside a central260x260pixel box of its512x512cell, including furthest leafwing and antenna tips. Entire pose silhouette occupies only HALF width and HALFheight of eachcell. Draw exactly6tinyisolated insects and no othercontent. Shrink wings and body together uniformly. Maintain visible wingbeatdifferences.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-007/source_images/EN-007_model_original.png"
+      ],
+      "clip": "hover",
+      "review": "selected prototype",
+      "bytes": 1530098,
+      "sha256": "c11a3931ff9fdf0df941c19dd46e02fdaf7bb7b1dc97ca1c4d0b79bfe608e8cb",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441c-ffb3-7622-ab52-0c9bb160e6d7/exec-710cc6ff-dca0-4d5b-a3bc-702a35d7c74d.png",
+      "prompt": "Use case: stylized-concept. Hand-painted 2D fantasy platformer creature sprite sheet. Transparent background, opaque subject interiors, no shadow, floor, haze, scenery, labels, text, panels or borders. Character fits safely with generous70px clear margin inside each cell, no crossing boundaries. Clear hand painted outlines and shading. Reference is Thornwing identity model only. Use ONLY consistent RIGHT-FACINGthreequarter view for all6poses (ignore front/backturnarounds). Same slim darkthorn armored body, amber eyes, antennae, six insectlegs, four copperred leafwings. Exactly SIXdistinct fullbody chronologicalposes equal3columns x2rows on1536x1024, each512cell. Fullsubject MAXIMUM320px wide/tall including wings antennae legs in EVERYcell, centered with90pxsafe margin; no overlap. EN-008 HOVER animation only. Six hovering wingbeat phases: 1: body upright hovering, wings high upstroke; 2: wings halfway down outward; 3: wings fully down, body bobs up; 4: wings rising halfway, body settles; 5: wings high with abdomen curled; 6: return wings high toward initial hover. Clearly vary wingangles by70degrees or more across sequence, body stays generallyupright, not forwardflight.",
+      "review": "Rejected oversized hover attempt with wing tips crossingcell borders.",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-008/source_images/EN-008_hover_oversized_attempt_original.png",
+      "provenance": "unchanged built-in image_gen attempt",
+      "source_message_id": null,
+      "clip": "hover",
+      "bytes": 2052600,
+      "sha256": "74d491b683d43e359200bb6703de651dc4c82bf39a8428e5a6999105d49e68cd",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

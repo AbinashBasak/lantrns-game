@@ -1,0 +1,29 @@
+{
+  "asset_id": "EN-009",
+  "clip": "dive_attack",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-009/source_images/EN-009_dive_attack_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441c-ffb3-7622-ab52-0c9bb160e6d7/exec-80f01cb7-03e2-4bbf-a412-bd4082e7c053.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted 2D fantasy platformer creature sprite sheet. Transparent background, opaque subject interiors, no shadow, floor, haze, scenery, labels, text, panels or borders. Character fits safely with generous70px clear margin inside each cell, no crossing boundaries. Clear hand painted outlines and shading. Reference is Thornwing identity model only. Use ONLY consistent RIGHT-FACINGthreequarter view for all6poses (ignore front/backturnarounds). Same slim darkthorn armored body, amber eyes, antennae, six insectlegs, four copperred leafwings. Exactly SIXdistinct fullbody chronologicalposes equal3columns x2rows on1536x1024, each512cell. Fullsubject MAXIMUM320px wide/tall including wings antennae legs in EVERYcell, centered with90pxsafe margin; no overlap. EN-009 DIVE attack, no victim or contact effects. Six actionphases: 1: hover ready facing right; 2: tilt head down right wings raised; 3: fold wings back and start descending; 4: steep diagonal down-right dive body streamlined; 5: spread wings wide to brake and level; 6: pull up return toward rightfacing hover. Head points clearlyDOWNRIGHT in phases3and4. Braking wings openphase5, pullup6. Not6horizontalhover poses. CRITICAL ALL SIX INSECTS TINY: entire silhouette fits central260x260px box of each512cell, including furthestwings antennae andlegs. Each insect occupies ONLYHALFwidth and HALFheight of cell. Large clear gaps, shrinkwholebody uniformly.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-007/source_images/EN-007_model_original.png"
+      ],
+      "clip": "dive_attack",
+      "review": "selected prototype",
+      "bytes": 1660611,
+      "sha256": "3365be1b63362b0dc88d59f15cda9cbd906982e4aa9fc5674b86ee2b81774160",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

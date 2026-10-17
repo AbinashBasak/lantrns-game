@@ -1,0 +1,49 @@
+{
+  "asset_id": "EN-004",
+  "clip": "attack",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-004/source_images/EN-004_attack_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441c-ffb3-7622-ab52-0c9bb160e6d7/exec-f7ab6485-fafd-4a97-8559-c41d7f6cb397.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted 2D fantasy platformer creature sprite sheet. Transparent background, opaque subject interiors, no shadow, floor, haze, scenery, labels, text, panels or borders. Character fits safely with generous70px clear margin inside each cell, no crossing boundaries. Clear hand painted outlines and shading. Reference is Rootling identity only. IMPORTANT ignore other turnaround views: use ONLY RIGHT-FACING PROFILE/threequarter-right consistently for ALL SIX poses, never front view. Exactly6distinct fullbody poses, chronological3columns x2rows on1536x1024, each512cell. Maximum360px subject width/height, generous margins. Same fourleg moss-root body and camera. Rootling attack animation. Gentle fantasy non-gory claw pounce at empty air, no victim. Six distinct poses: 1: ready low stance; 2: compress deeply before pounce; 3: hindfeet push off as front claws reach right; 4: airborne short forward lunge with front claws out; 5: land frontfeet braced low, leaves swing; 6: recover neutral fourfoot stance. Show anticipation, airborne stretch and landing with clearly different silhouettes. CRITICAL LAYOUT OVERRIDE: make every creature SMALL: total silhouette maximum300pixels wide and250pixels tall including leaves/claws, centered in each512cell. Huge clear100px margins on left and right. Even fully stretched airborne pounce must remain less than300pixels wide. No bodypart crosses cell borders. Uniform smaller character size ALL6cells.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-001/source_images/EN-001_model_original.png"
+      ],
+      "clip": "attack",
+      "review": "selected prototype",
+      "bytes": 1787199,
+      "sha256": "96d732eb84165d9874eff2e4c11c47f2af1969aa19d75af3505017f655a7be34",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441c-ffb3-7622-ab52-0c9bb160e6d7/exec-47a85db4-370f-43fc-a0f4-d5326a3df7f5.png",
+      "prompt": "Use case: stylized-concept. Hand-painted 2D fantasy platformer creature sprite sheet. Transparent background, opaque subject interiors, no shadow, floor, haze, scenery, labels, text, panels or borders. Character fits safely with generous70px clear margin inside each cell, no crossing boundaries. Clear hand painted outlines and shading. Reference is Rootling identity only. IMPORTANT ignore other turnaround views: use ONLY RIGHT-FACING PROFILE/threequarter-right consistently for ALL SIX poses, never front view. Exactly6distinct fullbody poses, chronological3columns x2rows on1536x1024, each512cell. Maximum360px subject width/height, generous margins. Same fourleg moss-root body and camera. Rootling attack animation. Gentle fantasy non-gory claw pounce at empty air, no victim. Six distinct poses: 1: ready low stance; 2: compress deeply before pounce; 3: hindfeet push off as front claws reach right; 4: airborne short forward lunge with front claws out; 5: land frontfeet braced low, leaves swing; 6: recover neutral fourfoot stance. Show anticipation, airborne stretch and landing with clearly different silhouettes.",
+      "review": "Rejected oversized attempt, extended pose4 and5 crosscell borders.",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-004/source_images/EN-004_attack_oversized_attempt_original.png",
+      "provenance": "unchanged built-in image_gen attempt",
+      "source_message_id": null,
+      "clip": "attack",
+      "bytes": 2050985,
+      "sha256": "b20cec842ea565e04d0351f6713a97d1995eedc04507e6c5a8b435f99ff297ff",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

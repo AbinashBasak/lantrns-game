@@ -1,0 +1,29 @@
+{
+  "asset_id": "EN-008",
+  "clip": "fly",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-008/source_images/EN-008_fly_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441c-ffb3-7622-ab52-0c9bb160e6d7/exec-5c6ef4ba-a185-4951-ab7c-86e944941838.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted 2D fantasy platformer creature sprite sheet. Transparent background, opaque subject interiors, no shadow, floor, haze, scenery, labels, text, panels or borders. Character fits safely with generous70px clear margin inside each cell, no crossing boundaries. Clear hand painted outlines and shading. Reference is Thornwing identity model only. Use ONLY consistent RIGHT-FACINGthreequarter view for all6poses (ignore front/backturnarounds). Same slim darkthorn armored body, amber eyes, antennae, six insectlegs, four copperred leafwings. Exactly SIXdistinct fullbody chronologicalposes equal3columns x2rows on1536x1024, each512cell. Fullsubject MAXIMUM320px wide/tall including wings antennae legs in EVERYcell, centered with90pxsafe margin; no overlap. EN-008 FORWARD FLY animation only, distinct from upright hovering. Body tilts toward horizontal and legs trail behind to left. Six forwardflight wingbeat phases: 1: body leans right forward, wings high; 2: wings push down, legs trail left; 3: wings low, body nearly horizontal; 4: wings sweep rear and rise; 5: wings high, abdomen and legs trail; 6: return forward lean wingphase to start CRITICAL ALL SIX INSECTS TINY: entire silhouette fits central260x260px box of each512cell, including furthestwings antennae andlegs. Each insect occupies ONLYHALFwidth and HALFheight of cell. Large clear gaps, shrinkwholebody uniformly.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-007/source_images/EN-007_model_original.png"
+      ],
+      "clip": "fly",
+      "review": "selected prototype",
+      "bytes": 1747951,
+      "sha256": "6370d06f83a71a1c11b464b7f4c64c99dd3a92cd30bc58d5914aaec6d123dda7",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}
