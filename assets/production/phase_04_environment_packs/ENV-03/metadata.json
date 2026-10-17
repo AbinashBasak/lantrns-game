@@ -1,0 +1,1061 @@
+{
+  "id": "ENV-03",
+  "title": "The Ancient Root-Temple (Chapter 1)",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03",
+  "story_basis": {
+    "sources": [
+      "docs/lanterns_underroot_prologue_ch1_development_plan.md",
+      "docs/full-story.md"
+    ],
+    "summary": "Current development plan Chapter1 E\u2013H: root-grown stone entrance, four-stones/central-lantern carvings with scraped section, checkpoint room, flat single-screen-to1.5screen Sentinel arena and two low edge platforms, fragment pedestal. Hollow Sentinel has AMBER core; older blue-core examples do not override current plan.",
+    "status": "Sources generated and visually reviewed; prototype exports prepared."
+  },
+  "review_notes": [
+    "Eight requested asset types saved and visually reviewed as generated prototypes. Runtime production approval remains false: hand cleanup needed for tile topology/seams, alpha halos, cell boundaries, camera/value continuity, frame alignment and timing. No Godot integration performed."
+  ],
+  "deliverables": [
+    {
+      "slug": "lighting_reference",
+      "type": "lighting reference only",
+      "prompt": "Use case: stylized-concept. Single whole-scene lighting reference ONLY for Lanterns Underroot ENV-03 ANCIENT ROOT TEMPLE INTERIOR,1536x1024. Entire scene UNDERGROUND INSIDE enclosed bluegray stone vault with ceiling across top, no sky, no daylightforest vista, no waterfall, no distant outdoor castles, no villagehomes. Side-on platformer orthographic camera. Broad flat chamberfloor across lowerthird, two low stoneplatforms atedges, emptycenter for templeguardian gameplay. Thicklivingroots pass through mossy carvedmasonry walls andceiling. Dormant rootmarkplaque in smallcheckpointalcove, empty fragmentpedestal, worn relief of fourstones surrounding a lantern with finalsection scrapedaway. Restrained warmAMBER focal light and cooldeepstone shadows, notcyanflood. Handpainted shape/rendering andpalette from ARTguides ONLY; do NOT copy outdoorcompositions. No characters, UI, text, labels or panels. Notruntimeasset, lighting/designreferenceonly.",
+      "transparent_background": false,
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-001/ART-001_final_visual_style_guide.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-002/ART-002_color_palette_and_lighting.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-006/ART-006_rendering_consistency_guide.png"
+      ],
+      "export_mode": "image",
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "lighting_reference"
+      ],
+      "timing": null,
+      "loop": false,
+      "review_notes": [
+        "Reviewed: correct location vocabulary and asset type; no characters or UI. Prototype requires runtime scale and continuity review."
+      ],
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441c-ffb3-7622-ab52-0c9bb160e6d7/exec-45187587-c1af-446b-b34f-597d85a18300.png",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/source_images/ENV-03_lighting_reference_original_v2.png",
+      "additional_sources": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/source_images/ENV-03_lighting_reference_original.png",
+          "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441c-ffb3-7622-ab52-0c9bb160e6d7/exec-f51f6117-acb4-4b71-a88d-7e86dd04e118.png",
+          "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer art. Reference images define painterly shape/edge rendering, warm amber focal light, muted moss/earth and cool teal-blue shadows; do not copy their boards, lettering or example characters. Consistent side-on orthographic platformer camera, restrained surface detail, readable silhouettes at mobile scale. No characters, UI, text, labels, borders, watermark or contact sheet unless an explicit production grid is requested. Ancient blue-gray stone root-temple, living roots fitted through masonry, cool recesses and warm amber focal light. Interior is readable and quiet, not a luminous cyan wash. Singlelandscape illustrative lighting study1536x1024 of this location using the same side-on camera and approved material vocabulary. Show Ancient blue-gray stone root-temple, living roots fitted through masonry, cool recesses and warm amber focal light. Interior is readable and quiet, not a luminous cyan wash. Balance clear playable-edge values against distant desaturation, amber focus versus cool shadows; no characters, UI, lettering or palette-board panels. Reference only: this assembled study does not replace separately delivered layers, props, FX or tiles. This image is a single whole-scene illustrative reference, NOT a runtime layer or proof of packcompletion.",
+          "review": "Earlier attempt superseded after review."
+        }
+      ],
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "63ac287f7ae1630277ae6c110a592ded42a617ffda61c282dc5f1dac96ef2873",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen original",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_lighting_reference.png"
+      ],
+      "derived_exports_provenance": "Resized cell exports from unchanged source; not independently generated originals.",
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/previews/ENV-03_lighting_reference_preview.png",
+      "alpha_extrema": null,
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_lighting_reference.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "sha256": "63ac287f7ae1630277ae6c110a592ded42a617ffda61c282dc5f1dac96ef2873",
+          "provenance": "derived from source crop"
+        }
+      ]
+    },
+    {
+      "slug": "midground",
+      "type": "midground",
+      "prompt": "ENV-03 Ancient Root Temple INTERIOR. Lanterns Underroot handpainted2D platformer sideview orthographic, quiet bluegray stone moss joints and warm amber highlights, no cyan wash. Landscape1536x1024, no characters UI text. True transparent separate architectural layer ONLY receding bluegray columns arches and roots through masonry, empty central arena negative space. No floor, ceiling background or props.",
+      "transparent_background": true,
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/source_images/ENV-03_lighting_reference_original_v2.png"
+      ],
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/source_images/ENV-03_midground_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148ba-e578-7432-a445-11a2541d4ec5/exec-3bfd15a4-467e-4d4c-8e5b-8cad61d1a6cb.png",
+      "export_mode": "image",
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "midground"
+      ],
+      "timing": null,
+      "loop": false,
+      "review_notes": [
+        "Reviewed: correct location vocabulary and asset type; no characters or UI. Prototype requires runtime scale and continuity review.",
+        "Actual alpha retained; feathered atmospheric edge haze requires in-engine composite review."
+      ],
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "5d6a5b8bb8cf0146f7ce2bea39ba3a9f304a92a755dd92c13b6446452ca109d8",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen original",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_midground.png"
+      ],
+      "derived_exports_provenance": "Resized cell exports from unchanged source; not independently generated originals.",
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/previews/ENV-03_midground_preview.png",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_midground.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "sha256": "5d6a5b8bb8cf0146f7ce2bea39ba3a9f304a92a755dd92c13b6446452ca109d8",
+          "provenance": "derived from source crop"
+        }
+      ]
+    },
+    {
+      "slug": "distant_background",
+      "type": "distant_background",
+      "prompt": "ENV-03 Ancient Root Temple INTERIOR. Lanterns Underroot handpainted2D platformer sideview orthographic, quiet bluegray stone moss joints and warm amber highlights, no cyan wash. Landscape1536x1024, no characters UI text. OPAQUE far background ONLY enclosed underground distant dark bluegray vault and coolstone recesses. No sky, outdoor forest, floor, doors, props or foreground.",
+      "transparent_background": false,
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/source_images/ENV-03_lighting_reference_original_v2.png"
+      ],
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/source_images/ENV-03_distant_background_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148ba-e578-7432-a445-11a2541d4ec5/exec-14b28e70-0c30-4699-9c8e-4fb1bc67d445.png",
+      "export_mode": "image",
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "distant_background"
+      ],
+      "timing": null,
+      "loop": false,
+      "review_notes": [
+        "Reviewed: correct location vocabulary and asset type; no characters or UI. Prototype requires runtime scale and continuity review."
+      ],
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "709c02e5d73c85a1756e4a2e044048e94e567d6050f9a4d0a96c3f25fc41770a",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen original",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_distant_background.png"
+      ],
+      "derived_exports_provenance": "Resized cell exports from unchanged source; not independently generated originals.",
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/previews/ENV-03_distant_background_preview.png",
+      "alpha_extrema": null,
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_distant_background.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "sha256": "709c02e5d73c85a1756e4a2e044048e94e567d6050f9a4d0a96c3f25fc41770a",
+          "provenance": "derived from source crop"
+        }
+      ]
+    },
+    {
+      "slug": "decorative_props",
+      "type": "decorative_props",
+      "prompt": "ENV-03 Lanterns Underroot handpainted2D sideview platformer; muted teal moss, bluegraystone warmamber highlights. No characters UI lettering. Exactly8 isolated distinct fullprops4cols2rows1536x1024: worn relief showing four stones around lantern with scraped section, root wrapped column, treasure alcove frame, mossy broken capital, carvedstone wall bracket, small rubble pile, hanging root cluster, stone lantern niche. Transparent generouspadding no groundshadows.",
+      "transparent_background": true,
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/source_images/ENV-03_lighting_reference_original_v2.png"
+      ],
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/source_images/ENV-03_decorative_props_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148ba-e578-7432-a445-11a2541d4ec5/exec-11e26bf5-6adb-4f94-ae2e-1ee47e28b8d8.png",
+      "export_mode": "atlas",
+      "cols": 4,
+      "rows": 2,
+      "frame_count": 8,
+      "roles": [
+        "story_relief",
+        "root_column",
+        "treasure_alcove",
+        "broken_capital",
+        "wall_bracket",
+        "rubble",
+        "hanging_roots",
+        "lantern_niche"
+      ],
+      "timing": null,
+      "loop": false,
+      "review_notes": [
+        "Reviewed: correct location vocabulary and asset type; no characters or UI. Prototype requires runtime scale and continuity review.",
+        "Sprite cells are prototype crops; scale, alpha-edge halos, topology and frame-registration cleanup remain before production use."
+      ],
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "9697c0cdeee6129c9d56973f3c48bf6e449c47ad7aa49805030a4a126eb6fc34",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen original",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_07.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_sheet.png"
+      ],
+      "source_crop_boundaries": [
+        [
+          0,
+          0,
+          384,
+          512
+        ],
+        [
+          384,
+          0,
+          768,
+          512
+        ],
+        [
+          768,
+          0,
+          1152,
+          512
+        ],
+        [
+          1152,
+          0,
+          1536,
+          512
+        ],
+        [
+          0,
+          512,
+          384,
+          1024
+        ],
+        [
+          384,
+          512,
+          768,
+          1024
+        ],
+        [
+          768,
+          512,
+          1152,
+          1024
+        ],
+        [
+          1152,
+          512,
+          1536,
+          1024
+        ]
+      ],
+      "export_cell_size": 256,
+      "derived_exports_provenance": "Resized cell exports from unchanged source; not independently generated originals.",
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/previews/ENV-03_decorative_props_preview.png",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_00.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "sha256": "ebce26dd8d64b7bae62059aad4833b9c1d4429901f07f33348b40473645d4863",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_01.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "sha256": "e2f798cce78d67dfcc638cd51b1db6d0c8115f7ff773cb173dc2bc81a628b65d",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_02.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "sha256": "369af91fe0ddf171053a83b480963f3ea953b66889698af276c2e5099c9b8c02",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_03.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "sha256": "024a2dafe3aa285fcd80ce30085156ea2c243e4b50247ceb55f4ee741f95e277",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_04.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "sha256": "949490fa617caa11d300d85e7d41f2e1aa457f0efc650cce386bda5aa1c3a0b9",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_05.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "sha256": "7dc30177f05a89137d8acc0a9179d4e98b81569be8f12c3314e6e20e95aea4c9",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_06.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "sha256": "d3a2cbfa32e99d0e50af74318ed5ead7c592e51b836e23830dc01fcde200c543",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_07.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "sha256": "9e3fef53fd344bc2342d219fc1996c64c03c944f043756651f279573351cad6e",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_sheet.png",
+          "dimensions": [
+            1024,
+            512
+          ],
+          "sha256": "aab219bd0bd2b6ca251b39e4ab64677b022f52577382e437a17682c430abb5b8",
+          "provenance": "derived from source crop"
+        }
+      ]
+    },
+    {
+      "slug": "foreground",
+      "type": "foreground",
+      "prompt": "ENV-03 Ancient Root Temple INTERIOR. Lanterns Underroot handpainted2D platformer sideview orthographic, quiet bluegray stone moss joints and warm amber highlights, no cyan wash. Landscape1536x1024, no characters UI text. True transparent sparse margins ONLY near dark stone column fragments at left/right edges and thin hanging roots top corners. 80% empty center; no floor, background, props or full scene.",
+      "transparent_background": true,
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/source_images/ENV-03_lighting_reference_original_v2.png"
+      ],
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/source_images/ENV-03_foreground_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148ba-e578-7432-a445-11a2541d4ec5/exec-4ac253ae-570e-4e96-be43-26693b9f71ec.png",
+      "export_mode": "image",
+      "cols": 1,
+      "rows": 1,
+      "frame_count": 1,
+      "roles": [
+        "foreground"
+      ],
+      "timing": null,
+      "loop": false,
+      "review_notes": [
+        "Reviewed: correct location vocabulary and asset type; no characters or UI. Prototype requires runtime scale and continuity review.",
+        "Actual alpha retained; feathered atmospheric edge haze requires in-engine composite review."
+      ],
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "d7d49a98fd7351ed823febe4480384f8c7169decc817cc9c15f26c88f4a9ffbe",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen original",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_foreground.png"
+      ],
+      "derived_exports_provenance": "Resized cell exports from unchanged source; not independently generated originals.",
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/previews/ENV-03_foreground_preview.png",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_foreground.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "sha256": "d7d49a98fd7351ed823febe4480384f8c7169decc817cc9c15f26c88f4a9ffbe",
+          "provenance": "derived from source crop"
+        }
+      ]
+    },
+    {
+      "slug": "interactive_props",
+      "type": "interactive_props",
+      "prompt": "ENV-03 Ancient Root Temple Lanterns Underroot handpainted2D platformer sideview, bluegray stone moss joints amber warm glow teal shadows, no characters UI or lettering. Exactly6 isolated full objects3cols2rows, generouspadding: checkpoint rootmark stone plaque dormant and amber activated; empty fragment pedestal and fragment revealed pedestal; temple stone door closed and open arch frame. Neutral row then active row SAME THREE objects. Transparent1536x1024, no groundshadows.",
+      "transparent_background": true,
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/source_images/ENV-03_lighting_reference_original_v2.png"
+      ],
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/source_images/ENV-03_interactive_props_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148ba-e578-7432-a445-11a2541d4ec5/exec-f083284a-5d92-46a9-bce6-fb868d30f798.png",
+      "export_mode": "atlas",
+      "cols": 3,
+      "rows": 2,
+      "frame_count": 6,
+      "roles": [
+        "checkpoint_dormant",
+        "pedestal_empty",
+        "door_closed",
+        "checkpoint_active",
+        "pedestal_fragment",
+        "door_open"
+      ],
+      "timing": null,
+      "loop": false,
+      "review_notes": [
+        "Reviewed: correct location vocabulary and asset type; no characters or UI. Prototype requires runtime scale and continuity review.",
+        "Sprite cells are prototype crops; scale, alpha-edge halos, topology and frame-registration cleanup remain before production use."
+      ],
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "8b51fc3f13d475efbcb9d36bda96455a8d54cbbea3189726d2bbc8dd0257ff48",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen original",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_interactive_props_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_interactive_props_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_interactive_props_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_interactive_props_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_interactive_props_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_interactive_props_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_interactive_props_sheet.png"
+      ],
+      "source_crop_boundaries": [
+        [
+          0,
+          0,
+          512,
+          512
+        ],
+        [
+          512,
+          0,
+          1024,
+          512
+        ],
+        [
+          1024,
+          0,
+          1536,
+          512
+        ],
+        [
+          0,
+          512,
+          512,
+          1024
+        ],
+        [
+          512,
+          512,
+          1024,
+          1024
+        ],
+        [
+          1024,
+          512,
+          1536,
+          1024
+        ]
+      ],
+      "export_cell_size": 256,
+      "derived_exports_provenance": "Resized cell exports from unchanged source; not independently generated originals.",
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/previews/ENV-03_interactive_props_preview.png",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_interactive_props_00.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "sha256": "3e2eb057bbcba8f75e5e87c8ba6cca72e139ea670738fcdccd00d92a50cfa96b",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_interactive_props_01.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "sha256": "6efdc16e7881f8069e80688007e4698c1b9a47126d83eee103de9fbb30650654",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_interactive_props_02.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "sha256": "ddbf8c32e410abe631261d3e713c49146628073f813b9b5f051cbf505bf6a244",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_interactive_props_03.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "sha256": "e22e36eab6a1b972bbbcdda5b91c6c52dee63c3a6e83261cc08e69b7556d59af",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_interactive_props_04.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "sha256": "07eb38edb1aed6e45771cafdfaf9b8118a431b525403128c2c4ab3df741adcc9",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_interactive_props_05.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "sha256": "01486c412dd87f51db06f4eba8293f81ac791991ddbf2ec9c8faa863f234403b",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_interactive_props_sheet.png",
+          "dimensions": [
+            768,
+            512
+          ],
+          "sha256": "002da76d438394c03450f0fc0a1a0478557b67f14ba57aef1cd7e402791190a1",
+          "provenance": "derived from source crop"
+        }
+      ]
+    },
+    {
+      "slug": "terrain_atlas",
+      "type": "terrain_atlas",
+      "prompt": "ENV-03 Ancient Root Temple Lanterns Underroot handpainted2D platformer sideview bluegray moss stone amber warm glow. Exactly16 modules4cols4rows ninepatch masonry with isolated ledge caps stairs slopes; square1024 alpha no props labels.",
+      "transparent_background": true,
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/source_images/ENV-03_lighting_reference_original_v2.png"
+      ],
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/source_images/ENV-03_terrain_atlas_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148ba-e578-7432-a445-11a2541d4ec5/exec-573a5532-8c4a-4543-8557-1a24aaf5b2d1.png",
+      "export_mode": "atlas",
+      "cols": 4,
+      "rows": 4,
+      "frame_count": 16,
+      "roles": [
+        "top_left",
+        "top_center",
+        "top_right",
+        "isolated_ledge",
+        "middle_left",
+        "fill",
+        "middle_right",
+        "cap_left",
+        "bottom_left",
+        "bottom_center",
+        "bottom_right",
+        "cap_right",
+        "stair_up",
+        "stair_down",
+        "slope_up",
+        "slope_down"
+      ],
+      "timing": null,
+      "loop": false,
+      "review_notes": [
+        "Reviewed: correct location vocabulary and asset type; no characters or UI. Prototype requires runtime scale and continuity review.",
+        "All16 modular silhouettes present; generated material grid not production-seamless. Edge sockets and ninepatch joins need manual cleanup before runtime approval.",
+        "Sprite cells are prototype crops; scale, alpha-edge halos, topology and frame-registration cleanup remain before production use.",
+        "Roles describe intended module functions; generated top grass/edge decoration differs across cells, so role topology requires manual correction."
+      ],
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "ecd04fbdcc1f08b1fc2d90bcb11787cae8a2d110edd91bc5d7fe65edbfacca5e",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen original",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_07.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_08.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_09.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_10.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_11.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_12.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_13.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_14.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_15.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_sheet.png"
+      ],
+      "source_crop_boundaries": [
+        [
+          0,
+          0,
+          314,
+          314
+        ],
+        [
+          314,
+          0,
+          627,
+          314
+        ],
+        [
+          627,
+          0,
+          940,
+          314
+        ],
+        [
+          940,
+          0,
+          1254,
+          314
+        ],
+        [
+          0,
+          314,
+          314,
+          627
+        ],
+        [
+          314,
+          314,
+          627,
+          627
+        ],
+        [
+          627,
+          314,
+          940,
+          627
+        ],
+        [
+          940,
+          314,
+          1254,
+          627
+        ],
+        [
+          0,
+          627,
+          314,
+          940
+        ],
+        [
+          314,
+          627,
+          627,
+          940
+        ],
+        [
+          627,
+          627,
+          940,
+          940
+        ],
+        [
+          940,
+          627,
+          1254,
+          940
+        ],
+        [
+          0,
+          940,
+          314,
+          1254
+        ],
+        [
+          314,
+          940,
+          627,
+          1254
+        ],
+        [
+          627,
+          940,
+          940,
+          1254
+        ],
+        [
+          940,
+          940,
+          1254,
+          1254
+        ]
+      ],
+      "export_cell_size": 64,
+      "derived_exports_provenance": "Resized cell exports from unchanged source; not independently generated originals.",
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/previews/ENV-03_terrain_atlas_preview.png",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_00.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "f3c80a098cd0898bdc34cd9fc88806bd5257d6349777ac9aa8aeffbd49b448b2",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_01.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "c84fadfbd653dfb4f6b7e0e3ef435e1b22a3673d39811bb199a0dc699d116187",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_02.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "48027e6860878bf93d52f506d4011421f2bc32721189211e10cd0dd5b701955e",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_03.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "a26a37a102c38d9116bc527d6d89ff120e41dac9322b2d96055a2c336391ac61",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_04.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "85d7105523f7f742107953f72cebda7545ff6f7c82c978b2fb8a596384e42428",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_05.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "35dffe7286ba5372cdd234312cec5127ec09d8e981ba65d120727374626388cc",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_06.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "ab815cb8172144fd989a87f7d485add5158cf707a05060525285f9003938251c",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_07.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "2136bcb5371388ecd9927a89d7a53947bbed001c4a14d97804644d5c632bf052",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_08.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "b5bd72dc8c97929acaa82a3a34e846883a762db02f37ecb3beeecc669a714bf3",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_09.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "f96d58763064f708b879b4056a6ed07339c80a43081fceb563db331c67aaca14",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_10.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "8a7198e007a324b222ebbdd5799d44ef6af3306c4dfa914d2682f3ccee6b30f9",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_11.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "32fdb2e469e2cb0b4b984ad82ac86d7b6817ffc382da27fa4592d7bf1f25192b",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_12.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "276af26fec1fb12d1b2f3ddf36fdad9c74f6f71a45619e9714d9b19074398836",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_13.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "c9a96d170b0c42a67f96ff1982e16e7d5d6f3ab9d7c5916c41994f8a83716502",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_14.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "c5f8468797aeccde2dae5a9772a3a44d494b8222924bf0a2aeeca6b722de02ae",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_15.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "cf91567691a665ebce505267318ac5846a7b3803dc3803dd4bebde7b58f05d4c",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_terrain_atlas_sheet.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "sha256": "5b513dd12fb26292792f4cb2106bf7a9a2ea1193b58cedb19de2e8c511f00b55",
+          "provenance": "derived from source crop"
+        }
+      ]
+    },
+    {
+      "slug": "location_fx",
+      "type": "location_fx",
+      "prompt": "ENV-03 Ancient Root Temple Lanterns Underroot handpainted2D platformer sideview bluegray moss stone amber warm glow. Only abstract amber particle spiral-ring grow and fade,6 sequential frames3cols2rows1536x1024 alpha no objects text characters.",
+      "transparent_background": true,
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/source_images/ENV-03_lighting_reference_original_v2.png"
+      ],
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/source_images/ENV-03_location_fx_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148ba-e578-7432-a445-11a2541d4ec5/exec-42a92306-344a-4214-b3d7-61b58598ce05.png",
+      "export_mode": "atlas",
+      "cols": 3,
+      "rows": 2,
+      "frame_count": 6,
+      "roles": [
+        "phase_0",
+        "phase_1",
+        "phase_2",
+        "phase_3",
+        "phase_4",
+        "phase_5"
+      ],
+      "timing": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": false,
+      "review_notes": [
+        "Reviewed: correct location vocabulary and asset type; no characters or UI. Prototype requires runtime scale and continuity review.",
+        "Sprite cells are prototype crops; scale, alpha-edge halos, topology and frame-registration cleanup remain before production use."
+      ],
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "d6c974a7ebe7fe32ad6f73803785e93503f1b0070b7a385e3b254f5bcdbc8499",
+      "source_message_id": null,
+      "provenance": "unchanged built-in imagegen original",
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_location_fx_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_location_fx_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_location_fx_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_location_fx_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_location_fx_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_location_fx_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_location_fx_sheet.png"
+      ],
+      "source_crop_boundaries": [
+        [
+          0,
+          0,
+          512,
+          512
+        ],
+        [
+          512,
+          0,
+          1024,
+          512
+        ],
+        [
+          1024,
+          0,
+          1536,
+          512
+        ],
+        [
+          0,
+          512,
+          512,
+          1024
+        ],
+        [
+          512,
+          512,
+          1024,
+          1024
+        ],
+        [
+          1024,
+          512,
+          1536,
+          1024
+        ]
+      ],
+      "export_cell_size": 256,
+      "derived_exports_provenance": "Resized cell exports from unchanged source; not independently generated originals.",
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/previews/ENV-03_location_fx_preview.png",
+      "alpha_extrema": [
+        0,
+        253
+      ],
+      "export_files": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_location_fx_00.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "sha256": "f77f183b12fb1c165d295b53d414ea56d7aad5befc4ce0ea52db137aa310bf48",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_location_fx_01.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "sha256": "4deaec7be110a08fa8fd403565a5bb23f68c21a0c331652c39a09180a32f3f01",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_location_fx_02.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "sha256": "33a24e464efa6fc30d74a017d91ba8575e003aec5be517a0544f36c17b01ff39",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_location_fx_03.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "sha256": "2332e7562e52de586b3048d395cfb3038391677e3030167112e492b11dbfe892",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_location_fx_04.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "sha256": "c74cd7bec1f41d8be2a7d81a5fd9dde11df1544f709c34fb71a84ae90b13208e",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_location_fx_05.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "sha256": "c18bbe7fb0127be08074337ef7c5a8460ed3a71af6ab687c02aa1ce7fc033b9f",
+          "provenance": "derived from source crop"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_location_fx_sheet.png",
+          "dimensions": [
+            768,
+            512
+          ],
+          "sha256": "3d8406e6bda6088fdf39fcb8d788e763a28a67702e6f532a7bd7dea870415e9a",
+          "provenance": "derived from source crop"
+        }
+      ]
+    }
+  ],
+  "stage": "prototype_sources_and_exports_reviewed",
+  "requested_deliverables_saved_and_reviewed": true,
+  "production_approved": false,
+  "asset_id": "ENV-03"
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "lighting_reference",
+    "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer art. Reference images define painterly shape/edge rendering, warm amber focal light, muted moss/earth and cool teal-blue shadows; do not copy their boards, lettering or example characters. Consistent side-on orthographic platformer camera, restrained surface detail, readable silhouettes at mobile scale. No characters, UI, text, labels, borders, watermark or contact sheet unless an explicit production grid is requested. Ancient overgrown orchard with sideways trees spanning ravines, pale blossoms frozen open and unripe green fruit. Moss, warm bark and cool green shade; no ripe harvest abundance. Singlelandscape illustrative lighting study1536x1024 of this location using the same side-on camera and approved material vocabulary. Show Ancient overgrown orchard with sideways trees spanning ravines, pale blossoms frozen open and unripe green fruit. Moss, warm bark and cool green shade; no ripe harvest abundance. Balance clear playable-edge values against distant desaturation, amber focus versus cool shadows; no characters, UI, lettering or palette-board panels. Reference only: this assembled study does not replace separately delivered layers, props, FX or tiles. This image is a single whole-scene illustrative reference, NOT a runtime layer or proof of packcompletion.",
+    "reference_images": [
+      "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-001/ART-001_final_visual_style_guide.png",
+      "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-002/ART-002_color_palette_and_lighting.png",
+      "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-006/ART-006_rendering_consistency_guide.png"
+    ],
+    "generation_tool": "built-in image_gen"
+  },
+  {
+    "slug": "distant_background",
+    "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer art. Reference images define painterly shape/edge rendering, warm amber focal light, muted moss/earth and cool teal-blue shadows; do not copy their boards, lettering or example characters. Consistent side-on orthographic platformer camera, restrained surface detail, readable silhouettes at mobile scale. No characters, UI, text, labels, borders, watermark or contact sheet unless an explicit production grid is requested. Ancient overgrown orchard with sideways trees spanning ravines, pale blossoms frozen open and unripe green fruit. Moss, warm bark and cool green shade; no ripe harvest abundance. Single separate parallax layer, landscape landscape 1536x1024, no assembled full scene or embedded playable platforms. All layers share a level side-on horizon at y460, ambient light from upper left. Horizontally repeating peripheral shapes and similar edge luminance, no unique landmark cut at image edges; verify seam in export. Draw ONLY hazy orchard canopy ridges and pale sky glimpses, distant ravine atmosphere. Fully opaque far backdrop, no midground or foreground. Additional lightingreference defines palette/camera only. Do not copy assembledscene. Draw ONLY requesteddepthlayer.",
+    "reference_images": [
+      "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_lighting_reference_original.png"
+    ],
+    "generation_tool": "built-in image_gen"
+  },
+  {
+    "slug": "midground",
+    "prompt": "Use case: precise-object-edit. Edit this midground game layer for Briarwake orchard. Preserve all physical branches, leaves, pale flowers, unripe green fruit and masonry shapes, positions and canvas. Remove ALL diffuse golden haze, sky color, background paint, lighting bloom, shadow halos and glow outside the actual solid objects. Every gap between branches, leaves, roots and buildings and all blank background must become fully alpha-zero transparent; preserve opaque interiors of solid objects. No fog or yellow ambient cloud anywhere. Remove lantern fixtures and bright amber light; desaturate physical art for a low contrast distant depth band. Return true transparent PNG, never a colored background. Do not add any new objects.",
+    "reference_images": [
+      "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_midground_original.png"
+    ],
+    "generation_tool": "built-in image_gen"
+  },
+  {
+    "slug": "foreground",
+    "prompt": "Use case: precise-object-edit. Edit this foreground game layer for Briarwake orchard. Preserve all physical branches, leaves, pale flowers, unripe green fruit and masonry shapes, positions and canvas. Remove ALL diffuse golden haze, sky color, background paint, lighting bloom, shadow halos and glow outside the actual solid objects. Every gap between branches, leaves, roots and buildings and all blank background must become fully alpha-zero transparent; preserve opaque interiors of solid objects. No fog or yellow ambient cloud anywhere. Keep the broad center fully empty and clear for gameplay; no foreground light bloom. Return true transparent PNG, never a colored background. Do not add any new objects.",
+    "reference_images": [
+      "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_foreground_original.png"
+    ],
+    "generation_tool": "built-in image_gen"
+  },
+  {
+    "slug": "terrain_atlas",
+    "prompt": "Use case: stylized-concept. Lanterns Underroot Briarwake orchard TERRAIN TILE atlas for a hand-painted 2D side-scroller. ONE SQUARE image tightly divided into EXACTLY FOUR EQUAL COLUMNS and FOUR EQUAL ROWS, 16 equal square cells, no gutters or margins, full canvas used. Exactly four tiles per row, never three rows of three plus a strip. Each tile is simple moss-topped brown earth with sparse blue-gray irrigation stone and tiny embedded roots, no branches, fruit, lanterns, blossoms, plants, ruins, glows, shadows, arches or scenery. Front orthographic elevation, no perspective. Exact content reading order: row1: outer top-left solid terrain corner; top middle terrain surface; outer top-right solid terrain corner; isolated single solid terrain block. Row2: vertical left terrain wall; opaque full square interior earth/stone fill NO holes; vertical right wall; repeatable narrow ledge middle. Row3: outer bottom-left terrain corner; repeatable terrain underside; outer bottom-right terrain corner; narrow ledge left cap. Row4: narrow ledge right cap; 45-degree rising slope; 45-degree falling slope; three-step ascending terrain stairs. Solid fill reaches all connecting cell edges, never floating decorative islands inside tiles. Thin moss only on upward exposed edges. All modules fit own cell, connecting edges match, empty outside corners are genuinely alpha-zero transparent. No text, numbers, labels or drawn grid. Designed for 64px export per tile. Crisp readable game tiles, restrained painterly texture and muted green/brown/blue-gray palette. Background transparent.",
+    "reference_images": [],
+    "generation_tool": "built-in image_gen"
+  },
+  {
+    "slug": "decorative_props",
+    "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer. Match ART001/002/006 painterly shading, readable silhouettes, warm amber accents, muted moss/earth and cool teal shadows. Fixed side-on orthographic gamecamera. No characters, UI, lettering, logos, panels, gridlines or contactboard. Chapters Chapter2 missions2.1–2.4 and full-story Chapter2: sideways orchard trees over ravines, permanently open blossoms/unripe fruit, root/fallen-trunk/stone-irrigation platforms, bound groves and root-stone. Mossjaw arena uses three climbable root platforms and destructible stone column. Guardian not baked into environment. EXACTLY8distinct isolatedprops in equal4column2rowcells on1536x1024landscape. Per-cell384x512, chronologicalreadingorder: 1:blossom branch with unripe fruit, 2:broken irrigation channel, 3:worn family carving, 4:mossy orchard wall section, 5:small exposed root cluster, 6:fallen blossom cluster, 7:short fallen trunk, 8:unripe fruit twig. Side-on matchinglightingreference, allfullobjects safelyinsidecell with50pxpadding. Max260pxwide/360pxtall. No ground/shadow, no connectedscenery, no materialboards, true transparent gaps and opaqueobjects. All space outside physical objects or compact FX must be true alpha-zero, no diffuse environmental glow or haze.",
+    "reference_images": [
+      "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_lighting_reference_original.png"
+    ],
+    "generation_tool": "built-in image_gen"
+  },
+  {
+    "slug": "interactive_props",
+    "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer. Match ART001/002/006 painterly shading, readable silhouettes, warm amber accents, muted moss/earth and cool teal shadows. Fixed side-on orthographic gamecamera. No characters, UI, lettering, logos, panels, gridlines or contactboard. Chapters Chapter2 missions2.1–2.4 and full-story Chapter2: sideways orchard trees over ravines, permanently open blossoms/unripe fruit, root/fallen-trunk/stone-irrigation platforms, bound groves and root-stone. Mossjaw arena uses three climbable root platforms and destructible stone column. Guardian not baked into environment. EXACTLY6isolated fullprops in equal3columns2rows,1536x1024canvas,512squarecells, readingorder 1:stone node with threeintact rootbindings, 2:same stone node with rootbindings severed andcurledout, 3:freestanding cracked stonecolumn intact, 4:samecolumn brokenbase exposes rootstone socket, 5:sturdy horizontal rootedbranch neutral straight, 6:samebranch bentdown underweight but nocharacter. Pairs1/2,3/4,5/6 MUST preserve exactsameobject design, scale, view andpivot, only requestedstate changes. Centerallobjects with70pxpadding; maximum360px inanydimension. No characters, scene, floor, shadow or extraFX. No unreadabletext. Truealpha gaps, opaquebodyinteriors excepttranslucentrootplatform. No panels or visual labels. All space outside physical objects or compact FX must be true alpha-zero, no diffuse environmental glow or haze.",
+    "reference_images": [
+      "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_lighting_reference_original.png"
+    ],
+    "generation_tool": "built-in image_gen"
+  },
+  {
+    "slug": "location_fx",
+    "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer. Match ART001/002/006 painterly shading, readable silhouettes, warm amber accents, muted moss/earth and cool teal shadows. Fixed side-on orthographic gamecamera. No characters, UI, lettering, logos, panels, gridlines or contactboard.  FXonly coherent6phaseatlas equal3cols2rows on1536x1024,512squarecells, samefixedpivot. One rootbinding release particleburst only, no node/rootgeometry. Tiny leaf/fiber seed, smallburst, outwardspread, leavesdrift, fewfaintleaves, finalfadingleaf. No gore. EXACTLY6distinctphases readingorder 1:seed, 2:burst, 3:spread, 4:drift, 5:diminish, 6:fade. Each boundedFX including softfalloff withincentral320squarebox ofcell. Fullytransparentotherpixels, no object, terrain, backdrop, characters or bakedfloor. No celloverlap. All space outside physical objects or compact FX must be true alpha-zero, no diffuse environmental glow or haze.",
+    "reference_images": [
+      "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_lighting_reference_original.png"
+    ],
+    "generation_tool": "built-in image_gen"
+  }
+]
