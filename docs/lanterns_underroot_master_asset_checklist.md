@@ -1004,48 +1004,222 @@ Verified across all 11 packs: seven categories have reviewed prototype sources a
 
 # Phase 09 — Audio Asset Inventory
 
+<!-- phase09-summary:start -->
+**Reviewed procedural prototypes: 34/34.** [Asset index](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/PHASE09_index.md). Checked items record saved audio exports with level, loudness, clipping and loop-seam measurements and a spectrogram preview, not final production approval. Audio is synthesized from code (tools/audiolib.py, aud_sfx.py, aud_amb.py, aud_music.py), was not auditioned by ear, and music tracks are placeholder-grade. Listening review, mix balance and runtime integration remain separate. No ZIP files or runtime integration added.
+<!-- phase09-summary:end -->
+
 ## Sound effects
 
-- [ ] AUD-SFX-001 — Running on grass
-- [ ] AUD-SFX-002 — Running on stone
-- [ ] AUD-SFX-003 — Jump
-- [ ] AUD-SFX-004 — Landing
-- [ ] AUD-SFX-005 — Sword swing
-- [ ] AUD-SFX-006 — Sword impact
-- [ ] AUD-SFX-007 — Enemy attack
-- [ ] AUD-SFX-008 — Enemy defeat
-- [ ] AUD-SFX-009 — Player hurt
-- [ ] AUD-SFX-010 — Chest opening
-- [ ] AUD-SFX-011 — Collectible pickup
-- [ ] AUD-SFX-012 — Rune activation
-- [ ] AUD-SFX-013 — Checkpoint activation
-- [ ] AUD-SFX-014 — Door opening
-- [ ] AUD-SFX-015 — Boss attack set
-- [ ] AUD-SFX-016 — Boss damage
-- [ ] AUD-SFX-017 — Boss defeat
-- [ ] AUD-SFX-018 — UI selection and confirmation
+- [x] AUD-SFX-001 — Running on grass
+  <!-- phase09-record:AUD-SFX-001:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-SFX-001](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-001) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-001/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-001/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-001/previews)
+  - Selected audio: [AUD-SFX-001_running_on_grass_step_1.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-001/exports/AUD-SFX-001_running_on_grass_step_1.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-001/previews/AUD-SFX-001_spectrogram.png)
+  <!-- phase09-record:AUD-SFX-001:end -->
+- [x] AUD-SFX-002 — Running on stone
+  <!-- phase09-record:AUD-SFX-002:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-SFX-002](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-002) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-002/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-002/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-002/previews)
+  - Selected audio: [AUD-SFX-002_running_on_stone_step_1.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-002/exports/AUD-SFX-002_running_on_stone_step_1.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-002/previews/AUD-SFX-002_spectrogram.png)
+  <!-- phase09-record:AUD-SFX-002:end -->
+- [x] AUD-SFX-003 — Jump
+  <!-- phase09-record:AUD-SFX-003:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-SFX-003](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-003) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-003/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-003/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-003/previews)
+  - Selected audio: [AUD-SFX-003_jump.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-003/exports/AUD-SFX-003_jump.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-003/previews/AUD-SFX-003_spectrogram.png)
+  <!-- phase09-record:AUD-SFX-003:end -->
+- [x] AUD-SFX-004 — Landing
+  <!-- phase09-record:AUD-SFX-004:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-SFX-004](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-004) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-004/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-004/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-004/previews)
+  - Selected audio: [AUD-SFX-004_landing_soft.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-004/exports/AUD-SFX-004_landing_soft.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-004/previews/AUD-SFX-004_spectrogram.png)
+  <!-- phase09-record:AUD-SFX-004:end -->
+- [x] AUD-SFX-005 — Sword swing
+  <!-- phase09-record:AUD-SFX-005:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-SFX-005](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-005) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-005/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-005/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-005/previews)
+  - Selected audio: [AUD-SFX-005_sword_swing_swing_1.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-005/exports/AUD-SFX-005_sword_swing_swing_1.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-005/previews/AUD-SFX-005_spectrogram.png)
+  <!-- phase09-record:AUD-SFX-005:end -->
+- [x] AUD-SFX-006 — Sword impact
+  <!-- phase09-record:AUD-SFX-006:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-SFX-006](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-006) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-006/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-006/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-006/previews)
+  - Selected audio: [AUD-SFX-006_sword_impact_impact_1.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-006/exports/AUD-SFX-006_sword_impact_impact_1.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-006/previews/AUD-SFX-006_spectrogram.png)
+  <!-- phase09-record:AUD-SFX-006:end -->
+- [x] AUD-SFX-007 — Enemy attack
+  <!-- phase09-record:AUD-SFX-007:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-SFX-007](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-007) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-007/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-007/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-007/previews)
+  - Selected audio: [AUD-SFX-007_enemy_attack_attack_1.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-007/exports/AUD-SFX-007_enemy_attack_attack_1.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-007/previews/AUD-SFX-007_spectrogram.png)
+  <!-- phase09-record:AUD-SFX-007:end -->
+- [x] AUD-SFX-008 — Enemy defeat
+  <!-- phase09-record:AUD-SFX-008:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-SFX-008](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-008) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-008/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-008/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-008/previews)
+  - Selected audio: [AUD-SFX-008_enemy_defeat.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-008/exports/AUD-SFX-008_enemy_defeat.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-008/previews/AUD-SFX-008_spectrogram.png)
+  <!-- phase09-record:AUD-SFX-008:end -->
+- [x] AUD-SFX-009 — Player hurt
+  <!-- phase09-record:AUD-SFX-009:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-SFX-009](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-009) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-009/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-009/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-009/previews)
+  - Selected audio: [AUD-SFX-009_player_hurt_hurt_1.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-009/exports/AUD-SFX-009_player_hurt_hurt_1.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-009/previews/AUD-SFX-009_spectrogram.png)
+  <!-- phase09-record:AUD-SFX-009:end -->
+- [x] AUD-SFX-010 — Chest opening
+  <!-- phase09-record:AUD-SFX-010:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-SFX-010](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-010) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-010/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-010/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-010/previews)
+  - Selected audio: [AUD-SFX-010_chest_opening.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-010/exports/AUD-SFX-010_chest_opening.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-010/previews/AUD-SFX-010_spectrogram.png)
+  <!-- phase09-record:AUD-SFX-010:end -->
+- [x] AUD-SFX-011 — Collectible pickup
+  <!-- phase09-record:AUD-SFX-011:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-SFX-011](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-011) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-011/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-011/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-011/previews)
+  - Selected audio: [AUD-SFX-011_collectible_pickup.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-011/exports/AUD-SFX-011_collectible_pickup.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-011/previews/AUD-SFX-011_spectrogram.png)
+  <!-- phase09-record:AUD-SFX-011:end -->
+- [x] AUD-SFX-012 — Rune activation
+  <!-- phase09-record:AUD-SFX-012:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-SFX-012](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-012) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-012/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-012/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-012/previews)
+  - Selected audio: [AUD-SFX-012_rune_activation.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-012/exports/AUD-SFX-012_rune_activation.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-012/previews/AUD-SFX-012_spectrogram.png)
+  <!-- phase09-record:AUD-SFX-012:end -->
+- [x] AUD-SFX-013 — Checkpoint activation
+  <!-- phase09-record:AUD-SFX-013:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-SFX-013](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-013) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-013/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-013/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-013/previews)
+  - Selected audio: [AUD-SFX-013_checkpoint_activation.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-013/exports/AUD-SFX-013_checkpoint_activation.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-013/previews/AUD-SFX-013_spectrogram.png)
+  <!-- phase09-record:AUD-SFX-013:end -->
+- [x] AUD-SFX-014 — Door opening
+  <!-- phase09-record:AUD-SFX-014:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-SFX-014](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-014) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-014/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-014/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-014/previews)
+  - Selected audio: [AUD-SFX-014_door_opening.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-014/exports/AUD-SFX-014_door_opening.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-014/previews/AUD-SFX-014_spectrogram.png)
+  <!-- phase09-record:AUD-SFX-014:end -->
+- [x] AUD-SFX-015 — Boss attack set
+  <!-- phase09-record:AUD-SFX-015:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-SFX-015](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-015) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-015/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-015/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-015/previews)
+  - Selected audio: [AUD-SFX-015_boss_attack_set_slam.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-015/exports/AUD-SFX-015_boss_attack_set_slam.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-015/previews/AUD-SFX-015_spectrogram.png)
+  <!-- phase09-record:AUD-SFX-015:end -->
+- [x] AUD-SFX-016 — Boss damage
+  <!-- phase09-record:AUD-SFX-016:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-SFX-016](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-016) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-016/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-016/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-016/previews)
+  - Selected audio: [AUD-SFX-016_boss_damage.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-016/exports/AUD-SFX-016_boss_damage.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-016/previews/AUD-SFX-016_spectrogram.png)
+  <!-- phase09-record:AUD-SFX-016:end -->
+- [x] AUD-SFX-017 — Boss defeat
+  <!-- phase09-record:AUD-SFX-017:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-SFX-017](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-017) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-017/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-017/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-017/previews)
+  - Selected audio: [AUD-SFX-017_boss_defeat.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-017/exports/AUD-SFX-017_boss_defeat.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-017/previews/AUD-SFX-017_spectrogram.png)
+  <!-- phase09-record:AUD-SFX-017:end -->
+- [x] AUD-SFX-018 — UI selection and confirmation
+  <!-- phase09-record:AUD-SFX-018:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-SFX-018](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-018) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-018/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-018/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-018/previews)
+  - Selected audio: [AUD-SFX-018_ui_selection_and_confirmation_select.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-018/exports/AUD-SFX-018_ui_selection_and_confirmation_select.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-018/previews/AUD-SFX-018_spectrogram.png)
+  <!-- phase09-record:AUD-SFX-018:end -->
 
 ## Ambient soundscapes
 
-- [ ] AUD-AMB-001 — Brackenreach night
-- [ ] AUD-AMB-002 — Village ambience
-- [ ] AUD-AMB-003 — Forest birds and wind
-- [ ] AUD-AMB-004 — Cave drips
-- [ ] AUD-AMB-005 — Underground rumble
-- [ ] AUD-AMB-006 — Glasswater Fen water
-- [ ] AUD-AMB-007 — Bellows Gorge bells
-- [ ] AUD-AMB-008 — Quiet Crown ambience
+- [x] AUD-AMB-001 — Brackenreach night
+  <!-- phase09-record:AUD-AMB-001:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-AMB-001](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-001) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-001/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-001/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-001/previews)
+  - Selected audio: [AUD-AMB-001_brackenreach_night.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-001/exports/AUD-AMB-001_brackenreach_night.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-001/previews/AUD-AMB-001_spectrogram.png)
+  <!-- phase09-record:AUD-AMB-001:end -->
+- [x] AUD-AMB-002 — Village ambience
+  <!-- phase09-record:AUD-AMB-002:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-AMB-002](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-002) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-002/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-002/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-002/previews)
+  - Selected audio: [AUD-AMB-002_village_ambience.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-002/exports/AUD-AMB-002_village_ambience.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-002/previews/AUD-AMB-002_spectrogram.png)
+  <!-- phase09-record:AUD-AMB-002:end -->
+- [x] AUD-AMB-003 — Forest birds and wind
+  <!-- phase09-record:AUD-AMB-003:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-AMB-003](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-003) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-003/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-003/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-003/previews)
+  - Selected audio: [AUD-AMB-003_forest_birds_and_wind.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-003/exports/AUD-AMB-003_forest_birds_and_wind.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-003/previews/AUD-AMB-003_spectrogram.png)
+  <!-- phase09-record:AUD-AMB-003:end -->
+- [x] AUD-AMB-004 — Cave drips
+  <!-- phase09-record:AUD-AMB-004:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-AMB-004](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-004) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-004/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-004/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-004/previews)
+  - Selected audio: [AUD-AMB-004_cave_drips.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-004/exports/AUD-AMB-004_cave_drips.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-004/previews/AUD-AMB-004_spectrogram.png)
+  <!-- phase09-record:AUD-AMB-004:end -->
+- [x] AUD-AMB-005 — Underground rumble
+  <!-- phase09-record:AUD-AMB-005:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-AMB-005](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-005) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-005/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-005/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-005/previews)
+  - Selected audio: [AUD-AMB-005_underground_rumble.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-005/exports/AUD-AMB-005_underground_rumble.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-005/previews/AUD-AMB-005_spectrogram.png)
+  <!-- phase09-record:AUD-AMB-005:end -->
+- [x] AUD-AMB-006 — Glasswater Fen water
+  <!-- phase09-record:AUD-AMB-006:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-AMB-006](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-006) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-006/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-006/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-006/previews)
+  - Selected audio: [AUD-AMB-006_glasswater_fen_water.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-006/exports/AUD-AMB-006_glasswater_fen_water.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-006/previews/AUD-AMB-006_spectrogram.png)
+  <!-- phase09-record:AUD-AMB-006:end -->
+- [x] AUD-AMB-007 — Bellows Gorge bells
+  <!-- phase09-record:AUD-AMB-007:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-AMB-007](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-007) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-007/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-007/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-007/previews)
+  - Selected audio: [AUD-AMB-007_bellows_gorge_bells.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-007/exports/AUD-AMB-007_bellows_gorge_bells.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-007/previews/AUD-AMB-007_spectrogram.png)
+  <!-- phase09-record:AUD-AMB-007:end -->
+- [x] AUD-AMB-008 — Quiet Crown ambience
+  <!-- phase09-record:AUD-AMB-008:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-AMB-008](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-008) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-008/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-008/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-008/previews)
+  - Selected audio: [AUD-AMB-008_quiet_crown_ambience.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-008/exports/AUD-AMB-008_quiet_crown_ambience.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-008/previews/AUD-AMB-008_spectrogram.png)
+  <!-- phase09-record:AUD-AMB-008:end -->
 
 ## Music
 
-- [ ] AUD-MUS-001 — Main theme
-- [ ] AUD-MUS-002 — Village theme
-- [ ] AUD-MUS-003 — Forest exploration
-- [ ] AUD-MUS-004 — Temple exploration
-- [ ] AUD-MUS-005 — Boss battle
-- [ ] AUD-MUS-006 — Stillmere theme
-- [ ] AUD-MUS-007 — Final boss theme
-- [ ] AUD-MUS-008 — Ending theme
+- [x] AUD-MUS-001 — Main theme
+  <!-- phase09-record:AUD-MUS-001:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-MUS-001](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-001) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-001/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-001/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-001/previews)
+  - Selected audio: [AUD-MUS-001_main_theme.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-001/exports/AUD-MUS-001_main_theme.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-001/previews/AUD-MUS-001_spectrogram.png)
+  <!-- phase09-record:AUD-MUS-001:end -->
+- [x] AUD-MUS-002 — Village theme
+  <!-- phase09-record:AUD-MUS-002:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-MUS-002](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-002) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-002/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-002/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-002/previews)
+  - Selected audio: [AUD-MUS-002_village_theme.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-002/exports/AUD-MUS-002_village_theme.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-002/previews/AUD-MUS-002_spectrogram.png)
+  <!-- phase09-record:AUD-MUS-002:end -->
+- [x] AUD-MUS-003 — Forest exploration
+  <!-- phase09-record:AUD-MUS-003:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-MUS-003](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-003) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-003/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-003/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-003/previews)
+  - Selected audio: [AUD-MUS-003_forest_exploration.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-003/exports/AUD-MUS-003_forest_exploration.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-003/previews/AUD-MUS-003_spectrogram.png)
+  <!-- phase09-record:AUD-MUS-003:end -->
+- [x] AUD-MUS-004 — Temple exploration
+  <!-- phase09-record:AUD-MUS-004:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-MUS-004](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-004) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-004/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-004/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-004/previews)
+  - Selected audio: [AUD-MUS-004_temple_exploration.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-004/exports/AUD-MUS-004_temple_exploration.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-004/previews/AUD-MUS-004_spectrogram.png)
+  <!-- phase09-record:AUD-MUS-004:end -->
+- [x] AUD-MUS-005 — Boss battle
+  <!-- phase09-record:AUD-MUS-005:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-MUS-005](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-005) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-005/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-005/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-005/previews)
+  - Selected audio: [AUD-MUS-005_boss_battle.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-005/exports/AUD-MUS-005_boss_battle.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-005/previews/AUD-MUS-005_spectrogram.png)
+  <!-- phase09-record:AUD-MUS-005:end -->
+- [x] AUD-MUS-006 — Stillmere theme
+  <!-- phase09-record:AUD-MUS-006:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-MUS-006](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-006) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-006/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-006/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-006/previews)
+  - Selected audio: [AUD-MUS-006_stillmere_theme.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-006/exports/AUD-MUS-006_stillmere_theme.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-006/previews/AUD-MUS-006_spectrogram.png)
+  <!-- phase09-record:AUD-MUS-006:end -->
+- [x] AUD-MUS-007 — Final boss theme
+  <!-- phase09-record:AUD-MUS-007:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-MUS-007](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-007) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-007/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-007/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-007/previews)
+  - Selected audio: [AUD-MUS-007_final_boss_theme.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-007/exports/AUD-MUS-007_final_boss_theme.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-007/previews/AUD-MUS-007_spectrogram.png)
+  <!-- phase09-record:AUD-MUS-007:end -->
+- [x] AUD-MUS-008 — Ending theme
+  <!-- phase09-record:AUD-MUS-008:start -->
+  - Production stage: procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending. Final production approval pending.
+  - Saved folder: [AUD-MUS-008](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-008) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-008/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-008/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-008/previews)
+  - Selected audio: [AUD-MUS-008_ending_theme.ogg](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-008/exports/AUD-MUS-008_ending_theme.ogg) · [spectrogram](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-008/previews/AUD-MUS-008_spectrogram.png)
+  <!-- phase09-record:AUD-MUS-008:end -->
 
 # Phase 10 — Later Campaign-Specific Assets
 
