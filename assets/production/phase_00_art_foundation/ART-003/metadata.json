@@ -1,0 +1,55 @@
+{
+  "asset_id": "ART-003",
+  "title": "Character proportion and scale sheet",
+  "phase": "00",
+  "subsection": null,
+  "checked": true,
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-003",
+  "source_chat": "https://chatgpt.com/share/6ad136a4-4cc8-83ee-9742-05bc90e2a1dc",
+  "last_updated": "2026-10-16T10:24:37+05:30",
+  "stage": "source images recovered; production approval not inferred from checklist",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-003/source_images/ART-003_generation_01_0094.png",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/archive/shared-chat/images/00000000-0094-8208-b9f8-c51bc55ba4a5.png",
+      "sha256": "e73bb79c3482267d608ce737705f93f323dbe712841a108d4a5342c0c3cf8951",
+      "chat_message_id": "6c69b991-9fa8-475f-a81b-2268ed6aeefc",
+      "title": "Lanterns Underroot Style Guide"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-003/source_images/ART-003_generation_02_e2e8.png",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/archive/shared-chat/images/00000000-e2e8-8208-a0ae-90729f2288e0.png",
+      "sha256": "9542892b2a7dd43303b1eb76e7dc1e2c25d964551c4315913321080dd465cc1c",
+      "chat_message_id": "a1e10ef6-cc1d-42de-8da3-fea3accd3d5e",
+      "title": "Lanterns Underroot Visual Style Guide"
+    }
+  ],
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-003/ART-003_character_proportion_and_scale.png",
+      "bytes": 212199,
+      "sha256": "41b0dc44ce7bd598e6cfe70ad64d3a864fba1d1435109d19dc1d709faac6db60"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-003/ART-003_character_proportion_and_scale.svg",
+      "bytes": 15816,
+      "sha256": "2c62bc274ed73c6ec686c5dd5cc84bc34abfd1094b8466a564bdd77c1293c1f7"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-003/source_images/ART-003_generation_01_0094.png",
+      "bytes": 2597281,
+      "sha256": "e73bb79c3482267d608ce737705f93f323dbe712841a108d4a5342c0c3cf8951"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-003/source_images/ART-003_generation_02_e2e8.png",
+      "bytes": 2805949,
+      "sha256": "9542892b2a7dd43303b1eb76e7dc1e2c25d964551c4315913321080dd465cc1c"
+    }
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-003/ART-003_character_proportion_and_scale.png",
+  "primary_image_provenance": "reconstructed from the original SVG-generation recipe preserved in the chat; generated style-guide attempts are kept in source_images",
+  "primary_image_dimensions": [
+    1792,
+    1024
+  ]
+}

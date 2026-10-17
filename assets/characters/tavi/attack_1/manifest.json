@@ -1,0 +1,63 @@
+{
+  "animation": "attack_1",
+  "fps": 21,
+  "loop": false,
+  "frame_count": 8,
+  "frame_size": [
+    320,
+    448
+  ],
+  "source": "archive/shared-chat/images/00000000-ded4-8211-9eaa-40e6a43d15c4.png",
+  "source_sha256": "f427702d5feb6e3400275023f57ca8a75e5061fa1bcccd9eb9f73da369ce1622",
+  "source_rects": [
+    [
+      27,
+      206,
+      244,
+      437
+    ],
+    [
+      265,
+      143,
+      501,
+      437
+    ],
+    [
+      520,
+      122,
+      779,
+      437
+    ],
+    [
+      779,
+      135,
+      1039,
+      437
+    ],
+    [
+      1039,
+      208,
+      1299,
+      437
+    ],
+    [
+      1299,
+      210,
+      1558,
+      437
+    ],
+    [
+      1558,
+      189,
+      1818,
+      437
+    ],
+    [
+      1831,
+      212,
+      2058,
+      437
+    ]
+  ],
+  "status": "rebuilt prototype derivative; review animation consistency and cropped scarf/sword edges before release"
+}

@@ -1,0 +1,63 @@
+{
+  "animation": "landing",
+  "fps": 14,
+  "loop": false,
+  "frame_count": 8,
+  "frame_size": [
+    320,
+    448
+  ],
+  "source": "archive/shared-chat/images/00000000-23d8-8211-844b-a339dd806bea.png",
+  "source_sha256": "cbf15684da2293087f4b0b28fd762c99511082c90223857c4f92404667bfe44b",
+  "source_rects": [
+    [
+      22,
+      132,
+      257,
+      439
+    ],
+    [
+      278,
+      193,
+      516,
+      447
+    ],
+    [
+      539,
+      218,
+      788,
+      447
+    ],
+    [
+      817,
+      257,
+      1059,
+      447
+    ],
+    [
+      1069,
+      269,
+      1324,
+      447
+    ],
+    [
+      1343,
+      227,
+      1584,
+      447
+    ],
+    [
+      1609,
+      185,
+      1846,
+      447
+    ],
+    [
+      1871,
+      151,
+      2105,
+      447
+    ]
+  ],
+  "status": "rebuilt prototype derivative; review animation consistency and cropped scarf/sword edges before release"
+}

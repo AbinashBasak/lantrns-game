@@ -1,0 +1,467 @@
+[
+  {
+    "animation": "idle",
+    "fps": 7,
+    "loop": true,
+    "frame_count": 8,
+    "frame_size": [
+      320,
+      448
+    ],
+    "source": "archive/shared-chat/images/00000000-56fc-8211-8740-4d4ebed7376a.png",
+    "source_sha256": "402be2af91724252bab67519fe2d440bbff85cd1753a45b44383894c80059d41",
+    "source_rects": [
+      [
+        14,
+        190,
+        267,
+        621
+      ],
+      [
+        272,
+        189,
+        535,
+        621
+      ],
+      [
+        545,
+        191,
+        807,
+        621
+      ],
+      [
+        814,
+        189,
+        1059,
+        622
+      ],
+      [
+        1086,
+        189,
+        1336,
+        623
+      ],
+      [
+        1358,
+        192,
+        1614,
+        624
+      ],
+      [
+        1629,
+        189,
+        1868,
+        624
+      ],
+      [
+        1900,
+        188,
+        2146,
+        625
+      ]
+    ],
+    "status": "rebuilt prototype derivative; review animation consistency and cropped scarf/sword edges before release"
+  },
+  {
+    "animation": "run",
+    "fps": 12,
+    "loop": true,
+    "frame_count": 12,
+    "frame_size": [
+      320,
+      448
+    ],
+    "source": "archive/shared-chat/images/00000000-8e54-8246-8924-9dfdd45392eb.png",
+    "source_sha256": "ecf489144e97b302365e6e1c9c9481aa3c7e1b113149c4ee6401a6a96b5fc640",
+    "source_rects": [
+      [
+        9,
+        165,
+        181,
+        451
+      ],
+      [
+        181,
+        168,
+        362,
+        451
+      ],
+      [
+        362,
+        167,
+        542,
+        452
+      ],
+      [
+        543,
+        162,
+        724,
+        452
+      ],
+      [
+        724,
+        163,
+        878,
+        424
+      ],
+      [
+        905,
+        160,
+        1071,
+        422
+      ],
+      [
+        1086,
+        164,
+        1251,
+        432
+      ],
+      [
+        1267,
+        164,
+        1429,
+        452
+      ],
+      [
+        1448,
+        161,
+        1629,
+        451
+      ],
+      [
+        1629,
+        161,
+        1797,
+        452
+      ],
+      [
+        1810,
+        161,
+        1980,
+        452
+      ],
+      [
+        1991,
+        162,
+        2159,
+        452
+      ]
+    ],
+    "status": "rebuilt prototype derivative; review animation consistency and cropped scarf/sword edges before release"
+  },
+  {
+    "animation": "jump_start",
+    "fps": 12,
+    "loop": false,
+    "frame_count": 8,
+    "frame_size": [
+      320,
+      448
+    ],
+    "source": "archive/shared-chat/images/00000000-c220-8209-99d3-5c6ce2235bfe.png",
+    "source_sha256": "bb9e4fb4481ca1b51b4d8449beec1ec835503738aeb9e696de3f5cca368daf87",
+    "source_rects": [
+      [
+        15,
+        255,
+        235,
+        478
+      ],
+      [
+        249,
+        290,
+        470,
+        478
+      ],
+      [
+        481,
+        216,
+        698,
+        478
+      ],
+      [
+        705,
+        157,
+        904,
+        438
+      ],
+      [
+        940,
+        125,
+        1116,
+        388
+      ],
+      [
+        1176,
+        100,
+        1367,
+        374
+      ],
+      [
+        1411,
+        149,
+        1600,
+        451
+      ],
+      [
+        1646,
+        214,
+        1866,
+        472
+      ]
+    ],
+    "status": "rebuilt prototype derivative; review animation consistency and cropped scarf/sword edges before release"
+  },
+  {
+    "animation": "jump_rise",
+    "fps": 10,
+    "loop": false,
+    "frame_count": 8,
+    "frame_size": [
+      320,
+      448
+    ],
+    "source": "archive/shared-chat/images/00000000-df08-8211-b298-268672e2cbd4.png",
+    "source_sha256": "fb5d4542bd76e6efd1937a07001a1d143b3cfc660df96d3bc1b74657a69c0728",
+    "source_rects": [
+      [
+        23,
+        226,
+        233,
+        453
+      ],
+      [
+        275,
+        196,
+        485,
+        453
+      ],
+      [
+        524,
+        167,
+        750,
+        453
+      ],
+      [
+        786,
+        127,
+        1000,
+        414
+      ],
+      [
+        1040,
+        85,
+        1264,
+        384
+      ],
+      [
+        1299,
+        68,
+        1511,
+        364
+      ],
+      [
+        1569,
+        32,
+        1782,
+        356
+      ],
+      [
+        1839,
+        32,
+        2062,
+        344
+      ]
+    ],
+    "status": "rebuilt prototype derivative; review animation consistency and cropped scarf/sword edges before release"
+  },
+  {
+    "animation": "jump_fall",
+    "fps": 10,
+    "loop": false,
+    "frame_count": 8,
+    "frame_size": [
+      320,
+      448
+    ],
+    "source": "archive/shared-chat/images/00000000-bf74-8207-a0a1-c5e04ce4ab5c.png",
+    "source_sha256": "51e497f5d3672a893bbb8df1fec2b6e3abb368b21bf150f23b6aa515ff012e16",
+    "source_rects": [
+      [
+        24,
+        134,
+        255,
+        437
+      ],
+      [
+        282,
+        123,
+        501,
+        440
+      ],
+      [
+        535,
+        151,
+        759,
+        434
+      ],
+      [
+        780,
+        167,
+        1021,
+        451
+      ],
+      [
+        1049,
+        160,
+        1262,
+        466
+      ],
+      [
+        1299,
+        203,
+        1529,
+        470
+      ],
+      [
+        1559,
+        241,
+        1793,
+        470
+      ],
+      [
+        1822,
+        263,
+        2063,
+        470
+      ]
+    ],
+    "status": "rebuilt prototype derivative; review animation consistency and cropped scarf/sword edges before release"
+  },
+  {
+    "animation": "landing",
+    "fps": 14,
+    "loop": false,
+    "frame_count": 8,
+    "frame_size": [
+      320,
+      448
+    ],
+    "source": "archive/shared-chat/images/00000000-23d8-8211-844b-a339dd806bea.png",
+    "source_sha256": "cbf15684da2293087f4b0b28fd762c99511082c90223857c4f92404667bfe44b",
+    "source_rects": [
+      [
+        22,
+        132,
+        257,
+        439
+      ],
+      [
+        278,
+        193,
+        516,
+        447
+      ],
+      [
+        539,
+        218,
+        788,
+        447
+      ],
+      [
+        817,
+        257,
+        1059,
+        447
+      ],
+      [
+        1069,
+        269,
+        1324,
+        447
+      ],
+      [
+        1343,
+        227,
+        1584,
+        447
+      ],
+      [
+        1609,
+        185,
+        1846,
+        447
+      ],
+      [
+        1871,
+        151,
+        2105,
+        447
+      ]
+    ],
+    "status": "rebuilt prototype derivative; review animation consistency and cropped scarf/sword edges before release"
+  },
+  {
+    "animation": "attack_1",
+    "fps": 21,
+    "loop": false,
+    "frame_count": 8,
+    "frame_size": [
+      320,
+      448
+    ],
+    "source": "archive/shared-chat/images/00000000-ded4-8211-9eaa-40e6a43d15c4.png",
+    "source_sha256": "f427702d5feb6e3400275023f57ca8a75e5061fa1bcccd9eb9f73da369ce1622",
+    "source_rects": [
+      [
+        27,
+        206,
+        244,
+        437
+      ],
+      [
+        265,
+        143,
+        501,
+        437
+      ],
+      [
+        520,
+        122,
+        779,
+        437
+      ],
+      [
+        779,
+        135,
+        1039,
+        437
+      ],
+      [
+        1039,
+        208,
+        1299,
+        437
+      ],
+      [
+        1299,
+        210,
+        1558,
+        437
+      ],
+      [
+        1558,
+        189,
+        1818,
+        437
+      ],
+      [
+        1831,
+        212,
+        2058,
+        437
+      ]
+    ],
+    "status": "rebuilt prototype derivative; review animation consistency and cropped scarf/sword edges before release"
+  }
+]

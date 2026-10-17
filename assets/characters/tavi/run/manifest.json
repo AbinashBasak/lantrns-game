@@ -1,0 +1,87 @@
+{
+  "animation": "run",
+  "fps": 12,
+  "loop": true,
+  "frame_count": 12,
+  "frame_size": [
+    320,
+    448
+  ],
+  "source": "archive/shared-chat/images/00000000-8e54-8246-8924-9dfdd45392eb.png",
+  "source_sha256": "ecf489144e97b302365e6e1c9c9481aa3c7e1b113149c4ee6401a6a96b5fc640",
+  "source_rects": [
+    [
+      9,
+      165,
+      181,
+      451
+    ],
+    [
+      181,
+      168,
+      362,
+      451
+    ],
+    [
+      362,
+      167,
+      542,
+      452
+    ],
+    [
+      543,
+      162,
+      724,
+      452
+    ],
+    [
+      724,
+      163,
+      878,
+      424
+    ],
+    [
+      905,
+      160,
+      1071,
+      422
+    ],
+    [
+      1086,
+      164,
+      1251,
+      432
+    ],
+    [
+      1267,
+      164,
+      1429,
+      452
+    ],
+    [
+      1448,
+      161,
+      1629,
+      451
+    ],
+    [
+      1629,
+      161,
+      1797,
+      452
+    ],
+    [
+      1810,
+      161,
+      1980,
+      452
+    ],
+    [
+      1991,
+      162,
+      2159,
+      452
+    ]
+  ],
+  "status": "rebuilt prototype derivative; review animation consistency and cropped scarf/sword edges before release"
+}
