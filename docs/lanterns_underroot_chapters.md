@@ -1,0 +1,716 @@
+# Lanterns Underroot
+## Full Chapter Plan — Narrative, Missions, Gameplay, and Encounters
+
+**Genre:** 2D illustrated action-adventure platformer  
+**Platforms:** Mobile and PC  
+**Structure:** Prologue, seven main chapters, and epilogue  
+**Working title:** *Lanterns Underroot*  
+**Design principle:** Every chapter should change either what the player can do, what the player understands, or how the world behaves.
+
+> **Creative note:** This is an original fantasy setting inspired by the broad genre of side-scrolling action-adventure games. Characters, locations, story events, and visual assets should be developed independently.
+
+---
+
+# Campaign Overview
+
+| Section | Location | Main story purpose | Key gameplay | Major encounter | Target duration |
+|---|---|---|---|---|---:|
+| Prologue | Brackenreach | The Hearthlight fails and Tavi leaves home | Tutorial movement, safe traversal, first combat | Root-riled Thornlings | 10–15 min |
+| Chapter 1 | The Forgotten Trail | Tavi finds evidence that the old story is incomplete | Platforming, environmental clues, basic sword combat | Trail Sentinel | 15–25 min |
+| Chapter 2 | Briarwake Orchard | Tavi learns that a guardian can be a prisoner | Moving platforms, roots, enemy telegraphs | Mossjaw | 25–35 min |
+| Chapter 3 | Glasswater Fen | The Keepers' secret is revealed | Reflection puzzles, deceptive enemies, water traversal | Glass Stag | 30–40 min |
+| Chapter 4 | Bellows Gorge | Sable's motives become clear | Sound-based hazards, shifting platforms, timed traversal | Bellows Titan; Sable encounter | 30–40 min |
+| Chapter 5 | Archive Beneath the Earth | Tavi discovers the original purpose of the Anchors | Exploration, lore, light puzzle, environmental hazards | Archive Warden | 25–35 min |
+| Chapter 6 | Root Cathedral | Tavi and Sable clash over how to save the forest | Advanced traversal, root manipulation, multi-stage duel | Sable | 35–45 min |
+| Chapter 7 | The Village That Never Ended | Tavi confronts the Quiet Crown and breaks the cycle | Memory arenas, mastery tests, final boss | The Quiet Crown | 35–50 min |
+| Epilogue | Brackenreach and the Underroot | The world changes without being destroyed | Short traversal and narrative closure | None | 5–10 min |
+
+Durations are planning estimates. They should be validated through playtesting, not treated as commitments.
+
+## Core Narrative Questions
+
+1. What caused the Hearthlight to fail?
+2. Why are creatures emerging from the forest?
+3. Were the Keepers protecting the world, controlling it, or both?
+4. Is Sable a villain, a liberator, or someone whose solution creates a new danger?
+5. Can Tavi save the villages without returning the Underroot to its old imprisonment?
+
+The answers should arrive in stages. Avoid explaining all the lore in a single cutscene; show the past through murals, altered environments, short memory scenes, and a few focused conversations.
+
+---
+
+# PROLOGUE — The Night the Light Went Out
+
+## Story goal
+Introduce Tavi, Brackenreach, the Hearthlight, and Mote. Establish the immediate crisis and give the player a clear reason to leave the village.
+
+## Opening scene
+The game opens with a quiet, illustrated panorama of Brackenreach: warm lanterns in the branches of an enormous hollow tree, wooden walkways, and villagers preparing for the Lantern Wake. Ambient sound is gentle and familiar.
+
+Tavi returns from a trail-marking errand. The player briefly controls Tavi through the village, learning movement and jumping without danger. A few villagers comment on Tavi's habit of drawing every path. Rusk reminds Tavi that a map is useful, but the forest cannot be forced to obey it.
+
+At the ceremony, the Hearthlight flickers white and dies. The soundscape drops away for a moment. Roots break through the village platforms, bridges tilt, and unfamiliar creatures emerge from cracks in the ground.
+
+## Mission sequence
+
+### Mission P1 — A Runner's Errand
+**Objective:** Carry a small parcel from the lower village to the watchpost and return.
+
+- Teach left/right movement, jump, drop-through platforms if used, and simple interaction.
+- Use a safe, compact route with one optional high ledge containing a harmless collectible.
+- Introduce map markers as visual landmarks, not a full map system.
+- Return to find the Lantern Wake beginning.
+
+**Story beat:** Tavi's mapbook is established as a recurring narrative object. Tavi marks paths because uncertainty makes them uncomfortable.
+
+### Mission P2 — The Lantern Wake
+**Objective:** Reach the square and speak to Rusk.
+
+- Allow a short walk through the village to show daily life.
+- Introduce Mote briefly as a small, strange creature at the edge of the celebration.
+- Avoid combat; the goal is to make the coming disaster feel personal.
+
+**Cutscene:** The Hearthlight turns white and goes dark. The forest seems to inhale. Platforms shift and the village is attacked by root-riled creatures.
+
+### Mission P3 — Get Everyone to Shelter
+**Objective:** Help two villagers cross a damaged bridge, then reach the lower square.
+
+- Teach emergency movement under mild pressure.
+- A fallen beam blocks the path. Tavi helps free Mote instead of attacking it.
+- Mote taps the pattern: three slow taps, a pause, two fast taps.
+- A short environmental hint shows that the creature is responding to something below ground.
+
+### Mission P4 — The Elder's Request
+**Objective:** Speak to Rusk at dawn and prepare to leave.
+
+Rusk explains that the four Anchors may stabilize the region if their lost resonance is recovered. He gives Tavi an old trail-warden sword.
+
+**Dialogue sample:**
+- **Rusk:** “The forest has changed before. It has never changed like this.”
+- **Tavi:** “Then we find the source, and we make it stop.”
+- **Rusk:** “That is what the first Keepers believed they were doing.”
+
+The last line should sound strange, but Rusk does not explain it yet.
+
+## Gameplay systems introduced
+- Basic movement and jump.
+- Interact prompts.
+- Basic enemy contact hazard in a short escape sequence.
+- Simple checkpoint at the village exit.
+- Basic HUD only after Tavi leaves shelter.
+
+## End-of-prologue scene
+Tavi steps onto the Forgotten Trail. Behind Tavi, a known bridge shifts into a new position. Mote looks back, taps the rhythm, and begins following.
+
+**Chapter transition line:** “The road home had changed. For the first time, Tavi left without knowing the way back.”
+
+## Completion criteria
+The player understands the controls, the village is threatened, the Hearthlight has failed, and Tavi has a clear goal: investigate the trail and find the Anchor network.
+
+---
+
+# CHAPTER 1 — The Forgotten Trail
+
+## Story goal
+Teach the core platforming-and-combat loop, introduce the strange changes in the forest, and give the player the first evidence that the Keepers' version of history is incomplete.
+
+## Location and mood
+A once-familiar woodland path reshaped by huge roots, broken watchtowers, rope bridges, and ancient stonework. The palette begins warm and green, then moves toward muted teal and amber as Tavi gets closer to the buried temple.
+
+## Mission sequence
+
+### Mission 1.1 — Mark the New Road
+**Objective:** Follow the old trail markers to the broken stone arch.
+
+- Introduce the main camera behavior and the level's visual language.
+- Place optional collectibles on safe, readable branches of the path.
+- Show that some old signposts point into empty space.
+- Let the player learn to judge gaps before adding combat pressure.
+
+**Environmental story:** A trail marker has been moved by roots, but the soil around it is undisturbed. Something beneath the ground altered the route.
+
+### Mission 1.2 — The Thornlings
+**Objective:** Survive the first hostile encounter and reach the watchtower.
+
+- Introduce one simple enemy with a clearly telegraphed short-range attack.
+- Teach sword attacks, facing direction, hit feedback, and taking damage.
+- Make the first encounter forgiving. The player should learn, not be punished harshly.
+- A second Thornling backs away when hit, hinting that the creatures are reacting rather than hunting Tavi.
+
+### Mission 1.3 — The Watchtower Without a Shadow
+**Objective:** Climb the damaged tower and activate an old trail mechanism.
+
+- Introduce vertical platforming and a simple lever or pressure plate.
+- A mechanism reveals a bridge for a limited time, then locks into place when the player reaches the far side.
+- A mural depicts early travellers following roots with lanterns rather than restraining them.
+
+**Optional discovery:** A torn Keeper's note says, “A fixed road is safe until the world needs to move.”
+
+### Mission 1.4 — The Buried Arch
+**Objective:** Find the entrance to the root-temple.
+
+- Use the damaged sword near etched runes to reveal a hidden platform.
+- Introduce a small, non-combat environmental puzzle: activate two rune stones in the order indicated by the mural.
+- Mote identifies the correct rhythm when the player is near the wrong stone, but does not solve the puzzle automatically.
+
+### Mission 1.5 — The Trail Sentinel
+**Objective:** Defeat the temple's guardian or bypass its attack long enough to shut down its core.
+
+**Encounter design:** The Sentinel is an old wooden-and-stone construct built to block the temple entrance. It is not a major boss, but it teaches the player to read patterns.
+
+- Attack 1: a slow forward swing.
+- Attack 2: a ground strike that sends a short shockwave.
+- Vulnerability: after the ground strike, the Sentinel's core is briefly exposed.
+- Victory condition: deplete its health or use a nearby mechanism to lower its guard after a successful dodge sequence.
+
+## Key story revelation
+Inside the temple, Tavi finds paintings of four great stones surrounding a lantern. The painted Keepers are holding ropes attached to enormous roots, trying to prevent movement. The final painting has been deliberately scratched away.
+
+Tavi recovers an amber trace from a damaged lens. It is not one of the four Anchor fragments; it is a trace that allows the old sword to respond to the Anchors later.
+
+**Discovery line:** “The pictures showed people holding the forest still—not protecting it from something outside.”
+
+## Reward and progression
+- The sword's markings glow faintly near old Keeper mechanisms.
+- Unlock a basic sword-combo follow-up only if the prototype's combat already feels good; otherwise keep one clean attack.
+- Add the first entry to the mapbook's “Unanswered Questions” page.
+
+## End scene
+At the temple entrance, a shadow crosses a distant ridge. Tavi sees someone carrying a broken lantern staff, but the figure disappears before Tavi can follow.
+
+**Chapter transition:** The first trail leads toward Briarwake Orchard, where the oldest surviving Anchor is believed to lie.
+
+## Completion criteria
+The player can move, jump, attack, read a simple environmental puzzle, and finish a short level. The story has seeded doubt about the Keepers without explaining the whole mystery.
+
+---
+
+# CHAPTER 2 — The Guardian of Briarwake
+
+## Story goal
+Teach a slightly deeper combat encounter and reveal that some hostile creatures are trapped by the same system that threatens the villages.
+
+## Location and mood
+An ancient orchard in which enormous trees grow sideways across ravines. Blossoms are frozen open; fruit hangs unripe. Platforms are formed from roots, fallen trunks, orchard walls, and stone irrigation channels.
+
+## Mission sequence
+
+### Mission 2.1 — The Orchard That Never Ripens
+**Objective:** Cross the orchard and locate the central root-stone.
+
+- Introduce moving root platforms with slow, readable cycles.
+- Use branches that bend under the player's weight to teach timing.
+- Show fruit and blossoms that remain unchanged as Tavi passes.
+- Add a hidden side room with a family carving: evidence that ordinary people once lived and worked here.
+
+### Mission 2.2 — The Bound Groves
+**Objective:** Disable three root-bindings around the orchard.
+
+Each binding is attached to a different environmental challenge:
+1. A climbing route guarded by Thornlings.
+2. A gap crossed by moving platforms.
+3. A small arena where enemies are tethered to a root node.
+
+When a binding is cut, nearby creatures become confused or retreat instead of continuing to attack. This reinforces the idea that the danger is connected to the Anchors.
+
+### Mission 2.3 — The Voice in the Bark
+**Objective:** Follow Mote's tapping to a blocked chamber.
+
+Mote reacts to a rhythm coming from inside a massive tree. Tavi clears a short route, finding carvings that show a guardian being connected to a stone by many roots.
+
+A brief memory image shows children gathering fruit beneath the tree before the orchard became motionless.
+
+### Mission 2.4 — The Mossjaw
+**Objective:** Confront the orchard guardian and free it from the Anchor.
+
+**Boss arena:** A broad circular clearing with three climbable root platforms and one destructible stone column.
+
+**Phase 1 — Territorial defense**
+- Mossjaw charges across the arena.
+- Its forelimb smash creates a short shockwave.
+- The player attacks after the creature overcommits.
+
+**Phase 2 — The Binding**
+- Mossjaw grows roots from its back, creating temporary hazards.
+- It repeatedly strikes one stone column near the Anchor.
+- If the player observes the pattern, the column can be broken to expose the root binding.
+
+**Final action:** The player must cut three exposed bindings during brief safe windows. The boss stops attacking once the final binding is removed.
+
+The goal is not to kill Mossjaw. It falls, weakens, and dissolves into leaves. The first true Anchor fragment remains.
+
+## Key story revelation
+Tavi discovers that the guardian was bound to the Anchor, not willingly protecting it. Freeing it releases a memory of Briarwake in its natural state, when trees changed with the seasons and people tended the orchard.
+
+**Dialogue sample:**
+- **Tavi:** “I thought it was keeping us away.”
+- **Sable (from the ridge, unseen):** “It was keeping the stone from taking more of it.”
+
+Sable is heard but not yet confronted.
+
+## Reward and progression
+- First Anchor fragment.
+- Optional healing collectible at the orchard's highest branch.
+- The sword's amber trace becomes more visible and can activate an Anchor pedestal.
+
+## Chapter ending
+Tavi sees Sable on a ridge. Sable tells Tavi to stop collecting fragments because the old mechanism is not broken in the way Rusk believes. Before Tavi can ask what she means, roots fold across the path between them.
+
+## Completion criteria
+The player has experienced a major boss encounter whose resolution is based on observation and freeing rather than simply killing. Tavi's goal begins shifting from “restore the old light” toward “understand what the light did.”
+
+---
+
+# CHAPTER 3 — The Glasswater Fen
+
+## Story goal
+Reveal the Keepers' knowledge of the damage caused by the Anchors and make the player question whether restoring the Hearthlight is safe.
+
+## Location and mood
+A quiet flooded forest. The water reflects lost places rather than the sky. Reeds, half-submerged statues, glassy pools, and pale blue reflections create an unsettling but beautiful environment.
+
+## Mission sequence
+
+### Mission 3.1 — Follow the Unreliable Reflection
+**Objective:** Reach the first dry island across the fen.
+
+- Introduce water as a traversal hazard or slow movement surface, depending on the final physics design.
+- Reflections reveal platforms that are not visible directly.
+- The player learns to compare the real environment with its reflection.
+- Use safe checkpoints before more difficult sequences.
+
+### Mission 3.2 — Borrowed Faces
+**Objective:** Reach three fen markers without following false signals.
+
+Borrowed Faces mimic silhouettes or repeat simple movements. Some lure Tavi toward hazards; others reveal secrets if the player watches their behavior long enough.
+
+Design rule: never make an illusion indistinguishable from a legitimate gameplay cue without giving attentive players a fair tell. Mote's reflection is incomplete, providing one optional clue.
+
+### Mission 3.3 — The Keeper's Glass
+**Objective:** Enter the sealed record chamber.
+
+The player solves a reflection puzzle using three movable mirrors. The mirrors redirect light onto glass panels. Each panel plays a short memory, never more than a few seconds long.
+
+**Memory 1:** The Keepers create the first lantern as a temporary aid.  
+**Memory 2:** They strengthen the seal after a path shifts.  
+**Memory 3:** A Keeper warns that the roots are weakening beneath the fixed roads.
+
+### Mission 3.4 — Sable's Warning
+**Objective:** Recover the record key and escape the chamber.
+
+A recorded message from Sable explains that the Anchors are creating pressure inside the Underroot. She says the Hearthlight must not be relit with its original configuration.
+
+This is the first direct, clear warning that restoring the old system could be dangerous.
+
+### Mission 3.5 — The Glass Stag
+**Objective:** Defeat the Stag and retrieve the second Anchor fragment.
+
+**Phase 1 — Mirror charges:** The Stag charges from a reflected position; the reflection hints at where it will emerge.  
+**Phase 2 — Shattered water:** Its antlers send crystal shards across the arena. Safe ground is indicated by ripples.  
+**Phase 3 — The real image:** The Stag splits into reflections; only the one whose reflection moves out of sync is vulnerable.
+
+After defeat, the Stag's crystal antlers dissolve. The second Anchor fragment rises from beneath the water.
+
+## Key story revelation
+A Keeper record states:
+
+**“We have mistaken survival for life.”**
+
+Tavi understands that the Keepers knew the Anchors were harming the Underroot but continued strengthening them because they feared another Stillfall.
+
+## Reward and progression
+- Second Anchor fragment.
+- Optional journal entries that expand on the Keepers' history.
+- A reflection-mark on the mapbook showing the location of Bellows Gorge.
+
+## Chapter ending
+A bell rings far beyond the fen, though no wind moves the reeds. The sound causes every reflection to turn toward the same distant point. Tavi follows the sound toward Bellows Gorge.
+
+## Completion criteria
+The player understands that the old mechanism is dangerous and that history has been selectively preserved. The antagonist mystery is more complex than a simple evil force.
+
+---
+
+# CHAPTER 4 — The Keeper Who Broke the Light
+
+## Story goal
+Introduce Sable directly, explain why she broke the Hearthlight, and establish the conflict between two imperfect solutions.
+
+## Location and mood
+Bellows Gorge is a huge stone crossroads. Suspended bells hang from cliffs and towers. Routes move when the bells sound, and some platforms respond to the order in which bells are struck.
+
+## Mission sequence
+
+### Mission 4.1 — The Silent Crossroads
+**Objective:** Reach the gorge's central bell tower.
+
+- Teach sound-timed traversal: a bell opens a platform for a predictable duration.
+- Use visual sound waves and clear animations so mobile players can read the timing.
+- Introduce a hazard that activates after a warning chime.
+
+### Mission 4.2 — Ring the Old Route
+**Objective:** Restore three bell mechanisms to open the gorge.
+
+Each mechanism teaches one pattern: low note, high note, then a two-note sequence. Do not require precise audio pitch recognition; show symbols and animated pulses as accessibility alternatives.
+
+Optional side route: a broken Keeper station contains notes about evacuation plans during the Stillfall.
+
+### Mission 4.3 — The Woman with the Broken Lantern
+**Objective:** Reach Sable and hear her explanation.
+
+Sable appears in a ruined lookout. She admits that she damaged the Hearthlight during the Lantern Wake because the fracture beneath the world had reached a critical state. She had searched for an alternative, but found only the old ritual.
+
+She explains her logic: if the Anchors are destroyed in sequence, the pressure could release gradually. She knows the villages may suffer, but believes leaving the seal intact guarantees a greater disaster later.
+
+Tavi refuses to help her destroy the Anchors. Sable asks whether Tavi has a better plan. Tavi cannot answer yet.
+
+### Mission 4.4 — Escape the Falling Gorge
+**Objective:** Survive the collapsing gorge after the confrontation.
+
+- No normal combat; emphasize movement mastery and readable hazards.
+- Bells ring automatically as the landscape shifts.
+- Sable helps Tavi cross one dangerous gap despite their disagreement, then disappears along a separate route.
+
+### Mission 4.5 — The Bellows Titan
+**Objective:** Quiet the Titan long enough to reach the third Anchor fragment.
+
+**Phase 1 — Resonant strike:** The Titan strikes the ground and sends a visible wave through the platforms.  
+**Phase 2 — Bell storm:** Hanging bells swing and create temporary shock zones.  
+**Phase 3 — Silence window:** The player must ring three small bells in the correct order to interrupt the Titan's resonance, opening its core.
+
+The Titan is not malicious; it is a mechanism that has continued operating long after its purpose was forgotten.
+
+## Key story revelation
+The third Anchor fragment shows that the early Keepers were ordinary survivors seeking safety. Over generations, a temporary solution became tradition, and tradition became unquestionable.
+
+## Reward and progression
+- Third Anchor fragment.
+- The sword can now briefly resonate with distant Anchor mechanisms, shown by a visual pulse rather than a complex tracking system.
+- A new entry appears in the mapbook: “The old light must not be rebuilt as it was.”
+
+## Chapter ending
+Sable leaves Tavi a map pointing to an archive beneath an abandoned settlement. Her note says: “If there is another way, the people who built the first light hid it there—or destroyed the proof.”
+
+## Completion criteria
+Sable is established as a serious, understandable opponent. The player knows the situation is urgent but has a reason to look for a third solution.
+
+---
+
+# CHAPTER 5 — The Archive Beneath the Earth
+
+## Story goal
+Deliver the campaign's central historical reveal and establish the final objective: transform the Anchors from restraints into connections.
+
+## Location and mood
+A buried settlement and archive, partly swallowed by roots. Quiet halls contain glass records, stone tablets, suspended objects, and murals. This chapter should feel more exploratory and less combat-heavy than the previous two.
+
+## Mission sequence
+
+### Mission 5.1 — The Abandoned Settlement
+**Objective:** Find the archive entrance.
+
+- Traverse collapsed rooftops, underground passageways, and root bridges.
+- Find small traces of ordinary life: a child's toy, a damaged cooking pot, an unfinished map.
+- Avoid overexplaining the tragedy. Let the objects create emotional weight.
+
+### Mission 5.2 — The Locked Record Hall
+**Objective:** Open the archive's central doors.
+
+The player aligns four stone discs. Each disc shows a different phase of a root's growth. The solution is to arrange them from sprout to old tree, reinforcing the theme that change is a cycle rather than a threat.
+
+### Mission 5.3 — What the Stillfall Really Was
+**Objective:** View three sealed memories and find the fourth Anchor's location.
+
+The records explain:
+- The first Lantern was created as temporary protection during an evacuation.
+- The Anchors were later strengthened to prevent paths from shifting.
+- Each strengthening trapped more of the Underroot's living memory.
+- Stillmere was not merely lost; its final moments were preserved inside the network.
+
+A name appears for the accumulated echo: **the Quiet Crown**.
+
+### Mission 5.4 — The Archive Warden
+**Objective:** Escape the archive after its defense mechanism activates.
+
+The Warden is a non-humanoid construct made from shelves, stone plates, and scroll-like strips of bark. Its attacks rearrange the platform layout.
+
+- It creates temporary walls.
+- It drops pages that become hazard zones.
+- Its core opens when the player activates three archive seals in a safe order.
+
+This encounter should be shorter than a major boss. Its purpose is to test the player's understanding of environmental cues, not introduce a new full combat system.
+
+### Mission 5.5 — The Pattern Beneath the Stones
+**Objective:** Discover the original Anchor diagram.
+
+Tavi finds an illustration of the four Anchors connected by a network of smaller roots. The accompanying note reads:
+
+**“The four stones were made to carry the song. They were never meant to silence it.”**
+
+The implication: the Anchors once connected the villages to the Underroot, but later Keepers changed the mechanism so it would hold the world still.
+
+## Key story revelation
+The Quiet Crown is the preserved echo of Stillmere. It does not seek power for its own sake. It wants to keep the last moment of its existence from disappearing. If the Hearthlight is restored unchanged, this fixed state could spread across the entire region.
+
+## Reward and progression
+- The mapbook reveals the Root Cathedral as the next destination.
+- The player receives the **Root Pattern**, a symbol sequence needed for the final transformation. This can be a journal clue rather than a new inventory system.
+- No new combat ability is required; the reward is knowledge and a changed objective.
+
+## Chapter ending
+Tavi looks at the mapbook's old routes and realizes that some cannot be restored. Rather than erase them, Tavi draws the new root network over them. The map becomes a record of change instead of a promise of permanence.
+
+## Completion criteria
+The player can explain the conflict in plain terms: the old system protects the villages by imprisoning the Underroot; destroying it outright is dangerous; changing its purpose may offer a third path.
+
+---
+
+# CHAPTER 6 — The Root Cathedral
+
+## Story goal
+Bring Tavi and Sable into direct conflict over how to act under pressure, then open the way to Stillmere.
+
+## Location and mood
+An enormous living structure grown from the oldest roots. Ancient stone corridors wind through roots wider than towers. Warm gold light pulses underneath dark bark. The place should feel sacred without being a conventional church.
+
+## Mission sequence
+
+### Mission 6.1 — The Living Passage
+**Objective:** Reach the cathedral's inner chamber.
+
+- Combine earlier traversal mechanics: moving platforms, bell-triggered routes, and reflection cues.
+- Introduce roots that retract when approached with the sword's resonance.
+- Use clear, forgiving timing; do not combine every hazard into a single punishing sequence.
+
+### Mission 6.2 — Four Anchors, One Pattern
+**Objective:** Activate three outer nodes using the Root Pattern discovered in the archive.
+
+Each node responds to a symbol encountered in an earlier region. This rewards memory and exploration without requiring optional collectibles.
+
+A short memory appears at each node: the Keepers gradually modifying the original connection into a restraint.
+
+### Mission 6.3 — Sable's Decision
+**Objective:** Confront Sable before she destroys the final Anchor.
+
+Sable has removed several seals from the chamber. The roots are moving violently; she believes there is no time for a safer experiment.
+
+Tavi explains the Root Pattern and proposes changing the mechanism. Sable refuses to gamble the villages' lives on a theory found in an archive. Her concern is real: the system is close to failure, and a failed transformation could be catastrophic.
+
+### Mission 6.4 — Duel at the Heartroot
+**Objective:** Defeat Sable without killing her.
+
+**Arena:** A circular chamber with three vertical levels, platforms that slowly rise and fall, and visible roots connecting the walls.
+
+**Phase 1 — Keeper's discipline:** Sable uses controlled staff strikes and blocks. Teach the player to wait for openings.  
+**Phase 2 — Broken light:** She creates straight-line bursts of amber energy and temporary root barriers. The warning animation must be clear.  
+**Phase 3 — Desperation:** The chamber shifts; Sable's attacks become stronger but less controlled. Tavi can win by exhausting her health or disabling three focus points she uses to power the staff.
+
+When defeated, Sable's staff breaks. Tavi does not strike a final blow. Instead, Tavi cuts the bindings around the final Anchor, allowing the system to enter a different state.
+
+### Mission 6.5 — The Door Beneath the World
+**Objective:** Reach the passage into Stillmere.
+
+All four Anchors begin responding to one another. The old restraints loosen, but the accumulated memory underneath them awakens. A vast shape moves through the roots.
+
+Sable realizes that the archive's theory is the only remaining chance. She agrees to help Tavi, though she warns that the Quiet Crown may not accept release.
+
+## Key story revelation
+Tavi's plan is not to restore the old system or destroy it. The aim is to change what the Anchors do: from forcing the forest to remain still to allowing the Underroot and the villages to remain connected as the world changes.
+
+## Reward and progression
+- Fourth Anchor resonance is activated.
+- The sword can now reveal the root connections in special final-area puzzles.
+- Sable becomes an ally for the transition, but she does not accompany Tavi through every final encounter.
+
+## Chapter ending
+The passage opens onto the motionless sky of Stillmere. The village appears alive, but every person repeats the same movement endlessly.
+
+## Completion criteria
+The player has faced the human antagonist and understands why there is no clean, risk-free solution. The final chapter can now focus on the emotional and philosophical conflict.
+
+---
+
+# CHAPTER 7 — The Village That Never Ended
+
+## Story goal
+Confront the Quiet Crown, resolve the emotional core of the Stillfall, and let the player use all the skills learned during the campaign.
+
+## Location and mood
+A preserved echo of Stillmere under a sky of motionless stars. The village is beautiful and deeply unsettling: warm lights, repeating gestures, windblown leaves that never land, and familiar streets that lead back to the same square.
+
+## Mission sequence
+
+### Mission 7.1 — A Day That Never Ends
+**Objective:** Cross the village and reach the central tree.
+
+- No immediate enemies. Let players observe loops: a baker places the same loaf, a child drops the same toy, travellers repeat a greeting.
+- Interact with selected memory objects to see brief scenes from the Stillfall.
+- Mote's reflection is incomplete, showing that it does not belong to the preserved loop in the same way as the echoes.
+
+### Mission 7.2 — The People in the Last Moment
+**Objective:** Find three memory anchors around Stillmere.
+
+Each optional-or-required memory shows a different emotional perspective:
+1. A parent trying to guide a child through the changing streets.
+2. A Keeper deciding to strengthen the Lantern.
+3. A survivor begging for the world to stop changing long enough to find a missing family member.
+
+These scenes should avoid portraying the original survivors as foolish. They were responding to an actual catastrophe with incomplete knowledge.
+
+### Mission 7.3 — The Crown Speaks
+**Objective:** Reach the enormous tree and confront the Quiet Crown.
+
+The Crown is formed from branches, outlines of buildings, and fragments of faces. Its voice combines many people speaking together. It asks why Tavi has allowed the world to change, knowing that change means loss.
+
+It offers to restore Stillmere exactly as it was before the disaster if Tavi allows the old seal to spread.
+
+Tavi refuses—not because Stillmere should be forgotten, but because preserving a memory forever has stopped it from becoming part of the living world.
+
+### Mission 7.4 — Boss Phase One: The Unmoving Village
+**Objective:** Survive the Crown's repeating patterns and reach its exposed root.
+
+- Copies of buildings become temporary walls and platforms.
+- Attacks repeat in reliable loops, but the arena tries to trap the player into following them.
+- The lantern/sword resonance reveals a route outside the repeated pattern.
+- The player must strike the exposed root after escaping the loop.
+
+### Mission 7.5 — Boss Phase Two: The Things We Fear to Lose
+**Objective:** Cross a sequence of memory arenas and break three bindings.
+
+The battlefield cycles through motifs from earlier chapters:
+- Briarwake's roots and frozen blossoms.
+- Glasswater reflections.
+- Bellows Gorge sound waves.
+
+These are remixed rather than copied wholesale. Each sequence tests a mechanic introduced earlier. Destroying the memory scenery is not the objective; the player must find and sever the binding holding it in a loop.
+
+### Mission 7.6 — Boss Phase Three: The First Lantern
+**Objective:** Activate the four connections and complete the Root Pattern while avoiding the Crown's attacks.
+
+The final arena resembles the first Lantern chamber. The old seal begins to reform. The player must reach four nodes around the arena and activate each in the order implied by the Root Pattern.
+
+The sequence should be intense but readable. A failed attempt resets the current node sequence, not the entire boss fight.
+
+After the final node activates, Tavi can choose to cut the binding or open the connection. The story requires opening it; the choice is expressed through the player's action and the resulting animation, not as a branching ending.
+
+## Final scene
+The Quiet Crown asks whether Stillmere will be remembered. Tavi answers that memory does not require the world to remain frozen. Its branches open, and its people become streams of light that travel into the living Underroot.
+
+The stars begin to move. The village's roads stop repeating. Stillmere is no longer trapped in its last moment.
+
+## Completion criteria
+The player completes a final encounter that tests movement, combat, observation, and pattern recognition. The resolution comes from changing the mechanism rather than merely killing the antagonist.
+
+---
+
+# EPILOGUE — A Different Kind of Light
+
+## Story goal
+Show the consequences of Tavi's decision, close the main emotional arc, and leave room for future adventures without undermining the ending.
+
+Tavi returns to Brackenreach. The forest has changed: some bridges are gone, new paths have opened, and a few old trails no longer exist. The village survives, but it must learn a new relationship with its surroundings.
+
+Rusk asks whether the Anchors have been restored. Tavi explains that the old mechanism cannot be rebuilt as it was. The paths will continue to change, but the villages can learn to read the forest and help one another navigate it.
+
+Rather than repeating the old Lantern Wake, the villagers share memories of places that matter to them. The Hearthlight glows again—not as a force that fixes every root in place, but as a guide that illuminates the paths without controlling them.
+
+Tavi opens the mapbook. Some old routes are crossed out; new ones are drawn alongside them. Tavi writes:
+
+**“A map is not a promise that the world will stay the same. It is a promise that someone has tried to help you find your way.”**
+
+Tavi leaves with Mote to mark a newly opened trail. A child finds a strange symbol on a stone. The sword responds with a faint pulse, and Mote taps the familiar rhythm: three slow taps, a pause, two fast taps.
+
+The camera rises over the forest. The Underroot carries small golden lights toward distant places. The world is alive again.
+
+**Final line:** “The adventure is over. The journey is not.”
+
+---
+
+# Character Arcs
+
+## Tavi — from control to understanding
+- **Beginning:** Believes a good map can eliminate uncertainty.
+- **Middle:** Learns that the old system preserved safety by trapping living things.
+- **Crisis:** Must act without a guarantee that the future will be safe or predictable.
+- **Ending:** Uses maps to help people navigate change, not to insist that change should stop.
+
+## Mote — from strange companion to living connection
+- **Beginning:** Appears to be a small creature reacting to the roots.
+- **Middle:** Helps identify hidden paths and recognizes memories that humans cannot perceive.
+- **Ending:** Remains with Tavi, symbolizing an ongoing relationship with the living forest rather than mastery over it.
+
+## Rusk — from inherited certainty to shared responsibility
+- **Beginning:** Trusts the old ritual because it protected generations.
+- **Middle:** Receives evidence that the tradition is incomplete.
+- **Ending:** Accepts that protecting the village means learning and adapting, not simply restoring the past.
+
+## Sable — from desperate isolation to cautious cooperation
+- **Beginning:** Breaks the Hearthlight without warning the village.
+- **Middle:** Believes destroying the Anchors is the only responsible action left.
+- **Crisis:** Tavi defeats her, but does not humiliate or kill her.
+- **Ending:** Helps Tavi attempt the transformation, accepting that neither of them can guarantee the result.
+
+## The Quiet Crown — from preservation to release
+- **Beginning:** Appears to be a terrifying force spreading through the roots.
+- **Revelation:** Is the accumulated echo of people whose final moment has been preserved.
+- **Conflict:** Believes release is equivalent to being forgotten.
+- **Ending:** Learns that memory can continue without the world being held still.
+
+---
+
+# Recurring Story Motifs
+
+## The tapping rhythm
+Three slow taps, a pause, and two fast taps first appears through Mote. Use it sparingly as a sound and visual motif. It should indicate recognition or a connection across time, not become a frequent jump-scare cue.
+
+## Maps and paths
+Every chapter should include at least one map-related image or decision. At the beginning maps represent control; at the end they represent shared knowledge.
+
+## Light
+- **Old light:** rigid, centralized, bright, and capable of overwhelming the environment.
+- **Living light:** softer, distributed, warm, and responsive to the environment.
+
+## Repetition versus cycles
+The Quiet Crown repeats events exactly. A living forest follows cycles that change over time. Use animation and environmental movement to contrast the two.
+
+---
+
+# Scope Guidance for a Solo Developer
+
+The complete campaign is a narrative target, not the initial production scope. Build in this order:
+
+1. **Prototype slice:** Prologue's basic controls plus Chapter 1's trail, one enemy, one puzzle, and the Trail Sentinel encounter. If needed, end the prototype at the root-temple discovery.
+2. **Combat proof:** One melee enemy and one boss that requires observation rather than button-mashing.
+3. **Visual proof:** One finished illustrated environment, a small reusable tileset, one animated player, and a clear parallax background.
+4. **Vertical slice:** Prologue plus Chapter 1, with working PC and Android builds, a short narrative introduction, checkpoint recovery, and a finished end screen.
+5. **Campaign production:** Add one chapter at a time only after the vertical slice is stable and enjoyable.
+
+Do not build all chapters' art before the movement, combat, camera, and level scale are proven. Reuse a small set of environmental building blocks with distinct palettes and silhouettes to create variety economically.
+
+## Prototype Acceptance Checklist
+
+- [ ] The player can move, jump, land, and attack with predictable controls.
+- [ ] The player can defeat at least one enemy and receive clear damage feedback.
+- [ ] The level can be completed without editor access or developer intervention.
+- [ ] The Trail Sentinel has clear warnings and a fair vulnerability window.
+- [ ] The root-temple discovery communicates the main mystery without a long lore dump.
+- [ ] Keyboard and touch inputs invoke the same gameplay actions.
+- [ ] The PC and Android builds both launch and can complete the prototype.
+- [ ] No required objective can be skipped in a way that traps the player.
+
+---
+
+# Narrative Production Checklist
+
+Before finalizing each chapter, define:
+
+- Chapter objective in one sentence.
+- Start and end state of the protagonist's understanding.
+- Main route, optional route, and at least one environmental story clue.
+- Enemies and their reason for being in the area.
+- Any new mechanic and the tutorial encounter that teaches it.
+- Major encounter phases, tells, vulnerabilities, and recovery rules.
+- Reward or knowledge the player carries forward.
+- A transition that gives the player a reason to continue.
+
+This structure is intended to keep the game narrative-driven without making every section depend on lengthy dialogue or expensive cutscenes.

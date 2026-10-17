@@ -1,0 +1,16 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS: Title pauses gameplay
+PASS: Player settles on collision floor
+PASS: Movement advances the player
+PASS: Jump leaves the floor
+PASS: First raised platform is reachable by a normal jump
+PASS: Lantern checkpoint activates
+PASS: Lethal damage restores health at checkpoint
+PASS: Sword damages enemy during active window
+PASS: Two sword hits defeat a thornling
+PASS: Nearby light seed is collected
+PASS: Pause freezes physics
+PASS: Arch rejects insufficient seeds
+PASS: Arch completes trail with three seeds
+SMOKE TEST: PASS (0 failures)

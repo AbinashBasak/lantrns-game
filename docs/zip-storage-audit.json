@@ -1,0 +1,415 @@
+{
+  "zip_count": 68,
+  "total_bytes": 635547026,
+  "runtime_zip_dependencies": [],
+  "archives": [
+    {
+      "path": "archive/rebuilt-assets/tavi_attack_1_asset_pack.zip",
+      "bytes": 1936565,
+      "member_count": 12,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "archive/rebuilt-assets/tavi_idle_asset_pack.zip",
+      "bytes": 2264924,
+      "member_count": 12,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "archive/rebuilt-assets/tavi_jump_fall_asset_pack.zip",
+      "bytes": 1907090,
+      "member_count": 12,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "archive/rebuilt-assets/tavi_jump_rise_asset_pack.zip",
+      "bytes": 2004109,
+      "member_count": 12,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "archive/rebuilt-assets/tavi_jump_start_asset_pack.zip",
+      "bytes": 2053612,
+      "member_count": 12,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "archive/rebuilt-assets/tavi_landing_asset_pack.zip",
+      "bytes": 1819636,
+      "member_count": 12,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "archive/rebuilt-assets/tavi_run_asset_pack.zip",
+      "bytes": 3251759,
+      "member_count": 16,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/TAVI-010_idle_rebuilt_asset_pack.zip",
+      "bytes": 2264924,
+      "member_count": 12,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_01_main_character_tavi/core_animations/TAVI-011/TAVI-011_run_rebuilt_asset_pack.zip",
+      "bytes": 3251759,
+      "member_count": 16,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_01_main_character_tavi/core_animations/TAVI-012/TAVI-012_jump_start_rebuilt_asset_pack.zip",
+      "bytes": 2053612,
+      "member_count": 12,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_01_main_character_tavi/core_animations/TAVI-013/TAVI-013_jump_rise_rebuilt_asset_pack.zip",
+      "bytes": 2004109,
+      "member_count": 12,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_01_main_character_tavi/core_animations/TAVI-014/TAVI-014_jump_fall_rebuilt_asset_pack.zip",
+      "bytes": 1907090,
+      "member_count": 12,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_01_main_character_tavi/core_animations/TAVI-015/TAVI-015_landing_rebuilt_asset_pack.zip",
+      "bytes": 1819636,
+      "member_count": 12,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/TAVI-016_sword_attack_rebuilt_asset_pack.zip",
+      "bytes": 1936565,
+      "member_count": 12,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_01_main_character_tavi/core_animations/TAVI-017/exports/TAVI-017_downloaded_hurt_asset_pack.zip",
+      "bytes": 8029183,
+      "member_count": 25,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_01_main_character_tavi/core_animations/TAVI-018/exports/TAVI-018_death_prototype_pack.zip",
+      "bytes": 13286726,
+      "member_count": 27,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_01_main_character_tavi/core_animations/TAVI-019/exports/TAVI-019_interact_prototype_pack.zip",
+      "bytes": 15668932,
+      "member_count": 26,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_01_main_character_tavi/core_animations/TAVI-020/exports/TAVI-020_rune_activation_prototype_pack.zip",
+      "bytes": 13167593,
+      "member_count": 25,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_01_main_character_tavi/core_animations/TAVI-021/exports/TAVI-021_lantern_reveal_prototype_pack.zip",
+      "bytes": 12479975,
+      "member_count": 25,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-022/exports/TAVI-022_dash_prototype_pack.zip",
+      "bytes": 5071341,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-023/exports/TAVI-023_second_sword_combo_prototype_pack.zip",
+      "bytes": 5121471,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-024/exports/TAVI-024_charged_attack_prototype_pack.zip",
+      "bytes": 5003314,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-025/exports/TAVI-025_climbing_prototype_pack.zip",
+      "bytes": 7024908,
+      "member_count": 22,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-026/exports/TAVI-026_opening_chest_prototype_pack.zip",
+      "bytes": 5110850,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-027/exports/TAVI-027_victory_prototype_pack.zip",
+      "bytes": 4588635,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_01_main_character_tavi/later_movement_and_combat/TAVI-028/exports/TAVI-028_knockback_recovery_prototype_pack.zip",
+      "bytes": 5382007,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_02_companion_mote/MOTE-001/exports/MOTE-001_model_sheet_prototype_pack.zip",
+      "bytes": 2595605,
+      "member_count": 15,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_02_companion_mote/MOTE-002/exports/MOTE-002_idle_hover_prototype_pack.zip",
+      "bytes": 4264222,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_02_companion_mote/MOTE-003/exports/MOTE-003_follow_tavi_prototype_pack.zip",
+      "bytes": 4178455,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_02_companion_mote/MOTE-004/exports/MOTE-004_alert_reaction_prototype_pack.zip",
+      "bytes": 4210965,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_02_companion_mote/MOTE-005/exports/MOTE-005_rune_interaction_prototype_pack.zip",
+      "bytes": 4301691,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_02_companion_mote/MOTE-006/exports/MOTE-006_glow_pulse_prototype_pack.zip",
+      "bytes": 5783328,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_02_companion_mote/MOTE-007/exports/MOTE-007_celebrate_discovery_prototype_pack.zip",
+      "bytes": 4516901,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_02_companion_mote/MOTE-008/exports/MOTE-008_disappear_reappear_prototype_pack.zip",
+      "bytes": 4432127,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_02_companion_mote/MOTE-009/exports/MOTE-009_companion_light_prototype_pack.zip",
+      "bytes": 4877211,
+      "member_count": 21,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_02_companion_mote/MOTE-010/exports/MOTE-010_story_reactions_prototype_pack.zip",
+      "bytes": 4590180,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_02_companion_mote/MOTE_phase02_prototype_bundle.zip",
+      "bytes": 43787627,
+      "member_count": 208,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/PHASE03_prototype_bundle.zip",
+      "bytes": 208884105,
+      "member_count": 806,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-001/exports/EN-001_prototype_pack.zip",
+      "bytes": 3107395,
+      "member_count": 15,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-002/exports/EN-002_prototype_pack.zip",
+      "bytes": 7280190,
+      "member_count": 21,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/EN-003_prototype_pack.zip",
+      "bytes": 5113594,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-004/exports/EN-004_prototype_pack.zip",
+      "bytes": 5648848,
+      "member_count": 21,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-005/exports/EN-005_prototype_pack.zip",
+      "bytes": 4640380,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-006/exports/EN-006_prototype_pack.zip",
+      "bytes": 4709153,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-007/exports/EN-007_prototype_pack.zip",
+      "bytes": 3106467,
+      "member_count": 15,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-008/exports/EN-008_prototype_pack.zip",
+      "bytes": 8122289,
+      "member_count": 40,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-009/exports/EN-009_prototype_pack.zip",
+      "bytes": 3094840,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-010/exports/EN-010_prototype_pack.zip",
+      "bytes": 6194244,
+      "member_count": 39,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-011/exports/EN-011_prototype_pack.zip",
+      "bytes": 3473743,
+      "member_count": 15,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/EN-012_prototype_pack.zip",
+      "bytes": 12370521,
+      "member_count": 40,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/EN-013_prototype_pack.zip",
+      "bytes": 4818528,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/EN-014_prototype_pack.zip",
+      "bytes": 9748304,
+      "member_count": 39,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/exports/EN-015_prototype_pack.zip",
+      "bytes": 8784868,
+      "member_count": 29,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/exports/EN-016_prototype_pack.zip",
+      "bytes": 15049947,
+      "member_count": 39,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/EN-017_prototype_pack.zip",
+      "bytes": 8149050,
+      "member_count": 21,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/exports/EN-018_prototype_pack.zip",
+      "bytes": 19173997,
+      "member_count": 58,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/exports/BOSS-001_prototype_pack.zip",
+      "bytes": 3679194,
+      "member_count": 15,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/BOSS-002_prototype_pack.zip",
+      "bytes": 6709772,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/exports/BOSS-003_prototype_pack.zip",
+      "bytes": 13306696,
+      "member_count": 40,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-004/exports/BOSS-004_prototype_pack.zip",
+      "bytes": 6209006,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/exports/BOSS-005_prototype_pack.zip",
+      "bytes": 5278444,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006/exports/BOSS-006_prototype_pack.zip",
+      "bytes": 5384660,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-007/exports/BOSS-007_prototype_pack.zip",
+      "bytes": 7224003,
+      "member_count": 21,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/BOSS-008_prototype_pack.zip",
+      "bytes": 5626225,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/exports/BOSS-009_prototype_pack.zip",
+      "bytes": 5754110,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/BOSS-010_prototype_pack.zip",
+      "bytes": 5054601,
+      "member_count": 20,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/BOSS-011_prototype_pack.zip",
+      "bytes": 8735207,
+      "member_count": 46,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    },
+    {
+      "path": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-012/exports/BOSS-012_prototype_pack.zip",
+      "bytes": 3166008,
+      "member_count": 17,
+      "purpose": "local production/download archive; retained on disk, excluded from Git"
+    }
+  ]
+}
