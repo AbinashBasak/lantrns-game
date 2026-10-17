@@ -1,0 +1,596 @@
+{
+  "id": "TILE-008",
+  "title": "Slopes and uneven terrain",
+  "roles": [
+    "soil_45_up",
+    "soil_45_down",
+    "stone_45_up",
+    "stone_45_down",
+    "soil_shallow_up_low",
+    "soil_shallow_up_high",
+    "soil_shallow_down_high",
+    "soil_shallow_down_low",
+    "stone_shallow_up_low",
+    "stone_shallow_up_high",
+    "stone_shallow_down_high",
+    "stone_shallow_down_low",
+    "uneven_soil_low",
+    "uneven_soil_high",
+    "uneven_stone_low",
+    "uneven_stone_high"
+  ],
+  "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer TERRAIN sprite atlas. Rich painterly wood/stone/soil materials, selective crisp silhouettes, restrained brush texture, moss/earth palette with cool teal-blue shadows and warm muted edges. Strict SIDE-ON ORTHOGRAPHIC camera, flat collision tops, no perspective top faces. Exactly1024x1024 square canvas, FOUR equal columns and FOUR equal rows, exactly16equal256pxcells. ONE complete module PER CELL, fitting inside, no spanning. Reading order row-by-row as listed. Genuine alpha outside material and under floating modules, opaque material interiors. NO scenery, props, characters, floor, lamps, glows, shadows, lettering, gridlines, dividers or labels. Four-by-four source modules for64px export, prototype edges pending seam repair. Reusable solid terrain slope set. Row1 FOUR triangle solid slope modules,soil45degreeup,soil45degreedown,stone45degreeup,stone45degreedown. Smooth straight diagonal walk edge NOT STAIRS. Row2 grasssoil shallow22.5degree two-tile uphill LOW thenHIGH, downhillHIGH thenLOW. Row3 stone shallow22.5degree two-tile uphillLOW thenHIGH, downhillHIGH thenLOW. Row4 four gently unevenwalktop solid modules:soillow,soilhigh,stonelow,stonehigh. Complete tile material below slope,transparent above. No stairs in any cell.",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008",
+  "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148ba-fae3-7fd0-8db9-6aa6385f397c/exec-07778e72-50d5-42cc-ad0b-11f65016cbc1.png",
+  "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/source_images/TILE-008_atlas_original.png",
+  "source_info": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/source_images/TILE-008_atlas_original.png",
+    "sha256": "1a193af57f3be91cd0ffecc1476cf1d4f2c4ac7b7441dc501ad8fed3851155a7",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "asset_id": "TILE-008",
+  "cols": 4,
+  "rows": 4,
+  "frame_count": 16,
+  "timing": null,
+  "loop": false,
+  "production_approved": false,
+  "requested_deliverables_saved_and_reviewed": true,
+  "stage": "generated_terrain_prototype_saved_and_reviewed",
+  "source_message_id": null,
+  "provenance": {
+    "tool": "built-in image_gen",
+    "original_unchanged": true,
+    "reference_images": [],
+    "style_guides_reviewed": [
+      "ART-001",
+      "ART-002",
+      "ART-006"
+    ]
+  },
+  "frames": [
+    {
+      "index": 0,
+      "role": "soil_45_up",
+      "source_crop": [
+        0,
+        0,
+        314,
+        314
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/exports/TILE-008_soil_45_up.png",
+      "sha256": "b1ad7095cf70e2bf7520334c6ae89079700ae909b3a4131e3ae61bd007b5f903",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 1,
+      "role": "soil_45_down",
+      "source_crop": [
+        314,
+        0,
+        627,
+        314
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/exports/TILE-008_soil_45_down.png",
+      "sha256": "11d7da519582e4144f942a64fca96ddfd5cc909cf19345ee13538483d3a05500",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 2,
+      "role": "stone_45_up",
+      "source_crop": [
+        627,
+        0,
+        940,
+        314
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/exports/TILE-008_stone_45_up.png",
+      "sha256": "fa9e26d1dd17c565355098cd52d004a11bf29161835e6c3fe29ac9e42b5878a5",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 3,
+      "role": "stone_45_down",
+      "source_crop": [
+        940,
+        0,
+        1254,
+        314
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/exports/TILE-008_stone_45_down.png",
+      "sha256": "403cce4620d93bf506ebfcbf7b1d41f538a436274267496e62cbe9bfe70c838c",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 4,
+      "role": "soil_shallow_up_low",
+      "source_crop": [
+        0,
+        314,
+        314,
+        627
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/exports/TILE-008_soil_shallow_up_low.png",
+      "sha256": "e25d8e92dba0959944395b30094a1916ae13ddd42df0d1cd3132ebe1cdb707f9",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 5,
+      "role": "soil_shallow_up_high",
+      "source_crop": [
+        314,
+        314,
+        627,
+        627
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/exports/TILE-008_soil_shallow_up_high.png",
+      "sha256": "4f1adecf5c955dc7e238f10aa96897f2145dc733b0a112a6b0339187536ede91",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 6,
+      "role": "soil_shallow_down_high",
+      "source_crop": [
+        627,
+        314,
+        940,
+        627
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/exports/TILE-008_soil_shallow_down_high.png",
+      "sha256": "74e6e13bdfc6ddaec6c4fc0304b327867cb4fcf19db44c426af68bc64396faca",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 7,
+      "role": "soil_shallow_down_low",
+      "source_crop": [
+        940,
+        314,
+        1254,
+        627
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/exports/TILE-008_soil_shallow_down_low.png",
+      "sha256": "dc155e4d08f9b3f4fdf6882868880ff221b0808478052dde414a9b18945cd1a4",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 8,
+      "role": "stone_shallow_up_low",
+      "source_crop": [
+        0,
+        627,
+        314,
+        940
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/exports/TILE-008_stone_shallow_up_low.png",
+      "sha256": "6d19143c1563ccd38229308c0511e7b2bf4f27d6a5e19cf61f6e10e248bcb9bb",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 9,
+      "role": "stone_shallow_up_high",
+      "source_crop": [
+        314,
+        627,
+        627,
+        940
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/exports/TILE-008_stone_shallow_up_high.png",
+      "sha256": "5e0d1ba19c245b205d994e8a569496eb10a9e31570f8138155b2c55aac649df8",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 10,
+      "role": "stone_shallow_down_high",
+      "source_crop": [
+        627,
+        627,
+        940,
+        940
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/exports/TILE-008_stone_shallow_down_high.png",
+      "sha256": "26ce3227197babe1955093af56b8f4dee456f779b614cce295b7e02c5c17cd5e",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 11,
+      "role": "stone_shallow_down_low",
+      "source_crop": [
+        940,
+        627,
+        1254,
+        940
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/exports/TILE-008_stone_shallow_down_low.png",
+      "sha256": "27f403a8ad52bd6aea72fe8b653d69d9809500c475db3b566d8360158672a7e6",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 12,
+      "role": "uneven_soil_low",
+      "source_crop": [
+        0,
+        940,
+        314,
+        1254
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/exports/TILE-008_uneven_soil_low.png",
+      "sha256": "d107d433e7d1b0f84e496e815a82a1931fb315f7ca9a8aed537fbe34418043d4",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 13,
+      "role": "uneven_soil_high",
+      "source_crop": [
+        314,
+        940,
+        627,
+        1254
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/exports/TILE-008_uneven_soil_high.png",
+      "sha256": "cabfa6c0f128322abc7ebc0ff01d1697dc86cc42b367ed4f4c017c09571ffe5f",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 14,
+      "role": "uneven_stone_low",
+      "source_crop": [
+        627,
+        940,
+        940,
+        1254
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/exports/TILE-008_uneven_stone_low.png",
+      "sha256": "6069c3e0afd362c8494d4dd633709e4665913d1565cb46df52b049ad7cecfb38",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 15,
+      "role": "uneven_stone_high",
+      "source_crop": [
+        940,
+        940,
+        1254,
+        1254
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/exports/TILE-008_uneven_stone_high.png",
+      "sha256": "31e80cf3f81eb2946ec5e7ff890dcae15d29f40171a9a5364825f1c2a085f3f3",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "normalized_sheet": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/exports/TILE-008_64px_prototype_atlas.png",
+    "sha256": "59ae3f1d9b0f44407dd68c44ceaeb83f249276ff8286267bb891c14e7c9406fb",
+    "dimensions": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/exports/TILE-008_64px_prototype_atlas.png",
+  "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/previews/TILE-008_source_checker.jpg",
+  "contact_preview": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/previews/TILE-008_64px_contact.png",
+    "sha256": "9b53e0cec8a9b9b0cd53d73e747d7f6c15b53a5f547f708892645048237d8555",
+    "dimensions": [
+      768,
+      768
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  "assembly_preview": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/previews/TILE-008_assembly_seam_review.png",
+    "sha256": "0fbef5e131142d17831588e41a120780f0b2841eca6f75ac6771f82217a81b8c",
+    "dimensions": [
+      512,
+      384
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  "repeat_preview": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/previews/TILE-008_repeat_review.png",
+    "sha256": "4e9bc1374560eb54419ac8e8da4efb1f3653df248c2709e4f15d5018aa47c7a6",
+    "dimensions": [
+      576,
+      576
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  "review_notes": [
+    "Sixteen distinct source modules reviewed over checkerboard; real alpha confirmed.64px prototype atlas and frames exported.",
+    "Source padding, matching seam sockets, collision geometry and material continuity require manual cleanup/runtime testing; not seamless or production approved.",
+    "Repeat and assembly previews intentionally show current generated edge gaps; they are QA artifacts, not passed seam certification.",
+    "45degree and shallow-slope modules represented; final exact slope angles/collision joins require grid alignment."
+  ],
+  "source_archive": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/source_images/TILE-008_atlas_original.png",
+      "sha256": "1a193af57f3be91cd0ffecc1476cf1d4f2c4ac7b7441dc501ad8fed3851155a7",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "deliverables": [
+    {
+      "slug": "terrain_atlas",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/source_images/TILE-008_atlas_original.png",
+      "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/exports/TILE-008_64px_prototype_atlas.png",
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-008/previews/TILE-008_source_checker.jpg",
+      "cols": 4,
+      "rows": 4,
+      "frame_count": 16,
+      "roles": [
+        "soil_45_up",
+        "soil_45_down",
+        "stone_45_up",
+        "stone_45_down",
+        "soil_shallow_up_low",
+        "soil_shallow_up_high",
+        "soil_shallow_down_high",
+        "soil_shallow_down_low",
+        "stone_shallow_up_low",
+        "stone_shallow_up_high",
+        "stone_shallow_down_high",
+        "stone_shallow_down_low",
+        "uneven_soil_low",
+        "uneven_soil_high",
+        "uneven_stone_low",
+        "uneven_stone_high"
+      ],
+      "timing": null,
+      "loop": false,
+      "review_notes": [
+        "Sixteen distinct source modules reviewed over checkerboard; real alpha confirmed.64px prototype atlas and frames exported.",
+        "Source padding, matching seam sockets, collision geometry and material continuity require manual cleanup/runtime testing; not seamless or production approved.",
+        "Repeat and assembly previews intentionally show current generated edge gaps; they are QA artifacts, not passed seam certification.",
+        "45degree and shallow-slope modules represented; final exact slope angles/collision joins require grid alignment."
+      ]
+    }
+  ]
+}

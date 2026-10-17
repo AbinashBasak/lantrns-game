@@ -1,0 +1,556 @@
+{
+  "asset_id": "TILE-002",
+  "id": "TILE-002",
+  "title": "Dirt and soil tiles",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002",
+  "prompt": "Use case: stylized-concept. Lanterns Underroot reusable terrain TERRAIN TILE atlas for a hand-painted 2D side-scroller. ONE SQUARE image tightly divided into EXACTLY FOUR EQUAL COLUMNS and FOUR EQUAL ROWS, 16 equal square cells, no gutters or margins, full canvas used. Exactly four tiles per row, never three rows of three plus a strip. Each tile is compact brown dirt and soil with subtle tiny pebbles, no grass moss or roots, no branches, fruit, lanterns, blossoms, plants, ruins, glows, shadows, arches or scenery. Front orthographic elevation, no perspective. Exact content reading order: row1: outer top-left solid terrain corner; top middle terrain surface; outer top-right solid terrain corner; isolated single solid terrain block. Row2: vertical left terrain wall; opaque full square interior specified material fill NO holes; vertical right wall; repeatable narrow ledge middle. Row3: outer bottom-left terrain corner; repeatable terrain underside; outer bottom-right terrain corner; narrow ledge left cap. Row4: narrow ledge right cap; 45-degree rising slope; 45-degree falling slope; three-step ascending terrain stairs. Solid fill reaches all connecting cell edges, never floating decorative islands inside tiles. Use only specified material; no added decorative plants. All modules fit own cell, connecting edges match, empty outside corners are genuinely alpha-zero transparent. No text, numbers, labels or drawn grid. Designed for 64px export per tile. Crisp readable game tiles, restrained painterly texture and muted green/brown/blue-gray palette. Background transparent.",
+  "roles": [
+    "outer_top_left",
+    "top_middle",
+    "outer_top_right",
+    "isolated_block",
+    "left_wall",
+    "opaque_interior",
+    "right_wall",
+    "narrow_ledge_middle",
+    "outer_bottom_left",
+    "underside",
+    "outer_bottom_right",
+    "left_ledge_cap",
+    "right_ledge_cap",
+    "rising_45_slope",
+    "falling_45_slope",
+    "ascending_stairs"
+  ],
+  "deliverables": [
+    {
+      "slug": "terrain_atlas",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/source_images/TILE-002_terrain_atlas_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148ba-e578-7432-a445-11a2541d4ec5/exec-f61c0cce-4f54-4717-8058-b1120debc339.png",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot reusable terrain TERRAIN TILE atlas for a hand-painted 2D side-scroller. ONE SQUARE image tightly divided into EXACTLY FOUR EQUAL COLUMNS and FOUR EQUAL ROWS, 16 equal square cells, no gutters or margins, full canvas used. Exactly four tiles per row, never three rows of three plus a strip. Each tile is compact brown dirt and soil with subtle tiny pebbles, no grass moss or roots, no branches, fruit, lanterns, blossoms, plants, ruins, glows, shadows, arches or scenery. Front orthographic elevation, no perspective. Exact content reading order: row1: outer top-left solid terrain corner; top middle terrain surface; outer top-right solid terrain corner; isolated single solid terrain block. Row2: vertical left terrain wall; opaque full square interior specified material fill NO holes; vertical right wall; repeatable narrow ledge middle. Row3: outer bottom-left terrain corner; repeatable terrain underside; outer bottom-right terrain corner; narrow ledge left cap. Row4: narrow ledge right cap; 45-degree rising slope; 45-degree falling slope; three-step ascending terrain stairs. Solid fill reaches all connecting cell edges, never floating decorative islands inside tiles. Use only specified material; no added decorative plants. All modules fit own cell, connecting edges match, empty outside corners are genuinely alpha-zero transparent. No text, numbers, labels or drawn grid. Designed for 64px export per tile. Crisp readable game tiles, restrained painterly texture and muted green/brown/blue-gray palette. Background transparent.",
+      "reference_images": [],
+      "transparent_background": true,
+      "cols": 4,
+      "rows": 4,
+      "frame_count": 16,
+      "export_mode": "atlas",
+      "roles": [
+        "outer_top_left",
+        "top_middle",
+        "outer_top_right",
+        "isolated_block",
+        "left_wall",
+        "opaque_interior",
+        "right_wall",
+        "narrow_ledge_middle",
+        "outer_bottom_left",
+        "underside",
+        "outer_bottom_right",
+        "left_ledge_cap",
+        "right_ledge_cap",
+        "rising_45_slope",
+        "falling_45_slope",
+        "ascending_stairs"
+      ],
+      "timing": null,
+      "loop": false,
+      "source_message_id": null,
+      "provenance": "unchanged built-in image_gen original",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "1f28004a6ce2862591d402049a6193ea97b446a41dfcf8e9624f31761c3189ae",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "crop_boundaries": [
+        [
+          0,
+          0,
+          314,
+          314
+        ],
+        [
+          314,
+          0,
+          627,
+          314
+        ],
+        [
+          627,
+          0,
+          940,
+          314
+        ],
+        [
+          940,
+          0,
+          1254,
+          314
+        ],
+        [
+          0,
+          314,
+          314,
+          627
+        ],
+        [
+          314,
+          314,
+          627,
+          627
+        ],
+        [
+          627,
+          314,
+          940,
+          627
+        ],
+        [
+          940,
+          314,
+          1254,
+          627
+        ],
+        [
+          0,
+          627,
+          314,
+          940
+        ],
+        [
+          314,
+          627,
+          627,
+          940
+        ],
+        [
+          627,
+          627,
+          940,
+          940
+        ],
+        [
+          940,
+          627,
+          1254,
+          940
+        ],
+        [
+          0,
+          940,
+          314,
+          1254
+        ],
+        [
+          314,
+          940,
+          627,
+          1254
+        ],
+        [
+          627,
+          940,
+          940,
+          1254
+        ],
+        [
+          940,
+          940,
+          1254,
+          1254
+        ]
+      ],
+      "exports": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_00_outer_top_left.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "ec23a5d60d6553191e0dfe3250927c4369288b5ed5ea3e257b1f68383b378aa5",
+          "role": "outer_top_left",
+          "source_crop": [
+            0,
+            0,
+            314,
+            314
+          ],
+          "pivot": [
+            32,
+            64
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_01_top_middle.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "f51db26e8b6460efb6dcf341723c2c75fd4560a50a3a37e69984cc5e8c4d8327",
+          "role": "top_middle",
+          "source_crop": [
+            314,
+            0,
+            627,
+            314
+          ],
+          "pivot": [
+            32,
+            64
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_02_outer_top_right.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "602e3bbd947834dd3703d296737d694f8494bee5a923de171243d656d5e0902f",
+          "role": "outer_top_right",
+          "source_crop": [
+            627,
+            0,
+            940,
+            314
+          ],
+          "pivot": [
+            32,
+            64
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_03_isolated_block.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "9601d0de0d0183159ad09da9ad2917defa12a194e6dd6908efd1836a0b63cafe",
+          "role": "isolated_block",
+          "source_crop": [
+            940,
+            0,
+            1254,
+            314
+          ],
+          "pivot": [
+            32,
+            64
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_04_left_wall.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "92a901295ab11b2e096fa35f6cf3f874dc1cc88a4c16f32cdee383ce4374b2d8",
+          "role": "left_wall",
+          "source_crop": [
+            0,
+            314,
+            314,
+            627
+          ],
+          "pivot": [
+            32,
+            64
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_05_opaque_interior.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "84b81f48b294da910846b0b54145a8756b5982f25345499470151fa5db512222",
+          "role": "opaque_interior",
+          "source_crop": [
+            314,
+            314,
+            627,
+            627
+          ],
+          "pivot": [
+            32,
+            64
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_06_right_wall.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "697a4d3410e1511e13b02e6973229f89b2095afe94c89079f31494d42ab21f7d",
+          "role": "right_wall",
+          "source_crop": [
+            627,
+            314,
+            940,
+            627
+          ],
+          "pivot": [
+            32,
+            64
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_07_narrow_ledge_middle.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "4ae4c59efcf4ecfe2ba1231171beac5b5ba1edad18160a30f7e189caf563bb66",
+          "role": "narrow_ledge_middle",
+          "source_crop": [
+            940,
+            314,
+            1254,
+            627
+          ],
+          "pivot": [
+            32,
+            64
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_08_outer_bottom_left.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "606482e595e6c941bbed9920684deda958896a7235dba5645872cbe8fb612ae2",
+          "role": "outer_bottom_left",
+          "source_crop": [
+            0,
+            627,
+            314,
+            940
+          ],
+          "pivot": [
+            32,
+            64
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_09_underside.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "3548f959e2c77008f68ac404151f8827c0d19cb76ffb0babc15104026f64def8",
+          "role": "underside",
+          "source_crop": [
+            314,
+            627,
+            627,
+            940
+          ],
+          "pivot": [
+            32,
+            64
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_10_outer_bottom_right.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "20fc1877f700959d5c00c7a7ffc021d41b88e3ad29eb8666a6d660593089df73",
+          "role": "outer_bottom_right",
+          "source_crop": [
+            627,
+            627,
+            940,
+            940
+          ],
+          "pivot": [
+            32,
+            64
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_11_left_ledge_cap.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "1f81d5d40cda43ebb5a7f5e70debdf1e3d98a646c274d057559570072d8c52b7",
+          "role": "left_ledge_cap",
+          "source_crop": [
+            940,
+            627,
+            1254,
+            940
+          ],
+          "pivot": [
+            32,
+            64
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_12_right_ledge_cap.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "bb9b793c7272e68bdadf7930e4e345183f157e4a228fc0177a6a72feff34a434",
+          "role": "right_ledge_cap",
+          "source_crop": [
+            0,
+            940,
+            314,
+            1254
+          ],
+          "pivot": [
+            32,
+            64
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_13_rising_45_slope.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "7246cfceb9b3fd6d570619c092083b1ba121ccbfe0ff6548847ce3ea626273a0",
+          "role": "rising_45_slope",
+          "source_crop": [
+            314,
+            940,
+            627,
+            1254
+          ],
+          "pivot": [
+            32,
+            64
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_14_falling_45_slope.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "4a80b183e927d26be60337e58864b0fb6482a904c53c9a3ab824d8d7e4fb9c55",
+          "role": "falling_45_slope",
+          "source_crop": [
+            627,
+            940,
+            940,
+            1254
+          ],
+          "pivot": [
+            32,
+            64
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_15_ascending_stairs.png",
+          "dimensions": [
+            64,
+            64
+          ],
+          "sha256": "fefb74f3dedaea736285eaf94d59d3d87d54de6fbded5de61c120c554f69126a",
+          "role": "ascending_stairs",
+          "source_crop": [
+            940,
+            940,
+            1254,
+            1254
+          ],
+          "pivot": [
+            32,
+            64
+          ]
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_64px_sheet.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "sha256": "f11a78283c79cff20565a779a7f9e5967a2f371af8799cc9b6826840bdb425b4"
+        }
+      ],
+      "pivot": {
+        "x": 32,
+        "y": 64,
+        "description": "bottom-center cell-local prototype anchor"
+      },
+      "animated": false,
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_00_outer_top_left.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_01_top_middle.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_02_outer_top_right.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_03_isolated_block.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_04_left_wall.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_05_opaque_interior.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_06_right_wall.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_07_narrow_ledge_middle.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_08_outer_bottom_left.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_09_underside.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_10_outer_bottom_right.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_11_left_ledge_cap.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_12_right_ledge_cap.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_13_rising_45_slope.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_14_falling_45_slope.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_15_ascending_stairs.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_64px_sheet.png"
+      ],
+      "previews": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/previews/TILE-002_source_alpha_checker.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/previews/TILE-002_export_contact.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/previews/TILE-002_repeat_test.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/previews/TILE-002_assembly_test.png"
+      ],
+      "review_notes": [
+        "Source alpha-checker visually reviewed:16 distinguishable requested material modules in four rows/four columns. 64px exports and assembly preview visually reviewed.",
+        "Prototype source delivery only; generated margins, corner topology, seam gaps, texture repetition and collision-edge registration need manual cleanup before runtime import. Assembly preview deliberately exposes these unresolved joins.",
+        "Role names are intended module functions; grass/moss top corners are raised and some fill/underside silhouettes differ from final desired topology. No seamlessness or production approval inferred."
+      ]
+    }
+  ],
+  "production_approved": false,
+  "requested_deliverables_saved_and_reviewed": true,
+  "stage": "reviewed_prototype_sources_and_64px_exports",
+  "metadata_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/metadata.json",
+  "review_notes": [
+    "Source alpha-checker visually reviewed:16 distinguishable requested material modules in four rows/four columns. 64px exports and assembly preview visually reviewed.",
+    "Prototype source delivery only; generated margins, corner topology, seam gaps, texture repetition and collision-edge registration need manual cleanup before runtime import. Assembly preview deliberately exposes these unresolved joins.",
+    "Role names are intended module functions; grass/moss top corners are raised and some fill/underside silhouettes differ from final desired topology. No seamlessness or production approval inferred."
+  ],
+  "runtime_integrated": false,
+  "source_images": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/source_images/TILE-002_terrain_atlas_original.png"
+  ],
+  "exports": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_00_outer_top_left.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_01_top_middle.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_02_outer_top_right.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_03_isolated_block.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_04_left_wall.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_05_opaque_interior.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_06_right_wall.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_07_narrow_ledge_middle.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_08_outer_bottom_left.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_09_underside.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_10_outer_bottom_right.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_11_left_ledge_cap.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_12_right_ledge_cap.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_13_rising_45_slope.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_14_falling_45_slope.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_15_ascending_stairs.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_64px_sheet.png"
+  ],
+  "previews": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/previews/TILE-002_source_alpha_checker.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/previews/TILE-002_export_contact.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/previews/TILE-002_repeat_test.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/previews/TILE-002_assembly_test.png"
+  ]
+}

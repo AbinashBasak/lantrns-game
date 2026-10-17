@@ -1,0 +1,617 @@
+{
+  "id": "TILE-007",
+  "title": "Edge and corner variants",
+  "roles": [
+    "grass_outer_tl",
+    "grass_outer_tr",
+    "grass_outer_bl",
+    "grass_outer_br",
+    "grass_inner_tl",
+    "grass_inner_tr",
+    "grass_inner_bl",
+    "grass_inner_br",
+    "stone_outer_tl",
+    "stone_outer_tr",
+    "stone_outer_bl",
+    "stone_outer_br",
+    "stone_inner_tl",
+    "stone_inner_tr",
+    "stone_inner_bl",
+    "stone_inner_br"
+  ],
+  "prompt": "Use case: stylized-concept. Handpainted2Dgame corner tile atlas.1024x1024,EXACT4columns4rows16squarecells. Side-on front elevation,NO perspective. Eachcell filled with square soil or stone material,only stated OUTERquarter is empty. Think marching-squares terrain corner masks. Row1 grasssoil four CONVEX OUTER corners,eachisFILLEDrectanglewithONEroundedoutercorner:top-left,top-right,bottom-left,bottom-right. Large opaque material body90percentcell,neverLshapedbracket. Row2 grasssoil four CONCAVE INNER corners: otherwiseFULLSQUAREmaterialwithONEclear128x128squareCUTOUT at top-left,top-right,bottom-left,bottom-right. MaterialcoversremainingTHREEquarters,neverthinLbracket. Row3 sameFOURconvexoutercorners in aged gray mossstone. Row4 sameFOURconcaveinnercorners in aged gray mossstone. Richpainterlymaterials moss/earthcooltealshadows,no scenery/props/characters/text/shadows/glows/gridlines. AlphaONLYoutsidecornerandinsidecutout,opaqueinteriors. Exactfullsquarecellcoveragewithnohugemargins. Distincttopologyforoutervsinnercorners.",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007",
+  "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148ba-fae3-7fd0-8db9-6aa6385f397c/exec-5438aa5b-f02c-4099-a671-03b99f0bae85.png",
+  "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/source_images/TILE-007_atlas_v2_original.png",
+  "additional_sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/source_images/TILE-007_atlas_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148ba-fae3-7fd0-8db9-6aa6385f397c/exec-aa9fdef4-8b48-4e29-abf9-5b28a7fe9e92.png",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer TERRAIN sprite atlas. Rich painterly wood/stone/soil materials, selective crisp silhouettes, restrained brush texture, moss/earth palette with cool teal-blue shadows and warm muted edges. Strict SIDE-ON ORTHOGRAPHIC camera, flat collision tops, no perspective top faces. Exactly1024x1024 square canvas, FOUR equal columns and FOUR equal rows, exactly16equal256pxcells. ONE complete module PER CELL, fitting inside, no spanning. Reading order row-by-row as listed. Genuine alpha outside material and under floating modules, opaque material interiors. NO scenery, props, characters, floor, lamps, glows, shadows, lettering, gridlines, dividers or labels. Four-by-four source modules for64px export, prototype edges pending seam repair. Reusable corner terrain set. Row1 FOUR grass-topped soil OUTER corners: top-left,top-right,bottom-left,bottom-right. Row2 FOUR grass/soil INNER concave corners: top-left,top-right,bottom-left,bottom-right, clearly concave cutouts with transparent quarter. Row3 FOUR moss stone OUTER corners: top-left,top-right,bottom-left,bottom-right. Row4 FOUR moss stone INNER concave corners: top-left,top-right,bottom-left,bottom-right. Each concavity must be genuine empty alpha. No isolated decorative islands.",
+      "review": "Bracket silhouettes repeated, superseded by clearer corner topology repair."
+    }
+  ],
+  "source_info": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/source_images/TILE-007_atlas_v2_original.png",
+    "sha256": "acbb157a4bbf1930c7cafd2f6bd920b5ec19285882f9f58a55708273552ab0b3",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "asset_id": "TILE-007",
+  "cols": 4,
+  "rows": 4,
+  "frame_count": 16,
+  "timing": null,
+  "loop": false,
+  "production_approved": false,
+  "requested_deliverables_saved_and_reviewed": true,
+  "stage": "generated_terrain_prototype_saved_and_reviewed",
+  "source_message_id": null,
+  "provenance": {
+    "tool": "built-in image_gen",
+    "original_unchanged": true,
+    "reference_images": [],
+    "style_guides_reviewed": [
+      "ART-001",
+      "ART-002",
+      "ART-006"
+    ]
+  },
+  "frames": [
+    {
+      "index": 0,
+      "role": "grass_outer_tl",
+      "source_crop": [
+        0,
+        0,
+        314,
+        314
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/exports/TILE-007_grass_outer_tl.png",
+      "sha256": "8818090f1e2e32ef3c8460a65c188ced781a06d5d8474b24cf77ba585469e095",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 1,
+      "role": "grass_outer_tr",
+      "source_crop": [
+        314,
+        0,
+        627,
+        314
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/exports/TILE-007_grass_outer_tr.png",
+      "sha256": "40af3f94efc805d7f40fae4300fb377bb6a58418b00e41bd2c9667903987084c",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 2,
+      "role": "grass_outer_bl",
+      "source_crop": [
+        627,
+        0,
+        940,
+        314
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/exports/TILE-007_grass_outer_bl.png",
+      "sha256": "dad1a571b3c88f5d68b9c9d681e73888fbe9389dd1fddc642c87c98304a32bfc",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 3,
+      "role": "grass_outer_br",
+      "source_crop": [
+        940,
+        0,
+        1254,
+        314
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/exports/TILE-007_grass_outer_br.png",
+      "sha256": "42686c9c8a682910d9428417014f9db6ef2c86139428c2f3cbade908ffd92619",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 4,
+      "role": "grass_inner_tl",
+      "source_crop": [
+        0,
+        314,
+        314,
+        627
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/exports/TILE-007_grass_inner_tl.png",
+      "sha256": "52cfe380b030b674d59f149630e8d82cf16da4e8fd4869671c517b2de5e78ff5",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 5,
+      "role": "grass_inner_tr",
+      "source_crop": [
+        314,
+        314,
+        627,
+        627
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/exports/TILE-007_grass_inner_tr.png",
+      "sha256": "8b424dbef6b8ea4b4be87d2ffbfa5adb9d424dc5391f03e25d74ce129a11d258",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 6,
+      "role": "grass_inner_bl",
+      "source_crop": [
+        627,
+        314,
+        940,
+        627
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/exports/TILE-007_grass_inner_bl.png",
+      "sha256": "e3d55ca4d86acda73b4eec2a2e859de795c295b9fe71ea4dfd42023e908aa93a",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 7,
+      "role": "grass_inner_br",
+      "source_crop": [
+        940,
+        314,
+        1254,
+        627
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/exports/TILE-007_grass_inner_br.png",
+      "sha256": "ddc6362c32069a140119186caa4df21af84d0cd5bb7274a02a651d920c1eeb81",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 8,
+      "role": "stone_outer_tl",
+      "source_crop": [
+        0,
+        627,
+        314,
+        940
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/exports/TILE-007_stone_outer_tl.png",
+      "sha256": "b5c9846f90265355f60e7dfec7da909771722ac4b5640db43e1e6bc729093412",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 9,
+      "role": "stone_outer_tr",
+      "source_crop": [
+        314,
+        627,
+        627,
+        940
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/exports/TILE-007_stone_outer_tr.png",
+      "sha256": "70f093fc7961a94fd2922adc644f442f9981c657d35b0d67437d0b36d16db799",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 10,
+      "role": "stone_outer_bl",
+      "source_crop": [
+        627,
+        627,
+        940,
+        940
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/exports/TILE-007_stone_outer_bl.png",
+      "sha256": "43c87fefb2838c56c2e85671d7ade6845a9ddb6409d459e589eeed7d0cdface8",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 11,
+      "role": "stone_outer_br",
+      "source_crop": [
+        940,
+        627,
+        1254,
+        940
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/exports/TILE-007_stone_outer_br.png",
+      "sha256": "e5a92d15b2dc590b5158623d8c531e5383da6cd0bfddfe5713f867c1ccec3860",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 12,
+      "role": "stone_inner_tl",
+      "source_crop": [
+        0,
+        940,
+        314,
+        1254
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/exports/TILE-007_stone_inner_tl.png",
+      "sha256": "36f200f7f244abff52cd747b35e49b8962df9a4c967b13c27e45531b2f05bc83",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 13,
+      "role": "stone_inner_tr",
+      "source_crop": [
+        314,
+        940,
+        627,
+        1254
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/exports/TILE-007_stone_inner_tr.png",
+      "sha256": "8108aaed51dff9321560bac67a6927d9ed7d1611384a09cf3c1305309cf33dbe",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 14,
+      "role": "stone_inner_bl",
+      "source_crop": [
+        627,
+        940,
+        940,
+        1254
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/exports/TILE-007_stone_inner_bl.png",
+      "sha256": "a4ea08e1f2596975f2cd9c3dc777198402c67b18ee9947fa875100d35ce5595c",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 15,
+      "role": "stone_inner_br",
+      "source_crop": [
+        940,
+        940,
+        1254,
+        1254
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/exports/TILE-007_stone_inner_br.png",
+      "sha256": "4feda7fcc456d89efa075c569eba33bbc5a80511b6665c190f0732e9c1930121",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "normalized_sheet": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/exports/TILE-007_64px_prototype_atlas.png",
+    "sha256": "20caf500f60d626e633374f764c4b1169c75658dfaf4dcb6d5076c0cbf079ca4",
+    "dimensions": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/exports/TILE-007_64px_prototype_atlas.png",
+  "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/previews/TILE-007_source_checker.jpg",
+  "contact_preview": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/previews/TILE-007_64px_contact.png",
+    "sha256": "039ff95de149dcf85d820619932830e1245a43a39d40150994252062ec28a49c",
+    "dimensions": [
+      768,
+      768
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  "assembly_preview": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/previews/TILE-007_assembly_seam_review.png",
+    "sha256": "acca16f586239c4f53bd2f3f6507374dd84bd1acff601128db26886467e7bc69",
+    "dimensions": [
+      512,
+      384
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  "repeat_preview": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/previews/TILE-007_repeat_review.png",
+    "sha256": "c46052066090fd3c31027e93b851e2f063813bc3c4664269e53916fc5a2abe39",
+    "dimensions": [
+      576,
+      576
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  "review_notes": [
+    "Sixteen distinct source modules reviewed over checkerboard; real alpha confirmed.64px prototype atlas and frames exported.",
+    "Source padding, matching seam sockets, collision geometry and material continuity require manual cleanup/runtime testing; not seamless or production approved.",
+    "Repeat and assembly previews intentionally show current generated edge gaps; they are QA artifacts, not passed seam certification.",
+    "Corner topology repair improves material coverage and distinct rounded vs square cutouts; precise collision masks and convex edge curvature need manual correction."
+  ],
+  "source_archive": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/source_images/TILE-007_atlas_original.png",
+      "sha256": "d2418fd115f68780ae0c25f71f4053e5db667bbaa0bb2689762502ad5e00d55d",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/source_images/TILE-007_atlas_v2_original.png",
+      "sha256": "acbb157a4bbf1930c7cafd2f6bd920b5ec19285882f9f58a55708273552ab0b3",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "deliverables": [
+    {
+      "slug": "terrain_atlas",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/source_images/TILE-007_atlas_v2_original.png",
+      "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/exports/TILE-007_64px_prototype_atlas.png",
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-007/previews/TILE-007_source_checker.jpg",
+      "cols": 4,
+      "rows": 4,
+      "frame_count": 16,
+      "roles": [
+        "grass_outer_tl",
+        "grass_outer_tr",
+        "grass_outer_bl",
+        "grass_outer_br",
+        "grass_inner_tl",
+        "grass_inner_tr",
+        "grass_inner_bl",
+        "grass_inner_br",
+        "stone_outer_tl",
+        "stone_outer_tr",
+        "stone_outer_bl",
+        "stone_outer_br",
+        "stone_inner_tl",
+        "stone_inner_tr",
+        "stone_inner_bl",
+        "stone_inner_br"
+      ],
+      "timing": null,
+      "loop": false,
+      "review_notes": [
+        "Sixteen distinct source modules reviewed over checkerboard; real alpha confirmed.64px prototype atlas and frames exported.",
+        "Source padding, matching seam sockets, collision geometry and material continuity require manual cleanup/runtime testing; not seamless or production approved.",
+        "Repeat and assembly previews intentionally show current generated edge gaps; they are QA artifacts, not passed seam certification.",
+        "Corner topology repair improves material coverage and distinct rounded vs square cutouts; precise collision masks and convex edge curvature need manual correction."
+      ]
+    }
+  ]
+}

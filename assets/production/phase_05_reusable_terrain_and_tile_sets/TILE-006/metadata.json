@@ -1,0 +1,594 @@
+{
+  "id": "TILE-006",
+  "title": "Wood platforms and bridges",
+  "roles": [
+    "plank_left_cap",
+    "plank_repeat",
+    "plank_right_cap",
+    "plank_isolated",
+    "bridge_left_cap",
+    "bridge_repeat",
+    "bridge_right_cap",
+    "bridge_isolated",
+    "wood_post_left",
+    "wood_post_right",
+    "diagonal_support_left",
+    "diagonal_support_right",
+    "rope_bridge_left",
+    "rope_bridge_repeat",
+    "rope_bridge_right",
+    "rope_bridge_isolated"
+  ],
+  "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer TERRAIN sprite atlas. Rich painterly wood/stone/soil materials, selective crisp silhouettes, restrained brush texture, moss/earth palette with cool teal-blue shadows and warm muted edges. Strict SIDE-ON ORTHOGRAPHIC camera, flat collision tops, no perspective top faces. Exactly1024x1024 square canvas, FOUR equal columns and FOUR equal rows, exactly16equal256pxcells. ONE complete module PER CELL, fitting inside, no spanning. Reading order row-by-row as listed. Genuine alpha outside material and under floating modules, opaque material interiors. NO scenery, props, characters, floor, lamps, glows, shadows, lettering, gridlines, dividers or labels. Four-by-four source modules for64px export, prototype edges pending seam repair. A reusable warm aged wood/plank and rope bridge construction set. Modules must be functional terrain with clear walk tops. Row1 plank ledge leftcap,middle repeat,rightcap,isolatedshort. Row2 timber bridge leftcap,repeat,rightcap,isolatedshort. Row3 wood endpost left,endpost right,diagonal underside support left,diagonal underside support right. Row4 rope bridge leftcap,rope bridge repeat,rope bridge rightcap,rope bridge isolatedshort. Thin ropes integrated above wooden walkdeck; no giant architecture.",
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006",
+  "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148ba-fae3-7fd0-8db9-6aa6385f397c/exec-c80f737c-2d0a-4695-8396-6860dfc2cf5d.png",
+  "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/source_images/TILE-006_atlas_original.png",
+  "source_info": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/source_images/TILE-006_atlas_original.png",
+    "sha256": "60361d5c6c1fd089c7d4d7d83b2abdf8006895df32aa19285dacb503e2f1f6a9",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "asset_id": "TILE-006",
+  "cols": 4,
+  "rows": 4,
+  "frame_count": 16,
+  "timing": null,
+  "loop": false,
+  "production_approved": false,
+  "requested_deliverables_saved_and_reviewed": true,
+  "stage": "generated_terrain_prototype_saved_and_reviewed",
+  "source_message_id": null,
+  "provenance": {
+    "tool": "built-in image_gen",
+    "original_unchanged": true,
+    "reference_images": [],
+    "style_guides_reviewed": [
+      "ART-001",
+      "ART-002",
+      "ART-006"
+    ]
+  },
+  "frames": [
+    {
+      "index": 0,
+      "role": "plank_left_cap",
+      "source_crop": [
+        0,
+        0,
+        314,
+        314
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/exports/TILE-006_plank_left_cap.png",
+      "sha256": "9ad0974f10948febca173086ca359d5f3bdf1e18e6b6d21acde52c6b09ecc13e",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 1,
+      "role": "plank_repeat",
+      "source_crop": [
+        314,
+        0,
+        627,
+        314
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/exports/TILE-006_plank_repeat.png",
+      "sha256": "a708489468a9c2add6f9a0605104b2326448183172cc420c4cde301df7e2877f",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 2,
+      "role": "plank_right_cap",
+      "source_crop": [
+        627,
+        0,
+        940,
+        314
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/exports/TILE-006_plank_right_cap.png",
+      "sha256": "2f5f866eadd1cc5da02ab777168636db1b0eee5a1b40c6866e1702f21899b1b7",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 3,
+      "role": "plank_isolated",
+      "source_crop": [
+        940,
+        0,
+        1254,
+        314
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/exports/TILE-006_plank_isolated.png",
+      "sha256": "d1ef13d0b17b14e5fdd45f273c73b6cf39849af7db6e185081632860eebbbb46",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 4,
+      "role": "bridge_left_cap",
+      "source_crop": [
+        0,
+        314,
+        314,
+        627
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/exports/TILE-006_bridge_left_cap.png",
+      "sha256": "4c6596e4a47367926076115439a6fe146104d93ce1d27d9230f2f74b847ad61d",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 5,
+      "role": "bridge_repeat",
+      "source_crop": [
+        314,
+        314,
+        627,
+        627
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/exports/TILE-006_bridge_repeat.png",
+      "sha256": "df06f2b84e7fae06bd31143b89daf73ab6214f37a082278a3553ddbaee346b16",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 6,
+      "role": "bridge_right_cap",
+      "source_crop": [
+        627,
+        314,
+        940,
+        627
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/exports/TILE-006_bridge_right_cap.png",
+      "sha256": "cfef0772cdd39d4e8c0d2fd309e7fff34c05849a25883e56cf0d0a7cbd13e473",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 7,
+      "role": "bridge_isolated",
+      "source_crop": [
+        940,
+        314,
+        1254,
+        627
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/exports/TILE-006_bridge_isolated.png",
+      "sha256": "1969ce15710c8fa15cfd2b72805badc1f09e3b79addcebec41a426ac8321c127",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 8,
+      "role": "wood_post_left",
+      "source_crop": [
+        0,
+        627,
+        314,
+        940
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/exports/TILE-006_wood_post_left.png",
+      "sha256": "b237e70a4f946b9d3b9fc5301c48c2935059e78e4e752292515a50dfcdfe6849",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 9,
+      "role": "wood_post_right",
+      "source_crop": [
+        314,
+        627,
+        627,
+        940
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/exports/TILE-006_wood_post_right.png",
+      "sha256": "e51a54ca82a0153cab090191d0dba2f1e80c11031e686ba3c66b52f13bb3d3d3",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 10,
+      "role": "diagonal_support_left",
+      "source_crop": [
+        627,
+        627,
+        940,
+        940
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/exports/TILE-006_diagonal_support_left.png",
+      "sha256": "a6cee6330c3a1579d6ba83603d3c8a3d871f6958aafd0a7de7e391d1b9b29bf3",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 11,
+      "role": "diagonal_support_right",
+      "source_crop": [
+        940,
+        627,
+        1254,
+        940
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/exports/TILE-006_diagonal_support_right.png",
+      "sha256": "0e999e89d39ab3c35ab1f0655f21a5391b76aab5c9efe312265c9a507ec16f94",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 12,
+      "role": "rope_bridge_left",
+      "source_crop": [
+        0,
+        940,
+        314,
+        1254
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/exports/TILE-006_rope_bridge_left.png",
+      "sha256": "4a432a58e3125e4870da44262b70666e60235e3d328dea86c2bbbc7559997852",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 13,
+      "role": "rope_bridge_repeat",
+      "source_crop": [
+        314,
+        940,
+        627,
+        1254
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/exports/TILE-006_rope_bridge_repeat.png",
+      "sha256": "7eb14914192c8c85bc83755d46007eabd51cb3a71be147404b61859aa593540f",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 14,
+      "role": "rope_bridge_right",
+      "source_crop": [
+        627,
+        940,
+        940,
+        1254
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/exports/TILE-006_rope_bridge_right.png",
+      "sha256": "c6482bdb9978a63f86449ddc8ec061d0ccba25038b0c59245cad61cb327424a1",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "index": 15,
+      "role": "rope_bridge_isolated",
+      "source_crop": [
+        940,
+        940,
+        1254,
+        1254
+      ],
+      "pivot": [
+        32,
+        64
+      ],
+      "pivot_units": "pixels_from_top_left",
+      "timing": null,
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/exports/TILE-006_rope_bridge_isolated.png",
+      "sha256": "d445c0acfe89ee30fa3f028b31990e26028c0c71efd1278c667d2e25c21fa491",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "normalized_sheet": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/exports/TILE-006_64px_prototype_atlas.png",
+    "sha256": "f9df61de0aed845d9db299abd11fb64f72081c313afec19b0c901ef82af0e850",
+    "dimensions": [
+      256,
+      256
+    ],
+    "mode": "RGBA",
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/exports/TILE-006_64px_prototype_atlas.png",
+  "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/previews/TILE-006_source_checker.jpg",
+  "contact_preview": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/previews/TILE-006_64px_contact.png",
+    "sha256": "ae76bdb372de9480530e08de6aba118ae53d17252cf1e85b5b5495b08f2caf3e",
+    "dimensions": [
+      768,
+      768
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  "assembly_preview": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/previews/TILE-006_assembly_seam_review.png",
+    "sha256": "032a2fd90503f386e6ee65c622954a6c19a3e384fc32841b4ac9349b45743033",
+    "dimensions": [
+      512,
+      384
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  "repeat_preview": {
+    "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/previews/TILE-006_repeat_review.png",
+    "sha256": "8558deef16d7f6ef482ce9b4aa177571ef3a436e98b0b7a888c93284682ac64f",
+    "dimensions": [
+      576,
+      576
+    ],
+    "mode": "RGB",
+    "alpha_extrema": null
+  },
+  "review_notes": [
+    "Sixteen distinct source modules reviewed over checkerboard; real alpha confirmed.64px prototype atlas and frames exported.",
+    "Source padding, matching seam sockets, collision geometry and material continuity require manual cleanup/runtime testing; not seamless or production approved.",
+    "Repeat and assembly previews intentionally show current generated edge gaps; they are QA artifacts, not passed seam certification."
+  ],
+  "source_archive": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/source_images/TILE-006_atlas_original.png",
+      "sha256": "60361d5c6c1fd089c7d4d7d83b2abdf8006895df32aa19285dacb503e2f1f6a9",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "deliverables": [
+    {
+      "slug": "terrain_atlas",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/source_images/TILE-006_atlas_original.png",
+      "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/exports/TILE-006_64px_prototype_atlas.png",
+      "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/previews/TILE-006_source_checker.jpg",
+      "cols": 4,
+      "rows": 4,
+      "frame_count": 16,
+      "roles": [
+        "plank_left_cap",
+        "plank_repeat",
+        "plank_right_cap",
+        "plank_isolated",
+        "bridge_left_cap",
+        "bridge_repeat",
+        "bridge_right_cap",
+        "bridge_isolated",
+        "wood_post_left",
+        "wood_post_right",
+        "diagonal_support_left",
+        "diagonal_support_right",
+        "rope_bridge_left",
+        "rope_bridge_repeat",
+        "rope_bridge_right",
+        "rope_bridge_isolated"
+      ],
+      "timing": null,
+      "loop": false,
+      "review_notes": [
+        "Sixteen distinct source modules reviewed over checkerboard; real alpha confirmed.64px prototype atlas and frames exported.",
+        "Source padding, matching seam sockets, collision geometry and material continuity require manual cleanup/runtime testing; not seamless or production approved.",
+        "Repeat and assembly previews intentionally show current generated edge gaps; they are QA artifacts, not passed seam certification."
+      ]
+    }
+  ]
+}
