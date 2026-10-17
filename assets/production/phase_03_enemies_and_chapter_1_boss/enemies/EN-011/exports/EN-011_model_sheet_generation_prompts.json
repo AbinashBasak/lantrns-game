@@ -1,0 +1,30 @@
+{
+  "asset_id": "EN-011",
+  "clip": "model_sheet",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-011/source_images/EN-011_model_sheet_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441d-6499-79e0-8b00-ac5fc8abc8c1/exec-c9ab3a9d-78b1-4d2d-a752-a91f4466b8c8.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted outlined 2D game character model sheet. Image1 panel7 enemy example defines detailed Sporeling identity ONLY; ignore all text/scenery/other enemies. Image2 defines squat mushroom silhouette and relative short scale ONLY, not flat rendering. Sporeling is a small squat woodland mushroom creature, broad red cap with creamy irregular pale spots and tan gills, ivory short stem body, moss/root frills at base, small dark expressive eyes, two small root arms and two stubby root feet. Match panel7 red spotted cap, ivory/moss palette. No clothes, weapons or extra limbs. Four-view model proposal, FOUR full-body views in a single horizontal row of four equal cells: front, right profile, back, three-quarter-right. Landscape canvas, each view fully isolated with ample empty padding. No labels or text. Subject interior opaque; genuine transparent background, no floor, cast shadow, haze, scenery, labels, borders or text. Consistent scale and same design four views. Each view fully fits own cell with generous padding.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-001/ART-001_final_visual_style_guide.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-003/ART-003_character_proportion_and_scale.png"
+      ],
+      "clip": "model_sheet",
+      "review": "selected prototype",
+      "bytes": 1342067,
+      "sha256": "0f37a0ea5c3e4dc0f774993907df92721f5e66919e4dcf720fc4a7bdc379de31",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}

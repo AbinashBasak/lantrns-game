@@ -1,0 +1,49 @@
+{
+  "asset_id": "EN-015",
+  "clip": "model_sheet",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/source_images/EN-015_model_sheet_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441d-6499-79e0-8b00-ac5fc8abc8c1/exec-c0f35c75-5bdd-4576-b845-dd043ea64556.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Identity-preserving model sheet correction. Use exact Brambleguard from input: bark/root thick limbs, graystone armor/moss/leaf twigs, blue diamond chest core. Render EXACTLY FOUR full-body views in four equal horizontal cells on wide landscape canvas. FRONT, RIGHT PROFILE, BACK, THREEQUARTER RIGHT, chronological left to right. CRITICAL: scale EACH creature much smaller so creature height is only 60 percent canvas height and width max 65percent its own quarter-cell. Ample clear TRANSPARENT gutters between every view; margins at least 50px each side of every character. Current model too large/crowded; fix spacing, don't cut any fist or branch. Uniform scale all four. Preserve hand-painted outline style and design. No ground, cast shadow, haze, text, labels, borders, panels or other chars. Genuine transparent background and opaque interiors. Blue core stays blue, back has no core.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/source_images/EN-015_model_sheet_attempt01_original.png"
+      ],
+      "clip": "model_sheet",
+      "review": "selected prototype",
+      "bytes": 1619269,
+      "sha256": "dafc2b61401a211760b6863e34f4826d116d69d7bb219ddea429c85cd78f425c",
+      "dimensions": [
+        1983,
+        793
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441d-6499-79e0-8b00-ac5fc8abc8c1/exec-b7a5a1d2-672b-4271-9941-3611e6966037.png",
+      "prompt": "Use case: stylized-concept. Hand-painted outlined 2D game character model sheet. Image1 panel7 Brambleguard heavy enemy example defines detailed identity ONLY. Ignore other chars/text/scenery. Image2 defines heavy tall silhouette and 2.2tile scale only, not flat rendering. Brambleguard: bulky forest guardian, massive brown bark and cool-gray stone armor plates, moss and small leaf clusters at shoulders/head, thick gnarled root arms ending huge fists, two powerful root legs, small dark inset eyes under woody brow, ONE bright BLUE diamond crystal core recessed center chest with cool cyan rim. No weapons, no clothes. Keep it distinct from stone-temple boss. Four-view model proposal, FOUR full-body views in a single horizontal row of four equal cells: front, right profile, back, three-quarter-right. Landscape canvas, each view fully isolated with ample empty padding. No labels or text. Four equal horizontal cells, all views same scale. Genuine transparent background, opaque character, no floor, shadow, halo, scenery, borders, labels or text. Every root branch fits inside its cell with 60px padding.",
+      "review": "Crowded first attempt, rightmost fist grazed canvas boundary.",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/source_images/EN-015_model_sheet_attempt01_original.png",
+      "provenance": "unchanged built-in image_gen attempt",
+      "source_message_id": null,
+      "clip": "model_sheet",
+      "bytes": 2251370,
+      "sha256": "4cc2416f3cbb5667a08e6b6db985ecdbdda232e794893e212348a4427e5b0e16",
+      "dimensions": [
+        1983,
+        793
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}

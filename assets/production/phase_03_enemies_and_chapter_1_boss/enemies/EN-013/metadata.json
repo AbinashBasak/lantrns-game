@@ -1,0 +1,504 @@
+{
+  "asset_id": "EN-013",
+  "title": "Sporeling spore attack",
+  "checked": true,
+  "stage": "animation prototype generated and visually reviewed; 1 deliverable clip/view set(s); cleanup and production approval pending",
+  "last_updated": "2026-10-17T01:42:52.790076+05:30",
+  "generation_tool": "built-in image_gen",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/source_images/EN-013_spore_attack_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441d-6499-79e0-8b00-ac5fc8abc8c1/exec-a16b2b91-0a0e-44b1-9379-a2ce6d4f7282.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted outlined 2D platformer enemy animation sprite sheet. Reference image is ONLY character identity/style, not pose count/layout. Exactly SIX full-body poses in a precise equal 3-column by 2-row grid on 1536x1024 canvas; 512x512 cells. Chronological reading order. Same camera, scale and identity in every cell, right-facing three-quarter. Subject total height approx 330px, 70px CLEAR transparent padding. Whole cap/body/arms/feet/effects inside each own cell with no overlap. Opaque subject interior, genuine transparent background, no floor, shadow, colored haze, text, labels, borders, scenery or other creatures. Do not copy reference layout. Sporeling: broad red cap with cream spots/tan gills, ivory squat stem body, moss/root lower frill, small root arms/feet, dark oval eyes. Six spore attack phases facing right: 1 ready; 2 root body crouch/cap lowers; 3 cap swells and body leans forward telegraph; 4 releases a compact spray of five pale golden spore motes to right from beneath cap; 5 diminished two motes drifting right with body recoil; 6 recover ready. Spore effects small fully inside cell. No giant cloud or background. Reserve 70px padding around every cap and particle. Small sprite; DO NOT fill whole cell.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-011/source_images/EN-011_model_sheet_original.png"
+      ],
+      "clip": "spore_attack",
+      "review": "selected prototype",
+      "bytes": 2075872,
+      "sha256": "62c3489574c88c001d280aa2216957fb7e81231afdee30b8eb560bd6ba41b8d9",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "clips": [
+    {
+      "asset_id": "EN-013",
+      "clip": "spore_attack",
+      "frame_count": 6,
+      "frame_dimensions": [
+        512,
+        512
+      ],
+      "frame_durations_ms": [
+        150,
+        140,
+        200,
+        130,
+        180,
+        220
+      ],
+      "loop": false,
+      "preview_loops_for_review": true,
+      "pivot_px": [
+        256,
+        480
+      ],
+      "frames": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/frames/EN-013_spore_attack_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/frames/EN-013_spore_attack_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/frames/EN-013_spore_attack_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/frames/EN-013_spore_attack_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/frames/EN-013_spore_attack_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/frames/EN-013_spore_attack_06.png"
+      ],
+      "poses": [
+        "ready",
+        "crouch",
+        "cap swells",
+        "release spores",
+        "residual spores",
+        "recover"
+      ],
+      "transforms": [
+        {
+          "frame": 1,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/source_images/EN-013_spore_attack_original.png",
+          "source_crop": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            57
+          ],
+          "alpha230_bbox": [
+            58,
+            121,
+            432,
+            479
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 2,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/source_images/EN-013_spore_attack_original.png",
+          "source_crop": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            57
+          ],
+          "alpha230_bbox": [
+            60,
+            191,
+            450,
+            481
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 3,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/source_images/EN-013_spore_attack_original.png",
+          "source_crop": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            57
+          ],
+          "alpha230_bbox": [
+            66,
+            99,
+            478,
+            479
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 4,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/source_images/EN-013_spore_attack_original.png",
+          "source_crop": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            94
+          ],
+          "alpha230_bbox": [
+            52,
+            95,
+            511,
+            437
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 5,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/source_images/EN-013_spore_attack_original.png",
+          "source_crop": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            94
+          ],
+          "alpha230_bbox": [
+            52,
+            96,
+            503,
+            427
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 6,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/source_images/EN-013_spore_attack_original.png",
+          "source_crop": [
+            1024,
+            512,
+            1536,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            94
+          ],
+          "alpha230_bbox": [
+            85,
+            94,
+            455,
+            439
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "review_notes": [
+        "Six distinct ready/crouch/cap swelling/release/residual/recover phases. Five compact golden motes then two residual motes to right; attack reads clearly.",
+        "Equal cells contain subject and particle cores; glow approaches horizontal boundaries and red ambient haze persists. Cap spot/shape and camera continuity require cleanup."
+      ],
+      "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+    }
+  ],
+  "review_notes": [
+    "Generated model proposal/animation prototype; not production approved.",
+    "Generated designs are proposals based on project art/story; user production approval is not inferred.",
+    "Generated alpha is preserved. Source haze, armor/anatomy continuity, foot contacts and timing require cleanup and Godot review. No runtime integration performed."
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/EN-013_spore_attack_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/previews/EN-013_spore_attack_preview.gif",
+  "asset_pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/EN-013_prototype_pack.zip",
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/EN-013_README.md",
+      "bytes": 1158,
+      "sha256": "12c650444308243212fc78a832166044c430ec2d24a484d0ab3597ba2dcf4a74"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/EN-013_prototype_pack.zip",
+      "bytes": 4818528,
+      "sha256": "74173308757136ba1546a9b4eec966009f72e0c5b2ea337f06ce720c80a4009b"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/EN-013_spore_attack_generation_prompts.json",
+      "bytes": 2363,
+      "sha256": "a09f64431982d8bbe5ad20856f70be2d2dcc844c9599be1081f99cfde3fbe71d"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/EN-013_spore_attack_manifest.json",
+      "bytes": 5310,
+      "sha256": "2202e6323e36abfeeeb3e7b95fb722f9951df2844c1ffe7b94e2116a0cf1f731"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/EN-013_spore_attack_silhouettes_strip.png",
+      "bytes": 17266,
+      "sha256": "fd5c8bddd5fb5a450d03dbca637cf9d7465f2d99d993d7557d7d3c01a168d998",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/EN-013_spore_attack_strip.png",
+      "bytes": 1085118,
+      "sha256": "d7e901972125426e36faa18a192ce4e7bd813270fa61677129aaa312e281f759",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/frames/EN-013_spore_attack_01.png",
+      "bytes": 177294,
+      "sha256": "59816bc1e1eae89830a924e8b5aa724f01a02b35fd79f33427f82b9922a97814",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/frames/EN-013_spore_attack_02.png",
+      "bytes": 146873,
+      "sha256": "02ce045fbe1af0b44c37428e5360fe1ed6077d6322113435065619e8e5360b28",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/frames/EN-013_spore_attack_03.png",
+      "bytes": 186043,
+      "sha256": "917ede41c73e6445ab78f5aa9b8a8f7974117d67226d322040551f746c01ba55",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/frames/EN-013_spore_attack_04.png",
+      "bytes": 209124,
+      "sha256": "53237aac13a84cfd7db3e48c381a0ac585b0023e26ca1586abc975cb0f03cb7f",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/frames/EN-013_spore_attack_05.png",
+      "bytes": 190533,
+      "sha256": "c1541c3c4b8dfdc0ccae055fdff1c508760647293aceb2ebe796fd44b61dbaaa",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/frames/EN-013_spore_attack_06.png",
+      "bytes": 173701,
+      "sha256": "457d34815935536891a6ec3a503f4d4ae8d7c05627c4517b492125c7cf322504",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/silhouettes/EN-013_spore_attack_01_silhouette.png",
+      "bytes": 3515,
+      "sha256": "04b280e6e7ffbee26f8c2b4b404ca48ce3629a196e40cb8ee5a32a99087b259b",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/silhouettes/EN-013_spore_attack_02_silhouette.png",
+      "bytes": 2973,
+      "sha256": "75cc7ef925ab01d4555989d8842be32645c93e6a177b88bfc210a9b3740586be",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/silhouettes/EN-013_spore_attack_03_silhouette.png",
+      "bytes": 3602,
+      "sha256": "447af204f04808ea20eceac5ab34fa1ba3c1fb04f83a3168b66336f2be09f498",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/silhouettes/EN-013_spore_attack_04_silhouette.png",
+      "bytes": 3847,
+      "sha256": "5f240d6cfbb0779154e5f3c24889a507fc75e223b3f03b91c4636cb100969517",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/silhouettes/EN-013_spore_attack_05_silhouette.png",
+      "bytes": 3434,
+      "sha256": "a5f4e78cedc09381e83942dd74c451ea02c545b714b809b677620db5b11bf27c",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/silhouettes/EN-013_spore_attack_06_silhouette.png",
+      "bytes": 3399,
+      "sha256": "34cfe61d76c1af8fef191f5136dc9ecd9513c6bac87796d87a331d299d3ceca0",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/previews/EN-013_spore_attack_contact_sheet.jpg",
+      "bytes": 227378,
+      "sha256": "f2b6a4222cbf684f20de763dc3dc4d0cf5eaa556b13f7d08f1e9d08730946f19",
+      "dimensions": [
+        1536,
+        1104
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/previews/EN-013_spore_attack_preview.gif",
+      "bytes": 351262,
+      "sha256": "c73b76b64962601a527fc3bbcdfb313016290c502f04a0ce74f122f8a0baaa6f",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/source_images/EN-013_spore_attack_original.png",
+      "bytes": 2075872,
+      "sha256": "62c3489574c88c001d280aa2216957fb7e81231afdee30b8eb560bd6ba41b8d9",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "production_approved": false,
+  "checklist_status_source": "/Users/abinashbasak/Downloads/lanterns_underroot_master_asset_checklist.md"
+}

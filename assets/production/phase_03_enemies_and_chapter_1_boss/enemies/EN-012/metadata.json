@@ -1,0 +1,1005 @@
+{
+  "asset_id": "EN-012",
+  "title": "Sporeling idle and movement animations",
+  "checked": false,
+  "stage": "animation prototype generated and visually reviewed; 2 deliverable clip/view set(s); cleanup and production approval pending",
+  "last_updated": "2026-10-17T01:42:52.790076+05:30",
+  "generation_tool": "built-in image_gen",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/source_images/EN-012_idle_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441d-6499-79e0-8b00-ac5fc8abc8c1/exec-6cbd994e-4c90-435d-8807-a6ba68ca4b27.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted outlined 2D platformer enemy animation sprite sheet. Reference image is ONLY character identity/style, not pose count/layout. Exactly SIX full-body poses in a precise equal 3-column by 2-row grid on 1536x1024 canvas; 512x512 cells. Chronological reading order. Same camera, scale and identity in every cell, right-facing three-quarter. Subject total height approx 330px, 70px CLEAR transparent padding. Whole cap/body/arms/feet/effects inside each own cell with no overlap. Opaque subject interior, genuine transparent background, no floor, shadow, colored haze, text, labels, borders, scenery or other creatures. Do not copy reference layout. Sporeling: broad red cap with cream spots and tan gills, ivory squat stem body, moss/root lower frill, small root arms and feet, dark oval eyes. Preserve exact model. Six DISTINCT idle breathing keyposes. 1 neutral; 2 stem extends breathing in, cap rises; 3 highest cap/inhale; 4 stem squashes, cap dips, eyes blink; 5 ease upward; 6 return neutral. Subtle animation but visibly different body compression each phase. Feet stay planted.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-011/source_images/EN-011_model_sheet_original.png"
+      ],
+      "clip": "idle",
+      "review": "selected prototype",
+      "bytes": 2226926,
+      "sha256": "2e04d1018144fce1207936af7ed9f1a783c7f4eef19515f8d3510702a72f51e2",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/source_images/EN-012_movement_v2_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441d-6499-79e0-8b00-ac5fc8abc8c1/exec-a21b4756-c5b5-49c1-afef-e433e23c61eb.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted outlined 2D platformer enemy animation sprite sheet. Reference image is ONLY character identity/style, not pose count/layout. Exactly SIX full-body poses in a precise equal 3-column by 2-row grid on 1536x1024 canvas; 512x512 cells. Chronological reading order. Same camera, scale and identity in every cell, right-facing three-quarter. Subject total height approx 330px, 70px CLEAR transparent padding. Whole cap/body/arms/feet/effects inside each own cell with no overlap. Opaque subject interior, genuine transparent background, no floor, shadow, colored haze, text, labels, borders, scenery or other creatures. Do not copy reference layout. Sporeling exact reference cap/body. STRICT SIDE PROFILE facing RIGHT in every cell, keep only one eye visible. Six distinct chronological walking poses with BOTH FEET clearly visible: 1 leading foot stretched far RIGHT and trailing foot far LEFT; 2 front foot flat planted, rear heel lifts; 3 rear foot passes under body and leading knee bends, body rises; 4 opposite foot now swings far RIGHT while other foot trails LEFT, cap dips; 5 new front foot planted and old front heel lifts; 6 feet passing close under torso again before next cycle. Short root arms counter-swing. DO NOT repeat same forward kick three times. Different contact/down/pass/up shapes, stable side camera. Every foot inside cell.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-011/source_images/EN-011_model_sheet_original.png"
+      ],
+      "clip": "movement",
+      "review": "selected prototype",
+      "bytes": 2246084,
+      "sha256": "be9ef68e78e0e91e92bc56d3e7b9f62f0436f4b1e50ba8e695a6bcce77d89649",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441d-6499-79e0-8b00-ac5fc8abc8c1/exec-3f1ec4ef-e6c2-4753-9c52-0a4ef8a9a803.png",
+      "prompt": "Use case: stylized-concept. Hand-painted outlined 2D platformer enemy animation sprite sheet. Reference image is ONLY character identity/style, not pose count/layout. Exactly SIX full-body poses in a precise equal 3-column by 2-row grid on 1536x1024 canvas; 512x512 cells. Chronological reading order. Same camera, scale and identity in every cell, right-facing three-quarter. Subject total height approx 330px, 70px CLEAR transparent padding. Whole cap/body/arms/feet/effects inside each own cell with no overlap. Opaque subject interior, genuine transparent background, no floor, shadow, colored haze, text, labels, borders, scenery or other creatures. Do not copy reference layout. Sporeling: broad red cap with cream spots and tan gills, ivory squat stem body, moss/root lower frill, small root arms and feet, dark oval eyes. Preserve exact model. Six distinct waddling locomotion poses facing right. Left-foot lead, left plant, feet pass under body, right-foot lead, right plant, pass return. Alternate both legs visibly, cap bob and tiny root arms counter-swing, side/threequarter view. Keep every foot above y450 in top row and y962 in bottom row. Do not drift camera toward frontal.",
+      "review": "Earlier waddle attempt preserved; weaker anatomical leg alternation and camera drift.",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/source_images/EN-012_movement_original.png",
+      "provenance": "unchanged built-in image_gen attempt",
+      "source_message_id": null,
+      "clip": "movement",
+      "bytes": 2188749,
+      "sha256": "8216681a9e25d6d0cd283ec0f2b3cd6d68b450dd67390878e24d90105dccf277",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "frame_count": 12,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "clips": [
+    {
+      "asset_id": "EN-012",
+      "clip": "idle",
+      "frame_count": 6,
+      "frame_dimensions": [
+        512,
+        512
+      ],
+      "frame_durations_ms": [
+        180,
+        160,
+        180,
+        200,
+        180,
+        160
+      ],
+      "loop": true,
+      "preview_loops_for_review": true,
+      "pivot_px": [
+        256,
+        480
+      ],
+      "frames": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/frames/EN-012_idle_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/frames/EN-012_idle_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/frames/EN-012_idle_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/frames/EN-012_idle_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/frames/EN-012_idle_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/frames/EN-012_idle_06.png"
+      ],
+      "poses": [
+        "neutral",
+        "inhale rise",
+        "cap high",
+        "exhale dip",
+        "settle",
+        "neutral return"
+      ],
+      "transforms": [
+        {
+          "frame": 1,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/source_images/EN-012_idle_original.png",
+          "source_crop": [
+            0,
+            0,
+            512,
+            550
+          ],
+          "source_regions": null,
+          "scale": 0.8181818181818182,
+          "offset": [
+            47,
+            54
+          ],
+          "alpha230_bbox": [
+            78,
+            130,
+            482,
+            520
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 2,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/source_images/EN-012_idle_original.png",
+          "source_crop": [
+            512,
+            0,
+            1024,
+            550
+          ],
+          "source_regions": null,
+          "scale": 0.8181818181818182,
+          "offset": [
+            47,
+            54
+          ],
+          "alpha230_bbox": [
+            47,
+            98,
+            461,
+            520
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 3,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/source_images/EN-012_idle_original.png",
+          "source_crop": [
+            1024,
+            0,
+            1536,
+            550
+          ],
+          "source_regions": null,
+          "scale": 0.8181818181818182,
+          "offset": [
+            47,
+            54
+          ],
+          "alpha230_bbox": [
+            41,
+            47,
+            471,
+            521
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 4,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/source_images/EN-012_idle_original.png",
+          "source_crop": [
+            0,
+            550,
+            512,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.8181818181818182,
+          "offset": [
+            47,
+            136
+          ],
+          "alpha230_bbox": [
+            78,
+            62,
+            490,
+            415
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 5,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/source_images/EN-012_idle_original.png",
+          "source_crop": [
+            512,
+            550,
+            1024,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.8181818181818182,
+          "offset": [
+            47,
+            136
+          ],
+          "alpha230_bbox": [
+            55,
+            33,
+            471,
+            416
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 6,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/source_images/EN-012_idle_original.png",
+          "source_crop": [
+            1024,
+            550,
+            1536,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.8181818181818182,
+          "offset": [
+            47,
+            136
+          ],
+          "alpha230_bbox": [
+            66,
+            34,
+            467,
+            420
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "review_notes": [
+        "Six readable breathing phases include stretch, compression and blink. Camera drifts between front-threequarter and profile; body/cap markings vary slightly.",
+        "Top-row feet extend a few pixels below y512; custom row split y550 preserves all subjects without neighboring body overlap.",
+        "Broad reddish ambient haze retained in source; alpha cleanup and loop endpoint alignment pending."
+      ],
+      "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+    },
+    {
+      "asset_id": "EN-012",
+      "clip": "movement",
+      "frame_count": 6,
+      "frame_dimensions": [
+        512,
+        512
+      ],
+      "frame_durations_ms": [
+        120,
+        110,
+        120,
+        110,
+        120,
+        110
+      ],
+      "loop": true,
+      "preview_loops_for_review": true,
+      "pivot_px": [
+        256,
+        480
+      ],
+      "frames": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/frames/EN-012_movement_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/frames/EN-012_movement_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/frames/EN-012_movement_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/frames/EN-012_movement_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/frames/EN-012_movement_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/frames/EN-012_movement_06.png"
+      ],
+      "poses": [
+        "left foot forward",
+        "left plant",
+        "pass",
+        "right foot forward",
+        "right plant",
+        "pass return"
+      ],
+      "transforms": [
+        {
+          "frame": 1,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/source_images/EN-012_movement_v2_original.png",
+          "source_crop": [
+            0,
+            0,
+            512,
+            540
+          ],
+          "source_regions": null,
+          "scale": 0.8333333333333334,
+          "offset": [
+            43,
+            72
+          ],
+          "alpha230_bbox": [
+            59,
+            75,
+            492,
+            484
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 2,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/source_images/EN-012_movement_v2_original.png",
+          "source_crop": [
+            512,
+            0,
+            1024,
+            540
+          ],
+          "source_regions": null,
+          "scale": 0.8333333333333334,
+          "offset": [
+            43,
+            72
+          ],
+          "alpha230_bbox": [
+            71,
+            77,
+            500,
+            485
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 3,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/source_images/EN-012_movement_v2_original.png",
+          "source_crop": [
+            1024,
+            0,
+            1536,
+            540
+          ],
+          "source_regions": null,
+          "scale": 0.8333333333333334,
+          "offset": [
+            43,
+            72
+          ],
+          "alpha230_bbox": [
+            70,
+            74,
+            488,
+            489
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 4,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/source_images/EN-012_movement_v2_original.png",
+          "source_crop": [
+            0,
+            540,
+            512,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.8333333333333334,
+          "offset": [
+            43,
+            125
+          ],
+          "alpha230_bbox": [
+            63,
+            18,
+            497,
+            424
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 5,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/source_images/EN-012_movement_v2_original.png",
+          "source_crop": [
+            512,
+            540,
+            1024,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.8333333333333334,
+          "offset": [
+            43,
+            125
+          ],
+          "alpha230_bbox": [
+            63,
+            14,
+            492,
+            425
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 6,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/source_images/EN-012_movement_v2_original.png",
+          "source_crop": [
+            1024,
+            540,
+            1536,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.8333333333333334,
+          "offset": [
+            43,
+            125
+          ],
+          "alpha230_bbox": [
+            55,
+            7,
+            484,
+            426
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "review_notes": [
+        "Corrective generation stabilizes profile camera and shows contact, planted/down and passing foot positions. Anatomical opposite-foot lead remains ambiguous; animation cleanup pending.",
+        "Top-row feet cross equal-row512 edge; custom row split y540 contains all subjects.",
+        "Cap spots/root arm shapes drift slightly and broad reddish haze remains; not seamless production cycle."
+      ],
+      "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+    }
+  ],
+  "review_notes": [
+    "Generated model proposal/animation prototype; not production approved.",
+    "Generated designs are proposals based on project art/story; user production approval is not inferred.",
+    "Generated alpha is preserved. Source haze, armor/anatomy continuity, foot contacts and timing require cleanup and Godot review. No runtime integration performed."
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/EN-012_idle_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/previews/EN-012_idle_preview.gif",
+  "asset_pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/EN-012_prototype_pack.zip",
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/EN-012_README.md",
+      "bytes": 1603,
+      "sha256": "4faaa2b443accce8d479a03bb5333bc3343d544432e725914642b983af30041e"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/EN-012_idle_generation_prompts.json",
+      "bytes": 2196,
+      "sha256": "d6f5797a90d6ecf53e80bbe7a8c12c5db805ea0c29a81958b6c6570c1637feab"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/EN-012_idle_manifest.json",
+      "bytes": 5267,
+      "sha256": "157a416b7155f9a59bdb2932c54a588edf69916c7c92cc91001a7f63d98a0190"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/EN-012_idle_silhouettes_strip.png",
+      "bytes": 17139,
+      "sha256": "790864d51609dfed1f900532f95d53479551b3faf8460fbeaa4199afaa18ebe2",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/EN-012_idle_strip.png",
+      "bytes": 1094062,
+      "sha256": "303a054a8127a7fb34868c39d209506b7217ebe550f45586355d97226b0b41bb",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/EN-012_movement_generation_prompts.json",
+      "bytes": 4506,
+      "sha256": "f96592a00b270cbc4e68f0e3337a6c96df5f9766f2253cc28a6fa08d849e7f94"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/EN-012_movement_manifest.json",
+      "bytes": 5366,
+      "sha256": "a868cfe0e8f2a8a14ff88ec7304bb154428b112607c638e77e818767ddd79fb3"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/EN-012_movement_silhouettes_strip.png",
+      "bytes": 17801,
+      "sha256": "6e251552d2d9a6d03064f590882a7772d9f6437b4e7452f796ebf7e2922fc8b6",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/EN-012_movement_strip.png",
+      "bytes": 1150327,
+      "sha256": "b9c351b14cfa58e0508ed0094f7363a9763c3b4ed32bf552e0ec8073b2866752",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/EN-012_prototype_pack.zip",
+      "bytes": 12370521,
+      "sha256": "7d3da61cb1a3ddaa4eee33a11c1a3b23297c88bdab2b8690ecf92a4f2a1b266d"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/frames/EN-012_idle_01.png",
+      "bytes": 179776,
+      "sha256": "6b563580cb9f44d5754ffaf20e80221ce7d2637b494ee778ae9788bd63a0f2c7",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/frames/EN-012_idle_02.png",
+      "bytes": 188211,
+      "sha256": "66c4100d2ede5b60fac6a32c227f41c712fa6f38ef5df029bdaacc3b68334d18",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/frames/EN-012_idle_03.png",
+      "bytes": 210147,
+      "sha256": "bc79feb3dd3dceb8c9a8c1d4c68539b0d0eb3375dd6d50ae0007e51e8095d5a6",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/frames/EN-012_idle_04.png",
+      "bytes": 165303,
+      "sha256": "0f84ca3059a8dc8b43a87cdcaf732c283828f9c77f8581d9478c3e1cf0d54442",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/frames/EN-012_idle_05.png",
+      "bytes": 174720,
+      "sha256": "080dbb244c526388db03a5ca00b6bfb257bb04edd135d1487214456f93c03dc6",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/frames/EN-012_idle_06.png",
+      "bytes": 178183,
+      "sha256": "fe27071cd583507f39a7ed0ab5a940f05054f0e53af5e1d7926e62823c43bc1f",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/silhouettes/EN-012_idle_01_silhouette.png",
+      "bytes": 3442,
+      "sha256": "ad123a71e8811f2602d06ab3796eebd9749e1653060c4ad285141e005504c559",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/silhouettes/EN-012_idle_02_silhouette.png",
+      "bytes": 3675,
+      "sha256": "9d31976bcf8a6e8b8e53629233b954c7544a4ee61aabcb83e3e9ded07c97e121",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/silhouettes/EN-012_idle_03_silhouette.png",
+      "bytes": 3913,
+      "sha256": "a45abfa793982fe3df10728bb9d658cd41349d9eab34b71aa89aeeda4072bd0b",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/silhouettes/EN-012_idle_04_silhouette.png",
+      "bytes": 3256,
+      "sha256": "43ebf5530d92a35d668e59cebefe7d84d3936a9ff8ec8ac6058ce4cbf77dcab1",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/silhouettes/EN-012_idle_05_silhouette.png",
+      "bytes": 3455,
+      "sha256": "f90fda992f8e725a3167623f7d513a77aaa4c82cac34e5563af2478d673f4bca",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/silhouettes/EN-012_idle_06_silhouette.png",
+      "bytes": 3415,
+      "sha256": "43e7169811b7dd0d1780d51e3e5cd1bed0aeee70f2ff518aea38eaea618be6c9",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/frames/EN-012_movement_01.png",
+      "bytes": 208487,
+      "sha256": "599053339e3409c890a5beb11dfb9d260c3f6718f918eb5bb43258405db4744e",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/frames/EN-012_movement_02.png",
+      "bytes": 188506,
+      "sha256": "0386c746323b29511cc5523a27483355e37e82408e9d47b4ffc7410a77532488",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/frames/EN-012_movement_03.png",
+      "bytes": 185527,
+      "sha256": "3047814d7c8c83bb706352d09afe71aa75e76e3fa42c17f790de7604ae947777",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/frames/EN-012_movement_04.png",
+      "bytes": 201784,
+      "sha256": "19145f7c5ac4a587f8c7b0b34541b7b88da8c919f02cea6cd978a766bf3949f2",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/frames/EN-012_movement_05.png",
+      "bytes": 188912,
+      "sha256": "6751b5a063bbe5e0eaece05a2ee59463ea72d61a8f726a92f5806b3dff6f8dbe",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/frames/EN-012_movement_06.png",
+      "bytes": 187084,
+      "sha256": "706e88c6f066d0fb64aea0d7e7e8d17b15b086516345846834c4a43e519a8ff9",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/silhouettes/EN-012_movement_01_silhouette.png",
+      "bytes": 3961,
+      "sha256": "f73d10fb467d68db6ace6f9957ee3b67d67b930aaa11c8a5f47f44c4ffa0902c",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/silhouettes/EN-012_movement_02_silhouette.png",
+      "bytes": 3682,
+      "sha256": "96ca5a2f9474fdd2f80546d33d131b31f77a9c0640eb9a6d0de6fac6d124249b",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/silhouettes/EN-012_movement_03_silhouette.png",
+      "bytes": 3618,
+      "sha256": "37e01f4d0fd3ad8e624e41e323a2e28a7c31f47dfd67f9515eac615cd95e3ab7",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/silhouettes/EN-012_movement_04_silhouette.png",
+      "bytes": 3895,
+      "sha256": "bb088e2b6af221f9f3b1398633636a7f67d52a4caccda47e2bd6970478f4542b",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/silhouettes/EN-012_movement_05_silhouette.png",
+      "bytes": 3685,
+      "sha256": "d8e4b4e6ec84620c3c6e07b1bb9b6f0993a0e6eae3fc82203a328e1eacbe35c4",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/silhouettes/EN-012_movement_06_silhouette.png",
+      "bytes": 3567,
+      "sha256": "ac3de123bbc212ec4c8d8156feacb080962f21ea03f95d575dc3f1951d0393d3",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/previews/EN-012_idle_contact_sheet.jpg",
+      "bytes": 233378,
+      "sha256": "bc3814ed201e1c0712a5ce413d3402a8b8945ff6a89bdc30b1a210678a016d77",
+      "dimensions": [
+        1536,
+        1104
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/previews/EN-012_idle_preview.gif",
+      "bytes": 364944,
+      "sha256": "2d32dd2d769201fbadfbcc25ec0f39ccd7efa9847e3ef7027e8e99a0bf955111",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/previews/EN-012_movement_contact_sheet.jpg",
+      "bytes": 245257,
+      "sha256": "6038b6bd0ee703bcad526b25ee44b99bb082312c2714a348985127347560d41c",
+      "dimensions": [
+        1536,
+        1104
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/previews/EN-012_movement_preview.gif",
+      "bytes": 383247,
+      "sha256": "af0de968a5657b0a6d9856cf8e0a44ee3e55e578bf84491e51b64b51d594bf58",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/source_images/EN-012_idle_original.png",
+      "bytes": 2226926,
+      "sha256": "2e04d1018144fce1207936af7ed9f1a783c7f4eef19515f8d3510702a72f51e2",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/source_images/EN-012_movement_original.png",
+      "bytes": 2188749,
+      "sha256": "8216681a9e25d6d0cd283ec0f2b3cd6d68b450dd67390878e24d90105dccf277",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/source_images/EN-012_movement_v2_original.png",
+      "bytes": 2246084,
+      "sha256": "be9ef68e78e0e91e92bc56d3e7b9f62f0436f4b1e50ba8e695a6bcce77d89649",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "production_approved": false,
+  "checklist_status_source": "/Users/abinashbasak/Downloads/lanterns_underroot_master_asset_checklist.md"
+}

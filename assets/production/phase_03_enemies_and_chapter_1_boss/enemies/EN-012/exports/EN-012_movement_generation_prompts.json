@@ -1,0 +1,49 @@
+{
+  "asset_id": "EN-012",
+  "clip": "movement",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/source_images/EN-012_movement_v2_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441d-6499-79e0-8b00-ac5fc8abc8c1/exec-a21b4756-c5b5-49c1-afef-e433e23c61eb.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted outlined 2D platformer enemy animation sprite sheet. Reference image is ONLY character identity/style, not pose count/layout. Exactly SIX full-body poses in a precise equal 3-column by 2-row grid on 1536x1024 canvas; 512x512 cells. Chronological reading order. Same camera, scale and identity in every cell, right-facing three-quarter. Subject total height approx 330px, 70px CLEAR transparent padding. Whole cap/body/arms/feet/effects inside each own cell with no overlap. Opaque subject interior, genuine transparent background, no floor, shadow, colored haze, text, labels, borders, scenery or other creatures. Do not copy reference layout. Sporeling exact reference cap/body. STRICT SIDE PROFILE facing RIGHT in every cell, keep only one eye visible. Six distinct chronological walking poses with BOTH FEET clearly visible: 1 leading foot stretched far RIGHT and trailing foot far LEFT; 2 front foot flat planted, rear heel lifts; 3 rear foot passes under body and leading knee bends, body rises; 4 opposite foot now swings far RIGHT while other foot trails LEFT, cap dips; 5 new front foot planted and old front heel lifts; 6 feet passing close under torso again before next cycle. Short root arms counter-swing. DO NOT repeat same forward kick three times. Different contact/down/pass/up shapes, stable side camera. Every foot inside cell.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-011/source_images/EN-011_model_sheet_original.png"
+      ],
+      "clip": "movement",
+      "review": "selected prototype",
+      "bytes": 2246084,
+      "sha256": "be9ef68e78e0e91e92bc56d3e7b9f62f0436f4b1e50ba8e695a6bcce77d89649",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441d-6499-79e0-8b00-ac5fc8abc8c1/exec-3f1ec4ef-e6c2-4753-9c52-0a4ef8a9a803.png",
+      "prompt": "Use case: stylized-concept. Hand-painted outlined 2D platformer enemy animation sprite sheet. Reference image is ONLY character identity/style, not pose count/layout. Exactly SIX full-body poses in a precise equal 3-column by 2-row grid on 1536x1024 canvas; 512x512 cells. Chronological reading order. Same camera, scale and identity in every cell, right-facing three-quarter. Subject total height approx 330px, 70px CLEAR transparent padding. Whole cap/body/arms/feet/effects inside each own cell with no overlap. Opaque subject interior, genuine transparent background, no floor, shadow, colored haze, text, labels, borders, scenery or other creatures. Do not copy reference layout. Sporeling: broad red cap with cream spots and tan gills, ivory squat stem body, moss/root lower frill, small root arms and feet, dark oval eyes. Preserve exact model. Six distinct waddling locomotion poses facing right. Left-foot lead, left plant, feet pass under body, right-foot lead, right plant, pass return. Alternate both legs visibly, cap bob and tiny root arms counter-swing, side/threequarter view. Keep every foot above y450 in top row and y962 in bottom row. Do not drift camera toward frontal.",
+      "review": "Earlier waddle attempt preserved; weaker anatomical leg alternation and camera drift.",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/source_images/EN-012_movement_original.png",
+      "provenance": "unchanged built-in image_gen attempt",
+      "source_message_id": null,
+      "clip": "movement",
+      "bytes": 2188749,
+      "sha256": "8216681a9e25d6d0cd283ec0f2b3cd6d68b450dd67390878e24d90105dccf277",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

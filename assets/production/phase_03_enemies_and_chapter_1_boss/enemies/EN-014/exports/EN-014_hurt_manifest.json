@@ -1,0 +1,202 @@
+{
+  "asset_id": "EN-014",
+  "clip": "hurt",
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    130,
+    90,
+    110,
+    140,
+    170,
+    220
+  ],
+  "loop": false,
+  "preview_loops_for_review": true,
+  "pivot_px": [
+    256,
+    480
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/hurt/frames/EN-014_hurt_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/hurt/frames/EN-014_hurt_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/hurt/frames/EN-014_hurt_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/hurt/frames/EN-014_hurt_04.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/hurt/frames/EN-014_hurt_05.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/hurt/frames/EN-014_hurt_06.png"
+  ],
+  "poses": [
+    "ready",
+    "impact wince",
+    "recoil",
+    "bracing",
+    "rise",
+    "ready return"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/source_images/EN-014_hurt_original.png",
+      "source_crop": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        52
+      ],
+      "alpha230_bbox": [
+        49,
+        79,
+        478,
+        486
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/source_images/EN-014_hurt_original.png",
+      "source_crop": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        52
+      ],
+      "alpha230_bbox": [
+        62,
+        74,
+        458,
+        485
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/source_images/EN-014_hurt_original.png",
+      "source_crop": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        52
+      ],
+      "alpha230_bbox": [
+        71,
+        132,
+        469,
+        487
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/source_images/EN-014_hurt_original.png",
+      "source_crop": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        83
+      ],
+      "alpha230_bbox": [
+        107,
+        110,
+        505,
+        452
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 5,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/source_images/EN-014_hurt_original.png",
+      "source_crop": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        83
+      ],
+      "alpha230_bbox": [
+        81,
+        56,
+        478,
+        452
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 6,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/source_images/EN-014_hurt_original.png",
+      "source_crop": [
+        1024,
+        512,
+        1536,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        83
+      ],
+      "alpha230_bbox": [
+        31,
+        47,
+        455,
+        452
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "review_notes": [
+    "Six clear neutral/wince/recoil/brace/rise/recover phases, distinct from attack. Equal cells retain full subjects.",
+    "Recoil/cap tilt direction is partly toward viewer rather than consistently left. Cap spots, root fingers and camera vary slightly; broad source halo requires cleanup."
+  ],
+  "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+}

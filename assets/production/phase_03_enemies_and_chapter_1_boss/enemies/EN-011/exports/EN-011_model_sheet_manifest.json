@@ -1,0 +1,139 @@
+{
+  "asset_id": "EN-011",
+  "clip": "model_sheet",
+  "frame_count": 4,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": null,
+  "loop": false,
+  "preview_loops_for_review": false,
+  "pivot_px": [
+    256,
+    256
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-011/exports/model_sheet/frames/EN-011_model_sheet_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-011/exports/model_sheet/frames/EN-011_model_sheet_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-011/exports/model_sheet/frames/EN-011_model_sheet_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-011/exports/model_sheet/frames/EN-011_model_sheet_04.png"
+  ],
+  "poses": [
+    "front",
+    "right profile",
+    "back",
+    "three-quarter right"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-011/source_images/EN-011_model_sheet_original.png",
+      "source_crop": [
+        0,
+        0,
+        543,
+        724
+      ],
+      "source_regions": null,
+      "scale": 0.821917808219178,
+      "offset": [
+        24,
+        -44
+      ],
+      "alpha230_bbox": [
+        33,
+        134,
+        531,
+        596
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-011/source_images/EN-011_model_sheet_original.png",
+      "source_crop": [
+        543,
+        0,
+        1086,
+        724
+      ],
+      "source_regions": null,
+      "scale": 0.821917808219178,
+      "offset": [
+        43,
+        -45
+      ],
+      "alpha230_bbox": [
+        18,
+        135,
+        500,
+        597
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-011/source_images/EN-011_model_sheet_original.png",
+      "source_crop": [
+        1086,
+        0,
+        1629,
+        724
+      ],
+      "source_regions": null,
+      "scale": 0.821917808219178,
+      "offset": [
+        41,
+        -43
+      ],
+      "alpha230_bbox": [
+        6,
+        131,
+        517,
+        597
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-011/source_images/EN-011_model_sheet_original.png",
+      "source_crop": [
+        1629,
+        0,
+        2172,
+        724
+      ],
+      "source_regions": null,
+      "scale": 0.821917808219178,
+      "offset": [
+        42,
+        -44
+      ],
+      "alpha230_bbox": [
+        12,
+        133,
+        508,
+        597
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "review_notes": [
+    "Four requested views present, red spotted cap and ivory/moss identity match style reference.",
+    "Model uses tighter side padding than requested; cap and root silhouettes vary across views. Silhouette/scale consistency review pending."
+  ],
+  "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+}

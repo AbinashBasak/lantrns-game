@@ -1,0 +1,29 @@
+{
+  "asset_id": "EN-016",
+  "clip": "walk",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/source_images/EN-016_walk_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441d-6499-79e0-8b00-ac5fc8abc8c1/exec-05a3be0e-5f5a-4856-8ad2-b129d36aa41b.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted outlined 2D platformer enemy animation sprite sheet. Reference image is ONLY character identity/style, not pose count/layout. Exactly SIX full-body poses in a precise equal 3-column by 2-row grid on 1536x1024 canvas; 512x512 cells. Chronological reading order. Same camera, scale and identity in every cell, right-facing three-quarter. Subject total height approx 330px, 70px CLEAR transparent padding. Whole cap/body/arms/feet/effects inside each own cell with no overlap. Opaque subject interior, genuine transparent background, no floor, shadow, colored haze, text, labels, borders, scenery or other creatures. Do not copy reference layout. Brambleguard exact model: thick bark/root limbs, massive gray stone armor plates and stone knuckles, moss/greenleaf clusters, ONE blue diamond chest crystal. Six clearly DISTINCT lumbering walking phases rightward. Left thick root leg leads; left foot plants with body weight; feet pass; right leg leads; right foot plants; pass return. Heavy arms counter-swing, armor same plates throughout, blue chest core retained. Keep creature relatively SMALL within cell; no portion across boundaries. Legs distinguish near-foot and far-foot, not six identical standing poses. Model sheet only identity reference; make 3x2animation.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/source_images/EN-015_model_sheet_original.png"
+      ],
+      "clip": "walk",
+      "review": "selected prototype",
+      "bytes": 2731127,
+      "sha256": "60774aaeaacab3fc76d0be1b14a58591c7f95c60669589b819e9a94ad73e9295",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

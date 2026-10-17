@@ -1,0 +1,203 @@
+{
+  "asset_id": "EN-016",
+  "clip": "walk",
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    160,
+    140,
+    160,
+    140,
+    160,
+    140
+  ],
+  "loop": true,
+  "preview_loops_for_review": true,
+  "pivot_px": [
+    256,
+    480
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/exports/walk/frames/EN-016_walk_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/exports/walk/frames/EN-016_walk_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/exports/walk/frames/EN-016_walk_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/exports/walk/frames/EN-016_walk_04.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/exports/walk/frames/EN-016_walk_05.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/exports/walk/frames/EN-016_walk_06.png"
+  ],
+  "poses": [
+    "left stride",
+    "left plant",
+    "pass",
+    "right stride",
+    "right plant",
+    "pass return"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/source_images/EN-016_walk_original.png",
+      "source_crop": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        49
+      ],
+      "alpha230_bbox": [
+        50,
+        47,
+        468,
+        485
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/source_images/EN-016_walk_original.png",
+      "source_crop": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        49
+      ],
+      "alpha230_bbox": [
+        39,
+        38,
+        475,
+        490
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/source_images/EN-016_walk_original.png",
+      "source_crop": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        49
+      ],
+      "alpha230_bbox": [
+        64,
+        44,
+        474,
+        489
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/source_images/EN-016_walk_original.png",
+      "source_crop": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        71
+      ],
+      "alpha230_bbox": [
+        47,
+        12,
+        478,
+        464
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 5,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/source_images/EN-016_walk_original.png",
+      "source_crop": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        71
+      ],
+      "alpha230_bbox": [
+        53,
+        9,
+        477,
+        460
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 6,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/source_images/EN-016_walk_original.png",
+      "source_crop": [
+        1024,
+        512,
+        1536,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        71
+      ],
+      "alpha230_bbox": [
+        68,
+        19,
+        469,
+        465
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "review_notes": [
+    "Six visible walking silhouettes with foot lift/contact/pass differences and arm counter-swing. Blue core and heavy root/stone identity retained.",
+    "Opposite anatomical leg lead is not fully consistent; several phases favor same leading leg. Needs locomotion cleanup and in-engine review, not final seamless walk.",
+    "All subjects fit equal cells but padding tighter than requested. Broad green-gray halo and bark/leaf/armor detail drift retained in source."
+  ],
+  "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+}

@@ -1,0 +1,29 @@
+{
+  "asset_id": "EN-016",
+  "clip": "idle",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/source_images/EN-016_idle_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441d-6499-79e0-8b00-ac5fc8abc8c1/exec-a7f10885-02d1-4301-8da8-d88a938c4e1b.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted outlined 2D platformer enemy animation sprite sheet. Reference image is ONLY character identity/style, not pose count/layout. Exactly SIX full-body poses in a precise equal 3-column by 2-row grid on 1536x1024 canvas; 512x512 cells. Chronological reading order. Same camera, scale and identity in every cell, right-facing three-quarter. Subject total height approx 330px, 70px CLEAR transparent padding. Whole cap/body/arms/feet/effects inside each own cell with no overlap. Opaque subject interior, genuine transparent background, no floor, shadow, colored haze, text, labels, borders, scenery or other creatures. Do not copy reference layout. Brambleguard exact model: thick bark/root limbs, massive graystone armor plates and stoneknuckles, moss/greenleaf clusters, ONE blue diamond chest crystal. Six distinct subtle heavy idle phases: neutral; chest rises; shoulders lift with root hand flex; heavy exhale lowers torso; weight settles; return neutral. Feet planted, arms clearly shift and torso moves, blue chest core softly brightens at inhale then dims. No wide aura. Keep uniform threequarter-right camera. Root feet exactly same planted position; pose2chest higher,pose3shoulders higher/fistsflex,pose4body visibly lower,pose5ease,pose6return. Clean alpha no wide green halo.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/source_images/EN-015_model_sheet_original.png"
+      ],
+      "clip": "idle",
+      "review": "selected prototype",
+      "bytes": 2937483,
+      "sha256": "b90b8ee69ca4383d1926c6136b6b4774f0129405f99c8419dab32486c59cc88a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

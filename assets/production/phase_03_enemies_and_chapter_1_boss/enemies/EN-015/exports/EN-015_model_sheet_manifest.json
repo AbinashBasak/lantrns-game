@@ -1,0 +1,140 @@
+{
+  "asset_id": "EN-015",
+  "clip": "model_sheet",
+  "frame_count": 4,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": null,
+  "loop": false,
+  "preview_loops_for_review": false,
+  "pivot_px": [
+    256,
+    256
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/exports/model_sheet/frames/EN-015_model_sheet_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/exports/model_sheet/frames/EN-015_model_sheet_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/exports/model_sheet/frames/EN-015_model_sheet_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/exports/model_sheet/frames/EN-015_model_sheet_04.png"
+  ],
+  "poses": [
+    "front",
+    "right profile",
+    "back",
+    "three-quarter right"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/source_images/EN-015_model_sheet_original.png",
+      "source_crop": [
+        0,
+        0,
+        550,
+        793
+      ],
+      "source_regions": null,
+      "scale": 0.825147347740668,
+      "offset": [
+        31,
+        -72
+      ],
+      "alpha230_bbox": [
+        41,
+        145,
+        504,
+        650
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/source_images/EN-015_model_sheet_original.png",
+      "source_crop": [
+        550,
+        0,
+        950,
+        793
+      ],
+      "source_regions": null,
+      "scale": 0.825147347740668,
+      "offset": [
+        97,
+        -74
+      ],
+      "alpha230_bbox": [
+        83,
+        146,
+        302,
+        655
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/source_images/EN-015_model_sheet_original.png",
+      "source_crop": [
+        950,
+        0,
+        1510,
+        793
+      ],
+      "source_regions": null,
+      "scale": 0.825147347740668,
+      "offset": [
+        35,
+        -75
+      ],
+      "alpha230_bbox": [
+        41,
+        148,
+        495,
+        654
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/source_images/EN-015_model_sheet_original.png",
+      "source_crop": [
+        1510,
+        0,
+        1983,
+        793
+      ],
+      "source_regions": null,
+      "scale": 0.825147347740668,
+      "offset": [
+        66,
+        -74
+      ],
+      "alpha230_bbox": [
+        29,
+        146,
+        431,
+        654
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "review_notes": [
+    "Corrected four-view proposal retains bark/stone/moss design with clearly blue chest core and complete fists/branches.",
+    "View widths uneven despite equal-cell request; custom model crop boxes isolate each view. Rightmost hand has tight canvas padding; no obvious severed outline.",
+    "Branch/leaf/armor details vary by view; model proposal not user-approved."
+  ],
+  "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+}

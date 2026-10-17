@@ -1,0 +1,29 @@
+{
+  "asset_id": "EN-013",
+  "clip": "spore_attack",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/source_images/EN-013_spore_attack_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441d-6499-79e0-8b00-ac5fc8abc8c1/exec-a16b2b91-0a0e-44b1-9379-a2ce6d4f7282.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted outlined 2D platformer enemy animation sprite sheet. Reference image is ONLY character identity/style, not pose count/layout. Exactly SIX full-body poses in a precise equal 3-column by 2-row grid on 1536x1024 canvas; 512x512 cells. Chronological reading order. Same camera, scale and identity in every cell, right-facing three-quarter. Subject total height approx 330px, 70px CLEAR transparent padding. Whole cap/body/arms/feet/effects inside each own cell with no overlap. Opaque subject interior, genuine transparent background, no floor, shadow, colored haze, text, labels, borders, scenery or other creatures. Do not copy reference layout. Sporeling: broad red cap with cream spots/tan gills, ivory squat stem body, moss/root lower frill, small root arms/feet, dark oval eyes. Six spore attack phases facing right: 1 ready; 2 root body crouch/cap lowers; 3 cap swells and body leans forward telegraph; 4 releases a compact spray of five pale golden spore motes to right from beneath cap; 5 diminished two motes drifting right with body recoil; 6 recover ready. Spore effects small fully inside cell. No giant cloud or background. Reserve 70px padding around every cap and particle. Small sprite; DO NOT fill whole cell.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-011/source_images/EN-011_model_sheet_original.png"
+      ],
+      "clip": "spore_attack",
+      "review": "selected prototype",
+      "bytes": 2075872,
+      "sha256": "62c3489574c88c001d280aa2216957fb7e81231afdee30b8eb560bd6ba41b8d9",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

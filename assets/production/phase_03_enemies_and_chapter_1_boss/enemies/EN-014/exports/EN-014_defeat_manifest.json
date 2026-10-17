@@ -1,0 +1,202 @@
+{
+  "asset_id": "EN-014",
+  "clip": "defeat",
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    160,
+    130,
+    160,
+    200,
+    260,
+    500
+  ],
+  "loop": false,
+  "preview_loops_for_review": true,
+  "pivot_px": [
+    256,
+    480
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/defeat/frames/EN-014_defeat_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/defeat/frames/EN-014_defeat_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/defeat/frames/EN-014_defeat_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/defeat/frames/EN-014_defeat_04.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/defeat/frames/EN-014_defeat_05.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/defeat/frames/EN-014_defeat_06.png"
+  ],
+  "poses": [
+    "weak",
+    "droop",
+    "kneel",
+    "collapse",
+    "wither",
+    "rest"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/source_images/EN-014_defeat_original.png",
+      "source_crop": [
+        0,
+        0,
+        512,
+        540
+      ],
+      "source_regions": null,
+      "scale": 0.8333333333333334,
+      "offset": [
+        43,
+        52
+      ],
+      "alpha230_bbox": [
+        63,
+        89,
+        487,
+        512
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/source_images/EN-014_defeat_original.png",
+      "source_crop": [
+        512,
+        0,
+        1024,
+        540
+      ],
+      "source_regions": null,
+      "scale": 0.8333333333333334,
+      "offset": [
+        43,
+        52
+      ],
+      "alpha230_bbox": [
+        71,
+        134,
+        486,
+        513
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/source_images/EN-014_defeat_original.png",
+      "source_crop": [
+        1024,
+        0,
+        1536,
+        540
+      ],
+      "source_regions": null,
+      "scale": 0.8333333333333334,
+      "offset": [
+        43,
+        52
+      ],
+      "alpha230_bbox": [
+        85,
+        173,
+        483,
+        513
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/source_images/EN-014_defeat_original.png",
+      "source_crop": [
+        0,
+        540,
+        512,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.8333333333333334,
+      "offset": [
+        43,
+        160
+      ],
+      "alpha230_bbox": [
+        50,
+        111,
+        510,
+        384
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 5,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/source_images/EN-014_defeat_original.png",
+      "source_crop": [
+        512,
+        540,
+        1024,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.8333333333333334,
+      "offset": [
+        43,
+        160
+      ],
+      "alpha230_bbox": [
+        40,
+        128,
+        505,
+        379
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 6,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/source_images/EN-014_defeat_original.png",
+      "source_crop": [
+        1024,
+        540,
+        1536,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.8333333333333334,
+      "offset": [
+        43,
+        160
+      ],
+      "alpha230_bbox": [
+        37,
+        170,
+        491,
+        376
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "review_notes": [
+    "Six clear upright/droop/kneel/collapse/dim/rest phases. Nonviolent sideways resting defeat delivered; cap visibly fades brown near end.",
+    "Equal cells contain whole bodies with tight side/baseline padding. Broad red ambient source haze and cap spot/camera drift need cleanup."
+  ],
+  "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+}

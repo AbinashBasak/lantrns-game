@@ -1,0 +1,138 @@
+{
+  "asset_id": "EN-015",
+  "clip": "model_sheet_attempt01",
+  "frame_count": 4,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": null,
+  "loop": false,
+  "preview_loops_for_review": false,
+  "pivot_px": [
+    256,
+    256
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/exports/model_sheet_attempt01/frames/EN-015_model_sheet_attempt01_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/exports/model_sheet_attempt01/frames/EN-015_model_sheet_attempt01_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/exports/model_sheet_attempt01/frames/EN-015_model_sheet_attempt01_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/exports/model_sheet_attempt01/frames/EN-015_model_sheet_attempt01_04.png"
+  ],
+  "poses": [
+    "front",
+    "right profile",
+    "back",
+    "three-quarter right"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/source_images/EN-015_model_sheet_attempt01_original.png",
+      "source_crop": [
+        0,
+        0,
+        496,
+        793
+      ],
+      "source_regions": null,
+      "scale": 0.6730769230769231,
+      "offset": [
+        85,
+        -16
+      ],
+      "alpha230_bbox": [
+        12,
+        94,
+        496,
+        714
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/source_images/EN-015_model_sheet_attempt01_original.png",
+      "source_crop": [
+        496,
+        0,
+        992,
+        793
+      ],
+      "source_regions": null,
+      "scale": 0.6730769230769231,
+      "offset": [
+        89,
+        -16
+      ],
+      "alpha230_bbox": [
+        0,
+        95,
+        496,
+        714
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/source_images/EN-015_model_sheet_attempt01_original.png",
+      "source_crop": [
+        992,
+        0,
+        1487,
+        793
+      ],
+      "source_regions": null,
+      "scale": 0.6730769230769231,
+      "offset": [
+        93,
+        -17
+      ],
+      "alpha230_bbox": [
+        0,
+        95,
+        484,
+        716
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/source_images/EN-015_model_sheet_attempt01_original.png",
+      "source_crop": [
+        1487,
+        0,
+        1983,
+        793
+      ],
+      "source_regions": null,
+      "scale": 0.6730769230769231,
+      "offset": [
+        90,
+        -20
+      ],
+      "alpha230_bbox": [
+        8,
+        98,
+        486,
+        722
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "review_notes": [
+    "First model attempt correct bark/stone/bluecore identity, but uneven view spacing and rightmost fist grazes canvas boundary. Preserved, not selected."
+  ],
+  "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+}

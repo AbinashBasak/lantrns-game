@@ -1,0 +1,29 @@
+{
+  "asset_id": "EN-012",
+  "clip": "idle",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/source_images/EN-012_idle_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441d-6499-79e0-8b00-ac5fc8abc8c1/exec-6cbd994e-4c90-435d-8807-a6ba68ca4b27.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted outlined 2D platformer enemy animation sprite sheet. Reference image is ONLY character identity/style, not pose count/layout. Exactly SIX full-body poses in a precise equal 3-column by 2-row grid on 1536x1024 canvas; 512x512 cells. Chronological reading order. Same camera, scale and identity in every cell, right-facing three-quarter. Subject total height approx 330px, 70px CLEAR transparent padding. Whole cap/body/arms/feet/effects inside each own cell with no overlap. Opaque subject interior, genuine transparent background, no floor, shadow, colored haze, text, labels, borders, scenery or other creatures. Do not copy reference layout. Sporeling: broad red cap with cream spots and tan gills, ivory squat stem body, moss/root lower frill, small root arms and feet, dark oval eyes. Preserve exact model. Six DISTINCT idle breathing keyposes. 1 neutral; 2 stem extends breathing in, cap rises; 3 highest cap/inhale; 4 stem squashes, cap dips, eyes blink; 5 ease upward; 6 return neutral. Subtle animation but visibly different body compression each phase. Feet stay planted.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-011/source_images/EN-011_model_sheet_original.png"
+      ],
+      "clip": "idle",
+      "review": "selected prototype",
+      "bytes": 2226926,
+      "sha256": "2e04d1018144fce1207936af7ed9f1a783c7f4eef19515f8d3510702a72f51e2",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}
