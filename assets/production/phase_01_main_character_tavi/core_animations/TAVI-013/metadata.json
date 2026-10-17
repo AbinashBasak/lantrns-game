@@ -1,0 +1,113 @@
+{
+  "asset_id": "TAVI-013",
+  "title": "Rising jump",
+  "phase": "01",
+  "subsection": "Core animations — prototype priority",
+  "checked": true,
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-013",
+  "source_chat": "https://chatgpt.com/share/6ad136a4-4cc8-83ee-9742-05bc90e2a1dc",
+  "last_updated": "2026-10-16T10:24:37+05:30",
+  "stage": "source images recovered; production approval not inferred from checklist",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-013/source_images/TAVI-013_generation_01_df08.png",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/archive/shared-chat/images/00000000-df08-8211-b298-268672e2cbd4.png",
+      "sha256": "fb5d4542bd76e6efd1937a07001a1d143b3cfc660df96d3bc1b74657a69c0728",
+      "chat_message_id": "cb8129ab-3a69-4790-8748-f4248f3eb372",
+      "title": "Tavi Jump Rise Animation Sheet"
+    }
+  ],
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-013/TAVI-013_jump_rise_rebuilt_asset_pack.zip",
+      "bytes": 2004109,
+      "sha256": "80ea91795cc6e8dda30c7d8eb8236fb8d49bf7af8b4073310ffffd9575120dbd"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-013/TAVI-013_jump_rise_source_sheet.png",
+      "bytes": 1302465,
+      "sha256": "fb5d4542bd76e6efd1937a07001a1d143b3cfc660df96d3bc1b74657a69c0728"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-013/exports/TAVI-013_animation_manifest.json",
+      "bytes": 921,
+      "sha256": "a9ca66d46035bd9c64e5f8004cd59a396c57fbe7daf30d66575fb755a6c3994b"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-013/exports/TAVI-013_jump_rise_spritesheet.png",
+      "bytes": 921990,
+      "sha256": "b97d7efe17a0e535bffeda37c436610b88dfe2af3e0f911630cf46bc979cde9a"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-013/exports/frames/TAVI-013_jump_rise_frame_01.png",
+      "bytes": 102813,
+      "sha256": "f6cdc939c274db90085fd18ba430e8d6f93415b271af0ee3656cb10e1aa7f7be"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-013/exports/frames/TAVI-013_jump_rise_frame_02.png",
+      "bytes": 102072,
+      "sha256": "1f1526f2ed00ef858b8762d43ad7da4b9b6828e13c9ccd8390636710c158c008"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-013/exports/frames/TAVI-013_jump_rise_frame_03.png",
+      "bytes": 113061,
+      "sha256": "727708076d90f4bde53f21f552289c41e84ba95bff23a9e8d269d7a4ab10b59b"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-013/exports/frames/TAVI-013_jump_rise_frame_04.png",
+      "bytes": 112405,
+      "sha256": "aa6eb963852225458c60be1a1c75bf16014501a95bf51f828f68c94f4d7186d8"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-013/exports/frames/TAVI-013_jump_rise_frame_05.png",
+      "bytes": 120349,
+      "sha256": "fb899e2994c7503b370fd1a5c21ba5c5d7cab84518595d767223dfb644768825"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-013/exports/frames/TAVI-013_jump_rise_frame_06.png",
+      "bytes": 122456,
+      "sha256": "29c5713e21375b765faef0f91c2cf5b47d86259c3dbe5f67a5805826772ed4e9"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-013/exports/frames/TAVI-013_jump_rise_frame_07.png",
+      "bytes": 125040,
+      "sha256": "4f2742699b23cfae24ee37b21794df2ea78cc4f8b063e1bc9fe85532191b987e"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-013/exports/frames/TAVI-013_jump_rise_frame_08.png",
+      "bytes": 124671,
+      "sha256": "2d1aa1b3a7d282ba01aa9a4d67473d9ae91f46ce28ad7b423d0af665f69bebc0"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-013/previews/TAVI-013_jump_rise_contact_sheet.jpg",
+      "bytes": 67077,
+      "sha256": "27fb78c2a245da488417daaffd3770b0d01a33a5abcecff06d07fcb6c8e31d94"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-013/previews/TAVI-013_jump_rise_preview.gif",
+      "bytes": 100798,
+      "sha256": "0a80a5223b211b7f02022efe3d7d079979a1818a3ca9f0fb4e365e54e3c5185b"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-013/source_images/TAVI-013_generation_01_df08.png",
+      "bytes": 1302465,
+      "sha256": "fb5d4542bd76e6efd1937a07001a1d143b3cfc660df96d3bc1b74657a69c0728"
+    }
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-013/TAVI-013_jump_rise_source_sheet.png",
+  "primary_image_provenance": "original generated image downloaded from the chat",
+  "primary_image_dimensions": [
+    2079,
+    756
+  ],
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-013/previews/TAVI-013_jump_rise_preview.gif",
+  "export_provenance": "locally rebuilt prototype derivatives; not the original sandbox ZIP bytes",
+  "frame_count": 8,
+  "fps": 10,
+  "loop": false,
+  "frame_dimensions": [
+    320,
+    448
+  ],
+  "runtime_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/characters/tavi/jump_rise"
+}

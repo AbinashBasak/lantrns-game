@@ -1,0 +1,38 @@
+{
+  "asset_id": "ART-005",
+  "title": "Magic, rune, glow, and particle style reference",
+  "phase": "00",
+  "subsection": null,
+  "checked": true,
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-005",
+  "source_chat": "https://chatgpt.com/share/6ad136a4-4cc8-83ee-9742-05bc90e2a1dc",
+  "last_updated": "2026-10-16T10:24:37+05:30",
+  "stage": "source images recovered; production approval not inferred from checklist",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-005/source_images/ART-005_generation_01_1c20.png",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/archive/shared-chat/images/00000000-1c20-8246-a25f-d8a6b3c7127b.png",
+      "sha256": "ee9a140301ff5bbc3c12cb45c879e0fd6edd8592ad401a17118e3bba1ea8929b",
+      "chat_message_id": "81191197-076f-42c0-84d5-cef6a84d23fd",
+      "title": "Lanterns Underroot Magic Reference Board"
+    }
+  ],
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-005/ART-005_magic_rune_glow_particle_reference.png",
+      "bytes": 2105723,
+      "sha256": "ee9a140301ff5bbc3c12cb45c879e0fd6edd8592ad401a17118e3bba1ea8929b"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-005/source_images/ART-005_generation_01_1c20.png",
+      "bytes": 2105723,
+      "sha256": "ee9a140301ff5bbc3c12cb45c879e0fd6edd8592ad401a17118e3bba1ea8929b"
+    }
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-005/ART-005_magic_rune_glow_particle_reference.png",
+  "primary_image_provenance": "original generated image downloaded from the chat",
+  "primary_image_dimensions": [
+    1536,
+    1024
+  ]
+}

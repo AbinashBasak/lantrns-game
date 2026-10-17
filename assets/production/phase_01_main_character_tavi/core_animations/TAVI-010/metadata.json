@@ -1,0 +1,137 @@
+{
+  "asset_id": "TAVI-010",
+  "title": "Idle",
+  "phase": "01",
+  "subsection": "Core animations — prototype priority",
+  "checked": true,
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010",
+  "source_chat": "https://chatgpt.com/share/6ad136a4-4cc8-83ee-9742-05bc90e2a1dc",
+  "last_updated": "2026-10-16T10:24:37+05:30",
+  "stage": "source images recovered; production approval not inferred from checklist",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/source_images/TAVI-010_generation_01_50b0.png",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/archive/shared-chat/images/00000000-50b0-820e-aef1-b7066905ba06.png",
+      "sha256": "c58fa8608404b081e0bd766d5f1899bd9289983d15a805b49e8bfcdc0740d495",
+      "chat_message_id": "62626d51-1207-4842-8b1f-749d7b3db084",
+      "title": "Tavi Idle Animation Sprite Sheet"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/source_images/TAVI-010_generation_02_56fc.png",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/archive/shared-chat/images/00000000-56fc-8211-8740-4d4ebed7376a.png",
+      "sha256": "402be2af91724252bab67519fe2d440bbff85cd1753a45b44383894c80059d41",
+      "chat_message_id": "72d65270-5249-4100-b8e8-76fe2c2f695a",
+      "title": "Tavi Idle Animation Sprite Sheet"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/source_images/TAVI-010_generation_03_dd8c.png",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/archive/shared-chat/images/00000000-dd8c-8208-b506-6a10c14f9ae2.png",
+      "sha256": "b1bbf7ae0cd1dd18d2ba778440518989d4643195342d44c12901cef333f55cbf",
+      "chat_message_id": "93e5f12b-1d96-4579-9e94-c8a34a885c2f",
+      "title": "Tavi Idle Animation Sprite Sheet"
+    }
+  ],
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/TAVI-010_idle_rebuilt_asset_pack.zip",
+      "bytes": 2264924,
+      "sha256": "601c7635ce5049d0805ba505b58e722a21eb06954a0ba89cc8c63ea038cc885c"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/TAVI-010_idle_source_sheet.png",
+      "bytes": 1461198,
+      "sha256": "402be2af91724252bab67519fe2d440bbff85cd1753a45b44383894c80059d41"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/exports/TAVI-010_animation_manifest.json",
+      "bytes": 918,
+      "sha256": "a6ae54394d6a813c84701ef6911c5eb0a721398cf2c9a8c4224d73326db90e4a"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/exports/TAVI-010_idle_spritesheet.png",
+      "bytes": 1038138,
+      "sha256": "525dcca6d03132fcb131bc23799b78a812db79e0553d52b9bddc0e1c4d171944"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/exports/frames/TAVI-010_idle_frame_01.png",
+      "bytes": 131475,
+      "sha256": "6784cc948b97fd95a95d12af0bc2c2ebb3a0eba41b184eb25c87e3de23d3c203"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/exports/frames/TAVI-010_idle_frame_02.png",
+      "bytes": 133242,
+      "sha256": "b4fe053eee1e3164cd8741a9bed9b8647e44073e41fdabea5c6d3fd913b447ac"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/exports/frames/TAVI-010_idle_frame_03.png",
+      "bytes": 130148,
+      "sha256": "5ac1d6adf7066557f5427a4c928d67f8d209c5858e725358fa5c91ae1096caab"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/exports/frames/TAVI-010_idle_frame_04.png",
+      "bytes": 129775,
+      "sha256": "e8398e961abdf738d81ef22736a861488c722e1bb0a561e132c1fef8eeaeaad6"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/exports/frames/TAVI-010_idle_frame_05.png",
+      "bytes": 133211,
+      "sha256": "50fbe33c7e796f9c3d353bed29347c620c48cfc4e023f56081e51d5be14c155d"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/exports/frames/TAVI-010_idle_frame_06.png",
+      "bytes": 130189,
+      "sha256": "8fa2096672460f6db2e70486882044beee3c8b14e1c5891c7a77144f1da0ed33"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/exports/frames/TAVI-010_idle_frame_07.png",
+      "bytes": 131320,
+      "sha256": "e5d792d968d2b0548da7d46f5f9ef85b43af9064157cb02bbcad51880e1f0f2c"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/exports/frames/TAVI-010_idle_frame_08.png",
+      "bytes": 133324,
+      "sha256": "4c72dd7ecff80eab7791953c5b2c0c9f0f789db2c162b1fec722ffc7b84b6db6"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/previews/TAVI-010_idle_contact_sheet.jpg",
+      "bytes": 70232,
+      "sha256": "6f07043cdca44fd8171898053537302ea9a55dff41c2f7a846b08b9e540ea20c"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/previews/TAVI-010_idle_preview.gif",
+      "bytes": 109148,
+      "sha256": "1cf77950553ae3e8d994c9d4ae8d69bd7b29876929ceb72172a1f8cbdaccc181"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/source_images/TAVI-010_generation_01_50b0.png",
+      "bytes": 1533990,
+      "sha256": "c58fa8608404b081e0bd766d5f1899bd9289983d15a805b49e8bfcdc0740d495"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/source_images/TAVI-010_generation_02_56fc.png",
+      "bytes": 1461198,
+      "sha256": "402be2af91724252bab67519fe2d440bbff85cd1753a45b44383894c80059d41"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/source_images/TAVI-010_generation_03_dd8c.png",
+      "bytes": 1939372,
+      "sha256": "b1bbf7ae0cd1dd18d2ba778440518989d4643195342d44c12901cef333f55cbf"
+    }
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/TAVI-010_idle_source_sheet.png",
+  "primary_image_provenance": "original generated image downloaded from the chat",
+  "primary_image_dimensions": [
+    2172,
+    724
+  ],
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/previews/TAVI-010_idle_preview.gif",
+  "export_provenance": "locally rebuilt prototype derivatives; not the original sandbox ZIP bytes",
+  "frame_count": 8,
+  "fps": 7,
+  "loop": true,
+  "frame_dimensions": [
+    320,
+    448
+  ],
+  "runtime_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/characters/tavi/idle"
+}

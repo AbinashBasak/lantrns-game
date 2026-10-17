@@ -1,0 +1,74 @@
+{
+  "asset_id": "TAVI-001",
+  "title": "Approved character model sheet: front, side, back, and three-quarter views",
+  "phase": "01",
+  "subsection": "Character design",
+  "checked": true,
+  "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001",
+  "source_chat": "https://chatgpt.com/share/6ad136a4-4cc8-83ee-9742-05bc90e2a1dc",
+  "last_updated": "2026-10-16T10:24:37+05:30",
+  "stage": "source images recovered; production approval not inferred from checklist",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/source_images/TAVI-001_generation_01_f5c0.png",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/archive/shared-chat/images/00000000-f5c0-8211-8779-0ca3d00efa00.png",
+      "sha256": "647fdb75f1a783411206cb4949a4159629666a63e446735b447303b903aab73c",
+      "chat_message_id": "a0551f61-7276-4470-9cfe-ad69837f35b0",
+      "title": "Tavi Character Model Sheet"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/source_images/TAVI-001_generation_02_6994.png",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/archive/shared-chat/images/00000000-6994-8246-9884-97c0e1287a46.png",
+      "sha256": "a40b50f22de30fa6915d714105d98a7e5dde89465bd30392d95128f69708a00d",
+      "chat_message_id": "aeeb3798-65af-46e7-aeff-cde4162a6058",
+      "title": "Tavi Fantasy Character Model Sheet"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/source_images/TAVI-001_generation_03_0dd0.png",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/archive/shared-chat/images/00000000-0dd0-81f4-9b6e-4df67b04f66f.png",
+      "sha256": "0c45d300e2194705093f96f18427c6f82ae455ef35cb54bad883a6800785c3e9",
+      "chat_message_id": "183c262c-a02b-4a19-a117-c036260a23af",
+      "title": "Tavi Character Model Sheet"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/source_images/TAVI-001_generation_04_9920.png",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/archive/shared-chat/images/00000000-9920-8243-961d-81bb6712c751.png",
+      "sha256": "fc05368e2c70effd76cec7b97d6419fe881398f7c2b9fe5daa113872533a0a30",
+      "chat_message_id": "4ca07201-2198-4180-ab45-812e0881255e",
+      "title": "Tavi Character Model Sheet"
+    }
+  ],
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png",
+      "bytes": 648589,
+      "sha256": "82442f1ad958773f3282809bcbd6177d48ea3314c910b89da899ba3aafd07c14"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/source_images/TAVI-001_generation_01_f5c0.png",
+      "bytes": 1949474,
+      "sha256": "647fdb75f1a783411206cb4949a4159629666a63e446735b447303b903aab73c"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/source_images/TAVI-001_generation_02_6994.png",
+      "bytes": 2087504,
+      "sha256": "a40b50f22de30fa6915d714105d98a7e5dde89465bd30392d95128f69708a00d"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/source_images/TAVI-001_generation_03_0dd0.png",
+      "bytes": 1913093,
+      "sha256": "0c45d300e2194705093f96f18427c6f82ae455ef35cb54bad883a6800785c3e9"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/source_images/TAVI-001_generation_04_9920.png",
+      "bytes": 2063894,
+      "sha256": "fc05368e2c70effd76cec7b97d6419fe881398f7c2b9fe5daa113872533a0a30"
+    }
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/character_design/TAVI-001/TAVI-001_character_turnaround.png",
+  "primary_image_provenance": "four-view turnaround rebuilt using the crop and 24-pixel margin recorded in the chat; all four original model-sheet generations retained",
+  "primary_image_dimensions": [
+    960,
+    541
+  ]
+}

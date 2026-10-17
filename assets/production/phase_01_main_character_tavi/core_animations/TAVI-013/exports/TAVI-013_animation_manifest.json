@@ -1,0 +1,64 @@
+{
+  "animation": "jump_rise",
+  "fps": 10,
+  "loop": false,
+  "frame_count": 8,
+  "frame_size": [
+    320,
+    448
+  ],
+  "source": "archive/shared-chat/images/00000000-df08-8211-b298-268672e2cbd4.png",
+  "source_sha256": "fb5d4542bd76e6efd1937a07001a1d143b3cfc660df96d3bc1b74657a69c0728",
+  "source_rects": [
+    [
+      23,
+      226,
+      233,
+      453
+    ],
+    [
+      275,
+      196,
+      485,
+      453
+    ],
+    [
+      524,
+      167,
+      750,
+      453
+    ],
+    [
+      786,
+      127,
+      1000,
+      414
+    ],
+    [
+      1040,
+      85,
+      1264,
+      384
+    ],
+    [
+      1299,
+      68,
+      1511,
+      364
+    ],
+    [
+      1569,
+      32,
+      1782,
+      356
+    ],
+    [
+      1839,
+      32,
+      2062,
+      344
+    ]
+  ],
+  "status": "rebuilt prototype derivative; review animation consistency and cropped scarf/sword edges before release",
+  "checklist_asset_id": "TAVI-013"
+}
