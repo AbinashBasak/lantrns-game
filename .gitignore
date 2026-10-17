@@ -1,0 +1,7 @@
+.godot/
+.DS_Store
+builds/
+*.tmp
+
+# Local asset download and prototype bundles; unpacked sources/exports stay tracked.
+*.zip
