@@ -1,0 +1,503 @@
+{
+  "asset_id": "BOSS-002",
+  "title": "Idle animation",
+  "checked": true,
+  "stage": "animation prototype generated and visually reviewed; 1 deliverable clip/view set(s); cleanup and production approval pending",
+  "last_updated": "2026-10-17T01:42:52.790076+05:30",
+  "generation_tool": "built-in image_gen",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/source_images/BOSS-002_idle_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-a34a3d9f-76d4-4d5f-a71f-058995e66f14.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Lanterns Underroot Hollow Sentinel 2D illustrated boss animation sprite sheet. Reference is the SAME approved-for-reference model PROPOSAL: stocky compact temple warden, angular cool bluegray stone plates, heavy block fists, thick squat stone legs, brown twisted root joints, moss shoulders, pointed crownlike stone head and side root horns, narrow amber eyes, ONE ambergold crystal in cracked chest, no separate weapon. Match model identity and hand-painted rendering, consistent armor/roots/palette/proportions, not a new monster design. Exactly SIX fullbody chronological poses in precise equal3columns x2rows on1536x1024. Each512x512cell all parts entirely inside cell with 65px padding; do not enlarge body, standing height330px. Constant headsize, camera, view threequarter facing RIGHT. Character isolated with genuine transparent background, opaque body. No environment/groundplane/castshadow/haze/background vignette/text/labels/panels/borders/otherchars. Two arms/two legs only. No colored glow outside compact chest. Arms can bend but never duplicate. Floor is invisible at y450 within eachcell. Asset BOSS-002 Idle animation. Six DISTINCT poses: 1 ready fists low; 2 subtle root chest expansion; 3 head tilt alert; 4 small shoulder settle; 5 exhale core dimmer; 6 return ready. Clear readable anticipation and recovery. No gore.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/source_images/BOSS-001_model_original.png"
+      ],
+      "clip": "idle",
+      "review": "selected prototype",
+      "bytes": 2593000,
+      "sha256": "3d0df8f5c7ef827da30527b3fbab1f460af134135fe5c112d16bf544d5159ff1",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "clips": [
+    {
+      "asset_id": "BOSS-002",
+      "clip": "idle",
+      "frame_count": 6,
+      "frame_dimensions": [
+        512,
+        512
+      ],
+      "frame_durations_ms": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "loop": true,
+      "preview_loops_for_review": true,
+      "pivot_px": [
+        256,
+        480
+      ],
+      "frames": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_06.png"
+      ],
+      "poses": [
+        "ready fists low",
+        "subtle root chest expansion",
+        "head tilt alert",
+        "small shoulder settle",
+        "exhale core dimmer",
+        "return ready"
+      ],
+      "transforms": [
+        {
+          "frame": 1,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/source_images/BOSS-002_idle_original.png",
+          "source_crop": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            40
+          ],
+          "alpha230_bbox": [
+            78,
+            23,
+            461,
+            500
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 2,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/source_images/BOSS-002_idle_original.png",
+          "source_crop": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            40
+          ],
+          "alpha230_bbox": [
+            64,
+            25,
+            461,
+            500
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 3,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/source_images/BOSS-002_idle_original.png",
+          "source_crop": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            40
+          ],
+          "alpha230_bbox": [
+            56,
+            29,
+            464,
+            501
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 4,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/source_images/BOSS-002_idle_original.png",
+          "source_crop": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            48
+          ],
+          "alpha230_bbox": [
+            65,
+            15,
+            475,
+            491
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 5,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/source_images/BOSS-002_idle_original.png",
+          "source_crop": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            48
+          ],
+          "alpha230_bbox": [
+            75,
+            13,
+            455,
+            491
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 6,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/source_images/BOSS-002_idle_original.png",
+          "source_crop": [
+            1024,
+            512,
+            1536,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.87890625,
+          "offset": [
+            31,
+            48
+          ],
+          "alpha230_bbox": [
+            71,
+            10,
+            456,
+            491
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "review_notes": [
+        "Subtle idle core/shoulder/head changes present. Source body is much larger than prompt330px; equal512cell crops still contain body. Minor core shape and armor/root drift."
+      ],
+      "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+    }
+  ],
+  "review_notes": [
+    "Model is a proposal, not production approved. Armor/root layouts and alpha halos require cleanup before runtime.",
+    "Generated designs are proposals based on project art/story; user production approval is not inferred.",
+    "Generated alpha is preserved. Source haze, armor/anatomy continuity, foot contacts and timing require cleanup and Godot review. No runtime integration performed."
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/BOSS-002_idle_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/previews/BOSS-002_idle_preview.gif",
+  "asset_pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/BOSS-002_prototype_pack.zip",
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/BOSS-002_README.md",
+      "bytes": 1032,
+      "sha256": "d7588e8ce9ad305e26f56102333e5556ab4c0758ca002c6867eeb4b337fee9bd"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/BOSS-002_idle_generation_prompts.json",
+      "bytes": 2473,
+      "sha256": "ea24afa6d98de00da42fe540768086e92e8114544de340dc4e4d309329013e84"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/BOSS-002_idle_manifest.json",
+      "bytes": 5251,
+      "sha256": "96386648fa8a5f436805a44b9253ce0f05870567af88916076f2568510867b15"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/BOSS-002_idle_silhouettes_strip.png",
+      "bytes": 20828,
+      "sha256": "b9f0465dcc9b94232dbe8fcbe49b2fb65dd5ff72ba4ab5bc3ba192ebc96c4a29",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/BOSS-002_idle_strip.png",
+      "bytes": 1608023,
+      "sha256": "2209823b1bbd0744c7f0162ac82b7154ff7262f7f85020dfb39a68f450b3c3e4",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/BOSS-002_prototype_pack.zip",
+      "bytes": 6709772,
+      "sha256": "7ef4b2516fa441380804f4394fdcaf7b4110691682b7eed0d6ec6adde7ec1404"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_01.png",
+      "bytes": 264015,
+      "sha256": "041970d21ee82356c97bb4dc5f2f33ffd04208588ecd3fb8506e0e17c00dedf2",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_02.png",
+      "bytes": 266427,
+      "sha256": "d90ae4346f7810329666bf5c0b0c55e34e4d8697bbf311c0646c104da89d443f",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_03.png",
+      "bytes": 273824,
+      "sha256": "686a055190071ed6317ce8c388c9ac052588a59445e36bf113b061d643cbc777",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_04.png",
+      "bytes": 278841,
+      "sha256": "8d742f67fb4ebf4ddb61fb0cb00c1786069a8cdec4549162b914e9e0a79cc899",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_05.png",
+      "bytes": 265223,
+      "sha256": "f13771782b104050147bfc8ca311214fca1e0d228136c94d024531f5b1d3db93",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_06.png",
+      "bytes": 268289,
+      "sha256": "f0401ea0271751b89b9115f97ce5293eadd805474f34ecdcda635faae2b5e1ea",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/silhouettes/BOSS-002_idle_01_silhouette.png",
+      "bytes": 4403,
+      "sha256": "8b9e5bede37c9b96bb642489a18a70370f530146c2c24491dc53b7c7422cbe81",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/silhouettes/BOSS-002_idle_02_silhouette.png",
+      "bytes": 4437,
+      "sha256": "74838acd62a763dee17ece060c311385e510e6b8efe1dd227870ff63dd2af566",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/silhouettes/BOSS-002_idle_03_silhouette.png",
+      "bytes": 4571,
+      "sha256": "732df69d460579effc881d8487ca9fcdd3a19d6df4da692fd2f56f707bd7a388",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/silhouettes/BOSS-002_idle_04_silhouette.png",
+      "bytes": 4526,
+      "sha256": "1c84256ae27debe35069abe3ad82bb0aa0d3c8a374c1146ebbf597f324fcce58",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/silhouettes/BOSS-002_idle_05_silhouette.png",
+      "bytes": 4359,
+      "sha256": "c293f71886a49ec3fcb974bcd0ba142462988f1cb27a1de94f7d3f08dc0c30a9",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/silhouettes/BOSS-002_idle_06_silhouette.png",
+      "bytes": 4423,
+      "sha256": "3a810f48256b52e2ab6361960a13887acd16ba6950132e64d3058ad7801261fc",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/previews/BOSS-002_idle_contact_sheet.jpg",
+      "bytes": 319538,
+      "sha256": "eb712eb7993a0ce7398a32540ab784458bd6f77140ec2e501f9cc694e1d053a3",
+      "dimensions": [
+        1536,
+        1104
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/previews/BOSS-002_idle_preview.gif",
+      "bytes": 564562,
+      "sha256": "50b268eed915b2390be11811914c2da4e478b153f2c28c8a6bd2960cd353f818",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/source_images/BOSS-002_idle_original.png",
+      "bytes": 2593000,
+      "sha256": "3d0df8f5c7ef827da30527b3fbab1f460af134135fe5c112d16bf544d5159ff1",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "production_approved": false,
+  "checklist_status_source": "/Users/abinashbasak/Downloads/lanterns_underroot_master_asset_checklist.md"
+}

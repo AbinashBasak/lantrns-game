@@ -1,0 +1,540 @@
+{
+  "asset_id": "EN-017",
+  "title": "Brambleguard heavy attack",
+  "checked": false,
+  "stage": "animation prototype generated and visually reviewed; 1 deliverable clip/view set(s); cleanup and production approval pending",
+  "last_updated": "2026-10-17T01:42:52.790076+05:30",
+  "generation_tool": "built-in image_gen",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/source_images/EN-017_heavy_attack_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441d-6499-79e0-8b00-ac5fc8abc8c1/exec-e8bf1d40-3f26-408c-8f63-d8c829010fcc.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted outlined 2D platformer enemy animation sprite sheet. Reference image is ONLY character identity/style, not pose count/layout. Exactly SIX full-body poses in a precise equal 3-column by 2-row grid on 1536x1024 canvas; 512x512 cells. Chronological reading order. Same camera, scale and identity in every cell, right-facing three-quarter. Subject total height approx 330px, 70px CLEAR transparent padding. Whole cap/body/arms/feet/effects inside each own cell with no overlap. Opaque subject interior, genuine transparent background, no floor, shadow, colored haze, text, labels, borders, scenery or other creatures. Do not copy reference layout. Brambleguard exact bluecore bark/stone/moss model. SIX distinct heavy overhead slam phases. BOTH FISTS act TOGETHER AS ONE TWO-HANDED SLAM so arm continuity unmistakable. 1 ready fists lowered. 2 crouch both fists at chest. 3 BOTH fists raised together overhead, root elbows bent outward. 4 BOTH fists swing forward DOWN toward image right at waist height. 5 deep crouch BOTH fists low at ankle height to image right. 6 return ready fistslow. Keep both fists visible at every phase, exactly2arms, no one-arm reversal. Uniform front-threequarter right camera. Character must be smaller: full height max340px WITH raised arms, widthmax350px. 70px empty transparent margin each cell. No floor, contacteffects, glow, haze or background.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/source_images/EN-015_model_sheet_original.png"
+      ],
+      "clip": "heavy_attack",
+      "review": "selected prototype",
+      "bytes": 2521479,
+      "sha256": "448614455c33ac60eef80ebe4f7fe77d110686aca8a59338eb1ab04e0f7bd646",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441d-6499-79e0-8b00-ac5fc8abc8c1/exec-ca92db74-5dff-4b77-9d1c-77557020d387.png",
+      "prompt": "Use case: stylized-concept. Hand-painted outlined 2D platformer enemy animation sprite sheet. Reference image is ONLY character identity/style, not pose count/layout. Exactly SIX full-body poses in a precise equal 3-column by 2-row grid on 1536x1024 canvas; 512x512 cells. Chronological reading order. Same camera, scale and identity in every cell, right-facing three-quarter. Subject total height approx 330px, 70px CLEAR transparent padding. Whole cap/body/arms/feet/effects inside each own cell with no overlap. Opaque subject interior, genuine transparent background, no floor, shadow, colored haze, text, labels, borders, scenery or other creatures. Do not copy reference layout. Brambleguard exact model: thick bark/root limbs, huge graystone knuckles/armor, moss/leaf clusters, ONE blue diamond chest core. Six DISTINCT heavy root-fist slam poses facing right: ready; knees bend and torso coils; one enormous right root fist raised overhead in clear windup; fist sweeps down toward invisible target low right; deep crouched follow through fist low; recover standing ready. Whole hand stays inside own cell. No weapon/prop, no giant effect, no ground plane. Make clearly different windup/strike/followthrough poses, not a walk. At peak windup fist above head; at strike fist extended forward DOWN to right; followthrough fist at ankle height. Maintain one active right fist across frames. No slam effect/no ground drawn. Leave ample margin for overhead and forward hand.",
+      "review": "Earlier one-fist attempt retained; arm switched between windup and strike, fist crossed equal cell boundary.",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/source_images/EN-017_heavy_attack_attempt01_original.png",
+      "provenance": "unchanged built-in image_gen attempt",
+      "source_message_id": null,
+      "clip": "heavy_attack",
+      "bytes": 2727472,
+      "sha256": "f978e2b59e0fcbcf03ae91571edbbaddcd5ed146ed8f5e05e9a6b3f9f3ee90a6",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "clips": [
+    {
+      "asset_id": "EN-017",
+      "clip": "heavy_attack",
+      "frame_count": 6,
+      "frame_dimensions": [
+        512,
+        512
+      ],
+      "frame_durations_ms": [
+        180,
+        180,
+        280,
+        100,
+        200,
+        280
+      ],
+      "loop": false,
+      "preview_loops_for_review": true,
+      "pivot_px": [
+        256,
+        480
+      ],
+      "frames": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/frames/EN-017_heavy_attack_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/frames/EN-017_heavy_attack_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/frames/EN-017_heavy_attack_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/frames/EN-017_heavy_attack_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/frames/EN-017_heavy_attack_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/frames/EN-017_heavy_attack_06.png"
+      ],
+      "poses": [
+        "ready fists low",
+        "crouch fists at chest",
+        "both fists overhead windup",
+        "both fists forward/down strike",
+        "deep low follow through",
+        "recover ready"
+      ],
+      "transforms": [
+        {
+          "frame": 1,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/source_images/EN-017_heavy_attack_original.png",
+          "source_crop": [
+            0,
+            0,
+            512,
+            550
+          ],
+          "source_regions": null,
+          "scale": 0.7627118644067796,
+          "offset": [
+            61,
+            84
+          ],
+          "alpha230_bbox": [
+            80,
+            121,
+            457,
+            519
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 2,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/source_images/EN-017_heavy_attack_original.png",
+          "source_crop": [
+            512,
+            0,
+            1024,
+            550
+          ],
+          "source_regions": null,
+          "scale": 0.7627118644067796,
+          "offset": [
+            61,
+            84
+          ],
+          "alpha230_bbox": [
+            123,
+            163,
+            468,
+            519
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 3,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/source_images/EN-017_heavy_attack_original.png",
+          "source_crop": [
+            1024,
+            0,
+            1536,
+            550
+          ],
+          "source_regions": null,
+          "scale": 0.7627118644067796,
+          "offset": [
+            61,
+            84
+          ],
+          "alpha230_bbox": [
+            98,
+            33,
+            443,
+            519
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 4,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/source_images/EN-017_heavy_attack_original.png",
+          "source_crop": [
+            0,
+            550,
+            590,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.7627118644067796,
+          "offset": [
+            31,
+            160
+          ],
+          "alpha230_bbox": [
+            82,
+            25,
+            554,
+            418
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 5,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/source_images/EN-017_heavy_attack_original.png",
+          "source_crop": [
+            590,
+            550,
+            1080,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.7627118644067796,
+          "offset": [
+            69,
+            160
+          ],
+          "alpha230_bbox": [
+            41,
+            94,
+            449,
+            419
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        },
+        {
+          "frame": 6,
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/source_images/EN-017_heavy_attack_original.png",
+          "source_crop": [
+            1080,
+            550,
+            1536,
+            1024
+          ],
+          "source_regions": null,
+          "scale": 0.7627118644067796,
+          "offset": [
+            82,
+            160
+          ],
+          "alpha230_bbox": [
+            33,
+            22,
+            410,
+            420
+          ],
+          "alpha_extrema": [
+            0,
+            255
+          ]
+        }
+      ],
+      "review_notes": [
+        "Corrected two-handed overhead slam provides coherent ready/coil/overhead/strike/followthrough/recover phases with both fists together, resolving first attempt active-arm swap.",
+        "Attack interpretation is two-handed rather than initial one-fist request; heavy attack brief remains readable.",
+        "Top-row feet cross y512; bottom strike fists cross nominal x512 and followthrough crosses x1024. Custom crop boxes isolate all complete subjects, no neighboring bodies.",
+        "Blue core preserved. Broad green-gray ambient halo, armor/leaf detail and scale drift need alpha/continuity cleanup."
+      ],
+      "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+    }
+  ],
+  "review_notes": [
+    "Generated model proposal/animation prototype; not production approved.",
+    "Generated designs are proposals based on project art/story; user production approval is not inferred.",
+    "Generated alpha is preserved. Source haze, armor/anatomy continuity, foot contacts and timing require cleanup and Godot review. No runtime integration performed."
+  ],
+  "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/EN-017_heavy_attack_strip.png",
+  "preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/previews/EN-017_heavy_attack_preview.gif",
+  "asset_pack": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/EN-017_prototype_pack.zip",
+  "files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/EN-017_README.md",
+      "bytes": 1409,
+      "sha256": "15374665e5c9eff5b9eb5d5b882b9fc4991d21a3dc740706c46c7939af2fff91"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/EN-017_heavy_attack_generation_prompts.json",
+      "bytes": 4873,
+      "sha256": "6be2d377fc8ea927e062b4dcf22e030b929254d5fc54082160c4a359cc385db4"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/EN-017_heavy_attack_manifest.json",
+      "bytes": 5695,
+      "sha256": "0cfab2ebdc6969e5047e6ee81d3b0a2dd2044c81cd58464809d4809cd38abc5d"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/EN-017_heavy_attack_silhouettes_strip.png",
+      "bytes": 17857,
+      "sha256": "71ee48ea9c6614f3faa39b6c4b179ffbc5e6bbf1a8c8cccbd07c70093c125211",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/EN-017_heavy_attack_strip.png",
+      "bytes": 1120696,
+      "sha256": "df8db00f6a434e4c2c63cc4f6e67edfd82545d3ac6f96f04fc62a5cab3b0d7f9",
+      "dimensions": [
+        3072,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/EN-017_prototype_pack.zip",
+      "bytes": 8149050,
+      "sha256": "aef17b4925b3ea8a9e715b62eb08bcbff402739b1c59497038b2b3dc54392fd8"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/frames/EN-017_heavy_attack_01.png",
+      "bytes": 197354,
+      "sha256": "96ee222ee7e9e005621a4331aabd880635664b18ba92fba62d5db985c1cf6055",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/frames/EN-017_heavy_attack_02.png",
+      "bytes": 162775,
+      "sha256": "f3a31e24f316cd133761dec2f9a0ccde16e3a8ad8d19700728f0fa69082c8624",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/frames/EN-017_heavy_attack_03.png",
+      "bytes": 206385,
+      "sha256": "d2e560ff240f548518d8c9c54707dbda74926331bca8bf428609695839de45bf",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/frames/EN-017_heavy_attack_04.png",
+      "bytes": 194903,
+      "sha256": "8a0f74aa098aa1115bb7b4a8e88a47cb44eed48f52f9684b3bd4f8d69fdec02b",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/frames/EN-017_heavy_attack_05.png",
+      "bytes": 168391,
+      "sha256": "d93e0f71cb57d5ab15832f008844ad44964b96719c1ca04715dbd0d154807afd",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/frames/EN-017_heavy_attack_06.png",
+      "bytes": 194451,
+      "sha256": "a70e00e7c8fe70f3c251cc35c257392d9dd113e409c204ab88d67df776adf1cd",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/silhouettes/EN-017_heavy_attack_01_silhouette.png",
+      "bytes": 3654,
+      "sha256": "0d3475f582d0679ddf15f12828fdde711a028c03e1cd3ba8b83fe070216f6f86",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/silhouettes/EN-017_heavy_attack_02_silhouette.png",
+      "bytes": 3345,
+      "sha256": "8d0f24394ffa3e12f2fe090db5e3a3181fd43f6ccb1d67479714b19feb04438e",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/silhouettes/EN-017_heavy_attack_03_silhouette.png",
+      "bytes": 4139,
+      "sha256": "f5b237db8e5395692c5037b88ce6f1ac9f1b8d224cc2e49ca30bdaacf97e9b96",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/silhouettes/EN-017_heavy_attack_04_silhouette.png",
+      "bytes": 3724,
+      "sha256": "7ce01e97442163d6f3eb083828770f11efd37e1e7e7ba0699af9b01e75cb62ee",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/silhouettes/EN-017_heavy_attack_05_silhouette.png",
+      "bytes": 3059,
+      "sha256": "a3f904ccba97607ac12d98cdbb1057473de5cc368f50d898f7da3b78f5c241c8",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/silhouettes/EN-017_heavy_attack_06_silhouette.png",
+      "bytes": 3620,
+      "sha256": "879d23e78664049356efac1a917704f54e62805f6109c1ec5c2311764c6e73c5",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/previews/EN-017_heavy_attack_contact_sheet.jpg",
+      "bytes": 281266,
+      "sha256": "0db84c8eb7632f2fc4e3b35e60bd6488363b5dee157f7fb9b91b6433c0f16f38",
+      "dimensions": [
+        1536,
+        1104
+      ],
+      "mode": "RGB"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/previews/EN-017_heavy_attack_preview.gif",
+      "bytes": 391939,
+      "sha256": "14fcc5ddd82eab92cf42bdd44cb38f60b8041167bb05bda978ddce63b417741e",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/source_images/EN-017_heavy_attack_attempt01_original.png",
+      "bytes": 2727472,
+      "sha256": "f978e2b59e0fcbcf03ae91571edbbaddcd5ed146ed8f5e05e9a6b3f9f3ee90a6",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/source_images/EN-017_heavy_attack_original.png",
+      "bytes": 2521479,
+      "sha256": "448614455c33ac60eef80ebe4f7fe77d110686aca8a59338eb1ab04e0f7bd646",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ],
+  "production_approved": false,
+  "checklist_status_source": "/Users/abinashbasak/Downloads/lanterns_underroot_master_asset_checklist.md"
+}

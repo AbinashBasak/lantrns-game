@@ -1,0 +1,29 @@
+{
+  "asset_id": "EN-018",
+  "clip": "stagger",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/source_images/EN-018_stagger_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-73833c99-0913-4762-a108-ae100e10342b.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Lanterns Underroot Brambleguard 2D hand-painted game sprite sheet. Input1 identity model PROPOSAL: exact same stocky heavy bark/root guardian, brown woody brow/crown branches and roots, gray stone plates embedded in arms/chest/legs, dense green leafmoss shoulders, huge rootstone fists, blue eyes, ONE vivid BLUE diamond chest core in ringed stone socket. NOT amber Hollow Sentinel, never amber core or metal helmet. Exactly SIX chronological full-body poses equal3columns x2rows on1536x1024, each512cell with70px clear transparentpadding. Each character max330px standingheight, fixedfront3quarterfacingRIGHT, consistenthead/torso/armor/scale. Every limb/leaf/root fits its cell. Genuine transparentbackground, opaquecharacter. No ground, floor shadow, haze, broad glow, scenery, labels, text, borders, attacker, othercharacters, externalweapon or extraarms. STAGGER animation, large loss of balance and recovery distinct from simple hurt.1 stable ready fistslow.2 upperbody knocked backward LEFT with arms lifting involuntarily, plantedfeet.3 deep backward lean and one short stumblingstep LEFT, knees buckled, BLUEcore flickers.4 drops onto ONE bentknee and braces one hugefist nearfeet, head bowed, stillintact.5 pushes upright, fist lifts and rearfoot steps underhips.6 stable ready as1. Clearlargechangesinsilhouette, never attacks, doesnotdisassemble.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/source_images/EN-015_model_sheet_original.png"
+      ],
+      "clip": "stagger",
+      "review": "selected prototype",
+      "bytes": 2805471,
+      "sha256": "65cf6737ee811a26a96dee4bd81eddfdd9665f73c15562492991b10ec5bc4c36",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

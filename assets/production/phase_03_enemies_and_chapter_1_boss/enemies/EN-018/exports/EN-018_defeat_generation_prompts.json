@@ -1,0 +1,29 @@
+{
+  "asset_id": "EN-018",
+  "clip": "defeat",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/source_images/EN-018_defeat_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a14427-dc01-7b20-819e-f0644e0ba146/exec-8e7a8b68-9aaa-41ba-a1d6-cc3b3e96e884.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Lanterns Underroot Brambleguard 2D hand-painted game sprite sheet. Input1 identity model PROPOSAL: exact same stocky heavy bark/root guardian, brown woody brow/crown branches and roots, gray stone plates embedded in arms/chest/legs, dense green leafmoss shoulders, huge rootstone fists, blue eyes, ONE vivid BLUE diamond chest core in ringed stone socket. NOT amber Hollow Sentinel, never amber core or metal helmet. Exactly SIX chronological full-body poses equal3columns x2rows on1536x1024, each512cell with70px clear transparentpadding. Each character max330px standingheight, fixedfront3quarterfacingRIGHT, consistenthead/torso/armor/scale. Every limb/leaf/root fits its cell. Genuine transparentbackground, opaquecharacter. No ground, floor shadow, haze, broad glow, scenery, labels, text, borders, attacker, othercharacters, externalweapon or extraarms. NONVIOLENT DEFEAT animation.1 weakened hunchedstanding BLUEcorefaint.2 kneels headbowed hugefists lowered.3 roots untwist and chestplate gaps, bluecore dims; intact kneeling bodyloosens.4 collapses gently into detachedgraystoneplates and brownroots with greenleaves, nolongerstanding, brokenbody low toinvisiblebaseline.5 smalllowpile of inertrootstonepieces and leaves, bluecore lies withinpile dim, NO intactheadorbody.6 settled flatter dormantrootstonepile, core dark, NO intact guardian, minimalleaves. This enemy doesnotdrop amberquestfragment, never drawfloatinggoldcrystal. No gore, explosion, violentblast orscene. Keep latepile SMALL atfootbaseline ratherthanenlarging.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/source_images/EN-015_model_sheet_original.png"
+      ],
+      "clip": "defeat",
+      "review": "selected prototype",
+      "bytes": 2434661,
+      "sha256": "1a36bcdfd7e79a862cfe18f5969134f31792c8b07e4101ee1ede2f83af302274",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

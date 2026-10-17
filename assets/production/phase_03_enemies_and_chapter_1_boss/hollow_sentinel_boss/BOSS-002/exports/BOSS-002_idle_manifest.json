@@ -1,0 +1,201 @@
+{
+  "asset_id": "BOSS-002",
+  "clip": "idle",
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    180,
+    180,
+    180,
+    180,
+    180,
+    180
+  ],
+  "loop": true,
+  "preview_loops_for_review": true,
+  "pivot_px": [
+    256,
+    480
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_04.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_05.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_06.png"
+  ],
+  "poses": [
+    "ready fists low",
+    "subtle root chest expansion",
+    "head tilt alert",
+    "small shoulder settle",
+    "exhale core dimmer",
+    "return ready"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/source_images/BOSS-002_idle_original.png",
+      "source_crop": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        40
+      ],
+      "alpha230_bbox": [
+        78,
+        23,
+        461,
+        500
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/source_images/BOSS-002_idle_original.png",
+      "source_crop": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        40
+      ],
+      "alpha230_bbox": [
+        64,
+        25,
+        461,
+        500
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/source_images/BOSS-002_idle_original.png",
+      "source_crop": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        40
+      ],
+      "alpha230_bbox": [
+        56,
+        29,
+        464,
+        501
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/source_images/BOSS-002_idle_original.png",
+      "source_crop": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        48
+      ],
+      "alpha230_bbox": [
+        65,
+        15,
+        475,
+        491
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 5,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/source_images/BOSS-002_idle_original.png",
+      "source_crop": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        48
+      ],
+      "alpha230_bbox": [
+        75,
+        13,
+        455,
+        491
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 6,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/source_images/BOSS-002_idle_original.png",
+      "source_crop": [
+        1024,
+        512,
+        1536,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.87890625,
+      "offset": [
+        31,
+        48
+      ],
+      "alpha230_bbox": [
+        71,
+        10,
+        456,
+        491
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "review_notes": [
+    "Subtle idle core/shoulder/head changes present. Source body is much larger than prompt330px; equal512cell crops still contain body. Minor core shape and armor/root drift."
+  ],
+  "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+}

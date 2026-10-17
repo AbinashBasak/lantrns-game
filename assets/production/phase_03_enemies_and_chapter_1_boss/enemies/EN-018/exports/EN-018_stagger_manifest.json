@@ -1,0 +1,202 @@
+{
+  "asset_id": "EN-018",
+  "clip": "stagger",
+  "frame_count": 6,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": [
+    130,
+    100,
+    180,
+    240,
+    180,
+    180
+  ],
+  "loop": false,
+  "preview_loops_for_review": true,
+  "pivot_px": [
+    256,
+    480
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/exports/stagger/frames/EN-018_stagger_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/exports/stagger/frames/EN-018_stagger_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/exports/stagger/frames/EN-018_stagger_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/exports/stagger/frames/EN-018_stagger_04.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/exports/stagger/frames/EN-018_stagger_05.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/exports/stagger/frames/EN-018_stagger_06.png"
+  ],
+  "poses": [
+    "ready",
+    "backward recoil",
+    "offbalance stagger",
+    "knee brace",
+    "push upright",
+    "recovered"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/source_images/EN-018_stagger_original.png",
+      "source_crop": [
+        0,
+        0,
+        492,
+        512
+      ],
+      "source_regions": null,
+      "scale": 0.8035714285714286,
+      "offset": [
+        58,
+        88
+      ],
+      "alpha230_bbox": [
+        38,
+        38,
+        472,
+        488
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/source_images/EN-018_stagger_original.png",
+      "source_crop": [
+        492,
+        0,
+        976,
+        512
+      ],
+      "source_regions": null,
+      "scale": 0.8035714285714286,
+      "offset": [
+        62,
+        88
+      ],
+      "alpha230_bbox": [
+        17,
+        47,
+        461,
+        484
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/source_images/EN-018_stagger_original.png",
+      "source_crop": [
+        976,
+        0,
+        1536,
+        512
+      ],
+      "source_regions": null,
+      "scale": 0.8035714285714286,
+      "offset": [
+        31,
+        88
+      ],
+      "alpha230_bbox": [
+        22,
+        40,
+        519,
+        480
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/source_images/EN-018_stagger_original.png",
+      "source_crop": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.8035714285714286,
+      "offset": [
+        50,
+        107
+      ],
+      "alpha230_bbox": [
+        48,
+        75,
+        504,
+        454
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 5,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/source_images/EN-018_stagger_original.png",
+      "source_crop": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.8035714285714286,
+      "offset": [
+        50,
+        107
+      ],
+      "alpha230_bbox": [
+        52,
+        11,
+        475,
+        464
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 6,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/source_images/EN-018_stagger_original.png",
+      "source_crop": [
+        1024,
+        512,
+        1536,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.8035714285714286,
+      "offset": [
+        50,
+        107
+      ],
+      "alpha230_bbox": [
+        23,
+        10,
+        459,
+        464
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "review_notes": [
+    "Large backwards recoil and offbalance liftedfoot, knee/fistbrace, recovery present. Top-row customcolumns492/976 prevent clipping leaves on leaningposes.",
+    "Core stays blue, anatomy modelidentity retained; broad source alpha haze persists."
+  ],
+  "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+}

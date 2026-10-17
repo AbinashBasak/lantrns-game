@@ -1,0 +1,29 @@
+{
+  "asset_id": "BOSS-002",
+  "clip": "idle",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/source_images/BOSS-002_idle_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-a34a3d9f-76d4-4d5f-a71f-058995e66f14.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Lanterns Underroot Hollow Sentinel 2D illustrated boss animation sprite sheet. Reference is the SAME approved-for-reference model PROPOSAL: stocky compact temple warden, angular cool bluegray stone plates, heavy block fists, thick squat stone legs, brown twisted root joints, moss shoulders, pointed crownlike stone head and side root horns, narrow amber eyes, ONE ambergold crystal in cracked chest, no separate weapon. Match model identity and hand-painted rendering, consistent armor/roots/palette/proportions, not a new monster design. Exactly SIX fullbody chronological poses in precise equal3columns x2rows on1536x1024. Each512x512cell all parts entirely inside cell with 65px padding; do not enlarge body, standing height330px. Constant headsize, camera, view threequarter facing RIGHT. Character isolated with genuine transparent background, opaque body. No environment/groundplane/castshadow/haze/background vignette/text/labels/panels/borders/otherchars. Two arms/two legs only. No colored glow outside compact chest. Arms can bend but never duplicate. Floor is invisible at y450 within eachcell. Asset BOSS-002 Idle animation. Six DISTINCT poses: 1 ready fists low; 2 subtle root chest expansion; 3 head tilt alert; 4 small shoulder settle; 5 exhale core dimmer; 6 return ready. Clear readable anticipation and recovery. No gore.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/source_images/BOSS-001_model_original.png"
+      ],
+      "clip": "idle",
+      "review": "selected prototype",
+      "bytes": 2593000,
+      "sha256": "3d0df8f5c7ef827da30527b3fbab1f460af134135fe5c112d16bf544d5159ff1",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

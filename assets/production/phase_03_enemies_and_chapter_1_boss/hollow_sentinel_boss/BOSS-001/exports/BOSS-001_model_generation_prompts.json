@@ -1,0 +1,30 @@
+{
+  "asset_id": "BOSS-001",
+  "clip": "model",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/source_images/BOSS-001_model_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a143cd-abed-7181-a4b6-56ed713b72cb/exec-49265260-00ee-49c5-8445-5339c8a51fd7.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Asset BOSS-001 Hollow Sentinel design MODEL PROPOSAL for Lanterns Underroot. Reference1 rightmost HOLLOW SENTINEL defines compact stone/root guardian silhouette and scale, reference2 defines detailed hand-painted rendering only. IMPORTANT current story overrides ref1 blue core: chest has ONE DIM AMBER GOLD CORE within cracked chest plate, amber eyes; no cyan core. Ancient compact stocky temple warden, angular cool blue-gray stone plates, heavy block forearms, squat thick stone legs, brown root joints, sparse moss shoulder patches and small root horns. No separate weapon, fists are weapons. One amber chest crystal visible from front/side, no core on back. Friendly-tragic malfunctioning guardian, not demon. Original polished illustrated 2D platformer style, crisp silhouettes, soft restrained brush shading, no photorealism. Exactly FOUR fullbody neutral standing views same model front/rightprofile/back/threequarter facingright arranged equal horizontal row, identical proportions armor roots palette camera. Landscape1536x1024 four384px cells each entire guardian within300px width and500px height at y512 with generous clearpadding. Genuine transparent background opaque body interiors. No floor shadows haze particles text labels headers panels borders environment othercharacters or equipment displays. Four views ONLY.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-003/ART-003_character_proportion_and_scale.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_00_art_foundation/ART-001/ART-001_final_visual_style_guide.png"
+      ],
+      "clip": "model",
+      "review": "selected prototype",
+      "bytes": 1996717,
+      "sha256": "c505df0e5d8aafddf3bba3c2ae21c1a42c49f7350c977480ac5dbe714c1cb996",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "asset_id": "BOSS-001",
+  "clip": "model",
+  "frame_count": 4,
+  "frame_dimensions": [
+    512,
+    512
+  ],
+  "frame_durations_ms": null,
+  "loop": false,
+  "preview_loops_for_review": false,
+  "pivot_px": [
+    256,
+    256
+  ],
+  "frames": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/exports/model/frames/BOSS-001_model_01.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/exports/model/frames/BOSS-001_model_02.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/exports/model/frames/BOSS-001_model_03.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/exports/model/frames/BOSS-001_model_04.png"
+  ],
+  "poses": [
+    "front",
+    "right profile",
+    "back",
+    "three-quarter right"
+  ],
+  "transforms": [
+    {
+      "frame": 1,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/source_images/BOSS-001_model_original.png",
+      "source_crop": [
+        0,
+        0,
+        460,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.6976744186046512,
+      "offset": [
+        92,
+        -133
+      ],
+      "alpha230_bbox": [
+        19,
+        264,
+        450,
+        852
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 2,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/source_images/BOSS-001_model_original.png",
+      "source_crop": [
+        460,
+        0,
+        695,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.6976744186046512,
+      "offset": [
+        176,
+        -129
+      ],
+      "alpha230_bbox": [
+        13,
+        251,
+        217,
+        853
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 3,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/source_images/BOSS-001_model_original.png",
+      "source_crop": [
+        695,
+        0,
+        1130,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.6976744186046512,
+      "offset": [
+        107,
+        -134
+      ],
+      "alpha230_bbox": [
+        4,
+        264,
+        423,
+        853
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "frame": 4,
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-001/source_images/BOSS-001_model_original.png",
+      "source_crop": [
+        1130,
+        0,
+        1536,
+        1024
+      ],
+      "source_regions": null,
+      "scale": 0.6976744186046512,
+      "offset": [
+        115,
+        -133
+      ],
+      "alpha230_bbox": [
+        10,
+        260,
+        395,
+        855
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "review_notes": [
+    "Custom per-view crops required because front and back armor extends past nominal 384px cells."
+  ],
+  "mask_method": "black RGB with binary alpha >=230; soft glow excluded"
+}

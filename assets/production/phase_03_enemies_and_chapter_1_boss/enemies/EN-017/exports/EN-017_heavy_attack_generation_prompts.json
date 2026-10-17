@@ -1,0 +1,49 @@
+{
+  "asset_id": "EN-017",
+  "clip": "heavy_attack",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/source_images/EN-017_heavy_attack_original.png",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441d-6499-79e0-8b00-ac5fc8abc8c1/exec-e8bf1d40-3f26-408c-8f63-d8c829010fcc.png",
+      "provenance": "unchanged built-in image_gen output; not downloaded chat original",
+      "source_message_id": null,
+      "prompt": "Use case: stylized-concept. Hand-painted outlined 2D platformer enemy animation sprite sheet. Reference image is ONLY character identity/style, not pose count/layout. Exactly SIX full-body poses in a precise equal 3-column by 2-row grid on 1536x1024 canvas; 512x512 cells. Chronological reading order. Same camera, scale and identity in every cell, right-facing three-quarter. Subject total height approx 330px, 70px CLEAR transparent padding. Whole cap/body/arms/feet/effects inside each own cell with no overlap. Opaque subject interior, genuine transparent background, no floor, shadow, colored haze, text, labels, borders, scenery or other creatures. Do not copy reference layout. Brambleguard exact bluecore bark/stone/moss model. SIX distinct heavy overhead slam phases. BOTH FISTS act TOGETHER AS ONE TWO-HANDED SLAM so arm continuity unmistakable. 1 ready fists lowered. 2 crouch both fists at chest. 3 BOTH fists raised together overhead, root elbows bent outward. 4 BOTH fists swing forward DOWN toward image right at waist height. 5 deep crouch BOTH fists low at ankle height to image right. 6 return ready fistslow. Keep both fists visible at every phase, exactly2arms, no one-arm reversal. Uniform front-threequarter right camera. Character must be smaller: full height max340px WITH raised arms, widthmax350px. 70px empty transparent margin each cell. No floor, contacteffects, glow, haze or background.",
+      "reference_images": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-015/source_images/EN-015_model_sheet_original.png"
+      ],
+      "clip": "heavy_attack",
+      "review": "selected prototype",
+      "bytes": 2521479,
+      "sha256": "448614455c33ac60eef80ebe4f7fe77d110686aca8a59338eb1ab04e0f7bd646",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a1441d-6499-79e0-8b00-ac5fc8abc8c1/exec-ca92db74-5dff-4b77-9d1c-77557020d387.png",
+      "prompt": "Use case: stylized-concept. Hand-painted outlined 2D platformer enemy animation sprite sheet. Reference image is ONLY character identity/style, not pose count/layout. Exactly SIX full-body poses in a precise equal 3-column by 2-row grid on 1536x1024 canvas; 512x512 cells. Chronological reading order. Same camera, scale and identity in every cell, right-facing three-quarter. Subject total height approx 330px, 70px CLEAR transparent padding. Whole cap/body/arms/feet/effects inside each own cell with no overlap. Opaque subject interior, genuine transparent background, no floor, shadow, colored haze, text, labels, borders, scenery or other creatures. Do not copy reference layout. Brambleguard exact model: thick bark/root limbs, huge graystone knuckles/armor, moss/leaf clusters, ONE blue diamond chest core. Six DISTINCT heavy root-fist slam poses facing right: ready; knees bend and torso coils; one enormous right root fist raised overhead in clear windup; fist sweeps down toward invisible target low right; deep crouched follow through fist low; recover standing ready. Whole hand stays inside own cell. No weapon/prop, no giant effect, no ground plane. Make clearly different windup/strike/followthrough poses, not a walk. At peak windup fist above head; at strike fist extended forward DOWN to right; followthrough fist at ankle height. Maintain one active right fist across frames. No slam effect/no ground drawn. Leave ample margin for overhead and forward hand.",
+      "review": "Earlier one-fist attempt retained; arm switched between windup and strike, fist crossed equal cell boundary.",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/source_images/EN-017_heavy_attack_attempt01_original.png",
+      "provenance": "unchanged built-in image_gen attempt",
+      "source_message_id": null,
+      "clip": "heavy_attack",
+      "bytes": 2727472,
+      "sha256": "f978e2b59e0fcbcf03ae91571edbbaddcd5ed146ed8f5e05e9a6b3f9f3ee90a6",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    }
+  ]
+}
