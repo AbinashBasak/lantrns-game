@@ -217,5 +217,42 @@
   "production_approved": false,
   "runtime_integrated": false,
   "provenance": "New built-in image_gen original copied unchanged; exports/previews derived locally.",
-  "review_notes": []
+  "review_notes": [],
+  "runtime_integrations": {
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/story/fragment.png"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "OBJ-002",
+          "path": "assets/runtime/chapter01/story/fragment.png",
+          "source": "assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-002/exports/OBJ-002_state_01.png",
+          "source_sha256": "90fc848b53ae8b60fb8f0282118025c486df3837f385642586f9718f7a2cb3f8",
+          "sha256": "d7b0a1cb3515fcef0ba8df9cab68cfa4cdbdc7178b2c6343384cf94446e5d0e9",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/story/manifest.json",
+          "dimensions": [
+            102,
+            189
+          ],
+          "crop": [
+            90,
+            41,
+            192,
+            230
+          ]
+        }
+      ]
+    }
+  },
+  "last_updated": "2026-10-18T05:32:46.261707+05:30"
 }

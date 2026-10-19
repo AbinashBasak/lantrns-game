@@ -44,7 +44,7 @@
   "loop": false,
   "production_approved": false,
   "requested_deliverables_saved_and_reviewed": true,
-  "stage": "generated_terrain_prototype_saved_and_reviewed",
+  "stage": "selected prologue exports integrated and desktop-reviewed; full-pack and release/device approval pending",
   "source_message_id": null,
   "provenance": {
     "tool": "built-in image_gen",
@@ -590,5 +590,23 @@
         "Repeat and assembly previews intentionally show current generated edge gaps; they are QA artifacts, not passed seam certification."
       ]
     }
-  ]
+  ],
+  "runtime_integrated": true,
+  "archive_stage_before_runtime_integration": "generated_terrain_prototype_saved_and_reviewed",
+  "runtime_integrations": {
+    "prologue": {
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/prologue-asset-integration.json",
+      "paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/TILE-006_timbers.png"
+      ],
+      "validation": {
+        "scope": "selected prologue exports",
+        "engine": "Godot4.7.2",
+        "platform": "macOS",
+        "checked": "2026-10-18T03:06:39.226816+05:30",
+        "release_approved": false
+      }
+    }
+  },
+  "last_updated": "2026-10-18T03:06:39.226816+05:30"
 }

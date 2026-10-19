@@ -205,5 +205,42 @@
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-003/previews/UI-003_source_alpha_checker.png",
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-003/previews/UI-003_export_contact.png",
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-003/previews/UI-003_small_size_legibility.png"
-  ]
+  ],
+  "runtime_integrations": {
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/story/token.png"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "UI-003",
+          "path": "assets/runtime/chapter01/story/token.png",
+          "source": "assets/production/phase_08_user_interface/hud_elements/UI-003/exports/UI-003_00_neutral.png",
+          "source_sha256": "91d6d0372985e67f301433475107d42755b16756446fb9c91e2f3a12664a7927",
+          "sha256": "2dd47784724fd2fc4656dab5c1f455abb93139611eaf8d63a2d3b456962dc9a6",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/story/manifest.json",
+          "dimensions": [
+            152,
+            219
+          ],
+          "crop": [
+            63,
+            22,
+            215,
+            241
+          ]
+        }
+      ]
+    }
+  },
+  "last_updated": "2026-10-18T05:32:46.261707+05:30"
 }

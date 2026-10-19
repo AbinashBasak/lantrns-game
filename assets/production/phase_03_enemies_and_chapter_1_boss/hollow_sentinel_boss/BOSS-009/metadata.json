@@ -3,7 +3,7 @@
   "title": "Phase transition",
   "checked": true,
   "stage": "animation prototype generated and visually reviewed; 1 deliverable clip/view set(s); cleanup and production approval pending",
-  "last_updated": "2026-10-17T01:42:52.790076+05:30",
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
   "generation_tool": "built-in image_gen",
   "sources": [
     {
@@ -500,5 +500,86 @@
     }
   ],
   "production_approved": false,
-  "checklist_status_source": "/Users/abinashbasak/Downloads/lanterns_underroot_master_asset_checklist.md"
+  "checklist_status_source": "/Users/abinashbasak/Downloads/lanterns_underroot_master_asset_checklist.md",
+  "runtime_integrations": {
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/boss/BOSS-009_phase_transition_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/boss/BOSS-009_phase_transition_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/boss/BOSS-009_phase_transition_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/boss/BOSS-009_phase_transition_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/boss/BOSS-009_phase_transition_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/boss/BOSS-009_phase_transition_06.png"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "BOSS-009",
+          "path": "assets/runtime/chapter01/boss/BOSS-009_phase_transition_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/exports/phase_transition/frames/BOSS-009_phase_transition_01.png",
+          "source_sha256": "e39e6a274fe4cde540929af3177a7223aa2342e2dc60d742a6ae7ccfedf2226c",
+          "sha256": "e39e6a274fe4cde540929af3177a7223aa2342e2dc60d742a6ae7ccfedf2226c",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/boss/manifest.json"
+        },
+        {
+          "asset_id": "BOSS-009",
+          "path": "assets/runtime/chapter01/boss/BOSS-009_phase_transition_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/exports/phase_transition/frames/BOSS-009_phase_transition_02.png",
+          "source_sha256": "1079fa4b72d1155e5f2a35a284e503ea2f8d3f91c86660dd2b99d32311b352c8",
+          "sha256": "1079fa4b72d1155e5f2a35a284e503ea2f8d3f91c86660dd2b99d32311b352c8",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/boss/manifest.json"
+        },
+        {
+          "asset_id": "BOSS-009",
+          "path": "assets/runtime/chapter01/boss/BOSS-009_phase_transition_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/exports/phase_transition/frames/BOSS-009_phase_transition_03.png",
+          "source_sha256": "89cb4b242a76cb2296afa39664c0356601f98edf63ad86b7ecb0955d96c292be",
+          "sha256": "89cb4b242a76cb2296afa39664c0356601f98edf63ad86b7ecb0955d96c292be",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/boss/manifest.json"
+        },
+        {
+          "asset_id": "BOSS-009",
+          "path": "assets/runtime/chapter01/boss/BOSS-009_phase_transition_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/exports/phase_transition/frames/BOSS-009_phase_transition_04.png",
+          "source_sha256": "509b2a82e02a3bbe217c19519e23588fa0ba86a46e3fe2777ba0ed063671661f",
+          "sha256": "509b2a82e02a3bbe217c19519e23588fa0ba86a46e3fe2777ba0ed063671661f",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/boss/manifest.json"
+        },
+        {
+          "asset_id": "BOSS-009",
+          "path": "assets/runtime/chapter01/boss/BOSS-009_phase_transition_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/exports/phase_transition/frames/BOSS-009_phase_transition_05.png",
+          "source_sha256": "1d0686a50efeb7418d776ed79a87e896be2b5142f02840461faf3cfe74b10cc7",
+          "sha256": "1d0686a50efeb7418d776ed79a87e896be2b5142f02840461faf3cfe74b10cc7",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/boss/manifest.json"
+        },
+        {
+          "asset_id": "BOSS-009",
+          "path": "assets/runtime/chapter01/boss/BOSS-009_phase_transition_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/exports/phase_transition/frames/BOSS-009_phase_transition_06.png",
+          "source_sha256": "deb17debeb7578aad3b919a5af752150e83c9e062b50471c99dc95a3f1bb4940",
+          "sha256": "deb17debeb7578aad3b919a5af752150e83c9e062b50471c99dc95a3f1bb4940",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/boss/manifest.json"
+        }
+      ]
+    }
+  }
 }

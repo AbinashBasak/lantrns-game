@@ -3,7 +3,7 @@
   "title": "Ground slam",
   "checked": true,
   "stage": "animation prototype generated and visually reviewed; 1 deliverable clip/view set(s); cleanup and production approval pending",
-  "last_updated": "2026-10-17T01:42:52.790076+05:30",
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
   "generation_tool": "built-in image_gen",
   "sources": [
     {
@@ -499,5 +499,86 @@
     }
   ],
   "production_approved": false,
-  "checklist_status_source": "/Users/abinashbasak/Downloads/lanterns_underroot_master_asset_checklist.md"
+  "checklist_status_source": "/Users/abinashbasak/Downloads/lanterns_underroot_master_asset_checklist.md",
+  "runtime_integrations": {
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/boss/BOSS-005_ground_slam_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/boss/BOSS-005_ground_slam_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/boss/BOSS-005_ground_slam_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/boss/BOSS-005_ground_slam_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/boss/BOSS-005_ground_slam_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/boss/BOSS-005_ground_slam_06.png"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "BOSS-005",
+          "path": "assets/runtime/chapter01/boss/BOSS-005_ground_slam_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/exports/ground_slam/frames/BOSS-005_ground_slam_01.png",
+          "source_sha256": "faaff892a38df57900c0fbbbb5a53aa0fb2be7631312860d2fa6e28fae6b0819",
+          "sha256": "faaff892a38df57900c0fbbbb5a53aa0fb2be7631312860d2fa6e28fae6b0819",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/boss/manifest.json"
+        },
+        {
+          "asset_id": "BOSS-005",
+          "path": "assets/runtime/chapter01/boss/BOSS-005_ground_slam_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/exports/ground_slam/frames/BOSS-005_ground_slam_02.png",
+          "source_sha256": "f931dbca24cf4c170fb6fb1ffc04816cdc60aeb86012a8cc405bf293e15196cf",
+          "sha256": "f931dbca24cf4c170fb6fb1ffc04816cdc60aeb86012a8cc405bf293e15196cf",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/boss/manifest.json"
+        },
+        {
+          "asset_id": "BOSS-005",
+          "path": "assets/runtime/chapter01/boss/BOSS-005_ground_slam_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/exports/ground_slam/frames/BOSS-005_ground_slam_03.png",
+          "source_sha256": "9960b785c7f1c6934ffd900c0476b4d0b8bc6147b22c30896828c8824b66df03",
+          "sha256": "9960b785c7f1c6934ffd900c0476b4d0b8bc6147b22c30896828c8824b66df03",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/boss/manifest.json"
+        },
+        {
+          "asset_id": "BOSS-005",
+          "path": "assets/runtime/chapter01/boss/BOSS-005_ground_slam_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/exports/ground_slam/frames/BOSS-005_ground_slam_04.png",
+          "source_sha256": "f59979d34550d6be5da0237e9dee258171c65d5c62bbaa4d7cd83024d635e3bb",
+          "sha256": "f59979d34550d6be5da0237e9dee258171c65d5c62bbaa4d7cd83024d635e3bb",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/boss/manifest.json"
+        },
+        {
+          "asset_id": "BOSS-005",
+          "path": "assets/runtime/chapter01/boss/BOSS-005_ground_slam_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/exports/ground_slam/frames/BOSS-005_ground_slam_05.png",
+          "source_sha256": "c8bca8de8879c9993d65cec158dcc8ce85383dc45ca3e60c6cbd6c06e1d5cff0",
+          "sha256": "c8bca8de8879c9993d65cec158dcc8ce85383dc45ca3e60c6cbd6c06e1d5cff0",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/boss/manifest.json"
+        },
+        {
+          "asset_id": "BOSS-005",
+          "path": "assets/runtime/chapter01/boss/BOSS-005_ground_slam_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/exports/ground_slam/frames/BOSS-005_ground_slam_06.png",
+          "source_sha256": "648c9f2c7aeb78600f539c997d1d07ec1d810af369db4e8048329215361414af",
+          "sha256": "648c9f2c7aeb78600f539c997d1d07ec1d810af369db4e8048329215361414af",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/boss/manifest.json"
+        }
+      ]
+    }
+  }
 }

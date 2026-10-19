@@ -2,8 +2,8 @@
   "asset_id": "MOTE-003",
   "title": "Follow Tavi",
   "checked": false,
-  "stage": "six-frame animation prototype generated and visually reviewed; continuity/alpha cleanup and production approval pending",
-  "last_updated": "2026-10-16T15:39:39.041346+05:30",
+  "stage": "selected prologue exports integrated and desktop-reviewed; full-pack and release/device approval pending",
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
   "generation_tool": "built-in image_gen",
   "sources": [
     {
@@ -302,5 +302,107 @@
         254
       ]
     }
-  ]
+  ],
+  "runtime_integrated": true,
+  "runtime_integrations": {
+    "prologue": {
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/prologue-asset-integration.json",
+      "paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_06.png"
+      ],
+      "validation": {
+        "scope": "selected prologue exports",
+        "engine": "Godot4.7.2",
+        "platform": "macOS",
+        "checked": "2026-10-18T03:06:39.226816+05:30",
+        "release_approved": false
+      }
+    },
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_06.png"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "MOTE-003",
+          "path": "assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_01.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_01.png",
+          "source_sha256": "e1b1012836b7440ba40064ba56c4a118900f735ab0c172bb3831d0ef1337011d",
+          "sha256": "e1b1012836b7440ba40064ba56c4a118900f735ab0c172bb3831d0ef1337011d",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "MOTE-003",
+          "path": "assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_02.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_02.png",
+          "source_sha256": "48c3385ce8d3ec30aed8f0e6fea392d0885df5c66275a520675c6ada22f8e2d3",
+          "sha256": "48c3385ce8d3ec30aed8f0e6fea392d0885df5c66275a520675c6ada22f8e2d3",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "MOTE-003",
+          "path": "assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_03.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_03.png",
+          "source_sha256": "ec47f90851ad515e8a3bd913042e92dced807fb756c98f208d610720a580bcef",
+          "sha256": "ec47f90851ad515e8a3bd913042e92dced807fb756c98f208d610720a580bcef",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "MOTE-003",
+          "path": "assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_04.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_04.png",
+          "source_sha256": "a38d012c475e03ccdf3b16545b4cb5f8c085ed713fa2e214571288aab18c8cbd",
+          "sha256": "a38d012c475e03ccdf3b16545b4cb5f8c085ed713fa2e214571288aab18c8cbd",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "MOTE-003",
+          "path": "assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_05.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_05.png",
+          "source_sha256": "7c2861045051339cec7623e247a44a3944bddb6bd69db298b57c620fd0392487",
+          "sha256": "7c2861045051339cec7623e247a44a3944bddb6bd69db298b57c620fd0392487",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "MOTE-003",
+          "path": "assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_06.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_06.png",
+          "source_sha256": "132a00901b6e52ec9685aa0c8d84b13d3df1b021bb7c8b3261905510247102e4",
+          "sha256": "132a00901b6e52ec9685aa0c8d84b13d3df1b021bb7c8b3261905510247102e4",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        }
+      ]
+    }
+  },
+  "production_approved": false,
+  "archive_stage_before_runtime_integration": "six-frame animation prototype generated and visually reviewed; continuity/alpha cleanup and production approval pending"
 }

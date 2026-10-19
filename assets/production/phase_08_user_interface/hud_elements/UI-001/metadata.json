@@ -184,8 +184,8 @@
   "production_approved": false,
   "requested_deliverables_saved_and_reviewed": true,
   "text_overlays_deferred": true,
-  "stage": "reviewed_prototype_components_and_fixed_cell_exports",
-  "runtime_integrated": false,
+  "stage": "selected prologue exports integrated and desktop-reviewed; full-pack and release/device approval pending",
+  "runtime_integrated": true,
   "metadata_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-001/metadata.json",
   "review_notes": [
     "Four distinct requested static HUD states/components visually reviewed over checkerboard; genuine alpha outside silhouettes, no baked lettering or scenery. Export contact and32/64pxsmallsize legibility reviewed.",
@@ -205,5 +205,58 @@
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-001/previews/UI-001_source_alpha_checker.png",
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-001/previews/UI-001_export_contact.png",
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-001/previews/UI-001_small_size_legibility.png"
-  ]
+  ],
+  "runtime_integrations": {
+    "prologue": {
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/prologue-asset-integration.json",
+      "paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/health_full.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/health_empty.png"
+      ],
+      "validation": {
+        "scope": "selected prologue exports",
+        "engine": "Godot4.7.2",
+        "platform": "macOS",
+        "checked": "2026-10-18T03:06:39.226816+05:30",
+        "release_approved": false
+      }
+    },
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/health_full.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/health_empty.png"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "UI-001",
+          "path": "assets/runtime/prologue/ui/health_full.png",
+          "source": "assets/production/phase_08_user_interface/hud_elements/UI-001/exports/UI-001_00_full.png",
+          "source_sha256": "05b3c01ddaac26c2ed599e66948ac3926e5a77f5c415349e91cfc6b251176d23",
+          "sha256": "51eeeacfa85c3651d52935c8e72f12ef525e685193f73ffb0195fae01bb16cd0",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "UI-001",
+          "path": "assets/runtime/prologue/ui/health_empty.png",
+          "source": "assets/production/phase_08_user_interface/hud_elements/UI-001/exports/UI-001_02_empty.png",
+          "source_sha256": "b412b7eeab6730ea669b398cdd59c4b8b657e0e4d1c232a4b6fb92414b4937af",
+          "sha256": "3cfb176f9432b2f3205f715601364c5b9d44d1b68f15e5cad7c442cb6a676920",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        }
+      ]
+    }
+  },
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
+  "archive_stage_before_runtime_integration": "reviewed_prototype_components_and_fixed_cell_exports"
 }

@@ -6,9 +6,9 @@
   "prompt": "Procedural: Enemy defeat particles rendered by tools/fx_effects.py (fx004) with the ART-002 VFX palette; no generative image model used.",
   "generation_tool": "procedural (Pillow + numpy; tools/generate_phase07_fx.py)",
   "production_approved": false,
-  "runtime_integrated": false,
-  "last_updated": "2026-10-17T21:17:42.538519+05:30",
-  "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending",
+  "runtime_integrated": true,
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
+  "stage": "selected prologue exports integrated and desktop-reviewed; full-pack and release/device approval pending",
   "requested_deliverables_saved_and_reviewed": true,
   "deliverables": [
     {
@@ -221,5 +221,217 @@
     "Uses the Chapter 1 enemy palette (thorn green plus ember orange). Recolor per enemy in engine if needed.",
     "Prototype effect art for timing and readability; not final production approval.",
     "No Godot scene, AnimatedSprite2D, particle or shader integration implied."
-  ]
+  ],
+  "runtime_integrations": {
+    "prologue": {
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/prologue-asset-integration.json",
+      "paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_07.png"
+      ],
+      "validation": {
+        "scope": "selected prologue exports",
+        "engine": "Godot4.7.2",
+        "platform": "macOS",
+        "checked": "2026-10-18T03:06:39.226816+05:30",
+        "release_approved": false
+      }
+    },
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_07.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_07.png"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "FX-004",
+          "path": "assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_00.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_00.png",
+          "source_sha256": "382ebe90521582346193ef30423382bca89e83aa8f219a3017051d802cf12bd4",
+          "sha256": "382ebe90521582346193ef30423382bca89e83aa8f219a3017051d802cf12bd4",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-004",
+          "path": "assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_01.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_01.png",
+          "source_sha256": "a14ce828ae4bb4122a2f3555e37482ef3f6bd93c6f7587fc3a199dac322edee7",
+          "sha256": "a14ce828ae4bb4122a2f3555e37482ef3f6bd93c6f7587fc3a199dac322edee7",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-004",
+          "path": "assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_02.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_02.png",
+          "source_sha256": "e20ffc335b1cb030a4328a311baa3dd3c2f11da446431a01d5eba5b8c81cb49a",
+          "sha256": "e20ffc335b1cb030a4328a311baa3dd3c2f11da446431a01d5eba5b8c81cb49a",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-004",
+          "path": "assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_03.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_03.png",
+          "source_sha256": "a0c6170a880be74e018f535d39d0e189659a3e716cd968349ac4b9aba27cd162",
+          "sha256": "a0c6170a880be74e018f535d39d0e189659a3e716cd968349ac4b9aba27cd162",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-004",
+          "path": "assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_04.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_04.png",
+          "source_sha256": "15360b324664ce871bf7615ca9708870a938cd02f1d9bb6007a115dd699b44ab",
+          "sha256": "15360b324664ce871bf7615ca9708870a938cd02f1d9bb6007a115dd699b44ab",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-004",
+          "path": "assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_05.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_05.png",
+          "source_sha256": "e79ea41e57182ceeddc3e287fbbb4143d96d1686a23d2decfc040a353e13896a",
+          "sha256": "e79ea41e57182ceeddc3e287fbbb4143d96d1686a23d2decfc040a353e13896a",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-004",
+          "path": "assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_06.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_06.png",
+          "source_sha256": "ce5a7da57422b7ad2be80b067a2c7ef697a2607bc4ffc13358bb9c6c927a8a86",
+          "sha256": "ce5a7da57422b7ad2be80b067a2c7ef697a2607bc4ffc13358bb9c6c927a8a86",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-004",
+          "path": "assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_07.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_07.png",
+          "source_sha256": "088f3a7f84f0a6a638869f9a4e83a32f0662869494d1d0b5606003d1525d0951",
+          "sha256": "088f3a7f84f0a6a638869f9a4e83a32f0662869494d1d0b5606003d1525d0951",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-004",
+          "path": "assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_00.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_00.png",
+          "source_sha256": "382ebe90521582346193ef30423382bca89e83aa8f219a3017051d802cf12bd4",
+          "sha256": "382ebe90521582346193ef30423382bca89e83aa8f219a3017051d802cf12bd4",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "FX-004",
+          "path": "assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_01.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_01.png",
+          "source_sha256": "a14ce828ae4bb4122a2f3555e37482ef3f6bd93c6f7587fc3a199dac322edee7",
+          "sha256": "a14ce828ae4bb4122a2f3555e37482ef3f6bd93c6f7587fc3a199dac322edee7",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "FX-004",
+          "path": "assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_02.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_02.png",
+          "source_sha256": "e20ffc335b1cb030a4328a311baa3dd3c2f11da446431a01d5eba5b8c81cb49a",
+          "sha256": "e20ffc335b1cb030a4328a311baa3dd3c2f11da446431a01d5eba5b8c81cb49a",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "FX-004",
+          "path": "assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_03.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_03.png",
+          "source_sha256": "a0c6170a880be74e018f535d39d0e189659a3e716cd968349ac4b9aba27cd162",
+          "sha256": "a0c6170a880be74e018f535d39d0e189659a3e716cd968349ac4b9aba27cd162",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "FX-004",
+          "path": "assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_04.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_04.png",
+          "source_sha256": "15360b324664ce871bf7615ca9708870a938cd02f1d9bb6007a115dd699b44ab",
+          "sha256": "15360b324664ce871bf7615ca9708870a938cd02f1d9bb6007a115dd699b44ab",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "FX-004",
+          "path": "assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_05.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_05.png",
+          "source_sha256": "e79ea41e57182ceeddc3e287fbbb4143d96d1686a23d2decfc040a353e13896a",
+          "sha256": "e79ea41e57182ceeddc3e287fbbb4143d96d1686a23d2decfc040a353e13896a",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "FX-004",
+          "path": "assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_06.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_06.png",
+          "source_sha256": "ce5a7da57422b7ad2be80b067a2c7ef697a2607bc4ffc13358bb9c6c927a8a86",
+          "sha256": "ce5a7da57422b7ad2be80b067a2c7ef697a2607bc4ffc13358bb9c6c927a8a86",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "FX-004",
+          "path": "assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_07.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_07.png",
+          "source_sha256": "088f3a7f84f0a6a638869f9a4e83a32f0662869494d1d0b5606003d1525d0951",
+          "sha256": "088f3a7f84f0a6a638869f9a4e83a32f0662869494d1d0b5606003d1525d0951",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        }
+      ]
+    }
+  },
+  "archive_stage_before_runtime_integration": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending"
 }

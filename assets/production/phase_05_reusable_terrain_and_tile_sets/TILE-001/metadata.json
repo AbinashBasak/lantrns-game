@@ -517,14 +517,14 @@
   ],
   "production_approved": false,
   "requested_deliverables_saved_and_reviewed": true,
-  "stage": "reviewed_prototype_sources_and_64px_exports",
+  "stage": "selected prologue exports integrated and desktop-reviewed; full-pack and release/device approval pending",
   "metadata_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/metadata.json",
   "review_notes": [
     "Source alpha-checker visually reviewed:16 distinguishable requested material modules in four rows/four columns. 64px exports and assembly preview visually reviewed.",
     "Prototype source delivery only; generated margins, corner topology, seam gaps, texture repetition and collision-edge registration need manual cleanup before runtime import. Assembly preview deliberately exposes these unresolved joins.",
     "Role names are intended module functions; grass/moss top corners are raised and some fill/underside silhouettes differ from final desired topology. No seamlessness or production approval inferred."
   ],
-  "runtime_integrated": false,
+  "runtime_integrated": true,
   "source_images": [
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/source_images/TILE-001_terrain_atlas_original.png"
   ],
@@ -552,5 +552,56 @@
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/previews/TILE-001_export_contact.png",
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/previews/TILE-001_repeat_test.png",
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/previews/TILE-001_assembly_test.png"
-  ]
+  ],
+  "runtime_integrations": {
+    "prologue": {
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/prologue-asset-integration.json",
+      "paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/TILE-001_01_top_middle.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/TILE-001_05_opaque_interior.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/TILE-001_03_isolated_block.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/TILE-001_surface_strip.png"
+      ],
+      "validation": {
+        "scope": "selected prologue exports",
+        "engine": "Godot4.7.2",
+        "platform": "macOS",
+        "checked": "2026-10-18T03:06:39.226816+05:30",
+        "release_approved": false
+      }
+    },
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/environment/TILE-001_surface_strip.png"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "TILE-001",
+          "path": "assets/runtime/chapter01/environment/TILE-001_surface_strip.png",
+          "source": "assets/runtime/prologue/environment/TILE-001_surface_strip.png",
+          "source_sha256": "da91f82bb19cf72165338538f6d42ce2a334aacdb9364db46234536c7aba69f0",
+          "sha256": "da91f82bb19cf72165338538f6d42ce2a334aacdb9364db46234536c7aba69f0",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/environment/manifest.json",
+          "dimensions": [
+            54,
+            33
+          ],
+          "crop_method": "unchanged",
+          "alpha_crop": null,
+          "derived": false
+        }
+      ]
+    }
+  },
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
+  "archive_stage_before_runtime_integration": "reviewed_prototype_sources_and_64px_exports"
 }

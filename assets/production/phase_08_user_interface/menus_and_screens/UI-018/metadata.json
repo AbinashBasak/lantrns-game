@@ -3,7 +3,7 @@
   "id": "UI-018",
   "title": "Main menu buttons",
   "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-018",
-  "stage": "generated_prototype_reviewed_exported",
+  "stage": "selected prologue exports integrated and desktop-reviewed; full-pack and release/device approval pending",
   "deliverables": [
     {
       "slug": "ui_components",
@@ -145,7 +145,7 @@
   ],
   "requested_deliverables_saved_and_reviewed": true,
   "production_approved": false,
-  "runtime_integrated": false,
+  "runtime_integrated": true,
   "provenance": "New built-in image_gen original copied unchanged; exports/previews derived locally.",
   "review_notes": [],
   "layout_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-018/exports/UI-018_button_style.json",
@@ -209,5 +209,25 @@
         1024
       ]
     }
-  ]
+  ],
+  "runtime_integrations": {
+    "prologue": {
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/prologue-asset-integration.json",
+      "paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/button_normal.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/button_hover.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/button_pressed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/button_disabled.png"
+      ],
+      "validation": {
+        "scope": "selected prologue exports",
+        "engine": "Godot4.7.2",
+        "platform": "macOS",
+        "checked": "2026-10-18T03:06:39.226816+05:30",
+        "release_approved": false
+      }
+    }
+  },
+  "last_updated": "2026-10-18T03:06:39.226816+05:30",
+  "archive_stage_before_runtime_integration": "generated_prototype_reviewed_exported"
 }

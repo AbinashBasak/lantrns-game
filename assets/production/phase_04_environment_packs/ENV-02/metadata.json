@@ -1049,5 +1049,398 @@
   "stage": "prototype_sources_and_exports_reviewed",
   "requested_deliverables_saved_and_reviewed": true,
   "production_approved": false,
-  "asset_id": "ENV-02"
+  "asset_id": "ENV-02",
+  "runtime_integrations": {
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/environment/ENV-02_distant_background.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/environment/ENV-02_midground.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/environment/ENV-02_foreground.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/environment/ENV-02_decorative_props_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/environment/ENV-02_decorative_props_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/environment/ENV-02_decorative_props_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/environment/ENV-02_decorative_props_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/environment/ENV-02_decorative_props_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/environment/ENV-02_interactive_props_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/environment/ENV-02_interactive_props_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/environment/ENV-02_interactive_props_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/environment/ENV-02_interactive_props_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/environment/ENV-02_interactive_props_05.png"
+      ],
+      "prepared_only_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/environment/ENV-02_decorative_props_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/environment/ENV-02_decorative_props_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/environment/ENV-02_decorative_props_07.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/environment/ENV-02_interactive_props_02.png"
+      ],
+      "files": [
+        {
+          "asset_id": "ENV-02",
+          "path": "assets/runtime/chapter01/environment/ENV-02_distant_background.png",
+          "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_distant_background.png",
+          "source_sha256": "73ff13b53a083842fec8a4eefa9a8b7ecee5f6943fe55079384be06f0956547e",
+          "sha256": "73ff13b53a083842fec8a4eefa9a8b7ecee5f6943fe55079384be06f0956547e",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/environment/manifest.json",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "crop_method": "unchanged",
+          "alpha_crop": null,
+          "derived": false
+        },
+        {
+          "asset_id": "ENV-02",
+          "path": "assets/runtime/chapter01/environment/ENV-02_midground.png",
+          "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_midground.png",
+          "source_sha256": "9bc32f86aff7dcc0d367a2157d870f33088cd57c2939da42ae2c451fff34393f",
+          "sha256": "9bc32f86aff7dcc0d367a2157d870f33088cd57c2939da42ae2c451fff34393f",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/environment/manifest.json",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "crop_method": "unchanged",
+          "alpha_crop": null,
+          "derived": false
+        },
+        {
+          "asset_id": "ENV-02",
+          "path": "assets/runtime/chapter01/environment/ENV-02_foreground.png",
+          "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_foreground.png",
+          "source_sha256": "6f91a18a2b7bd5eb18cd6793658ce069016504c426cf0279f817eee0a3c31064",
+          "sha256": "6f91a18a2b7bd5eb18cd6793658ce069016504c426cf0279f817eee0a3c31064",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/environment/manifest.json",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "crop_method": "unchanged",
+          "alpha_crop": null,
+          "derived": false
+        },
+        {
+          "asset_id": "ENV-02",
+          "path": "assets/runtime/chapter01/environment/ENV-02_decorative_props_00.png",
+          "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_decorative_props_00.png",
+          "source_sha256": "afa795061f8d00a5ba2b4a6215cd3b175516979f41553caf9afdcf9f2804504d",
+          "sha256": "5b8ff5083b78ecee7d6b6c5783ed1b4ab562203dafcb15bfe554ac1a30100172",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/environment/manifest.json",
+          "dimensions": [
+            149,
+            245
+          ],
+          "crop_method": "alpha_bounds",
+          "alpha_crop": [
+            65,
+            7,
+            214,
+            252
+          ],
+          "derived": true
+        },
+        {
+          "asset_id": "ENV-02",
+          "path": "assets/runtime/chapter01/environment/ENV-02_decorative_props_01.png",
+          "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_decorative_props_01.png",
+          "source_sha256": "5d0f974708c3756e54087cf7e01aa2a83337ff12b6f104b8dfaa83c43444ffef",
+          "sha256": "16a5c31d27ae71e680d2d0a11feb5ae3db8c946f567b0f7880bee763b521cdb4",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/environment/manifest.json",
+          "dimensions": [
+            182,
+            246
+          ],
+          "crop_method": "alpha_bounds",
+          "alpha_crop": [
+            37,
+            10,
+            219,
+            256
+          ],
+          "derived": true
+        },
+        {
+          "asset_id": "ENV-02",
+          "path": "assets/runtime/chapter01/environment/ENV-02_decorative_props_02.png",
+          "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_decorative_props_02.png",
+          "source_sha256": "f41f1d042c81c076e101cfbfdd0636be06afa9ab1fd24e3aaa216350cabe1cf7",
+          "sha256": "ab7d3c967b540f86653aa7e21a15a226c8ed9a051ce1004335fe9eb6553ecb94",
+          "status": "prepared_only",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/environment/manifest.json",
+          "dimensions": [
+            176,
+            245
+          ],
+          "crop_method": "alpha_bounds",
+          "alpha_crop": [
+            39,
+            11,
+            215,
+            256
+          ],
+          "derived": true
+        },
+        {
+          "asset_id": "ENV-02",
+          "path": "assets/runtime/chapter01/environment/ENV-02_decorative_props_03.png",
+          "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_decorative_props_03.png",
+          "source_sha256": "7b615f3b55d623ded2017cb9639aed5814b465a0304331139e37b697322301c3",
+          "sha256": "29b13514551d6b43f27215f31d151f3a0fd98494f81c1cf8369f25f9c8b97b18",
+          "status": "prepared_only",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/environment/manifest.json",
+          "dimensions": [
+            161,
+            225
+          ],
+          "crop_method": "alpha_bounds",
+          "alpha_crop": [
+            41,
+            15,
+            202,
+            240
+          ],
+          "derived": true
+        },
+        {
+          "asset_id": "ENV-02",
+          "path": "assets/runtime/chapter01/environment/ENV-02_decorative_props_04.png",
+          "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_decorative_props_04.png",
+          "source_sha256": "6338b20b06d1d929a368f568e6d19e67f5c0ec6b0befa07ddce7979e7ad5c833",
+          "sha256": "3b4d22c800b7db03bdecc7646377b9bf56a8dcbe3514d8eb0f1ed4938f25d895",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/environment/manifest.json",
+          "dimensions": [
+            230,
+            238
+          ],
+          "crop_method": "alpha_bounds",
+          "alpha_crop": [
+            13,
+            5,
+            243,
+            243
+          ],
+          "derived": true
+        },
+        {
+          "asset_id": "ENV-02",
+          "path": "assets/runtime/chapter01/environment/ENV-02_decorative_props_05.png",
+          "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_decorative_props_05.png",
+          "source_sha256": "eb3f2839eba748afff9ad5b2b69d0ba9fe1095bce1577a48ec296308b6eaa881",
+          "sha256": "fc0bd5527b8258ccbe1bf7c465073eb87e0aef2ac6ec847e7641098bb809a495",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/environment/manifest.json",
+          "dimensions": [
+            231,
+            241
+          ],
+          "crop_method": "alpha_bounds",
+          "alpha_crop": [
+            12,
+            0,
+            243,
+            241
+          ],
+          "derived": true
+        },
+        {
+          "asset_id": "ENV-02",
+          "path": "assets/runtime/chapter01/environment/ENV-02_decorative_props_06.png",
+          "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_decorative_props_06.png",
+          "source_sha256": "557bec070c9f13692df63f2fdd1e18a4044330f34e46adaa553bb06a88cd5a74",
+          "sha256": "225a0ea3105eddf26a2eaa497a722a11e245ed898be9ec09d6c879491159e6ce",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/environment/manifest.json",
+          "dimensions": [
+            154,
+            230
+          ],
+          "crop_method": "alpha_bounds",
+          "alpha_crop": [
+            51,
+            0,
+            205,
+            230
+          ],
+          "derived": true
+        },
+        {
+          "asset_id": "ENV-02",
+          "path": "assets/runtime/chapter01/environment/ENV-02_decorative_props_07.png",
+          "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_decorative_props_07.png",
+          "source_sha256": "704979438be3096c63ebf9b6196535e20052a50de9dd3e3e2a0a951e7734365a",
+          "sha256": "06d836a26720f7480609240696c870d28f7f492cbb9d67eb462ef4326c258f89",
+          "status": "prepared_only",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/environment/manifest.json",
+          "dimensions": [
+            179,
+            223
+          ],
+          "crop_method": "alpha_bounds",
+          "alpha_crop": [
+            36,
+            12,
+            215,
+            235
+          ],
+          "derived": true
+        },
+        {
+          "asset_id": "ENV-02",
+          "path": "assets/runtime/chapter01/environment/ENV-02_interactive_props_00.png",
+          "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_interactive_props_00.png",
+          "source_sha256": "c140f472552195fb4596b93d373338542048584b2494589f92f0a4f07cbb3b89",
+          "sha256": "ec12a6c33ffec66595fda3f54c36e1b0e31df7bad467299aba7afe1844e7f839",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/environment/manifest.json",
+          "dimensions": [
+            249,
+            237
+          ],
+          "crop_method": "alpha_bounds",
+          "alpha_crop": [
+            7,
+            14,
+            256,
+            251
+          ],
+          "derived": true
+        },
+        {
+          "asset_id": "ENV-02",
+          "path": "assets/runtime/chapter01/environment/ENV-02_interactive_props_01.png",
+          "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_interactive_props_01.png",
+          "source_sha256": "ae171b957dde838e20bde679c69a64ba36aea5c2f86437069741d96469930639",
+          "sha256": "0ef620d046acdd1057e9afe550787664bc06438635cfa0bc28a426ace0e9ce14",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/environment/manifest.json",
+          "dimensions": [
+            189,
+            223
+          ],
+          "crop_method": "largest_connected_alpha_component_threshold64",
+          "alpha_crop": [
+            46,
+            27,
+            235,
+            250
+          ],
+          "derived": true
+        },
+        {
+          "asset_id": "ENV-02",
+          "path": "assets/runtime/chapter01/environment/ENV-02_interactive_props_02.png",
+          "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_interactive_props_02.png",
+          "source_sha256": "dc1463539c358aee4c05b4822209952d2e992c7d1fa69b3d8515080abc30870b",
+          "sha256": "870a25870cc53ff0e776f8b2eedf3b4c4d3dc6286c13d6c10ec9de7c169cc61b",
+          "status": "prepared_only",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/environment/manifest.json",
+          "dimensions": [
+            246,
+            242
+          ],
+          "crop_method": "alpha_bounds",
+          "alpha_crop": [
+            0,
+            14,
+            246,
+            256
+          ],
+          "derived": true
+        },
+        {
+          "asset_id": "ENV-02",
+          "path": "assets/runtime/chapter01/environment/ENV-02_interactive_props_03.png",
+          "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_interactive_props_03.png",
+          "source_sha256": "fb9fcdc2c8ab3118c65a5e8f6c87e95d31696ee81a37d71c30abe899f7a0d3f9",
+          "sha256": "ef6d0d2f790bcfa7927fd899c65bd40935325c6229a60146dba9119c48a27ea3",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/environment/manifest.json",
+          "dimensions": [
+            249,
+            236
+          ],
+          "crop_method": "alpha_bounds",
+          "alpha_crop": [
+            7,
+            6,
+            256,
+            242
+          ],
+          "derived": true
+        },
+        {
+          "asset_id": "ENV-02",
+          "path": "assets/runtime/chapter01/environment/ENV-02_interactive_props_04.png",
+          "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_interactive_props_04.png",
+          "source_sha256": "807266308434ee51b5246f4134bbc7e614217dbe6351ad4a41bed11f94705a4f",
+          "sha256": "1b924001c0601097ec65b9d82249a3127a09db78b428f43a5b27d349e32e3d37",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/environment/manifest.json",
+          "dimensions": [
+            188,
+            219
+          ],
+          "crop_method": "largest_connected_alpha_component_threshold64",
+          "alpha_crop": [
+            46,
+            21,
+            234,
+            240
+          ],
+          "derived": true
+        },
+        {
+          "asset_id": "ENV-02",
+          "path": "assets/runtime/chapter01/environment/ENV-02_interactive_props_05.png",
+          "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_interactive_props_05.png",
+          "source_sha256": "6f16db4ed5f26c9ef5b5227d5763714074f955a9fc89a49f11c13a45a546dbf1",
+          "sha256": "6a9067cda08a7bbf99ec006c2dc47ba82d1f5526b6838ca4480a10de3c8045f2",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/environment/manifest.json",
+          "dimensions": [
+            249,
+            248
+          ],
+          "crop_method": "alpha_bounds",
+          "alpha_crop": [
+            0,
+            0,
+            249,
+            248
+          ],
+          "derived": true
+        }
+      ]
+    }
+  },
+  "last_updated": "2026-10-18T05:32:46.261707+05:30"
 }

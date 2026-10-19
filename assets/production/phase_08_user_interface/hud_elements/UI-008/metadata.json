@@ -456,5 +456,84 @@
     "alpha_reviewed_over_checkerboard": true,
     "small_icon_legibility_reviewed": false,
     "runtime_tested": false
-  }
+  },
+  "runtime_integrations": {
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/story/boss_frame.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/story/boss_fill.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/story/boss_track.png"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "UI-008",
+          "path": "assets/runtime/chapter01/story/boss_frame.png",
+          "source": "assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_boss_frame.png",
+          "source_sha256": "e049d5d76a056e857627f4f95e249529bb3454512c03bdd7b7b885c1b80fed2a",
+          "sha256": "3e0630fdaa18bec09135bea41243d9364a2d6ef263749686f09c776192e953d2",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/story/manifest.json",
+          "dimensions": [
+            671,
+            225
+          ],
+          "crop": [
+            177,
+            79,
+            848,
+            304
+          ]
+        },
+        {
+          "asset_id": "UI-008",
+          "path": "assets/runtime/chapter01/story/boss_fill.png",
+          "source": "assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_boss_fill.png",
+          "source_sha256": "641f450e9b3049089eb39e3123d878ce3cac7c5129dc0ca64bf627a2db93244c",
+          "sha256": "05a86c1565764ca2573dda51c5cf84996f93cce36c4e4e858c823be5d981705a",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/story/manifest.json",
+          "dimensions": [
+            711,
+            82
+          ],
+          "crop": [
+            156,
+            22,
+            867,
+            104
+          ]
+        },
+        {
+          "asset_id": "UI-008",
+          "path": "assets/runtime/chapter01/story/boss_track.png",
+          "source": "assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_boss_track.png",
+          "source_sha256": "bb7f39c15e1e8c34ce3b9c36462dc1aeb2ed3be18878eacbc89820cb2c582d4e",
+          "sha256": "0a3c623514adc226deb916f9270a4db2a2ba35e1fd776758b6dc921bca40518b",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/story/manifest.json",
+          "dimensions": [
+            546,
+            89
+          ],
+          "crop": [
+            238,
+            35,
+            784,
+            124
+          ]
+        }
+      ]
+    }
+  },
+  "last_updated": "2026-10-18T05:32:46.261707+05:30"
 }

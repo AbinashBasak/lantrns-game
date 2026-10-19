@@ -8,7 +8,7 @@
   "generation_tool": "procedural synthesis (numpy/scipy + ffmpeg libvorbis; tools/generate_phase09_audio.py)",
   "production_approved": false,
   "runtime_integrated": false,
-  "last_updated": "2026-10-17T21:45:37.289498+05:30",
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
   "stage": "procedural prototype audio, spectrogram preview and metadata saved; listening review, mix balance and runtime integration pending",
   "requested_deliverables_saved_and_reviewed": true,
   "review_method": "automated measurements and spectrogram inspection; not auditioned by ear",
@@ -46,5 +46,31 @@
     "Verified by level, loudness, clipping, DC and loop-seam measurements plus spectrogram inspection. Not auditioned by ear; human listening review pending.",
     "Placeholder-grade composition for pacing and mood; expect to be replaced or re-orchestrated for release.",
     "Seamless loop: set loop on import in Godot (AudioStreamOggVorbis.loop = true)."
-  ]
+  ],
+  "runtime_integrations": {
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/AUD-MUS-003_forest_exploration.ogg"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "AUD-MUS-003",
+          "path": "assets/runtime/chapter01/presentation/AUD-MUS-003_forest_exploration.ogg",
+          "source": "assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-003/exports/AUD-MUS-003_forest_exploration.ogg",
+          "source_sha256": "4b4f2871f9fc51aa5025c3f2f1cc5f309731cb4092bac30f76b54cb4a004f455",
+          "sha256": "4b4f2871f9fc51aa5025c3f2f1cc5f309731cb4092bac30f76b54cb4a004f455",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        }
+      ]
+    }
+  }
 }

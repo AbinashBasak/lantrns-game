@@ -57,9 +57,9 @@
   "timing": null,
   "loop": false,
   "production_approved": false,
-  "runtime_integrated": false,
+  "runtime_integrated": true,
   "requested_deliverables_saved_and_reviewed": true,
-  "stage": "generated_ui_prototype_saved_and_reviewed",
+  "stage": "selected prologue exports integrated and desktop-reviewed; full-pack and release/device approval pending",
   "source_message_id": null,
   "reference_images": [],
   "provenance": {
@@ -454,5 +454,46 @@
     "alpha_reviewed_over_checkerboard": true,
     "small_icon_legibility_reviewed": false,
     "runtime_tested": false
-  }
+  },
+  "runtime_integrations": {
+    "prologue": {
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/prologue-asset-integration.json",
+      "paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/dialogue.png"
+      ],
+      "validation": {
+        "scope": "selected prologue exports",
+        "engine": "Godot4.7.2",
+        "platform": "macOS",
+        "checked": "2026-10-18T03:06:39.226816+05:30",
+        "release_approved": false
+      }
+    },
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/dialogue.png"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "UI-009",
+          "path": "assets/runtime/prologue/ui/dialogue.png",
+          "source": "assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_dialogue_panel.png",
+          "source_sha256": "171de429435ae8a6c8903b997bc5bf0ba9c0c5cb5f96641ed6041ddc064fda25",
+          "sha256": "f78d0b5c9399830b5474882df12049e9197c03cd905fff579b9df12abcabfa74",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        }
+      ]
+    }
+  },
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
+  "archive_stage_before_runtime_integration": "generated_ui_prototype_saved_and_reviewed"
 }

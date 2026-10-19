@@ -552,5 +552,91 @@
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/previews/TILE-003_export_contact.png",
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/previews/TILE-003_repeat_test.png",
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/previews/TILE-003_assembly_test.png"
-  ]
+  ],
+  "runtime_integrations": {
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/environment/TILE-003_01_top_middle.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/environment/TILE-003_05_opaque_interior.png"
+      ],
+      "prepared_only_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/environment/TILE-003_03_isolated_block.png"
+      ],
+      "files": [
+        {
+          "asset_id": "TILE-003",
+          "path": "assets/runtime/chapter01/environment/TILE-003_01_top_middle.png",
+          "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/exports/TILE-003_01_top_middle.png",
+          "source_sha256": "73760f583e31700b8d17bb43065cf1efa11c679276583fe75e35991bf1eb5439",
+          "sha256": "d59037d75aaeff0aba858f97ae0556d6c2d7ffb65ecf8db0642c090230b1af2d",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/environment/manifest.json",
+          "dimensions": [
+            61,
+            54
+          ],
+          "crop_method": "alpha_bounds",
+          "alpha_crop": [
+            2,
+            9,
+            63,
+            63
+          ],
+          "derived": true
+        },
+        {
+          "asset_id": "TILE-003",
+          "path": "assets/runtime/chapter01/environment/TILE-003_05_opaque_interior.png",
+          "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/exports/TILE-003_05_opaque_interior.png",
+          "source_sha256": "f8d3be380423b6a5b0ee4b2152b863f51fa29d4a4e5eed37eb8e02d6ae0942ef",
+          "sha256": "0e7d43b8d47df55c4e35b47cda989f906aa0442c8cb44a62e77723231a32cff2",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/environment/manifest.json",
+          "dimensions": [
+            60,
+            63
+          ],
+          "crop_method": "alpha_bounds",
+          "alpha_crop": [
+            3,
+            0,
+            63,
+            63
+          ],
+          "derived": true
+        },
+        {
+          "asset_id": "TILE-003",
+          "path": "assets/runtime/chapter01/environment/TILE-003_03_isolated_block.png",
+          "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/exports/TILE-003_03_isolated_block.png",
+          "source_sha256": "77baaec8d85c80deab7bfa141df05413b75dce9ed3006aee0b037f936574e4b7",
+          "sha256": "dd9b4b9478aa8275d534cb75eb2e64b924471a9c9b2a8c864422f50c9c10cd2a",
+          "status": "prepared_only",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/environment/manifest.json",
+          "dimensions": [
+            55,
+            54
+          ],
+          "crop_method": "alpha_bounds",
+          "alpha_crop": [
+            1,
+            9,
+            56,
+            63
+          ],
+          "derived": true
+        }
+      ]
+    }
+  },
+  "last_updated": "2026-10-18T05:32:46.261707+05:30"
 }

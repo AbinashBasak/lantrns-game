@@ -2,8 +2,8 @@
   "asset_id": "MOTE-007",
   "title": "Celebrate discovery",
   "checked": false,
-  "stage": "six-frame animation prototype generated and visually reviewed; continuity/alpha cleanup and production approval pending",
-  "last_updated": "2026-10-16T15:39:39.041346+05:30",
+  "stage": "selected prologue exports integrated and desktop-reviewed; full-pack and release/device approval pending",
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
   "generation_tool": "built-in image_gen",
   "sources": [
     {
@@ -305,5 +305,107 @@
         254
       ]
     }
-  ]
+  ],
+  "runtime_integrated": true,
+  "runtime_integrations": {
+    "prologue": {
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/prologue-asset-integration.json",
+      "paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_06.png"
+      ],
+      "validation": {
+        "scope": "selected prologue exports",
+        "engine": "Godot4.7.2",
+        "platform": "macOS",
+        "checked": "2026-10-18T03:06:39.226816+05:30",
+        "release_approved": false
+      }
+    },
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_06.png"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "MOTE-007",
+          "path": "assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_01.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_01.png",
+          "source_sha256": "7e4b20c912d6ad80cbb7ed95c40bc54c4beaba9c7e8993b4355436b548e66912",
+          "sha256": "7e4b20c912d6ad80cbb7ed95c40bc54c4beaba9c7e8993b4355436b548e66912",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "MOTE-007",
+          "path": "assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_02.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_02.png",
+          "source_sha256": "b2fc616c8c1d695dbf635fb93c68d98903c33867c17a95768f65857ea9a28276",
+          "sha256": "b2fc616c8c1d695dbf635fb93c68d98903c33867c17a95768f65857ea9a28276",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "MOTE-007",
+          "path": "assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_03.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_03.png",
+          "source_sha256": "878009951722fd00025bb7ce8b554a117ae0a406538cb9e360b894ecd3cb3de9",
+          "sha256": "878009951722fd00025bb7ce8b554a117ae0a406538cb9e360b894ecd3cb3de9",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "MOTE-007",
+          "path": "assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_04.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_04.png",
+          "source_sha256": "1903758ae8750e43e798cfc6dc1ad743e87d8ed8b588f14045943cee397e1b56",
+          "sha256": "1903758ae8750e43e798cfc6dc1ad743e87d8ed8b588f14045943cee397e1b56",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "MOTE-007",
+          "path": "assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_05.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_05.png",
+          "source_sha256": "44b88c291d5e653d43f3d6033c7d8103c330e66ac350721109746addb48f8357",
+          "sha256": "44b88c291d5e653d43f3d6033c7d8103c330e66ac350721109746addb48f8357",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "MOTE-007",
+          "path": "assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_06.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_06.png",
+          "source_sha256": "01e4c1580df23d3a47cabcdec6ef4480ac5380dd780a140de9cf07e38d12aae2",
+          "sha256": "01e4c1580df23d3a47cabcdec6ef4480ac5380dd780a140de9cf07e38d12aae2",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        }
+      ]
+    }
+  },
+  "production_approved": false,
+  "archive_stage_before_runtime_integration": "six-frame animation prototype generated and visually reviewed; continuity/alpha cleanup and production approval pending"
 }

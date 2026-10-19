@@ -2,8 +2,8 @@
   "asset_id": "EN-006",
   "title": "Rootling defeat animation",
   "checked": true,
-  "stage": "animation prototype generated and visually reviewed; 1 deliverable clip/view set(s); cleanup and production approval pending",
-  "last_updated": "2026-10-17T01:42:52.790076+05:30",
+  "stage": "selected prologue exports integrated and desktop-reviewed; full-pack and release/device approval pending",
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
   "generation_tool": "built-in image_gen",
   "sources": [
     {
@@ -499,5 +499,106 @@
     }
   ],
   "production_approved": false,
-  "checklist_status_source": "/Users/abinashbasak/Downloads/lanterns_underroot_master_asset_checklist.md"
+  "checklist_status_source": "/Users/abinashbasak/Downloads/lanterns_underroot_master_asset_checklist.md",
+  "runtime_integrated": true,
+  "runtime_integrations": {
+    "prologue": {
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/prologue-asset-integration.json",
+      "paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-006_defeat_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-006_defeat_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-006_defeat_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-006_defeat_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-006_defeat_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-006_defeat_06.png"
+      ],
+      "validation": {
+        "scope": "selected prologue exports",
+        "engine": "Godot4.7.2",
+        "platform": "macOS",
+        "checked": "2026-10-18T03:06:39.226816+05:30",
+        "release_approved": false
+      }
+    },
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-006_defeat_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-006_defeat_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-006_defeat_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-006_defeat_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-006_defeat_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-006_defeat_06.png"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "EN-006",
+          "path": "assets/runtime/prologue/characters/rootling/EN-006_defeat_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-006/exports/defeat/frames/EN-006_defeat_01.png",
+          "source_sha256": "df5c2c25098e18f2684d0fefd2a70d39ec9fb182fdbb100f0768fab76ca0d5a1",
+          "sha256": "df5c2c25098e18f2684d0fefd2a70d39ec9fb182fdbb100f0768fab76ca0d5a1",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "EN-006",
+          "path": "assets/runtime/prologue/characters/rootling/EN-006_defeat_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-006/exports/defeat/frames/EN-006_defeat_02.png",
+          "source_sha256": "45c16c90fc1564c47e2092fd98959db6495288f4b9f5aabb96b035b6d10c408e",
+          "sha256": "45c16c90fc1564c47e2092fd98959db6495288f4b9f5aabb96b035b6d10c408e",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "EN-006",
+          "path": "assets/runtime/prologue/characters/rootling/EN-006_defeat_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-006/exports/defeat/frames/EN-006_defeat_03.png",
+          "source_sha256": "b50f421777dfd7a82a8a6c34467c199e3eeee63a2f7881b7568f103db41072da",
+          "sha256": "b50f421777dfd7a82a8a6c34467c199e3eeee63a2f7881b7568f103db41072da",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "EN-006",
+          "path": "assets/runtime/prologue/characters/rootling/EN-006_defeat_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-006/exports/defeat/frames/EN-006_defeat_04.png",
+          "source_sha256": "0317fc0df4ea20353d86e03a2c14efaeadd789b7832d5d65420b940c6e6318cc",
+          "sha256": "0317fc0df4ea20353d86e03a2c14efaeadd789b7832d5d65420b940c6e6318cc",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "EN-006",
+          "path": "assets/runtime/prologue/characters/rootling/EN-006_defeat_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-006/exports/defeat/frames/EN-006_defeat_05.png",
+          "source_sha256": "65924fef0ff9d9db95942997d8851056fee963139c674b8fd51b91d40344f86e",
+          "sha256": "65924fef0ff9d9db95942997d8851056fee963139c674b8fd51b91d40344f86e",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "EN-006",
+          "path": "assets/runtime/prologue/characters/rootling/EN-006_defeat_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-006/exports/defeat/frames/EN-006_defeat_06.png",
+          "source_sha256": "0596198df76d5296cbf6981b0905ce6be54952ebbc15e038ca1d440bfe0adb2f",
+          "sha256": "0596198df76d5296cbf6981b0905ce6be54952ebbc15e038ca1d440bfe0adb2f",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        }
+      ]
+    }
+  },
+  "archive_stage_before_runtime_integration": "animation prototype generated and visually reviewed; 1 deliverable clip/view set(s); cleanup and production approval pending"
 }

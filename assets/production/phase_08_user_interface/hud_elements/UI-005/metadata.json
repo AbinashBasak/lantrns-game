@@ -219,5 +219,32 @@
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-005/previews/UI-005_source_alpha_checker.png",
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-005/previews/UI-005_export_contact.png",
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-005/previews/UI-005_small_size_legibility.png"
-  ]
+  ],
+  "runtime_integrations": {
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/interact.png"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "UI-005",
+          "path": "assets/runtime/prologue/ui/interact.png",
+          "source": "assets/production/phase_08_user_interface/hud_elements/UI-005/exports/UI-005_00_keycap_neutral.png",
+          "source_sha256": "38cc06365f1a7fe640a9d5c08bb608bdfa7671c38c35e6b5df5ac356d9dd9151",
+          "sha256": "f078249a706eed246d4ccd0dbd4f347c8f811e5a34b42f565dda824f0cafb2cd",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        }
+      ]
+    }
+  },
+  "last_updated": "2026-10-18T05:32:46.261707+05:30"
 }

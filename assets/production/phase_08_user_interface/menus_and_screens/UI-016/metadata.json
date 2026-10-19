@@ -3,7 +3,7 @@
   "id": "UI-016",
   "title": "Main menu background",
   "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-016",
-  "stage": "generated_prototype_reviewed_exported",
+  "stage": "selected prologue exports integrated and desktop-reviewed; full-pack and release/device approval pending",
   "deliverables": [
     {
       "slug": "background",
@@ -88,7 +88,7 @@
   ],
   "requested_deliverables_saved_and_reviewed": true,
   "production_approved": false,
-  "runtime_integrated": false,
+  "runtime_integrated": true,
   "provenance": "New built-in image_gen original copied unchanged; exports/previews derived locally.",
   "review_notes": [],
   "layout_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-016/exports/UI-016_layout.json",
@@ -135,5 +135,46 @@
         941
       ]
     }
-  ]
+  ],
+  "runtime_integrations": {
+    "prologue": {
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/prologue-asset-integration.json",
+      "paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/title_background.png"
+      ],
+      "validation": {
+        "scope": "selected prologue exports",
+        "engine": "Godot4.7.2",
+        "platform": "macOS",
+        "checked": "2026-10-18T03:06:39.226816+05:30",
+        "release_approved": false
+      }
+    },
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/title_background.png"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "UI-016",
+          "path": "assets/runtime/prologue/ui/title_background.png",
+          "source": "assets/production/phase_08_user_interface/menus_and_screens/UI-016/exports/UI-016_component_01.png",
+          "source_sha256": "1a0436ebcd1e73f3a1b14a9c450ebb9c601ce6b5a038656f6c282f0a2df878c2",
+          "sha256": "1f2a082f98da9ab57be8f4f34103ac5769fb8d6fd755a54f05c7301b99c6653e",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        }
+      ]
+    }
+  },
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
+  "archive_stage_before_runtime_integration": "generated_prototype_reviewed_exported"
 }

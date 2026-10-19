@@ -57,9 +57,9 @@
   "timing": null,
   "loop": false,
   "production_approved": false,
-  "runtime_integrated": false,
+  "runtime_integrated": true,
   "requested_deliverables_saved_and_reviewed": true,
-  "stage": "generated_ui_prototype_saved_and_reviewed",
+  "stage": "selected prologue exports integrated and desktop-reviewed; full-pack and release/device approval pending",
   "source_message_id": null,
   "reference_images": [],
   "provenance": {
@@ -496,5 +496,82 @@
     "alpha_reviewed_over_checkerboard": true,
     "small_icon_legibility_reviewed": true,
     "runtime_tested": false
-  }
+  },
+  "runtime_integrations": {
+    "prologue": {
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/prologue-asset-integration.json",
+      "paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/left_rest.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/left_pressed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/right_rest.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/right_pressed.png"
+      ],
+      "validation": {
+        "scope": "selected prologue exports",
+        "engine": "Godot4.7.2",
+        "platform": "macOS",
+        "checked": "2026-10-18T03:06:39.226816+05:30",
+        "release_approved": false
+      }
+    },
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/left_rest.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/left_pressed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/right_rest.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/right_pressed.png"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "UI-013",
+          "path": "assets/runtime/prologue/ui/left_rest.png",
+          "source": "assets/production/phase_08_user_interface/hud_elements/UI-013/exports/UI-013_left_rest_128.png",
+          "source_sha256": "4615be04cd2f0a510f1aa9f8d6e96b6db88f9addce9c65fc582aa9284fc860b4",
+          "sha256": "40e2675de9cb76f817aab75a5ee5093722a74846a3e0dd6ec929e524bfd1d518",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "UI-013",
+          "path": "assets/runtime/prologue/ui/left_pressed.png",
+          "source": "assets/production/phase_08_user_interface/hud_elements/UI-013/exports/UI-013_left_pressed_128.png",
+          "source_sha256": "e4ead227f5acf90614d3b765ab1e5bb4e5122e60834a4d8bf600127388a02aac",
+          "sha256": "271f885858e7d70ff748a56a735644f5bcdcd903072e0ba4df666e53c9c25b74",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "UI-013",
+          "path": "assets/runtime/prologue/ui/right_rest.png",
+          "source": "assets/production/phase_08_user_interface/hud_elements/UI-013/exports/UI-013_right_rest_128.png",
+          "source_sha256": "fd7aff9fe05f2f4e3419467bd1f9ca68bc12d01eaf72aa315dfa65d4c74efc5b",
+          "sha256": "73e06653d98a0d7a220ca9429cc833b043ee53798fb9db3c4eb4935df19c1006",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "UI-013",
+          "path": "assets/runtime/prologue/ui/right_pressed.png",
+          "source": "assets/production/phase_08_user_interface/hud_elements/UI-013/exports/UI-013_right_pressed_128.png",
+          "source_sha256": "82c4c01a27b30ca784500ddb6d4b0e72eeedbfcf103482ea3e30d0c110ae1e7a",
+          "sha256": "c519f7842822ddeb4ca4b50013b16e93ed40a96c0448a07ed239aec99e592386",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        }
+      ]
+    }
+  },
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
+  "archive_stage_before_runtime_integration": "generated_ui_prototype_saved_and_reviewed"
 }

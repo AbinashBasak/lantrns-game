@@ -565,20 +565,22 @@ Do not add permanent save files until the session-based loop is stable. When sav
 **Exit criteria:** A new player can understand why a hit landed or missed.
 
 ## Milestone 3 — Prologue blockout
+
+Implementation is tracked in [Prologue implementation](prologue-implementation.md). The opening now has its own launch scene, selected generated art/UI/animation/audio/FX integrated, and a direct transition into the implemented Chapter 1. Desktop progression and resource-pack checks pass; final art/audio sign-off and device validation remain pending.
 - Block out the village lane, Hearthlight square, beam event, combat lane, and Rusk’s shelter.
 - Add simple trigger-based dialogue and the Hearthlight event.
 
 **Exit criteria:** The prologue runs from spawn to the Forgotten Trail without a manual scene reset.
 
-## Milestone 4 — Chapter 1 blockout
-- Build the platforming route, enemy encounters, arch puzzle, checkpoint, boss arena, and fragment reward.
-- Use colored shapes and temporary art only.
+## Milestone 4 — Chapter 1 implementation
+
+Implemented in [Chapter 1 implementation](chapter01-implementation.md): platforming route, two Thornlings, optional watchpost token, visually hinted rune crossing, temple relief, session checkpoint, Hollow Sentinel, Golden Fragment memory and chapter completion. Automated progression coverage includes physical jumps, real interaction input, boss retries and complete restart. The revealed crossing remains stable after solving as an accessibility adaptation to the original temporary-platform plan.
 
 **Exit criteria:** The full prototype can be completed without missing content or developer intervention.
 
 ## Milestone 5 — First art pass
-- Replace only the most visible placeholders: Tavi, Mote, the foreground tiles, the arch, Sentinel, and fragment.
-- Add parallax and core sound cues.
+
+Selected generated Tavi, Mote, Rootling, forest/temple scenery, foreground terrain, arch/runes, Sentinel, fragment, UI, music, ambience, SFX and FX are integrated. Both chapter environments use four independent parallax planes; cropped props meet their authored floor. Runtime manifests retain provenance and distinguish prepared variants. Final art/audio approval remains a release gate.
 
 **Exit criteria:** Screenshots and gameplay communicate a consistent art direction.
 
@@ -594,31 +596,33 @@ Do not add permanent save files until the session-based loop is stable. When sav
 
 # 10. QA checklist
 
+Checked items below have automated desktop coverage in Godot 4.7.2; they do not imply physical-device or first-player validation. Chapter tests contain 42 checks alongside 55 existing regression checks. See [Chapter 1 implementation](chapter01-implementation.md) for scope and remaining release gates.
+
 ## Movement and camera
 - [ ] Player cannot pass through solid platforms.
 - [ ] Required jumps are achievable with keyboard and touchscreen.
 - [ ] Camera does not reveal unintended level boundaries.
-- [ ] Falling triggers a valid recovery rather than a softlock.
+- [x] Falling triggers a valid recovery rather than a softlock.
 
 ## Combat
-- [ ] Sword can hit each enemy only during its attack window.
-- [ ] A single swing cannot damage the same enemy repeatedly without a new attack, unless intended.
+- [x] Sword can hit each enemy only during its attack window.
+- [x] A single swing cannot damage the same enemy repeatedly without a new attack, unless intended.
 - [ ] Enemies telegraph their attacks clearly.
-- [ ] Player invulnerability prevents rapid chain damage.
-- [ ] Boss defeat always advances the level state.
+- [x] Player invulnerability prevents rapid chain damage.
+- [x] Boss defeat always advances the level state.
 
 ## Puzzle and story
-- [ ] Rune puzzle can be solved with sound disabled.
-- [ ] Hint ladder activates if the player is stuck.
-- [ ] Dialogue can be skipped.
-- [ ] Hearthlight event only plays once per intended session.
+- [x] Rune puzzle can be solved with sound disabled.
+- [x] Hint ladder activates if the player is stuck.
+- [x] Dialogue can be skipped.
+- [x] Hearthlight event only plays once per intended session.
 - [ ] Mote does not block doorways or required jumps.
-- [ ] Fragment collection triggers the chapter completion state once.
+- [x] Fragment collection triggers the chapter completion state once.
 
 ## Mobile and PC
 - [ ] Touch buttons work simultaneously when the game requires movement plus jump or attack.
 - [ ] UI remains inside safe areas.
-- [ ] Pause freezes enemies, projectiles, and timers.
+- [x] Pause freezes enemies, projectiles, and timers.
 - [ ] Window resizing does not break the HUD.
 - [ ] The same level and enemy scripts run on both platforms.
 
@@ -642,4 +646,4 @@ The Prologue + Chapter 1 prototype is ready for external playtesting when:
 6. The level builds and runs on Windows and Android.
 7. The experience can be completed in roughly 8–12 minutes on a first playthrough, with no known game-blocking bugs.
 
-**Recommended immediate task:** Build only the greybox player controller and a short platform test room first. Do not draw final character sprites or build the complete village until movement and jumping feel right.
+**Next milestone:** Complete standalone Windows/Android exports and physical-device testing, then run first-player pacing, accessibility and narrative-comprehension sessions. The combined playable content is implemented; external-playtest readiness still depends on these release gates.

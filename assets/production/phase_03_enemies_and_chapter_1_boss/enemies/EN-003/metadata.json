@@ -2,8 +2,8 @@
   "asset_id": "EN-003",
   "title": "Rootling patrol or movement animation",
   "checked": true,
-  "stage": "animation prototype generated and visually reviewed; 1 deliverable clip/view set(s); cleanup and production approval pending",
-  "last_updated": "2026-10-17T01:42:52.790076+05:30",
+  "stage": "selected prologue exports integrated and desktop-reviewed; full-pack and release/device approval pending",
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
   "generation_tool": "built-in image_gen",
   "sources": [
     {
@@ -499,5 +499,106 @@
     }
   ],
   "production_approved": false,
-  "checklist_status_source": "/Users/abinashbasak/Downloads/lanterns_underroot_master_asset_checklist.md"
+  "checklist_status_source": "/Users/abinashbasak/Downloads/lanterns_underroot_master_asset_checklist.md",
+  "runtime_integrated": true,
+  "runtime_integrations": {
+    "prologue": {
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/prologue-asset-integration.json",
+      "paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-003_patrol_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-003_patrol_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-003_patrol_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-003_patrol_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-003_patrol_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-003_patrol_06.png"
+      ],
+      "validation": {
+        "scope": "selected prologue exports",
+        "engine": "Godot4.7.2",
+        "platform": "macOS",
+        "checked": "2026-10-18T03:06:39.226816+05:30",
+        "release_approved": false
+      }
+    },
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-003_patrol_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-003_patrol_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-003_patrol_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-003_patrol_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-003_patrol_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/characters/rootling/EN-003_patrol_06.png"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "EN-003",
+          "path": "assets/runtime/prologue/characters/rootling/EN-003_patrol_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_01.png",
+          "source_sha256": "4fe3ca554abe279c75bebb7a641c1ce8a8cfd6ea6bae81654be53a5f70139033",
+          "sha256": "4fe3ca554abe279c75bebb7a641c1ce8a8cfd6ea6bae81654be53a5f70139033",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "EN-003",
+          "path": "assets/runtime/prologue/characters/rootling/EN-003_patrol_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_02.png",
+          "source_sha256": "fdaf25ac2f21a9cd73aa91d306bb5a0753a5ddf9ac42fdc6477764c8073a8b37",
+          "sha256": "fdaf25ac2f21a9cd73aa91d306bb5a0753a5ddf9ac42fdc6477764c8073a8b37",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "EN-003",
+          "path": "assets/runtime/prologue/characters/rootling/EN-003_patrol_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_03.png",
+          "source_sha256": "72d0affef6eaa05194d694d4acd8275ffa2a43a94c2beb0d4a4c88bc47837bb0",
+          "sha256": "72d0affef6eaa05194d694d4acd8275ffa2a43a94c2beb0d4a4c88bc47837bb0",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "EN-003",
+          "path": "assets/runtime/prologue/characters/rootling/EN-003_patrol_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_04.png",
+          "source_sha256": "57af69b533bee2b23370a9d2ec528e9eb09770ee275ab998eb2ad9846eb1345e",
+          "sha256": "57af69b533bee2b23370a9d2ec528e9eb09770ee275ab998eb2ad9846eb1345e",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "EN-003",
+          "path": "assets/runtime/prologue/characters/rootling/EN-003_patrol_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_05.png",
+          "source_sha256": "aa0c8106e6a107b2d5eb01e22405b17bf197dea6c10c42e5583a9c645e42685c",
+          "sha256": "aa0c8106e6a107b2d5eb01e22405b17bf197dea6c10c42e5583a9c645e42685c",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "EN-003",
+          "path": "assets/runtime/prologue/characters/rootling/EN-003_patrol_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_06.png",
+          "source_sha256": "4fbf4d0ea1e21e5658cda60fbeb0c4fffa26f06e26e554369cc3bf35c9e9c1ae",
+          "sha256": "4fbf4d0ea1e21e5658cda60fbeb0c4fffa26f06e26e554369cc3bf35c9e9c1ae",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        }
+      ]
+    }
+  },
+  "archive_stage_before_runtime_integration": "animation prototype generated and visually reviewed; 1 deliverable clip/view set(s); cleanup and production approval pending"
 }

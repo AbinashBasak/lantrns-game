@@ -7,7 +7,7 @@
   "generation_tool": "procedural (Pillow + numpy; tools/generate_phase07_fx.py)",
   "production_approved": false,
   "runtime_integrated": false,
-  "last_updated": "2026-10-17T21:17:46.289296+05:30",
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
   "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending",
   "requested_deliverables_saved_and_reviewed": true,
   "deliverables": [
@@ -220,5 +220,108 @@
   "review_notes": [
     "Prototype effect art for timing and readability; not final production approval.",
     "No Godot scene, AnimatedSprite2D, particle or shader integration implied."
-  ]
+  ],
+  "runtime_integrations": {
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_07.png"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "FX-015",
+          "path": "assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_00.png",
+          "source": "assets/production/phase_07_visual_effects/FX-015/exports/FX-015_boss_ground_impact_00.png",
+          "source_sha256": "4bfe007c262fd2801f1b3f335e1f992b3b531bcd6e68271c2f13211df87ba556",
+          "sha256": "4bfe007c262fd2801f1b3f335e1f992b3b531bcd6e68271c2f13211df87ba556",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-015",
+          "path": "assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_01.png",
+          "source": "assets/production/phase_07_visual_effects/FX-015/exports/FX-015_boss_ground_impact_01.png",
+          "source_sha256": "a3c66accd083f6373a47f04e488a3f795b90fe5726601ddc09c21c946f07b932",
+          "sha256": "a3c66accd083f6373a47f04e488a3f795b90fe5726601ddc09c21c946f07b932",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-015",
+          "path": "assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_02.png",
+          "source": "assets/production/phase_07_visual_effects/FX-015/exports/FX-015_boss_ground_impact_02.png",
+          "source_sha256": "92473afa014bc4ca2d3510b3844647c7d271b65e22e8f795fff11a0c0750cc30",
+          "sha256": "92473afa014bc4ca2d3510b3844647c7d271b65e22e8f795fff11a0c0750cc30",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-015",
+          "path": "assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_03.png",
+          "source": "assets/production/phase_07_visual_effects/FX-015/exports/FX-015_boss_ground_impact_03.png",
+          "source_sha256": "ca0069d7d29cac02645f53cddab20545433d31f69d64184a939a737c052d2ca4",
+          "sha256": "ca0069d7d29cac02645f53cddab20545433d31f69d64184a939a737c052d2ca4",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-015",
+          "path": "assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_04.png",
+          "source": "assets/production/phase_07_visual_effects/FX-015/exports/FX-015_boss_ground_impact_04.png",
+          "source_sha256": "85eabca628d99446076a7395a234025bdfe2d5b3039c04df4e346e756db6c0db",
+          "sha256": "85eabca628d99446076a7395a234025bdfe2d5b3039c04df4e346e756db6c0db",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-015",
+          "path": "assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_05.png",
+          "source": "assets/production/phase_07_visual_effects/FX-015/exports/FX-015_boss_ground_impact_05.png",
+          "source_sha256": "5fc34c73891f04491d3274cba6ddcd40884e6c2e22ed893b566736e4a07686b7",
+          "sha256": "5fc34c73891f04491d3274cba6ddcd40884e6c2e22ed893b566736e4a07686b7",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-015",
+          "path": "assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_06.png",
+          "source": "assets/production/phase_07_visual_effects/FX-015/exports/FX-015_boss_ground_impact_06.png",
+          "source_sha256": "d0cb3564cfb12160bfb25de0deebeb7228468d4b7781e3fb45bb44252ed4dad4",
+          "sha256": "d0cb3564cfb12160bfb25de0deebeb7228468d4b7781e3fb45bb44252ed4dad4",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-015",
+          "path": "assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_07.png",
+          "source": "assets/production/phase_07_visual_effects/FX-015/exports/FX-015_boss_ground_impact_07.png",
+          "source_sha256": "668d02a712e65cc10f14006b0a122ea04f462ce457b42c01505fa1a9e8412167",
+          "sha256": "668d02a712e65cc10f14006b0a122ea04f462ce457b42c01505fa1a9e8412167",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        }
+      ]
+    }
+  }
 }

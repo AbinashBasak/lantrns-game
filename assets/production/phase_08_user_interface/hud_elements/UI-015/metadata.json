@@ -57,9 +57,9 @@
   "timing": null,
   "loop": false,
   "production_approved": false,
-  "runtime_integrated": false,
+  "runtime_integrated": true,
   "requested_deliverables_saved_and_reviewed": true,
-  "stage": "generated_ui_prototype_saved_and_reviewed",
+  "stage": "selected prologue exports integrated and desktop-reviewed; full-pack and release/device approval pending",
   "source_message_id": null,
   "reference_images": [],
   "provenance": {
@@ -496,5 +496,58 @@
     "alpha_reviewed_over_checkerboard": true,
     "small_icon_legibility_reviewed": true,
     "runtime_tested": false
-  }
+  },
+  "runtime_integrations": {
+    "prologue": {
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/prologue-asset-integration.json",
+      "paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/attack_normal.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/attack_pressed.png"
+      ],
+      "validation": {
+        "scope": "selected prologue exports",
+        "engine": "Godot4.7.2",
+        "platform": "macOS",
+        "checked": "2026-10-18T03:06:39.226816+05:30",
+        "release_approved": false
+      }
+    },
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/attack_normal.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/attack_pressed.png"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "UI-015",
+          "path": "assets/runtime/prologue/ui/attack_normal.png",
+          "source": "assets/production/phase_08_user_interface/hud_elements/UI-015/exports/UI-015_normal_128.png",
+          "source_sha256": "5a6d36a415a7c5b92af050e588d38db4517a61102f54d59c5b6d31a3867597b4",
+          "sha256": "401e5d532f3e66147033b04c2d01715d8a5d5b428e28e9087e981eab5b7f802e",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        },
+        {
+          "asset_id": "UI-015",
+          "path": "assets/runtime/prologue/ui/attack_pressed.png",
+          "source": "assets/production/phase_08_user_interface/hud_elements/UI-015/exports/UI-015_pressed_128.png",
+          "source_sha256": "718e3305872b57544d489cd70875507da4ac4bc7f1471fec83ffdb2ed758f684",
+          "sha256": "24b241339a401d704c2398805790a4cd75718684f72dd06fbb7e44c7b1464c00",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "docs/prologue-asset-integration.json"
+        }
+      ]
+    }
+  },
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
+  "archive_stage_before_runtime_integration": "generated_ui_prototype_saved_and_reviewed"
 }

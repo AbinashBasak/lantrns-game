@@ -52,6 +52,9 @@ func _ready() -> void:
 	_build_ui()
 	_update_hud()
 	get_tree().paused = true
+	if get_tree().has_meta("from_prologue"):
+		get_tree().remove_meta("from_prologue")
+		_begin()
 
 func _setup_inputs() -> void:
 	var bindings := {"move_left":[KEY_A,KEY_LEFT],"move_right":[KEY_D,KEY_RIGHT],"jump":[KEY_SPACE,KEY_W,KEY_UP],"attack":[KEY_J,KEY_X],"interact":[KEY_E],"pause":[KEY_ESCAPE],"restart":[KEY_R],"start":[KEY_ENTER]}
@@ -183,9 +186,11 @@ func _build_ui() -> void:
 	objective.position = Vector2(34,58)
 	control.add_child(objective)
 	var chapter := _label("01   /   BRACKENREACH OUTSKIRTS",14,Color("c5b17d"))
+	chapter.name = "ChapterLabel"
 	chapter.position = Vector2(920,32)
 	control.add_child(chapter)
 	var controls := _label("A D / ← →   Move      SPACE   Jump      J   Sword      E   Listen      ESC   Pause",16,Color("a6bdab"))
+	controls.name = "ControlsHint"
 	controls.position = Vector2(34,680)
 	control.add_child(controls)
 	hint = _label("",22,Color("f5cc80"))
@@ -218,6 +223,7 @@ func _build_ui() -> void:
 	victory_col.add_child(_button("Walk the trail again",_restart))
 	victory_panel.hide()
 	var pause_button := _button("Ⅱ",_toggle_pause)
+	pause_button.name = "PauseButton"
 	pause_button.position = Vector2(1210,20)
 	control.add_child(pause_button)
 	touch_layer = Control.new()

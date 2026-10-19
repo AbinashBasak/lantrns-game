@@ -180,8 +180,8 @@
   ],
   "production_approved": false,
   "requested_deliverables_saved_and_reviewed": true,
-  "stage": "reviewed_prototype_source_and_fixed_cell_exports",
-  "runtime_integrated": false,
+  "stage": "selected prologue exports integrated and desktop-reviewed; full-pack and release/device approval pending",
+  "runtime_integrated": true,
   "metadata_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/metadata.json",
   "review_notes": [
     "Source checkerboard visually reviewed:four complete distinct intended states or modules, genuine alpha-zero outside objects, no text/UI or environment. Static artstate variants do not assert gameplay behavior.",
@@ -201,5 +201,24 @@
   "previews": [
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/previews/PROP-006_source_alpha_checker.png",
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/previews/PROP-006_export_contact.png"
-  ]
+  ],
+  "runtime_integrations": {
+    "prologue": {
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/prologue-asset-integration.json",
+      "paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/PROP-006_00_left_entry.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/PROP-006_01_middle_repeat.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/PROP-006_02_right_entry.png"
+      ],
+      "validation": {
+        "scope": "selected prologue exports",
+        "engine": "Godot4.7.2",
+        "platform": "macOS",
+        "checked": "2026-10-18T03:06:39.226816+05:30",
+        "release_approved": false
+      }
+    }
+  },
+  "last_updated": "2026-10-18T03:06:39.226816+05:30",
+  "archive_stage_before_runtime_integration": "reviewed_prototype_source_and_fixed_cell_exports"
 }

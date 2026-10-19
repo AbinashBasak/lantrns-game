@@ -35,9 +35,9 @@
   "timing": null,
   "loop": false,
   "production_approved": false,
-  "runtime_integrated": false,
+  "runtime_integrated": true,
   "requested_deliverables_saved_and_reviewed": true,
-  "stage": "generated_prop_prototype_saved_and_reviewed",
+  "stage": "selected prologue exports integrated and desktop-reviewed; full-pack and release/device approval pending",
   "source_message_id": null,
   "reference_images": [],
   "provenance": {
@@ -727,5 +727,26 @@
     "alpha_reviewed_over_checkerboard": true,
     "selected_object_count": 8,
     "runtime_tested": false
-  }
+  },
+  "archive_stage_before_runtime_integration": "generated_prop_prototype_saved_and_reviewed",
+  "runtime_integrations": {
+    "prologue": {
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/prologue-asset-integration.json",
+      "paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/PROP-010_roof_left_eave.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/PROP-010_roof_repeat.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/PROP-010_roof_right_eave.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/PROP-010_window_closed.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/PROP-010_window_round.png"
+      ],
+      "validation": {
+        "scope": "selected prologue exports",
+        "engine": "Godot4.7.2",
+        "platform": "macOS",
+        "checked": "2026-10-18T03:06:39.226816+05:30",
+        "release_approved": false
+      }
+    }
+  },
+  "last_updated": "2026-10-18T03:06:39.226816+05:30"
 }

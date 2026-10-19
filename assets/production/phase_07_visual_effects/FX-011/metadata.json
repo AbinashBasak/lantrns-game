@@ -7,7 +7,7 @@
   "generation_tool": "procedural (Pillow + numpy; tools/generate_phase07_fx.py)",
   "production_approved": false,
   "runtime_integrated": false,
-  "last_updated": "2026-10-17T21:17:44.385715+05:30",
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
   "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending",
   "requested_deliverables_saved_and_reviewed": true,
   "deliverables": [
@@ -220,5 +220,108 @@
   "review_notes": [
     "Prototype effect art for timing and readability; not final production approval.",
     "No Godot scene, AnimatedSprite2D, particle or shader integration implied."
-  ]
+  ],
+  "runtime_integrations": {
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-011_rune_activation_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-011_rune_activation_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-011_rune_activation_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-011_rune_activation_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-011_rune_activation_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-011_rune_activation_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-011_rune_activation_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-011_rune_activation_07.png"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "FX-011",
+          "path": "assets/runtime/chapter01/presentation/FX-011_rune_activation_00.png",
+          "source": "assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_00.png",
+          "source_sha256": "f88c35ff4711277c90f8b823f457655048aaaeab131d7477e5f6b7a7a0fefe63",
+          "sha256": "f88c35ff4711277c90f8b823f457655048aaaeab131d7477e5f6b7a7a0fefe63",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-011",
+          "path": "assets/runtime/chapter01/presentation/FX-011_rune_activation_01.png",
+          "source": "assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_01.png",
+          "source_sha256": "e2f4075f0a030f8afedfaa054cf414b3f0a77dd2f87e1d17a91cc53c642d48c0",
+          "sha256": "e2f4075f0a030f8afedfaa054cf414b3f0a77dd2f87e1d17a91cc53c642d48c0",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-011",
+          "path": "assets/runtime/chapter01/presentation/FX-011_rune_activation_02.png",
+          "source": "assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_02.png",
+          "source_sha256": "7c9ef1b8daef64c5dbe1b8881be9870e8906e4deb994442bfbf389b4ed596e93",
+          "sha256": "7c9ef1b8daef64c5dbe1b8881be9870e8906e4deb994442bfbf389b4ed596e93",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-011",
+          "path": "assets/runtime/chapter01/presentation/FX-011_rune_activation_03.png",
+          "source": "assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_03.png",
+          "source_sha256": "750ee5e219dcbea76ed307ca9b5803ed886524c1734243366a9f123cbfbf2a62",
+          "sha256": "750ee5e219dcbea76ed307ca9b5803ed886524c1734243366a9f123cbfbf2a62",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-011",
+          "path": "assets/runtime/chapter01/presentation/FX-011_rune_activation_04.png",
+          "source": "assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_04.png",
+          "source_sha256": "6721a297f3589e1708331512d35782a5702b7525baa37c4edf05415f31da913d",
+          "sha256": "6721a297f3589e1708331512d35782a5702b7525baa37c4edf05415f31da913d",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-011",
+          "path": "assets/runtime/chapter01/presentation/FX-011_rune_activation_05.png",
+          "source": "assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_05.png",
+          "source_sha256": "f827f03f242ed374a83c1c20deafac8f337fe45d97aa287c1724d4dd0130cfb1",
+          "sha256": "f827f03f242ed374a83c1c20deafac8f337fe45d97aa287c1724d4dd0130cfb1",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-011",
+          "path": "assets/runtime/chapter01/presentation/FX-011_rune_activation_06.png",
+          "source": "assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_06.png",
+          "source_sha256": "836690b83d1f887719cbcb1a5026acd374422506797f87fa2e8feadb98c6a6c4",
+          "sha256": "836690b83d1f887719cbcb1a5026acd374422506797f87fa2e8feadb98c6a6c4",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-011",
+          "path": "assets/runtime/chapter01/presentation/FX-011_rune_activation_07.png",
+          "source": "assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_07.png",
+          "source_sha256": "e71d0fa4abb2b9c96316b95aed03fd1fab418c9ef3fa5c6ec2b50113aeeb4d18",
+          "sha256": "e71d0fa4abb2b9c96316b95aed03fd1fab418c9ef3fa5c6ec2b50113aeeb4d18",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        }
+      ]
+    }
+  }
 }

@@ -7,7 +7,7 @@
       "docs/lanterns_underroot_chapters.md",
       "docs/full-story.md"
     ],
-    "summary": "Chapters Chapter2 missions2.1–2.4 and full-story Chapter2: sideways orchard trees over ravines, permanently open blossoms/unripe fruit, root/fallen-trunk/stone-irrigation platforms, bound groves and root-stone. Mossjaw arena uses three climbable root platforms and destructible stone column. Guardian not baked into environment.",
+    "summary": "Chapters Chapter2 missions2.1\u20132.4 and full-story Chapter2: sideways orchard trees over ravines, permanently open blossoms/unripe fruit, root/fallen-trunk/stone-irrigation platforms, bound groves and root-stone. Mossjaw arena uses three climbable root platforms and destructible stone column. Guardian not baked into environment.",
     "status": "Lore references for generated prototype; design and production approval not inferred."
   },
   "review_notes": [
@@ -757,7 +757,7 @@
     {
       "slug": "decorative_props",
       "type": "8-object decorative prop atlas",
-      "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer. Match ART001/002/006 painterly shading, readable silhouettes, warm amber accents, muted moss/earth and cool teal shadows. Fixed side-on orthographic gamecamera. No characters, UI, lettering, logos, panels, gridlines or contactboard. Chapters Chapter2 missions2.1–2.4 and full-story Chapter2: sideways orchard trees over ravines, permanently open blossoms/unripe fruit, root/fallen-trunk/stone-irrigation platforms, bound groves and root-stone. Mossjaw arena uses three climbable root platforms and destructible stone column. Guardian not baked into environment. EXACTLY8distinct isolatedprops in equal4column2rowcells on1536x1024landscape. Per-cell384x512, chronologicalreadingorder: 1:blossom branch with unripe fruit, 2:broken irrigation channel, 3:worn family carving, 4:mossy orchard wall section, 5:small exposed root cluster, 6:fallen blossom cluster, 7:short fallen trunk, 8:unripe fruit twig. Side-on matchinglightingreference, allfullobjects safelyinsidecell with50pxpadding. Max260pxwide/360pxtall. No ground/shadow, no connectedscenery, no materialboards, true transparent gaps and opaqueobjects. All space outside physical objects or compact FX must be true alpha-zero, no diffuse environmental glow or haze.",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer. Match ART001/002/006 painterly shading, readable silhouettes, warm amber accents, muted moss/earth and cool teal shadows. Fixed side-on orthographic gamecamera. No characters, UI, lettering, logos, panels, gridlines or contactboard. Chapters Chapter2 missions2.1\u20132.4 and full-story Chapter2: sideways orchard trees over ravines, permanently open blossoms/unripe fruit, root/fallen-trunk/stone-irrigation platforms, bound groves and root-stone. Mossjaw arena uses three climbable root platforms and destructible stone column. Guardian not baked into environment. EXACTLY8distinct isolatedprops in equal4column2rowcells on1536x1024landscape. Per-cell384x512, chronologicalreadingorder: 1:blossom branch with unripe fruit, 2:broken irrigation channel, 3:worn family carving, 4:mossy orchard wall section, 5:small exposed root cluster, 6:fallen blossom cluster, 7:short fallen trunk, 8:unripe fruit twig. Side-on matchinglightingreference, allfullobjects safelyinsidecell with50pxpadding. Max260pxwide/360pxtall. No ground/shadow, no connectedscenery, no materialboards, true transparent gaps and opaqueobjects. All space outside physical objects or compact FX must be true alpha-zero, no diffuse environmental glow or haze.",
       "transparent_background": true,
       "reference_images": [
         "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_lighting_reference_original.png"
@@ -1004,7 +1004,7 @@
     {
       "slug": "interactive_props",
       "type": "three interactive neutral-active pairs",
-      "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer. Match ART001/002/006 painterly shading, readable silhouettes, warm amber accents, muted moss/earth and cool teal shadows. Fixed side-on orthographic gamecamera. No characters, UI, lettering, logos, panels, gridlines or contactboard. Chapters Chapter2 missions2.1–2.4 and full-story Chapter2: sideways orchard trees over ravines, permanently open blossoms/unripe fruit, root/fallen-trunk/stone-irrigation platforms, bound groves and root-stone. Mossjaw arena uses three climbable root platforms and destructible stone column. Guardian not baked into environment. EXACTLY6isolated fullprops in equal3columns2rows,1536x1024canvas,512squarecells, readingorder 1:stone node with threeintact rootbindings, 2:same stone node with rootbindings severed andcurledout, 3:freestanding cracked stonecolumn intact, 4:samecolumn brokenbase exposes rootstone socket, 5:sturdy horizontal rootedbranch neutral straight, 6:samebranch bentdown underweight but nocharacter. Pairs1/2,3/4,5/6 MUST preserve exactsameobject design, scale, view andpivot, only requestedstate changes. Centerallobjects with70pxpadding; maximum360px inanydimension. No characters, scene, floor, shadow or extraFX. No unreadabletext. Truealpha gaps, opaquebodyinteriors excepttranslucentrootplatform. No panels or visual labels. All space outside physical objects or compact FX must be true alpha-zero, no diffuse environmental glow or haze.",
+      "prompt": "Use case: stylized-concept. Lanterns Underroot hand-painted 2D platformer. Match ART001/002/006 painterly shading, readable silhouettes, warm amber accents, muted moss/earth and cool teal shadows. Fixed side-on orthographic gamecamera. No characters, UI, lettering, logos, panels, gridlines or contactboard. Chapters Chapter2 missions2.1\u20132.4 and full-story Chapter2: sideways orchard trees over ravines, permanently open blossoms/unripe fruit, root/fallen-trunk/stone-irrigation platforms, bound groves and root-stone. Mossjaw arena uses three climbable root platforms and destructible stone column. Guardian not baked into environment. EXACTLY6isolated fullprops in equal3columns2rows,1536x1024canvas,512squarecells, readingorder 1:stone node with threeintact rootbindings, 2:same stone node with rootbindings severed andcurledout, 3:freestanding cracked stonecolumn intact, 4:samecolumn brokenbase exposes rootstone socket, 5:sturdy horizontal rootedbranch neutral straight, 6:samebranch bentdown underweight but nocharacter. Pairs1/2,3/4,5/6 MUST preserve exactsameobject design, scale, view andpivot, only requestedstate changes. Centerallobjects with70pxpadding; maximum360px inanydimension. No characters, scene, floor, shadow or extraFX. No unreadabletext. Truealpha gaps, opaquebodyinteriors excepttranslucentrootplatform. No panels or visual labels. All space outside physical objects or compact FX must be true alpha-zero, no diffuse environmental glow or haze.",
       "transparent_background": true,
       "reference_images": [
         "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-04/source_images/ENV-04_lighting_reference_original.png"
@@ -1414,7 +1414,54 @@
   ],
   "stage": "prototype sources and exports visually reviewed; tile cleanup and runtime validation pending",
   "asset_id": "ENV-04",
-  "last_updated": "2026-10-17T13:54:17.868918+05:30",
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
   "requested_deliverables_saved_and_reviewed": true,
-  "production_approved": false
+  "production_approved": false,
+  "runtime_integrations": {
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/story/orchard_background.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/story/orchard_trees.png"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "ENV-04",
+          "path": "assets/runtime/chapter01/story/orchard_background.png",
+          "source": "assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_distant_background.png",
+          "source_sha256": "101969d4b68162f07889ff09e2996de573de638ed3237b300b7ea5a23a031402",
+          "sha256": "68d2c1252eb494f817c0cfef31cc736e7ab6345ffde6a7ab3d6ac67d29a74630",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/story/manifest.json",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "crop": null
+        },
+        {
+          "asset_id": "ENV-04",
+          "path": "assets/runtime/chapter01/story/orchard_trees.png",
+          "source": "assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_midground.png",
+          "source_sha256": "957b74f023cfccf45c8dc7f714ca9136bf43e4125b488fc14d993373d6c8a185",
+          "sha256": "1c4cff6bd0fc69d82bc49de5240de5c63b7909d05ab430774bb7165dc6e88122",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/story/manifest.json",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "crop": null
+        }
+      ]
+    }
+  }
 }

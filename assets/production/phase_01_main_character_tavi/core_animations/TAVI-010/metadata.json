@@ -2,11 +2,11 @@
   "asset_id": "TAVI-010",
   "title": "Idle",
   "phase": "01",
-  "subsection": "Core animations — prototype priority",
+  "subsection": "Core animations \u2014 prototype priority",
   "checked": true,
   "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010",
   "source_chat": "https://chatgpt.com/share/6ad136a4-4cc8-83ee-9742-05bc90e2a1dc",
-  "last_updated": "2026-10-16T10:24:37+05:30",
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
   "stage": "source images recovered; production approval not inferred from checklist",
   "sources": [
     {
@@ -133,5 +133,116 @@
     320,
     448
   ],
-  "runtime_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/characters/tavi/idle"
+  "runtime_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/characters/tavi/idle",
+  "runtime_integrations": {
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/characters/tavi/idle/frame_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/characters/tavi/idle/frame_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/characters/tavi/idle/frame_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/characters/tavi/idle/frame_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/characters/tavi/idle/frame_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/characters/tavi/idle/frame_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/characters/tavi/idle/frame_07.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/characters/tavi/idle/frame_08.png"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "TAVI-010",
+          "path": "assets/characters/tavi/idle/frame_01.png",
+          "source": "archive/shared-chat/images/00000000-56fc-8211-8740-4d4ebed7376a.png",
+          "source_sha256": "402be2af91724252bab67519fe2d440bbff85cd1753a45b44383894c80059d41",
+          "sha256": "6784cc948b97fd95a95d12af0bc2c2ebb3a0eba41b184eb25c87e3de23d3c203",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "assets/characters/tavi/animations.json",
+          "provenance": "Existing mechanically extracted/padded frame; original archive image preserved. Source rectangles and timing in preparation manifest."
+        },
+        {
+          "asset_id": "TAVI-010",
+          "path": "assets/characters/tavi/idle/frame_02.png",
+          "source": "archive/shared-chat/images/00000000-56fc-8211-8740-4d4ebed7376a.png",
+          "source_sha256": "402be2af91724252bab67519fe2d440bbff85cd1753a45b44383894c80059d41",
+          "sha256": "b4fe053eee1e3164cd8741a9bed9b8647e44073e41fdabea5c6d3fd913b447ac",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "assets/characters/tavi/animations.json",
+          "provenance": "Existing mechanically extracted/padded frame; original archive image preserved. Source rectangles and timing in preparation manifest."
+        },
+        {
+          "asset_id": "TAVI-010",
+          "path": "assets/characters/tavi/idle/frame_03.png",
+          "source": "archive/shared-chat/images/00000000-56fc-8211-8740-4d4ebed7376a.png",
+          "source_sha256": "402be2af91724252bab67519fe2d440bbff85cd1753a45b44383894c80059d41",
+          "sha256": "5ac1d6adf7066557f5427a4c928d67f8d209c5858e725358fa5c91ae1096caab",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "assets/characters/tavi/animations.json",
+          "provenance": "Existing mechanically extracted/padded frame; original archive image preserved. Source rectangles and timing in preparation manifest."
+        },
+        {
+          "asset_id": "TAVI-010",
+          "path": "assets/characters/tavi/idle/frame_04.png",
+          "source": "archive/shared-chat/images/00000000-56fc-8211-8740-4d4ebed7376a.png",
+          "source_sha256": "402be2af91724252bab67519fe2d440bbff85cd1753a45b44383894c80059d41",
+          "sha256": "e8398e961abdf738d81ef22736a861488c722e1bb0a561e132c1fef8eeaeaad6",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "assets/characters/tavi/animations.json",
+          "provenance": "Existing mechanically extracted/padded frame; original archive image preserved. Source rectangles and timing in preparation manifest."
+        },
+        {
+          "asset_id": "TAVI-010",
+          "path": "assets/characters/tavi/idle/frame_05.png",
+          "source": "archive/shared-chat/images/00000000-56fc-8211-8740-4d4ebed7376a.png",
+          "source_sha256": "402be2af91724252bab67519fe2d440bbff85cd1753a45b44383894c80059d41",
+          "sha256": "50fbe33c7e796f9c3d353bed29347c620c48cfc4e023f56081e51d5be14c155d",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "assets/characters/tavi/animations.json",
+          "provenance": "Existing mechanically extracted/padded frame; original archive image preserved. Source rectangles and timing in preparation manifest."
+        },
+        {
+          "asset_id": "TAVI-010",
+          "path": "assets/characters/tavi/idle/frame_06.png",
+          "source": "archive/shared-chat/images/00000000-56fc-8211-8740-4d4ebed7376a.png",
+          "source_sha256": "402be2af91724252bab67519fe2d440bbff85cd1753a45b44383894c80059d41",
+          "sha256": "8fa2096672460f6db2e70486882044beee3c8b14e1c5891c7a77144f1da0ed33",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "assets/characters/tavi/animations.json",
+          "provenance": "Existing mechanically extracted/padded frame; original archive image preserved. Source rectangles and timing in preparation manifest."
+        },
+        {
+          "asset_id": "TAVI-010",
+          "path": "assets/characters/tavi/idle/frame_07.png",
+          "source": "archive/shared-chat/images/00000000-56fc-8211-8740-4d4ebed7376a.png",
+          "source_sha256": "402be2af91724252bab67519fe2d440bbff85cd1753a45b44383894c80059d41",
+          "sha256": "e5d792d968d2b0548da7d46f5f9ef85b43af9064157cb02bbcad51880e1f0f2c",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "assets/characters/tavi/animations.json",
+          "provenance": "Existing mechanically extracted/padded frame; original archive image preserved. Source rectangles and timing in preparation manifest."
+        },
+        {
+          "asset_id": "TAVI-010",
+          "path": "assets/characters/tavi/idle/frame_08.png",
+          "source": "archive/shared-chat/images/00000000-56fc-8211-8740-4d4ebed7376a.png",
+          "source_sha256": "402be2af91724252bab67519fe2d440bbff85cd1753a45b44383894c80059d41",
+          "sha256": "4c72dd7ecff80eab7791953c5b2c0c9f0f789db2c162b1fec722ffc7b84b6db6",
+          "status": "integrated",
+          "shared_with_prologue": true,
+          "preparation_manifest": "assets/characters/tavi/animations.json",
+          "provenance": "Existing mechanically extracted/padded frame; original archive image preserved. Source rectangles and timing in preparation manifest."
+        }
+      ]
+    }
+  }
 }

@@ -7,7 +7,7 @@
   "generation_tool": "procedural (Pillow + numpy; tools/generate_phase07_fx.py)",
   "production_approved": false,
   "runtime_integrated": false,
-  "last_updated": "2026-10-17T21:17:47.655813+05:30",
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
   "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending",
   "requested_deliverables_saved_and_reviewed": true,
   "deliverables": [
@@ -258,5 +258,130 @@
   "review_notes": [
     "Prototype effect art for timing and readability; not final production approval.",
     "No Godot scene, AnimatedSprite2D, particle or shader integration implied."
-  ]
+  ],
+  "runtime_integrations": {
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_07.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_08.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_09.png"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "FX-017",
+          "path": "assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_00.png",
+          "source": "assets/production/phase_07_visual_effects/FX-017/exports/FX-017_boss_phase_transition_00.png",
+          "source_sha256": "4a41427a172599b91a92e363dea007a01735a92ccaf4a0fb902224538d8fc2ac",
+          "sha256": "4a41427a172599b91a92e363dea007a01735a92ccaf4a0fb902224538d8fc2ac",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-017",
+          "path": "assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_01.png",
+          "source": "assets/production/phase_07_visual_effects/FX-017/exports/FX-017_boss_phase_transition_01.png",
+          "source_sha256": "df6e8cc9252052a9d78da3e89eebf8d0fc3f496c7a0ea88f17e68cedbce1f944",
+          "sha256": "df6e8cc9252052a9d78da3e89eebf8d0fc3f496c7a0ea88f17e68cedbce1f944",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-017",
+          "path": "assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_02.png",
+          "source": "assets/production/phase_07_visual_effects/FX-017/exports/FX-017_boss_phase_transition_02.png",
+          "source_sha256": "695a34f29a95a13dbc13a808064c48a79b322dba3bdd176a55150a524a38ce3e",
+          "sha256": "695a34f29a95a13dbc13a808064c48a79b322dba3bdd176a55150a524a38ce3e",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-017",
+          "path": "assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_03.png",
+          "source": "assets/production/phase_07_visual_effects/FX-017/exports/FX-017_boss_phase_transition_03.png",
+          "source_sha256": "6f34325c99b20d64cd0e3c7848c0939624b0fe279c3f96c2086080ebd0033e7e",
+          "sha256": "6f34325c99b20d64cd0e3c7848c0939624b0fe279c3f96c2086080ebd0033e7e",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-017",
+          "path": "assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_04.png",
+          "source": "assets/production/phase_07_visual_effects/FX-017/exports/FX-017_boss_phase_transition_04.png",
+          "source_sha256": "b7b5972856792eb4196d45045b188fbb061c086b4c8c510815c0f8721d3fe23f",
+          "sha256": "b7b5972856792eb4196d45045b188fbb061c086b4c8c510815c0f8721d3fe23f",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-017",
+          "path": "assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_05.png",
+          "source": "assets/production/phase_07_visual_effects/FX-017/exports/FX-017_boss_phase_transition_05.png",
+          "source_sha256": "b924287c1a8f01a832f22b7ad4c1282375fa55fa40c7e24ce35ae6345a1f2c51",
+          "sha256": "b924287c1a8f01a832f22b7ad4c1282375fa55fa40c7e24ce35ae6345a1f2c51",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-017",
+          "path": "assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_06.png",
+          "source": "assets/production/phase_07_visual_effects/FX-017/exports/FX-017_boss_phase_transition_06.png",
+          "source_sha256": "13f486dac25846e1a1aafce694cc11131abce6500be9abc88c8c5d8588f19753",
+          "sha256": "13f486dac25846e1a1aafce694cc11131abce6500be9abc88c8c5d8588f19753",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-017",
+          "path": "assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_07.png",
+          "source": "assets/production/phase_07_visual_effects/FX-017/exports/FX-017_boss_phase_transition_07.png",
+          "source_sha256": "551713d565e75393ee425a16e1e6f3ab8e0c491a91d723b66f83839876df3d05",
+          "sha256": "551713d565e75393ee425a16e1e6f3ab8e0c491a91d723b66f83839876df3d05",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-017",
+          "path": "assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_08.png",
+          "source": "assets/production/phase_07_visual_effects/FX-017/exports/FX-017_boss_phase_transition_08.png",
+          "source_sha256": "93f3b555e7902bfdf09bc7394bbdc2c441afc2834f7b530ae8fa74bfef4bd676",
+          "sha256": "93f3b555e7902bfdf09bc7394bbdc2c441afc2834f7b530ae8fa74bfef4bd676",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-017",
+          "path": "assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_09.png",
+          "source": "assets/production/phase_07_visual_effects/FX-017/exports/FX-017_boss_phase_transition_09.png",
+          "source_sha256": "e8eccf1a1961ae02ee65211941f51027ad56e51caa358b2af37a9669be9256b8",
+          "sha256": "e8eccf1a1961ae02ee65211941f51027ad56e51caa358b2af37a9669be9256b8",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        }
+      ]
+    }
+  }
 }

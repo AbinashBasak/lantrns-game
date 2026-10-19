@@ -2,6 +2,7 @@ extends CharacterBody2D
 
 signal health_changed(value: int)
 signal died
+signal action_event(kind: String, at: Vector2)
 @export var speed: float = 330.0
 @export var jump_speed: float = 680.0
 @export var gravity: float = 1600.0
@@ -15,6 +16,7 @@ var invincible: float = 0.0
 var animation_time: float = 0.0
 var hit_targets: Array = []
 var active: bool = true
+var attack_enabled: bool = true
 var landing_time: float = 0.0
 @onready var visual: AnimatedSprite2D = $AnimatedSprite2D
 
@@ -36,6 +38,7 @@ func _physics_process(delta: float) -> void:
 		jump_buffer = 0.12
 	if jump_buffer > 0 and coyote > 0:
 		velocity.y = -jump_speed
+		action_event.emit("jump", global_position)
 		jump_buffer = 0
 		coyote = 0
 	if Input.is_action_just_released("jump") and velocity.y < -220:
@@ -56,21 +59,24 @@ func _physics_process(delta: float) -> void:
 				enemy.take_damage(1, facing)
 	if is_on_floor() and not was_grounded:
 		landing_time = 0.22
+		action_event.emit("land", global_position)
 	_update_animation()
 	if position.y > 950:
 		died.emit()
 	queue_redraw()
 
 func attack() -> void:
-	if attack_cooldown <= 0:
+	if active and attack_enabled and attack_cooldown <= 0:
 		attack_time = 0.38
 		attack_cooldown = 0.48
 		hit_targets.clear()
+		action_event.emit("swing", global_position + Vector2(facing * 15, -35))
 
 func take_damage(amount: int, direction: float = -1.0) -> void:
 	if invincible > 0:
 		return
 	health = maxi(0, health - amount)
+	action_event.emit("hurt", global_position)
 	invincible = 1.1
 	velocity = Vector2(direction * 260, -250)
 	health_changed.emit(health)
@@ -83,6 +89,7 @@ func reset_at(point: Vector2) -> void:
 	health = 5
 	invincible = 1.5
 	health_changed.emit(health)
+	action_event.emit("respawn", global_position)
 
 func _update_animation() -> void:
 	visual.flip_h = facing < 0

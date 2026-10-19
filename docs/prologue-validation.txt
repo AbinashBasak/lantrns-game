@@ -1,0 +1,140 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS: Prologue title pauses gameplay
+PASS: Generated Mote follow animation is loaded
+PASS: Generated village music is loaded as a loop
+PASS: Generated village layer is loaded
+PASS: Village spawn has safe collision floor
+PASS: Sword locked before rescue
+PASS: Exit explains unfinished village objective
+PASS: Dialogue freezes player movement and attacks
+PASS: Pause freezes dialogue advancement
+PASS: Hearth inspection introduces cart errand
+PASS: Cart moves and asks player to return
+PASS: Returning triggers controlled Hearthlight event
+PASS: Pause freezes cinematic timer
+PASS: Pause freezes audio and presentation processing
+PASS: Failure leaves darkened village and restores control
+PASS: Hearthlight failure cannot retrigger
+PASS: Beam rescue unlocks companion and practice blade
+PASS: Tutorial introduces one enemy at a time
+PASS: Generated Rootling combat animation is loaded
+PASS: Reduced-effects preference suppresses enemy particle bursts
+PASS: Reduced-effects preference suppresses player particle bursts
+PASS: Thornling warns visibly before dealing damage
+PASS: Telegraph gives player time to react
+PASS: Only active attack deals damage
+PASS: Inactive dialogue player is safe from enemies
+PASS: Second Thornling follows first defeat
+PASS: Combat defeat resets encounter at local checkpoint
+PASS: Escape leaves settings without resuming gameplay
+PASS: Both defeats unlock Rusk send-off
+PASS: Rusk gives journey objective
+PASS: Village exit starts Forgotten Trail without scene reset or second title
+PROLOGUE TEST: PASS (0 failures)
+ERROR: Failed to open 'user://logs/godot2026-10-18T05.31.50.log'.
+   at: copy (core/io/dir_access.cpp:429)
+ERROR: Failed to open log file for writing: user://logs/godot.log
+   at: rotate_file (core/io/logger.cpp:169)
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+WARNING: 12 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 3 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)
+
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS: Title pauses gameplay
+PASS: Player settles on collision floor
+PASS: Movement advances the player
+PASS: Jump leaves the floor
+PASS: First raised platform is reachable by a normal jump
+PASS: Lantern checkpoint activates
+PASS: Lethal damage restores health at checkpoint
+PASS: Sword damages enemy during active window
+PASS: Two sword hits defeat a thornling
+PASS: Nearby light seed is collected
+PASS: Pause freezes physics
+PASS: Arch rejects insufficient seeds
+PASS: Arch completes trail with three seeds
+SMOKE TEST: PASS (0 failures)
+ERROR: Failed to open 'user://logs/godot2026-10-18T05.31.54.log'.
+   at: copy (core/io/dir_access.cpp:429)
+ERROR: Failed to open log file for writing: user://logs/godot.log
+   at: rotate_file (core/io/logger.cpp:169)
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS: Four independent native parallax planes are present
+PASS: Sky plane moves at 0.12 camera speed
+PASS: ForestHorizon plane moves at 0.28 camera speed
+PASS: DistantVillage plane moves at 0.42 camera speed
+PASS: NearCanopy plane moves at 1.12 camera speed
+PASS: Visual grounding retains the collision floor
+PASS: interact0 uses a visible-bounds foot anchor
+PASS: interact1 uses a visible-bounds foot anchor
+PASS: interact2 uses a visible-bounds foot anchor
+PASS: rusk uses a visible-bounds foot anchor
+PASS: villager uses a visible-bounds foot anchor
+PARALLAX TEST: PASS (0 failures)
+ERROR: Failed to open 'user://logs/godot2026-10-18T05.31.59.log'.
+   at: copy (core/io/dir_access.cpp:429)
+ERROR: Failed to open log file for writing: user://logs/godot.log
+   at: rotate_file (core/io/logger.cpp:169)
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS: Chapter can launch directly with a title
+PASS: Chapter intro is skippable dialogue
+PASS: Chapter spawn settles on authored terrain
+PASS: Forest and temple have independent four-layer backgrounds
+PASS: Trail marker inspection records the introduction
+PASS: First root gap is crossable with a normal jump
+PASS: Wider second root gap is crossable with a normal jump
+PASS: Optional watchpost first step is reachable
+PASS: Optional token is collected by reaching the watchpost ledge
+PASS: Incorrect rune input resets gently without damage
+PASS: Nearest prompt selects rune III rather than the adjacent arch
+PASS: Actual interact-button input activates the nearby rune
+PASS: Standing by the arch selects its story interaction
+PASS: Actual interact-button input opens the arch clue
+PASS: Rune clue exposes a complete visual sequence without sound
+PASS: Five correct rune activations unlock the crossing
+PASS: Generated root crossing reflects solved state
+PASS: Revealed root platforms provide a fully traversable crossing
+PASS: Chapter exit requires the fragment
+PASS: Fragment cannot be collected before Sentinel defeat
+PASS: Temple checkpoint activates near its generated mark
+PASS: Defeat restores full health at the temple checkpoint
+PASS: Checkpoint recovery restores the unstarted Sentinel encounter
+PASS: Arena entry wakes the Hollow Sentinel
+PASS: Sentinel awakening cannot be skipped by sword damage
+PASS: Player sword damages the active Sentinel once per swing
+PASS: Pause freezes boss state and audio presentation
+PASS: Half-health Sentinel enters its second phase
+PASS: Second phase telegraphs a root wave
+PASS: Root-wave safe pocket and facing remain locked during the warning
+PASS: Visible safe ground avoids the Sentinel root wave
+PASS: Root-wave danger ground deals one readable hit
+PASS: A single wave does not chain-hit the player
+PASS: Losing to the boss resets it for a quick checkpoint retry
+PASS: Checkpoint retry preserves solved puzzle and optional discovery
+PASS: Sentinel defeat opens the arena and removes attack targeting
+PASS: Golden Fragment reveals the generated orchard memory
+PASS: Memory closes after skippable fragment dialogue
+PASS: Fragment collection is one-shot
+PASS: Fragment and exit complete The Forgotten Trail
+PASS: Chapter restart resets puzzle, optional token, fragment and boss
+PASS: Restart returns to a usable chapter title
+CHAPTER 1 TEST: PASS (0 failures)
+ERROR: Failed to open 'user://logs/godot2026-10-18T05.31.59.log'.
+   at: copy (core/io/dir_access.cpp:429)
+ERROR: Failed to open log file for writing: user://logs/godot.log
+   at: rotate_file (core/io/logger.cpp:169)
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)

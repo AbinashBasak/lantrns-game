@@ -1054,8 +1054,93 @@
       ]
     }
   ],
-  "stage": "prototype_sources_and_exports_reviewed",
+  "stage": "selected prologue exports integrated and desktop-reviewed; full-pack and release/device approval pending",
   "requested_deliverables_saved_and_reviewed": true,
   "production_approved": false,
-  "asset_id": "ENV-01"
+  "asset_id": "ENV-01",
+  "runtime_integrated": true,
+  "runtime_integrations": {
+    "prologue": {
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/prologue-asset-integration.json",
+      "paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/ENV-01_rusk_idle.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/ENV-01_villager_idle.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/ENV-01_distant_background.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/ENV-01_midground.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/ENV-01_foreground.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/ENV-01_decorative_props_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/ENV-01_decorative_props_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/ENV-01_decorative_props_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/ENV-01_decorative_props_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/ENV-01_decorative_props_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/ENV-01_decorative_props_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/ENV-01_decorative_props_07.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/ENV-01_interactive_props_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/ENV-01_interactive_props_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/ENV-01_interactive_props_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/ENV-01_interactive_props_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/ENV-01_interactive_props_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/ENV-01_interactive_props_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/ENV-01_distant_background_mirrored.png"
+      ],
+      "validation": {
+        "scope": "selected prologue exports",
+        "engine": "Godot4.7.2",
+        "platform": "macOS",
+        "checked": "2026-10-18T03:06:39.226816+05:30",
+        "release_approved": false
+      },
+      "parallax_revision": {
+        "native_layers": {
+          "sky": 0.12,
+          "forest_horizon": 0.28,
+          "distant_village": 0.42,
+          "near_canopy": 1.12
+        },
+        "ground_plane_y": 620,
+        "turf_draw_origin_y": 616,
+        "grounding": "visible alpha bounds with source crop hashes; actor pivots retained",
+        "layout": "cottage lane, Hearthlight square, supply bridge, rescue roots, warden cottages/forest threshold",
+        "motion_validation": "11 tests verify native screen displacement and foot-anchor availability; captures reviewed at multiple camera positions",
+        "design_references": [
+          "https://docs.godotengine.org/en/stable/tutorials/2d/2d_parallax.html",
+          "https://www.gamedeveloper.com/design/level-design-tricks-of-the-trade"
+        ]
+      }
+    }
+  },
+  "last_updated": "2026-10-18T03:06:39.226816+05:30",
+  "supplemental_supporting_cast": {
+    "generation_tool": "built-in image_gen",
+    "prompt": "Two isolated village supporting NPCs matching Tavi hand-painted style: elderly Rusk in moss cloak with staff and practical female cart-tender in terracotta scarf/green apron. Second pass requests strict transparent cutout preserving silhouettes.",
+    "sources": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-01/source_images/ENV-01_supporting_cast_generation_01.png",
+        "sha256": "dafce91b7db452ad96eb16dd27ad08668b432165ea0220003e4222dd86832fe6",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "provenance": "unchanged built-in image_gen output",
+        "selected": false
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-01/source_images/ENV-01_supporting_cast_generation_02.png",
+        "sha256": "f67eaa3ce63e2207639aa3a1c2ccb5940771346fe5f0c9b6c40fb521a69936fa",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "provenance": "unchanged built-in image_gen output",
+        "selected": true
+      }
+    ],
+    "exports": [
+      "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_rusk_idle.png",
+      "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_villager_idle.png"
+    ],
+    "runtime_manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/environment/npc_manifest.json",
+    "review": "Sprites and alpha inspected; feet aligned and visually reviewed in prologue; static idle only, no animation claim."
+  },
+  "archive_stage_before_runtime_integration": "prototype_sources_and_exports_reviewed"
 }

@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/enemies/hollow_sentinel.gd" id="1"]
+
+[sub_resource type="RectangleShape2D" id="Body"]
+size = Vector2(86, 152)
+
+[node name="HollowSentinel" type="CharacterBody2D"]
+collision_layer = 4
+collision_mask = 1
+script = ExtResource("1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -76)
+shape = SubResource("Body")

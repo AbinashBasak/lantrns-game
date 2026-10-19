@@ -7,7 +7,7 @@
   "generation_tool": "procedural (Pillow + numpy; tools/generate_phase07_fx.py)",
   "production_approved": false,
   "runtime_integrated": false,
-  "last_updated": "2026-10-17T21:17:45.823461+05:30",
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
   "stage": "procedural prototype frames, previews and metadata saved; art direction review, in-engine timing and runtime integration pending",
   "requested_deliverables_saved_and_reviewed": true,
   "deliverables": [
@@ -254,5 +254,130 @@
   "review_notes": [
     "Prototype effect art for timing and readability; not final production approval.",
     "No Godot scene, AnimatedSprite2D, particle or shader integration implied."
-  ]
+  ],
+  "runtime_integrations": {
+    "chapter01": {
+      "updated": "2026-10-18T05:32:46.261707+05:30",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
+      "scope": "Selected Chapter 1 runtime exports and reused opening-game assets; macOS/Godot 4.7.2 gameplay/visual checks. Full-pack, listening, physical-device and release approval remain separate.",
+      "status": "integrated selected exports",
+      "release_approved": false,
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_00.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_07.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_08.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_09.png"
+      ],
+      "prepared_only_paths": [],
+      "files": [
+        {
+          "asset_id": "FX-014",
+          "path": "assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_00.png",
+          "source": "assets/production/phase_07_visual_effects/FX-014/exports/FX-014_checkpoint_activation_00.png",
+          "source_sha256": "be5f8d07efa059cbe64ae93e4e4bbee51b9963f09c218208cc09151d8f30cacb",
+          "sha256": "be5f8d07efa059cbe64ae93e4e4bbee51b9963f09c218208cc09151d8f30cacb",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-014",
+          "path": "assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_01.png",
+          "source": "assets/production/phase_07_visual_effects/FX-014/exports/FX-014_checkpoint_activation_01.png",
+          "source_sha256": "e66043ae93a799d746bf0e5abdef2397234d45dfd10f22f559cb08b1d48e02df",
+          "sha256": "e66043ae93a799d746bf0e5abdef2397234d45dfd10f22f559cb08b1d48e02df",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-014",
+          "path": "assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_02.png",
+          "source": "assets/production/phase_07_visual_effects/FX-014/exports/FX-014_checkpoint_activation_02.png",
+          "source_sha256": "30f43727c1b37578863f3c0dc6d0494a90c35f6300b74e496449e43a571b9c85",
+          "sha256": "30f43727c1b37578863f3c0dc6d0494a90c35f6300b74e496449e43a571b9c85",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-014",
+          "path": "assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_03.png",
+          "source": "assets/production/phase_07_visual_effects/FX-014/exports/FX-014_checkpoint_activation_03.png",
+          "source_sha256": "8253ba28060a3794d690ffcbe0f5e2342e3e7d20d0d10a77c07e3747e984512a",
+          "sha256": "8253ba28060a3794d690ffcbe0f5e2342e3e7d20d0d10a77c07e3747e984512a",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-014",
+          "path": "assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_04.png",
+          "source": "assets/production/phase_07_visual_effects/FX-014/exports/FX-014_checkpoint_activation_04.png",
+          "source_sha256": "070a7c7928b33a8284f1a832e1eb623e9db5652c7bb0fcc560beb34b82e82a46",
+          "sha256": "070a7c7928b33a8284f1a832e1eb623e9db5652c7bb0fcc560beb34b82e82a46",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-014",
+          "path": "assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_05.png",
+          "source": "assets/production/phase_07_visual_effects/FX-014/exports/FX-014_checkpoint_activation_05.png",
+          "source_sha256": "ed0061f0faf0e3bab8275d05f147aff6d3e965337f4f868148ec0aa054377ae0",
+          "sha256": "ed0061f0faf0e3bab8275d05f147aff6d3e965337f4f868148ec0aa054377ae0",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-014",
+          "path": "assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_06.png",
+          "source": "assets/production/phase_07_visual_effects/FX-014/exports/FX-014_checkpoint_activation_06.png",
+          "source_sha256": "1c36c66d163feaa1a432e88916b466a0a54d684558ae9da3d748ea80f96c48b2",
+          "sha256": "1c36c66d163feaa1a432e88916b466a0a54d684558ae9da3d748ea80f96c48b2",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-014",
+          "path": "assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_07.png",
+          "source": "assets/production/phase_07_visual_effects/FX-014/exports/FX-014_checkpoint_activation_07.png",
+          "source_sha256": "a8276a5265af693ebfa80a0a116a48412cb2cadc80e17451f7bb65b74a343414",
+          "sha256": "a8276a5265af693ebfa80a0a116a48412cb2cadc80e17451f7bb65b74a343414",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-014",
+          "path": "assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_08.png",
+          "source": "assets/production/phase_07_visual_effects/FX-014/exports/FX-014_checkpoint_activation_08.png",
+          "source_sha256": "6ccd2ac6f8e246a53085785c4004502c8d33f716c2a99f051c548cf5c19cd40c",
+          "sha256": "6ccd2ac6f8e246a53085785c4004502c8d33f716c2a99f051c548cf5c19cd40c",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        },
+        {
+          "asset_id": "FX-014",
+          "path": "assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_09.png",
+          "source": "assets/production/phase_07_visual_effects/FX-014/exports/FX-014_checkpoint_activation_09.png",
+          "source_sha256": "2d2016a63d60ba4da0591c2915d2aeedf252f5ce8d10c573baef7d55c61444a6",
+          "sha256": "2d2016a63d60ba4da0591c2915d2aeedf252f5ce8d10c573baef7d55c61444a6",
+          "status": "integrated",
+          "shared_with_prologue": false,
+          "preparation_manifest": "assets/runtime/chapter01/presentation/manifest.json"
+        }
+      ]
+    }
+  }
 }
