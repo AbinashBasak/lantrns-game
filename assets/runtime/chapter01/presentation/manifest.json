@@ -1,0 +1,1483 @@
+{
+  "audio": {
+    "forest_music": {
+      "path": "res://assets/runtime/chapter01/presentation/AUD-MUS-003_forest_exploration.ogg",
+      "loop": true,
+      "asset_id": "AUD-MUS-003"
+    },
+    "temple_music": {
+      "path": "res://assets/runtime/chapter01/presentation/AUD-MUS-004_temple_exploration.ogg",
+      "loop": true,
+      "asset_id": "AUD-MUS-004"
+    },
+    "boss_music": {
+      "path": "res://assets/runtime/chapter01/presentation/AUD-MUS-005_boss_battle.ogg",
+      "loop": true,
+      "asset_id": "AUD-MUS-005"
+    },
+    "forest_ambience": {
+      "path": "res://assets/runtime/chapter01/presentation/AUD-AMB-003_forest_birds_and_wind.ogg",
+      "loop": true,
+      "asset_id": "AUD-AMB-003"
+    },
+    "temple_ambience": {
+      "path": "res://assets/runtime/chapter01/presentation/AUD-AMB-004_cave_drips.ogg",
+      "loop": true,
+      "asset_id": "AUD-AMB-004"
+    },
+    "step": {
+      "path": "res://assets/runtime/chapter01/presentation/AUD-SFX-001_running_on_grass_step_1.ogg",
+      "loop": false,
+      "asset_id": "AUD-SFX-001"
+    },
+    "stone_step": {
+      "path": "res://assets/runtime/chapter01/presentation/AUD-SFX-002_running_on_stone_step_1.ogg",
+      "loop": false,
+      "asset_id": "AUD-SFX-002"
+    },
+    "jump": {
+      "path": "res://assets/runtime/chapter01/presentation/AUD-SFX-003_jump.ogg",
+      "loop": false,
+      "asset_id": "AUD-SFX-003"
+    },
+    "land": {
+      "path": "res://assets/runtime/chapter01/presentation/AUD-SFX-004_landing_soft.ogg",
+      "loop": false,
+      "asset_id": "AUD-SFX-004"
+    },
+    "swing": {
+      "path": "res://assets/runtime/chapter01/presentation/AUD-SFX-005_sword_swing_swing_1.ogg",
+      "loop": false,
+      "asset_id": "AUD-SFX-005"
+    },
+    "impact": {
+      "path": "res://assets/runtime/chapter01/presentation/AUD-SFX-006_sword_impact_impact_1.ogg",
+      "loop": false,
+      "asset_id": "AUD-SFX-006"
+    },
+    "enemy_attack": {
+      "path": "res://assets/runtime/chapter01/presentation/AUD-SFX-007_enemy_attack_attack_1.ogg",
+      "loop": false,
+      "asset_id": "AUD-SFX-007"
+    },
+    "enemy_defeat": {
+      "path": "res://assets/runtime/chapter01/presentation/AUD-SFX-008_enemy_defeat.ogg",
+      "loop": false,
+      "asset_id": "AUD-SFX-008"
+    },
+    "hurt": {
+      "path": "res://assets/runtime/chapter01/presentation/AUD-SFX-009_player_hurt_hurt_1.ogg",
+      "loop": false,
+      "asset_id": "AUD-SFX-009"
+    },
+    "fragment": {
+      "path": "res://assets/runtime/chapter01/presentation/AUD-SFX-011_collectible_pickup.ogg",
+      "loop": false,
+      "asset_id": "AUD-SFX-011"
+    },
+    "rune": {
+      "path": "res://assets/runtime/chapter01/presentation/AUD-SFX-012_rune_activation.ogg",
+      "loop": false,
+      "asset_id": "AUD-SFX-012"
+    },
+    "checkpoint": {
+      "path": "res://assets/runtime/chapter01/presentation/AUD-SFX-013_checkpoint_activation.ogg",
+      "loop": false,
+      "asset_id": "AUD-SFX-013"
+    },
+    "puzzle_complete": {
+      "path": "res://assets/runtime/chapter01/presentation/AUD-SFX-014_door_opening.ogg",
+      "loop": false,
+      "asset_id": "AUD-SFX-014"
+    },
+    "boss_slam": {
+      "path": "res://assets/runtime/chapter01/presentation/AUD-SFX-015_boss_attack_set_slam.ogg",
+      "loop": false,
+      "asset_id": "AUD-SFX-015"
+    },
+    "boss_damage": {
+      "path": "res://assets/runtime/chapter01/presentation/AUD-SFX-016_boss_damage.ogg",
+      "loop": false,
+      "asset_id": "AUD-SFX-016"
+    },
+    "boss_defeat": {
+      "path": "res://assets/runtime/chapter01/presentation/AUD-SFX-017_boss_defeat.ogg",
+      "loop": false,
+      "asset_id": "AUD-SFX-017"
+    },
+    "ui": {
+      "path": "res://assets/runtime/chapter01/presentation/AUD-SFX-018_ui_selection_and_confirmation_select.ogg",
+      "loop": false,
+      "asset_id": "AUD-SFX-018"
+    }
+  },
+  "animations": {
+    "swing": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-001_sword_swing_trail_00.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-001_sword_swing_trail_01.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-001_sword_swing_trail_02.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-001_sword_swing_trail_03.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-001_sword_swing_trail_04.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-001_sword_swing_trail_05.png"
+        }
+      ],
+      "durations_ms": [
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0,
+        50.0
+      ],
+      "loop": false,
+      "pivot_px": [
+        80,
+        120
+      ],
+      "asset_id": "FX-001"
+    },
+    "impact": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-002_sword_impact_sparks_00.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-002_sword_impact_sparks_01.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-002_sword_impact_sparks_02.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-002_sword_impact_sparks_03.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-002_sword_impact_sparks_04.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-002_sword_impact_sparks_05.png"
+        }
+      ],
+      "durations_ms": [
+        41.666666666666664,
+        41.666666666666664,
+        41.666666666666664,
+        41.666666666666664,
+        41.666666666666664,
+        41.666666666666664
+      ],
+      "loop": false,
+      "pivot_px": [
+        64,
+        64
+      ],
+      "asset_id": "FX-002"
+    },
+    "enemy_defeat": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_00.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_01.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_02.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_03.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_04.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_05.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_06.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_07.png"
+        }
+      ],
+      "durations_ms": [
+        62.5,
+        62.5,
+        62.5,
+        62.5,
+        62.5,
+        62.5,
+        62.5,
+        62.5
+      ],
+      "loop": false,
+      "pivot_px": [
+        96,
+        92
+      ],
+      "asset_id": "FX-004"
+    },
+    "jump": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-006_jump_takeoff_puff_00.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-006_jump_takeoff_puff_01.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-006_jump_takeoff_puff_02.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-006_jump_takeoff_puff_03.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-006_jump_takeoff_puff_04.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-006_jump_takeoff_puff_05.png"
+        }
+      ],
+      "durations_ms": [
+        62.5,
+        62.5,
+        62.5,
+        62.5,
+        62.5,
+        62.5
+      ],
+      "loop": false,
+      "pivot_px": [
+        64,
+        104
+      ],
+      "asset_id": "FX-006"
+    },
+    "land": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-007_landing_dust_00.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-007_landing_dust_01.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-007_landing_dust_02.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-007_landing_dust_03.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-007_landing_dust_04.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-007_landing_dust_05.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-007_landing_dust_06.png"
+        }
+      ],
+      "durations_ms": [
+        62.5,
+        62.5,
+        62.5,
+        62.5,
+        62.5,
+        62.5,
+        62.5
+      ],
+      "loop": false,
+      "pivot_px": [
+        96,
+        108
+      ],
+      "asset_id": "FX-007"
+    },
+    "rune": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-011_rune_activation_00.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-011_rune_activation_01.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-011_rune_activation_02.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-011_rune_activation_03.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-011_rune_activation_04.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-011_rune_activation_05.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-011_rune_activation_06.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-011_rune_activation_07.png"
+        }
+      ],
+      "durations_ms": [
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143
+      ],
+      "loop": false,
+      "pivot_px": [
+        96,
+        96
+      ],
+      "asset_id": "FX-011"
+    },
+    "puzzle_complete": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-012_hidden_platform_reveal_00.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-012_hidden_platform_reveal_01.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-012_hidden_platform_reveal_02.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-012_hidden_platform_reveal_03.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-012_hidden_platform_reveal_04.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-012_hidden_platform_reveal_05.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-012_hidden_platform_reveal_06.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-012_hidden_platform_reveal_07.png"
+        }
+      ],
+      "durations_ms": [
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143
+      ],
+      "loop": false,
+      "pivot_px": [
+        128,
+        56
+      ],
+      "asset_id": "FX-012"
+    },
+    "fragment": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-013_collectible_pickup_00.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-013_collectible_pickup_01.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-013_collectible_pickup_02.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-013_collectible_pickup_03.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-013_collectible_pickup_04.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-013_collectible_pickup_05.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-013_collectible_pickup_06.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-013_collectible_pickup_07.png"
+        }
+      ],
+      "durations_ms": [
+        55.55555555555556,
+        55.55555555555556,
+        55.55555555555556,
+        55.55555555555556,
+        55.55555555555556,
+        55.55555555555556,
+        55.55555555555556,
+        55.55555555555556
+      ],
+      "loop": false,
+      "pivot_px": [
+        64,
+        70
+      ],
+      "asset_id": "FX-013"
+    },
+    "checkpoint": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_00.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_01.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_02.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_03.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_04.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_05.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_06.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_07.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_08.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_09.png"
+        }
+      ],
+      "durations_ms": [
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143
+      ],
+      "loop": false,
+      "pivot_px": [
+        96,
+        226
+      ],
+      "asset_id": "FX-014"
+    },
+    "boss_slam": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_00.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_01.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_02.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_03.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_04.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_05.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_06.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_07.png"
+        }
+      ],
+      "durations_ms": [
+        62.5,
+        62.5,
+        62.5,
+        62.5,
+        62.5,
+        62.5,
+        62.5,
+        62.5
+      ],
+      "loop": false,
+      "pivot_px": [
+        160,
+        130
+      ],
+      "asset_id": "FX-015"
+    },
+    "boss_defeat": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_00.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_01.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_02.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_03.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_04.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_05.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_06.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_07.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_08.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_09.png"
+        }
+      ],
+      "durations_ms": [
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143
+      ],
+      "loop": false,
+      "pivot_px": [
+        160,
+        160
+      ],
+      "asset_id": "FX-017"
+    },
+    "respawn": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_00.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_01.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_02.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_03.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_04.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_05.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_06.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_07.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_08.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_09.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_10.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_11.png"
+        }
+      ],
+      "durations_ms": [
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143,
+        71.42857142857143
+      ],
+      "loop": false,
+      "pivot_px": [
+        96,
+        118
+      ],
+      "asset_id": "FX-018"
+    }
+  },
+  "records": [
+    {
+      "asset_id": "AUD-MUS-003",
+      "source": "assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-003/exports/AUD-MUS-003_forest_exploration.ogg",
+      "runtime": "res://assets/runtime/chapter01/presentation/AUD-MUS-003_forest_exploration.ogg",
+      "source_sha256": "4b4f2871f9fc51aa5025c3f2f1cc5f309731cb4092bac30f76b54cb4a004f455",
+      "runtime_sha256": "4b4f2871f9fc51aa5025c3f2f1cc5f309731cb4092bac30f76b54cb4a004f455"
+    },
+    {
+      "asset_id": "AUD-MUS-004",
+      "source": "assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-004/exports/AUD-MUS-004_temple_exploration.ogg",
+      "runtime": "res://assets/runtime/chapter01/presentation/AUD-MUS-004_temple_exploration.ogg",
+      "source_sha256": "32846460e8c8285d56f2cd0b0feebc99246832221bb78fcbf49c393883c2d2ff",
+      "runtime_sha256": "32846460e8c8285d56f2cd0b0feebc99246832221bb78fcbf49c393883c2d2ff"
+    },
+    {
+      "asset_id": "AUD-MUS-005",
+      "source": "assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-005/exports/AUD-MUS-005_boss_battle.ogg",
+      "runtime": "res://assets/runtime/chapter01/presentation/AUD-MUS-005_boss_battle.ogg",
+      "source_sha256": "9d98da4545b84309ffe734eb951dc307f47998dd81febcd87e55c2c11740d25b",
+      "runtime_sha256": "9d98da4545b84309ffe734eb951dc307f47998dd81febcd87e55c2c11740d25b"
+    },
+    {
+      "asset_id": "AUD-AMB-003",
+      "source": "assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-003/exports/AUD-AMB-003_forest_birds_and_wind.ogg",
+      "runtime": "res://assets/runtime/chapter01/presentation/AUD-AMB-003_forest_birds_and_wind.ogg",
+      "source_sha256": "f321f03c57b585fd27e2811047c5bc95ecc32c3a0b79582ffd3014d524d9b657",
+      "runtime_sha256": "f321f03c57b585fd27e2811047c5bc95ecc32c3a0b79582ffd3014d524d9b657"
+    },
+    {
+      "asset_id": "AUD-AMB-004",
+      "source": "assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-004/exports/AUD-AMB-004_cave_drips.ogg",
+      "runtime": "res://assets/runtime/chapter01/presentation/AUD-AMB-004_cave_drips.ogg",
+      "source_sha256": "47daa399bdfd06b1417defdd8a4572229f876e71448f3802839e18e6dcc99e76",
+      "runtime_sha256": "47daa399bdfd06b1417defdd8a4572229f876e71448f3802839e18e6dcc99e76"
+    },
+    {
+      "asset_id": "AUD-SFX-001",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-001/exports/AUD-SFX-001_running_on_grass_step_1.ogg",
+      "runtime": "res://assets/runtime/chapter01/presentation/AUD-SFX-001_running_on_grass_step_1.ogg",
+      "source_sha256": "ded0cbe2828ffa4d15e903349e81dcd33b9407c39d2acc84ff3ede40036579e2",
+      "runtime_sha256": "ded0cbe2828ffa4d15e903349e81dcd33b9407c39d2acc84ff3ede40036579e2"
+    },
+    {
+      "asset_id": "AUD-SFX-002",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-002/exports/AUD-SFX-002_running_on_stone_step_1.ogg",
+      "runtime": "res://assets/runtime/chapter01/presentation/AUD-SFX-002_running_on_stone_step_1.ogg",
+      "source_sha256": "2f55e1f142177216d0eaaef9e409ed7b7dc7f254b4e0470e60dc43b66023af97",
+      "runtime_sha256": "2f55e1f142177216d0eaaef9e409ed7b7dc7f254b4e0470e60dc43b66023af97"
+    },
+    {
+      "asset_id": "AUD-SFX-003",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-003/exports/AUD-SFX-003_jump.ogg",
+      "runtime": "res://assets/runtime/chapter01/presentation/AUD-SFX-003_jump.ogg",
+      "source_sha256": "5b03952474a36fa7b0619cbda64076085c0d40437478e97e1f99f0aae1f493df",
+      "runtime_sha256": "5b03952474a36fa7b0619cbda64076085c0d40437478e97e1f99f0aae1f493df"
+    },
+    {
+      "asset_id": "AUD-SFX-004",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-004/exports/AUD-SFX-004_landing_soft.ogg",
+      "runtime": "res://assets/runtime/chapter01/presentation/AUD-SFX-004_landing_soft.ogg",
+      "source_sha256": "17878613c49633ed7c4ee9353b1709b874df215e72acdfbfd1425893346d7fb5",
+      "runtime_sha256": "17878613c49633ed7c4ee9353b1709b874df215e72acdfbfd1425893346d7fb5"
+    },
+    {
+      "asset_id": "AUD-SFX-005",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-005/exports/AUD-SFX-005_sword_swing_swing_1.ogg",
+      "runtime": "res://assets/runtime/chapter01/presentation/AUD-SFX-005_sword_swing_swing_1.ogg",
+      "source_sha256": "bdc235b2b25564d3d20372579c4cf6f79a5335ae738625e8970536358d0caac6",
+      "runtime_sha256": "bdc235b2b25564d3d20372579c4cf6f79a5335ae738625e8970536358d0caac6"
+    },
+    {
+      "asset_id": "AUD-SFX-006",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-006/exports/AUD-SFX-006_sword_impact_impact_1.ogg",
+      "runtime": "res://assets/runtime/chapter01/presentation/AUD-SFX-006_sword_impact_impact_1.ogg",
+      "source_sha256": "44613f34d44d310336f1ea9fccc06385e1dedac06aed0c3cb29955e98e0e7f22",
+      "runtime_sha256": "44613f34d44d310336f1ea9fccc06385e1dedac06aed0c3cb29955e98e0e7f22"
+    },
+    {
+      "asset_id": "AUD-SFX-007",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-007/exports/AUD-SFX-007_enemy_attack_attack_1.ogg",
+      "runtime": "res://assets/runtime/chapter01/presentation/AUD-SFX-007_enemy_attack_attack_1.ogg",
+      "source_sha256": "51236de7dbc58ba8f97fd9c5fe7cfb8e97ab3932a016bd11688930dd4848f53e",
+      "runtime_sha256": "51236de7dbc58ba8f97fd9c5fe7cfb8e97ab3932a016bd11688930dd4848f53e"
+    },
+    {
+      "asset_id": "AUD-SFX-008",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-008/exports/AUD-SFX-008_enemy_defeat.ogg",
+      "runtime": "res://assets/runtime/chapter01/presentation/AUD-SFX-008_enemy_defeat.ogg",
+      "source_sha256": "b93a60245012b9f33fa2c460f7c2a7710ae802a495fb83dba4ce5b67f91d939c",
+      "runtime_sha256": "b93a60245012b9f33fa2c460f7c2a7710ae802a495fb83dba4ce5b67f91d939c"
+    },
+    {
+      "asset_id": "AUD-SFX-009",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-009/exports/AUD-SFX-009_player_hurt_hurt_1.ogg",
+      "runtime": "res://assets/runtime/chapter01/presentation/AUD-SFX-009_player_hurt_hurt_1.ogg",
+      "source_sha256": "bacdcf8fb1c83ae93fef17b331a81de1758ba800c90de80df1dcdb75cdec517b",
+      "runtime_sha256": "bacdcf8fb1c83ae93fef17b331a81de1758ba800c90de80df1dcdb75cdec517b"
+    },
+    {
+      "asset_id": "AUD-SFX-011",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-011/exports/AUD-SFX-011_collectible_pickup.ogg",
+      "runtime": "res://assets/runtime/chapter01/presentation/AUD-SFX-011_collectible_pickup.ogg",
+      "source_sha256": "d7dd25e3039f83e5eddeb3426737a852e8613ea2d79648d142e4bbf24cfda952",
+      "runtime_sha256": "d7dd25e3039f83e5eddeb3426737a852e8613ea2d79648d142e4bbf24cfda952"
+    },
+    {
+      "asset_id": "AUD-SFX-012",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-012/exports/AUD-SFX-012_rune_activation.ogg",
+      "runtime": "res://assets/runtime/chapter01/presentation/AUD-SFX-012_rune_activation.ogg",
+      "source_sha256": "f8b08cc423ae14742134a13833ecef61b00680c05e5ab5c172e2c5774c770511",
+      "runtime_sha256": "f8b08cc423ae14742134a13833ecef61b00680c05e5ab5c172e2c5774c770511"
+    },
+    {
+      "asset_id": "AUD-SFX-013",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-013/exports/AUD-SFX-013_checkpoint_activation.ogg",
+      "runtime": "res://assets/runtime/chapter01/presentation/AUD-SFX-013_checkpoint_activation.ogg",
+      "source_sha256": "79a7df0d07d35af0d9230ad52d14047b4c28a28da1bc43d3517537d43ae2ef4c",
+      "runtime_sha256": "79a7df0d07d35af0d9230ad52d14047b4c28a28da1bc43d3517537d43ae2ef4c"
+    },
+    {
+      "asset_id": "AUD-SFX-014",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-014/exports/AUD-SFX-014_door_opening.ogg",
+      "runtime": "res://assets/runtime/chapter01/presentation/AUD-SFX-014_door_opening.ogg",
+      "source_sha256": "17ce3e23355d018edd0fdfde16c81b2f0ac660226a7c4ab7ce8708fb78def6de",
+      "runtime_sha256": "17ce3e23355d018edd0fdfde16c81b2f0ac660226a7c4ab7ce8708fb78def6de"
+    },
+    {
+      "asset_id": "AUD-SFX-015",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-015/exports/AUD-SFX-015_boss_attack_set_slam.ogg",
+      "runtime": "res://assets/runtime/chapter01/presentation/AUD-SFX-015_boss_attack_set_slam.ogg",
+      "source_sha256": "6da0ba862061d415c2548d41445955cf4b98bf8bf8d8cb0565c7f29f099b7802",
+      "runtime_sha256": "6da0ba862061d415c2548d41445955cf4b98bf8bf8d8cb0565c7f29f099b7802"
+    },
+    {
+      "asset_id": "AUD-SFX-016",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-016/exports/AUD-SFX-016_boss_damage.ogg",
+      "runtime": "res://assets/runtime/chapter01/presentation/AUD-SFX-016_boss_damage.ogg",
+      "source_sha256": "99dc0ef59c9e2b63e20c25a0d1b9c92dcfc85b95f0101fe0a38fa2d5ed54efcd",
+      "runtime_sha256": "99dc0ef59c9e2b63e20c25a0d1b9c92dcfc85b95f0101fe0a38fa2d5ed54efcd"
+    },
+    {
+      "asset_id": "AUD-SFX-017",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-017/exports/AUD-SFX-017_boss_defeat.ogg",
+      "runtime": "res://assets/runtime/chapter01/presentation/AUD-SFX-017_boss_defeat.ogg",
+      "source_sha256": "fbee8bd469bbd0de846dcc48f14da20be88051a12f9a5d5feac4379d010ac898",
+      "runtime_sha256": "fbee8bd469bbd0de846dcc48f14da20be88051a12f9a5d5feac4379d010ac898"
+    },
+    {
+      "asset_id": "AUD-SFX-018",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-018/exports/AUD-SFX-018_ui_selection_and_confirmation_select.ogg",
+      "runtime": "res://assets/runtime/chapter01/presentation/AUD-SFX-018_ui_selection_and_confirmation_select.ogg",
+      "source_sha256": "29db44b75b4f3b3125392763ea9fefac2526ef07e1077fc89f0607a4b7b16bf3",
+      "runtime_sha256": "29db44b75b4f3b3125392763ea9fefac2526ef07e1077fc89f0607a4b7b16bf3"
+    },
+    {
+      "asset_id": "FX-001",
+      "source": "assets/production/phase_07_visual_effects/FX-001/exports/FX-001_sword_swing_trail_00.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-001_sword_swing_trail_00.png",
+      "source_sha256": "7b38241f94db3870d28ecaa7cb01e54cd4fcba48bee109eba192a9d3a17d7240",
+      "runtime_sha256": "7b38241f94db3870d28ecaa7cb01e54cd4fcba48bee109eba192a9d3a17d7240"
+    },
+    {
+      "asset_id": "FX-001",
+      "source": "assets/production/phase_07_visual_effects/FX-001/exports/FX-001_sword_swing_trail_01.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-001_sword_swing_trail_01.png",
+      "source_sha256": "599e1f48da530f5252d432f6821f9711e34bf10288a7e0ae1b5c61d70d71d6d8",
+      "runtime_sha256": "599e1f48da530f5252d432f6821f9711e34bf10288a7e0ae1b5c61d70d71d6d8"
+    },
+    {
+      "asset_id": "FX-001",
+      "source": "assets/production/phase_07_visual_effects/FX-001/exports/FX-001_sword_swing_trail_02.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-001_sword_swing_trail_02.png",
+      "source_sha256": "ea2ed3a04b078c6dee68d4023a5a3f8d71a7e7a04e0d9e53ce70246a800c4932",
+      "runtime_sha256": "ea2ed3a04b078c6dee68d4023a5a3f8d71a7e7a04e0d9e53ce70246a800c4932"
+    },
+    {
+      "asset_id": "FX-001",
+      "source": "assets/production/phase_07_visual_effects/FX-001/exports/FX-001_sword_swing_trail_03.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-001_sword_swing_trail_03.png",
+      "source_sha256": "2936876fe5ff50df05c8c26326eb8cd416a45a7d3990e1a8b16e031d66e5f36b",
+      "runtime_sha256": "2936876fe5ff50df05c8c26326eb8cd416a45a7d3990e1a8b16e031d66e5f36b"
+    },
+    {
+      "asset_id": "FX-001",
+      "source": "assets/production/phase_07_visual_effects/FX-001/exports/FX-001_sword_swing_trail_04.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-001_sword_swing_trail_04.png",
+      "source_sha256": "7068375611532ee96e9d547ec9bf6f669098a4c6f44e56b35f0b8a4fbf0ebb3b",
+      "runtime_sha256": "7068375611532ee96e9d547ec9bf6f669098a4c6f44e56b35f0b8a4fbf0ebb3b"
+    },
+    {
+      "asset_id": "FX-001",
+      "source": "assets/production/phase_07_visual_effects/FX-001/exports/FX-001_sword_swing_trail_05.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-001_sword_swing_trail_05.png",
+      "source_sha256": "6ccfb818224bb3f22d039dba9f947c5920363a7752d8356f29504a9b836442d1",
+      "runtime_sha256": "6ccfb818224bb3f22d039dba9f947c5920363a7752d8356f29504a9b836442d1"
+    },
+    {
+      "asset_id": "FX-002",
+      "source": "assets/production/phase_07_visual_effects/FX-002/exports/FX-002_sword_impact_sparks_00.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-002_sword_impact_sparks_00.png",
+      "source_sha256": "e3db3be75d257fc2d3250c844fdc8c11cc9fb94b06f4a6619906b984cf32d65b",
+      "runtime_sha256": "e3db3be75d257fc2d3250c844fdc8c11cc9fb94b06f4a6619906b984cf32d65b"
+    },
+    {
+      "asset_id": "FX-002",
+      "source": "assets/production/phase_07_visual_effects/FX-002/exports/FX-002_sword_impact_sparks_01.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-002_sword_impact_sparks_01.png",
+      "source_sha256": "440cccb8c32c1c362b7faa96ca5d0017493affbc001da2b7bc668932dd2f95a9",
+      "runtime_sha256": "440cccb8c32c1c362b7faa96ca5d0017493affbc001da2b7bc668932dd2f95a9"
+    },
+    {
+      "asset_id": "FX-002",
+      "source": "assets/production/phase_07_visual_effects/FX-002/exports/FX-002_sword_impact_sparks_02.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-002_sword_impact_sparks_02.png",
+      "source_sha256": "bfd8f8140781cb2c6c3f705afcebb40e79e1614fc855b8a816e61b5049e8eaaa",
+      "runtime_sha256": "bfd8f8140781cb2c6c3f705afcebb40e79e1614fc855b8a816e61b5049e8eaaa"
+    },
+    {
+      "asset_id": "FX-002",
+      "source": "assets/production/phase_07_visual_effects/FX-002/exports/FX-002_sword_impact_sparks_03.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-002_sword_impact_sparks_03.png",
+      "source_sha256": "8fd601ba60a5c2079cc1f1dd831272f1c837cc0d7ce318efa5ea1b7790f92c50",
+      "runtime_sha256": "8fd601ba60a5c2079cc1f1dd831272f1c837cc0d7ce318efa5ea1b7790f92c50"
+    },
+    {
+      "asset_id": "FX-002",
+      "source": "assets/production/phase_07_visual_effects/FX-002/exports/FX-002_sword_impact_sparks_04.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-002_sword_impact_sparks_04.png",
+      "source_sha256": "6b252792470f698428a6c1d76ad391c8fe5e5bfff60bb0aa9e9be2e66bce574c",
+      "runtime_sha256": "6b252792470f698428a6c1d76ad391c8fe5e5bfff60bb0aa9e9be2e66bce574c"
+    },
+    {
+      "asset_id": "FX-002",
+      "source": "assets/production/phase_07_visual_effects/FX-002/exports/FX-002_sword_impact_sparks_05.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-002_sword_impact_sparks_05.png",
+      "source_sha256": "0c73c78cb7f4ab133e35da9561f85568763a369cfcd0b4432bac0f130a640139",
+      "runtime_sha256": "0c73c78cb7f4ab133e35da9561f85568763a369cfcd0b4432bac0f130a640139"
+    },
+    {
+      "asset_id": "FX-004",
+      "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_00.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_00.png",
+      "source_sha256": "382ebe90521582346193ef30423382bca89e83aa8f219a3017051d802cf12bd4",
+      "runtime_sha256": "382ebe90521582346193ef30423382bca89e83aa8f219a3017051d802cf12bd4"
+    },
+    {
+      "asset_id": "FX-004",
+      "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_01.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_01.png",
+      "source_sha256": "a14ce828ae4bb4122a2f3555e37482ef3f6bd93c6f7587fc3a199dac322edee7",
+      "runtime_sha256": "a14ce828ae4bb4122a2f3555e37482ef3f6bd93c6f7587fc3a199dac322edee7"
+    },
+    {
+      "asset_id": "FX-004",
+      "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_02.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_02.png",
+      "source_sha256": "e20ffc335b1cb030a4328a311baa3dd3c2f11da446431a01d5eba5b8c81cb49a",
+      "runtime_sha256": "e20ffc335b1cb030a4328a311baa3dd3c2f11da446431a01d5eba5b8c81cb49a"
+    },
+    {
+      "asset_id": "FX-004",
+      "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_03.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_03.png",
+      "source_sha256": "a0c6170a880be74e018f535d39d0e189659a3e716cd968349ac4b9aba27cd162",
+      "runtime_sha256": "a0c6170a880be74e018f535d39d0e189659a3e716cd968349ac4b9aba27cd162"
+    },
+    {
+      "asset_id": "FX-004",
+      "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_04.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_04.png",
+      "source_sha256": "15360b324664ce871bf7615ca9708870a938cd02f1d9bb6007a115dd699b44ab",
+      "runtime_sha256": "15360b324664ce871bf7615ca9708870a938cd02f1d9bb6007a115dd699b44ab"
+    },
+    {
+      "asset_id": "FX-004",
+      "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_05.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_05.png",
+      "source_sha256": "e79ea41e57182ceeddc3e287fbbb4143d96d1686a23d2decfc040a353e13896a",
+      "runtime_sha256": "e79ea41e57182ceeddc3e287fbbb4143d96d1686a23d2decfc040a353e13896a"
+    },
+    {
+      "asset_id": "FX-004",
+      "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_06.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_06.png",
+      "source_sha256": "ce5a7da57422b7ad2be80b067a2c7ef697a2607bc4ffc13358bb9c6c927a8a86",
+      "runtime_sha256": "ce5a7da57422b7ad2be80b067a2c7ef697a2607bc4ffc13358bb9c6c927a8a86"
+    },
+    {
+      "asset_id": "FX-004",
+      "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_07.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-004_enemy_defeat_particles_07.png",
+      "source_sha256": "088f3a7f84f0a6a638869f9a4e83a32f0662869494d1d0b5606003d1525d0951",
+      "runtime_sha256": "088f3a7f84f0a6a638869f9a4e83a32f0662869494d1d0b5606003d1525d0951"
+    },
+    {
+      "asset_id": "FX-006",
+      "source": "assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_00.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-006_jump_takeoff_puff_00.png",
+      "source_sha256": "e3476f28c54746d0cd798719fd91a981e6d6f22323716502d7409e0aa5baa5cd",
+      "runtime_sha256": "e3476f28c54746d0cd798719fd91a981e6d6f22323716502d7409e0aa5baa5cd"
+    },
+    {
+      "asset_id": "FX-006",
+      "source": "assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_01.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-006_jump_takeoff_puff_01.png",
+      "source_sha256": "5d7b2641e11b8aba7f96ed6b7de70da938350be975b96539209a088d83cc7533",
+      "runtime_sha256": "5d7b2641e11b8aba7f96ed6b7de70da938350be975b96539209a088d83cc7533"
+    },
+    {
+      "asset_id": "FX-006",
+      "source": "assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_02.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-006_jump_takeoff_puff_02.png",
+      "source_sha256": "08502558f87bd4031db3cef6da83d0e5bfd2d86174ab9f22efa65552dc313bb0",
+      "runtime_sha256": "08502558f87bd4031db3cef6da83d0e5bfd2d86174ab9f22efa65552dc313bb0"
+    },
+    {
+      "asset_id": "FX-006",
+      "source": "assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_03.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-006_jump_takeoff_puff_03.png",
+      "source_sha256": "f85553c97cc679b8a6ac2a9769bd51d9d89d26b3ad8585421a4bdcb7a48e9803",
+      "runtime_sha256": "f85553c97cc679b8a6ac2a9769bd51d9d89d26b3ad8585421a4bdcb7a48e9803"
+    },
+    {
+      "asset_id": "FX-006",
+      "source": "assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_04.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-006_jump_takeoff_puff_04.png",
+      "source_sha256": "64cc44048f2c2dcd9ce927b51e81b9429ce5ce5a07806d1786f403fa4041685c",
+      "runtime_sha256": "64cc44048f2c2dcd9ce927b51e81b9429ce5ce5a07806d1786f403fa4041685c"
+    },
+    {
+      "asset_id": "FX-006",
+      "source": "assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_05.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-006_jump_takeoff_puff_05.png",
+      "source_sha256": "6016d3b40796ca7674db7f37a01f1ad4e0bf9d7a122b1c1eb4a35a5c8c4a93df",
+      "runtime_sha256": "6016d3b40796ca7674db7f37a01f1ad4e0bf9d7a122b1c1eb4a35a5c8c4a93df"
+    },
+    {
+      "asset_id": "FX-007",
+      "source": "assets/production/phase_07_visual_effects/FX-007/exports/FX-007_landing_dust_00.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-007_landing_dust_00.png",
+      "source_sha256": "c8d8630de90a6c76468d83c779992acf8eac55ad7b02596350b1101f4e4a850c",
+      "runtime_sha256": "c8d8630de90a6c76468d83c779992acf8eac55ad7b02596350b1101f4e4a850c"
+    },
+    {
+      "asset_id": "FX-007",
+      "source": "assets/production/phase_07_visual_effects/FX-007/exports/FX-007_landing_dust_01.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-007_landing_dust_01.png",
+      "source_sha256": "c6f04c3965e260b8943c6dcddda53875ef96df4212ad88ca19203cb8e8c44514",
+      "runtime_sha256": "c6f04c3965e260b8943c6dcddda53875ef96df4212ad88ca19203cb8e8c44514"
+    },
+    {
+      "asset_id": "FX-007",
+      "source": "assets/production/phase_07_visual_effects/FX-007/exports/FX-007_landing_dust_02.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-007_landing_dust_02.png",
+      "source_sha256": "2d6907a7dd48b3fb736fffbc893085fe219410673ba806ea2db48f2619ac26b4",
+      "runtime_sha256": "2d6907a7dd48b3fb736fffbc893085fe219410673ba806ea2db48f2619ac26b4"
+    },
+    {
+      "asset_id": "FX-007",
+      "source": "assets/production/phase_07_visual_effects/FX-007/exports/FX-007_landing_dust_03.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-007_landing_dust_03.png",
+      "source_sha256": "1df62b62481757f67d61b7ea777580eff210335157ec0e6e79419bf0e1dbd02e",
+      "runtime_sha256": "1df62b62481757f67d61b7ea777580eff210335157ec0e6e79419bf0e1dbd02e"
+    },
+    {
+      "asset_id": "FX-007",
+      "source": "assets/production/phase_07_visual_effects/FX-007/exports/FX-007_landing_dust_04.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-007_landing_dust_04.png",
+      "source_sha256": "5678512c4c5c504066c68a71d2042897d531e492ea77c5ad371b550f175fae4d",
+      "runtime_sha256": "5678512c4c5c504066c68a71d2042897d531e492ea77c5ad371b550f175fae4d"
+    },
+    {
+      "asset_id": "FX-007",
+      "source": "assets/production/phase_07_visual_effects/FX-007/exports/FX-007_landing_dust_05.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-007_landing_dust_05.png",
+      "source_sha256": "266252ec745f58fe6b6e3626c118a399ce68403b39d8ce3087b7f49a8f7fdcfb",
+      "runtime_sha256": "266252ec745f58fe6b6e3626c118a399ce68403b39d8ce3087b7f49a8f7fdcfb"
+    },
+    {
+      "asset_id": "FX-007",
+      "source": "assets/production/phase_07_visual_effects/FX-007/exports/FX-007_landing_dust_06.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-007_landing_dust_06.png",
+      "source_sha256": "49450cc7fedab672fb908281e2213799728cd313b2b7544cb67c77bc046bbf82",
+      "runtime_sha256": "49450cc7fedab672fb908281e2213799728cd313b2b7544cb67c77bc046bbf82"
+    },
+    {
+      "asset_id": "FX-011",
+      "source": "assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_00.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-011_rune_activation_00.png",
+      "source_sha256": "f88c35ff4711277c90f8b823f457655048aaaeab131d7477e5f6b7a7a0fefe63",
+      "runtime_sha256": "f88c35ff4711277c90f8b823f457655048aaaeab131d7477e5f6b7a7a0fefe63"
+    },
+    {
+      "asset_id": "FX-011",
+      "source": "assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_01.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-011_rune_activation_01.png",
+      "source_sha256": "e2f4075f0a030f8afedfaa054cf414b3f0a77dd2f87e1d17a91cc53c642d48c0",
+      "runtime_sha256": "e2f4075f0a030f8afedfaa054cf414b3f0a77dd2f87e1d17a91cc53c642d48c0"
+    },
+    {
+      "asset_id": "FX-011",
+      "source": "assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_02.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-011_rune_activation_02.png",
+      "source_sha256": "7c9ef1b8daef64c5dbe1b8881be9870e8906e4deb994442bfbf389b4ed596e93",
+      "runtime_sha256": "7c9ef1b8daef64c5dbe1b8881be9870e8906e4deb994442bfbf389b4ed596e93"
+    },
+    {
+      "asset_id": "FX-011",
+      "source": "assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_03.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-011_rune_activation_03.png",
+      "source_sha256": "750ee5e219dcbea76ed307ca9b5803ed886524c1734243366a9f123cbfbf2a62",
+      "runtime_sha256": "750ee5e219dcbea76ed307ca9b5803ed886524c1734243366a9f123cbfbf2a62"
+    },
+    {
+      "asset_id": "FX-011",
+      "source": "assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_04.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-011_rune_activation_04.png",
+      "source_sha256": "6721a297f3589e1708331512d35782a5702b7525baa37c4edf05415f31da913d",
+      "runtime_sha256": "6721a297f3589e1708331512d35782a5702b7525baa37c4edf05415f31da913d"
+    },
+    {
+      "asset_id": "FX-011",
+      "source": "assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_05.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-011_rune_activation_05.png",
+      "source_sha256": "f827f03f242ed374a83c1c20deafac8f337fe45d97aa287c1724d4dd0130cfb1",
+      "runtime_sha256": "f827f03f242ed374a83c1c20deafac8f337fe45d97aa287c1724d4dd0130cfb1"
+    },
+    {
+      "asset_id": "FX-011",
+      "source": "assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_06.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-011_rune_activation_06.png",
+      "source_sha256": "836690b83d1f887719cbcb1a5026acd374422506797f87fa2e8feadb98c6a6c4",
+      "runtime_sha256": "836690b83d1f887719cbcb1a5026acd374422506797f87fa2e8feadb98c6a6c4"
+    },
+    {
+      "asset_id": "FX-011",
+      "source": "assets/production/phase_07_visual_effects/FX-011/exports/FX-011_rune_activation_07.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-011_rune_activation_07.png",
+      "source_sha256": "e71d0fa4abb2b9c96316b95aed03fd1fab418c9ef3fa5c6ec2b50113aeeb4d18",
+      "runtime_sha256": "e71d0fa4abb2b9c96316b95aed03fd1fab418c9ef3fa5c6ec2b50113aeeb4d18"
+    },
+    {
+      "asset_id": "FX-012",
+      "source": "assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_00.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-012_hidden_platform_reveal_00.png",
+      "source_sha256": "b39899fa39e804abfd9f62c084a748f537e64e582d7f4959e72ee20c7c7d9f22",
+      "runtime_sha256": "b39899fa39e804abfd9f62c084a748f537e64e582d7f4959e72ee20c7c7d9f22"
+    },
+    {
+      "asset_id": "FX-012",
+      "source": "assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_01.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-012_hidden_platform_reveal_01.png",
+      "source_sha256": "529ee22c15ea3500eac538141b490fd0c7b22bd3d444e5e24a3898823532306e",
+      "runtime_sha256": "529ee22c15ea3500eac538141b490fd0c7b22bd3d444e5e24a3898823532306e"
+    },
+    {
+      "asset_id": "FX-012",
+      "source": "assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_02.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-012_hidden_platform_reveal_02.png",
+      "source_sha256": "f1ec46bb59c039bb60ca7f2c22644687f44e8a9f413911f92cd71abed29bccc2",
+      "runtime_sha256": "f1ec46bb59c039bb60ca7f2c22644687f44e8a9f413911f92cd71abed29bccc2"
+    },
+    {
+      "asset_id": "FX-012",
+      "source": "assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_03.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-012_hidden_platform_reveal_03.png",
+      "source_sha256": "524271ecef0b0000084113c3b2f346695ea13f8b5283ba4d906fa48cab067223",
+      "runtime_sha256": "524271ecef0b0000084113c3b2f346695ea13f8b5283ba4d906fa48cab067223"
+    },
+    {
+      "asset_id": "FX-012",
+      "source": "assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_04.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-012_hidden_platform_reveal_04.png",
+      "source_sha256": "7c316e60e92fb34e020a7af8a7e4cb0cfdfff9b5f10cabcc04fef37dfa573388",
+      "runtime_sha256": "7c316e60e92fb34e020a7af8a7e4cb0cfdfff9b5f10cabcc04fef37dfa573388"
+    },
+    {
+      "asset_id": "FX-012",
+      "source": "assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_05.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-012_hidden_platform_reveal_05.png",
+      "source_sha256": "034ee3d59749687c97ae703535073b561e9f65fd76cf0fe12bd19a0a0b47876a",
+      "runtime_sha256": "034ee3d59749687c97ae703535073b561e9f65fd76cf0fe12bd19a0a0b47876a"
+    },
+    {
+      "asset_id": "FX-012",
+      "source": "assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_06.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-012_hidden_platform_reveal_06.png",
+      "source_sha256": "5b10da406e59c6eb6fb3400c9f780eff6e4183234e2c2c9609e541ba7541d428",
+      "runtime_sha256": "5b10da406e59c6eb6fb3400c9f780eff6e4183234e2c2c9609e541ba7541d428"
+    },
+    {
+      "asset_id": "FX-012",
+      "source": "assets/production/phase_07_visual_effects/FX-012/exports/FX-012_hidden_platform_reveal_07.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-012_hidden_platform_reveal_07.png",
+      "source_sha256": "769918a59a2b0d3e8c213f57c61d57aba03bcee6aed246e5a53844f313f70872",
+      "runtime_sha256": "769918a59a2b0d3e8c213f57c61d57aba03bcee6aed246e5a53844f313f70872"
+    },
+    {
+      "asset_id": "FX-013",
+      "source": "assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_00.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-013_collectible_pickup_00.png",
+      "source_sha256": "1a12befccfddccde73cb1db2e32b6c7cb885a1e08b63e8f52a8d6c0773d88f1f",
+      "runtime_sha256": "1a12befccfddccde73cb1db2e32b6c7cb885a1e08b63e8f52a8d6c0773d88f1f"
+    },
+    {
+      "asset_id": "FX-013",
+      "source": "assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_01.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-013_collectible_pickup_01.png",
+      "source_sha256": "f72215912a92da867439ef0dc204f0367e3f9c641790fac0344f4a88bee58c74",
+      "runtime_sha256": "f72215912a92da867439ef0dc204f0367e3f9c641790fac0344f4a88bee58c74"
+    },
+    {
+      "asset_id": "FX-013",
+      "source": "assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_02.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-013_collectible_pickup_02.png",
+      "source_sha256": "747014bf787cd83081a61f54b5c7f41cf6c38c48883141d2e5a57c451542e419",
+      "runtime_sha256": "747014bf787cd83081a61f54b5c7f41cf6c38c48883141d2e5a57c451542e419"
+    },
+    {
+      "asset_id": "FX-013",
+      "source": "assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_03.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-013_collectible_pickup_03.png",
+      "source_sha256": "928eb2971432303f89312d53dd841044c567cdbec601e308be901487d8b682de",
+      "runtime_sha256": "928eb2971432303f89312d53dd841044c567cdbec601e308be901487d8b682de"
+    },
+    {
+      "asset_id": "FX-013",
+      "source": "assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_04.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-013_collectible_pickup_04.png",
+      "source_sha256": "340ab3a73c8f29b8eebd7aeb69e1e1692d4607a2136cf4b0c445ba008f0c7e32",
+      "runtime_sha256": "340ab3a73c8f29b8eebd7aeb69e1e1692d4607a2136cf4b0c445ba008f0c7e32"
+    },
+    {
+      "asset_id": "FX-013",
+      "source": "assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_05.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-013_collectible_pickup_05.png",
+      "source_sha256": "533553969a800b99ecc66b49a4d4e7fad82d044cd6213ba43b2725228c25e9f1",
+      "runtime_sha256": "533553969a800b99ecc66b49a4d4e7fad82d044cd6213ba43b2725228c25e9f1"
+    },
+    {
+      "asset_id": "FX-013",
+      "source": "assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_06.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-013_collectible_pickup_06.png",
+      "source_sha256": "3d403afa0fd1050f4b2a36a182dfaec3567862f95c08fbb7fab8372af7d207ab",
+      "runtime_sha256": "3d403afa0fd1050f4b2a36a182dfaec3567862f95c08fbb7fab8372af7d207ab"
+    },
+    {
+      "asset_id": "FX-013",
+      "source": "assets/production/phase_07_visual_effects/FX-013/exports/FX-013_collectible_pickup_07.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-013_collectible_pickup_07.png",
+      "source_sha256": "869e7186351429cccd2c54e5f5ee4b2ded433b37091cf98b9f0e01a6da28abe3",
+      "runtime_sha256": "869e7186351429cccd2c54e5f5ee4b2ded433b37091cf98b9f0e01a6da28abe3"
+    },
+    {
+      "asset_id": "FX-014",
+      "source": "assets/production/phase_07_visual_effects/FX-014/exports/FX-014_checkpoint_activation_00.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_00.png",
+      "source_sha256": "be5f8d07efa059cbe64ae93e4e4bbee51b9963f09c218208cc09151d8f30cacb",
+      "runtime_sha256": "be5f8d07efa059cbe64ae93e4e4bbee51b9963f09c218208cc09151d8f30cacb"
+    },
+    {
+      "asset_id": "FX-014",
+      "source": "assets/production/phase_07_visual_effects/FX-014/exports/FX-014_checkpoint_activation_01.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_01.png",
+      "source_sha256": "e66043ae93a799d746bf0e5abdef2397234d45dfd10f22f559cb08b1d48e02df",
+      "runtime_sha256": "e66043ae93a799d746bf0e5abdef2397234d45dfd10f22f559cb08b1d48e02df"
+    },
+    {
+      "asset_id": "FX-014",
+      "source": "assets/production/phase_07_visual_effects/FX-014/exports/FX-014_checkpoint_activation_02.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_02.png",
+      "source_sha256": "30f43727c1b37578863f3c0dc6d0494a90c35f6300b74e496449e43a571b9c85",
+      "runtime_sha256": "30f43727c1b37578863f3c0dc6d0494a90c35f6300b74e496449e43a571b9c85"
+    },
+    {
+      "asset_id": "FX-014",
+      "source": "assets/production/phase_07_visual_effects/FX-014/exports/FX-014_checkpoint_activation_03.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_03.png",
+      "source_sha256": "8253ba28060a3794d690ffcbe0f5e2342e3e7d20d0d10a77c07e3747e984512a",
+      "runtime_sha256": "8253ba28060a3794d690ffcbe0f5e2342e3e7d20d0d10a77c07e3747e984512a"
+    },
+    {
+      "asset_id": "FX-014",
+      "source": "assets/production/phase_07_visual_effects/FX-014/exports/FX-014_checkpoint_activation_04.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_04.png",
+      "source_sha256": "070a7c7928b33a8284f1a832e1eb623e9db5652c7bb0fcc560beb34b82e82a46",
+      "runtime_sha256": "070a7c7928b33a8284f1a832e1eb623e9db5652c7bb0fcc560beb34b82e82a46"
+    },
+    {
+      "asset_id": "FX-014",
+      "source": "assets/production/phase_07_visual_effects/FX-014/exports/FX-014_checkpoint_activation_05.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_05.png",
+      "source_sha256": "ed0061f0faf0e3bab8275d05f147aff6d3e965337f4f868148ec0aa054377ae0",
+      "runtime_sha256": "ed0061f0faf0e3bab8275d05f147aff6d3e965337f4f868148ec0aa054377ae0"
+    },
+    {
+      "asset_id": "FX-014",
+      "source": "assets/production/phase_07_visual_effects/FX-014/exports/FX-014_checkpoint_activation_06.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_06.png",
+      "source_sha256": "1c36c66d163feaa1a432e88916b466a0a54d684558ae9da3d748ea80f96c48b2",
+      "runtime_sha256": "1c36c66d163feaa1a432e88916b466a0a54d684558ae9da3d748ea80f96c48b2"
+    },
+    {
+      "asset_id": "FX-014",
+      "source": "assets/production/phase_07_visual_effects/FX-014/exports/FX-014_checkpoint_activation_07.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_07.png",
+      "source_sha256": "a8276a5265af693ebfa80a0a116a48412cb2cadc80e17451f7bb65b74a343414",
+      "runtime_sha256": "a8276a5265af693ebfa80a0a116a48412cb2cadc80e17451f7bb65b74a343414"
+    },
+    {
+      "asset_id": "FX-014",
+      "source": "assets/production/phase_07_visual_effects/FX-014/exports/FX-014_checkpoint_activation_08.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_08.png",
+      "source_sha256": "6ccd2ac6f8e246a53085785c4004502c8d33f716c2a99f051c548cf5c19cd40c",
+      "runtime_sha256": "6ccd2ac6f8e246a53085785c4004502c8d33f716c2a99f051c548cf5c19cd40c"
+    },
+    {
+      "asset_id": "FX-014",
+      "source": "assets/production/phase_07_visual_effects/FX-014/exports/FX-014_checkpoint_activation_09.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-014_checkpoint_activation_09.png",
+      "source_sha256": "2d2016a63d60ba4da0591c2915d2aeedf252f5ce8d10c573baef7d55c61444a6",
+      "runtime_sha256": "2d2016a63d60ba4da0591c2915d2aeedf252f5ce8d10c573baef7d55c61444a6"
+    },
+    {
+      "asset_id": "FX-015",
+      "source": "assets/production/phase_07_visual_effects/FX-015/exports/FX-015_boss_ground_impact_00.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_00.png",
+      "source_sha256": "4bfe007c262fd2801f1b3f335e1f992b3b531bcd6e68271c2f13211df87ba556",
+      "runtime_sha256": "4bfe007c262fd2801f1b3f335e1f992b3b531bcd6e68271c2f13211df87ba556"
+    },
+    {
+      "asset_id": "FX-015",
+      "source": "assets/production/phase_07_visual_effects/FX-015/exports/FX-015_boss_ground_impact_01.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_01.png",
+      "source_sha256": "a3c66accd083f6373a47f04e488a3f795b90fe5726601ddc09c21c946f07b932",
+      "runtime_sha256": "a3c66accd083f6373a47f04e488a3f795b90fe5726601ddc09c21c946f07b932"
+    },
+    {
+      "asset_id": "FX-015",
+      "source": "assets/production/phase_07_visual_effects/FX-015/exports/FX-015_boss_ground_impact_02.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_02.png",
+      "source_sha256": "92473afa014bc4ca2d3510b3844647c7d271b65e22e8f795fff11a0c0750cc30",
+      "runtime_sha256": "92473afa014bc4ca2d3510b3844647c7d271b65e22e8f795fff11a0c0750cc30"
+    },
+    {
+      "asset_id": "FX-015",
+      "source": "assets/production/phase_07_visual_effects/FX-015/exports/FX-015_boss_ground_impact_03.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_03.png",
+      "source_sha256": "ca0069d7d29cac02645f53cddab20545433d31f69d64184a939a737c052d2ca4",
+      "runtime_sha256": "ca0069d7d29cac02645f53cddab20545433d31f69d64184a939a737c052d2ca4"
+    },
+    {
+      "asset_id": "FX-015",
+      "source": "assets/production/phase_07_visual_effects/FX-015/exports/FX-015_boss_ground_impact_04.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_04.png",
+      "source_sha256": "85eabca628d99446076a7395a234025bdfe2d5b3039c04df4e346e756db6c0db",
+      "runtime_sha256": "85eabca628d99446076a7395a234025bdfe2d5b3039c04df4e346e756db6c0db"
+    },
+    {
+      "asset_id": "FX-015",
+      "source": "assets/production/phase_07_visual_effects/FX-015/exports/FX-015_boss_ground_impact_05.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_05.png",
+      "source_sha256": "5fc34c73891f04491d3274cba6ddcd40884e6c2e22ed893b566736e4a07686b7",
+      "runtime_sha256": "5fc34c73891f04491d3274cba6ddcd40884e6c2e22ed893b566736e4a07686b7"
+    },
+    {
+      "asset_id": "FX-015",
+      "source": "assets/production/phase_07_visual_effects/FX-015/exports/FX-015_boss_ground_impact_06.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_06.png",
+      "source_sha256": "d0cb3564cfb12160bfb25de0deebeb7228468d4b7781e3fb45bb44252ed4dad4",
+      "runtime_sha256": "d0cb3564cfb12160bfb25de0deebeb7228468d4b7781e3fb45bb44252ed4dad4"
+    },
+    {
+      "asset_id": "FX-015",
+      "source": "assets/production/phase_07_visual_effects/FX-015/exports/FX-015_boss_ground_impact_07.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-015_boss_ground_impact_07.png",
+      "source_sha256": "668d02a712e65cc10f14006b0a122ea04f462ce457b42c01505fa1a9e8412167",
+      "runtime_sha256": "668d02a712e65cc10f14006b0a122ea04f462ce457b42c01505fa1a9e8412167"
+    },
+    {
+      "asset_id": "FX-017",
+      "source": "assets/production/phase_07_visual_effects/FX-017/exports/FX-017_boss_phase_transition_00.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_00.png",
+      "source_sha256": "4a41427a172599b91a92e363dea007a01735a92ccaf4a0fb902224538d8fc2ac",
+      "runtime_sha256": "4a41427a172599b91a92e363dea007a01735a92ccaf4a0fb902224538d8fc2ac"
+    },
+    {
+      "asset_id": "FX-017",
+      "source": "assets/production/phase_07_visual_effects/FX-017/exports/FX-017_boss_phase_transition_01.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_01.png",
+      "source_sha256": "df6e8cc9252052a9d78da3e89eebf8d0fc3f496c7a0ea88f17e68cedbce1f944",
+      "runtime_sha256": "df6e8cc9252052a9d78da3e89eebf8d0fc3f496c7a0ea88f17e68cedbce1f944"
+    },
+    {
+      "asset_id": "FX-017",
+      "source": "assets/production/phase_07_visual_effects/FX-017/exports/FX-017_boss_phase_transition_02.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_02.png",
+      "source_sha256": "695a34f29a95a13dbc13a808064c48a79b322dba3bdd176a55150a524a38ce3e",
+      "runtime_sha256": "695a34f29a95a13dbc13a808064c48a79b322dba3bdd176a55150a524a38ce3e"
+    },
+    {
+      "asset_id": "FX-017",
+      "source": "assets/production/phase_07_visual_effects/FX-017/exports/FX-017_boss_phase_transition_03.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_03.png",
+      "source_sha256": "6f34325c99b20d64cd0e3c7848c0939624b0fe279c3f96c2086080ebd0033e7e",
+      "runtime_sha256": "6f34325c99b20d64cd0e3c7848c0939624b0fe279c3f96c2086080ebd0033e7e"
+    },
+    {
+      "asset_id": "FX-017",
+      "source": "assets/production/phase_07_visual_effects/FX-017/exports/FX-017_boss_phase_transition_04.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_04.png",
+      "source_sha256": "b7b5972856792eb4196d45045b188fbb061c086b4c8c510815c0f8721d3fe23f",
+      "runtime_sha256": "b7b5972856792eb4196d45045b188fbb061c086b4c8c510815c0f8721d3fe23f"
+    },
+    {
+      "asset_id": "FX-017",
+      "source": "assets/production/phase_07_visual_effects/FX-017/exports/FX-017_boss_phase_transition_05.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_05.png",
+      "source_sha256": "b924287c1a8f01a832f22b7ad4c1282375fa55fa40c7e24ce35ae6345a1f2c51",
+      "runtime_sha256": "b924287c1a8f01a832f22b7ad4c1282375fa55fa40c7e24ce35ae6345a1f2c51"
+    },
+    {
+      "asset_id": "FX-017",
+      "source": "assets/production/phase_07_visual_effects/FX-017/exports/FX-017_boss_phase_transition_06.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_06.png",
+      "source_sha256": "13f486dac25846e1a1aafce694cc11131abce6500be9abc88c8c5d8588f19753",
+      "runtime_sha256": "13f486dac25846e1a1aafce694cc11131abce6500be9abc88c8c5d8588f19753"
+    },
+    {
+      "asset_id": "FX-017",
+      "source": "assets/production/phase_07_visual_effects/FX-017/exports/FX-017_boss_phase_transition_07.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_07.png",
+      "source_sha256": "551713d565e75393ee425a16e1e6f3ab8e0c491a91d723b66f83839876df3d05",
+      "runtime_sha256": "551713d565e75393ee425a16e1e6f3ab8e0c491a91d723b66f83839876df3d05"
+    },
+    {
+      "asset_id": "FX-017",
+      "source": "assets/production/phase_07_visual_effects/FX-017/exports/FX-017_boss_phase_transition_08.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_08.png",
+      "source_sha256": "93f3b555e7902bfdf09bc7394bbdc2c441afc2834f7b530ae8fa74bfef4bd676",
+      "runtime_sha256": "93f3b555e7902bfdf09bc7394bbdc2c441afc2834f7b530ae8fa74bfef4bd676"
+    },
+    {
+      "asset_id": "FX-017",
+      "source": "assets/production/phase_07_visual_effects/FX-017/exports/FX-017_boss_phase_transition_09.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-017_boss_phase_transition_09.png",
+      "source_sha256": "e8eccf1a1961ae02ee65211941f51027ad56e51caa358b2af37a9669be9256b8",
+      "runtime_sha256": "e8eccf1a1961ae02ee65211941f51027ad56e51caa358b2af37a9669be9256b8"
+    },
+    {
+      "asset_id": "FX-018",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_00.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_00.png",
+      "source_sha256": "fd95c48986c90121e71577fd49bfc3ea166a2a7438e41fac4b3cb38aa5033411",
+      "runtime_sha256": "fd95c48986c90121e71577fd49bfc3ea166a2a7438e41fac4b3cb38aa5033411"
+    },
+    {
+      "asset_id": "FX-018",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_01.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_01.png",
+      "source_sha256": "4248686613b71eb64b6e3bc94275b2dfa432342ae254cc01994b7a5632c7e4f9",
+      "runtime_sha256": "4248686613b71eb64b6e3bc94275b2dfa432342ae254cc01994b7a5632c7e4f9"
+    },
+    {
+      "asset_id": "FX-018",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_02.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_02.png",
+      "source_sha256": "1ac4c8388d42420d175f1e8bc98a2baae7952367c30cc986dbf11478af1eebad",
+      "runtime_sha256": "1ac4c8388d42420d175f1e8bc98a2baae7952367c30cc986dbf11478af1eebad"
+    },
+    {
+      "asset_id": "FX-018",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_03.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_03.png",
+      "source_sha256": "a731d6d9a913bedb2e7845244e4c7712053e51222cbf1d6908e1abbdc22949b1",
+      "runtime_sha256": "a731d6d9a913bedb2e7845244e4c7712053e51222cbf1d6908e1abbdc22949b1"
+    },
+    {
+      "asset_id": "FX-018",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_04.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_04.png",
+      "source_sha256": "a3d6cc154af472869232297d831dcaa33069cff46b4d2bf8734bf56ec353bea3",
+      "runtime_sha256": "a3d6cc154af472869232297d831dcaa33069cff46b4d2bf8734bf56ec353bea3"
+    },
+    {
+      "asset_id": "FX-018",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_05.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_05.png",
+      "source_sha256": "87bc9ae9755e683a0b5527b75ccff08786caf1e95e57ff277894da6e67977dbd",
+      "runtime_sha256": "87bc9ae9755e683a0b5527b75ccff08786caf1e95e57ff277894da6e67977dbd"
+    },
+    {
+      "asset_id": "FX-018",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_06.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_06.png",
+      "source_sha256": "a870c5f3b6d0e3ef02df861cc78e2632faaab3bdf521bf2c1bd65a963dbfd739",
+      "runtime_sha256": "a870c5f3b6d0e3ef02df861cc78e2632faaab3bdf521bf2c1bd65a963dbfd739"
+    },
+    {
+      "asset_id": "FX-018",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_07.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_07.png",
+      "source_sha256": "8b554b78f67f774a83146c830bed6846cce43a2140e7460ed398f8010eb8495e",
+      "runtime_sha256": "8b554b78f67f774a83146c830bed6846cce43a2140e7460ed398f8010eb8495e"
+    },
+    {
+      "asset_id": "FX-018",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_08.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_08.png",
+      "source_sha256": "22e78398145c82fb41cc56f7c997c0cfd6c9cc9b01c731779357bba6de87d210",
+      "runtime_sha256": "22e78398145c82fb41cc56f7c997c0cfd6c9cc9b01c731779357bba6de87d210"
+    },
+    {
+      "asset_id": "FX-018",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_09.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_09.png",
+      "source_sha256": "c94bc4b4d18681ec7cad02b7ee3bf9cc1b5fabe325994278b187544fe86ba34a",
+      "runtime_sha256": "c94bc4b4d18681ec7cad02b7ee3bf9cc1b5fabe325994278b187544fe86ba34a"
+    },
+    {
+      "asset_id": "FX-018",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_10.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_10.png",
+      "source_sha256": "e4d33736aa1a4fb7b5415805fa5a6c03b87df76ced27b59f9c567ad584a73449",
+      "runtime_sha256": "e4d33736aa1a4fb7b5415805fa5a6c03b87df76ced27b59f9c567ad584a73449"
+    },
+    {
+      "asset_id": "FX-018",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_11.png",
+      "runtime": "res://assets/runtime/chapter01/presentation/FX-018_death_respawn_11.png",
+      "source_sha256": "9d023b9d7af12d3b45ca0644027a4951f475e5d9d2dc349b87db4f81c4143c0d",
+      "runtime_sha256": "9d023b9d7af12d3b45ca0644027a4951f475e5d9d2dc349b87db4f81c4143c0d"
+    }
+  ]
+}

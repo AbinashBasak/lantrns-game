@@ -1,0 +1,501 @@
+{
+  "identity": "Hollow Sentinel \u2014 Chapter 1 temple guardian; not Chapter 2 Mossjaw",
+  "provenance": "Unmodified selected generated prototype exports copied from production archive; production approval not inferred.",
+  "animations": {
+    "idle": {
+      "asset_id": "BOSS-002",
+      "source_metadata": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/metadata.json",
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-002_idle_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_01.png",
+          "sha256": "041970d21ee82356c97bb4dc5f2f33ffd04208588ecd3fb8506e0e17c00dedf2",
+          "source_sha256": "041970d21ee82356c97bb4dc5f2f33ffd04208588ecd3fb8506e0e17c00dedf2"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-002_idle_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_02.png",
+          "sha256": "d90ae4346f7810329666bf5c0b0c55e34e4d8697bbf311c0646c104da89d443f",
+          "source_sha256": "d90ae4346f7810329666bf5c0b0c55e34e4d8697bbf311c0646c104da89d443f"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-002_idle_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_03.png",
+          "sha256": "686a055190071ed6317ce8c388c9ac052588a59445e36bf113b061d643cbc777",
+          "source_sha256": "686a055190071ed6317ce8c388c9ac052588a59445e36bf113b061d643cbc777"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-002_idle_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_04.png",
+          "sha256": "8d742f67fb4ebf4ddb61fb0cb00c1786069a8cdec4549162b914e9e0a79cc899",
+          "source_sha256": "8d742f67fb4ebf4ddb61fb0cb00c1786069a8cdec4549162b914e9e0a79cc899"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-002_idle_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_05.png",
+          "sha256": "f13771782b104050147bfc8ca311214fca1e0d228136c94d024531f5b1d3db93",
+          "source_sha256": "f13771782b104050147bfc8ca311214fca1e0d228136c94d024531f5b1d3db93"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-002_idle_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-002/exports/idle/frames/BOSS-002_idle_06.png",
+          "sha256": "f0401ea0271751b89b9115f97ce5293eadd805474f34ecdcda635faae2b5e1ea",
+          "source_sha256": "f0401ea0271751b89b9115f97ce5293eadd805474f34ecdcda635faae2b5e1ea"
+        }
+      ],
+      "durations_ms": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "loop": true,
+      "pivot_px": [
+        256,
+        480
+      ]
+    },
+    "move": {
+      "asset_id": "BOSS-003",
+      "source_metadata": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/metadata.json",
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-003_walk_reposition_profile_corrected_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/exports/walk_reposition_profile_corrected/frames/BOSS-003_walk_reposition_profile_corrected_01.png",
+          "sha256": "bef64a4b7425557879912a328b8afa40f5ddac1d481880a5a196a00e4813fc53",
+          "source_sha256": "bef64a4b7425557879912a328b8afa40f5ddac1d481880a5a196a00e4813fc53"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-003_walk_reposition_profile_corrected_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/exports/walk_reposition_profile_corrected/frames/BOSS-003_walk_reposition_profile_corrected_02.png",
+          "sha256": "c411c53ae337f57574f040281d3a6e60c38b1acfd387bfe4c218fec46f0a4b34",
+          "source_sha256": "c411c53ae337f57574f040281d3a6e60c38b1acfd387bfe4c218fec46f0a4b34"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-003_walk_reposition_profile_corrected_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/exports/walk_reposition_profile_corrected/frames/BOSS-003_walk_reposition_profile_corrected_03.png",
+          "sha256": "7884c2a480af68684841550cd624f75fa608895a553ae6bda9aebeaa7925e93c",
+          "source_sha256": "7884c2a480af68684841550cd624f75fa608895a553ae6bda9aebeaa7925e93c"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-003_walk_reposition_profile_corrected_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/exports/walk_reposition_profile_corrected/frames/BOSS-003_walk_reposition_profile_corrected_04.png",
+          "sha256": "514c651473c71e08bd705d35f4a66bfe5b17de6ba398d1e07318e71665c16086",
+          "source_sha256": "514c651473c71e08bd705d35f4a66bfe5b17de6ba398d1e07318e71665c16086"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-003_walk_reposition_profile_corrected_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/exports/walk_reposition_profile_corrected/frames/BOSS-003_walk_reposition_profile_corrected_05.png",
+          "sha256": "1814bf60601670db80c8b4a32477aaae80bb7d892b21aec3b6e0854290d68821",
+          "source_sha256": "1814bf60601670db80c8b4a32477aaae80bb7d892b21aec3b6e0854290d68821"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-003_walk_reposition_profile_corrected_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-003/exports/walk_reposition_profile_corrected/frames/BOSS-003_walk_reposition_profile_corrected_06.png",
+          "sha256": "6b0511fca0abd80ffcfbdb16f2e56d96629b7cfadae6e84120f46ae3fd236db1",
+          "source_sha256": "6b0511fca0abd80ffcfbdb16f2e56d96629b7cfadae6e84120f46ae3fd236db1"
+        }
+      ],
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": true,
+      "pivot_px": [
+        256,
+        480
+      ]
+    },
+    "windup": {
+      "asset_id": "BOSS-004",
+      "source_metadata": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-004/metadata.json",
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-004_attack_windup_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-004/exports/attack_windup/frames/BOSS-004_attack_windup_01.png",
+          "sha256": "d9728c5bccd2ec964a4ebcb416612367d997c4ff303e611923fbf3e17354bf7d",
+          "source_sha256": "d9728c5bccd2ec964a4ebcb416612367d997c4ff303e611923fbf3e17354bf7d"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-004_attack_windup_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-004/exports/attack_windup/frames/BOSS-004_attack_windup_02.png",
+          "sha256": "4cc2d6f2d638c695e60db74bb275cf65b82e1cd9e61e556f57321904ab750846",
+          "source_sha256": "4cc2d6f2d638c695e60db74bb275cf65b82e1cd9e61e556f57321904ab750846"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-004_attack_windup_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-004/exports/attack_windup/frames/BOSS-004_attack_windup_03.png",
+          "sha256": "8a981cce777ad028f234002fa1bd98f466ff563fbc22728e9b32417847f9762e",
+          "source_sha256": "8a981cce777ad028f234002fa1bd98f466ff563fbc22728e9b32417847f9762e"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-004_attack_windup_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-004/exports/attack_windup/frames/BOSS-004_attack_windup_04.png",
+          "sha256": "0b42f26101f1d0b40a25ada3ed1616b640c673bfbc33faae6ac46940664e4cd5",
+          "source_sha256": "0b42f26101f1d0b40a25ada3ed1616b640c673bfbc33faae6ac46940664e4cd5"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-004_attack_windup_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-004/exports/attack_windup/frames/BOSS-004_attack_windup_05.png",
+          "sha256": "c909b1981fa30d570300ed935e190a6ff9384b324d66fbafc15827053827fe0f",
+          "source_sha256": "c909b1981fa30d570300ed935e190a6ff9384b324d66fbafc15827053827fe0f"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-004_attack_windup_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-004/exports/attack_windup/frames/BOSS-004_attack_windup_06.png",
+          "sha256": "620d49b7d106cd09ce6af181c5f48d25faac6191cf10297b45d4afb43bf967d8",
+          "source_sha256": "620d49b7d106cd09ce6af181c5f48d25faac6191cf10297b45d4afb43bf967d8"
+        }
+      ],
+      "durations_ms": [
+        160,
+        150,
+        150,
+        160,
+        260,
+        350
+      ],
+      "loop": false,
+      "pivot_px": [
+        256,
+        480
+      ]
+    },
+    "slam": {
+      "asset_id": "BOSS-005",
+      "source_metadata": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/metadata.json",
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-005_ground_slam_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/exports/ground_slam/frames/BOSS-005_ground_slam_01.png",
+          "sha256": "faaff892a38df57900c0fbbbb5a53aa0fb2be7631312860d2fa6e28fae6b0819",
+          "source_sha256": "faaff892a38df57900c0fbbbb5a53aa0fb2be7631312860d2fa6e28fae6b0819"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-005_ground_slam_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/exports/ground_slam/frames/BOSS-005_ground_slam_02.png",
+          "sha256": "f931dbca24cf4c170fb6fb1ffc04816cdc60aeb86012a8cc405bf293e15196cf",
+          "source_sha256": "f931dbca24cf4c170fb6fb1ffc04816cdc60aeb86012a8cc405bf293e15196cf"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-005_ground_slam_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/exports/ground_slam/frames/BOSS-005_ground_slam_03.png",
+          "sha256": "9960b785c7f1c6934ffd900c0476b4d0b8bc6147b22c30896828c8824b66df03",
+          "source_sha256": "9960b785c7f1c6934ffd900c0476b4d0b8bc6147b22c30896828c8824b66df03"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-005_ground_slam_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/exports/ground_slam/frames/BOSS-005_ground_slam_04.png",
+          "sha256": "f59979d34550d6be5da0237e9dee258171c65d5c62bbaa4d7cd83024d635e3bb",
+          "source_sha256": "f59979d34550d6be5da0237e9dee258171c65d5c62bbaa4d7cd83024d635e3bb"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-005_ground_slam_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/exports/ground_slam/frames/BOSS-005_ground_slam_05.png",
+          "sha256": "c8bca8de8879c9993d65cec158dcc8ce85383dc45ca3e60c6cbd6c06e1d5cff0",
+          "source_sha256": "c8bca8de8879c9993d65cec158dcc8ce85383dc45ca3e60c6cbd6c06e1d5cff0"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-005_ground_slam_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-005/exports/ground_slam/frames/BOSS-005_ground_slam_06.png",
+          "sha256": "648c9f2c7aeb78600f539c997d1d07ec1d810af369db4e8048329215361414af",
+          "source_sha256": "648c9f2c7aeb78600f539c997d1d07ec1d810af369db4e8048329215361414af"
+        }
+      ],
+      "durations_ms": [
+        150,
+        140,
+        280,
+        90,
+        220,
+        200
+      ],
+      "loop": false,
+      "pivot_px": [
+        256,
+        480
+      ]
+    },
+    "swipe": {
+      "asset_id": "BOSS-006",
+      "source_metadata": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006/metadata.json",
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-006_arm_swipe_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006/exports/arm_swipe/frames/BOSS-006_arm_swipe_01.png",
+          "sha256": "d0d35b9ab741c46664b75c79aaafeec37486bd8fec3caf6faee393da50bb42e7",
+          "source_sha256": "d0d35b9ab741c46664b75c79aaafeec37486bd8fec3caf6faee393da50bb42e7"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-006_arm_swipe_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006/exports/arm_swipe/frames/BOSS-006_arm_swipe_02.png",
+          "sha256": "3e6c51c2eb7d117ae01cc41d89dc8cac3ace5ecbf048ad861cd315c0511ed65e",
+          "source_sha256": "3e6c51c2eb7d117ae01cc41d89dc8cac3ace5ecbf048ad861cd315c0511ed65e"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-006_arm_swipe_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006/exports/arm_swipe/frames/BOSS-006_arm_swipe_03.png",
+          "sha256": "aa08f3b1656194fa96dbd4d2ecffa5fd3e9d5c424bed666c879f8b93d5422631",
+          "source_sha256": "aa08f3b1656194fa96dbd4d2ecffa5fd3e9d5c424bed666c879f8b93d5422631"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-006_arm_swipe_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006/exports/arm_swipe/frames/BOSS-006_arm_swipe_04.png",
+          "sha256": "6460fd67fc931adbb03891e8c58b4408a485521a076f870315697cd6b9bc9e62",
+          "source_sha256": "6460fd67fc931adbb03891e8c58b4408a485521a076f870315697cd6b9bc9e62"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-006_arm_swipe_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006/exports/arm_swipe/frames/BOSS-006_arm_swipe_05.png",
+          "sha256": "c0a1fd4c86cf2745551fa7c1fbc6132935eeb09661ef9ebb305da68bdba9b398",
+          "source_sha256": "c0a1fd4c86cf2745551fa7c1fbc6132935eeb09661ef9ebb305da68bdba9b398"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-006_arm_swipe_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-006/exports/arm_swipe/frames/BOSS-006_arm_swipe_06.png",
+          "sha256": "1157a660a96ed877ddf5fd7502571e5e37ce60b8cfb0ee289dd0054bec11a055",
+          "source_sha256": "1157a660a96ed877ddf5fd7502571e5e37ce60b8cfb0ee289dd0054bec11a055"
+        }
+      ],
+      "durations_ms": [
+        150,
+        180,
+        100,
+        100,
+        160,
+        200
+      ],
+      "loop": false,
+      "pivot_px": [
+        256,
+        480
+      ]
+    },
+    "hurt": {
+      "asset_id": "BOSS-008",
+      "source_metadata": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/metadata.json",
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-008_stagger_damage_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/frames/BOSS-008_stagger_damage_01.png",
+          "sha256": "96b26ece2ff15a460d13aa58b746c7568ab8c77b413087bf1221e83e15de84dd",
+          "source_sha256": "96b26ece2ff15a460d13aa58b746c7568ab8c77b413087bf1221e83e15de84dd"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-008_stagger_damage_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/frames/BOSS-008_stagger_damage_02.png",
+          "sha256": "54e8c42d20fda350ee4e1cacf9bc5110cafb93dc1c7d633458791e1fcea9cacf",
+          "source_sha256": "54e8c42d20fda350ee4e1cacf9bc5110cafb93dc1c7d633458791e1fcea9cacf"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-008_stagger_damage_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/frames/BOSS-008_stagger_damage_03.png",
+          "sha256": "7389e407a4d186b15deea54151ebfaf1e84a43e10b55c6fbaae1a740da6ca5d1",
+          "source_sha256": "7389e407a4d186b15deea54151ebfaf1e84a43e10b55c6fbaae1a740da6ca5d1"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-008_stagger_damage_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/frames/BOSS-008_stagger_damage_04.png",
+          "sha256": "c8e0c4d5729594d373ff3e4c24253cd6dd3fc3614eb0ac8c2790e99a1b06d9d1",
+          "source_sha256": "c8e0c4d5729594d373ff3e4c24253cd6dd3fc3614eb0ac8c2790e99a1b06d9d1"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-008_stagger_damage_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/frames/BOSS-008_stagger_damage_05.png",
+          "sha256": "219a23ec1f0737306a57e3fff753dfbfd38528084a44c65cdd39b143dc3d4b89",
+          "source_sha256": "219a23ec1f0737306a57e3fff753dfbfd38528084a44c65cdd39b143dc3d4b89"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-008_stagger_damage_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-008/exports/stagger_damage/frames/BOSS-008_stagger_damage_06.png",
+          "sha256": "fbc34f12518585ec2e0d020478f2cf1ade7c0f50bf01db0ebe44201a73176e69",
+          "source_sha256": "fbc34f12518585ec2e0d020478f2cf1ade7c0f50bf01db0ebe44201a73176e69"
+        }
+      ],
+      "durations_ms": [
+        130,
+        90,
+        160,
+        220,
+        180,
+        170
+      ],
+      "loop": false,
+      "pivot_px": [
+        256,
+        480
+      ]
+    },
+    "transition": {
+      "asset_id": "BOSS-009",
+      "source_metadata": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/metadata.json",
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-009_phase_transition_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/exports/phase_transition/frames/BOSS-009_phase_transition_01.png",
+          "sha256": "e39e6a274fe4cde540929af3177a7223aa2342e2dc60d742a6ae7ccfedf2226c",
+          "source_sha256": "e39e6a274fe4cde540929af3177a7223aa2342e2dc60d742a6ae7ccfedf2226c"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-009_phase_transition_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/exports/phase_transition/frames/BOSS-009_phase_transition_02.png",
+          "sha256": "1079fa4b72d1155e5f2a35a284e503ea2f8d3f91c86660dd2b99d32311b352c8",
+          "source_sha256": "1079fa4b72d1155e5f2a35a284e503ea2f8d3f91c86660dd2b99d32311b352c8"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-009_phase_transition_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/exports/phase_transition/frames/BOSS-009_phase_transition_03.png",
+          "sha256": "89cb4b242a76cb2296afa39664c0356601f98edf63ad86b7ecb0955d96c292be",
+          "source_sha256": "89cb4b242a76cb2296afa39664c0356601f98edf63ad86b7ecb0955d96c292be"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-009_phase_transition_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/exports/phase_transition/frames/BOSS-009_phase_transition_04.png",
+          "sha256": "509b2a82e02a3bbe217c19519e23588fa0ba86a46e3fe2777ba0ed063671661f",
+          "source_sha256": "509b2a82e02a3bbe217c19519e23588fa0ba86a46e3fe2777ba0ed063671661f"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-009_phase_transition_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/exports/phase_transition/frames/BOSS-009_phase_transition_05.png",
+          "sha256": "1d0686a50efeb7418d776ed79a87e896be2b5142f02840461faf3cfe74b10cc7",
+          "source_sha256": "1d0686a50efeb7418d776ed79a87e896be2b5142f02840461faf3cfe74b10cc7"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-009_phase_transition_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-009/exports/phase_transition/frames/BOSS-009_phase_transition_06.png",
+          "sha256": "deb17debeb7578aad3b919a5af752150e83c9e062b50471c99dc95a3f1bb4940",
+          "source_sha256": "deb17debeb7578aad3b919a5af752150e83c9e062b50471c99dc95a3f1bb4940"
+        }
+      ],
+      "durations_ms": [
+        160,
+        160,
+        200,
+        300,
+        180,
+        180
+      ],
+      "loop": false,
+      "pivot_px": [
+        256,
+        480
+      ]
+    },
+    "defeat": {
+      "asset_id": "BOSS-010",
+      "source_metadata": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/metadata.json",
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-010_defeat_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/frames/BOSS-010_defeat_01.png",
+          "sha256": "0d3caac11907fb80186b5fc322284afc5e996d7791becba980f5eee85559dfc5",
+          "source_sha256": "0d3caac11907fb80186b5fc322284afc5e996d7791becba980f5eee85559dfc5"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-010_defeat_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/frames/BOSS-010_defeat_02.png",
+          "sha256": "2a34d9cb12be6e40ffb887ecaa651c5d48dec4b6632131ac3c260e842579efa1",
+          "source_sha256": "2a34d9cb12be6e40ffb887ecaa651c5d48dec4b6632131ac3c260e842579efa1"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-010_defeat_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/frames/BOSS-010_defeat_03.png",
+          "sha256": "fa3b90572a798fe26474de32a1b7b68c35da70ced9a476a3c3558e285c388d4f",
+          "source_sha256": "fa3b90572a798fe26474de32a1b7b68c35da70ced9a476a3c3558e285c388d4f"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-010_defeat_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/frames/BOSS-010_defeat_04.png",
+          "sha256": "085f1b6acc9ae4837562b3a2f7526d7ab281a3d0abb94557a9f42864757caec3",
+          "source_sha256": "085f1b6acc9ae4837562b3a2f7526d7ab281a3d0abb94557a9f42864757caec3"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-010_defeat_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/frames/BOSS-010_defeat_05.png",
+          "sha256": "6ba8ffbe5fd783ba65df5189f4368926cec679abea1280abbc6acc47ee5d99f4",
+          "source_sha256": "6ba8ffbe5fd783ba65df5189f4368926cec679abea1280abbc6acc47ee5d99f4"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-010_defeat_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-010/exports/defeat/frames/BOSS-010_defeat_06.png",
+          "sha256": "18ef9957ffe62a0b83147432851d260249601cdf9a22494d2aee2049113c84a7",
+          "source_sha256": "18ef9957ffe62a0b83147432851d260249601cdf9a22494d2aee2049113c84a7"
+        }
+      ],
+      "durations_ms": [
+        160,
+        220,
+        180,
+        200,
+        220,
+        400
+      ],
+      "loop": false,
+      "pivot_px": [
+        256,
+        480
+      ]
+    },
+    "wake": {
+      "asset_id": "BOSS-011",
+      "source_metadata": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/metadata.json",
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-011_awakening_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/frames/BOSS-011_awakening_01.png",
+          "sha256": "8eaad6b9e693d93150d3860fbd013c34fa7cf05ace216986af44fc8681073855",
+          "source_sha256": "8eaad6b9e693d93150d3860fbd013c34fa7cf05ace216986af44fc8681073855"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-011_awakening_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/frames/BOSS-011_awakening_02.png",
+          "sha256": "bbbb82b395354d2fade2d4fc9907ced9b72199c21233acf9e690e873aec46b83",
+          "source_sha256": "bbbb82b395354d2fade2d4fc9907ced9b72199c21233acf9e690e873aec46b83"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-011_awakening_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/frames/BOSS-011_awakening_03.png",
+          "sha256": "594def71308b85e69e5413ce4c82bdb3947372b9e1d6f42d656bfabc713d7809",
+          "source_sha256": "594def71308b85e69e5413ce4c82bdb3947372b9e1d6f42d656bfabc713d7809"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-011_awakening_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/frames/BOSS-011_awakening_04.png",
+          "sha256": "5de6cbb4246e959f3e330663ad853f349d6b0da4b5019c70fcf87bbfb0d40bc7",
+          "source_sha256": "5de6cbb4246e959f3e330663ad853f349d6b0da4b5019c70fcf87bbfb0d40bc7"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-011_awakening_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/frames/BOSS-011_awakening_05.png",
+          "sha256": "947026ff2d49149a56b5b62d8fec08b936a8e1575ff4610dfa26ef14bec70e81",
+          "source_sha256": "947026ff2d49149a56b5b62d8fec08b936a8e1575ff4610dfa26ef14bec70e81"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/boss/BOSS-011_awakening_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/hollow_sentinel_boss/BOSS-011/exports/awakening/frames/BOSS-011_awakening_06.png",
+          "sha256": "bccb6a93bbe2150a0e214de76dc31f940f09fd25bdc14e97c67bb2fb8741ea07",
+          "source_sha256": "bccb6a93bbe2150a0e214de76dc31f940f09fd25bdc14e97c67bb2fb8741ea07"
+        }
+      ],
+      "durations_ms": [
+        280,
+        180,
+        180,
+        220,
+        180,
+        220
+      ],
+      "loop": false,
+      "pivot_px": [
+        256,
+        480
+      ]
+    }
+  }
+}

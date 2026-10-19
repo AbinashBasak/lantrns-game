@@ -1,0 +1,113 @@
+{
+  "files": [
+    {
+      "asset_id": "OBJ-002",
+      "source": "assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-002/exports/OBJ-002_state_01.png",
+      "runtime": "assets/runtime/chapter01/story/fragment.png",
+      "source_sha256": "90fc848b53ae8b60fb8f0282118025c486df3837f385642586f9718f7a2cb3f8",
+      "runtime_sha256": "d7b0a1cb3515fcef0ba8df9cab68cfa4cdbdc7178b2c6343384cf94446e5d0e9",
+      "crop": [
+        90,
+        41,
+        192,
+        230
+      ],
+      "dimensions": [
+        102,
+        189
+      ]
+    },
+    {
+      "asset_id": "UI-003",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-003/exports/UI-003_00_neutral.png",
+      "runtime": "assets/runtime/chapter01/story/token.png",
+      "source_sha256": "91d6d0372985e67f301433475107d42755b16756446fb9c91e2f3a12664a7927",
+      "runtime_sha256": "2dd47784724fd2fc4656dab5c1f455abb93139611eaf8d63a2d3b456962dc9a6",
+      "crop": [
+        63,
+        22,
+        215,
+        241
+      ],
+      "dimensions": [
+        152,
+        219
+      ]
+    },
+    {
+      "asset_id": "UI-008",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_boss_frame.png",
+      "runtime": "assets/runtime/chapter01/story/boss_frame.png",
+      "source_sha256": "e049d5d76a056e857627f4f95e249529bb3454512c03bdd7b7b885c1b80fed2a",
+      "runtime_sha256": "3e0630fdaa18bec09135bea41243d9364a2d6ef263749686f09c776192e953d2",
+      "crop": [
+        177,
+        79,
+        848,
+        304
+      ],
+      "dimensions": [
+        671,
+        225
+      ]
+    },
+    {
+      "asset_id": "UI-008",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_boss_fill.png",
+      "runtime": "assets/runtime/chapter01/story/boss_fill.png",
+      "source_sha256": "641f450e9b3049089eb39e3123d878ce3cac7c5129dc0ca64bf627a2db93244c",
+      "runtime_sha256": "05a86c1565764ca2573dda51c5cf84996f93cce36c4e4e858c823be5d981705a",
+      "crop": [
+        156,
+        22,
+        867,
+        104
+      ],
+      "dimensions": [
+        711,
+        82
+      ]
+    },
+    {
+      "asset_id": "UI-008",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_boss_track.png",
+      "runtime": "assets/runtime/chapter01/story/boss_track.png",
+      "source_sha256": "bb7f39c15e1e8c34ce3b9c36462dc1aeb2ed3be18878eacbc89820cb2c582d4e",
+      "runtime_sha256": "0a3c623514adc226deb916f9270a4db2a2ba35e1fd776758b6dc921bca40518b",
+      "crop": [
+        238,
+        35,
+        784,
+        124
+      ],
+      "dimensions": [
+        546,
+        89
+      ]
+    },
+    {
+      "asset_id": "ENV-04",
+      "source": "assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_distant_background.png",
+      "runtime": "assets/runtime/chapter01/story/orchard_background.png",
+      "source_sha256": "101969d4b68162f07889ff09e2996de573de638ed3237b300b7ea5a23a031402",
+      "runtime_sha256": "68d2c1252eb494f817c0cfef31cc736e7ab6345ffde6a7ab3d6ac67d29a74630",
+      "crop": null,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "asset_id": "ENV-04",
+      "source": "assets/production/phase_04_environment_packs/ENV-04/exports/ENV-04_midground.png",
+      "runtime": "assets/runtime/chapter01/story/orchard_trees.png",
+      "source_sha256": "957b74f023cfccf45c8dc7f714ca9136bf43e4125b488fc14d993373d6c8a185",
+      "runtime_sha256": "1c4cff6bd0fc69d82bc49de5240de5c63b7909d05ab430774bb7165dc6e88122",
+      "crop": null,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}

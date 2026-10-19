@@ -1,0 +1,668 @@
+{
+  "purpose": "Chapter 1 selected runtime derivatives from archived generated exports",
+  "production_approved": false,
+  "files": [
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_distant_background.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-02_distant_background.png",
+      "source_sha256": "73ff13b53a083842fec8a4eefa9a8b7ecee5f6943fe55079384be06f0956547e",
+      "sha256": "73ff13b53a083842fec8a4eefa9a8b7ecee5f6943fe55079384be06f0956547e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha_crop": null,
+      "crop_method": "unchanged",
+      "derived": false
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_midground.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-02_midground.png",
+      "source_sha256": "9bc32f86aff7dcc0d367a2157d870f33088cd57c2939da42ae2c451fff34393f",
+      "sha256": "9bc32f86aff7dcc0d367a2157d870f33088cd57c2939da42ae2c451fff34393f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha_crop": null,
+      "crop_method": "unchanged",
+      "derived": false
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_foreground.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-02_foreground.png",
+      "source_sha256": "6f91a18a2b7bd5eb18cd6793658ce069016504c426cf0279f817eee0a3c31064",
+      "sha256": "6f91a18a2b7bd5eb18cd6793658ce069016504c426cf0279f817eee0a3c31064",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha_crop": null,
+      "crop_method": "unchanged",
+      "derived": false
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_decorative_props_00.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-02_decorative_props_00.png",
+      "source_sha256": "afa795061f8d00a5ba2b4a6215cd3b175516979f41553caf9afdcf9f2804504d",
+      "sha256": "5b8ff5083b78ecee7d6b6c5783ed1b4ab562203dafcb15bfe554ac1a30100172",
+      "dimensions": [
+        149,
+        245
+      ],
+      "alpha_crop": [
+        65,
+        7,
+        214,
+        252
+      ],
+      "crop_method": "alpha_bounds",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_decorative_props_01.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-02_decorative_props_01.png",
+      "source_sha256": "5d0f974708c3756e54087cf7e01aa2a83337ff12b6f104b8dfaa83c43444ffef",
+      "sha256": "16a5c31d27ae71e680d2d0a11feb5ae3db8c946f567b0f7880bee763b521cdb4",
+      "dimensions": [
+        182,
+        246
+      ],
+      "alpha_crop": [
+        37,
+        10,
+        219,
+        256
+      ],
+      "crop_method": "alpha_bounds",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_decorative_props_02.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-02_decorative_props_02.png",
+      "source_sha256": "f41f1d042c81c076e101cfbfdd0636be06afa9ab1fd24e3aaa216350cabe1cf7",
+      "sha256": "ab7d3c967b540f86653aa7e21a15a226c8ed9a051ce1004335fe9eb6553ecb94",
+      "dimensions": [
+        176,
+        245
+      ],
+      "alpha_crop": [
+        39,
+        11,
+        215,
+        256
+      ],
+      "crop_method": "alpha_bounds",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_decorative_props_03.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-02_decorative_props_03.png",
+      "source_sha256": "7b615f3b55d623ded2017cb9639aed5814b465a0304331139e37b697322301c3",
+      "sha256": "29b13514551d6b43f27215f31d151f3a0fd98494f81c1cf8369f25f9c8b97b18",
+      "dimensions": [
+        161,
+        225
+      ],
+      "alpha_crop": [
+        41,
+        15,
+        202,
+        240
+      ],
+      "crop_method": "alpha_bounds",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_decorative_props_04.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-02_decorative_props_04.png",
+      "source_sha256": "6338b20b06d1d929a368f568e6d19e67f5c0ec6b0befa07ddce7979e7ad5c833",
+      "sha256": "3b4d22c800b7db03bdecc7646377b9bf56a8dcbe3514d8eb0f1ed4938f25d895",
+      "dimensions": [
+        230,
+        238
+      ],
+      "alpha_crop": [
+        13,
+        5,
+        243,
+        243
+      ],
+      "crop_method": "alpha_bounds",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_decorative_props_05.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-02_decorative_props_05.png",
+      "source_sha256": "eb3f2839eba748afff9ad5b2b69d0ba9fe1095bce1577a48ec296308b6eaa881",
+      "sha256": "fc0bd5527b8258ccbe1bf7c465073eb87e0aef2ac6ec847e7641098bb809a495",
+      "dimensions": [
+        231,
+        241
+      ],
+      "alpha_crop": [
+        12,
+        0,
+        243,
+        241
+      ],
+      "crop_method": "alpha_bounds",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_decorative_props_06.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-02_decorative_props_06.png",
+      "source_sha256": "557bec070c9f13692df63f2fdd1e18a4044330f34e46adaa553bb06a88cd5a74",
+      "sha256": "225a0ea3105eddf26a2eaa497a722a11e245ed898be9ec09d6c879491159e6ce",
+      "dimensions": [
+        154,
+        230
+      ],
+      "alpha_crop": [
+        51,
+        0,
+        205,
+        230
+      ],
+      "crop_method": "alpha_bounds",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_decorative_props_07.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-02_decorative_props_07.png",
+      "source_sha256": "704979438be3096c63ebf9b6196535e20052a50de9dd3e3e2a0a951e7734365a",
+      "sha256": "06d836a26720f7480609240696c870d28f7f492cbb9d67eb462ef4326c258f89",
+      "dimensions": [
+        179,
+        223
+      ],
+      "alpha_crop": [
+        36,
+        12,
+        215,
+        235
+      ],
+      "crop_method": "alpha_bounds",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_interactive_props_00.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-02_interactive_props_00.png",
+      "source_sha256": "c140f472552195fb4596b93d373338542048584b2494589f92f0a4f07cbb3b89",
+      "sha256": "ec12a6c33ffec66595fda3f54c36e1b0e31df7bad467299aba7afe1844e7f839",
+      "dimensions": [
+        249,
+        237
+      ],
+      "alpha_crop": [
+        7,
+        14,
+        256,
+        251
+      ],
+      "crop_method": "alpha_bounds",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_interactive_props_01.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-02_interactive_props_01.png",
+      "source_sha256": "ae171b957dde838e20bde679c69a64ba36aea5c2f86437069741d96469930639",
+      "sha256": "0ef620d046acdd1057e9afe550787664bc06438635cfa0bc28a426ace0e9ce14",
+      "dimensions": [
+        189,
+        223
+      ],
+      "alpha_crop": [
+        46,
+        27,
+        235,
+        250
+      ],
+      "crop_method": "largest_connected_alpha_component_threshold64",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_interactive_props_02.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-02_interactive_props_02.png",
+      "source_sha256": "dc1463539c358aee4c05b4822209952d2e992c7d1fa69b3d8515080abc30870b",
+      "sha256": "870a25870cc53ff0e776f8b2eedf3b4c4d3dc6286c13d6c10ec9de7c169cc61b",
+      "dimensions": [
+        246,
+        242
+      ],
+      "alpha_crop": [
+        0,
+        14,
+        246,
+        256
+      ],
+      "crop_method": "alpha_bounds",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_interactive_props_03.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-02_interactive_props_03.png",
+      "source_sha256": "fb9fcdc2c8ab3118c65a5e8f6c87e95d31696ee81a37d71c30abe899f7a0d3f9",
+      "sha256": "ef6d0d2f790bcfa7927fd899c65bd40935325c6229a60146dba9119c48a27ea3",
+      "dimensions": [
+        249,
+        236
+      ],
+      "alpha_crop": [
+        7,
+        6,
+        256,
+        242
+      ],
+      "crop_method": "alpha_bounds",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_interactive_props_04.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-02_interactive_props_04.png",
+      "source_sha256": "807266308434ee51b5246f4134bbc7e614217dbe6351ad4a41bed11f94705a4f",
+      "sha256": "1b924001c0601097ec65b9d82249a3127a09db78b428f43a5b27d349e32e3d37",
+      "dimensions": [
+        188,
+        219
+      ],
+      "alpha_crop": [
+        46,
+        21,
+        234,
+        240
+      ],
+      "crop_method": "largest_connected_alpha_component_threshold64",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_interactive_props_05.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-02_interactive_props_05.png",
+      "source_sha256": "6f16db4ed5f26c9ef5b5227d5763714074f955a9fc89a49f11c13a45a546dbf1",
+      "sha256": "6a9067cda08a7bbf99ec006c2dc47ba82d1f5526b6838ca4480a10de3c8045f2",
+      "dimensions": [
+        249,
+        248
+      ],
+      "alpha_crop": [
+        0,
+        0,
+        249,
+        248
+      ],
+      "crop_method": "alpha_bounds",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_distant_background.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-03_distant_background.png",
+      "source_sha256": "709c02e5d73c85a1756e4a2e044048e94e567d6050f9a4d0a96c3f25fc41770a",
+      "sha256": "709c02e5d73c85a1756e4a2e044048e94e567d6050f9a4d0a96c3f25fc41770a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha_crop": null,
+      "crop_method": "unchanged",
+      "derived": false
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_midground.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-03_midground.png",
+      "source_sha256": "5d6a5b8bb8cf0146f7ce2bea39ba3a9f304a92a755dd92c13b6446452ca109d8",
+      "sha256": "5d6a5b8bb8cf0146f7ce2bea39ba3a9f304a92a755dd92c13b6446452ca109d8",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha_crop": null,
+      "crop_method": "unchanged",
+      "derived": false
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_foreground.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-03_foreground.png",
+      "source_sha256": "d7d49a98fd7351ed823febe4480384f8c7169decc817cc9c15f26c88f4a9ffbe",
+      "sha256": "d7d49a98fd7351ed823febe4480384f8c7169decc817cc9c15f26c88f4a9ffbe",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "alpha_crop": null,
+      "crop_method": "unchanged",
+      "derived": false
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_00.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-03_decorative_props_00.png",
+      "source_sha256": "ebce26dd8d64b7bae62059aad4833b9c1d4429901f07f33348b40473645d4863",
+      "sha256": "31f85727b8763c6f84fb9d845e5781a6e9c488b79ef5d04e05de50e6ec1c4019",
+      "dimensions": [
+        192,
+        222
+      ],
+      "alpha_crop": [
+        32,
+        34,
+        224,
+        256
+      ],
+      "crop_method": "alpha_bounds",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_01.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-03_decorative_props_01.png",
+      "source_sha256": "e2f798cce78d67dfcc638cd51b1db6d0c8115f7ff773cb173dc2bc81a628b65d",
+      "sha256": "9c99eefb6ba6b6167e3dd61a1f0fb893cd8c14c7a18b569761ff227db43ee230",
+      "dimensions": [
+        147,
+        251
+      ],
+      "alpha_crop": [
+        68,
+        5,
+        215,
+        256
+      ],
+      "crop_method": "largest_connected_alpha_component_threshold64",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_02.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-03_decorative_props_02.png",
+      "source_sha256": "369af91fe0ddf171053a83b480963f3ea953b66889698af276c2e5099c9b8c02",
+      "sha256": "efb851ee1b194e857d940ef3300c3cd5bc2050089a6224c376951ff617d83aa6",
+      "dimensions": [
+        192,
+        242
+      ],
+      "alpha_crop": [
+        32,
+        14,
+        224,
+        256
+      ],
+      "crop_method": "alpha_bounds",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_03.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-03_decorative_props_03.png",
+      "source_sha256": "024a2dafe3aa285fcd80ce30085156ea2c243e4b50247ceb55f4ee741f95e277",
+      "sha256": "f8e666928c3a0262a93891a9e1896c9db750e49f85f5abaf425efce891009003",
+      "dimensions": [
+        185,
+        239
+      ],
+      "alpha_crop": [
+        32,
+        13,
+        217,
+        252
+      ],
+      "crop_method": "alpha_bounds",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_04.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-03_decorative_props_04.png",
+      "source_sha256": "949490fa617caa11d300d85e7d41f2e1aa457f0efc650cce386bda5aa1c3a0b9",
+      "sha256": "5c5b47507d54ea89bae1cd352c681e580674e22ea22bae2c84b60191195a7755",
+      "dimensions": [
+        146,
+        224
+      ],
+      "alpha_crop": [
+        52,
+        12,
+        198,
+        236
+      ],
+      "crop_method": "largest_connected_alpha_component_threshold64",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_05.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-03_decorative_props_05.png",
+      "source_sha256": "7dc30177f05a89137d8acc0a9179d4e98b81569be8f12c3314e6e20e95aea4c9",
+      "sha256": "1da529c082cb541fe1f93dc651af88fec07a792055bdcc3b21dca6be1b4f8c5b",
+      "dimensions": [
+        192,
+        247
+      ],
+      "alpha_crop": [
+        32,
+        0,
+        224,
+        247
+      ],
+      "crop_method": "alpha_bounds",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_06.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-03_decorative_props_06.png",
+      "source_sha256": "d3a2cbfa32e99d0e50af74318ed5ead7c592e51b836e23830dc01fcde200c543",
+      "sha256": "67b829f1511be4a020920df35d382aa542d47b7771ea8a2ec26f7cb681e0fac1",
+      "dimensions": [
+        191,
+        218
+      ],
+      "alpha_crop": [
+        33,
+        24,
+        224,
+        242
+      ],
+      "crop_method": "largest_connected_alpha_component_threshold64",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_decorative_props_07.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-03_decorative_props_07.png",
+      "source_sha256": "9e3fef53fd344bc2342d219fc1996c64c03c944f043756651f279573351cad6e",
+      "sha256": "da7c7d789d977dd29c4cf5682f73886fbb66c149641275e170d1f33ac78e8478",
+      "dimensions": [
+        160,
+        239
+      ],
+      "alpha_crop": [
+        54,
+        7,
+        214,
+        246
+      ],
+      "crop_method": "largest_connected_alpha_component_threshold64",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_interactive_props_00.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-03_interactive_props_00.png",
+      "source_sha256": "3e2eb057bbcba8f75e5e87c8ba6cca72e139ea670738fcdccd00d92a50cfa96b",
+      "sha256": "fb065a9ebec4c6baae75113a60fa530d46488304ff8bd2fc732a7e3c451d45c8",
+      "dimensions": [
+        246,
+        256
+      ],
+      "alpha_crop": [
+        10,
+        0,
+        256,
+        256
+      ],
+      "crop_method": "alpha_bounds",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_interactive_props_01.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-03_interactive_props_01.png",
+      "source_sha256": "6efdc16e7881f8069e80688007e4698c1b9a47126d83eee103de9fbb30650654",
+      "sha256": "739801c2a5df4ceec8f9d3b02657ed3896a756610576e2d53e3705da06c692dd",
+      "dimensions": [
+        195,
+        141
+      ],
+      "alpha_crop": [
+        25,
+        112,
+        220,
+        253
+      ],
+      "crop_method": "largest_connected_alpha_component_threshold64",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_interactive_props_02.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-03_interactive_props_02.png",
+      "source_sha256": "ddbf8c32e410abe631261d3e713c49146628073f813b9b5f051cbf505bf6a244",
+      "sha256": "e898ee3b73f78dc887d722457d6cc9a79f8a7ff5dc311410d24c3a802703630a",
+      "dimensions": [
+        246,
+        256
+      ],
+      "alpha_crop": [
+        0,
+        0,
+        246,
+        256
+      ],
+      "crop_method": "alpha_bounds",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_interactive_props_03.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-03_interactive_props_03.png",
+      "source_sha256": "e22e36eab6a1b972bbbcdda5b91c6c52dee63c3a6e83261cc08e69b7556d59af",
+      "sha256": "7abf2c002b6cfc601d5be0486629931d2a759fc80e296a6e56a74d653ef35aaf",
+      "dimensions": [
+        248,
+        249
+      ],
+      "alpha_crop": [
+        8,
+        0,
+        256,
+        249
+      ],
+      "crop_method": "alpha_bounds",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_interactive_props_04.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-03_interactive_props_04.png",
+      "source_sha256": "07eb38edb1aed6e45771cafdfaf9b8118a431b525403128c2c4ab3df741adcc9",
+      "sha256": "5b0fcd450529a207e7124892214f86af512028d6a26c6d42651f74361c85cec1",
+      "dimensions": [
+        195,
+        224
+      ],
+      "alpha_crop": [
+        25,
+        23,
+        220,
+        247
+      ],
+      "crop_method": "largest_connected_alpha_component_threshold64",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_04_environment_packs/ENV-03/exports/ENV-03_interactive_props_05.png",
+      "runtime": "assets/runtime/chapter01/environment/ENV-03_interactive_props_05.png",
+      "source_sha256": "01486c412dd87f51db06f4eba8293f81ac791991ddbf2ec9c8faa863f234403b",
+      "sha256": "7f2c665a7594c2eded16c7d33d787d052355bad1cf44215b5d1b7888b1cd1fbb",
+      "dimensions": [
+        248,
+        250
+      ],
+      "alpha_crop": [
+        0,
+        0,
+        248,
+        250
+      ],
+      "crop_method": "alpha_bounds",
+      "derived": true
+    },
+    {
+      "source": "assets/runtime/prologue/environment/TILE-001_surface_strip.png",
+      "runtime": "assets/runtime/chapter01/environment/TILE-001_surface_strip.png",
+      "source_sha256": "da91f82bb19cf72165338538f6d42ce2a334aacdb9364db46234536c7aba69f0",
+      "sha256": "da91f82bb19cf72165338538f6d42ce2a334aacdb9364db46234536c7aba69f0",
+      "dimensions": [
+        54,
+        33
+      ],
+      "alpha_crop": null,
+      "crop_method": "unchanged",
+      "derived": false
+    },
+    {
+      "source": "assets/runtime/prologue/environment/TILE-002_soil_fill.png",
+      "runtime": "assets/runtime/chapter01/environment/TILE-002_soil_fill.png",
+      "source_sha256": "fd27f34c7233747f4205780bfad876b245df37beb11d7cdfe1a0d33c7801aba5",
+      "sha256": "fd27f34c7233747f4205780bfad876b245df37beb11d7cdfe1a0d33c7801aba5",
+      "dimensions": [
+        48,
+        43
+      ],
+      "alpha_crop": null,
+      "crop_method": "unchanged",
+      "derived": false
+    },
+    {
+      "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/exports/TILE-003_01_top_middle.png",
+      "runtime": "assets/runtime/chapter01/environment/TILE-003_01_top_middle.png",
+      "source_sha256": "73760f583e31700b8d17bb43065cf1efa11c679276583fe75e35991bf1eb5439",
+      "sha256": "d59037d75aaeff0aba858f97ae0556d6c2d7ffb65ecf8db0642c090230b1af2d",
+      "dimensions": [
+        61,
+        54
+      ],
+      "alpha_crop": [
+        2,
+        9,
+        63,
+        63
+      ],
+      "crop_method": "alpha_bounds",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/exports/TILE-003_05_opaque_interior.png",
+      "runtime": "assets/runtime/chapter01/environment/TILE-003_05_opaque_interior.png",
+      "source_sha256": "f8d3be380423b6a5b0ee4b2152b863f51fa29d4a4e5eed37eb8e02d6ae0942ef",
+      "sha256": "0e7d43b8d47df55c4e35b47cda989f906aa0442c8cb44a62e77723231a32cff2",
+      "dimensions": [
+        60,
+        63
+      ],
+      "alpha_crop": [
+        3,
+        0,
+        63,
+        63
+      ],
+      "crop_method": "alpha_bounds",
+      "derived": true
+    },
+    {
+      "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/exports/TILE-003_03_isolated_block.png",
+      "runtime": "assets/runtime/chapter01/environment/TILE-003_03_isolated_block.png",
+      "source_sha256": "77baaec8d85c80deab7bfa141df05413b75dce9ed3006aee0b037f936574e4b7",
+      "sha256": "dd9b4b9478aa8275d534cb75eb2e64b924471a9c9b2a8c864422f50c9c10cd2a",
+      "dimensions": [
+        55,
+        54
+      ],
+      "alpha_crop": [
+        1,
+        9,
+        56,
+        63
+      ],
+      "crop_method": "alpha_bounds",
+      "derived": true
+    }
+  ]
+}
