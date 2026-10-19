@@ -1,0 +1,44 @@
+{
+  "animations": {
+    "main": {
+      "asset_id": "FX-003",
+      "frames": [
+        {
+          "path": "res://assets/runtime/prologue/effects/FX-003/FX-003_enemy_hit_flash_00.png",
+          "source": "assets/production/phase_07_visual_effects/FX-003/exports/FX-003_enemy_hit_flash_00.png",
+          "sha256": "7d0a6adf8d65a487003e3293eb647db3c13994361887e83b9804a41c48a0dd08",
+          "source_sha256": "7d0a6adf8d65a487003e3293eb647db3c13994361887e83b9804a41c48a0dd08"
+        },
+        {
+          "path": "res://assets/runtime/prologue/effects/FX-003/FX-003_enemy_hit_flash_01.png",
+          "source": "assets/production/phase_07_visual_effects/FX-003/exports/FX-003_enemy_hit_flash_01.png",
+          "sha256": "1c9c11c37575efe919774debc754c8ccae7b0b05d0dec98660837f69e36fa0d9",
+          "source_sha256": "1c9c11c37575efe919774debc754c8ccae7b0b05d0dec98660837f69e36fa0d9"
+        },
+        {
+          "path": "res://assets/runtime/prologue/effects/FX-003/FX-003_enemy_hit_flash_02.png",
+          "source": "assets/production/phase_07_visual_effects/FX-003/exports/FX-003_enemy_hit_flash_02.png",
+          "sha256": "9a472368be16593ecaba661537711f956ac055beb48d3d38a2c6e8073549784d",
+          "source_sha256": "9a472368be16593ecaba661537711f956ac055beb48d3d38a2c6e8073549784d"
+        },
+        {
+          "path": "res://assets/runtime/prologue/effects/FX-003/FX-003_enemy_hit_flash_03.png",
+          "source": "assets/production/phase_07_visual_effects/FX-003/exports/FX-003_enemy_hit_flash_03.png",
+          "sha256": "6d1974676096ce63b1fc32dfce22ceb1ead39b6bc9a6ad23bb684735c26724e0",
+          "source_sha256": "6d1974676096ce63b1fc32dfce22ceb1ead39b6bc9a6ad23bb684735c26724e0"
+        }
+      ],
+      "durations_ms": [
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336,
+        33.333333333333336
+      ],
+      "loop": false,
+      "pivot_px": [
+        64,
+        64
+      ]
+    }
+  }
+}

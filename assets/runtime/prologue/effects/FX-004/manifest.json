@@ -1,0 +1,72 @@
+{
+  "animations": {
+    "main": {
+      "asset_id": "FX-004",
+      "frames": [
+        {
+          "path": "res://assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_00.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_00.png",
+          "sha256": "382ebe90521582346193ef30423382bca89e83aa8f219a3017051d802cf12bd4",
+          "source_sha256": "382ebe90521582346193ef30423382bca89e83aa8f219a3017051d802cf12bd4"
+        },
+        {
+          "path": "res://assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_01.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_01.png",
+          "sha256": "a14ce828ae4bb4122a2f3555e37482ef3f6bd93c6f7587fc3a199dac322edee7",
+          "source_sha256": "a14ce828ae4bb4122a2f3555e37482ef3f6bd93c6f7587fc3a199dac322edee7"
+        },
+        {
+          "path": "res://assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_02.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_02.png",
+          "sha256": "e20ffc335b1cb030a4328a311baa3dd3c2f11da446431a01d5eba5b8c81cb49a",
+          "source_sha256": "e20ffc335b1cb030a4328a311baa3dd3c2f11da446431a01d5eba5b8c81cb49a"
+        },
+        {
+          "path": "res://assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_03.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_03.png",
+          "sha256": "a0c6170a880be74e018f535d39d0e189659a3e716cd968349ac4b9aba27cd162",
+          "source_sha256": "a0c6170a880be74e018f535d39d0e189659a3e716cd968349ac4b9aba27cd162"
+        },
+        {
+          "path": "res://assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_04.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_04.png",
+          "sha256": "15360b324664ce871bf7615ca9708870a938cd02f1d9bb6007a115dd699b44ab",
+          "source_sha256": "15360b324664ce871bf7615ca9708870a938cd02f1d9bb6007a115dd699b44ab"
+        },
+        {
+          "path": "res://assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_05.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_05.png",
+          "sha256": "e79ea41e57182ceeddc3e287fbbb4143d96d1686a23d2decfc040a353e13896a",
+          "source_sha256": "e79ea41e57182ceeddc3e287fbbb4143d96d1686a23d2decfc040a353e13896a"
+        },
+        {
+          "path": "res://assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_06.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_06.png",
+          "sha256": "ce5a7da57422b7ad2be80b067a2c7ef697a2607bc4ffc13358bb9c6c927a8a86",
+          "source_sha256": "ce5a7da57422b7ad2be80b067a2c7ef697a2607bc4ffc13358bb9c6c927a8a86"
+        },
+        {
+          "path": "res://assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_07.png",
+          "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_07.png",
+          "sha256": "088f3a7f84f0a6a638869f9a4e83a32f0662869494d1d0b5606003d1525d0951",
+          "source_sha256": "088f3a7f84f0a6a638869f9a4e83a32f0662869494d1d0b5606003d1525d0951"
+        }
+      ],
+      "durations_ms": [
+        62.5,
+        62.5,
+        62.5,
+        62.5,
+        62.5,
+        62.5,
+        62.5,
+        62.5
+      ],
+      "loop": false,
+      "pivot_px": [
+        96,
+        92
+      ]
+    }
+  }
+}

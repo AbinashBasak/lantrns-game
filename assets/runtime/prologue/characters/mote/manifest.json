@@ -1,0 +1,221 @@
+{
+  "animations": {
+    "idle": {
+      "asset_id": "MOTE-002",
+      "frames": [
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-002_idle_hover_01.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-002/exports/frames/MOTE-002_idle_hover_01.png",
+          "sha256": "3bfaa17814ef3427539e80d8f104e78e75d762a114d46de4c5e6ea03e1b5b939",
+          "source_sha256": "3bfaa17814ef3427539e80d8f104e78e75d762a114d46de4c5e6ea03e1b5b939"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-002_idle_hover_02.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-002/exports/frames/MOTE-002_idle_hover_02.png",
+          "sha256": "d1e679b7f6601a04a36e22de431b12a1eb01e0d45c245dcf7d4fb13f88978892",
+          "source_sha256": "d1e679b7f6601a04a36e22de431b12a1eb01e0d45c245dcf7d4fb13f88978892"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-002_idle_hover_03.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-002/exports/frames/MOTE-002_idle_hover_03.png",
+          "sha256": "60ec7b833fff64a877aa13a9c2cf29ebedf3e9972f8376caa29027434dd402ee",
+          "source_sha256": "60ec7b833fff64a877aa13a9c2cf29ebedf3e9972f8376caa29027434dd402ee"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-002_idle_hover_04.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-002/exports/frames/MOTE-002_idle_hover_04.png",
+          "sha256": "a03a39ee8063068e20834786569978930e771a0505456438a74c93702c858eb9",
+          "source_sha256": "a03a39ee8063068e20834786569978930e771a0505456438a74c93702c858eb9"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-002_idle_hover_05.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-002/exports/frames/MOTE-002_idle_hover_05.png",
+          "sha256": "8639b4314ac5d1ebee2767b70c7d5532028c792207f4eaca2678701eb8de0f42",
+          "source_sha256": "8639b4314ac5d1ebee2767b70c7d5532028c792207f4eaca2678701eb8de0f42"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-002_idle_hover_06.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-002/exports/frames/MOTE-002_idle_hover_06.png",
+          "sha256": "27391858c13bb9cdded61c477c75014f389f8e36545e7021ad645e299be7c898",
+          "source_sha256": "27391858c13bb9cdded61c477c75014f389f8e36545e7021ad645e299be7c898"
+        }
+      ],
+      "durations_ms": [
+        160,
+        160,
+        160,
+        160,
+        160,
+        160
+      ],
+      "loop": true,
+      "pivot_px": [
+        256,
+        256
+      ]
+    },
+    "follow": {
+      "asset_id": "MOTE-003",
+      "frames": [
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_01.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_01.png",
+          "sha256": "e1b1012836b7440ba40064ba56c4a118900f735ab0c172bb3831d0ef1337011d",
+          "source_sha256": "e1b1012836b7440ba40064ba56c4a118900f735ab0c172bb3831d0ef1337011d"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_02.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_02.png",
+          "sha256": "48c3385ce8d3ec30aed8f0e6fea392d0885df5c66275a520675c6ada22f8e2d3",
+          "source_sha256": "48c3385ce8d3ec30aed8f0e6fea392d0885df5c66275a520675c6ada22f8e2d3"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_03.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_03.png",
+          "sha256": "ec47f90851ad515e8a3bd913042e92dced807fb756c98f208d610720a580bcef",
+          "source_sha256": "ec47f90851ad515e8a3bd913042e92dced807fb756c98f208d610720a580bcef"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_04.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_04.png",
+          "sha256": "a38d012c475e03ccdf3b16545b4cb5f8c085ed713fa2e214571288aab18c8cbd",
+          "source_sha256": "a38d012c475e03ccdf3b16545b4cb5f8c085ed713fa2e214571288aab18c8cbd"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_05.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_05.png",
+          "sha256": "7c2861045051339cec7623e247a44a3944bddb6bd69db298b57c620fd0392487",
+          "source_sha256": "7c2861045051339cec7623e247a44a3944bddb6bd69db298b57c620fd0392487"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_06.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_06.png",
+          "sha256": "132a00901b6e52ec9685aa0c8d84b13d3df1b021bb7c8b3261905510247102e4",
+          "source_sha256": "132a00901b6e52ec9685aa0c8d84b13d3df1b021bb7c8b3261905510247102e4"
+        }
+      ],
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "loop": true,
+      "pivot_px": [
+        256,
+        256
+      ]
+    },
+    "alert": {
+      "asset_id": "MOTE-004",
+      "frames": [
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-004_alert_reaction_01.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-004/exports/frames/MOTE-004_alert_reaction_01.png",
+          "sha256": "b6580d44f26f824f36d86b20fe8ba18c0265abc723cc430f8ad07983375f2999",
+          "source_sha256": "b6580d44f26f824f36d86b20fe8ba18c0265abc723cc430f8ad07983375f2999"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-004_alert_reaction_02.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-004/exports/frames/MOTE-004_alert_reaction_02.png",
+          "sha256": "316d9fb3d294d51f20a17e6e21fdcabada86caccd60c3b563ffd3ff21b75db84",
+          "source_sha256": "316d9fb3d294d51f20a17e6e21fdcabada86caccd60c3b563ffd3ff21b75db84"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-004_alert_reaction_03.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-004/exports/frames/MOTE-004_alert_reaction_03.png",
+          "sha256": "26167e867b87000c4e662d7ac4a646e35c43ed6d88148fcf5befed014fee3693",
+          "source_sha256": "26167e867b87000c4e662d7ac4a646e35c43ed6d88148fcf5befed014fee3693"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-004_alert_reaction_04.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-004/exports/frames/MOTE-004_alert_reaction_04.png",
+          "sha256": "8eacf7ae4a244f0f3874f3862c66da79585aa2222eb9501ab3b6b187a6abcaa2",
+          "source_sha256": "8eacf7ae4a244f0f3874f3862c66da79585aa2222eb9501ab3b6b187a6abcaa2"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-004_alert_reaction_05.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-004/exports/frames/MOTE-004_alert_reaction_05.png",
+          "sha256": "a131e2b3783e4cd10cd74fe196e25180f6f6735877ab8d2513b14afdd42a99b6",
+          "source_sha256": "a131e2b3783e4cd10cd74fe196e25180f6f6735877ab8d2513b14afdd42a99b6"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-004_alert_reaction_06.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-004/exports/frames/MOTE-004_alert_reaction_06.png",
+          "sha256": "81b02a6ee140ac4fc3dc5a72950ccda72614a0c7bfcb9434c4c5afd017c77b5e",
+          "source_sha256": "81b02a6ee140ac4fc3dc5a72950ccda72614a0c7bfcb9434c4c5afd017c77b5e"
+        }
+      ],
+      "durations_ms": [
+        140,
+        100,
+        160,
+        220,
+        180,
+        160
+      ],
+      "loop": false,
+      "pivot_px": [
+        256,
+        256
+      ]
+    },
+    "rescue": {
+      "asset_id": "MOTE-007",
+      "frames": [
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_01.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_01.png",
+          "sha256": "7e4b20c912d6ad80cbb7ed95c40bc54c4beaba9c7e8993b4355436b548e66912",
+          "source_sha256": "7e4b20c912d6ad80cbb7ed95c40bc54c4beaba9c7e8993b4355436b548e66912"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_02.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_02.png",
+          "sha256": "b2fc616c8c1d695dbf635fb93c68d98903c33867c17a95768f65857ea9a28276",
+          "source_sha256": "b2fc616c8c1d695dbf635fb93c68d98903c33867c17a95768f65857ea9a28276"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_03.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_03.png",
+          "sha256": "878009951722fd00025bb7ce8b554a117ae0a406538cb9e360b894ecd3cb3de9",
+          "source_sha256": "878009951722fd00025bb7ce8b554a117ae0a406538cb9e360b894ecd3cb3de9"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_04.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_04.png",
+          "sha256": "1903758ae8750e43e798cfc6dc1ad743e87d8ed8b588f14045943cee397e1b56",
+          "source_sha256": "1903758ae8750e43e798cfc6dc1ad743e87d8ed8b588f14045943cee397e1b56"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_05.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_05.png",
+          "sha256": "44b88c291d5e653d43f3d6033c7d8103c330e66ac350721109746addb48f8357",
+          "source_sha256": "44b88c291d5e653d43f3d6033c7d8103c330e66ac350721109746addb48f8357"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_06.png",
+          "source": "assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_06.png",
+          "sha256": "01e4c1580df23d3a47cabcdec6ef4480ac5380dd780a140de9cf07e38d12aae2",
+          "source_sha256": "01e4c1580df23d3a47cabcdec6ef4480ac5380dd780a140de9cf07e38d12aae2"
+        }
+      ],
+      "durations_ms": [
+        140,
+        140,
+        180,
+        250,
+        150,
+        180
+      ],
+      "loop": false,
+      "pivot_px": [
+        256,
+        256
+      ]
+    }
+  },
+  "provenance": "Unmodified generated export frames; sources preserved in production archive."
+}

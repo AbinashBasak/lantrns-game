@@ -1,0 +1,636 @@
+{
+  "files": [
+    {
+      "asset_id": "ENV-01",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_distant_background.png",
+      "runtime": "assets/runtime/prologue/environment/ENV-01_distant_background.png",
+      "source_sha256": "9fb81962bbc77f6e824327001bccda30b5b4470e7b861a1617ff6f0ed78ff46e",
+      "runtime_sha256": "9fb81962bbc77f6e824327001bccda30b5b4470e7b861a1617ff6f0ed78ff46e",
+      "operation": "unchanged copy of reviewed generated production export",
+      "source_crop": null
+    },
+    {
+      "asset_id": "ENV-01",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_midground.png",
+      "runtime": "assets/runtime/prologue/environment/ENV-01_midground.png",
+      "source_sha256": "81b586d11f3129eaa3aa8dc6024f29c9a46afa9d19b2b5fe5ededc0fefabb067",
+      "runtime_sha256": "81b586d11f3129eaa3aa8dc6024f29c9a46afa9d19b2b5fe5ededc0fefabb067",
+      "operation": "unchanged copy of reviewed generated production export",
+      "source_crop": null
+    },
+    {
+      "asset_id": "ENV-01",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_foreground.png",
+      "runtime": "assets/runtime/prologue/environment/ENV-01_foreground.png",
+      "source_sha256": "db637284b1030f9ad9a13634d092afef4c074567f934a45a559f87c67bd3424b",
+      "runtime_sha256": "db637284b1030f9ad9a13634d092afef4c074567f934a45a559f87c67bd3424b",
+      "operation": "unchanged copy of reviewed generated production export",
+      "source_crop": null
+    },
+    {
+      "asset_id": "ENV-01",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_decorative_props_00.png",
+      "runtime": "assets/runtime/prologue/environment/ENV-01_decorative_props_00.png",
+      "source_sha256": "ea16e3a0f8fbfe2f87e74569ae05c4f64c2deea704c45f653671d82c30f6a779",
+      "runtime_sha256": "937292c0809ddcbbcaba7b4726c106a8acc72fbaab73945bcc5826fe389fd709",
+      "operation": "visible-alpha crop for foot anchoring",
+      "source_crop": [
+        59,
+        13,
+        175,
+        254
+      ]
+    },
+    {
+      "asset_id": "ENV-01",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_decorative_props_01.png",
+      "runtime": "assets/runtime/prologue/environment/ENV-01_decorative_props_01.png",
+      "source_sha256": "31e359513b11deb49a2bd299217f582da8317ae5417eeb1204d1354f8713e983",
+      "runtime_sha256": "c506c489903eed624bc0777fd65756627f5ce92bdaadcddd5b03822673a957f9",
+      "operation": "visible-alpha crop for foot anchoring",
+      "source_crop": [
+        53,
+        30,
+        207,
+        233
+      ]
+    },
+    {
+      "asset_id": "ENV-01",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_decorative_props_02.png",
+      "runtime": "assets/runtime/prologue/environment/ENV-01_decorative_props_02.png",
+      "source_sha256": "e85a9bf52a86ab97938395d349fed327e01cbaec31c35c8a285e6c6a2f301526",
+      "runtime_sha256": "152b6094e68cd4ef3c9b28680bf14ce7855f555a1fd3d6baf31d7645684f9dad",
+      "operation": "visible-alpha crop for foot anchoring",
+      "source_crop": [
+        58,
+        35,
+        213,
+        227
+      ]
+    },
+    {
+      "asset_id": "ENV-01",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_decorative_props_03.png",
+      "runtime": "assets/runtime/prologue/environment/ENV-01_decorative_props_03.png",
+      "source_sha256": "d8bce8d50594f0e7ce16be9b0baf381866f91b866e50e65908ffd46210e4908e",
+      "runtime_sha256": "def834ed3ed8d895198cee8dca67fc7826492df7766d05efbff8686476b2066c",
+      "operation": "visible-alpha crop for foot anchoring",
+      "source_crop": [
+        54,
+        13,
+        199,
+        244
+      ]
+    },
+    {
+      "asset_id": "ENV-01",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_decorative_props_05.png",
+      "runtime": "assets/runtime/prologue/environment/ENV-01_decorative_props_05.png",
+      "source_sha256": "77487e0ada46b8773c0df7a095dd8e187e6e01b44b56d11db9e9fc8df0adf85d",
+      "runtime_sha256": "c84662c817d32ac2cb23081ba075bcda7d26aaf018d6fe642520182c57931d26",
+      "operation": "visible-alpha crop for foot anchoring",
+      "source_crop": [
+        21,
+        7,
+        237,
+        220
+      ]
+    },
+    {
+      "asset_id": "ENV-01",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_decorative_props_06.png",
+      "runtime": "assets/runtime/prologue/environment/ENV-01_decorative_props_06.png",
+      "source_sha256": "677824394dc33a3db7f44d80af9aac6a91ed8cc5949c6e60be4b677066cc3d28",
+      "runtime_sha256": "4a9e2b0db6ae5d39bd7db515a220d2d9e565e0a2677846939a02267dd0d6e71a",
+      "operation": "visible-alpha crop for foot anchoring",
+      "source_crop": [
+        18,
+        8,
+        237,
+        219
+      ]
+    },
+    {
+      "asset_id": "ENV-01",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_decorative_props_07.png",
+      "runtime": "assets/runtime/prologue/environment/ENV-01_decorative_props_07.png",
+      "source_sha256": "37bada093c944088822cab6ba4b9146b4a6933a260f99e13caee23fee7890e7e",
+      "runtime_sha256": "7ea49a1ee6017a80f3c7b57962047ecc1d45755fcf4c482812463c32b14eb900",
+      "operation": "visible-alpha crop for foot anchoring",
+      "source_crop": [
+        18,
+        19,
+        226,
+        177
+      ]
+    },
+    {
+      "asset_id": "ENV-01",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_interactive_props_00.png",
+      "runtime": "assets/runtime/prologue/environment/ENV-01_interactive_props_00.png",
+      "source_sha256": "12fedcfbe7e7a86608dd5cfc2f64b6fded16d4f7d359f9c1a27bfa01c2b51102",
+      "runtime_sha256": "ff2c1fae0642b9300f3d25aa3ee0a7feaed27bd58f71c8096aa626a72e4b5520",
+      "operation": "visible-alpha crop for foot anchoring",
+      "source_crop": [
+        14,
+        14,
+        240,
+        247
+      ]
+    },
+    {
+      "asset_id": "ENV-01",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_interactive_props_01.png",
+      "runtime": "assets/runtime/prologue/environment/ENV-01_interactive_props_01.png",
+      "source_sha256": "7e931c1011e4aee3f703217dc9d142a8a4a4454b808b68061e2a90ac17f51aa7",
+      "runtime_sha256": "6ad97b17085621e8395bd4cd8a8def106dc2097d8129a9cac0b6b915ec2e1caa",
+      "operation": "visible-alpha crop for foot anchoring",
+      "source_crop": [
+        8,
+        14,
+        235,
+        248
+      ]
+    },
+    {
+      "asset_id": "ENV-01",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_interactive_props_02.png",
+      "runtime": "assets/runtime/prologue/environment/ENV-01_interactive_props_02.png",
+      "source_sha256": "e3643655bf6c87ce8b2ac3fed5adb65e969f7d02e97f4cb5b616631064bd56ed",
+      "runtime_sha256": "03670cda0a349b3c3b9face8266b6572cfd9485568c02e5559131038c41a2c6b",
+      "operation": "visible-alpha crop for foot anchoring",
+      "source_crop": [
+        2,
+        79,
+        251,
+        256
+      ]
+    },
+    {
+      "asset_id": "ENV-01",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_interactive_props_03.png",
+      "runtime": "assets/runtime/prologue/environment/ENV-01_interactive_props_03.png",
+      "source_sha256": "8524ad93d63808dab937887a2fd6daab24d9c1d2c3e55165c155f2bab3537dee",
+      "runtime_sha256": "52bde9400b7cc59d48bc3138cabf9239f8e573ddfa39749558f2b3633ea80452",
+      "operation": "visible-alpha crop for foot anchoring",
+      "source_crop": [
+        16,
+        60,
+        253,
+        221
+      ]
+    },
+    {
+      "asset_id": "ENV-01",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_interactive_props_04.png",
+      "runtime": "assets/runtime/prologue/environment/ENV-01_interactive_props_04.png",
+      "source_sha256": "acfb27b3a2cd4b6e813fb9bc24df11c2dbffe865239a824c9b26217981bc36a2",
+      "runtime_sha256": "3e365955648e732f4ad029ab50e69a123b905632381d4e8d2e80c453637ee68c",
+      "operation": "visible-alpha crop for foot anchoring",
+      "source_crop": [
+        1,
+        91,
+        251,
+        227
+      ]
+    },
+    {
+      "asset_id": "ENV-01",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_interactive_props_05.png",
+      "runtime": "assets/runtime/prologue/environment/ENV-01_interactive_props_05.png",
+      "source_sha256": "b5f47683c8a07216e833c25bb9397808694873efd52c1e217fa1951861b8d656",
+      "runtime_sha256": "23448f42403b64945c16869b982fc872357f3d71fd4c71a7a798fe0fe369df53",
+      "operation": "visible-alpha crop for foot anchoring",
+      "source_crop": [
+        17,
+        0,
+        234,
+        229
+      ]
+    },
+    {
+      "asset_id": "TILE-001",
+      "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/exports/TILE-001_01_top_middle.png",
+      "runtime": "assets/runtime/prologue/environment/TILE-001_01_top_middle.png",
+      "source_sha256": "f8deca6c0f56523bff9c7b28698dfd9e3e7184c958eb71931c8172e03955450f",
+      "runtime_sha256": "f8deca6c0f56523bff9c7b28698dfd9e3e7184c958eb71931c8172e03955450f",
+      "operation": "unchanged copy of reviewed generated production export",
+      "source_crop": null
+    },
+    {
+      "asset_id": "TILE-001",
+      "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/exports/TILE-001_05_opaque_interior.png",
+      "runtime": "assets/runtime/prologue/environment/TILE-001_05_opaque_interior.png",
+      "source_sha256": "56f0bc07e0695b15baf8eabc9b2a1f86407227e7e1dfdd85bf8c6a4d081108dc",
+      "runtime_sha256": "56f0bc07e0695b15baf8eabc9b2a1f86407227e7e1dfdd85bf8c6a4d081108dc",
+      "operation": "unchanged copy of reviewed generated production export",
+      "source_crop": null
+    },
+    {
+      "asset_id": "TILE-001",
+      "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/exports/TILE-001_03_isolated_block.png",
+      "runtime": "assets/runtime/prologue/environment/TILE-001_03_isolated_block.png",
+      "source_sha256": "62665465fddfa770df3f32e9513b7296a5e021df0f2d8e5ea10f1a537748dbd8",
+      "runtime_sha256": "62665465fddfa770df3f32e9513b7296a5e021df0f2d8e5ea10f1a537748dbd8",
+      "operation": "unchanged copy of reviewed generated production export",
+      "source_crop": null
+    },
+    {
+      "asset_id": "PROP-006",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/exports/PROP-006_00_left_entry.png",
+      "runtime": "assets/runtime/prologue/environment/PROP-006_00_left_entry.png",
+      "source_sha256": "bcd751f50fe2affdec48f21000da5e2faed49d43a7e0fb8bf73971121b007d3f",
+      "runtime_sha256": "9c464afb2916aa75772cbd161e3e0dcba60e6c6b1f2fd45def825adde45da2b9",
+      "operation": "alpha-bounds crop of generated individual bridge export; original unchanged",
+      "source_crop": [
+        33,
+        36,
+        496,
+        477
+      ],
+      "dimensions": [
+        463,
+        441
+      ]
+    },
+    {
+      "asset_id": "PROP-006",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/exports/PROP-006_01_middle_repeat.png",
+      "runtime": "assets/runtime/prologue/environment/PROP-006_01_middle_repeat.png",
+      "source_sha256": "45e81e3f6a055cba42c5b7ca0c5249e2d97c4dd770c47b5d64b12c19abd639d7",
+      "runtime_sha256": "6ced1d87aa326c2458a9625a06c42c0ebc66619a01369a46e8a6d7fdad79fb92",
+      "operation": "alpha-bounds crop of generated individual bridge export; original unchanged",
+      "source_crop": [
+        16,
+        274,
+        484,
+        421
+      ],
+      "dimensions": [
+        468,
+        147
+      ]
+    },
+    {
+      "asset_id": "PROP-006",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/exports/PROP-006_02_right_entry.png",
+      "runtime": "assets/runtime/prologue/environment/PROP-006_02_right_entry.png",
+      "source_sha256": "524d15147b8e6cf280e0e1987413c303778b19fd7b9a166eb69de2e4e0663f6d",
+      "runtime_sha256": "d18a4cb47236fd322598c7742629bcb75f54879dde7edd54ea4450650161d163",
+      "operation": "alpha-bounds crop of generated individual bridge export; original unchanged",
+      "source_crop": [
+        23,
+        34,
+        476,
+        476
+      ],
+      "dimensions": [
+        453,
+        442
+      ]
+    },
+    {
+      "asset_id": "TILE-006",
+      "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/exports/TILE-006_plank_repeat.png",
+      "runtime": "assets/runtime/prologue/environment/TILE-006_timbers.png",
+      "source_sha256": "a708489468a9c2add6f9a0605104b2326448183172cc420c4cde301df7e2877f",
+      "runtime_sha256": "5beea165fe88691e45bedbff088cf454c6f0e718470550245e17197d6eb2addc",
+      "operation": "crop",
+      "source_crop": [
+        3,
+        27,
+        61,
+        39
+      ],
+      "dimensions": [
+        58,
+        12
+      ]
+    },
+    {
+      "asset_id": "ENV-01",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_distant_background.png",
+      "runtime": "assets/runtime/prologue/environment/ENV-01_distant_background_mirrored.png",
+      "source_sha256": "9fb81962bbc77f6e824327001bccda30b5b4470e7b861a1617ff6f0ed78ff46e",
+      "runtime_sha256": "65bc434c5f65b814fcf68f402a571b03dcd70d42461f1b1cb8244496c9a7e0b9",
+      "operation": "mirror",
+      "source_crop": null,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "asset_id": "TILE-001",
+      "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/exports/TILE-001_01_top_middle.png",
+      "runtime": "assets/runtime/prologue/environment/TILE-001_surface_strip.png",
+      "source_sha256": "f8deca6c0f56523bff9c7b28698dfd9e3e7184c958eb71931c8172e03955450f",
+      "runtime_sha256": "da91f82bb19cf72165338538f6d42ce2a334aacdb9364db46234536c7aba69f0",
+      "operation": "crop",
+      "source_crop": [
+        8,
+        30,
+        62,
+        63
+      ],
+      "dimensions": [
+        54,
+        33
+      ]
+    },
+    {
+      "asset_id": "TILE-002",
+      "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_05_opaque_interior.png",
+      "runtime": "assets/runtime/prologue/environment/TILE-002_soil_fill.png",
+      "source_sha256": "84b81f48b294da910846b0b54145a8756b5982f25345499470151fa5db512222",
+      "runtime_sha256": "fd27f34c7233747f4205780bfad876b245df37beb11d7cdfe1a0d33c7801aba5",
+      "operation": "crop",
+      "source_crop": [
+        10,
+        12,
+        58,
+        55
+      ],
+      "dimensions": [
+        48,
+        43
+      ]
+    },
+    {
+      "asset_id": "PROP-004",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-004/exports/PROP-004_00_intact.png",
+      "runtime": "assets/runtime/prologue/environment/PROP-004_00_intact.png",
+      "source_sha256": "5f9b6843bf39afde06bd0ae8ae8ed62b8102275c0442ca4068022ef3bcfa525e",
+      "runtime_sha256": "bb2cdf92359b5384aa33bb99ad34b7e1140ad8db8aaf884f13545245310cc90f",
+      "operation": "alpha-bounds crop of generated village construction module; original unchanged",
+      "source_crop": [
+        52,
+        157,
+        479,
+        512
+      ],
+      "dimensions": [
+        427,
+        355
+      ]
+    },
+    {
+      "asset_id": "PROP-009",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/exports/PROP-009_closed_unlatched.png",
+      "runtime": "assets/runtime/prologue/environment/PROP-009_closed_unlatched.png",
+      "source_sha256": "4aef11c4d4bb995ee9530a0e0521835d96d6b32ac8c424e4a6d7c367c39268fd",
+      "runtime_sha256": "361ed66d854a95a2c4f995050d07d5ae07deda3b6deddac10356ada0ca671c66",
+      "operation": "alpha-bounds crop of generated village construction module; original unchanged",
+      "source_crop": [
+        65,
+        32,
+        446,
+        490
+      ],
+      "dimensions": [
+        381,
+        458
+      ]
+    },
+    {
+      "asset_id": "PROP-010",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-010/exports/PROP-010_roof_left_eave.png",
+      "runtime": "assets/runtime/prologue/environment/PROP-010_roof_left_eave.png",
+      "source_sha256": "b400e11fdbf969a41adfea2a3cc791ba9b4013adc319205ea8cfbe9ea3c471d5",
+      "runtime_sha256": "87a8275cd29ed1ff95fd5f9d70f56d782b0a05ced0b8bcbcdfdf866a9c869371",
+      "operation": "alpha-bounds crop of generated village construction module; original unchanged",
+      "source_crop": [
+        18,
+        38,
+        238,
+        234
+      ],
+      "dimensions": [
+        220,
+        196
+      ]
+    },
+    {
+      "asset_id": "PROP-010",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-010/exports/PROP-010_roof_repeat.png",
+      "runtime": "assets/runtime/prologue/environment/PROP-010_roof_repeat.png",
+      "source_sha256": "547d1d51274aafc6ff3b42923ba9bb7046ffb7f316fd60108f0a6483142d5cfe",
+      "runtime_sha256": "391ca9b76433288f1ad61fd644371ef1e129bce4a21f26581066fe1acd047096",
+      "operation": "alpha-bounds crop of generated village construction module; original unchanged",
+      "source_crop": [
+        18,
+        85,
+        238,
+        234
+      ],
+      "dimensions": [
+        220,
+        149
+      ]
+    },
+    {
+      "asset_id": "PROP-010",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-010/exports/PROP-010_roof_right_eave.png",
+      "runtime": "assets/runtime/prologue/environment/PROP-010_roof_right_eave.png",
+      "source_sha256": "78fa554e2e5cef6eed5720186b0cad4c6cf3108810ccf4601b054b6714fd1363",
+      "runtime_sha256": "7eaa120aad00370a60b1726d69002e8994e56cd71b4d33543ff49014ee91f065",
+      "operation": "alpha-bounds crop of generated village construction module; original unchanged",
+      "source_crop": [
+        18,
+        33,
+        238,
+        234
+      ],
+      "dimensions": [
+        220,
+        201
+      ]
+    },
+    {
+      "asset_id": "PROP-010",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-010/exports/PROP-010_window_closed.png",
+      "runtime": "assets/runtime/prologue/environment/PROP-010_window_closed.png",
+      "source_sha256": "b4108cca7699f2806316f600172a38e13172c4f6a70ab35510a2a254a3ee8627",
+      "runtime_sha256": "6bf746fba4b78f3acb1de402ce48fc8a3144f18ab49eeaf2a308b4e7fc2619dc",
+      "operation": "alpha-bounds crop of generated village construction module; original unchanged",
+      "source_crop": [
+        40,
+        13,
+        215,
+        234
+      ],
+      "dimensions": [
+        175,
+        221
+      ]
+    },
+    {
+      "asset_id": "PROP-010",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-010/exports/PROP-010_window_round.png",
+      "runtime": "assets/runtime/prologue/environment/PROP-010_window_round.png",
+      "source_sha256": "d5d95cd8c00c3363f33bd83a9d6813033a91f606ebb109b0fd951d3ab35719d6",
+      "runtime_sha256": "042165d9d4275389d82329baa255b048658535419b4bc6da2ee8ef8a8dd8710b",
+      "operation": "alpha-bounds crop of generated village construction module; original unchanged",
+      "source_crop": [
+        34,
+        14,
+        223,
+        235
+      ],
+      "dimensions": [
+        189,
+        221
+      ]
+    },
+    {
+      "asset_id": "PROP-011",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_bush_low.png",
+      "runtime": "assets/runtime/prologue/environment/PROP-011_bush_low.png",
+      "source_sha256": "07104903485590bc7dad515ae67b451d32f6e4e572b46bd33758ccb06f3bfc71",
+      "runtime_sha256": "b41a0a46f3a6670a573118599fd83f1679c534dd84c36bc1b47fda7da2287277",
+      "operation": "alpha-bounds crop of generated village construction module; original unchanged",
+      "source_crop": [
+        16,
+        100,
+        238,
+        235
+      ],
+      "dimensions": [
+        222,
+        135
+      ]
+    },
+    {
+      "asset_id": "PROP-011",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_bush_round.png",
+      "runtime": "assets/runtime/prologue/environment/PROP-011_bush_round.png",
+      "source_sha256": "46d6fd9f3bbdf6328177e898b2227efcce8e6327ffba0d8dd1a3133b511b22b7",
+      "runtime_sha256": "5e3926e04b8ac05a84ee641b446a1cf4b4385a86057ac2294c1f24a812aa446f",
+      "operation": "alpha-bounds crop of generated village construction module; original unchanged",
+      "source_crop": [
+        17,
+        29,
+        238,
+        235
+      ],
+      "dimensions": [
+        221,
+        206
+      ]
+    },
+    {
+      "asset_id": "PROP-011",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_flower_white.png",
+      "runtime": "assets/runtime/prologue/environment/PROP-011_flower_white.png",
+      "source_sha256": "e8b609b304a4017c96fd358ce69d3848421b35630bbbf3df50728f8e680b0537",
+      "runtime_sha256": "bad94bf0dcc1f1becce08bef7cd4760ae8f66fec1dd361def8a587e494c0bcf0",
+      "operation": "alpha-bounds crop of generated village construction module; original unchanged",
+      "source_crop": [
+        19,
+        14,
+        237,
+        234
+      ],
+      "dimensions": [
+        218,
+        220
+      ]
+    },
+    {
+      "asset_id": "PROP-011",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_mixed_ground_plants.png",
+      "runtime": "assets/runtime/prologue/environment/PROP-011_mixed_ground_plants.png",
+      "source_sha256": "2e7eb7e0a5e85b1691aac8162c7ba75396a56d6b0256a1318ad7c5ba0d6b37a0",
+      "runtime_sha256": "5d348f0c9b8b9fb8aedc8d1ded89468e8134dbf534f4762357278ed54609dea0",
+      "operation": "alpha-bounds crop of generated village construction module; original unchanged",
+      "source_crop": [
+        21,
+        13,
+        232,
+        234
+      ],
+      "dimensions": [
+        211,
+        221
+      ]
+    },
+    {
+      "asset_id": "PROP-012",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012/exports/PROP-012_root_arch.png",
+      "runtime": "assets/runtime/prologue/environment/PROP-012_root_arch.png",
+      "source_sha256": "fa41378ad7dfef54b3cb738f8435a7e66b3aea0f5213a4d962b6b85112d10cd4",
+      "runtime_sha256": "ea7c3e2594ad501279a3053cf6da78b116fe628d429e49c5512d612cb1179258",
+      "operation": "alpha-bounds crop of generated village construction module; original unchanged",
+      "source_crop": [
+        18,
+        16,
+        238,
+        234
+      ],
+      "dimensions": [
+        220,
+        218
+      ]
+    },
+    {
+      "asset_id": "PROP-012",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012/exports/PROP-012_root_stump.png",
+      "runtime": "assets/runtime/prologue/environment/PROP-012_root_stump.png",
+      "source_sha256": "10dea53bceb76dbdd0f77a1c991eaee83021cdc2793f635b0b87dc5c75e53a41",
+      "runtime_sha256": "3fc80638aa20b3020fca3ffe0b4bcb46535e765ca7d26ef44f7fc5c26765b2f0",
+      "operation": "alpha-bounds crop of generated village construction module; original unchanged",
+      "source_crop": [
+        18,
+        26,
+        238,
+        234
+      ],
+      "dimensions": [
+        220,
+        208
+      ]
+    },
+    {
+      "asset_id": "PROP-012",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012/exports/PROP-012_small_bare_tree.png",
+      "runtime": "assets/runtime/prologue/environment/PROP-012_small_bare_tree.png",
+      "source_sha256": "de0a093fd6b730dea49731b09e34e980c56e71a846b82c7f5cd431d94463156b",
+      "runtime_sha256": "6a12521a2a45f8f1a4328539b093909d832baa28f4749992c00b51518f8f497d",
+      "operation": "alpha-bounds crop of generated village construction module; original unchanged",
+      "source_crop": [
+        60,
+        14,
+        195,
+        234
+      ],
+      "dimensions": [
+        135,
+        220
+      ]
+    },
+    {
+      "asset_id": "PROP-012",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012/exports/PROP-012_sapling_leafy.png",
+      "runtime": "assets/runtime/prologue/environment/PROP-012_sapling_leafy.png",
+      "source_sha256": "92830f64b092446d6147d2340e51280b25514392b0bd7e2fe2a169607f7b2d95",
+      "runtime_sha256": "b9ab43f204c4e68f34a7f4c9da912aff7f54903829736d1b070c8a71570fe6fa",
+      "operation": "alpha-bounds crop of generated village construction module; original unchanged",
+      "source_crop": [
+        41,
+        14,
+        214,
+        234
+      ],
+      "dimensions": [
+        173,
+        220
+      ]
+    }
+  ],
+  "notes": [
+    "Runtime stage integration; no source sheet or lighting concept used as scenery.",
+    "ENV01 architecture is a separately generated transparent midground layer.",
+    "Dedicated NPC source/export provenance is retained in npc_manifest.json separately."
+  ]
+}

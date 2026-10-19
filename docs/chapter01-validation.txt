@@ -1,0 +1,51 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS: Chapter can launch directly with a title
+PASS: Chapter intro is skippable dialogue
+PASS: Chapter spawn settles on authored terrain
+PASS: Forest and temple have independent four-layer backgrounds
+PASS: Trail marker inspection records the introduction
+PASS: First root gap is crossable with a normal jump
+PASS: Wider second root gap is crossable with a normal jump
+PASS: Optional watchpost first step is reachable
+PASS: Optional token is collected by reaching the watchpost ledge
+PASS: Incorrect rune input resets gently without damage
+PASS: Nearest prompt selects rune III rather than the adjacent arch
+PASS: Actual interact-button input activates the nearby rune
+PASS: Standing by the arch selects its story interaction
+PASS: Actual interact-button input opens the arch clue
+PASS: Rune clue exposes a complete visual sequence without sound
+PASS: Five correct rune activations unlock the crossing
+PASS: Generated root crossing reflects solved state
+PASS: Revealed root platforms provide a fully traversable crossing
+PASS: Chapter exit requires the fragment
+PASS: Fragment cannot be collected before Sentinel defeat
+PASS: Temple checkpoint activates near its generated mark
+PASS: Defeat restores full health at the temple checkpoint
+PASS: Checkpoint recovery restores the unstarted Sentinel encounter
+PASS: Arena entry wakes the Hollow Sentinel
+PASS: Sentinel awakening cannot be skipped by sword damage
+PASS: Player sword damages the active Sentinel once per swing
+PASS: Pause freezes boss state and audio presentation
+PASS: Half-health Sentinel enters its second phase
+PASS: Second phase telegraphs a root wave
+PASS: Root-wave safe pocket and facing remain locked during the warning
+PASS: Visible safe ground avoids the Sentinel root wave
+PASS: Root-wave danger ground deals one readable hit
+PASS: A single wave does not chain-hit the player
+PASS: Losing to the boss resets it for a quick checkpoint retry
+PASS: Checkpoint retry preserves solved puzzle and optional discovery
+PASS: Sentinel defeat opens the arena and removes attack targeting
+PASS: Golden Fragment reveals the generated orchard memory
+PASS: Memory closes after skippable fragment dialogue
+PASS: Fragment collection is one-shot
+PASS: Fragment and exit complete The Forgotten Trail
+PASS: Chapter restart resets puzzle, optional token, fragment and boss
+PASS: Restart returns to a usable chapter title
+CHAPTER 1 TEST: PASS (0 failures)
+ERROR: Failed to open 'user://logs/godot2026-10-18T05.31.59.log'.
+   at: copy (core/io/dir_access.cpp:429)
+ERROR: Failed to open log file for writing: user://logs/godot.log
+   at: rotate_file (core/io/logger.cpp:169)
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)

@@ -1,0 +1,54 @@
+{
+  "asset_id": "ENV-01",
+  "generation_tool": "built-in image_gen",
+  "records": [
+    {
+      "asset_id": "ENV-01",
+      "name": "rusk",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/source_images/ENV-01_supporting_cast_generation_02.png",
+      "source_sha256": "f67eaa3ce63e2207639aa3a1c2ccb5940771346fe5f0c9b6c40fb521a69936fa",
+      "export": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_rusk_idle.png",
+      "runtime": "res://assets/runtime/prologue/environment/ENV-01_rusk_idle.png",
+      "sha256": "c499e20b0a16cf103ad3db76eb5daa74c92c9f3d114e11948816ae7040248846",
+      "dimensions": [
+        520,
+        959
+      ],
+      "pivot_px": [
+        260.0,
+        959
+      ],
+      "crop_in_atlas": [
+        241,
+        29,
+        761,
+        988
+      ],
+      "provenance": "imagegen source atlas; mechanical alpha-bounds crop, no repaint"
+    },
+    {
+      "asset_id": "ENV-01",
+      "name": "villager",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/source_images/ENV-01_supporting_cast_generation_02.png",
+      "source_sha256": "f67eaa3ce63e2207639aa3a1c2ccb5940771346fe5f0c9b6c40fb521a69936fa",
+      "export": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_villager_idle.png",
+      "runtime": "res://assets/runtime/prologue/environment/ENV-01_villager_idle.png",
+      "sha256": "9c7926e3a90648a43aef0fa1211a38c6f98fcb9fbb97be336f7539e4bf504092",
+      "dimensions": [
+        377,
+        927
+      ],
+      "pivot_px": [
+        188.5,
+        927
+      ],
+      "crop_in_atlas": [
+        906,
+        53,
+        1283,
+        980
+      ],
+      "provenance": "imagegen source atlas; mechanical alpha-bounds crop, no repaint"
+    }
+  ]
+}

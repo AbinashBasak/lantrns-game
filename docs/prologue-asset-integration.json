@@ -1,0 +1,1467 @@
+{
+  "updated": "2026-10-18T03:06:39.226816+05:30",
+  "scene": "res://scenes/levels/prologue_brackenreach.tscn",
+  "scope": "Prologue selected runtime exports, visually reviewed macOS/Godot4.7.2; full-pack and device approval remain separate",
+  "integrated_asset_ids": [
+    "AUD-AMB-001",
+    "AUD-AMB-002",
+    "AUD-AMB-005",
+    "AUD-MUS-002",
+    "AUD-SFX-001",
+    "AUD-SFX-003",
+    "AUD-SFX-004",
+    "AUD-SFX-005",
+    "AUD-SFX-006",
+    "AUD-SFX-007",
+    "AUD-SFX-008",
+    "AUD-SFX-009",
+    "AUD-SFX-011",
+    "AUD-SFX-014",
+    "AUD-SFX-018",
+    "EN-002",
+    "EN-003",
+    "EN-004",
+    "EN-005",
+    "EN-006",
+    "ENV-01",
+    "FX-001",
+    "FX-002",
+    "FX-004",
+    "FX-006",
+    "FX-007",
+    "FX-008",
+    "FX-009",
+    "FX-018",
+    "MOTE-002",
+    "MOTE-003",
+    "MOTE-004",
+    "MOTE-007",
+    "PROP-004",
+    "PROP-006",
+    "PROP-009",
+    "PROP-010",
+    "PROP-011",
+    "PROP-012",
+    "TILE-001",
+    "TILE-002",
+    "TILE-006",
+    "UI-001",
+    "UI-009",
+    "UI-011",
+    "UI-013",
+    "UI-014",
+    "UI-015",
+    "UI-016",
+    "UI-017",
+    "UI-018",
+    "UI-019"
+  ],
+  "prepared_only_asset_ids": [
+    "AUD-SFX-012",
+    "FX-003",
+    "UI-004",
+    "UI-005"
+  ],
+  "files": [
+    {
+      "asset_id": "UI-001",
+      "path": "assets/runtime/prologue/ui/health_full.png",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-001/exports/UI-001_00_full.png",
+      "source_sha256": "05b3c01ddaac26c2ed599e66948ac3926e5a77f5c415349e91cfc6b251176d23",
+      "sha256": "51eeeacfa85c3651d52935c8e72f12ef525e685193f73ffb0195fae01bb16cd0"
+    },
+    {
+      "asset_id": "UI-001",
+      "path": "assets/runtime/prologue/ui/health_empty.png",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-001/exports/UI-001_02_empty.png",
+      "source_sha256": "b412b7eeab6730ea669b398cdd59c4b8b657e0e4d1c232a4b6fb92414b4937af",
+      "sha256": "3cfb176f9432b2f3205f715601364c5b9d44d1b68f15e5cad7c442cb6a676920"
+    },
+    {
+      "asset_id": "UI-004",
+      "path": "assets/runtime/prologue/ui/objective.png",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-004/exports/UI-004_01_active.png",
+      "source_sha256": "5a3cf06605551acae7db863b9aa85d7edf7d17a7585e63828295fb2c086a0825",
+      "sha256": "88168b05919cd53f1ab1c8dc0f1e610abbec32b8ba1b73db0bd05399d0025659"
+    },
+    {
+      "asset_id": "UI-005",
+      "path": "assets/runtime/prologue/ui/prompt.png",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-005/exports/UI-005_02_bubble_filled.png",
+      "source_sha256": "a04ba175934dfb54bb898f2b6cdd8208b118c839c2d8a2d6d8b49eae5f98cc20",
+      "sha256": "320f63f4cab2b820c9f85b06e62662eae322f42fe64092cbc7a3d1f216f42b6b"
+    },
+    {
+      "asset_id": "UI-005",
+      "path": "assets/runtime/prologue/ui/interact.png",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-005/exports/UI-005_00_keycap_neutral.png",
+      "source_sha256": "38cc06365f1a7fe640a9d5c08bb608bdfa7671c38c35e6b5df5ac356d9dd9151",
+      "sha256": "f078249a706eed246d4ccd0dbd4f347c8f811e5a34b42f565dda824f0cafb2cd"
+    },
+    {
+      "asset_id": "UI-009",
+      "path": "assets/runtime/prologue/ui/dialogue.png",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_dialogue_panel.png",
+      "source_sha256": "171de429435ae8a6c8903b997bc5bf0ba9c0c5cb5f96641ed6041ddc064fda25",
+      "sha256": "f78d0b5c9399830b5474882df12049e9197c03cd905fff579b9df12abcabfa74"
+    },
+    {
+      "asset_id": "UI-011",
+      "path": "assets/runtime/prologue/ui/pause_icon.png",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-011/exports/UI-011_normal_128.png",
+      "source_sha256": "c8e7eb39e4d7f0abbfdeab196410023b1c43a26d8f16679a0ec37655d1072abd",
+      "sha256": "bf78ed4d7b933007df2d8c09609a2a1f67b746d4580fe7781652ece975bd259e"
+    },
+    {
+      "asset_id": "UI-016",
+      "path": "assets/runtime/prologue/ui/title_background.png",
+      "source": "assets/production/phase_08_user_interface/menus_and_screens/UI-016/exports/UI-016_component_01.png",
+      "source_sha256": "1a0436ebcd1e73f3a1b14a9c450ebb9c601ce6b5a038656f6c282f0a2df878c2",
+      "sha256": "1f2a082f98da9ab57be8f4f34103ac5769fb8d6fd755a54f05c7301b99c6653e"
+    },
+    {
+      "asset_id": "UI-017",
+      "path": "assets/runtime/prologue/ui/logo.png",
+      "source": "assets/production/phase_08_user_interface/menus_and_screens/UI-017/exports/UI-017_component_01.png",
+      "source_sha256": "9452af6d74f75a17798e3b2364e13efb610628edf5bde0274cf42eb949dc9171",
+      "sha256": "1d37cd1f363ac845bfa45f08f00a72de468b34998f35de50decfd9013e764a1b"
+    },
+    {
+      "asset_id": "UI-019",
+      "path": "assets/runtime/prologue/ui/panel.png",
+      "source": "assets/production/phase_08_user_interface/menus_and_screens/UI-019/exports/UI-019_component_01.png",
+      "source_sha256": "b96f898b31c120ab517759ce33a1a7577a395672ecbb061ccf53382733b679eb",
+      "sha256": "d3bd13b26dd7fc0630796d72eafa7edd604c2f7ce9bad946fa630a74fcfd9785"
+    },
+    {
+      "asset_id": "UI-018",
+      "path": "assets/runtime/prologue/ui/button_normal.png",
+      "source": "assets/production/phase_08_user_interface/menus_and_screens/UI-018/exports/UI-018_component_01.png",
+      "source_sha256": "7861f990f9c2cae640bdb6ed6efbe0f3c2da91b4d888bcfc29007c13872c4cce",
+      "sha256": "718835e07162131b7d921a59693afa21f7d246f88fa6d93675c799ba31341cdd"
+    },
+    {
+      "asset_id": "UI-018",
+      "path": "assets/runtime/prologue/ui/button_hover.png",
+      "source": "assets/production/phase_08_user_interface/menus_and_screens/UI-018/exports/UI-018_component_02.png",
+      "source_sha256": "255600010263da7afc6191bc8686868f5b0932bc7610855e29436e6f552400bf",
+      "sha256": "33e045d61fdcc517dc2b488d303fb23e623c4e42ebf76bdd61aeb4d65a9da414"
+    },
+    {
+      "asset_id": "UI-018",
+      "path": "assets/runtime/prologue/ui/button_pressed.png",
+      "source": "assets/production/phase_08_user_interface/menus_and_screens/UI-018/exports/UI-018_component_03.png",
+      "source_sha256": "ecdda6811278a50664b6b0c7a437578030e66f9e2bed3790b35682ff022018e0",
+      "sha256": "d732f827575a923018c3d3b6d78e9e3ca2d0ecbcd296590f787790056209ea24"
+    },
+    {
+      "asset_id": "UI-018",
+      "path": "assets/runtime/prologue/ui/button_disabled.png",
+      "source": "assets/production/phase_08_user_interface/menus_and_screens/UI-018/exports/UI-018_component_04.png",
+      "source_sha256": "1484f3f2605d170109ab2cac4960a7d19957745e2a2cc051ead2d9b09bcb65b8",
+      "sha256": "9b82ff8cab2003aa407fcd9db434db255e156331a98012ff09c6825a9f3c675a"
+    },
+    {
+      "asset_id": "UI-013",
+      "path": "assets/runtime/prologue/ui/left_rest.png",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-013/exports/UI-013_left_rest_128.png",
+      "source_sha256": "4615be04cd2f0a510f1aa9f8d6e96b6db88f9addce9c65fc582aa9284fc860b4",
+      "sha256": "40e2675de9cb76f817aab75a5ee5093722a74846a3e0dd6ec929e524bfd1d518"
+    },
+    {
+      "asset_id": "UI-013",
+      "path": "assets/runtime/prologue/ui/left_pressed.png",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-013/exports/UI-013_left_pressed_128.png",
+      "source_sha256": "e4ead227f5acf90614d3b765ab1e5bb4e5122e60834a4d8bf600127388a02aac",
+      "sha256": "271f885858e7d70ff748a56a735644f5bcdcd903072e0ba4df666e53c9c25b74"
+    },
+    {
+      "asset_id": "UI-013",
+      "path": "assets/runtime/prologue/ui/right_rest.png",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-013/exports/UI-013_right_rest_128.png",
+      "source_sha256": "fd7aff9fe05f2f4e3419467bd1f9ca68bc12d01eaf72aa315dfa65d4c74efc5b",
+      "sha256": "73e06653d98a0d7a220ca9429cc833b043ee53798fb9db3c4eb4935df19c1006"
+    },
+    {
+      "asset_id": "UI-013",
+      "path": "assets/runtime/prologue/ui/right_pressed.png",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-013/exports/UI-013_right_pressed_128.png",
+      "source_sha256": "82c4c01a27b30ca784500ddb6d4b0e72eeedbfcf103482ea3e30d0c110ae1e7a",
+      "sha256": "c519f7842822ddeb4ca4b50013b16e93ed40a96c0448a07ed239aec99e592386"
+    },
+    {
+      "asset_id": "UI-014",
+      "path": "assets/runtime/prologue/ui/jump_normal.png",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-014/exports/UI-014_normal_128.png",
+      "source_sha256": "ecbd51bfa1b04691f727cf7aa03890f238fd1857744c94e9969d9b47371e29a7",
+      "sha256": "cdb95a780601e68395fb48053d31deb2dec0aa58bb404f9e5edcb54f2cf46b3d"
+    },
+    {
+      "asset_id": "UI-014",
+      "path": "assets/runtime/prologue/ui/jump_pressed.png",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-014/exports/UI-014_pressed_128.png",
+      "source_sha256": "98d85d0b0280e64a3832cf71293b766ec7aebcb539cd1e450e6f83e76bf752e6",
+      "sha256": "13c915cbcebc42048a454e381794fc014656a31adc2ec72f27c4f24486316e6d"
+    },
+    {
+      "asset_id": "UI-015",
+      "path": "assets/runtime/prologue/ui/attack_normal.png",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-015/exports/UI-015_normal_128.png",
+      "source_sha256": "5a6d36a415a7c5b92af050e588d38db4517a61102f54d59c5b6d31a3867597b4",
+      "sha256": "401e5d532f3e66147033b04c2d01715d8a5d5b428e28e9087e981eab5b7f802e"
+    },
+    {
+      "asset_id": "UI-015",
+      "path": "assets/runtime/prologue/ui/attack_pressed.png",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-015/exports/UI-015_pressed_128.png",
+      "source_sha256": "718e3305872b57544d489cd70875507da4ac4bc7f1471fec83ffdb2ed758f684",
+      "sha256": "24b241339a401d704c2398805790a4cd75718684f72dd06fbb7e44c7b1464c00"
+    },
+    {
+      "asset_id": "ENV-01",
+      "path": "assets/runtime/prologue/environment/ENV-01_rusk_idle.png",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/source_images/ENV-01_supporting_cast_generation_02.png",
+      "source_sha256": "f67eaa3ce63e2207639aa3a1c2ccb5940771346fe5f0c9b6c40fb521a69936fa",
+      "sha256": "c499e20b0a16cf103ad3db76eb5daa74c92c9f3d114e11948816ae7040248846"
+    },
+    {
+      "asset_id": "ENV-01",
+      "path": "assets/runtime/prologue/environment/ENV-01_villager_idle.png",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/source_images/ENV-01_supporting_cast_generation_02.png",
+      "source_sha256": "f67eaa3ce63e2207639aa3a1c2ccb5940771346fe5f0c9b6c40fb521a69936fa",
+      "sha256": "9c7926e3a90648a43aef0fa1211a38c6f98fcb9fbb97be336f7539e4bf504092"
+    },
+    {
+      "asset_id": "ENV-01",
+      "path": "assets/runtime/prologue/environment/ENV-01_distant_background.png",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_distant_background.png",
+      "source_sha256": "9fb81962bbc77f6e824327001bccda30b5b4470e7b861a1617ff6f0ed78ff46e",
+      "sha256": "9fb81962bbc77f6e824327001bccda30b5b4470e7b861a1617ff6f0ed78ff46e"
+    },
+    {
+      "asset_id": "ENV-01",
+      "path": "assets/runtime/prologue/environment/ENV-01_midground.png",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_midground.png",
+      "source_sha256": "81b586d11f3129eaa3aa8dc6024f29c9a46afa9d19b2b5fe5ededc0fefabb067",
+      "sha256": "81b586d11f3129eaa3aa8dc6024f29c9a46afa9d19b2b5fe5ededc0fefabb067"
+    },
+    {
+      "asset_id": "ENV-01",
+      "path": "assets/runtime/prologue/environment/ENV-01_foreground.png",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_foreground.png",
+      "source_sha256": "db637284b1030f9ad9a13634d092afef4c074567f934a45a559f87c67bd3424b",
+      "sha256": "db637284b1030f9ad9a13634d092afef4c074567f934a45a559f87c67bd3424b"
+    },
+    {
+      "asset_id": "ENV-01",
+      "path": "assets/runtime/prologue/environment/ENV-01_decorative_props_00.png",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_decorative_props_00.png",
+      "source_sha256": "ea16e3a0f8fbfe2f87e74569ae05c4f64c2deea704c45f653671d82c30f6a779",
+      "sha256": "937292c0809ddcbbcaba7b4726c106a8acc72fbaab73945bcc5826fe389fd709"
+    },
+    {
+      "asset_id": "ENV-01",
+      "path": "assets/runtime/prologue/environment/ENV-01_decorative_props_01.png",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_decorative_props_01.png",
+      "source_sha256": "31e359513b11deb49a2bd299217f582da8317ae5417eeb1204d1354f8713e983",
+      "sha256": "c506c489903eed624bc0777fd65756627f5ce92bdaadcddd5b03822673a957f9"
+    },
+    {
+      "asset_id": "ENV-01",
+      "path": "assets/runtime/prologue/environment/ENV-01_decorative_props_02.png",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_decorative_props_02.png",
+      "source_sha256": "e85a9bf52a86ab97938395d349fed327e01cbaec31c35c8a285e6c6a2f301526",
+      "sha256": "152b6094e68cd4ef3c9b28680bf14ce7855f555a1fd3d6baf31d7645684f9dad"
+    },
+    {
+      "asset_id": "ENV-01",
+      "path": "assets/runtime/prologue/environment/ENV-01_decorative_props_03.png",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_decorative_props_03.png",
+      "source_sha256": "d8bce8d50594f0e7ce16be9b0baf381866f91b866e50e65908ffd46210e4908e",
+      "sha256": "def834ed3ed8d895198cee8dca67fc7826492df7766d05efbff8686476b2066c"
+    },
+    {
+      "asset_id": "ENV-01",
+      "path": "assets/runtime/prologue/environment/ENV-01_decorative_props_05.png",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_decorative_props_05.png",
+      "source_sha256": "77487e0ada46b8773c0df7a095dd8e187e6e01b44b56d11db9e9fc8df0adf85d",
+      "sha256": "c84662c817d32ac2cb23081ba075bcda7d26aaf018d6fe642520182c57931d26"
+    },
+    {
+      "asset_id": "ENV-01",
+      "path": "assets/runtime/prologue/environment/ENV-01_decorative_props_06.png",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_decorative_props_06.png",
+      "source_sha256": "677824394dc33a3db7f44d80af9aac6a91ed8cc5949c6e60be4b677066cc3d28",
+      "sha256": "4a9e2b0db6ae5d39bd7db515a220d2d9e565e0a2677846939a02267dd0d6e71a"
+    },
+    {
+      "asset_id": "ENV-01",
+      "path": "assets/runtime/prologue/environment/ENV-01_decorative_props_07.png",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_decorative_props_07.png",
+      "source_sha256": "37bada093c944088822cab6ba4b9146b4a6933a260f99e13caee23fee7890e7e",
+      "sha256": "7ea49a1ee6017a80f3c7b57962047ecc1d45755fcf4c482812463c32b14eb900"
+    },
+    {
+      "asset_id": "ENV-01",
+      "path": "assets/runtime/prologue/environment/ENV-01_interactive_props_00.png",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_interactive_props_00.png",
+      "source_sha256": "12fedcfbe7e7a86608dd5cfc2f64b6fded16d4f7d359f9c1a27bfa01c2b51102",
+      "sha256": "ff2c1fae0642b9300f3d25aa3ee0a7feaed27bd58f71c8096aa626a72e4b5520"
+    },
+    {
+      "asset_id": "ENV-01",
+      "path": "assets/runtime/prologue/environment/ENV-01_interactive_props_01.png",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_interactive_props_01.png",
+      "source_sha256": "7e931c1011e4aee3f703217dc9d142a8a4a4454b808b68061e2a90ac17f51aa7",
+      "sha256": "6ad97b17085621e8395bd4cd8a8def106dc2097d8129a9cac0b6b915ec2e1caa"
+    },
+    {
+      "asset_id": "ENV-01",
+      "path": "assets/runtime/prologue/environment/ENV-01_interactive_props_02.png",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_interactive_props_02.png",
+      "source_sha256": "e3643655bf6c87ce8b2ac3fed5adb65e969f7d02e97f4cb5b616631064bd56ed",
+      "sha256": "03670cda0a349b3c3b9face8266b6572cfd9485568c02e5559131038c41a2c6b"
+    },
+    {
+      "asset_id": "ENV-01",
+      "path": "assets/runtime/prologue/environment/ENV-01_interactive_props_03.png",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_interactive_props_03.png",
+      "source_sha256": "8524ad93d63808dab937887a2fd6daab24d9c1d2c3e55165c155f2bab3537dee",
+      "sha256": "52bde9400b7cc59d48bc3138cabf9239f8e573ddfa39749558f2b3633ea80452"
+    },
+    {
+      "asset_id": "ENV-01",
+      "path": "assets/runtime/prologue/environment/ENV-01_interactive_props_04.png",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_interactive_props_04.png",
+      "source_sha256": "acfb27b3a2cd4b6e813fb9bc24df11c2dbffe865239a824c9b26217981bc36a2",
+      "sha256": "3e365955648e732f4ad029ab50e69a123b905632381d4e8d2e80c453637ee68c"
+    },
+    {
+      "asset_id": "ENV-01",
+      "path": "assets/runtime/prologue/environment/ENV-01_interactive_props_05.png",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_interactive_props_05.png",
+      "source_sha256": "b5f47683c8a07216e833c25bb9397808694873efd52c1e217fa1951861b8d656",
+      "sha256": "23448f42403b64945c16869b982fc872357f3d71fd4c71a7a798fe0fe369df53"
+    },
+    {
+      "asset_id": "TILE-001",
+      "path": "assets/runtime/prologue/environment/TILE-001_01_top_middle.png",
+      "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/exports/TILE-001_01_top_middle.png",
+      "source_sha256": "f8deca6c0f56523bff9c7b28698dfd9e3e7184c958eb71931c8172e03955450f",
+      "sha256": "f8deca6c0f56523bff9c7b28698dfd9e3e7184c958eb71931c8172e03955450f"
+    },
+    {
+      "asset_id": "TILE-001",
+      "path": "assets/runtime/prologue/environment/TILE-001_05_opaque_interior.png",
+      "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/exports/TILE-001_05_opaque_interior.png",
+      "source_sha256": "56f0bc07e0695b15baf8eabc9b2a1f86407227e7e1dfdd85bf8c6a4d081108dc",
+      "sha256": "56f0bc07e0695b15baf8eabc9b2a1f86407227e7e1dfdd85bf8c6a4d081108dc"
+    },
+    {
+      "asset_id": "TILE-001",
+      "path": "assets/runtime/prologue/environment/TILE-001_03_isolated_block.png",
+      "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/exports/TILE-001_03_isolated_block.png",
+      "source_sha256": "62665465fddfa770df3f32e9513b7296a5e021df0f2d8e5ea10f1a537748dbd8",
+      "sha256": "62665465fddfa770df3f32e9513b7296a5e021df0f2d8e5ea10f1a537748dbd8"
+    },
+    {
+      "asset_id": "PROP-006",
+      "path": "assets/runtime/prologue/environment/PROP-006_00_left_entry.png",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/exports/PROP-006_00_left_entry.png",
+      "source_sha256": "bcd751f50fe2affdec48f21000da5e2faed49d43a7e0fb8bf73971121b007d3f",
+      "sha256": "9c464afb2916aa75772cbd161e3e0dcba60e6c6b1f2fd45def825adde45da2b9"
+    },
+    {
+      "asset_id": "PROP-006",
+      "path": "assets/runtime/prologue/environment/PROP-006_01_middle_repeat.png",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/exports/PROP-006_01_middle_repeat.png",
+      "source_sha256": "45e81e3f6a055cba42c5b7ca0c5249e2d97c4dd770c47b5d64b12c19abd639d7",
+      "sha256": "6ced1d87aa326c2458a9625a06c42c0ebc66619a01369a46e8a6d7fdad79fb92"
+    },
+    {
+      "asset_id": "PROP-006",
+      "path": "assets/runtime/prologue/environment/PROP-006_02_right_entry.png",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-006/exports/PROP-006_02_right_entry.png",
+      "source_sha256": "524d15147b8e6cf280e0e1987413c303778b19fd7b9a166eb69de2e4e0663f6d",
+      "sha256": "d18a4cb47236fd322598c7742629bcb75f54879dde7edd54ea4450650161d163"
+    },
+    {
+      "asset_id": "TILE-006",
+      "path": "assets/runtime/prologue/environment/TILE-006_timbers.png",
+      "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-006/exports/TILE-006_plank_repeat.png",
+      "source_sha256": "a708489468a9c2add6f9a0605104b2326448183172cc420c4cde301df7e2877f",
+      "sha256": "5beea165fe88691e45bedbff088cf454c6f0e718470550245e17197d6eb2addc"
+    },
+    {
+      "asset_id": "ENV-01",
+      "path": "assets/runtime/prologue/environment/ENV-01_distant_background_mirrored.png",
+      "source": "assets/production/phase_04_environment_packs/ENV-01/exports/ENV-01_distant_background.png",
+      "source_sha256": "9fb81962bbc77f6e824327001bccda30b5b4470e7b861a1617ff6f0ed78ff46e",
+      "sha256": "65bc434c5f65b814fcf68f402a571b03dcd70d42461f1b1cb8244496c9a7e0b9"
+    },
+    {
+      "asset_id": "TILE-001",
+      "path": "assets/runtime/prologue/environment/TILE-001_surface_strip.png",
+      "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/exports/TILE-001_01_top_middle.png",
+      "source_sha256": "f8deca6c0f56523bff9c7b28698dfd9e3e7184c958eb71931c8172e03955450f",
+      "sha256": "da91f82bb19cf72165338538f6d42ce2a334aacdb9364db46234536c7aba69f0"
+    },
+    {
+      "asset_id": "TILE-002",
+      "path": "assets/runtime/prologue/environment/TILE-002_soil_fill.png",
+      "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/exports/TILE-002_05_opaque_interior.png",
+      "source_sha256": "84b81f48b294da910846b0b54145a8756b5982f25345499470151fa5db512222",
+      "sha256": "fd27f34c7233747f4205780bfad876b245df37beb11d7cdfe1a0d33c7801aba5"
+    },
+    {
+      "asset_id": "PROP-004",
+      "path": "assets/runtime/prologue/environment/PROP-004_00_intact.png",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-004/exports/PROP-004_00_intact.png",
+      "source_sha256": "5f9b6843bf39afde06bd0ae8ae8ed62b8102275c0442ca4068022ef3bcfa525e",
+      "sha256": "bb2cdf92359b5384aa33bb99ad34b7e1140ad8db8aaf884f13545245310cc90f"
+    },
+    {
+      "asset_id": "PROP-009",
+      "path": "assets/runtime/prologue/environment/PROP-009_closed_unlatched.png",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-009/exports/PROP-009_closed_unlatched.png",
+      "source_sha256": "4aef11c4d4bb995ee9530a0e0521835d96d6b32ac8c424e4a6d7c367c39268fd",
+      "sha256": "361ed66d854a95a2c4f995050d07d5ae07deda3b6deddac10356ada0ca671c66"
+    },
+    {
+      "asset_id": "PROP-010",
+      "path": "assets/runtime/prologue/environment/PROP-010_roof_left_eave.png",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-010/exports/PROP-010_roof_left_eave.png",
+      "source_sha256": "b400e11fdbf969a41adfea2a3cc791ba9b4013adc319205ea8cfbe9ea3c471d5",
+      "sha256": "87a8275cd29ed1ff95fd5f9d70f56d782b0a05ced0b8bcbcdfdf866a9c869371"
+    },
+    {
+      "asset_id": "PROP-010",
+      "path": "assets/runtime/prologue/environment/PROP-010_roof_repeat.png",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-010/exports/PROP-010_roof_repeat.png",
+      "source_sha256": "547d1d51274aafc6ff3b42923ba9bb7046ffb7f316fd60108f0a6483142d5cfe",
+      "sha256": "391ca9b76433288f1ad61fd644371ef1e129bce4a21f26581066fe1acd047096"
+    },
+    {
+      "asset_id": "PROP-010",
+      "path": "assets/runtime/prologue/environment/PROP-010_roof_right_eave.png",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-010/exports/PROP-010_roof_right_eave.png",
+      "source_sha256": "78fa554e2e5cef6eed5720186b0cad4c6cf3108810ccf4601b054b6714fd1363",
+      "sha256": "7eaa120aad00370a60b1726d69002e8994e56cd71b4d33543ff49014ee91f065"
+    },
+    {
+      "asset_id": "PROP-010",
+      "path": "assets/runtime/prologue/environment/PROP-010_window_closed.png",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-010/exports/PROP-010_window_closed.png",
+      "source_sha256": "b4108cca7699f2806316f600172a38e13172c4f6a70ab35510a2a254a3ee8627",
+      "sha256": "6bf746fba4b78f3acb1de402ce48fc8a3144f18ab49eeaf2a308b4e7fc2619dc"
+    },
+    {
+      "asset_id": "PROP-010",
+      "path": "assets/runtime/prologue/environment/PROP-010_window_round.png",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-010/exports/PROP-010_window_round.png",
+      "source_sha256": "d5d95cd8c00c3363f33bd83a9d6813033a91f606ebb109b0fd951d3ab35719d6",
+      "sha256": "042165d9d4275389d82329baa255b048658535419b4bc6da2ee8ef8a8dd8710b"
+    },
+    {
+      "asset_id": "PROP-011",
+      "path": "assets/runtime/prologue/environment/PROP-011_bush_low.png",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_bush_low.png",
+      "source_sha256": "07104903485590bc7dad515ae67b451d32f6e4e572b46bd33758ccb06f3bfc71",
+      "sha256": "b41a0a46f3a6670a573118599fd83f1679c534dd84c36bc1b47fda7da2287277"
+    },
+    {
+      "asset_id": "PROP-011",
+      "path": "assets/runtime/prologue/environment/PROP-011_bush_round.png",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_bush_round.png",
+      "source_sha256": "46d6fd9f3bbdf6328177e898b2227efcce8e6327ffba0d8dd1a3133b511b22b7",
+      "sha256": "5e3926e04b8ac05a84ee641b446a1cf4b4385a86057ac2294c1f24a812aa446f"
+    },
+    {
+      "asset_id": "PROP-011",
+      "path": "assets/runtime/prologue/environment/PROP-011_flower_white.png",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_flower_white.png",
+      "source_sha256": "e8b609b304a4017c96fd358ce69d3848421b35630bbbf3df50728f8e680b0537",
+      "sha256": "bad94bf0dcc1f1becce08bef7cd4760ae8f66fec1dd361def8a587e494c0bcf0"
+    },
+    {
+      "asset_id": "PROP-011",
+      "path": "assets/runtime/prologue/environment/PROP-011_mixed_ground_plants.png",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_mixed_ground_plants.png",
+      "source_sha256": "2e7eb7e0a5e85b1691aac8162c7ba75396a56d6b0256a1318ad7c5ba0d6b37a0",
+      "sha256": "5d348f0c9b8b9fb8aedc8d1ded89468e8134dbf534f4762357278ed54609dea0"
+    },
+    {
+      "asset_id": "PROP-012",
+      "path": "assets/runtime/prologue/environment/PROP-012_root_arch.png",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012/exports/PROP-012_root_arch.png",
+      "source_sha256": "fa41378ad7dfef54b3cb738f8435a7e66b3aea0f5213a4d962b6b85112d10cd4",
+      "sha256": "ea7c3e2594ad501279a3053cf6da78b116fe628d429e49c5512d612cb1179258"
+    },
+    {
+      "asset_id": "PROP-012",
+      "path": "assets/runtime/prologue/environment/PROP-012_root_stump.png",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012/exports/PROP-012_root_stump.png",
+      "source_sha256": "10dea53bceb76dbdd0f77a1c991eaee83021cdc2793f635b0b87dc5c75e53a41",
+      "sha256": "3fc80638aa20b3020fca3ffe0b4bcb46535e765ca7d26ef44f7fc5c26765b2f0"
+    },
+    {
+      "asset_id": "PROP-012",
+      "path": "assets/runtime/prologue/environment/PROP-012_small_bare_tree.png",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012/exports/PROP-012_small_bare_tree.png",
+      "source_sha256": "de0a093fd6b730dea49731b09e34e980c56e71a846b82c7f5cd431d94463156b",
+      "sha256": "6a12521a2a45f8f1a4328539b093909d832baa28f4749992c00b51518f8f497d"
+    },
+    {
+      "asset_id": "PROP-012",
+      "path": "assets/runtime/prologue/environment/PROP-012_sapling_leafy.png",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012/exports/PROP-012_sapling_leafy.png",
+      "source_sha256": "92830f64b092446d6147d2340e51280b25514392b0bd7e2fe2a169607f7b2d95",
+      "sha256": "b9ab43f204c4e68f34a7f4c9da912aff7f54903829736d1b070c8a71570fe6fa"
+    },
+    {
+      "asset_id": "MOTE-002",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-002_idle_hover_01.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-002/exports/frames/MOTE-002_idle_hover_01.png",
+      "source_sha256": "3bfaa17814ef3427539e80d8f104e78e75d762a114d46de4c5e6ea03e1b5b939",
+      "sha256": "3bfaa17814ef3427539e80d8f104e78e75d762a114d46de4c5e6ea03e1b5b939"
+    },
+    {
+      "asset_id": "MOTE-002",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-002_idle_hover_02.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-002/exports/frames/MOTE-002_idle_hover_02.png",
+      "source_sha256": "d1e679b7f6601a04a36e22de431b12a1eb01e0d45c245dcf7d4fb13f88978892",
+      "sha256": "d1e679b7f6601a04a36e22de431b12a1eb01e0d45c245dcf7d4fb13f88978892"
+    },
+    {
+      "asset_id": "MOTE-002",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-002_idle_hover_03.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-002/exports/frames/MOTE-002_idle_hover_03.png",
+      "source_sha256": "60ec7b833fff64a877aa13a9c2cf29ebedf3e9972f8376caa29027434dd402ee",
+      "sha256": "60ec7b833fff64a877aa13a9c2cf29ebedf3e9972f8376caa29027434dd402ee"
+    },
+    {
+      "asset_id": "MOTE-002",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-002_idle_hover_04.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-002/exports/frames/MOTE-002_idle_hover_04.png",
+      "source_sha256": "a03a39ee8063068e20834786569978930e771a0505456438a74c93702c858eb9",
+      "sha256": "a03a39ee8063068e20834786569978930e771a0505456438a74c93702c858eb9"
+    },
+    {
+      "asset_id": "MOTE-002",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-002_idle_hover_05.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-002/exports/frames/MOTE-002_idle_hover_05.png",
+      "source_sha256": "8639b4314ac5d1ebee2767b70c7d5532028c792207f4eaca2678701eb8de0f42",
+      "sha256": "8639b4314ac5d1ebee2767b70c7d5532028c792207f4eaca2678701eb8de0f42"
+    },
+    {
+      "asset_id": "MOTE-002",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-002_idle_hover_06.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-002/exports/frames/MOTE-002_idle_hover_06.png",
+      "source_sha256": "27391858c13bb9cdded61c477c75014f389f8e36545e7021ad645e299be7c898",
+      "sha256": "27391858c13bb9cdded61c477c75014f389f8e36545e7021ad645e299be7c898"
+    },
+    {
+      "asset_id": "MOTE-003",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_01.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_01.png",
+      "source_sha256": "e1b1012836b7440ba40064ba56c4a118900f735ab0c172bb3831d0ef1337011d",
+      "sha256": "e1b1012836b7440ba40064ba56c4a118900f735ab0c172bb3831d0ef1337011d"
+    },
+    {
+      "asset_id": "MOTE-003",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_02.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_02.png",
+      "source_sha256": "48c3385ce8d3ec30aed8f0e6fea392d0885df5c66275a520675c6ada22f8e2d3",
+      "sha256": "48c3385ce8d3ec30aed8f0e6fea392d0885df5c66275a520675c6ada22f8e2d3"
+    },
+    {
+      "asset_id": "MOTE-003",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_03.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_03.png",
+      "source_sha256": "ec47f90851ad515e8a3bd913042e92dced807fb756c98f208d610720a580bcef",
+      "sha256": "ec47f90851ad515e8a3bd913042e92dced807fb756c98f208d610720a580bcef"
+    },
+    {
+      "asset_id": "MOTE-003",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_04.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_04.png",
+      "source_sha256": "a38d012c475e03ccdf3b16545b4cb5f8c085ed713fa2e214571288aab18c8cbd",
+      "sha256": "a38d012c475e03ccdf3b16545b4cb5f8c085ed713fa2e214571288aab18c8cbd"
+    },
+    {
+      "asset_id": "MOTE-003",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_05.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_05.png",
+      "source_sha256": "7c2861045051339cec7623e247a44a3944bddb6bd69db298b57c620fd0392487",
+      "sha256": "7c2861045051339cec7623e247a44a3944bddb6bd69db298b57c620fd0392487"
+    },
+    {
+      "asset_id": "MOTE-003",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-003_follow_tavi_06.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-003/exports/frames/MOTE-003_follow_tavi_06.png",
+      "source_sha256": "132a00901b6e52ec9685aa0c8d84b13d3df1b021bb7c8b3261905510247102e4",
+      "sha256": "132a00901b6e52ec9685aa0c8d84b13d3df1b021bb7c8b3261905510247102e4"
+    },
+    {
+      "asset_id": "MOTE-004",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-004_alert_reaction_01.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-004/exports/frames/MOTE-004_alert_reaction_01.png",
+      "source_sha256": "b6580d44f26f824f36d86b20fe8ba18c0265abc723cc430f8ad07983375f2999",
+      "sha256": "b6580d44f26f824f36d86b20fe8ba18c0265abc723cc430f8ad07983375f2999"
+    },
+    {
+      "asset_id": "MOTE-004",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-004_alert_reaction_02.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-004/exports/frames/MOTE-004_alert_reaction_02.png",
+      "source_sha256": "316d9fb3d294d51f20a17e6e21fdcabada86caccd60c3b563ffd3ff21b75db84",
+      "sha256": "316d9fb3d294d51f20a17e6e21fdcabada86caccd60c3b563ffd3ff21b75db84"
+    },
+    {
+      "asset_id": "MOTE-004",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-004_alert_reaction_03.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-004/exports/frames/MOTE-004_alert_reaction_03.png",
+      "source_sha256": "26167e867b87000c4e662d7ac4a646e35c43ed6d88148fcf5befed014fee3693",
+      "sha256": "26167e867b87000c4e662d7ac4a646e35c43ed6d88148fcf5befed014fee3693"
+    },
+    {
+      "asset_id": "MOTE-004",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-004_alert_reaction_04.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-004/exports/frames/MOTE-004_alert_reaction_04.png",
+      "source_sha256": "8eacf7ae4a244f0f3874f3862c66da79585aa2222eb9501ab3b6b187a6abcaa2",
+      "sha256": "8eacf7ae4a244f0f3874f3862c66da79585aa2222eb9501ab3b6b187a6abcaa2"
+    },
+    {
+      "asset_id": "MOTE-004",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-004_alert_reaction_05.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-004/exports/frames/MOTE-004_alert_reaction_05.png",
+      "source_sha256": "a131e2b3783e4cd10cd74fe196e25180f6f6735877ab8d2513b14afdd42a99b6",
+      "sha256": "a131e2b3783e4cd10cd74fe196e25180f6f6735877ab8d2513b14afdd42a99b6"
+    },
+    {
+      "asset_id": "MOTE-004",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-004_alert_reaction_06.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-004/exports/frames/MOTE-004_alert_reaction_06.png",
+      "source_sha256": "81b02a6ee140ac4fc3dc5a72950ccda72614a0c7bfcb9434c4c5afd017c77b5e",
+      "sha256": "81b02a6ee140ac4fc3dc5a72950ccda72614a0c7bfcb9434c4c5afd017c77b5e"
+    },
+    {
+      "asset_id": "MOTE-007",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_01.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_01.png",
+      "source_sha256": "7e4b20c912d6ad80cbb7ed95c40bc54c4beaba9c7e8993b4355436b548e66912",
+      "sha256": "7e4b20c912d6ad80cbb7ed95c40bc54c4beaba9c7e8993b4355436b548e66912"
+    },
+    {
+      "asset_id": "MOTE-007",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_02.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_02.png",
+      "source_sha256": "b2fc616c8c1d695dbf635fb93c68d98903c33867c17a95768f65857ea9a28276",
+      "sha256": "b2fc616c8c1d695dbf635fb93c68d98903c33867c17a95768f65857ea9a28276"
+    },
+    {
+      "asset_id": "MOTE-007",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_03.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_03.png",
+      "source_sha256": "878009951722fd00025bb7ce8b554a117ae0a406538cb9e360b894ecd3cb3de9",
+      "sha256": "878009951722fd00025bb7ce8b554a117ae0a406538cb9e360b894ecd3cb3de9"
+    },
+    {
+      "asset_id": "MOTE-007",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_04.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_04.png",
+      "source_sha256": "1903758ae8750e43e798cfc6dc1ad743e87d8ed8b588f14045943cee397e1b56",
+      "sha256": "1903758ae8750e43e798cfc6dc1ad743e87d8ed8b588f14045943cee397e1b56"
+    },
+    {
+      "asset_id": "MOTE-007",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_05.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_05.png",
+      "source_sha256": "44b88c291d5e653d43f3d6033c7d8103c330e66ac350721109746addb48f8357",
+      "sha256": "44b88c291d5e653d43f3d6033c7d8103c330e66ac350721109746addb48f8357"
+    },
+    {
+      "asset_id": "MOTE-007",
+      "path": "assets/runtime/prologue/characters/mote/MOTE-007_celebrate_discovery_06.png",
+      "source": "assets/production/phase_02_companion_mote/MOTE-007/exports/frames/MOTE-007_celebrate_discovery_06.png",
+      "source_sha256": "01e4c1580df23d3a47cabcdec6ef4480ac5380dd780a140de9cf07e38d12aae2",
+      "sha256": "01e4c1580df23d3a47cabcdec6ef4480ac5380dd780a140de9cf07e38d12aae2"
+    },
+    {
+      "asset_id": "EN-002",
+      "path": "assets/runtime/prologue/characters/rootling/EN-002_idle_01.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-002/exports/idle/frames/EN-002_idle_01.png",
+      "source_sha256": "0bb8e459dcc51c0ee2e12ff508713c930981cc9c03a4020a1a9f1a73d4702135",
+      "sha256": "0bb8e459dcc51c0ee2e12ff508713c930981cc9c03a4020a1a9f1a73d4702135"
+    },
+    {
+      "asset_id": "EN-002",
+      "path": "assets/runtime/prologue/characters/rootling/EN-002_idle_02.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-002/exports/idle/frames/EN-002_idle_02.png",
+      "source_sha256": "9b3bb5f5bb3b79925100bc3cb3e2e4c00bbd813c35433354f520a53dcbeea309",
+      "sha256": "9b3bb5f5bb3b79925100bc3cb3e2e4c00bbd813c35433354f520a53dcbeea309"
+    },
+    {
+      "asset_id": "EN-002",
+      "path": "assets/runtime/prologue/characters/rootling/EN-002_idle_03.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-002/exports/idle/frames/EN-002_idle_03.png",
+      "source_sha256": "da11016d43c7fa12eb07b4659200d5d1765f1fbcffa86a5ed0e541a0c4d49f49",
+      "sha256": "da11016d43c7fa12eb07b4659200d5d1765f1fbcffa86a5ed0e541a0c4d49f49"
+    },
+    {
+      "asset_id": "EN-002",
+      "path": "assets/runtime/prologue/characters/rootling/EN-002_idle_04.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-002/exports/idle/frames/EN-002_idle_04.png",
+      "source_sha256": "26e92fd033d0ac860a3b4c24cd2a668c639d4563c65276127b4933bdfb5675ca",
+      "sha256": "26e92fd033d0ac860a3b4c24cd2a668c639d4563c65276127b4933bdfb5675ca"
+    },
+    {
+      "asset_id": "EN-002",
+      "path": "assets/runtime/prologue/characters/rootling/EN-002_idle_05.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-002/exports/idle/frames/EN-002_idle_05.png",
+      "source_sha256": "772cb15fc849ddee1e6052f7d42b902c42161eb7aecd1fc00bf637eb9179055a",
+      "sha256": "772cb15fc849ddee1e6052f7d42b902c42161eb7aecd1fc00bf637eb9179055a"
+    },
+    {
+      "asset_id": "EN-002",
+      "path": "assets/runtime/prologue/characters/rootling/EN-002_idle_06.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-002/exports/idle/frames/EN-002_idle_06.png",
+      "source_sha256": "306dd79c4b103cfdf49b13b516920a10be991bc322b285629a92a656113993fd",
+      "sha256": "306dd79c4b103cfdf49b13b516920a10be991bc322b285629a92a656113993fd"
+    },
+    {
+      "asset_id": "EN-003",
+      "path": "assets/runtime/prologue/characters/rootling/EN-003_patrol_01.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_01.png",
+      "source_sha256": "4fe3ca554abe279c75bebb7a641c1ce8a8cfd6ea6bae81654be53a5f70139033",
+      "sha256": "4fe3ca554abe279c75bebb7a641c1ce8a8cfd6ea6bae81654be53a5f70139033"
+    },
+    {
+      "asset_id": "EN-003",
+      "path": "assets/runtime/prologue/characters/rootling/EN-003_patrol_02.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_02.png",
+      "source_sha256": "fdaf25ac2f21a9cd73aa91d306bb5a0753a5ddf9ac42fdc6477764c8073a8b37",
+      "sha256": "fdaf25ac2f21a9cd73aa91d306bb5a0753a5ddf9ac42fdc6477764c8073a8b37"
+    },
+    {
+      "asset_id": "EN-003",
+      "path": "assets/runtime/prologue/characters/rootling/EN-003_patrol_03.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_03.png",
+      "source_sha256": "72d0affef6eaa05194d694d4acd8275ffa2a43a94c2beb0d4a4c88bc47837bb0",
+      "sha256": "72d0affef6eaa05194d694d4acd8275ffa2a43a94c2beb0d4a4c88bc47837bb0"
+    },
+    {
+      "asset_id": "EN-003",
+      "path": "assets/runtime/prologue/characters/rootling/EN-003_patrol_04.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_04.png",
+      "source_sha256": "57af69b533bee2b23370a9d2ec528e9eb09770ee275ab998eb2ad9846eb1345e",
+      "sha256": "57af69b533bee2b23370a9d2ec528e9eb09770ee275ab998eb2ad9846eb1345e"
+    },
+    {
+      "asset_id": "EN-003",
+      "path": "assets/runtime/prologue/characters/rootling/EN-003_patrol_05.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_05.png",
+      "source_sha256": "aa0c8106e6a107b2d5eb01e22405b17bf197dea6c10c42e5583a9c645e42685c",
+      "sha256": "aa0c8106e6a107b2d5eb01e22405b17bf197dea6c10c42e5583a9c645e42685c"
+    },
+    {
+      "asset_id": "EN-003",
+      "path": "assets/runtime/prologue/characters/rootling/EN-003_patrol_06.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_06.png",
+      "source_sha256": "4fbf4d0ea1e21e5658cda60fbeb0c4fffa26f06e26e554369cc3bf35c9e9c1ae",
+      "sha256": "4fbf4d0ea1e21e5658cda60fbeb0c4fffa26f06e26e554369cc3bf35c9e9c1ae"
+    },
+    {
+      "asset_id": "EN-004",
+      "path": "assets/runtime/prologue/characters/rootling/EN-004_attack_01.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-004/exports/attack/frames/EN-004_attack_01.png",
+      "source_sha256": "334621be3497fe6dd286d74758749a88545a5e9f989a6482013d6e3d02cde335",
+      "sha256": "334621be3497fe6dd286d74758749a88545a5e9f989a6482013d6e3d02cde335"
+    },
+    {
+      "asset_id": "EN-004",
+      "path": "assets/runtime/prologue/characters/rootling/EN-004_attack_02.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-004/exports/attack/frames/EN-004_attack_02.png",
+      "source_sha256": "fdd8c14cdf1b7532ea6f3af5c7d4a50890477da31923396f67698f06c427ddb6",
+      "sha256": "fdd8c14cdf1b7532ea6f3af5c7d4a50890477da31923396f67698f06c427ddb6"
+    },
+    {
+      "asset_id": "EN-004",
+      "path": "assets/runtime/prologue/characters/rootling/EN-004_attack_03.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-004/exports/attack/frames/EN-004_attack_03.png",
+      "source_sha256": "796b480c46d65498b50ecfa9f3ac19935d918fdf7e7ee2975dbd6b04a62789b7",
+      "sha256": "796b480c46d65498b50ecfa9f3ac19935d918fdf7e7ee2975dbd6b04a62789b7"
+    },
+    {
+      "asset_id": "EN-004",
+      "path": "assets/runtime/prologue/characters/rootling/EN-004_attack_04.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-004/exports/attack/frames/EN-004_attack_04.png",
+      "source_sha256": "75218f8b2f5be537a38fe2a4a4e56a10a89ee2cced614641792d92a184c494cc",
+      "sha256": "75218f8b2f5be537a38fe2a4a4e56a10a89ee2cced614641792d92a184c494cc"
+    },
+    {
+      "asset_id": "EN-004",
+      "path": "assets/runtime/prologue/characters/rootling/EN-004_attack_05.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-004/exports/attack/frames/EN-004_attack_05.png",
+      "source_sha256": "0370c9c30cbb295c5f3f4022355a2266b19ce49f4aaae77b8a209b817556c5de",
+      "sha256": "0370c9c30cbb295c5f3f4022355a2266b19ce49f4aaae77b8a209b817556c5de"
+    },
+    {
+      "asset_id": "EN-004",
+      "path": "assets/runtime/prologue/characters/rootling/EN-004_attack_06.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-004/exports/attack/frames/EN-004_attack_06.png",
+      "source_sha256": "36cb9f316569eb33b28499164ea5736204cc6b469ffdb708a25cd73d3a5a3cda",
+      "sha256": "36cb9f316569eb33b28499164ea5736204cc6b469ffdb708a25cd73d3a5a3cda"
+    },
+    {
+      "asset_id": "EN-005",
+      "path": "assets/runtime/prologue/characters/rootling/EN-005_hurt_01.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-005/exports/hurt/frames/EN-005_hurt_01.png",
+      "source_sha256": "64806e38f6458b565f326b3081bf5b272352a47f22eed6503eaddfcc3af03ff9",
+      "sha256": "64806e38f6458b565f326b3081bf5b272352a47f22eed6503eaddfcc3af03ff9"
+    },
+    {
+      "asset_id": "EN-005",
+      "path": "assets/runtime/prologue/characters/rootling/EN-005_hurt_02.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-005/exports/hurt/frames/EN-005_hurt_02.png",
+      "source_sha256": "077dd48aff54b2ec177955ad1c5d898d0c587f0f0ae2792fa6067a51b0c5132b",
+      "sha256": "077dd48aff54b2ec177955ad1c5d898d0c587f0f0ae2792fa6067a51b0c5132b"
+    },
+    {
+      "asset_id": "EN-005",
+      "path": "assets/runtime/prologue/characters/rootling/EN-005_hurt_03.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-005/exports/hurt/frames/EN-005_hurt_03.png",
+      "source_sha256": "c4d39464b505ebf4e4bd297d58d84b6d758a0cc8aa3edb8845a927bd2ce378c8",
+      "sha256": "c4d39464b505ebf4e4bd297d58d84b6d758a0cc8aa3edb8845a927bd2ce378c8"
+    },
+    {
+      "asset_id": "EN-005",
+      "path": "assets/runtime/prologue/characters/rootling/EN-005_hurt_04.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-005/exports/hurt/frames/EN-005_hurt_04.png",
+      "source_sha256": "513e6017bf0f005b36761364785ba8ddbc9aa22454f04afad5122757e2b74e9d",
+      "sha256": "513e6017bf0f005b36761364785ba8ddbc9aa22454f04afad5122757e2b74e9d"
+    },
+    {
+      "asset_id": "EN-005",
+      "path": "assets/runtime/prologue/characters/rootling/EN-005_hurt_05.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-005/exports/hurt/frames/EN-005_hurt_05.png",
+      "source_sha256": "511e4982528a13c7fe3db4cc2392e4031b921ee8e18f419ebe2d30b0a1357d16",
+      "sha256": "511e4982528a13c7fe3db4cc2392e4031b921ee8e18f419ebe2d30b0a1357d16"
+    },
+    {
+      "asset_id": "EN-005",
+      "path": "assets/runtime/prologue/characters/rootling/EN-005_hurt_06.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-005/exports/hurt/frames/EN-005_hurt_06.png",
+      "source_sha256": "6e053249029e88b0f674675a1e01b56213d743f9e0e1b68aab19a78f215b4c15",
+      "sha256": "6e053249029e88b0f674675a1e01b56213d743f9e0e1b68aab19a78f215b4c15"
+    },
+    {
+      "asset_id": "EN-006",
+      "path": "assets/runtime/prologue/characters/rootling/EN-006_defeat_01.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-006/exports/defeat/frames/EN-006_defeat_01.png",
+      "source_sha256": "df5c2c25098e18f2684d0fefd2a70d39ec9fb182fdbb100f0768fab76ca0d5a1",
+      "sha256": "df5c2c25098e18f2684d0fefd2a70d39ec9fb182fdbb100f0768fab76ca0d5a1"
+    },
+    {
+      "asset_id": "EN-006",
+      "path": "assets/runtime/prologue/characters/rootling/EN-006_defeat_02.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-006/exports/defeat/frames/EN-006_defeat_02.png",
+      "source_sha256": "45c16c90fc1564c47e2092fd98959db6495288f4b9f5aabb96b035b6d10c408e",
+      "sha256": "45c16c90fc1564c47e2092fd98959db6495288f4b9f5aabb96b035b6d10c408e"
+    },
+    {
+      "asset_id": "EN-006",
+      "path": "assets/runtime/prologue/characters/rootling/EN-006_defeat_03.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-006/exports/defeat/frames/EN-006_defeat_03.png",
+      "source_sha256": "b50f421777dfd7a82a8a6c34467c199e3eeee63a2f7881b7568f103db41072da",
+      "sha256": "b50f421777dfd7a82a8a6c34467c199e3eeee63a2f7881b7568f103db41072da"
+    },
+    {
+      "asset_id": "EN-006",
+      "path": "assets/runtime/prologue/characters/rootling/EN-006_defeat_04.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-006/exports/defeat/frames/EN-006_defeat_04.png",
+      "source_sha256": "0317fc0df4ea20353d86e03a2c14efaeadd789b7832d5d65420b940c6e6318cc",
+      "sha256": "0317fc0df4ea20353d86e03a2c14efaeadd789b7832d5d65420b940c6e6318cc"
+    },
+    {
+      "asset_id": "EN-006",
+      "path": "assets/runtime/prologue/characters/rootling/EN-006_defeat_05.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-006/exports/defeat/frames/EN-006_defeat_05.png",
+      "source_sha256": "65924fef0ff9d9db95942997d8851056fee963139c674b8fd51b91d40344f86e",
+      "sha256": "65924fef0ff9d9db95942997d8851056fee963139c674b8fd51b91d40344f86e"
+    },
+    {
+      "asset_id": "EN-006",
+      "path": "assets/runtime/prologue/characters/rootling/EN-006_defeat_06.png",
+      "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-006/exports/defeat/frames/EN-006_defeat_06.png",
+      "source_sha256": "0596198df76d5296cbf6981b0905ce6be54952ebbc15e038ca1d440bfe0adb2f",
+      "sha256": "0596198df76d5296cbf6981b0905ce6be54952ebbc15e038ca1d440bfe0adb2f"
+    },
+    {
+      "asset_id": "FX-002",
+      "path": "assets/runtime/prologue/effects/FX-002/FX-002_sword_impact_sparks_00.png",
+      "source": "assets/production/phase_07_visual_effects/FX-002/exports/FX-002_sword_impact_sparks_00.png",
+      "source_sha256": "e3db3be75d257fc2d3250c844fdc8c11cc9fb94b06f4a6619906b984cf32d65b",
+      "sha256": "e3db3be75d257fc2d3250c844fdc8c11cc9fb94b06f4a6619906b984cf32d65b"
+    },
+    {
+      "asset_id": "FX-002",
+      "path": "assets/runtime/prologue/effects/FX-002/FX-002_sword_impact_sparks_01.png",
+      "source": "assets/production/phase_07_visual_effects/FX-002/exports/FX-002_sword_impact_sparks_01.png",
+      "source_sha256": "440cccb8c32c1c362b7faa96ca5d0017493affbc001da2b7bc668932dd2f95a9",
+      "sha256": "440cccb8c32c1c362b7faa96ca5d0017493affbc001da2b7bc668932dd2f95a9"
+    },
+    {
+      "asset_id": "FX-002",
+      "path": "assets/runtime/prologue/effects/FX-002/FX-002_sword_impact_sparks_02.png",
+      "source": "assets/production/phase_07_visual_effects/FX-002/exports/FX-002_sword_impact_sparks_02.png",
+      "source_sha256": "bfd8f8140781cb2c6c3f705afcebb40e79e1614fc855b8a816e61b5049e8eaaa",
+      "sha256": "bfd8f8140781cb2c6c3f705afcebb40e79e1614fc855b8a816e61b5049e8eaaa"
+    },
+    {
+      "asset_id": "FX-002",
+      "path": "assets/runtime/prologue/effects/FX-002/FX-002_sword_impact_sparks_03.png",
+      "source": "assets/production/phase_07_visual_effects/FX-002/exports/FX-002_sword_impact_sparks_03.png",
+      "source_sha256": "8fd601ba60a5c2079cc1f1dd831272f1c837cc0d7ce318efa5ea1b7790f92c50",
+      "sha256": "8fd601ba60a5c2079cc1f1dd831272f1c837cc0d7ce318efa5ea1b7790f92c50"
+    },
+    {
+      "asset_id": "FX-002",
+      "path": "assets/runtime/prologue/effects/FX-002/FX-002_sword_impact_sparks_04.png",
+      "source": "assets/production/phase_07_visual_effects/FX-002/exports/FX-002_sword_impact_sparks_04.png",
+      "source_sha256": "6b252792470f698428a6c1d76ad391c8fe5e5bfff60bb0aa9e9be2e66bce574c",
+      "sha256": "6b252792470f698428a6c1d76ad391c8fe5e5bfff60bb0aa9e9be2e66bce574c"
+    },
+    {
+      "asset_id": "FX-002",
+      "path": "assets/runtime/prologue/effects/FX-002/FX-002_sword_impact_sparks_05.png",
+      "source": "assets/production/phase_07_visual_effects/FX-002/exports/FX-002_sword_impact_sparks_05.png",
+      "source_sha256": "0c73c78cb7f4ab133e35da9561f85568763a369cfcd0b4432bac0f130a640139",
+      "sha256": "0c73c78cb7f4ab133e35da9561f85568763a369cfcd0b4432bac0f130a640139"
+    },
+    {
+      "asset_id": "FX-003",
+      "path": "assets/runtime/prologue/effects/FX-003/FX-003_enemy_hit_flash_00.png",
+      "source": "assets/production/phase_07_visual_effects/FX-003/exports/FX-003_enemy_hit_flash_00.png",
+      "source_sha256": "7d0a6adf8d65a487003e3293eb647db3c13994361887e83b9804a41c48a0dd08",
+      "sha256": "7d0a6adf8d65a487003e3293eb647db3c13994361887e83b9804a41c48a0dd08"
+    },
+    {
+      "asset_id": "FX-003",
+      "path": "assets/runtime/prologue/effects/FX-003/FX-003_enemy_hit_flash_01.png",
+      "source": "assets/production/phase_07_visual_effects/FX-003/exports/FX-003_enemy_hit_flash_01.png",
+      "source_sha256": "1c9c11c37575efe919774debc754c8ccae7b0b05d0dec98660837f69e36fa0d9",
+      "sha256": "1c9c11c37575efe919774debc754c8ccae7b0b05d0dec98660837f69e36fa0d9"
+    },
+    {
+      "asset_id": "FX-003",
+      "path": "assets/runtime/prologue/effects/FX-003/FX-003_enemy_hit_flash_02.png",
+      "source": "assets/production/phase_07_visual_effects/FX-003/exports/FX-003_enemy_hit_flash_02.png",
+      "source_sha256": "9a472368be16593ecaba661537711f956ac055beb48d3d38a2c6e8073549784d",
+      "sha256": "9a472368be16593ecaba661537711f956ac055beb48d3d38a2c6e8073549784d"
+    },
+    {
+      "asset_id": "FX-003",
+      "path": "assets/runtime/prologue/effects/FX-003/FX-003_enemy_hit_flash_03.png",
+      "source": "assets/production/phase_07_visual_effects/FX-003/exports/FX-003_enemy_hit_flash_03.png",
+      "source_sha256": "6d1974676096ce63b1fc32dfce22ceb1ead39b6bc9a6ad23bb684735c26724e0",
+      "sha256": "6d1974676096ce63b1fc32dfce22ceb1ead39b6bc9a6ad23bb684735c26724e0"
+    },
+    {
+      "asset_id": "FX-004",
+      "path": "assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_00.png",
+      "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_00.png",
+      "source_sha256": "382ebe90521582346193ef30423382bca89e83aa8f219a3017051d802cf12bd4",
+      "sha256": "382ebe90521582346193ef30423382bca89e83aa8f219a3017051d802cf12bd4"
+    },
+    {
+      "asset_id": "FX-004",
+      "path": "assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_01.png",
+      "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_01.png",
+      "source_sha256": "a14ce828ae4bb4122a2f3555e37482ef3f6bd93c6f7587fc3a199dac322edee7",
+      "sha256": "a14ce828ae4bb4122a2f3555e37482ef3f6bd93c6f7587fc3a199dac322edee7"
+    },
+    {
+      "asset_id": "FX-004",
+      "path": "assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_02.png",
+      "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_02.png",
+      "source_sha256": "e20ffc335b1cb030a4328a311baa3dd3c2f11da446431a01d5eba5b8c81cb49a",
+      "sha256": "e20ffc335b1cb030a4328a311baa3dd3c2f11da446431a01d5eba5b8c81cb49a"
+    },
+    {
+      "asset_id": "FX-004",
+      "path": "assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_03.png",
+      "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_03.png",
+      "source_sha256": "a0c6170a880be74e018f535d39d0e189659a3e716cd968349ac4b9aba27cd162",
+      "sha256": "a0c6170a880be74e018f535d39d0e189659a3e716cd968349ac4b9aba27cd162"
+    },
+    {
+      "asset_id": "FX-004",
+      "path": "assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_04.png",
+      "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_04.png",
+      "source_sha256": "15360b324664ce871bf7615ca9708870a938cd02f1d9bb6007a115dd699b44ab",
+      "sha256": "15360b324664ce871bf7615ca9708870a938cd02f1d9bb6007a115dd699b44ab"
+    },
+    {
+      "asset_id": "FX-004",
+      "path": "assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_05.png",
+      "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_05.png",
+      "source_sha256": "e79ea41e57182ceeddc3e287fbbb4143d96d1686a23d2decfc040a353e13896a",
+      "sha256": "e79ea41e57182ceeddc3e287fbbb4143d96d1686a23d2decfc040a353e13896a"
+    },
+    {
+      "asset_id": "FX-004",
+      "path": "assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_06.png",
+      "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_06.png",
+      "source_sha256": "ce5a7da57422b7ad2be80b067a2c7ef697a2607bc4ffc13358bb9c6c927a8a86",
+      "sha256": "ce5a7da57422b7ad2be80b067a2c7ef697a2607bc4ffc13358bb9c6c927a8a86"
+    },
+    {
+      "asset_id": "FX-004",
+      "path": "assets/runtime/prologue/effects/FX-004/FX-004_enemy_defeat_particles_07.png",
+      "source": "assets/production/phase_07_visual_effects/FX-004/exports/FX-004_enemy_defeat_particles_07.png",
+      "source_sha256": "088f3a7f84f0a6a638869f9a4e83a32f0662869494d1d0b5606003d1525d0951",
+      "sha256": "088f3a7f84f0a6a638869f9a4e83a32f0662869494d1d0b5606003d1525d0951"
+    },
+    {
+      "asset_id": "AUD-MUS-002",
+      "path": "assets/runtime/prologue/presentation/AUD-MUS-002_village_theme.ogg",
+      "source": "assets/production/phase_09_audio_asset_inventory/music/AUD-MUS-002/exports/AUD-MUS-002_village_theme.ogg",
+      "source_sha256": "b81e73d424077e33eb77cc246f35f87ff204802d66308e2537be47114f919dc8",
+      "sha256": "b81e73d424077e33eb77cc246f35f87ff204802d66308e2537be47114f919dc8"
+    },
+    {
+      "asset_id": "AUD-AMB-001",
+      "path": "assets/runtime/prologue/presentation/AUD-AMB-001_brackenreach_night.ogg",
+      "source": "assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-001/exports/AUD-AMB-001_brackenreach_night.ogg",
+      "source_sha256": "cbedf3f520bd5302f95c7c30b88d04469547a9f5f5cda2b8573c10205f7b5b13",
+      "sha256": "cbedf3f520bd5302f95c7c30b88d04469547a9f5f5cda2b8573c10205f7b5b13"
+    },
+    {
+      "asset_id": "AUD-AMB-002",
+      "path": "assets/runtime/prologue/presentation/AUD-AMB-002_village_ambience.ogg",
+      "source": "assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-002/exports/AUD-AMB-002_village_ambience.ogg",
+      "source_sha256": "33eb000aca26019738458b71e450497f351968b4c17404858588da2d94796270",
+      "sha256": "33eb000aca26019738458b71e450497f351968b4c17404858588da2d94796270"
+    },
+    {
+      "asset_id": "AUD-AMB-005",
+      "path": "assets/runtime/prologue/presentation/AUD-AMB-005_underground_rumble.ogg",
+      "source": "assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-005/exports/AUD-AMB-005_underground_rumble.ogg",
+      "source_sha256": "423183d818f19e19cb0db73debed58a88c4fec742cf51ba4f1ba4c54851b62d0",
+      "sha256": "423183d818f19e19cb0db73debed58a88c4fec742cf51ba4f1ba4c54851b62d0"
+    },
+    {
+      "asset_id": "AUD-SFX-001",
+      "path": "assets/runtime/prologue/presentation/AUD-SFX-001_running_on_grass_step_1.ogg",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-001/exports/AUD-SFX-001_running_on_grass_step_1.ogg",
+      "source_sha256": "ded0cbe2828ffa4d15e903349e81dcd33b9407c39d2acc84ff3ede40036579e2",
+      "sha256": "ded0cbe2828ffa4d15e903349e81dcd33b9407c39d2acc84ff3ede40036579e2"
+    },
+    {
+      "asset_id": "AUD-SFX-003",
+      "path": "assets/runtime/prologue/presentation/AUD-SFX-003_jump.ogg",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-003/exports/AUD-SFX-003_jump.ogg",
+      "source_sha256": "5b03952474a36fa7b0619cbda64076085c0d40437478e97e1f99f0aae1f493df",
+      "sha256": "5b03952474a36fa7b0619cbda64076085c0d40437478e97e1f99f0aae1f493df"
+    },
+    {
+      "asset_id": "AUD-SFX-004",
+      "path": "assets/runtime/prologue/presentation/AUD-SFX-004_landing_soft.ogg",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-004/exports/AUD-SFX-004_landing_soft.ogg",
+      "source_sha256": "17878613c49633ed7c4ee9353b1709b874df215e72acdfbfd1425893346d7fb5",
+      "sha256": "17878613c49633ed7c4ee9353b1709b874df215e72acdfbfd1425893346d7fb5"
+    },
+    {
+      "asset_id": "AUD-SFX-005",
+      "path": "assets/runtime/prologue/presentation/AUD-SFX-005_sword_swing_swing_1.ogg",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-005/exports/AUD-SFX-005_sword_swing_swing_1.ogg",
+      "source_sha256": "bdc235b2b25564d3d20372579c4cf6f79a5335ae738625e8970536358d0caac6",
+      "sha256": "bdc235b2b25564d3d20372579c4cf6f79a5335ae738625e8970536358d0caac6"
+    },
+    {
+      "asset_id": "AUD-SFX-006",
+      "path": "assets/runtime/prologue/presentation/AUD-SFX-006_sword_impact_impact_1.ogg",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-006/exports/AUD-SFX-006_sword_impact_impact_1.ogg",
+      "source_sha256": "44613f34d44d310336f1ea9fccc06385e1dedac06aed0c3cb29955e98e0e7f22",
+      "sha256": "44613f34d44d310336f1ea9fccc06385e1dedac06aed0c3cb29955e98e0e7f22"
+    },
+    {
+      "asset_id": "AUD-SFX-007",
+      "path": "assets/runtime/prologue/presentation/AUD-SFX-007_enemy_attack_attack_1.ogg",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-007/exports/AUD-SFX-007_enemy_attack_attack_1.ogg",
+      "source_sha256": "51236de7dbc58ba8f97fd9c5fe7cfb8e97ab3932a016bd11688930dd4848f53e",
+      "sha256": "51236de7dbc58ba8f97fd9c5fe7cfb8e97ab3932a016bd11688930dd4848f53e"
+    },
+    {
+      "asset_id": "AUD-SFX-008",
+      "path": "assets/runtime/prologue/presentation/AUD-SFX-008_enemy_defeat.ogg",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-008/exports/AUD-SFX-008_enemy_defeat.ogg",
+      "source_sha256": "b93a60245012b9f33fa2c460f7c2a7710ae802a495fb83dba4ce5b67f91d939c",
+      "sha256": "b93a60245012b9f33fa2c460f7c2a7710ae802a495fb83dba4ce5b67f91d939c"
+    },
+    {
+      "asset_id": "AUD-SFX-009",
+      "path": "assets/runtime/prologue/presentation/AUD-SFX-009_player_hurt_hurt_1.ogg",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-009/exports/AUD-SFX-009_player_hurt_hurt_1.ogg",
+      "source_sha256": "bacdcf8fb1c83ae93fef17b331a81de1758ba800c90de80df1dcdb75cdec517b",
+      "sha256": "bacdcf8fb1c83ae93fef17b331a81de1758ba800c90de80df1dcdb75cdec517b"
+    },
+    {
+      "asset_id": "AUD-SFX-011",
+      "path": "assets/runtime/prologue/presentation/AUD-SFX-011_collectible_pickup.ogg",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-011/exports/AUD-SFX-011_collectible_pickup.ogg",
+      "source_sha256": "d7dd25e3039f83e5eddeb3426737a852e8613ea2d79648d142e4bbf24cfda952",
+      "sha256": "d7dd25e3039f83e5eddeb3426737a852e8613ea2d79648d142e4bbf24cfda952"
+    },
+    {
+      "asset_id": "AUD-SFX-012",
+      "path": "assets/runtime/prologue/presentation/AUD-SFX-012_rune_activation.ogg",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-012/exports/AUD-SFX-012_rune_activation.ogg",
+      "source_sha256": "f8b08cc423ae14742134a13833ecef61b00680c05e5ab5c172e2c5774c770511",
+      "sha256": "f8b08cc423ae14742134a13833ecef61b00680c05e5ab5c172e2c5774c770511"
+    },
+    {
+      "asset_id": "AUD-SFX-014",
+      "path": "assets/runtime/prologue/presentation/AUD-SFX-014_door_opening.ogg",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-014/exports/AUD-SFX-014_door_opening.ogg",
+      "source_sha256": "17ce3e23355d018edd0fdfde16c81b2f0ac660226a7c4ab7ce8708fb78def6de",
+      "sha256": "17ce3e23355d018edd0fdfde16c81b2f0ac660226a7c4ab7ce8708fb78def6de"
+    },
+    {
+      "asset_id": "AUD-SFX-018",
+      "path": "assets/runtime/prologue/presentation/AUD-SFX-018_ui_selection_and_confirmation_select.ogg",
+      "source": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-018/exports/AUD-SFX-018_ui_selection_and_confirmation_select.ogg",
+      "source_sha256": "29db44b75b4f3b3125392763ea9fefac2526ef07e1077fc89f0607a4b7b16bf3",
+      "sha256": "29db44b75b4f3b3125392763ea9fefac2526ef07e1077fc89f0607a4b7b16bf3"
+    },
+    {
+      "asset_id": "FX-001",
+      "path": "assets/runtime/prologue/presentation/FX-001_sword_swing_trail_00.png",
+      "source": "assets/production/phase_07_visual_effects/FX-001/exports/FX-001_sword_swing_trail_00.png",
+      "source_sha256": "7b38241f94db3870d28ecaa7cb01e54cd4fcba48bee109eba192a9d3a17d7240",
+      "sha256": "7b38241f94db3870d28ecaa7cb01e54cd4fcba48bee109eba192a9d3a17d7240"
+    },
+    {
+      "asset_id": "FX-001",
+      "path": "assets/runtime/prologue/presentation/FX-001_sword_swing_trail_01.png",
+      "source": "assets/production/phase_07_visual_effects/FX-001/exports/FX-001_sword_swing_trail_01.png",
+      "source_sha256": "599e1f48da530f5252d432f6821f9711e34bf10288a7e0ae1b5c61d70d71d6d8",
+      "sha256": "599e1f48da530f5252d432f6821f9711e34bf10288a7e0ae1b5c61d70d71d6d8"
+    },
+    {
+      "asset_id": "FX-001",
+      "path": "assets/runtime/prologue/presentation/FX-001_sword_swing_trail_02.png",
+      "source": "assets/production/phase_07_visual_effects/FX-001/exports/FX-001_sword_swing_trail_02.png",
+      "source_sha256": "ea2ed3a04b078c6dee68d4023a5a3f8d71a7e7a04e0d9e53ce70246a800c4932",
+      "sha256": "ea2ed3a04b078c6dee68d4023a5a3f8d71a7e7a04e0d9e53ce70246a800c4932"
+    },
+    {
+      "asset_id": "FX-001",
+      "path": "assets/runtime/prologue/presentation/FX-001_sword_swing_trail_03.png",
+      "source": "assets/production/phase_07_visual_effects/FX-001/exports/FX-001_sword_swing_trail_03.png",
+      "source_sha256": "2936876fe5ff50df05c8c26326eb8cd416a45a7d3990e1a8b16e031d66e5f36b",
+      "sha256": "2936876fe5ff50df05c8c26326eb8cd416a45a7d3990e1a8b16e031d66e5f36b"
+    },
+    {
+      "asset_id": "FX-001",
+      "path": "assets/runtime/prologue/presentation/FX-001_sword_swing_trail_04.png",
+      "source": "assets/production/phase_07_visual_effects/FX-001/exports/FX-001_sword_swing_trail_04.png",
+      "source_sha256": "7068375611532ee96e9d547ec9bf6f669098a4c6f44e56b35f0b8a4fbf0ebb3b",
+      "sha256": "7068375611532ee96e9d547ec9bf6f669098a4c6f44e56b35f0b8a4fbf0ebb3b"
+    },
+    {
+      "asset_id": "FX-001",
+      "path": "assets/runtime/prologue/presentation/FX-001_sword_swing_trail_05.png",
+      "source": "assets/production/phase_07_visual_effects/FX-001/exports/FX-001_sword_swing_trail_05.png",
+      "source_sha256": "6ccfb818224bb3f22d039dba9f947c5920363a7752d8356f29504a9b836442d1",
+      "sha256": "6ccfb818224bb3f22d039dba9f947c5920363a7752d8356f29504a9b836442d1"
+    },
+    {
+      "asset_id": "FX-006",
+      "path": "assets/runtime/prologue/presentation/FX-006_jump_takeoff_puff_00.png",
+      "source": "assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_00.png",
+      "source_sha256": "e3476f28c54746d0cd798719fd91a981e6d6f22323716502d7409e0aa5baa5cd",
+      "sha256": "e3476f28c54746d0cd798719fd91a981e6d6f22323716502d7409e0aa5baa5cd"
+    },
+    {
+      "asset_id": "FX-006",
+      "path": "assets/runtime/prologue/presentation/FX-006_jump_takeoff_puff_01.png",
+      "source": "assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_01.png",
+      "source_sha256": "5d7b2641e11b8aba7f96ed6b7de70da938350be975b96539209a088d83cc7533",
+      "sha256": "5d7b2641e11b8aba7f96ed6b7de70da938350be975b96539209a088d83cc7533"
+    },
+    {
+      "asset_id": "FX-006",
+      "path": "assets/runtime/prologue/presentation/FX-006_jump_takeoff_puff_02.png",
+      "source": "assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_02.png",
+      "source_sha256": "08502558f87bd4031db3cef6da83d0e5bfd2d86174ab9f22efa65552dc313bb0",
+      "sha256": "08502558f87bd4031db3cef6da83d0e5bfd2d86174ab9f22efa65552dc313bb0"
+    },
+    {
+      "asset_id": "FX-006",
+      "path": "assets/runtime/prologue/presentation/FX-006_jump_takeoff_puff_03.png",
+      "source": "assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_03.png",
+      "source_sha256": "f85553c97cc679b8a6ac2a9769bd51d9d89d26b3ad8585421a4bdcb7a48e9803",
+      "sha256": "f85553c97cc679b8a6ac2a9769bd51d9d89d26b3ad8585421a4bdcb7a48e9803"
+    },
+    {
+      "asset_id": "FX-006",
+      "path": "assets/runtime/prologue/presentation/FX-006_jump_takeoff_puff_04.png",
+      "source": "assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_04.png",
+      "source_sha256": "64cc44048f2c2dcd9ce927b51e81b9429ce5ce5a07806d1786f403fa4041685c",
+      "sha256": "64cc44048f2c2dcd9ce927b51e81b9429ce5ce5a07806d1786f403fa4041685c"
+    },
+    {
+      "asset_id": "FX-006",
+      "path": "assets/runtime/prologue/presentation/FX-006_jump_takeoff_puff_05.png",
+      "source": "assets/production/phase_07_visual_effects/FX-006/exports/FX-006_jump_takeoff_puff_05.png",
+      "source_sha256": "6016d3b40796ca7674db7f37a01f1ad4e0bf9d7a122b1c1eb4a35a5c8c4a93df",
+      "sha256": "6016d3b40796ca7674db7f37a01f1ad4e0bf9d7a122b1c1eb4a35a5c8c4a93df"
+    },
+    {
+      "asset_id": "FX-007",
+      "path": "assets/runtime/prologue/presentation/FX-007_landing_dust_00.png",
+      "source": "assets/production/phase_07_visual_effects/FX-007/exports/FX-007_landing_dust_00.png",
+      "source_sha256": "c8d8630de90a6c76468d83c779992acf8eac55ad7b02596350b1101f4e4a850c",
+      "sha256": "c8d8630de90a6c76468d83c779992acf8eac55ad7b02596350b1101f4e4a850c"
+    },
+    {
+      "asset_id": "FX-007",
+      "path": "assets/runtime/prologue/presentation/FX-007_landing_dust_01.png",
+      "source": "assets/production/phase_07_visual_effects/FX-007/exports/FX-007_landing_dust_01.png",
+      "source_sha256": "c6f04c3965e260b8943c6dcddda53875ef96df4212ad88ca19203cb8e8c44514",
+      "sha256": "c6f04c3965e260b8943c6dcddda53875ef96df4212ad88ca19203cb8e8c44514"
+    },
+    {
+      "asset_id": "FX-007",
+      "path": "assets/runtime/prologue/presentation/FX-007_landing_dust_02.png",
+      "source": "assets/production/phase_07_visual_effects/FX-007/exports/FX-007_landing_dust_02.png",
+      "source_sha256": "2d6907a7dd48b3fb736fffbc893085fe219410673ba806ea2db48f2619ac26b4",
+      "sha256": "2d6907a7dd48b3fb736fffbc893085fe219410673ba806ea2db48f2619ac26b4"
+    },
+    {
+      "asset_id": "FX-007",
+      "path": "assets/runtime/prologue/presentation/FX-007_landing_dust_03.png",
+      "source": "assets/production/phase_07_visual_effects/FX-007/exports/FX-007_landing_dust_03.png",
+      "source_sha256": "1df62b62481757f67d61b7ea777580eff210335157ec0e6e79419bf0e1dbd02e",
+      "sha256": "1df62b62481757f67d61b7ea777580eff210335157ec0e6e79419bf0e1dbd02e"
+    },
+    {
+      "asset_id": "FX-007",
+      "path": "assets/runtime/prologue/presentation/FX-007_landing_dust_04.png",
+      "source": "assets/production/phase_07_visual_effects/FX-007/exports/FX-007_landing_dust_04.png",
+      "source_sha256": "5678512c4c5c504066c68a71d2042897d531e492ea77c5ad371b550f175fae4d",
+      "sha256": "5678512c4c5c504066c68a71d2042897d531e492ea77c5ad371b550f175fae4d"
+    },
+    {
+      "asset_id": "FX-007",
+      "path": "assets/runtime/prologue/presentation/FX-007_landing_dust_05.png",
+      "source": "assets/production/phase_07_visual_effects/FX-007/exports/FX-007_landing_dust_05.png",
+      "source_sha256": "266252ec745f58fe6b6e3626c118a399ce68403b39d8ce3087b7f49a8f7fdcfb",
+      "sha256": "266252ec745f58fe6b6e3626c118a399ce68403b39d8ce3087b7f49a8f7fdcfb"
+    },
+    {
+      "asset_id": "FX-007",
+      "path": "assets/runtime/prologue/presentation/FX-007_landing_dust_06.png",
+      "source": "assets/production/phase_07_visual_effects/FX-007/exports/FX-007_landing_dust_06.png",
+      "source_sha256": "49450cc7fedab672fb908281e2213799728cd313b2b7544cb67c77bc046bbf82",
+      "sha256": "49450cc7fedab672fb908281e2213799728cd313b2b7544cb67c77bc046bbf82"
+    },
+    {
+      "asset_id": "FX-008",
+      "path": "assets/runtime/prologue/presentation/FX-008_falling_debris_00.png",
+      "source": "assets/production/phase_07_visual_effects/FX-008/exports/FX-008_falling_debris_00.png",
+      "source_sha256": "d50fa84674e2b9506070ff45ee3e215419fed2a65b4b0d92cdd71bc467c21630",
+      "sha256": "d50fa84674e2b9506070ff45ee3e215419fed2a65b4b0d92cdd71bc467c21630"
+    },
+    {
+      "asset_id": "FX-008",
+      "path": "assets/runtime/prologue/presentation/FX-008_falling_debris_01.png",
+      "source": "assets/production/phase_07_visual_effects/FX-008/exports/FX-008_falling_debris_01.png",
+      "source_sha256": "30fcda0e770d6d338341621c7363ead121b247c6a113774b7194e13ca8767183",
+      "sha256": "30fcda0e770d6d338341621c7363ead121b247c6a113774b7194e13ca8767183"
+    },
+    {
+      "asset_id": "FX-008",
+      "path": "assets/runtime/prologue/presentation/FX-008_falling_debris_02.png",
+      "source": "assets/production/phase_07_visual_effects/FX-008/exports/FX-008_falling_debris_02.png",
+      "source_sha256": "18fe67682633d3605248f94c8fa5382da9598817b8d9e052c8b441351e364cc6",
+      "sha256": "18fe67682633d3605248f94c8fa5382da9598817b8d9e052c8b441351e364cc6"
+    },
+    {
+      "asset_id": "FX-008",
+      "path": "assets/runtime/prologue/presentation/FX-008_falling_debris_03.png",
+      "source": "assets/production/phase_07_visual_effects/FX-008/exports/FX-008_falling_debris_03.png",
+      "source_sha256": "c84dbdc265a535fdee250b406a5b5ce64a1f5632d1378864668436e6ce3d28ec",
+      "sha256": "c84dbdc265a535fdee250b406a5b5ce64a1f5632d1378864668436e6ce3d28ec"
+    },
+    {
+      "asset_id": "FX-008",
+      "path": "assets/runtime/prologue/presentation/FX-008_falling_debris_04.png",
+      "source": "assets/production/phase_07_visual_effects/FX-008/exports/FX-008_falling_debris_04.png",
+      "source_sha256": "6ba2ec84cf7b56f59f3d6a30132b1870dd94f81683f380bf714d6923f230a531",
+      "sha256": "6ba2ec84cf7b56f59f3d6a30132b1870dd94f81683f380bf714d6923f230a531"
+    },
+    {
+      "asset_id": "FX-008",
+      "path": "assets/runtime/prologue/presentation/FX-008_falling_debris_05.png",
+      "source": "assets/production/phase_07_visual_effects/FX-008/exports/FX-008_falling_debris_05.png",
+      "source_sha256": "7429f000b7199d147319191b3c11c5c051681e0fb712fc234b395dcbd378a622",
+      "sha256": "7429f000b7199d147319191b3c11c5c051681e0fb712fc234b395dcbd378a622"
+    },
+    {
+      "asset_id": "FX-008",
+      "path": "assets/runtime/prologue/presentation/FX-008_falling_debris_06.png",
+      "source": "assets/production/phase_07_visual_effects/FX-008/exports/FX-008_falling_debris_06.png",
+      "source_sha256": "b1e9511a8b9f6cab4bc73e8c06f1d1c078a0b40dcdb7fda5d17cdd1614c365b2",
+      "sha256": "b1e9511a8b9f6cab4bc73e8c06f1d1c078a0b40dcdb7fda5d17cdd1614c365b2"
+    },
+    {
+      "asset_id": "FX-008",
+      "path": "assets/runtime/prologue/presentation/FX-008_falling_debris_07.png",
+      "source": "assets/production/phase_07_visual_effects/FX-008/exports/FX-008_falling_debris_07.png",
+      "source_sha256": "10f82f7ebb123226d73f63465b64172f890c77b1ec8f01f0538df07db7e94462",
+      "sha256": "10f82f7ebb123226d73f63465b64172f890c77b1ec8f01f0538df07db7e94462"
+    },
+    {
+      "asset_id": "FX-009",
+      "path": "assets/runtime/prologue/presentation/FX-009_lantern_light_pulse_00.png",
+      "source": "assets/production/phase_07_visual_effects/FX-009/exports/FX-009_lantern_light_pulse_00.png",
+      "source_sha256": "20b44626ccbf39fbda827d8f9aa05b52022f21a7c74f7e1cf9f5fc6cd6ad5318",
+      "sha256": "20b44626ccbf39fbda827d8f9aa05b52022f21a7c74f7e1cf9f5fc6cd6ad5318"
+    },
+    {
+      "asset_id": "FX-009",
+      "path": "assets/runtime/prologue/presentation/FX-009_lantern_light_pulse_01.png",
+      "source": "assets/production/phase_07_visual_effects/FX-009/exports/FX-009_lantern_light_pulse_01.png",
+      "source_sha256": "296187a4385519c5d91dc0715c32e5f9a7e70146acb70dc4e85686d356d598c7",
+      "sha256": "296187a4385519c5d91dc0715c32e5f9a7e70146acb70dc4e85686d356d598c7"
+    },
+    {
+      "asset_id": "FX-009",
+      "path": "assets/runtime/prologue/presentation/FX-009_lantern_light_pulse_02.png",
+      "source": "assets/production/phase_07_visual_effects/FX-009/exports/FX-009_lantern_light_pulse_02.png",
+      "source_sha256": "04f5de85cd38ef4566aeb511d0b3048cd8998b67d2e120ca3f937e2a2e4ffc94",
+      "sha256": "04f5de85cd38ef4566aeb511d0b3048cd8998b67d2e120ca3f937e2a2e4ffc94"
+    },
+    {
+      "asset_id": "FX-009",
+      "path": "assets/runtime/prologue/presentation/FX-009_lantern_light_pulse_03.png",
+      "source": "assets/production/phase_07_visual_effects/FX-009/exports/FX-009_lantern_light_pulse_03.png",
+      "source_sha256": "4016557be5505e6fcbc28e4c5ae5881f1953b28551c7dfa676d476bee098145c",
+      "sha256": "4016557be5505e6fcbc28e4c5ae5881f1953b28551c7dfa676d476bee098145c"
+    },
+    {
+      "asset_id": "FX-009",
+      "path": "assets/runtime/prologue/presentation/FX-009_lantern_light_pulse_04.png",
+      "source": "assets/production/phase_07_visual_effects/FX-009/exports/FX-009_lantern_light_pulse_04.png",
+      "source_sha256": "1aef3a297253586dc95d277e1c1a0aff6d311e48f8a1f12de89a48e373ee3307",
+      "sha256": "1aef3a297253586dc95d277e1c1a0aff6d311e48f8a1f12de89a48e373ee3307"
+    },
+    {
+      "asset_id": "FX-009",
+      "path": "assets/runtime/prologue/presentation/FX-009_lantern_light_pulse_05.png",
+      "source": "assets/production/phase_07_visual_effects/FX-009/exports/FX-009_lantern_light_pulse_05.png",
+      "source_sha256": "ae661cf42930b081d8003a2deaf65889299e0f79fba16eddcd8121b96e771b52",
+      "sha256": "ae661cf42930b081d8003a2deaf65889299e0f79fba16eddcd8121b96e771b52"
+    },
+    {
+      "asset_id": "FX-009",
+      "path": "assets/runtime/prologue/presentation/FX-009_lantern_light_pulse_06.png",
+      "source": "assets/production/phase_07_visual_effects/FX-009/exports/FX-009_lantern_light_pulse_06.png",
+      "source_sha256": "18135ee67541aea6ae184895bd531780f86e229223981248a9b0293564acc550",
+      "sha256": "18135ee67541aea6ae184895bd531780f86e229223981248a9b0293564acc550"
+    },
+    {
+      "asset_id": "FX-009",
+      "path": "assets/runtime/prologue/presentation/FX-009_lantern_light_pulse_07.png",
+      "source": "assets/production/phase_07_visual_effects/FX-009/exports/FX-009_lantern_light_pulse_07.png",
+      "source_sha256": "051f0954b22b9f45500e4b16e36e57936b19053ec186fba118b720c0b0194c48",
+      "sha256": "051f0954b22b9f45500e4b16e36e57936b19053ec186fba118b720c0b0194c48"
+    },
+    {
+      "asset_id": "FX-018",
+      "path": "assets/runtime/prologue/presentation/FX-018_death_respawn_00.png",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_00.png",
+      "source_sha256": "fd95c48986c90121e71577fd49bfc3ea166a2a7438e41fac4b3cb38aa5033411",
+      "sha256": "fd95c48986c90121e71577fd49bfc3ea166a2a7438e41fac4b3cb38aa5033411"
+    },
+    {
+      "asset_id": "FX-018",
+      "path": "assets/runtime/prologue/presentation/FX-018_death_respawn_01.png",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_01.png",
+      "source_sha256": "4248686613b71eb64b6e3bc94275b2dfa432342ae254cc01994b7a5632c7e4f9",
+      "sha256": "4248686613b71eb64b6e3bc94275b2dfa432342ae254cc01994b7a5632c7e4f9"
+    },
+    {
+      "asset_id": "FX-018",
+      "path": "assets/runtime/prologue/presentation/FX-018_death_respawn_02.png",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_02.png",
+      "source_sha256": "1ac4c8388d42420d175f1e8bc98a2baae7952367c30cc986dbf11478af1eebad",
+      "sha256": "1ac4c8388d42420d175f1e8bc98a2baae7952367c30cc986dbf11478af1eebad"
+    },
+    {
+      "asset_id": "FX-018",
+      "path": "assets/runtime/prologue/presentation/FX-018_death_respawn_03.png",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_03.png",
+      "source_sha256": "a731d6d9a913bedb2e7845244e4c7712053e51222cbf1d6908e1abbdc22949b1",
+      "sha256": "a731d6d9a913bedb2e7845244e4c7712053e51222cbf1d6908e1abbdc22949b1"
+    },
+    {
+      "asset_id": "FX-018",
+      "path": "assets/runtime/prologue/presentation/FX-018_death_respawn_04.png",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_04.png",
+      "source_sha256": "a3d6cc154af472869232297d831dcaa33069cff46b4d2bf8734bf56ec353bea3",
+      "sha256": "a3d6cc154af472869232297d831dcaa33069cff46b4d2bf8734bf56ec353bea3"
+    },
+    {
+      "asset_id": "FX-018",
+      "path": "assets/runtime/prologue/presentation/FX-018_death_respawn_05.png",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_05.png",
+      "source_sha256": "87bc9ae9755e683a0b5527b75ccff08786caf1e95e57ff277894da6e67977dbd",
+      "sha256": "87bc9ae9755e683a0b5527b75ccff08786caf1e95e57ff277894da6e67977dbd"
+    },
+    {
+      "asset_id": "FX-018",
+      "path": "assets/runtime/prologue/presentation/FX-018_death_respawn_06.png",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_06.png",
+      "source_sha256": "a870c5f3b6d0e3ef02df861cc78e2632faaab3bdf521bf2c1bd65a963dbfd739",
+      "sha256": "a870c5f3b6d0e3ef02df861cc78e2632faaab3bdf521bf2c1bd65a963dbfd739"
+    },
+    {
+      "asset_id": "FX-018",
+      "path": "assets/runtime/prologue/presentation/FX-018_death_respawn_07.png",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_07.png",
+      "source_sha256": "8b554b78f67f774a83146c830bed6846cce43a2140e7460ed398f8010eb8495e",
+      "sha256": "8b554b78f67f774a83146c830bed6846cce43a2140e7460ed398f8010eb8495e"
+    },
+    {
+      "asset_id": "FX-018",
+      "path": "assets/runtime/prologue/presentation/FX-018_death_respawn_08.png",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_08.png",
+      "source_sha256": "22e78398145c82fb41cc56f7c997c0cfd6c9cc9b01c731779357bba6de87d210",
+      "sha256": "22e78398145c82fb41cc56f7c997c0cfd6c9cc9b01c731779357bba6de87d210"
+    },
+    {
+      "asset_id": "FX-018",
+      "path": "assets/runtime/prologue/presentation/FX-018_death_respawn_09.png",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_09.png",
+      "source_sha256": "c94bc4b4d18681ec7cad02b7ee3bf9cc1b5fabe325994278b187544fe86ba34a",
+      "sha256": "c94bc4b4d18681ec7cad02b7ee3bf9cc1b5fabe325994278b187544fe86ba34a"
+    },
+    {
+      "asset_id": "FX-018",
+      "path": "assets/runtime/prologue/presentation/FX-018_death_respawn_10.png",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_10.png",
+      "source_sha256": "e4d33736aa1a4fb7b5415805fa5a6c03b87df76ced27b59f9c567ad584a73449",
+      "sha256": "e4d33736aa1a4fb7b5415805fa5a6c03b87df76ced27b59f9c567ad584a73449"
+    },
+    {
+      "asset_id": "FX-018",
+      "path": "assets/runtime/prologue/presentation/FX-018_death_respawn_11.png",
+      "source": "assets/production/phase_07_visual_effects/FX-018/exports/FX-018_death_respawn_11.png",
+      "source_sha256": "9d023b9d7af12d3b45ca0644027a4951f475e5d9d2dc349b87db4f81c4143c0d",
+      "sha256": "9d023b9d7af12d3b45ca0644027a4951f475e5d9d2dc349b87db4f81c4143c0d"
+    }
+  ]
+}

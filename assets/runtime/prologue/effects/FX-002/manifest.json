@@ -1,0 +1,58 @@
+{
+  "animations": {
+    "main": {
+      "asset_id": "FX-002",
+      "frames": [
+        {
+          "path": "res://assets/runtime/prologue/effects/FX-002/FX-002_sword_impact_sparks_00.png",
+          "source": "assets/production/phase_07_visual_effects/FX-002/exports/FX-002_sword_impact_sparks_00.png",
+          "sha256": "e3db3be75d257fc2d3250c844fdc8c11cc9fb94b06f4a6619906b984cf32d65b",
+          "source_sha256": "e3db3be75d257fc2d3250c844fdc8c11cc9fb94b06f4a6619906b984cf32d65b"
+        },
+        {
+          "path": "res://assets/runtime/prologue/effects/FX-002/FX-002_sword_impact_sparks_01.png",
+          "source": "assets/production/phase_07_visual_effects/FX-002/exports/FX-002_sword_impact_sparks_01.png",
+          "sha256": "440cccb8c32c1c362b7faa96ca5d0017493affbc001da2b7bc668932dd2f95a9",
+          "source_sha256": "440cccb8c32c1c362b7faa96ca5d0017493affbc001da2b7bc668932dd2f95a9"
+        },
+        {
+          "path": "res://assets/runtime/prologue/effects/FX-002/FX-002_sword_impact_sparks_02.png",
+          "source": "assets/production/phase_07_visual_effects/FX-002/exports/FX-002_sword_impact_sparks_02.png",
+          "sha256": "bfd8f8140781cb2c6c3f705afcebb40e79e1614fc855b8a816e61b5049e8eaaa",
+          "source_sha256": "bfd8f8140781cb2c6c3f705afcebb40e79e1614fc855b8a816e61b5049e8eaaa"
+        },
+        {
+          "path": "res://assets/runtime/prologue/effects/FX-002/FX-002_sword_impact_sparks_03.png",
+          "source": "assets/production/phase_07_visual_effects/FX-002/exports/FX-002_sword_impact_sparks_03.png",
+          "sha256": "8fd601ba60a5c2079cc1f1dd831272f1c837cc0d7ce318efa5ea1b7790f92c50",
+          "source_sha256": "8fd601ba60a5c2079cc1f1dd831272f1c837cc0d7ce318efa5ea1b7790f92c50"
+        },
+        {
+          "path": "res://assets/runtime/prologue/effects/FX-002/FX-002_sword_impact_sparks_04.png",
+          "source": "assets/production/phase_07_visual_effects/FX-002/exports/FX-002_sword_impact_sparks_04.png",
+          "sha256": "6b252792470f698428a6c1d76ad391c8fe5e5bfff60bb0aa9e9be2e66bce574c",
+          "source_sha256": "6b252792470f698428a6c1d76ad391c8fe5e5bfff60bb0aa9e9be2e66bce574c"
+        },
+        {
+          "path": "res://assets/runtime/prologue/effects/FX-002/FX-002_sword_impact_sparks_05.png",
+          "source": "assets/production/phase_07_visual_effects/FX-002/exports/FX-002_sword_impact_sparks_05.png",
+          "sha256": "0c73c78cb7f4ab133e35da9561f85568763a369cfcd0b4432bac0f130a640139",
+          "source_sha256": "0c73c78cb7f4ab133e35da9561f85568763a369cfcd0b4432bac0f130a640139"
+        }
+      ],
+      "durations_ms": [
+        41.666666666666664,
+        41.666666666666664,
+        41.666666666666664,
+        41.666666666666664,
+        41.666666666666664,
+        41.666666666666664
+      ],
+      "loop": false,
+      "pivot_px": [
+        64,
+        64
+      ]
+    }
+  }
+}

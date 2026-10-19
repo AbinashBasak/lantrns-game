@@ -1,0 +1,313 @@
+{
+  "purpose": "Prologue runtime UI integration; original generated exports retained unchanged",
+  "assets": [
+    {
+      "asset_id": "UI-001",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-001/exports/UI-001_00_full.png",
+      "source_sha256": "05b3c01ddaac26c2ed599e66948ac3926e5a77f5c415349e91cfc6b251176d23",
+      "source_metadata": "assets/production/phase_08_user_interface/hud_elements/UI-001/metadata.json",
+      "output": "assets/runtime/prologue/ui/health_full.png",
+      "sha256": "51eeeacfa85c3651d52935c8e72f12ef525e685193f73ffb0195fae01bb16cd0",
+      "dimensions": [
+        40,
+        40
+      ],
+      "derivation": "alpha bounds trimmed; aspect-preserving LANCZOS fit and transparent padding when sized",
+      "archive_stage": "reviewed_prototype_components_and_fixed_cell_exports"
+    },
+    {
+      "asset_id": "UI-001",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-001/exports/UI-001_02_empty.png",
+      "source_sha256": "b412b7eeab6730ea669b398cdd59c4b8b657e0e4d1c232a4b6fb92414b4937af",
+      "source_metadata": "assets/production/phase_08_user_interface/hud_elements/UI-001/metadata.json",
+      "output": "assets/runtime/prologue/ui/health_empty.png",
+      "sha256": "3cfb176f9432b2f3205f715601364c5b9d44d1b68f15e5cad7c442cb6a676920",
+      "dimensions": [
+        40,
+        40
+      ],
+      "derivation": "alpha bounds trimmed; aspect-preserving LANCZOS fit and transparent padding when sized",
+      "archive_stage": "reviewed_prototype_components_and_fixed_cell_exports"
+    },
+    {
+      "asset_id": "UI-004",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-004/exports/UI-004_01_active.png",
+      "source_sha256": "5a3cf06605551acae7db863b9aa85d7edf7d17a7585e63828295fb2c086a0825",
+      "source_metadata": "assets/production/phase_08_user_interface/hud_elements/UI-004/metadata.json",
+      "output": "assets/runtime/prologue/ui/objective.png",
+      "sha256": "88168b05919cd53f1ab1c8dc0f1e610abbec32b8ba1b73db0bd05399d0025659",
+      "dimensions": [
+        996,
+        256
+      ],
+      "derivation": "alpha bounds trimmed; aspect-preserving LANCZOS fit and transparent padding when sized",
+      "archive_stage": "reviewed_prototype_components_and_fixed_cell_exports"
+    },
+    {
+      "asset_id": "UI-005",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-005/exports/UI-005_02_bubble_filled.png",
+      "source_sha256": "a04ba175934dfb54bb898f2b6cdd8208b118c839c2d8a2d6d8b49eae5f98cc20",
+      "source_metadata": "assets/production/phase_08_user_interface/hud_elements/UI-005/metadata.json",
+      "output": "assets/runtime/prologue/ui/prompt.png",
+      "sha256": "320f63f4cab2b820c9f85b06e62662eae322f42fe64092cbc7a3d1f216f42b6b",
+      "dimensions": [
+        243,
+        214
+      ],
+      "derivation": "alpha bounds trimmed; aspect-preserving LANCZOS fit and transparent padding when sized",
+      "archive_stage": "reviewed_prototype_components_and_fixed_cell_exports"
+    },
+    {
+      "asset_id": "UI-005",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-005/exports/UI-005_00_keycap_neutral.png",
+      "source_sha256": "38cc06365f1a7fe640a9d5c08bb608bdfa7671c38c35e6b5df5ac356d9dd9151",
+      "source_metadata": "assets/production/phase_08_user_interface/hud_elements/UI-005/metadata.json",
+      "output": "assets/runtime/prologue/ui/interact.png",
+      "sha256": "f078249a706eed246d4ccd0dbd4f347c8f811e5a34b42f565dda824f0cafb2cd",
+      "dimensions": [
+        80,
+        80
+      ],
+      "derivation": "alpha bounds trimmed; aspect-preserving LANCZOS fit and transparent padding when sized",
+      "archive_stage": "reviewed_prototype_components_and_fixed_cell_exports"
+    },
+    {
+      "asset_id": "UI-009",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_dialogue_panel.png",
+      "source_sha256": "171de429435ae8a6c8903b997bc5bf0ba9c0c5cb5f96641ed6041ddc064fda25",
+      "source_metadata": "assets/production/phase_08_user_interface/hud_elements/UI-009/metadata.json",
+      "output": "assets/runtime/prologue/ui/dialogue.png",
+      "sha256": "f78d0b5c9399830b5474882df12049e9197c03cd905fff579b9df12abcabfa74",
+      "dimensions": [
+        764,
+        333
+      ],
+      "derivation": "alpha bounds trimmed; aspect-preserving LANCZOS fit and transparent padding when sized",
+      "archive_stage": "generated_ui_prototype_saved_and_reviewed"
+    },
+    {
+      "asset_id": "UI-011",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-011/exports/UI-011_normal_128.png",
+      "source_sha256": "c8e7eb39e4d7f0abbfdeab196410023b1c43a26d8f16679a0ec37655d1072abd",
+      "source_metadata": "assets/production/phase_08_user_interface/hud_elements/UI-011/metadata.json",
+      "output": "assets/runtime/prologue/ui/pause_icon.png",
+      "sha256": "bf78ed4d7b933007df2d8c09609a2a1f67b746d4580fe7781652ece975bd259e",
+      "dimensions": [
+        56,
+        56
+      ],
+      "derivation": "alpha bounds trimmed; aspect-preserving LANCZOS fit and transparent padding when sized",
+      "archive_stage": "generated_ui_prototype_saved_and_reviewed"
+    },
+    {
+      "asset_id": "UI-016",
+      "source": "assets/production/phase_08_user_interface/menus_and_screens/UI-016/exports/UI-016_component_01.png",
+      "source_sha256": "1a0436ebcd1e73f3a1b14a9c450ebb9c601ce6b5a038656f6c282f0a2df878c2",
+      "source_metadata": "assets/production/phase_08_user_interface/menus_and_screens/UI-016/metadata.json",
+      "output": "assets/runtime/prologue/ui/title_background.png",
+      "sha256": "1f2a082f98da9ab57be8f4f34103ac5769fb8d6fd755a54f05c7301b99c6653e",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "derivation": "alpha bounds trimmed; aspect-preserving LANCZOS fit and transparent padding when sized",
+      "archive_stage": "generated_prototype_reviewed_exported"
+    },
+    {
+      "asset_id": "UI-017",
+      "source": "assets/production/phase_08_user_interface/menus_and_screens/UI-017/exports/UI-017_component_01.png",
+      "source_sha256": "9452af6d74f75a17798e3b2364e13efb610628edf5bde0274cf42eb949dc9171",
+      "source_metadata": "assets/production/phase_08_user_interface/menus_and_screens/UI-017/metadata.json",
+      "output": "assets/runtime/prologue/ui/logo.png",
+      "sha256": "1d37cd1f363ac845bfa45f08f00a72de468b34998f35de50decfd9013e764a1b",
+      "dimensions": [
+        520,
+        250
+      ],
+      "derivation": "alpha bounds trimmed; aspect-preserving LANCZOS fit and transparent padding when sized",
+      "archive_stage": "generated_prototype_reviewed_exported"
+    },
+    {
+      "asset_id": "UI-019",
+      "source": "assets/production/phase_08_user_interface/menus_and_screens/UI-019/exports/UI-019_component_01.png",
+      "source_sha256": "b96f898b31c120ab517759ce33a1a7577a395672ecbb061ccf53382733b679eb",
+      "source_metadata": "assets/production/phase_08_user_interface/menus_and_screens/UI-019/metadata.json",
+      "output": "assets/runtime/prologue/ui/panel.png",
+      "sha256": "d3bd13b26dd7fc0630796d72eafa7edd604c2f7ce9bad946fa630a74fcfd9785",
+      "dimensions": [
+        501,
+        512
+      ],
+      "derivation": "alpha bounds trimmed; aspect-preserving LANCZOS fit and transparent padding when sized",
+      "archive_stage": "generated_prototype_reviewed_exported"
+    },
+    {
+      "asset_id": "UI-018",
+      "source": "assets/production/phase_08_user_interface/menus_and_screens/UI-018/exports/UI-018_component_01.png",
+      "source_sha256": "7861f990f9c2cae640bdb6ed6efbe0f3c2da91b4d888bcfc29007c13872c4cce",
+      "source_metadata": "assets/production/phase_08_user_interface/menus_and_screens/UI-018/metadata.json",
+      "output": "assets/runtime/prologue/ui/button_normal.png",
+      "sha256": "718835e07162131b7d921a59693afa21f7d246f88fa6d93675c799ba31341cdd",
+      "dimensions": [
+        510,
+        160
+      ],
+      "derivation": "alpha bounds trimmed; aspect-preserving LANCZOS fit and transparent padding when sized",
+      "archive_stage": "generated_prototype_reviewed_exported"
+    },
+    {
+      "asset_id": "UI-018",
+      "source": "assets/production/phase_08_user_interface/menus_and_screens/UI-018/exports/UI-018_component_02.png",
+      "source_sha256": "255600010263da7afc6191bc8686868f5b0932bc7610855e29436e6f552400bf",
+      "source_metadata": "assets/production/phase_08_user_interface/menus_and_screens/UI-018/metadata.json",
+      "output": "assets/runtime/prologue/ui/button_hover.png",
+      "sha256": "33e045d61fdcc517dc2b488d303fb23e623c4e42ebf76bdd61aeb4d65a9da414",
+      "dimensions": [
+        511,
+        160
+      ],
+      "derivation": "alpha bounds trimmed; aspect-preserving LANCZOS fit and transparent padding when sized",
+      "archive_stage": "generated_prototype_reviewed_exported"
+    },
+    {
+      "asset_id": "UI-018",
+      "source": "assets/production/phase_08_user_interface/menus_and_screens/UI-018/exports/UI-018_component_03.png",
+      "source_sha256": "ecdda6811278a50664b6b0c7a437578030e66f9e2bed3790b35682ff022018e0",
+      "source_metadata": "assets/production/phase_08_user_interface/menus_and_screens/UI-018/metadata.json",
+      "output": "assets/runtime/prologue/ui/button_pressed.png",
+      "sha256": "d732f827575a923018c3d3b6d78e9e3ca2d0ecbcd296590f787790056209ea24",
+      "dimensions": [
+        512,
+        160
+      ],
+      "derivation": "alpha bounds trimmed; aspect-preserving LANCZOS fit and transparent padding when sized",
+      "archive_stage": "generated_prototype_reviewed_exported"
+    },
+    {
+      "asset_id": "UI-018",
+      "source": "assets/production/phase_08_user_interface/menus_and_screens/UI-018/exports/UI-018_component_04.png",
+      "source_sha256": "1484f3f2605d170109ab2cac4960a7d19957745e2a2cc051ead2d9b09bcb65b8",
+      "source_metadata": "assets/production/phase_08_user_interface/menus_and_screens/UI-018/metadata.json",
+      "output": "assets/runtime/prologue/ui/button_disabled.png",
+      "sha256": "9b82ff8cab2003aa407fcd9db434db255e156331a98012ff09c6825a9f3c675a",
+      "dimensions": [
+        512,
+        160
+      ],
+      "derivation": "alpha bounds trimmed; aspect-preserving LANCZOS fit and transparent padding when sized",
+      "archive_stage": "generated_prototype_reviewed_exported"
+    },
+    {
+      "asset_id": "UI-013",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-013/exports/UI-013_left_rest_128.png",
+      "source_sha256": "4615be04cd2f0a510f1aa9f8d6e96b6db88f9addce9c65fc582aa9284fc860b4",
+      "source_metadata": "assets/production/phase_08_user_interface/hud_elements/UI-013/metadata.json",
+      "output": "assets/runtime/prologue/ui/left_rest.png",
+      "sha256": "40e2675de9cb76f817aab75a5ee5093722a74846a3e0dd6ec929e524bfd1d518",
+      "dimensions": [
+        80,
+        80
+      ],
+      "derivation": "alpha bounds trimmed; aspect-preserving LANCZOS fit and transparent padding when sized",
+      "archive_stage": "generated_ui_prototype_saved_and_reviewed"
+    },
+    {
+      "asset_id": "UI-013",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-013/exports/UI-013_left_pressed_128.png",
+      "source_sha256": "e4ead227f5acf90614d3b765ab1e5bb4e5122e60834a4d8bf600127388a02aac",
+      "source_metadata": "assets/production/phase_08_user_interface/hud_elements/UI-013/metadata.json",
+      "output": "assets/runtime/prologue/ui/left_pressed.png",
+      "sha256": "271f885858e7d70ff748a56a735644f5bcdcd903072e0ba4df666e53c9c25b74",
+      "dimensions": [
+        80,
+        80
+      ],
+      "derivation": "alpha bounds trimmed; aspect-preserving LANCZOS fit and transparent padding when sized",
+      "archive_stage": "generated_ui_prototype_saved_and_reviewed"
+    },
+    {
+      "asset_id": "UI-013",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-013/exports/UI-013_right_rest_128.png",
+      "source_sha256": "fd7aff9fe05f2f4e3419467bd1f9ca68bc12d01eaf72aa315dfa65d4c74efc5b",
+      "source_metadata": "assets/production/phase_08_user_interface/hud_elements/UI-013/metadata.json",
+      "output": "assets/runtime/prologue/ui/right_rest.png",
+      "sha256": "73e06653d98a0d7a220ca9429cc833b043ee53798fb9db3c4eb4935df19c1006",
+      "dimensions": [
+        80,
+        80
+      ],
+      "derivation": "alpha bounds trimmed; aspect-preserving LANCZOS fit and transparent padding when sized",
+      "archive_stage": "generated_ui_prototype_saved_and_reviewed"
+    },
+    {
+      "asset_id": "UI-013",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-013/exports/UI-013_right_pressed_128.png",
+      "source_sha256": "82c4c01a27b30ca784500ddb6d4b0e72eeedbfcf103482ea3e30d0c110ae1e7a",
+      "source_metadata": "assets/production/phase_08_user_interface/hud_elements/UI-013/metadata.json",
+      "output": "assets/runtime/prologue/ui/right_pressed.png",
+      "sha256": "c519f7842822ddeb4ca4b50013b16e93ed40a96c0448a07ed239aec99e592386",
+      "dimensions": [
+        80,
+        80
+      ],
+      "derivation": "alpha bounds trimmed; aspect-preserving LANCZOS fit and transparent padding when sized",
+      "archive_stage": "generated_ui_prototype_saved_and_reviewed"
+    },
+    {
+      "asset_id": "UI-014",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-014/exports/UI-014_normal_128.png",
+      "source_sha256": "ecbd51bfa1b04691f727cf7aa03890f238fd1857744c94e9969d9b47371e29a7",
+      "source_metadata": "assets/production/phase_08_user_interface/hud_elements/UI-014/metadata.json",
+      "output": "assets/runtime/prologue/ui/jump_normal.png",
+      "sha256": "cdb95a780601e68395fb48053d31deb2dec0aa58bb404f9e5edcb54f2cf46b3d",
+      "dimensions": [
+        80,
+        80
+      ],
+      "derivation": "alpha bounds trimmed; aspect-preserving LANCZOS fit and transparent padding when sized",
+      "archive_stage": "generated_ui_prototype_saved_and_reviewed"
+    },
+    {
+      "asset_id": "UI-014",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-014/exports/UI-014_pressed_128.png",
+      "source_sha256": "98d85d0b0280e64a3832cf71293b766ec7aebcb539cd1e450e6f83e76bf752e6",
+      "source_metadata": "assets/production/phase_08_user_interface/hud_elements/UI-014/metadata.json",
+      "output": "assets/runtime/prologue/ui/jump_pressed.png",
+      "sha256": "13c915cbcebc42048a454e381794fc014656a31adc2ec72f27c4f24486316e6d",
+      "dimensions": [
+        80,
+        80
+      ],
+      "derivation": "alpha bounds trimmed; aspect-preserving LANCZOS fit and transparent padding when sized",
+      "archive_stage": "generated_ui_prototype_saved_and_reviewed"
+    },
+    {
+      "asset_id": "UI-015",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-015/exports/UI-015_normal_128.png",
+      "source_sha256": "5a6d36a415a7c5b92af050e588d38db4517a61102f54d59c5b6d31a3867597b4",
+      "source_metadata": "assets/production/phase_08_user_interface/hud_elements/UI-015/metadata.json",
+      "output": "assets/runtime/prologue/ui/attack_normal.png",
+      "sha256": "401e5d532f3e66147033b04c2d01715d8a5d5b428e28e9087e981eab5b7f802e",
+      "dimensions": [
+        80,
+        80
+      ],
+      "derivation": "alpha bounds trimmed; aspect-preserving LANCZOS fit and transparent padding when sized",
+      "archive_stage": "generated_ui_prototype_saved_and_reviewed"
+    },
+    {
+      "asset_id": "UI-015",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-015/exports/UI-015_pressed_128.png",
+      "source_sha256": "718e3305872b57544d489cd70875507da4ac4bc7f1471fec83ffdb2ed758f684",
+      "source_metadata": "assets/production/phase_08_user_interface/hud_elements/UI-015/metadata.json",
+      "output": "assets/runtime/prologue/ui/attack_pressed.png",
+      "sha256": "24b241339a401d704c2398805790a4cd75718684f72dd06fbb7e44c7b1464c00",
+      "dimensions": [
+        80,
+        80
+      ],
+      "derivation": "alpha bounds trimmed; aspect-preserving LANCZOS fit and transparent padding when sized",
+      "archive_stage": "generated_ui_prototype_saved_and_reviewed"
+    }
+  ]
+}

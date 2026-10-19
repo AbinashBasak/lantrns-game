@@ -1,0 +1,13 @@
+{
+ "intro": ["Tavi: The village is behind us. Let's find the old trail marker and follow the sword's markings."],
+ "marker": ["Trail marker 12. The path should continue east. The ground disagrees.", "Tavi: I'll record what is here, not what yesterday's map promised."],
+ "watchpost": ["Tavi: The watchpost has collapsed. There might be something on that upper ledge."],
+ "arch": ["Tavi: Three stones. The sword's markings are answering them.", "Mote taps three times, pauses, then taps twice more. The stones echo from left to right.", "Tavi: Show me again. I'll watch the light."],
+ "bridge": ["Tavi: The sword knows this place. Those roots are a crossing.", "Mote looks toward the temple beyond the arch."],
+ "relief": ["Tavi: Four stones around a lantern. These people are holding something back. Or holding something still.", "Someone scraped away the last part of the carving."],
+ "checkpoint": ["Tavi: A little light still answers here. We can find our way back to this mark."],
+ "boss_defeat": ["The Sentinel kneels. Its light loosens from the cracked stone.", "Tavi: It was guarding something. It wasn't hunting us."],
+ "fragment": ["A memory opens: blossoms, travellers, and paths left free beneath an orchard's trees.", "Tavi: This was never a weapon.", "Mote taps three slow beats, pauses, then two quick beats. Tavi: You've heard this before, haven't you?"],
+ "exit_locked": ["Tavi: The guardian's light is still here. I should collect the Golden Fragment before following the passage."],
+ "journal": ["First fragment recovered. The temple reacted to the sword. A fixed road may not be the same thing as a safe road.", "A passage opens toward Briarwake. The forest has more to tell."]
+}

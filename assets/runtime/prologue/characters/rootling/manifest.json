@@ -1,0 +1,275 @@
+{
+  "animations": {
+    "idle": {
+      "asset_id": "EN-002",
+      "frames": [
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-002_idle_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-002/exports/idle/frames/EN-002_idle_01.png",
+          "sha256": "0bb8e459dcc51c0ee2e12ff508713c930981cc9c03a4020a1a9f1a73d4702135",
+          "source_sha256": "0bb8e459dcc51c0ee2e12ff508713c930981cc9c03a4020a1a9f1a73d4702135"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-002_idle_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-002/exports/idle/frames/EN-002_idle_02.png",
+          "sha256": "9b3bb5f5bb3b79925100bc3cb3e2e4c00bbd813c35433354f520a53dcbeea309",
+          "source_sha256": "9b3bb5f5bb3b79925100bc3cb3e2e4c00bbd813c35433354f520a53dcbeea309"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-002_idle_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-002/exports/idle/frames/EN-002_idle_03.png",
+          "sha256": "da11016d43c7fa12eb07b4659200d5d1765f1fbcffa86a5ed0e541a0c4d49f49",
+          "source_sha256": "da11016d43c7fa12eb07b4659200d5d1765f1fbcffa86a5ed0e541a0c4d49f49"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-002_idle_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-002/exports/idle/frames/EN-002_idle_04.png",
+          "sha256": "26e92fd033d0ac860a3b4c24cd2a668c639d4563c65276127b4933bdfb5675ca",
+          "source_sha256": "26e92fd033d0ac860a3b4c24cd2a668c639d4563c65276127b4933bdfb5675ca"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-002_idle_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-002/exports/idle/frames/EN-002_idle_05.png",
+          "sha256": "772cb15fc849ddee1e6052f7d42b902c42161eb7aecd1fc00bf637eb9179055a",
+          "source_sha256": "772cb15fc849ddee1e6052f7d42b902c42161eb7aecd1fc00bf637eb9179055a"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-002_idle_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-002/exports/idle/frames/EN-002_idle_06.png",
+          "sha256": "306dd79c4b103cfdf49b13b516920a10be991bc322b285629a92a656113993fd",
+          "source_sha256": "306dd79c4b103cfdf49b13b516920a10be991bc322b285629a92a656113993fd"
+        }
+      ],
+      "durations_ms": [
+        180,
+        180,
+        160,
+        180,
+        180,
+        160
+      ],
+      "loop": true,
+      "pivot_px": [
+        256,
+        480
+      ]
+    },
+    "move": {
+      "asset_id": "EN-003",
+      "frames": [
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-003_patrol_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_01.png",
+          "sha256": "4fe3ca554abe279c75bebb7a641c1ce8a8cfd6ea6bae81654be53a5f70139033",
+          "source_sha256": "4fe3ca554abe279c75bebb7a641c1ce8a8cfd6ea6bae81654be53a5f70139033"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-003_patrol_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_02.png",
+          "sha256": "fdaf25ac2f21a9cd73aa91d306bb5a0753a5ddf9ac42fdc6477764c8073a8b37",
+          "source_sha256": "fdaf25ac2f21a9cd73aa91d306bb5a0753a5ddf9ac42fdc6477764c8073a8b37"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-003_patrol_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_03.png",
+          "sha256": "72d0affef6eaa05194d694d4acd8275ffa2a43a94c2beb0d4a4c88bc47837bb0",
+          "source_sha256": "72d0affef6eaa05194d694d4acd8275ffa2a43a94c2beb0d4a4c88bc47837bb0"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-003_patrol_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_04.png",
+          "sha256": "57af69b533bee2b23370a9d2ec528e9eb09770ee275ab998eb2ad9846eb1345e",
+          "source_sha256": "57af69b533bee2b23370a9d2ec528e9eb09770ee275ab998eb2ad9846eb1345e"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-003_patrol_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_05.png",
+          "sha256": "aa0c8106e6a107b2d5eb01e22405b17bf197dea6c10c42e5583a9c645e42685c",
+          "source_sha256": "aa0c8106e6a107b2d5eb01e22405b17bf197dea6c10c42e5583a9c645e42685c"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-003_patrol_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-003/exports/patrol/frames/EN-003_patrol_06.png",
+          "sha256": "4fbf4d0ea1e21e5658cda60fbeb0c4fffa26f06e26e554369cc3bf35c9e9c1ae",
+          "source_sha256": "4fbf4d0ea1e21e5658cda60fbeb0c4fffa26f06e26e554369cc3bf35c9e9c1ae"
+        }
+      ],
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "loop": true,
+      "pivot_px": [
+        256,
+        480
+      ]
+    },
+    "attack": {
+      "asset_id": "EN-004",
+      "frames": [
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-004_attack_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-004/exports/attack/frames/EN-004_attack_01.png",
+          "sha256": "334621be3497fe6dd286d74758749a88545a5e9f989a6482013d6e3d02cde335",
+          "source_sha256": "334621be3497fe6dd286d74758749a88545a5e9f989a6482013d6e3d02cde335"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-004_attack_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-004/exports/attack/frames/EN-004_attack_02.png",
+          "sha256": "fdd8c14cdf1b7532ea6f3af5c7d4a50890477da31923396f67698f06c427ddb6",
+          "source_sha256": "fdd8c14cdf1b7532ea6f3af5c7d4a50890477da31923396f67698f06c427ddb6"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-004_attack_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-004/exports/attack/frames/EN-004_attack_03.png",
+          "sha256": "796b480c46d65498b50ecfa9f3ac19935d918fdf7e7ee2975dbd6b04a62789b7",
+          "source_sha256": "796b480c46d65498b50ecfa9f3ac19935d918fdf7e7ee2975dbd6b04a62789b7"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-004_attack_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-004/exports/attack/frames/EN-004_attack_04.png",
+          "sha256": "75218f8b2f5be537a38fe2a4a4e56a10a89ee2cced614641792d92a184c494cc",
+          "source_sha256": "75218f8b2f5be537a38fe2a4a4e56a10a89ee2cced614641792d92a184c494cc"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-004_attack_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-004/exports/attack/frames/EN-004_attack_05.png",
+          "sha256": "0370c9c30cbb295c5f3f4022355a2266b19ce49f4aaae77b8a209b817556c5de",
+          "source_sha256": "0370c9c30cbb295c5f3f4022355a2266b19ce49f4aaae77b8a209b817556c5de"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-004_attack_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-004/exports/attack/frames/EN-004_attack_06.png",
+          "sha256": "36cb9f316569eb33b28499164ea5736204cc6b469ffdb708a25cd73d3a5a3cda",
+          "source_sha256": "36cb9f316569eb33b28499164ea5736204cc6b469ffdb708a25cd73d3a5a3cda"
+        }
+      ],
+      "durations_ms": [
+        140,
+        160,
+        120,
+        90,
+        140,
+        200
+      ],
+      "loop": false,
+      "pivot_px": [
+        256,
+        480
+      ]
+    },
+    "hurt": {
+      "asset_id": "EN-005",
+      "frames": [
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-005_hurt_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-005/exports/hurt/frames/EN-005_hurt_01.png",
+          "sha256": "64806e38f6458b565f326b3081bf5b272352a47f22eed6503eaddfcc3af03ff9",
+          "source_sha256": "64806e38f6458b565f326b3081bf5b272352a47f22eed6503eaddfcc3af03ff9"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-005_hurt_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-005/exports/hurt/frames/EN-005_hurt_02.png",
+          "sha256": "077dd48aff54b2ec177955ad1c5d898d0c587f0f0ae2792fa6067a51b0c5132b",
+          "source_sha256": "077dd48aff54b2ec177955ad1c5d898d0c587f0f0ae2792fa6067a51b0c5132b"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-005_hurt_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-005/exports/hurt/frames/EN-005_hurt_03.png",
+          "sha256": "c4d39464b505ebf4e4bd297d58d84b6d758a0cc8aa3edb8845a927bd2ce378c8",
+          "source_sha256": "c4d39464b505ebf4e4bd297d58d84b6d758a0cc8aa3edb8845a927bd2ce378c8"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-005_hurt_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-005/exports/hurt/frames/EN-005_hurt_04.png",
+          "sha256": "513e6017bf0f005b36761364785ba8ddbc9aa22454f04afad5122757e2b74e9d",
+          "source_sha256": "513e6017bf0f005b36761364785ba8ddbc9aa22454f04afad5122757e2b74e9d"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-005_hurt_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-005/exports/hurt/frames/EN-005_hurt_05.png",
+          "sha256": "511e4982528a13c7fe3db4cc2392e4031b921ee8e18f419ebe2d30b0a1357d16",
+          "source_sha256": "511e4982528a13c7fe3db4cc2392e4031b921ee8e18f419ebe2d30b0a1357d16"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-005_hurt_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-005/exports/hurt/frames/EN-005_hurt_06.png",
+          "sha256": "6e053249029e88b0f674675a1e01b56213d743f9e0e1b68aab19a78f215b4c15",
+          "source_sha256": "6e053249029e88b0f674675a1e01b56213d743f9e0e1b68aab19a78f215b4c15"
+        }
+      ],
+      "durations_ms": [
+        140,
+        90,
+        140,
+        170,
+        160,
+        180
+      ],
+      "loop": false,
+      "pivot_px": [
+        256,
+        480
+      ]
+    },
+    "defeat": {
+      "asset_id": "EN-006",
+      "frames": [
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-006_defeat_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-006/exports/defeat/frames/EN-006_defeat_01.png",
+          "sha256": "df5c2c25098e18f2684d0fefd2a70d39ec9fb182fdbb100f0768fab76ca0d5a1",
+          "source_sha256": "df5c2c25098e18f2684d0fefd2a70d39ec9fb182fdbb100f0768fab76ca0d5a1"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-006_defeat_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-006/exports/defeat/frames/EN-006_defeat_02.png",
+          "sha256": "45c16c90fc1564c47e2092fd98959db6495288f4b9f5aabb96b035b6d10c408e",
+          "source_sha256": "45c16c90fc1564c47e2092fd98959db6495288f4b9f5aabb96b035b6d10c408e"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-006_defeat_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-006/exports/defeat/frames/EN-006_defeat_03.png",
+          "sha256": "b50f421777dfd7a82a8a6c34467c199e3eeee63a2f7881b7568f103db41072da",
+          "source_sha256": "b50f421777dfd7a82a8a6c34467c199e3eeee63a2f7881b7568f103db41072da"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-006_defeat_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-006/exports/defeat/frames/EN-006_defeat_04.png",
+          "sha256": "0317fc0df4ea20353d86e03a2c14efaeadd789b7832d5d65420b940c6e6318cc",
+          "source_sha256": "0317fc0df4ea20353d86e03a2c14efaeadd789b7832d5d65420b940c6e6318cc"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-006_defeat_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-006/exports/defeat/frames/EN-006_defeat_05.png",
+          "sha256": "65924fef0ff9d9db95942997d8851056fee963139c674b8fd51b91d40344f86e",
+          "source_sha256": "65924fef0ff9d9db95942997d8851056fee963139c674b8fd51b91d40344f86e"
+        },
+        {
+          "path": "res://assets/runtime/prologue/characters/rootling/EN-006_defeat_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-006/exports/defeat/frames/EN-006_defeat_06.png",
+          "sha256": "0596198df76d5296cbf6981b0905ce6be54952ebbc15e038ca1d440bfe0adb2f",
+          "source_sha256": "0596198df76d5296cbf6981b0905ce6be54952ebbc15e038ca1d440bfe0adb2f"
+        }
+      ],
+      "durations_ms": [
+        140,
+        160,
+        180,
+        220,
+        260,
+        450
+      ],
+      "loop": false,
+      "pivot_px": [
+        256,
+        480
+      ]
+    }
+  },
+  "provenance": "Unmodified generated export frames; sources preserved in production archive."
+}
