@@ -274,7 +274,7 @@ Place one Thornling on a broad platform with no pit directly behind the player. 
 **Optional enemy line through environmental storytelling:** The Thornling pauses near a cracked root before attacking. This is a tiny animation cue suggesting it is distressed rather than malicious.
 
 **Combat tuning starting point — placeholders only:**
-- Player health: 5 hearts or 100 health points; choose one representation and use it consistently.
+- Player lives: five hearts. Each life has a separate 100-point health bar. Enemy hits reduce health; empty health consumes one life and refills for the next. Final life loss returns Tavi to the checkpoint.
 - Player sword: 1 clear hit to a weak basic enemy should make progress visible; roughly 3–4 hits to defeat a standard Thornling is a reasonable first tuning pass.
 - Enemy attack: Telegraph for long enough that a new player can react. Start around 0.6–0.9 seconds, then tune through playtesting.
 - Damage feedback: brief hit flash, light knockback, distinct sound, and health UI feedback.
@@ -647,3 +647,15 @@ The Prologue + Chapter 1 prototype is ready for external playtesting when:
 7. The experience can be completed in roughly 8–12 minutes on a first playthrough, with no known game-blocking bugs.
 
 **Next milestone:** Complete standalone Windows/Android exports and physical-device testing, then run first-player pacing, accessibility and narrative-comprehension sessions. The combined playable content is implemented; external-playtest readiness still depends on these release gates.
+
+
+### Chapter1 expansion implementation — 2026-10-20
+
+- [x] Separate health bar and lives, with enemy-specific attack damage.
+- [x] Prologue opens the connected journey; Chapter1 title offers prologue replay.
+- [x] Generated Sporeling and Brambleguard attacks, buffered sword follow-ups.
+- [x] High Canopy, Flooded Rootways and Lantern Grove routes, discoveries and return shortcuts.
+- [x] Automated health, enemy and exploration checks (144 total checks with regressions).
+- [ ] First-player duration, balancing and physical Windows/Android playtest.
+
+See [design and research references](chapter01-expansion-design.md).

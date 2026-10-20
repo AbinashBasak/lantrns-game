@@ -3,10 +3,17 @@ extends "res://scripts/systems/prologue.gd"
 const ChapterEnvironment = preload("res://scripts/systems/chapter01_environment.gd")
 const ChapterPresentation = preload("res://scripts/presentation/chapter01_presentation.gd")
 const SentinelScene = preload("res://scenes/enemies/hollow_sentinel.tscn")
+const JungleArea = preload("res://scripts/systems/chapter01_jungle.gd")
 const STORY_ART := "res://assets/runtime/chapter01/story/"
 const BASE_PLATFORMS: Array[Rect2] = [Rect2(0,620,900,300),Rect2(1060,620,640,300),Rect2(1900,620,1400,300),Rect2(3900,620,5100,300),Rect2(880,740,220,28),Rect2(1680,740,240,28),Rect2(2040,535,170,25),Rect2(2240,450,180,25),Rect2(6600,530,170,25),Rect2(7890,530,170,25)]
 const BRIDGE_PLATFORMS: Array[Rect2] = [Rect2(3320,610,150,28),Rect2(3510,560,150,28),Rect2(3710,610,150,28)]
 const RUNE_ORDER: Array[int] = [0,1,2,1,2]
+var jungle_rooms: Array[Node2D] = []
+var jungle_area := -1
+var jungle_return := Vector2.ZERO
+var jungle_discoveries: Array[int] = []
+var jungle_enemies: Array[Node] = []
+var jungle_label: Label
 var environment: Node2D
 var boss: CharacterBody2D
 var bridge_open := false
@@ -96,6 +103,7 @@ func _ready() -> void:
 	victory.get_child(2).text = "The sword remembers an orchard.\nA newly opened passage leads toward Briarwake."
 	victory.get_child(3).text = "Replay Chapter 1"
 	_build_chapter_ui()
+	_build_jungle_rooms()
 	_build_settings()
 	PrologueSkin.apply(self)
 	var completion_style := victory_panel.get_theme_stylebox("panel").duplicate()
@@ -108,6 +116,8 @@ func _ready() -> void:
 	victory_panel.size = Vector2(760,440)
 	victory_panel.get_child(0).get_child(1).add_theme_font_size_override("font_size",26)
 	pause_panel.get_child(0).get_child(2).text = "Restart chapter"
+	var prologue_button := _button("Replay the prologue",_replay_prologue)
+	menu.get_child(0).add_child(prologue_button)
 	_update_hud()
 	get_tree().paused = true
 	if get_tree().has_meta("from_prologue"):
@@ -212,6 +222,9 @@ func _process(delta: float) -> void:
 	if not dialogue_lines.is_empty():
 		if Input.is_action_just_pressed("interact") or Input.is_action_just_pressed("start"): _advance_dialogue()
 		return
+	if jungle_area >= 0:
+		_process_jungle(delta)
+		return
 	mote.active = player.active
 	mote.signaling = player.position.x > 2740 and player.position.x < 3300 and not bridge_open
 	feedback_time = maxf(0,feedback_time-delta)
@@ -243,6 +256,8 @@ func _nearby_interaction() -> Array:
 	var prompt := ""
 	var distance := 110.0
 	var locations := [["marker",300.0,"Inspect the old trail marker"],["watchpost",2300.0,"Inspect the watchpost"],["arch",3220.0,"Listen to the ancient arch"],["relief",5300.0,"Inspect the carved relief"],["checkpoint",6100.0,"Touch the checkpoint mark"],["fragment",7950.0,"Collect the Golden Fragment"],["exit",8600.0,"Follow the passage to Briarwake"]]
+	if not boss_active:
+		for entry in [["jungle_0",650.0,"Explore the high canopy"],["jungle_1",4250.0,"Descend into the flooded roots"],["jungle_2",5800.0,"Find the hidden lantern grove"]]: locations.append(entry)
 	if not bridge_open:
 		for i in 3: locations.append(["rune_%d" % i,2860.0+i*140,"Activate rune %s" % ["I","II","III"][i]])
 	for entry in locations:
@@ -256,6 +271,9 @@ func _nearby_interaction() -> Array:
 
 func interact_at(id: String) -> void:
 	if not dialogue_lines.is_empty() or completed: return
+	if id.begins_with("jungle_"):
+		_enter_jungle(int(id.get_slice("_",1)))
+		return
 	if id.begins_with("rune_"):
 		activate_rune(int(id.get_slice("_",1)))
 		return
@@ -302,6 +320,7 @@ func _activate_checkpoint() -> void:
 	environment.checkpoint_active = true
 	player.health = 5
 	player.health_changed.emit(5)
+	player.restore_vitality()
 	presentation.cue("checkpoint",Vector2(6100,590))
 	_notice("Root-temple checkpoint kindled")
 
@@ -364,6 +383,12 @@ func _reset_trail_enemies() -> void:
 		add_child(enemy)
 
 func _respawn() -> void:
+	if jungle_area >= 0:
+		player.reset_at(Vector2(10150+jungle_area*4000,590))
+		for enemy in jungle_enemies:
+			if is_instance_valid(enemy): enemy.reset_encounter()
+		camera.reset_smoothing()
+		return
 	player.reset_at(checkpoint)
 	if not boss_defeated:
 		boss_active = false
@@ -397,8 +422,118 @@ func _update_hud() -> void:
 		rune_clue.text = ("I → II → III   ·   II → III" if reveal else "Three slow taps  ·  pause  ·  two quick taps") + "    [%d / 5]" % rune_progress
 
 func _draw() -> void:
-	if not started: return
+	if not started or jungle_area >= 0: return
 	if not token_collected and token_icon:
 		draw_texture_rect(token_icon,Rect2(2304,400+sin(clock*3)*4,32,32),false)
 	if boss_defeated and not fragment_collected and fragment_icon:
 		draw_texture_rect(fragment_icon,Rect2(7922,440+sin(clock*2)*6,56,70),false)
+
+func _replay_prologue() -> void:
+	get_tree().paused = false
+	get_tree().change_scene_to_file("res://scenes/levels/prologue_brackenreach.tscn")
+
+func _build_jungle_rooms() -> void:
+	for i in 3:
+		var room := Node2D.new()
+		room.set_script(JungleArea)
+		room.area_index = i
+		room.z_index = -1
+		room.position = Vector2(10000+i*4000,0)
+		room.process_mode = Node.PROCESS_MODE_PAUSABLE
+		add_child(room)
+		jungle_rooms.append(room)
+	jungle_label = _label("",18,Color("f4d68c"))
+	jungle_label.position = Vector2(34,145)
+	jungle_label.size = Vector2(1150,60)
+	objective.get_parent().add_child(jungle_label)
+	jungle_label.hide()
+
+func _enter_jungle(index: int) -> void:
+	if index < 0 or index > 2 or boss_active: return
+	if jungle_area < 0: jungle_return = player.position
+	if jungle_area >= 0:
+		jungle_rooms[jungle_area].active = false
+		jungle_rooms[jungle_area].hide()
+	jungle_area = index
+	environment.hide()
+	for layer in environment.forest_layers + environment.temple_layers: layer.hide()
+	jungle_rooms[index].active = true
+	jungle_rooms[index].show()
+	camera.limit_left = 10000+index*4000
+	camera.limit_right = camera.limit_left+3000
+	camera.limit_bottom = 830
+	player.position = Vector2(camera.limit_left+160,590)
+	player.velocity = Vector2.ZERO
+	mote.position = player.position+Vector2(-58,-85)
+	camera.reset_smoothing()
+	_spawn_jungle_enemies(index)
+	jungle_label.show()
+	feedback.position.y = 205
+	_notice("A branching trail — climb for a discovery, or follow the ground route.")
+	presentation.set_region("forest")
+
+func _spawn_jungle_enemies(index: int) -> void:
+	for enemy in jungle_enemies:
+		if is_instance_valid(enemy): enemy.queue_free()
+	jungle_enemies.clear()
+	var path := "res://scripts/enemies/jungle_enemy.gd"
+	if not ResourceLoader.exists(path): return
+	for spot in [[1100.0,"sporeling"],[2200.0,"brambleguard"]]:
+		var enemy := CharacterBody2D.new()
+		enemy.set_script(load(path))
+		enemy.variant = spot[1]
+		enemy.position = Vector2(10000+index*4000+spot[0],610)
+		enemy.patrol_min = enemy.position.x-100
+		enemy.patrol_max = enemy.position.x+100
+		enemy.process_mode = Node.PROCESS_MODE_PAUSABLE
+		add_child(enemy)
+		jungle_enemies.append(enemy)
+
+func _leave_jungle(shortcut := false) -> void:
+	if jungle_area < 0: return
+	var old := jungle_area
+	jungle_rooms[old].active = false
+	jungle_rooms[old].hide()
+	jungle_area = -1
+	for enemy in jungle_enemies:
+		if is_instance_valid(enemy): enemy.queue_free()
+	jungle_enemies.clear()
+	environment.show()
+	for layer in environment.forest_layers + environment.temple_layers: layer.show()
+	camera.limit_left = 0
+	camera.limit_right = 9000
+	camera.limit_bottom = 800
+	player.position = jungle_return
+	if shortcut: player.position = Vector2([650,4250,5800][old] if old == 0 or bridge_open else 650,590)
+	player.velocity = Vector2.ZERO
+	mote.position = player.position+Vector2(-58,-85)
+	camera.reset_smoothing()
+	jungle_label.hide()
+	feedback.position.y = 175
+	hint.text = ""
+	_notice("Returned to the Forgotten Trail · %d / 3 jungle discoveries" % jungle_discoveries.size())
+
+func _process_jungle(delta: float) -> void:
+	mote.active = player.active
+	mote.signaling = false
+	feedback_time = maxf(0,feedback_time-delta)
+	feedback.visible = feedback_time > 0
+	var local := player.position-Vector2(10000+jungle_area*4000,0)
+	var discovery := Vector2(1560,285) if jungle_area != 1 else Vector2(1510,305)
+	if not jungle_discoveries.has(jungle_area) and local.distance_to(discovery) < 75:
+		jungle_discoveries.append(jungle_area)
+		jungle_rooms[jungle_area].discovered = true
+		presentation.cue("pickup",player.position)
+		_notice(["Canopy map: a route links the flooded roots to the lantern grove.","Rootkeeper note: the temple bells once guided travellers through these waters.","A dormant lantern seed. The grove remembers the orchard."][jungle_area])
+	objective.text = "CHAPTER 1  /  " + JungleArea.NAMES[jungle_area]
+	jungle_label.text = "Jungle discoveries %d / 3 · Upper paths hold memories · Ground paths connect the rooms" % jungle_discoveries.size()
+	hint.text = ""
+	if local.x < 230: hint.text = "E / Y   Return to the trail entrance"
+	elif local.x > 2520 and local.x < 2720 and jungle_discoveries.has(jungle_area): hint.text = "E / Y   Open the return shortcut"
+	elif local.x > 2800: hint.text = "E / Y   Follow the path to " + JungleArea.NAMES[(jungle_area+1)%3].to_lower()
+	if Input.is_action_just_pressed("interact"):
+		if local.x < 230: _leave_jungle()
+		elif local.x > 2520 and local.x < 2720 and jungle_discoveries.has(jungle_area): _leave_jungle(true)
+		elif local.x > 2800: _enter_jungle((jungle_area+1)%3)
+	if local.y > 900: _respawn()
+	queue_redraw()

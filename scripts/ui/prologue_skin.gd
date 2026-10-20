@@ -4,6 +4,7 @@ const ROOT := "res://assets/runtime/prologue/ui/"
 var game: Node
 var hearts: Array[TextureRect] = []
 var health_row: HBoxContainer
+var vitality_bar: ProgressBar
 var title_background: TextureRect
 
 static func apply(target: Node) -> void:
@@ -135,7 +136,26 @@ func _install() -> void:
 		heart.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		health_row.add_child(heart)
 		hearts.append(heart)
-	game.objective.position = Vector2(34, 66)
+	vitality_bar = ProgressBar.new()
+	vitality_bar.name = "VitalityBar"
+	vitality_bar.position = Vector2(34, 61)
+	vitality_bar.size = Vector2(210, 20)
+	vitality_bar.max_value = 100
+	vitality_bar.show_percentage = false
+	vitality_bar.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	vitality_bar.tooltip_text = "Health: an empty bar costs one life"
+	var track := StyleBoxFlat.new()
+	track.bg_color = Color("152824")
+	track.border_color = Color("c4a265")
+	track.set_border_width_all(2)
+	track.set_corner_radius_all(5)
+	var fill := StyleBoxFlat.new()
+	fill.bg_color = Color("65b987")
+	fill.set_corner_radius_all(4)
+	vitality_bar.add_theme_stylebox_override("background", track)
+	vitality_bar.add_theme_stylebox_override("fill", fill)
+	root.add_child(vitality_bar)
+	game.objective.position = Vector2(34, 91)
 	game.objective.size = Vector2(1120, 58)
 	game.objective.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	game.objective.add_theme_color_override("font_color", Color("fff0cf"))
@@ -182,4 +202,7 @@ func _process(_delta: float) -> void:
 		if element:
 			element.visible = game.started and (name != "ControlsHint" or not game.touch_layer.visible)
 	health_row.visible = game.started and not game.menu.visible
+	vitality_bar.visible = health_row.visible
+	vitality_bar.value = game.player.vitality
+	vitality_bar.modulate = Color("ffae8f") if game.player.vitality <= 25 else Color.WHITE
 	game.touch_layer.visible = (OS.has_feature("mobile") or "--touch" in OS.get_cmdline_user_args()) and game.started and not game.get_tree().paused

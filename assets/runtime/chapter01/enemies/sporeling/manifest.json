@@ -1,0 +1,306 @@
+{
+  "variant": "sporeling",
+  "provenance": "Unmodified generated production exports copied for runtime; not final art approval.",
+  "animations": {
+    "idle": {
+      "asset_id": "EN-012",
+      "loop": true,
+      "durations_ms": [
+        180,
+        160,
+        180,
+        200,
+        180,
+        160
+      ],
+      "pivot_px": [
+        256,
+        480
+      ],
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-012_idle_01.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-012_idle_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/frames/EN-012_idle_01.png",
+          "sha256": "6b563580cb9f44d5754ffaf20e80221ce7d2637b494ee778ae9788bd63a0f2c7",
+          "source_sha256": "6b563580cb9f44d5754ffaf20e80221ce7d2637b494ee778ae9788bd63a0f2c7"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-012_idle_02.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-012_idle_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/frames/EN-012_idle_02.png",
+          "sha256": "66c4100d2ede5b60fac6a32c227f41c712fa6f38ef5df029bdaacc3b68334d18",
+          "source_sha256": "66c4100d2ede5b60fac6a32c227f41c712fa6f38ef5df029bdaacc3b68334d18"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-012_idle_03.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-012_idle_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/frames/EN-012_idle_03.png",
+          "sha256": "bc79feb3dd3dceb8c9a8c1d4c68539b0d0eb3375dd6d50ae0007e51e8095d5a6",
+          "source_sha256": "bc79feb3dd3dceb8c9a8c1d4c68539b0d0eb3375dd6d50ae0007e51e8095d5a6"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-012_idle_04.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-012_idle_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/frames/EN-012_idle_04.png",
+          "sha256": "0f84ca3059a8dc8b43a87cdcaf732c283828f9c77f8581d9478c3e1cf0d54442",
+          "source_sha256": "0f84ca3059a8dc8b43a87cdcaf732c283828f9c77f8581d9478c3e1cf0d54442"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-012_idle_05.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-012_idle_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/frames/EN-012_idle_05.png",
+          "sha256": "080dbb244c526388db03a5ca00b6bfb257bb04edd135d1487214456f93c03dc6",
+          "source_sha256": "080dbb244c526388db03a5ca00b6bfb257bb04edd135d1487214456f93c03dc6"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-012_idle_06.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-012_idle_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/idle/frames/EN-012_idle_06.png",
+          "sha256": "fe27071cd583507f39a7ed0ab5a940f05054f0e53af5e1d7926e62823c43bc1f",
+          "source_sha256": "fe27071cd583507f39a7ed0ab5a940f05054f0e53af5e1d7926e62823c43bc1f"
+        }
+      ]
+    },
+    "move": {
+      "asset_id": "EN-012",
+      "loop": true,
+      "durations_ms": [
+        120,
+        110,
+        120,
+        110,
+        120,
+        110
+      ],
+      "pivot_px": [
+        256,
+        480
+      ],
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-012_movement_01.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-012_movement_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/frames/EN-012_movement_01.png",
+          "sha256": "599053339e3409c890a5beb11dfb9d260c3f6718f918eb5bb43258405db4744e",
+          "source_sha256": "599053339e3409c890a5beb11dfb9d260c3f6718f918eb5bb43258405db4744e"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-012_movement_02.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-012_movement_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/frames/EN-012_movement_02.png",
+          "sha256": "0386c746323b29511cc5523a27483355e37e82408e9d47b4ffc7410a77532488",
+          "source_sha256": "0386c746323b29511cc5523a27483355e37e82408e9d47b4ffc7410a77532488"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-012_movement_03.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-012_movement_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/frames/EN-012_movement_03.png",
+          "sha256": "3047814d7c8c83bb706352d09afe71aa75e76e3fa42c17f790de7604ae947777",
+          "source_sha256": "3047814d7c8c83bb706352d09afe71aa75e76e3fa42c17f790de7604ae947777"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-012_movement_04.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-012_movement_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/frames/EN-012_movement_04.png",
+          "sha256": "19145f7c5ac4a587f8c7b0b34541b7b88da8c919f02cea6cd978a766bf3949f2",
+          "source_sha256": "19145f7c5ac4a587f8c7b0b34541b7b88da8c919f02cea6cd978a766bf3949f2"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-012_movement_05.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-012_movement_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/frames/EN-012_movement_05.png",
+          "sha256": "6751b5a063bbe5e0eaece05a2ee59463ea72d61a8f726a92f5806b3dff6f8dbe",
+          "source_sha256": "6751b5a063bbe5e0eaece05a2ee59463ea72d61a8f726a92f5806b3dff6f8dbe"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-012_movement_06.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-012_movement_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-012/exports/movement/frames/EN-012_movement_06.png",
+          "sha256": "706e88c6f066d0fb64aea0d7e7e8d17b15b086516345846834c4a43e519a8ff9",
+          "source_sha256": "706e88c6f066d0fb64aea0d7e7e8d17b15b086516345846834c4a43e519a8ff9"
+        }
+      ]
+    },
+    "attack": {
+      "asset_id": "EN-013",
+      "loop": false,
+      "durations_ms": [
+        150,
+        140,
+        200,
+        130,
+        180,
+        220
+      ],
+      "pivot_px": [
+        256,
+        480
+      ],
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-013_spore_attack_01.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-013_spore_attack_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/frames/EN-013_spore_attack_01.png",
+          "sha256": "59816bc1e1eae89830a924e8b5aa724f01a02b35fd79f33427f82b9922a97814",
+          "source_sha256": "59816bc1e1eae89830a924e8b5aa724f01a02b35fd79f33427f82b9922a97814"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-013_spore_attack_02.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-013_spore_attack_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/frames/EN-013_spore_attack_02.png",
+          "sha256": "02ce045fbe1af0b44c37428e5360fe1ed6077d6322113435065619e8e5360b28",
+          "source_sha256": "02ce045fbe1af0b44c37428e5360fe1ed6077d6322113435065619e8e5360b28"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-013_spore_attack_03.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-013_spore_attack_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/frames/EN-013_spore_attack_03.png",
+          "sha256": "917ede41c73e6445ab78f5aa9b8a8f7974117d67226d322040551f746c01ba55",
+          "source_sha256": "917ede41c73e6445ab78f5aa9b8a8f7974117d67226d322040551f746c01ba55"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-013_spore_attack_04.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-013_spore_attack_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/frames/EN-013_spore_attack_04.png",
+          "sha256": "53237aac13a84cfd7db3e48c381a0ac585b0023e26ca1586abc975cb0f03cb7f",
+          "source_sha256": "53237aac13a84cfd7db3e48c381a0ac585b0023e26ca1586abc975cb0f03cb7f"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-013_spore_attack_05.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-013_spore_attack_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/frames/EN-013_spore_attack_05.png",
+          "sha256": "c1541c3c4b8dfdc0ccae055fdff1c508760647293aceb2ebe796fd44b61dbaaa",
+          "source_sha256": "c1541c3c4b8dfdc0ccae055fdff1c508760647293aceb2ebe796fd44b61dbaaa"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-013_spore_attack_06.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-013_spore_attack_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-013/exports/spore_attack/frames/EN-013_spore_attack_06.png",
+          "sha256": "457d34815935536891a6ec3a503f4d4ae8d7c05627c4517b492125c7cf322504",
+          "source_sha256": "457d34815935536891a6ec3a503f4d4ae8d7c05627c4517b492125c7cf322504"
+        }
+      ]
+    },
+    "hurt": {
+      "asset_id": "EN-014",
+      "loop": false,
+      "durations_ms": [
+        130,
+        90,
+        110,
+        140,
+        170,
+        220
+      ],
+      "pivot_px": [
+        256,
+        480
+      ],
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-014_hurt_01.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-014_hurt_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/hurt/frames/EN-014_hurt_01.png",
+          "sha256": "3c4877e8b60414aa67abd566dab84a5bc54d9e563d705b77371b18bdcc716003",
+          "source_sha256": "3c4877e8b60414aa67abd566dab84a5bc54d9e563d705b77371b18bdcc716003"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-014_hurt_02.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-014_hurt_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/hurt/frames/EN-014_hurt_02.png",
+          "sha256": "6ad7993fa26ec8544bac423965bd0b714b97d1353b4ab343e3c65e6e30c033fa",
+          "source_sha256": "6ad7993fa26ec8544bac423965bd0b714b97d1353b4ab343e3c65e6e30c033fa"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-014_hurt_03.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-014_hurt_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/hurt/frames/EN-014_hurt_03.png",
+          "sha256": "be8a6b0436fb88d893ed4ee50941733f9da059f5dc2498035daaf09a8f3a66d5",
+          "source_sha256": "be8a6b0436fb88d893ed4ee50941733f9da059f5dc2498035daaf09a8f3a66d5"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-014_hurt_04.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-014_hurt_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/hurt/frames/EN-014_hurt_04.png",
+          "sha256": "0bff075805e3660bb8e9191730a0695d9bce2137fb1462c44bb3b987119b2e8b",
+          "source_sha256": "0bff075805e3660bb8e9191730a0695d9bce2137fb1462c44bb3b987119b2e8b"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-014_hurt_05.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-014_hurt_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/hurt/frames/EN-014_hurt_05.png",
+          "sha256": "157aff007c2fa5f5c1dccf5b6bbd886f81e80a596503b0d4835fb1c420d42254",
+          "source_sha256": "157aff007c2fa5f5c1dccf5b6bbd886f81e80a596503b0d4835fb1c420d42254"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-014_hurt_06.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-014_hurt_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/hurt/frames/EN-014_hurt_06.png",
+          "sha256": "f9b76561f6e7b9b749dacece09229d36371e60567580de84bea51cc75aa4e0af",
+          "source_sha256": "f9b76561f6e7b9b749dacece09229d36371e60567580de84bea51cc75aa4e0af"
+        }
+      ]
+    },
+    "defeat": {
+      "asset_id": "EN-014",
+      "loop": false,
+      "durations_ms": [
+        160,
+        130,
+        160,
+        200,
+        260,
+        500
+      ],
+      "pivot_px": [
+        256,
+        480
+      ],
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-014_defeat_01.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-014_defeat_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/defeat/frames/EN-014_defeat_01.png",
+          "sha256": "2c361f62f88d8369b43f3bd1cb76af8e2645ad6d7814772b284405a2c3bc9dba",
+          "source_sha256": "2c361f62f88d8369b43f3bd1cb76af8e2645ad6d7814772b284405a2c3bc9dba"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-014_defeat_02.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-014_defeat_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/defeat/frames/EN-014_defeat_02.png",
+          "sha256": "30f646c2ceeb6005a79fd2abeecf31cd89a411435544d0606ddcdbf10f386643",
+          "source_sha256": "30f646c2ceeb6005a79fd2abeecf31cd89a411435544d0606ddcdbf10f386643"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-014_defeat_03.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-014_defeat_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/defeat/frames/EN-014_defeat_03.png",
+          "sha256": "2baaaed8c0f3529c500b26d6a4ac512a18f5c444cc5d23cda1e85475f0d531aa",
+          "source_sha256": "2baaaed8c0f3529c500b26d6a4ac512a18f5c444cc5d23cda1e85475f0d531aa"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-014_defeat_04.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-014_defeat_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/defeat/frames/EN-014_defeat_04.png",
+          "sha256": "565cb187f2c3ba6bbe9b2fee77187446731fb6116e59920f88d37816ea53268f",
+          "source_sha256": "565cb187f2c3ba6bbe9b2fee77187446731fb6116e59920f88d37816ea53268f"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-014_defeat_05.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-014_defeat_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/defeat/frames/EN-014_defeat_05.png",
+          "sha256": "c2b8e57c9aacaf4c020d391dfc4fd399c83781015dda7b843d5f509e9a733239",
+          "source_sha256": "c2b8e57c9aacaf4c020d391dfc4fd399c83781015dda7b843d5f509e9a733239"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/sporeling/EN-014_defeat_06.png",
+          "runtime": "assets/runtime/chapter01/enemies/sporeling/EN-014_defeat_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-014/exports/defeat/frames/EN-014_defeat_06.png",
+          "sha256": "84041d7784e5c62ec8199ded6630e0e2355f67685401ad3ca529d8f176875730",
+          "source_sha256": "84041d7784e5c62ec8199ded6630e0e2355f67685401ad3ca529d8f176875730"
+        }
+      ]
+    }
+  }
+}

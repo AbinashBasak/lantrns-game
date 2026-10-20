@@ -94,6 +94,9 @@ func _draw() -> void:
 	if bridge_open:
 		for rect in [Rect2(3320,610,150,28),Rect2(3510,560,150,28),Rect2(3710,610,150,28)]:
 			_image("ENV-02_interactive_props_05", rect)
+	for entry in [[650,"CANOPY PATH"],[4250,"FLOODED ROOTS"],[5800,"LANTERN GROVE"]]:
+		_prop("ENV-02_decorative_props_00",Vector2(entry[0],620),Vector2(75,115))
+		draw_string(ThemeDB.fallback_font,Vector2(entry[0]-65,480),entry[1],HORIZONTAL_ALIGNMENT_LEFT,-1,16,Color("f4d68c"))
 	# Small landmarks are readable silhouettes, each belonging to its encounter.
 	_prop("ENV-02_decorative_props_00", Vector2(300,620), Vector2(95,145))
 	_prop("ENV-02_decorative_props_01", Vector2(2300,620), Vector2(220,335))

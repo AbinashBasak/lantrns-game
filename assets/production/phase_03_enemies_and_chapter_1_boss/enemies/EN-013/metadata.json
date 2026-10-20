@@ -3,7 +3,7 @@
   "title": "Sporeling spore attack",
   "checked": true,
   "stage": "animation prototype generated and visually reviewed; 1 deliverable clip/view set(s); cleanup and production approval pending",
-  "last_updated": "2026-10-17T01:42:52.790076+05:30",
+  "last_updated": "2026-10-20T00:45:57.707634+05:30",
   "generation_tool": "built-in image_gen",
   "sources": [
     {
@@ -500,5 +500,28 @@
     }
   ],
   "production_approved": false,
-  "checklist_status_source": "/Users/abinashbasak/Downloads/lanterns_underroot_master_asset_checklist.md"
+  "checklist_status_source": "/Users/abinashbasak/Downloads/lanterns_underroot_master_asset_checklist.md",
+  "runtime_integrations": {
+    "chapter01_expansion": {
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/enemies/sporeling/EN-013_spore_attack_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/enemies/sporeling/EN-013_spore_attack_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/enemies/sporeling/EN-013_spore_attack_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/enemies/sporeling/EN-013_spore_attack_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/enemies/sporeling/EN-013_spore_attack_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/enemies/sporeling/EN-013_spore_attack_06.png"
+      ],
+      "manifests": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/enemies/sporeling/manifest.json"
+      ],
+      "animations": [
+        "attack"
+      ],
+      "updated": "2026-10-20T00:45:57.707634+05:30",
+      "scope": "Chapter 1 expansion enemy presentation; unchanged generated source exports",
+      "source_hashes_verified": true,
+      "production_approved": false,
+      "integration_record": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-expansion-assets.json"
+    }
+  }
 }

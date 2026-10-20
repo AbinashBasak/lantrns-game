@@ -23,7 +23,7 @@ PASS: Reduced-effects preference suppresses enemy particle bursts
 PASS: Reduced-effects preference suppresses player particle bursts
 PASS: Thornling warns visibly before dealing damage
 PASS: Telegraph gives player time to react
-PASS: Only active attack deals damage
+PASS: Only active attack reduces vitality while preserving lives
 PASS: Inactive dialogue player is safe from enemies
 PASS: Second Thornling follows first defeat
 PASS: Combat defeat resets encounter at local checkpoint
@@ -32,7 +32,7 @@ PASS: Both defeats unlock Rusk send-off
 PASS: Rusk gives journey objective
 PASS: Village exit starts Forgotten Trail without scene reset or second title
 PROLOGUE TEST: PASS (0 failures)
-ERROR: Failed to open 'user://logs/godot2026-10-18T05.31.50.log'.
+ERROR: Failed to open 'user://logs/godot2026-10-20T00.49.06.log'.
    at: copy (core/io/dir_access.cpp:429)
 ERROR: Failed to open log file for writing: user://logs/godot.log
    at: rotate_file (core/io/logger.cpp:169)
@@ -59,7 +59,7 @@ PASS: Pause freezes physics
 PASS: Arch rejects insufficient seeds
 PASS: Arch completes trail with three seeds
 SMOKE TEST: PASS (0 failures)
-ERROR: Failed to open 'user://logs/godot2026-10-18T05.31.54.log'.
+ERROR: Failed to open 'user://logs/godot2026-10-20T00.49.10.log'.
    at: copy (core/io/dir_access.cpp:429)
 ERROR: Failed to open log file for writing: user://logs/godot.log
    at: rotate_file (core/io/logger.cpp:169)
@@ -80,7 +80,7 @@ PASS: interact2 uses a visible-bounds foot anchor
 PASS: rusk uses a visible-bounds foot anchor
 PASS: villager uses a visible-bounds foot anchor
 PARALLAX TEST: PASS (0 failures)
-ERROR: Failed to open 'user://logs/godot2026-10-18T05.31.59.log'.
+ERROR: Failed to open 'user://logs/godot2026-10-20T00.49.14.log'.
    at: copy (core/io/dir_access.cpp:429)
 ERROR: Failed to open log file for writing: user://logs/godot.log
    at: rotate_file (core/io/logger.cpp:169)
@@ -120,7 +120,7 @@ PASS: Half-health Sentinel enters its second phase
 PASS: Second phase telegraphs a root wave
 PASS: Root-wave safe pocket and facing remain locked during the warning
 PASS: Visible safe ground avoids the Sentinel root wave
-PASS: Root-wave danger ground deals one readable hit
+PASS: Root-wave danger ground deals 55 vitality damage
 PASS: A single wave does not chain-hit the player
 PASS: Losing to the boss resets it for a quick checkpoint retry
 PASS: Checkpoint retry preserves solved puzzle and optional discovery
@@ -132,7 +132,84 @@ PASS: Fragment and exit complete The Forgotten Trail
 PASS: Chapter restart resets puzzle, optional token, fragment and boss
 PASS: Restart returns to a usable chapter title
 CHAPTER 1 TEST: PASS (0 failures)
-ERROR: Failed to open 'user://logs/godot2026-10-18T05.31.59.log'.
+ERROR: Failed to open 'user://logs/godot2026-10-20T00.49.15.log'.
+   at: copy (core/io/dir_access.cpp:429)
+ERROR: Failed to open log file for writing: user://logs/godot.log
+   at: rotate_file (core/io/logger.cpp:169)
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS Five lives each begin with full health
+PASS Rootling hit removes health, preserving life
+PASS Recovery immunity prevents repeated damage
+PASS Stronger swipe removes forty health
+PASS Empty health costs exactly one life and refills bar
+PASS Invalid negative damage cannot heal or cost lives
+PASS Final empty health bar emits death once
+PASS Already defeated player cannot emit repeated death
+PASS Checkpoint reset restores lives and health safely
+PASS Sword begins at generated anticipation frame
+PASS Recovery input buffers next sword swing
+PASS Buffered follow-up uses second combo tempo
+PASS Respawn clears attack combo state
+Health combat: 13 checks; 0 failures
+ERROR: Failed to open 'user://logs/godot2026-10-20T00.49.34.log'.
+   at: copy (core/io/dir_access.cpp:429)
+ERROR: Failed to open log file for writing: user://logs/godot.log
+   at: rotate_file (core/io/logger.cpp:169)
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS Enemy variants have distinct vitality damage
+PASS Variant durability differs
+PASS Both generated six-pose attacks load
+PASS Sporeling releases one ranged projectile
+PASS Ranged projectile applies eighteen once and disappears
+PASS Brambleguard heavy attack hits once for thirty-five
+PASS Wind-up locks facing and cannot damage
+PASS Sword hit interrupts caster wind-up
+PASS Defeat removes attack targeting and visible body
+PASS Checkpoint reset restores defeated enemy at original spawn
+PASS Narrative inactivity clears travelling hazards
+New enemy checks: 11
+ERROR: Failed to open 'user://logs/godot2026-10-20T00.49.34.log'.
+   at: copy (core/io/dir_access.cpp:429)
+ERROR: Failed to open log file for writing: user://logs/godot.log
+   at: rotate_file (core/io/logger.cpp:169)
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS: Three distinct authored exploration rooms are available
+PASS: Canopy entrance has an accessible interaction prompt
+PASS: Canopy transition places Tavi on solid terrain
+PASS: Exploration camera stays within the room
+PASS: Exploration rooms contain two distinct enemy encounters
+PASS: Canopy lower gap is traversable with an ordinary jump
+PASS: Canopy upper route begins with a reachable climb
+PASS: Canopy second climbing step is reachable
+PASS: Canopy watchpost approach is reachable
+PASS: Full canopy climb and upper gap reaches the discovery through movement
+PASS: Climbing the canopy route reveals the hidden map
+PASS: Canopy return shortcut restores the main trail
+PASS: Room 1 entry is grounded
+PASS: Flooded root stepping stones are physically traversable
+PASS: Room 1 rewards its elevated exploration route
+PASS: Exploration death restarts the same room
+PASS: Room 2 entry is grounded
+PASS: Room 2 rewards its elevated exploration route
+PASS: Exploration death restarts the same room
+PASS: Three optional discoveries persist after returning
+PASS: Side trails preserve rune and boss progression gates
+PASS: Interconnected room transitions hide the prior room
+PASS: Main trail camera and HUD restore after exploration
+JUNGLE FAILURES: 0
+ERROR: Failed to open 'user://logs/godot2026-10-20T00.49.34.log'.
    at: copy (core/io/dir_access.cpp:429)
 ERROR: Failed to open log file for writing: user://logs/godot.log
    at: rotate_file (core/io/logger.cpp:169)

@@ -113,14 +113,14 @@ func _physics_process(delta: float) -> void:
 		"swipe":
 			velocity.x = direction * 85
 			if not attack_landed and not recovering and offset.x * direction > -10 and offset.x * direction < 170 and absf(offset.y) < 62:
-				target.take_damage(1, direction)
+				target.take_damage(40, direction)
 				attack_landed = true
 			if state_time <= 0:
 				_set_state("recover", 1.75 if health <= 6 else 1.25)
 		"rootwave":
 			velocity.x = 0
 			if not attack_landed and not recovering and absf(target.global_position.x - safe_center) > 130 and target.global_position.x >= ARENA_LEFT and target.global_position.x <= ARENA_RIGHT and target.global_position.y > FLOOR_Y - 65:
-				target.take_damage(1, -1.0 if offset.x < 0 else 1.0)
+				target.take_damage(55, -1.0 if offset.x < 0 else 1.0)
 				attack_landed = true
 			if state_time <= 0:
 				_set_state("recover", 2.0 if health <= 6 else 1.55)

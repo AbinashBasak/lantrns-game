@@ -1,13 +1,47 @@
 {
-  "villager": ["Villager: The eastern trail changed again. It used to curve beside the birch tree.", "Tavi: I marked it yesterday. I'll check the markers when the festival is over."],
-  "sign": ["BRACKENREACH — Lantern Wake tonight. Eastern trail beyond the old shelter.", "Tavi: A familiar sign. Let's hope the path still agrees with it."],
-  "hearth": ["Tavi: They say the Hearthlight's glow keeps the old paths from changing.", "Villager: Before the festival, could you shift that handcart at the outer bridge? Come back when you're done."],
-  "mapbook": ["Tavi: A map is useful only while someone checks the trail."],
-  "cart": ["Villager: Thank you. You always know where a path ought to lead.", "Tavi: Only because I keep checking.", "The bridge is clear. Return to the Hearthlight in the square."],
-  "failure": ["Tavi: The Hearthlight… it's gone out. Those roots weren't here a moment ago.", "Something is struggling beneath the fallen beam by the hollow tree. I can help."],
-  "rescue": ["Tavi: Hold still. I'll lift this end.", "The little root-creature slips free. Three slow taps. A pause. Two quick taps.", "Tavi: Mote. That suits you. Stay close."],
-  "weapon": ["Tavi: A practice blade from the festival stand. Better than bare hands.", "Thornlings are coming out of that root bed. Watch for their wind-up, then strike with J / X / SWORD."],
-  "combat_done": ["Tavi: The lane is clear. Come on, Mote. Rusk will be at the old shelter."],
-  "rusk": ["Rusk: The paths are moving. If the Anchors fail, we may lose every safe road. Take this worn trail-warden's sword and mapbook.", "Tavi: Then tell me where to start.", "Rusk: Follow its markings to the first root-temple. Bring back whatever still answers the light. If the old stories are wrong, come back with something better."],
-  "exit_locked": ["Tavi: I need to finish helping here before I leave. Follow the objective above." ]
+  "villager": [
+    "Villager: The eastern trail changed again. It used to curve beside the birch tree.",
+    "Tavi: I marked it yesterday. I'll check the markers when the festival is over."
+  ],
+  "sign": [
+    "BRACKENREACH — Lantern Wake tonight. Eastern trail beyond the old shelter.",
+    "Tavi: A familiar sign. Let's hope the path still agrees with it."
+  ],
+  "hearth": [
+    "Tavi: They say the Hearthlight's glow keeps the old paths from changing.",
+    "Villager: Before the festival, could you shift that handcart at the outer bridge? Come back when you're done."
+  ],
+  "mapbook": [
+    "Tavi: A map is useful only while someone checks the trail."
+  ],
+  "cart": [
+    "Villager: Thank you. You always know where a path ought to lead.",
+    "Tavi: Only because I keep checking.",
+    "The bridge is clear. Return to the Hearthlight in the square."
+  ],
+  "failure": [
+    "Tavi: The Hearthlight… it's gone out. Those roots weren't here a moment ago.",
+    "Something is struggling beneath the fallen beam by the hollow tree. I can help."
+  ],
+  "rescue": [
+    "Tavi: Hold still. I'll lift this end.",
+    "The little root-creature slips free. Three slow taps. A pause. Two quick taps.",
+    "Tavi: Mote. That suits you. Stay close."
+  ],
+  "weapon": [
+    "Tavi: A practice blade from the festival stand. Better than bare hands.",
+    "Thornlings are coming out of that root bed. Watch for their wind-up, then strike with J / X / SWORD.",
+    "Watch the green health bar beneath your lives. Each hit reduces health; an empty bar costs one heart and refills. Different enemies strike with different strength."
+  ],
+  "combat_done": [
+    "Tavi: The lane is clear. Come on, Mote. Rusk will be at the old shelter."
+  ],
+  "rusk": [
+    "Rusk: The paths are moving. If the Anchors fail, we may lose every safe road. Take this worn trail-warden's sword and mapbook.",
+    "Tavi: Then tell me where to start.",
+    "Rusk: Follow its markings to the first root-temple. Bring back whatever still answers the light. If the old stories are wrong, come back with something better."
+  ],
+  "exit_locked": [
+    "Tavi: I need to finish helping here before I leave. Follow the objective above."
+  ]
 }

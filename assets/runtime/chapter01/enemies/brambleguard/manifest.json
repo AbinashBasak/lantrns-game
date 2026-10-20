@@ -1,0 +1,306 @@
+{
+  "variant": "brambleguard",
+  "provenance": "Unmodified generated production exports copied for runtime; not final art approval.",
+  "animations": {
+    "idle": {
+      "asset_id": "EN-016",
+      "loop": true,
+      "durations_ms": [
+        200,
+        180,
+        220,
+        220,
+        180,
+        200
+      ],
+      "pivot_px": [
+        256,
+        480
+      ],
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-016_idle_01.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-016_idle_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/exports/idle/frames/EN-016_idle_01.png",
+          "sha256": "c63585729951bcc15ff342dbccb831f39a99374ab87400044ad25c138805df63",
+          "source_sha256": "c63585729951bcc15ff342dbccb831f39a99374ab87400044ad25c138805df63"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-016_idle_02.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-016_idle_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/exports/idle/frames/EN-016_idle_02.png",
+          "sha256": "8db241842fdbe9d8827bb034e5e5c8fde8ef47826d81e453d156bb336834745a",
+          "source_sha256": "8db241842fdbe9d8827bb034e5e5c8fde8ef47826d81e453d156bb336834745a"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-016_idle_03.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-016_idle_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/exports/idle/frames/EN-016_idle_03.png",
+          "sha256": "8465b742597160cf5e39c00de07f774374ce682c67b76c49cad967f827a14978",
+          "source_sha256": "8465b742597160cf5e39c00de07f774374ce682c67b76c49cad967f827a14978"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-016_idle_04.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-016_idle_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/exports/idle/frames/EN-016_idle_04.png",
+          "sha256": "65df909740f4bc3cee97e7507adab320e82966281def2158797cbfe11ef1cc56",
+          "source_sha256": "65df909740f4bc3cee97e7507adab320e82966281def2158797cbfe11ef1cc56"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-016_idle_05.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-016_idle_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/exports/idle/frames/EN-016_idle_05.png",
+          "sha256": "5eba07063e596cdaa4852b70d9cbaf0078818284abf7d5c09270a32e70fd2740",
+          "source_sha256": "5eba07063e596cdaa4852b70d9cbaf0078818284abf7d5c09270a32e70fd2740"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-016_idle_06.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-016_idle_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/exports/idle/frames/EN-016_idle_06.png",
+          "sha256": "71e2e855506143748825242ba4e178e25f93a51d1fedadec6afb039babf8ae7b",
+          "source_sha256": "71e2e855506143748825242ba4e178e25f93a51d1fedadec6afb039babf8ae7b"
+        }
+      ]
+    },
+    "move": {
+      "asset_id": "EN-016",
+      "loop": true,
+      "durations_ms": [
+        160,
+        140,
+        160,
+        140,
+        160,
+        140
+      ],
+      "pivot_px": [
+        256,
+        480
+      ],
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-016_walk_01.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-016_walk_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/exports/walk/frames/EN-016_walk_01.png",
+          "sha256": "8d2f77f3ea46171f532d6eed38963111c701b0aaf615383b0dc51556ca08193a",
+          "source_sha256": "8d2f77f3ea46171f532d6eed38963111c701b0aaf615383b0dc51556ca08193a"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-016_walk_02.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-016_walk_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/exports/walk/frames/EN-016_walk_02.png",
+          "sha256": "6e1d057a42cf7381a2861d70be6399b2930bdbaf5d2e21d215aa4b943edaaa04",
+          "source_sha256": "6e1d057a42cf7381a2861d70be6399b2930bdbaf5d2e21d215aa4b943edaaa04"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-016_walk_03.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-016_walk_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/exports/walk/frames/EN-016_walk_03.png",
+          "sha256": "78ca3c9e97b3fb4bfba0986176529e56713a9bf83bb586cbbf3cdce822df8022",
+          "source_sha256": "78ca3c9e97b3fb4bfba0986176529e56713a9bf83bb586cbbf3cdce822df8022"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-016_walk_04.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-016_walk_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/exports/walk/frames/EN-016_walk_04.png",
+          "sha256": "582224f160611598ad2cb876afa3c191382b3733ef8637997ae6d6dade8f3481",
+          "source_sha256": "582224f160611598ad2cb876afa3c191382b3733ef8637997ae6d6dade8f3481"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-016_walk_05.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-016_walk_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/exports/walk/frames/EN-016_walk_05.png",
+          "sha256": "b702c010c87b49c408ab0da38af19cd4041d9e99d36f7470d0ece55977e69255",
+          "source_sha256": "b702c010c87b49c408ab0da38af19cd4041d9e99d36f7470d0ece55977e69255"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-016_walk_06.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-016_walk_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-016/exports/walk/frames/EN-016_walk_06.png",
+          "sha256": "43a5df2c7fefc53468b33a6a34d05869c195c3bd91ccd3bd8ad1237be2cd3651",
+          "source_sha256": "43a5df2c7fefc53468b33a6a34d05869c195c3bd91ccd3bd8ad1237be2cd3651"
+        }
+      ]
+    },
+    "attack": {
+      "asset_id": "EN-017",
+      "loop": false,
+      "durations_ms": [
+        180,
+        180,
+        280,
+        100,
+        200,
+        280
+      ],
+      "pivot_px": [
+        256,
+        480
+      ],
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-017_heavy_attack_01.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-017_heavy_attack_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/frames/EN-017_heavy_attack_01.png",
+          "sha256": "96ee222ee7e9e005621a4331aabd880635664b18ba92fba62d5db985c1cf6055",
+          "source_sha256": "96ee222ee7e9e005621a4331aabd880635664b18ba92fba62d5db985c1cf6055"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-017_heavy_attack_02.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-017_heavy_attack_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/frames/EN-017_heavy_attack_02.png",
+          "sha256": "f3a31e24f316cd133761dec2f9a0ccde16e3a8ad8d19700728f0fa69082c8624",
+          "source_sha256": "f3a31e24f316cd133761dec2f9a0ccde16e3a8ad8d19700728f0fa69082c8624"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-017_heavy_attack_03.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-017_heavy_attack_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/frames/EN-017_heavy_attack_03.png",
+          "sha256": "d2e560ff240f548518d8c9c54707dbda74926331bca8bf428609695839de45bf",
+          "source_sha256": "d2e560ff240f548518d8c9c54707dbda74926331bca8bf428609695839de45bf"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-017_heavy_attack_04.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-017_heavy_attack_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/frames/EN-017_heavy_attack_04.png",
+          "sha256": "8a0f74aa098aa1115bb7b4a8e88a47cb44eed48f52f9684b3bd4f8d69fdec02b",
+          "source_sha256": "8a0f74aa098aa1115bb7b4a8e88a47cb44eed48f52f9684b3bd4f8d69fdec02b"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-017_heavy_attack_05.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-017_heavy_attack_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/frames/EN-017_heavy_attack_05.png",
+          "sha256": "d93e0f71cb57d5ab15832f008844ad44964b96719c1ca04715dbd0d154807afd",
+          "source_sha256": "d93e0f71cb57d5ab15832f008844ad44964b96719c1ca04715dbd0d154807afd"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-017_heavy_attack_06.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-017_heavy_attack_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-017/exports/heavy_attack/frames/EN-017_heavy_attack_06.png",
+          "sha256": "a70e00e7c8fe70f3c251cc35c257392d9dd113e409c204ab88d67df776adf1cd",
+          "source_sha256": "a70e00e7c8fe70f3c251cc35c257392d9dd113e409c204ab88d67df776adf1cd"
+        }
+      ]
+    },
+    "hurt": {
+      "asset_id": "EN-018",
+      "loop": false,
+      "durations_ms": [
+        130,
+        70,
+        100,
+        120,
+        130,
+        170
+      ],
+      "pivot_px": [
+        256,
+        480
+      ],
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-018_hurt_01.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-018_hurt_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/exports/hurt/frames/EN-018_hurt_01.png",
+          "sha256": "f1a19f35cd276ca016f749274f4394de81d946c6a75ca67f9e40cd0d05b9ccdf",
+          "source_sha256": "f1a19f35cd276ca016f749274f4394de81d946c6a75ca67f9e40cd0d05b9ccdf"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-018_hurt_02.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-018_hurt_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/exports/hurt/frames/EN-018_hurt_02.png",
+          "sha256": "f59b8bdffe87005b9ea5c7f58fbbea6c5b5d2ab17e836b49949bd8df248ac394",
+          "source_sha256": "f59b8bdffe87005b9ea5c7f58fbbea6c5b5d2ab17e836b49949bd8df248ac394"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-018_hurt_03.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-018_hurt_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/exports/hurt/frames/EN-018_hurt_03.png",
+          "sha256": "22e372c9a7e0698c7f9bd5989e4a55357be5e03bad2021bd56d9a2b472cdc37c",
+          "source_sha256": "22e372c9a7e0698c7f9bd5989e4a55357be5e03bad2021bd56d9a2b472cdc37c"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-018_hurt_04.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-018_hurt_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/exports/hurt/frames/EN-018_hurt_04.png",
+          "sha256": "5ccb5c6e8106ee39701a37269a791eca42a5e624e5026e493f901272de626389",
+          "source_sha256": "5ccb5c6e8106ee39701a37269a791eca42a5e624e5026e493f901272de626389"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-018_hurt_05.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-018_hurt_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/exports/hurt/frames/EN-018_hurt_05.png",
+          "sha256": "63cdc3d00002fb13822afa4bedd3c22793fb623bed107a72d7549def80259394",
+          "source_sha256": "63cdc3d00002fb13822afa4bedd3c22793fb623bed107a72d7549def80259394"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-018_hurt_06.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-018_hurt_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/exports/hurt/frames/EN-018_hurt_06.png",
+          "sha256": "9a5c9d9d6bb787bbd409fbfb05ca748d0e3eb6be51007ca7d18f5539ce27d070",
+          "source_sha256": "9a5c9d9d6bb787bbd409fbfb05ca748d0e3eb6be51007ca7d18f5539ce27d070"
+        }
+      ]
+    },
+    "defeat": {
+      "asset_id": "EN-018",
+      "loop": false,
+      "durations_ms": [
+        150,
+        200,
+        200,
+        220,
+        240,
+        380
+      ],
+      "pivot_px": [
+        256,
+        480
+      ],
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-018_defeat_01.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-018_defeat_01.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/exports/defeat/frames/EN-018_defeat_01.png",
+          "sha256": "0deeaf1467e91382ef4bf4657f4ac5703e973df1299d162b0156307835ab4ecf",
+          "source_sha256": "0deeaf1467e91382ef4bf4657f4ac5703e973df1299d162b0156307835ab4ecf"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-018_defeat_02.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-018_defeat_02.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/exports/defeat/frames/EN-018_defeat_02.png",
+          "sha256": "f37aa8c19122ed3ba1d3b803a8ba1933833898607362dae04b7bd95bb83567a3",
+          "source_sha256": "f37aa8c19122ed3ba1d3b803a8ba1933833898607362dae04b7bd95bb83567a3"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-018_defeat_03.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-018_defeat_03.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/exports/defeat/frames/EN-018_defeat_03.png",
+          "sha256": "87edf321416354daa06ae55fb6a4735ba7117df9bb8aa424ab6891ec109a4273",
+          "source_sha256": "87edf321416354daa06ae55fb6a4735ba7117df9bb8aa424ab6891ec109a4273"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-018_defeat_04.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-018_defeat_04.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/exports/defeat/frames/EN-018_defeat_04.png",
+          "sha256": "790a5b2a53ee8d7e63f2d3ea3eb17fd3c37d4db86964f05f7b903f3350a06b33",
+          "source_sha256": "790a5b2a53ee8d7e63f2d3ea3eb17fd3c37d4db86964f05f7b903f3350a06b33"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-018_defeat_05.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-018_defeat_05.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/exports/defeat/frames/EN-018_defeat_05.png",
+          "sha256": "6d07139c541cee5d612c2fc680fd00d752665ff352957091fea6a74f3fd59f56",
+          "source_sha256": "6d07139c541cee5d612c2fc680fd00d752665ff352957091fea6a74f3fd59f56"
+        },
+        {
+          "path": "res://assets/runtime/chapter01/enemies/brambleguard/EN-018_defeat_06.png",
+          "runtime": "assets/runtime/chapter01/enemies/brambleguard/EN-018_defeat_06.png",
+          "source": "assets/production/phase_03_enemies_and_chapter_1_boss/enemies/EN-018/exports/defeat/frames/EN-018_defeat_06.png",
+          "sha256": "526f628c2145796e700d2c568cdd7816e8ae04fd048f1d2bcee3f2a40eca9e6d",
+          "source_sha256": "526f628c2145796e700d2c568cdd7816e8ae04fd048f1d2bcee3f2a40eca9e6d"
+        }
+      ]
+    }
+  }
+}

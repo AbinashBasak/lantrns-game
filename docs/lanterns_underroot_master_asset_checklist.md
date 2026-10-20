@@ -1542,3 +1542,7 @@ Selected generated village/terrain/bridge, Mote/Rootling animations, UI, FX and 
 ## Chapter 1 runtime integration — 2026-10-18
 
 The Forgotten Trail connects the forest route, optional watchpost token, visual rune sequence, permanent revealed crossing, root-temple checkpoint, Hollow Sentinel and Golden Fragment memory. Selected generated exports and existing Tavi/Mote/Rootling/UI assets are used in the playable chapter. Prepared unused variants are explicitly labeled; existing checkboxes are unchanged. See [source/runtime hashes](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json) and [implementation and release checks](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-implementation.md). Physical-device, listening and release approval remain pending.
+
+## Chapter 1 exploration enemy integration — 2026-10-20
+
+Sporeling and Brambleguard exports EN-012, EN-013, EN-014, EN-016, EN-017 and EN-018 now have 60 runtime frames prepared for expanded jungle encounters, including idle/move/attack/hurt/defeat animations. Sources and runtime hashes were verified. Original images, existing asset stages and checkboxes remain unchanged; integration does not imply final production or physical-device approval. See [expansion source/runtime records](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-expansion-assets.json).

@@ -89,7 +89,7 @@ func run() -> void:
 	check(game.checkpoint_active and game.checkpoint.x == 6100,"Temple checkpoint activates near its generated mark")
 	game.player.health = 1
 	game.player.invincible = 0
-	game.player.take_damage(1)
+	game.player.take_damage(100)
 	await frames(3)
 	check(game.player.health == 5 and absf(game.player.position.x-6100) < 35,"Defeat restores full health at the temple checkpoint")
 	check(game.boss.health == 24 and game.boss.state == "dormant","Checkpoint recovery restores the unstarted Sentinel encounter")
@@ -125,6 +125,7 @@ func run() -> void:
 	await frames(4)
 	check(game.boss.safe_center == locked_safe and game.boss.direction == locked_facing,"Root-wave safe pocket and facing remain locked during the warning")
 	game.player.health = 5
+	game.player.restore_vitality()
 	game.player.invincible = 0
 	await frames(65)
 	check(game.player.health == 5,"Visible safe ground avoids the Sentinel root wave")
@@ -134,13 +135,15 @@ func run() -> void:
 	game.boss.safe_center = 6660
 	game.player.position = Vector2(7400,620)
 	game.player.health = 5
+	game.player.restore_vitality()
 	game.player.invincible = 0
 	await frames(2)
-	check(game.player.health == 4,"Root-wave danger ground deals one readable hit")
+	check(game.player.health == 5 and game.player.vitality == 45,"Root-wave danger ground deals 55 vitality damage")
 	await frames(3)
-	check(game.player.health == 4,"A single wave does not chain-hit the player")
+	check(game.player.health == 5 and game.player.vitality == 45,"A single wave does not chain-hit the player")
 	game.player.invincible = 0
-	game.player.take_damage(5)
+	game.player.health = 1
+	game.player.take_damage(100)
 	await frames(3)
 	check(not game.boss_active and game.boss.health == 24 and game.boss.state == "dormant","Losing to the boss resets it for a quick checkpoint retry")
 	check(game.bridge_open and game.token_collected,"Checkpoint retry preserves solved puzzle and optional discovery")

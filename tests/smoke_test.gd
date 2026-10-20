@@ -44,7 +44,7 @@ func run() -> void:
 	check(scene.checkpoint_active,"Lantern checkpoint activates")
 	p.health = 1
 	p.invincible = 0
-	p.take_damage(1)
+	p.take_damage(100)
 	await frames(2)
 	check(p.health == 5 and p.position.distance_to(scene.checkpoint)<45,"Lethal damage restores health at checkpoint")
 	var enemy = scene.get_tree().get_nodes_in_group("enemies")[0]

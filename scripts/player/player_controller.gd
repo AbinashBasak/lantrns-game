@@ -1,12 +1,19 @@
 extends CharacterBody2D
 
 signal health_changed(value: int)
+signal vitality_changed(current: int, maximum: int)
 signal died
 signal action_event(kind: String, at: Vector2)
 @export var speed: float = 330.0
 @export var jump_speed: float = 680.0
 @export var gravity: float = 1600.0
-var health: int = 5
+const MAX_VITALITY := 100
+var health: int = 5 # Remaining lives; a complete vitality bar protects each life.
+var vitality: int = MAX_VITALITY
+var combo_index := 0
+var combo_window := 0.0
+var queued_attack := false
+var attack_duration := 0.44
 var facing: float = 1.0
 var coyote: float = 0.0
 var jump_buffer: float = 0.0
@@ -32,6 +39,10 @@ func _physics_process(delta: float) -> void:
 	invincible = maxf(0.0, invincible - delta)
 	attack_time = maxf(0.0, attack_time - delta)
 	attack_cooldown = maxf(0.0, attack_cooldown - delta)
+	combo_window = maxf(0.0, combo_window - delta)
+	if queued_attack and attack_time <= 0:
+		queued_attack = false
+		_start_attack()
 	coyote = 0.12 if is_on_floor() else maxf(0.0, coyote - delta)
 	jump_buffer = maxf(0.0, jump_buffer - delta)
 	if Input.is_action_just_pressed("jump"):
@@ -51,7 +62,8 @@ func _physics_process(delta: float) -> void:
 	if Input.is_action_just_pressed("attack"):
 		attack()
 	move_and_slide()
-	if attack_time > 0.10 and attack_time < 0.28:
+	var attack_elapsed := attack_duration - attack_time
+	if attack_time > 0 and attack_elapsed >= 0.12 and attack_elapsed <= 0.30:
 		for enemy in get_tree().get_nodes_in_group("enemies"):
 			var offset: Vector2 = enemy.global_position - global_position
 			if offset.x * facing > -8 and offset.x * facing < 100 and absf(offset.y) < 75 and not enemy in hit_targets:
@@ -66,27 +78,57 @@ func _physics_process(delta: float) -> void:
 	queue_redraw()
 
 func attack() -> void:
-	if active and attack_enabled and attack_cooldown <= 0:
-		attack_time = 0.38
-		attack_cooldown = 0.48
-		hit_targets.clear()
-		action_event.emit("swing", global_position + Vector2(facing * 15, -35))
+	if not active or not attack_enabled:
+		return
+	# Buffer a follow-up during recovery, rather than restarting the anticipation.
+	if attack_time > 0:
+		if attack_time <= 0.20:
+			queued_attack = true
+		return
+	if attack_cooldown <= 0:
+		_start_attack()
+
+func _start_attack() -> void:
+	combo_index = (combo_index + 1) % 2 if combo_window > 0 else 0
+	attack_duration = 0.48 if combo_index == 1 else 0.44
+	attack_time = attack_duration
+	attack_cooldown = attack_duration
+	combo_window = attack_duration + 0.28
+	hit_targets.clear()
+	var clip := "attack_2" if combo_index == 1 and visual.sprite_frames.has_animation("attack_2") else "attack_1"
+	visual.play(clip)
+	visual.set_frame_and_progress(0, 0)
+	action_event.emit("swing", global_position + Vector2(facing * 15, -35))
 
 func take_damage(amount: int, direction: float = -1.0) -> void:
-	if invincible > 0:
+	if invincible > 0 or health <= 0 or amount <= 0:
 		return
-	health = maxi(0, health - amount)
+	vitality = maxi(0, vitality - amount)
+	if vitality == 0:
+		health = maxi(0, health - 1)
+		vitality = MAX_VITALITY if health > 0 else 0
+		health_changed.emit(health)
+	vitality_changed.emit(vitality, MAX_VITALITY)
 	action_event.emit("hurt", global_position)
 	invincible = 1.1
 	velocity = Vector2(direction * 260, -250)
-	health_changed.emit(health)
+	queued_attack = false
 	if health <= 0:
 		died.emit()
+
+func restore_vitality() -> void:
+	vitality = MAX_VITALITY
+	vitality_changed.emit(vitality, MAX_VITALITY)
 
 func reset_at(point: Vector2) -> void:
 	global_position = point
 	velocity = Vector2.ZERO
 	health = 5
+	restore_vitality()
+	attack_time = 0
+	attack_cooldown = 0
+	combo_window = 0
+	queued_attack = false
 	invincible = 1.5
 	health_changed.emit(health)
 	action_event.emit("respawn", global_position)
@@ -96,13 +138,17 @@ func _update_animation() -> void:
 	visual.visible = not (invincible > 0 and int(animation_time * 16) % 2 == 0)
 	var state := "idle"
 	if attack_time > 0:
-		state = "attack_1"
+		state = "attack_2" if combo_index == 1 and visual.sprite_frames.has_animation("attack_2") else "attack_1"
 	elif not is_on_floor():
 		state = "jump_rise" if velocity.y < 0 else "jump_fall"
 	elif landing_time > 0:
 		state = "landing"
 	elif absf(velocity.x) > 20:
 		state = "run"
+	visual.speed_scale = 1.0
+	if attack_time > 0:
+		# Fit all eight generated frames to the hit/recovery window.
+		visual.speed_scale = float(visual.sprite_frames.get_frame_count(state)) / (visual.sprite_frames.get_animation_speed(state) * attack_duration)
 	if visual.animation != state:
 		visual.play(state)
 

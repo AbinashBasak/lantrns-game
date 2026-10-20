@@ -76,7 +76,7 @@ func run() -> void:
 	await frames(25)
 	check(p.health == 5, "Telegraph gives player time to react")
 	await frames(30)
-	check(p.health == 4, "Only active attack deals damage")
+	check(p.health == 5 and p.vitality == 75, "Only active attack reduces vitality while preserving lives")
 	p.active = false
 	p.invincible = 0
 	var safe_health: int = p.health
@@ -88,7 +88,8 @@ func run() -> void:
 	await frames(2)
 	check(scene.defeated_count == 1 and get_nodes_in_group("enemies").size() == 1, "Second Thornling follows first defeat")
 	p.invincible = 0
-	p.take_damage(5)
+	p.health = 1
+	p.take_damage(100)
 	await frames(2)
 	check(p.health == 5 and scene.defeated_count == 0 and get_nodes_in_group("enemies").size() == 1, "Combat defeat resets encounter at local checkpoint")
 	get_nodes_in_group("enemies")[0].take_damage(2, 1)

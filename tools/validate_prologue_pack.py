@@ -30,3 +30,13 @@ with tempfile.TemporaryDirectory(prefix='lanterns-pack-') as folder:
  assert 'Failed loading resource:' not in clog,clog
  (ROOT/'docs/prologue-pack-validation.txt').write_text(log+'\n'+plog+'\n'+clog)
  print('PASS: all42 Chapter1 checks also pass in exported pack')
+
+ extra_logs=[]
+ for filename,marker in [('health_combat_test.gd','Health combat: 13 checks; 0 failures'),('new_enemy_test.gd','New enemy checks: 11'),('jungle_exploration_test.gd','JUNGLE FAILURES: 0')]:
+  script.write_text((ROOT/'tests'/filename).read_text())
+  run=subprocess.run([godot,'--headless','--path',folder,'--main-pack',str(pack),'--script',str(script)],capture_output=True,text=True,timeout=60)
+  output=run.stdout+run.stderr
+  assert run.returncode==0 and marker in output and 'SCRIPT ERROR:' not in output and 'Failed loading resource:' not in output,output
+  extra_logs.append(output)
+  print('PASS: exported pack '+filename)
+ (ROOT/'docs/prologue-pack-validation.txt').write_text('\n'.join([log,plog,clog]+extra_logs))

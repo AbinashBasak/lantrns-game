@@ -3,7 +3,7 @@
   "title": "Sporeling hurt and defeat animations",
   "checked": true,
   "stage": "animation prototype generated and visually reviewed; 2 deliverable clip/view set(s); cleanup and production approval pending",
-  "last_updated": "2026-10-17T01:42:52.790076+05:30",
+  "last_updated": "2026-10-20T00:45:57.707634+05:30",
   "generation_tool": "built-in image_gen",
   "sources": [
     {
@@ -965,5 +965,35 @@
     }
   ],
   "production_approved": false,
-  "checklist_status_source": "/Users/abinashbasak/Downloads/lanterns_underroot_master_asset_checklist.md"
+  "checklist_status_source": "/Users/abinashbasak/Downloads/lanterns_underroot_master_asset_checklist.md",
+  "runtime_integrations": {
+    "chapter01_expansion": {
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/enemies/sporeling/EN-014_hurt_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/enemies/sporeling/EN-014_hurt_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/enemies/sporeling/EN-014_hurt_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/enemies/sporeling/EN-014_hurt_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/enemies/sporeling/EN-014_hurt_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/enemies/sporeling/EN-014_hurt_06.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/enemies/sporeling/EN-014_defeat_01.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/enemies/sporeling/EN-014_defeat_02.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/enemies/sporeling/EN-014_defeat_03.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/enemies/sporeling/EN-014_defeat_04.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/enemies/sporeling/EN-014_defeat_05.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/enemies/sporeling/EN-014_defeat_06.png"
+      ],
+      "manifests": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/enemies/sporeling/manifest.json"
+      ],
+      "animations": [
+        "hurt",
+        "defeat"
+      ],
+      "updated": "2026-10-20T00:45:57.707634+05:30",
+      "scope": "Chapter 1 expansion enemy presentation; unchanged generated source exports",
+      "source_hashes_verified": true,
+      "production_approved": false,
+      "integration_record": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-expansion-assets.json"
+    }
+  }
 }

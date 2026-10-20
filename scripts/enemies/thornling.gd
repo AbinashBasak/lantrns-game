@@ -3,6 +3,7 @@ signal defeated
 const Generated = preload("res://scripts/companions/generated_animation.gd")
 var sprite: AnimatedSprite2D
 const ROOTLING_PACK := "res://assets/runtime/prologue/characters/rootling/manifest.json"
+@export var attack_damage: int = 25
 var direction: float = -1.0
 var health: int = 2
 var flash: float = 0.0
@@ -62,7 +63,7 @@ func _physics_process(delta: float) -> void:
 			"attack":
 				velocity.x = direction * 120
 				if not attack_landed and absf(offset.x) < 68 and absf(offset.y) < 65 and offset.x * direction > -10:
-					target.take_damage(1, direction)
+					target.take_damage(attack_damage, direction)
 					attack_landed = true
 				if state_time <= 0:
 					state = "recovery"
