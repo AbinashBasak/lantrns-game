@@ -1,3 +1,7 @@
+# Current behavior
+
+The [mandatory route and Sentinel revival update](chapter01-combat-route-update.md) supersedes the optional-route and single-life boss descriptions below. Current tests and reward behavior are documented there.
+
 # Chapter 1 exploration and combat expansion
 
 The prologue remains the opening of the same journey. F5 starts Brackenreach and its eastern exit continues directly into Chapter 1. The chapter title also offers replay of the prologue.

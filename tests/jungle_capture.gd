@@ -13,7 +13,8 @@ func run() -> void:
 	while not game.dialogue_lines.is_empty(): game._advance_dialogue()
 	for index in 3:
 		game._enter_jungle(index)
-		game.player.position = Vector2(10000+index*4000+1500,620)
+		for enemy in game.jungle_enemies: enemy.active = false
+		game.player.position = Vector2(10000+index*5600+3050,620)
 		game.player.vitality = 65
 		game.player.active = false
 		game.player.visual.show()

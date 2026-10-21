@@ -5,6 +5,8 @@ var game: Node
 var hearts: Array[TextureRect] = []
 var health_row: HBoxContainer
 var vitality_bar: ProgressBar
+var vitality_frame: TextureRect
+var vitality_label: Label
 var title_background: TextureRect
 
 static func apply(target: Node) -> void:
@@ -69,6 +71,12 @@ func _picture(parent: Node, name: String, bounds: Rect2) -> TextureRect:
 	return image
 
 func _install() -> void:
+	if not game.has_node("WorldLighting"):
+		var lighting := Node2D.new()
+		lighting.name = "WorldLighting"
+		lighting.set_script(load("res://scripts/presentation/world_lighting.gd"))
+		lighting.game = game
+		game.add_child(lighting)
 	var root: Control = game.objective.get_parent()
 	_buttons(root)
 	for child in root.get_children():
@@ -100,6 +108,7 @@ func _install() -> void:
 	title_background = _picture(root, "title_background", Rect2(0, 0, 1280, 720))
 	title_background.stretch_mode = TextureRect.STRETCH_SCALE
 	root.move_child(title_background, 0)
+	load("res://scripts/ui/exact_title_menu.gd").apply(game,title_background)
 	game.pause_panel.position = Vector2(410, 180)
 	game.pause_panel.size = Vector2(460, 400)
 	game.dialogue_box.position = Vector2(150, 285)
@@ -138,23 +147,41 @@ func _install() -> void:
 		hearts.append(heart)
 	vitality_bar = ProgressBar.new()
 	vitality_bar.name = "VitalityBar"
-	vitality_bar.position = Vector2(34, 61)
-	vitality_bar.size = Vector2(210, 20)
+	# Reuse the generated vine-and-gold UI-008 artwork at HUD scale.
+	# Its inner opening remains clear so the fill is a true health proportion.
+	vitality_bar.position = Vector2(280, 48)
+	vitality_bar.size = Vector2(220, 16)
 	vitality_bar.max_value = 100
 	vitality_bar.show_percentage = false
 	vitality_bar.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	vitality_bar.tooltip_text = "Health: an empty bar costs one life"
-	var track := StyleBoxFlat.new()
-	track.bg_color = Color("152824")
-	track.border_color = Color("c4a265")
-	track.set_border_width_all(2)
-	track.set_corner_radius_all(5)
-	var fill := StyleBoxFlat.new()
-	fill.bg_color = Color("65b987")
-	fill.set_corner_radius_all(4)
-	vitality_bar.add_theme_stylebox_override("background", track)
-	vitality_bar.add_theme_stylebox_override("fill", fill)
+	for part in ["background", "fill"]:
+		var skin := StyleBoxTexture.new()
+		skin.texture = load("res://assets/runtime/chapter01/story/boss_%s.png" % ("track" if part == "background" else "fill"))
+		skin.texture_margin_left = 9
+		skin.texture_margin_right = 9
+		vitality_bar.add_theme_stylebox_override(part, skin)
 	root.add_child(vitality_bar)
+	vitality_frame = TextureRect.new()
+	vitality_frame.name = "VitalityVineFrame"
+	vitality_frame.texture = load("res://assets/runtime/chapter01/story/boss_frame.png")
+	vitality_frame.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	vitality_frame.position = Vector2(256, 20)
+	vitality_frame.size = Vector2(268, 70)
+	vitality_frame.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	root.add_child(vitality_frame)
+	vitality_label = Label.new()
+	vitality_label.name = "VitalityValue"
+	vitality_label.position = Vector2(280, 45)
+	vitality_label.size = Vector2(220, 22)
+	vitality_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	vitality_label.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+	vitality_label.add_theme_font_size_override("font_size", 13)
+	vitality_label.add_theme_color_override("font_color", Color("fff0ce"))
+	vitality_label.add_theme_color_override("font_shadow_color", Color("081719"))
+	vitality_label.add_theme_constant_override("shadow_outline_size", 4)
+	vitality_label.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	root.add_child(vitality_label)
 	game.objective.position = Vector2(34, 91)
 	game.objective.size = Vector2(1120, 58)
 	game.objective.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
@@ -188,6 +215,9 @@ func _install() -> void:
 					label.text = "USE"
 	_process(0)
 
+	load("res://scripts/ui/botanical_dialogue.gd").apply(game)
+	load("res://scripts/ui/popup_typography.gd").apply(game)
+
 func _process(_delta: float) -> void:
 	if not is_instance_valid(game) or not is_instance_valid(game.player):
 		return
@@ -203,6 +233,9 @@ func _process(_delta: float) -> void:
 			element.visible = game.started and (name != "ControlsHint" or not game.touch_layer.visible)
 	health_row.visible = game.started and not game.menu.visible
 	vitality_bar.visible = health_row.visible
+	vitality_frame.visible = health_row.visible
+	vitality_label.visible = health_row.visible
+	vitality_label.text = "%d / 100" % game.player.vitality
 	vitality_bar.value = game.player.vitality
 	vitality_bar.modulate = Color("ffae8f") if game.player.vitality <= 25 else Color.WHITE
 	game.touch_layer.visible = (OS.has_feature("mobile") or "--touch" in OS.get_cmdline_user_args()) and game.started and not game.get_tree().paused

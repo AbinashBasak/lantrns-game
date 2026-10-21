@@ -31,10 +31,12 @@ PASS: Half-health Sentinel enters its second phase
 PASS: Second phase telegraphs a root wave
 PASS: Root-wave safe pocket and facing remain locked during the warning
 PASS: Visible safe ground avoids the Sentinel root wave
-PASS: Root-wave danger ground deals 55 vitality damage
+PASS: Root-wave danger ground deals 45 vitality damage
 PASS: A single wave does not chain-hit the player
 PASS: Losing to the boss resets it for a quick checkpoint retry
 PASS: Checkpoint retry preserves solved puzzle and optional discovery
+PASS: First depletion keeps the arena sealed for rejuvenation
+PASS: Sentinel returns with full health in berserk mode
 PASS: Sentinel defeat opens the arena and removes attack targeting
 PASS: Golden Fragment reveals the generated orchard memory
 PASS: Memory closes after skippable fragment dialogue
@@ -43,7 +45,7 @@ PASS: Fragment and exit complete The Forgotten Trail
 PASS: Chapter restart resets puzzle, optional token, fragment and boss
 PASS: Restart returns to a usable chapter title
 CHAPTER 1 TEST: PASS (0 failures)
-ERROR: Failed to open 'user://logs/godot2026-10-20T00.49.15.log'.
+ERROR: Failed to open 'user://logs/godot2026-10-20T12.45.58.log'.
    at: copy (core/io/dir_access.cpp:429)
 ERROR: Failed to open log file for writing: user://logs/godot.log
    at: rotate_file (core/io/logger.cpp:169)

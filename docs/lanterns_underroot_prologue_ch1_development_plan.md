@@ -659,3 +659,17 @@ The Prologue + Chapter 1 prototype is ready for external playtesting when:
 - [ ] First-player duration, balancing and physical Windows/Android playtest.
 
 See [design and research references](chapter01-expansion-design.md).
+
+
+### Required route and Sentinel revival update — 2026-10-20
+
+- [x] Generated ornate player health frame with numeric health.
+- [x] Required automatic jungle transitions, 4600pixel rooms and three exit-seal puzzles.
+- [x] Seven enemy patrols per jungle and five main-trail encounters.
+- [x] Sentinel charge, eruptions, animated roots and stronger range-based AI.
+- [x] One collapse/rejuvenation followed by full-health berserk stage.
+- [x] Generated reward chest, Rootward Charm and animated one-time points.
+- [x] 203 source-project checks pass.
+- [ ] Human pacing/balance and target-device release tests.
+
+See [current behavior and rewards](chapter01-combat-route-update.md).

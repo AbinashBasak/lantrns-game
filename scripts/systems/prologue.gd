@@ -99,10 +99,15 @@ func _ready() -> void:
 	PrologueSkin.apply(self)
 	_update_hud()
 	get_tree().paused = true
+	if get_tree().has_meta("replay_from_title"):
+		get_tree().remove_meta("replay_from_title")
+		_begin()
 
 func _process(delta: float) -> void:
 	if not started and (Input.is_action_just_pressed("start") or Input.is_action_just_pressed("pause") or Input.is_action_just_pressed("jump")):
-		_begin()
+		var title_menu := objective.get_parent().get_node_or_null("ExactTitleMenu")
+		if title_menu: title_menu.activate_primary()
+		else: _begin()
 		return
 	if Input.is_action_just_pressed("restart") and started:
 		_restart()

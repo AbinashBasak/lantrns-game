@@ -173,8 +173,53 @@
           "preparation_manifest": "docs/prologue-asset-integration.json"
         }
       ]
+    },
+    "exact_title_menu": {
+      "updated": "2026-10-21",
+      "stage": "user reference integrated; runtime review pending",
+      "production_approved": false,
+      "release_approved": false,
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/manifest.json",
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/UI-016_exact_title_menu.png"
+      ],
+      "files": [
+        {
+          "asset_id": "UI-016",
+          "source": "assets/production/phase_08_user_interface/menus_and_screens/UI-016/source_images/UI-016_user_title_reference_02.png",
+          "export": "assets/production/phase_08_user_interface/menus_and_screens/UI-016/exports/UI-016_exact_title_menu_02.png",
+          "runtime": "assets/runtime/chapter01/ui/UI-016_exact_title_menu.png",
+          "source_sha256": "9351bc02d5d8a8e390c7daca374a9dec156e2d9924ad9084544aed2ae3feb1a8",
+          "sha256": "9351bc02d5d8a8e390c7daca374a9dec156e2d9924ad9084544aed2ae3feb1a8",
+          "dimensions": [
+            1672,
+            941
+          ],
+          "role": "exact_title_menu",
+          "provenance": "User-supplied reference artwork copied unchanged byte-for-byte. This supplied reference is not a new AI generation. Embedded typography and ornament are preserved; Godot overlays provide actionable hit regions.",
+          "source_message_id": null,
+          "source_attachment_name": "codex-clipboard-43ea98a1-3f15-4fbc-ad43-bc3a074b25a6.png",
+          "transformation": "none; exact byte copy"
+        }
+      ],
+      "status": "native Godot layout and input reviewed; final device/art approval pending"
     }
   },
   "last_updated": "2026-10-18T05:32:46.261707+05:30",
-  "archive_stage_before_runtime_integration": "generated_prototype_reviewed_exported"
+  "archive_stage_before_runtime_integration": "generated_prototype_reviewed_exported",
+  "user_supplied_references": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-016/source_images/UI-016_user_title_reference_02.png",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "9351bc02d5d8a8e390c7daca374a9dec156e2d9924ad9084544aed2ae3feb1a8",
+      "source_message_id": null,
+      "origin": "user supplied reference artwork",
+      "transformations": [],
+      "export_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-016/exports/UI-016_exact_title_menu_02.png",
+      "runtime_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/UI-016_exact_title_menu.png"
+    }
+  ]
 }

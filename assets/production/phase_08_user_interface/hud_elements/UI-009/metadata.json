@@ -59,7 +59,7 @@
   "production_approved": false,
   "runtime_integrated": true,
   "requested_deliverables_saved_and_reviewed": true,
-  "stage": "selected prologue exports integrated and desktop-reviewed; full-pack and release/device approval pending",
+  "stage": "selected prologue/chapter exports and reference memory popup integrated and desktop reviewed; final production approval pending",
   "source_message_id": null,
   "reference_images": [],
   "provenance": {
@@ -446,6 +446,19 @@
         0,
         255
       ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/source_images/UI-009_memory_popup_generation_02.png",
+      "sha256": "e64eb43a743d2519054f2594552b376fe1ab51a8cf24341e7c5c786e854b9d94",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
     }
   ],
   "validation": {
@@ -492,8 +505,181 @@
           "preparation_manifest": "docs/prologue-asset-integration.json"
         }
       ]
+    },
+    "memory_popup": {
+      "updated": "2026-10-20",
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/manifest.json",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/source_images/UI-009_memory_popup_generation_02.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_memory_popup_frame_02.png",
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/UI-009_memory_popup.png"
+      ],
+      "files": [
+        {
+          "asset_id": "UI-009",
+          "source": "assets/production/phase_08_user_interface/hud_elements/UI-009/source_images/UI-009_memory_popup_generation_02.png",
+          "export": "assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_memory_popup_frame_02.png",
+          "runtime": "assets/runtime/chapter01/ui/UI-009_memory_popup.png",
+          "source_sha256": "e64eb43a743d2519054f2594552b376fe1ab51a8cf24341e7c5c786e854b9d94",
+          "sha256": "e64eb43a743d2519054f2594552b376fe1ab51a8cf24341e7c5c786e854b9d94",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGBA",
+          "alpha_extrema": [
+            0,
+            254
+          ],
+          "role": "memory_popup_frame",
+          "provenance": "Unchanged built-in image_gen output; copied byte-for-byte to archive export and runtime. Transparent image window; text and controls remain separate Godot overlays."
+        }
+      ],
+      "scope": "Reference-style memory popup frame; runtime layout verification managed separately.",
+      "status": "runtime export saved; desktop layout and interaction review completed; final device/art approval pending",
+      "production_approved": false,
+      "release_approved": false
+    },
+    "botanical_dialogue": {
+      "updated": "2026-10-21",
+      "stage": "botanical dialogue frame integrated; runtime review pending",
+      "production_approved": false,
+      "release_approved": false,
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/manifest.json",
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/UI-009_botanical_dialogue.png"
+      ],
+      "scope": "Shared live dialogue popup with engine-rendered text, speaker names and Continue control. Asset alone does not approve all popup content or final release.",
+      "files": [
+        {
+          "asset_id": "UI-009",
+          "source": "assets/production/phase_08_user_interface/hud_elements/UI-009/source_images/UI-009_botanical_dialogue_generation_03.png",
+          "export": "assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_botanical_dialogue_frame_03.png",
+          "runtime": "assets/runtime/chapter01/ui/UI-009_botanical_dialogue.png",
+          "source_sha256": "ab1b7308ab775d7ab97fd7f8c5e3e22f04e4d56de3a26dc1482c8e204f6fb04e",
+          "sha256": "a7aa781203ae9a94b3ffa52e7c55c336553fe9ae618e598a42b63631210cc13a",
+          "dimensions": [
+            2145,
+            688
+          ],
+          "source_dimensions": [
+            2172,
+            724
+          ],
+          "crop_box": [
+            12,
+            15,
+            2157,
+            703
+          ],
+          "alpha_threshold": 32,
+          "mode": "RGBA",
+          "role": "botanical_dialogue_frame",
+          "provenance": "Built-in image_gen output archived unchanged; export and runtime mechanically cropped to alpha > 32 content bounds. Text-free parchment/vine frame with lanterns, nameplate and Continue-button shape. Live words and controls are separate Godot overlays.",
+          "generation_tool": "built-in image_gen",
+          "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-c812f2be-42a7-4599-b382-dab58a678936.png",
+          "reference_images": [
+            "/var/folders/81/p2gwlll90k13p7zkyl5cjzxr0000gn/T/codex-clipboard-5c981194-4a2e-4abc-bd1c-c819283f0bf0.png"
+          ],
+          "source_message_id": null
+        }
+      ],
+      "status": "native Godot layout and input reviewed; final device/art approval pending"
     }
   },
-  "last_updated": "2026-10-18T05:32:46.261707+05:30",
-  "archive_stage_before_runtime_integration": "generated_ui_prototype_saved_and_reviewed"
+  "last_updated": "2026-10-20",
+  "archive_stage_before_runtime_integration": "generated_ui_prototype_saved_and_reviewed",
+  "memory_popup_generation_02": {
+    "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-d61b1319-a81a-493d-b4c4-83fc5b090bef.png",
+    "source_message_id": null,
+    "reference_images": [
+      "/var/folders/81/p2gwlll90k13p7zkyl5cjzxr0000gn/T/codex-clipboard-3d498ad5-8749-488a-b454-fbf6f4c88f17.png"
+    ],
+    "tool": "built-in image_gen",
+    "original_unchanged": true,
+    "source_info": {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/source_images/UI-009_memory_popup_generation_02.png",
+      "sha256": "e64eb43a743d2519054f2594552b376fe1ab51a8cf24341e7c5c786e854b9d94",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    "export_info": {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_memory_popup_frame_02.png",
+      "sha256": "e64eb43a743d2519054f2594552b376fe1ab51a8cf24341e7c5c786e854b9d94",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    "runtime_info": {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/UI-009_memory_popup.png",
+      "sha256": "e64eb43a743d2519054f2594552b376fe1ab51a8cf24341e7c5c786e854b9d94",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    "timing": null,
+    "loop": false,
+    "frame_count": 1,
+    "review_notes": [
+      "Transparent center image window verified. Live orchard art, text and continue control are composited by Godot.",
+      "Earlier UI-009 generations and runtime dialogue integration preserved; final production approval remains pending."
+    ]
+  },
+  "runtime_review": {
+    "memory_popup": "Native Godot layout reviewed; twelve dialogue, pointer, keyboard and pause checks pass",
+    "production_approved": false
+  },
+  "additional_generations": [
+    {
+      "asset_id": "UI-009",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-009/source_images/UI-009_botanical_dialogue_generation_03.png",
+      "export": "assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_botanical_dialogue_frame_03.png",
+      "runtime": "assets/runtime/chapter01/ui/UI-009_botanical_dialogue.png",
+      "source_sha256": "ab1b7308ab775d7ab97fd7f8c5e3e22f04e4d56de3a26dc1482c8e204f6fb04e",
+      "sha256": "a7aa781203ae9a94b3ffa52e7c55c336553fe9ae618e598a42b63631210cc13a",
+      "dimensions": [
+        2145,
+        688
+      ],
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "crop_box": [
+        12,
+        15,
+        2157,
+        703
+      ],
+      "alpha_threshold": 32,
+      "mode": "RGBA",
+      "role": "botanical_dialogue_frame",
+      "provenance": "Built-in image_gen output archived unchanged; export and runtime mechanically cropped to alpha > 32 content bounds. Text-free parchment/vine frame with lanterns, nameplate and Continue-button shape. Live words and controls are separate Godot overlays.",
+      "generation_tool": "built-in image_gen",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-c812f2be-42a7-4599-b382-dab58a678936.png",
+      "reference_images": [
+        "/var/folders/81/p2gwlll90k13p7zkyl5cjzxr0000gn/T/codex-clipboard-5c981194-4a2e-4abc-bd1c-c819283f0bf0.png"
+      ],
+      "source_message_id": null
+    }
+  ]
 }

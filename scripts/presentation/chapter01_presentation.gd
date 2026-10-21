@@ -8,7 +8,6 @@ var music: AudioStreamPlayer
 var ambience: AudioStreamPlayer
 var voices: Array[AudioStreamPlayer] = []
 var voice_index := 0
-var footstep_time := 0.0
 var reduced_effects := false
 var music_level := 0.65
 var effects_level := 0.75
@@ -96,10 +95,3 @@ func cue(key: String, at: Vector2) -> void:
 	if key == "swing" and is_instance_valid(game) and is_instance_valid(game.player):
 		facing = game.player.facing
 	Generated.one_shot(self, at, MANIFEST, key, 0.65 if key == "swing" else 0.8, Vector2(effect.pivot_px[0], effect.pivot_px[1]), facing)
-
-func _process(delta: float) -> void:
-	if not is_instance_valid(game) or not game.started or not is_instance_valid(game.player) or not game.player.active: return
-	footstep_time = maxf(0, footstep_time - delta)
-	if game.player.is_on_floor() and absf(game.player.velocity.x) > 90 and footstep_time <= 0:
-		cue("step" if region == "forest" else "stone_step", game.player.global_position)
-		footstep_time = 0.3

@@ -32,7 +32,7 @@ PASS: Both defeats unlock Rusk send-off
 PASS: Rusk gives journey objective
 PASS: Village exit starts Forgotten Trail without scene reset or second title
 PROLOGUE TEST: PASS (0 failures)
-ERROR: Failed to open 'user://logs/godot2026-10-20T00.49.06.log'.
+ERROR: Failed to open 'user://logs/godot2026-10-21T20.51.57.log'.
    at: copy (core/io/dir_access.cpp:429)
 ERROR: Failed to open log file for writing: user://logs/godot.log
    at: rotate_file (core/io/logger.cpp:169)
@@ -59,7 +59,7 @@ PASS: Pause freezes physics
 PASS: Arch rejects insufficient seeds
 PASS: Arch completes trail with three seeds
 SMOKE TEST: PASS (0 failures)
-ERROR: Failed to open 'user://logs/godot2026-10-20T00.49.10.log'.
+ERROR: Failed to open 'user://logs/godot2026-10-21T20.52.01.log'.
    at: copy (core/io/dir_access.cpp:429)
 ERROR: Failed to open log file for writing: user://logs/godot.log
    at: rotate_file (core/io/logger.cpp:169)
@@ -80,12 +80,16 @@ PASS: interact2 uses a visible-bounds foot anchor
 PASS: rusk uses a visible-bounds foot anchor
 PASS: villager uses a visible-bounds foot anchor
 PARALLAX TEST: PASS (0 failures)
-ERROR: Failed to open 'user://logs/godot2026-10-20T00.49.14.log'.
+ERROR: Failed to open 'user://logs/godot2026-10-21T20.52.05.log'.
    at: copy (core/io/dir_access.cpp:429)
 ERROR: Failed to open log file for writing: user://logs/godot.log
    at: rotate_file (core/io/logger.cpp:169)
 ERROR: Condition "ret != noErr" is true. Returning: ""
    at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+WARNING: 12 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 5 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)
 
 Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
 
@@ -120,10 +124,12 @@ PASS: Half-health Sentinel enters its second phase
 PASS: Second phase telegraphs a root wave
 PASS: Root-wave safe pocket and facing remain locked during the warning
 PASS: Visible safe ground avoids the Sentinel root wave
-PASS: Root-wave danger ground deals 55 vitality damage
+PASS: Root-wave danger ground deals 45 vitality damage
 PASS: A single wave does not chain-hit the player
 PASS: Losing to the boss resets it for a quick checkpoint retry
 PASS: Checkpoint retry preserves solved puzzle and optional discovery
+PASS: First depletion keeps the arena sealed for rejuvenation
+PASS: Sentinel returns with full health in berserk mode
 PASS: Sentinel defeat opens the arena and removes attack targeting
 PASS: Golden Fragment reveals the generated orchard memory
 PASS: Memory closes after skippable fragment dialogue
@@ -132,12 +138,16 @@ PASS: Fragment and exit complete The Forgotten Trail
 PASS: Chapter restart resets puzzle, optional token, fragment and boss
 PASS: Restart returns to a usable chapter title
 CHAPTER 1 TEST: PASS (0 failures)
-ERROR: Failed to open 'user://logs/godot2026-10-20T00.49.15.log'.
+ERROR: Failed to open 'user://logs/godot2026-10-21T20.52.06.log'.
    at: copy (core/io/dir_access.cpp:429)
 ERROR: Failed to open log file for writing: user://logs/godot.log
    at: rotate_file (core/io/logger.cpp:169)
 ERROR: Condition "ret != noErr" is true. Returning: ""
    at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+WARNING: 8 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 2 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)
 
 Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
 
@@ -155,7 +165,7 @@ PASS Recovery input buffers next sword swing
 PASS Buffered follow-up uses second combo tempo
 PASS Respawn clears attack combo state
 Health combat: 13 checks; 0 failures
-ERROR: Failed to open 'user://logs/godot2026-10-20T00.49.34.log'.
+ERROR: Failed to open 'user://logs/godot2026-10-21T20.52.29.log'.
    at: copy (core/io/dir_access.cpp:429)
 ERROR: Failed to open log file for writing: user://logs/godot.log
    at: rotate_file (core/io/logger.cpp:169)
@@ -176,7 +186,7 @@ PASS Defeat removes attack targeting and visible body
 PASS Checkpoint reset restores defeated enemy at original spawn
 PASS Narrative inactivity clears travelling hazards
 New enemy checks: 11
-ERROR: Failed to open 'user://logs/godot2026-10-20T00.49.34.log'.
+ERROR: Failed to open 'user://logs/godot2026-10-21T20.52.30.log'.
    at: copy (core/io/dir_access.cpp:429)
 ERROR: Failed to open log file for writing: user://logs/godot.log
    at: rotate_file (core/io/logger.cpp:169)
@@ -186,32 +196,433 @@ ERROR: Condition "ret != noErr" is true. Returning: ""
 Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
 
 PASS: Three distinct authored exploration rooms are available
-PASS: Canopy entrance has an accessible interaction prompt
+PASS: Crossing the canopy entrance automatically enters the mandatory first jungle
 PASS: Canopy transition places Tavi on solid terrain
 PASS: Exploration camera stays within the room
-PASS: Exploration rooms contain two distinct enemy encounters
+PASS: Exploration rooms contain seven varied enemy encounters
 PASS: Canopy lower gap is traversable with an ordinary jump
 PASS: Canopy upper route begins with a reachable climb
 PASS: Canopy second climbing step is reachable
 PASS: Canopy watchpost approach is reachable
 PASS: Full canopy climb and upper gap reaches the discovery through movement
 PASS: Climbing the canopy route reveals the hidden map
-PASS: Canopy return shortcut restores the main trail
+PASS: Unsolved canopy cannot be skipped through the return method
+PASS: Boss cannot start before mandatory jungle routes clear
+PASS: Solving the canopy seal awards trail points
+PASS: A solved jungle puzzle cannot farm repeat points
+PASS: Crossing the solved canopy exit automatically restores the main trail
+PASS: Mandatory jungle 1 automatically enters along the main trail
 PASS: Room 1 entry is grounded
 PASS: Flooded root stepping stones are physically traversable
 PASS: Room 1 rewards its elevated exploration route
 PASS: Exploration death restarts the same room
+PASS: Mandatory jungle 1 cannot exit before its puzzle
+PASS: Jungle 1 automatically advances after its solved seal
+PASS: Mandatory jungle 2 automatically enters along the main trail
 PASS: Room 2 entry is grounded
 PASS: Room 2 rewards its elevated exploration route
 PASS: Exploration death restarts the same room
-PASS: Three optional discoveries persist after returning
-PASS: Side trails preserve rune and boss progression gates
+PASS: Mandatory jungle 2 cannot exit before its puzzle
+PASS: Jungle 2 automatically advances after its solved seal
+PASS: Three elevated discoveries persist after mandatory routes clear
+PASS: Jungle completion preserves the temple rune and boss gates
+PASS: All three mandatory routes are recorded before the boss
 PASS: Interconnected room transitions hide the prior room
 PASS: Main trail camera and HUD restore after exploration
 JUNGLE FAILURES: 0
-ERROR: Failed to open 'user://logs/godot2026-10-20T00.49.34.log'.
+ERROR: Failed to open 'user://logs/godot2026-10-21T20.52.30.log'.
    at: copy (core/io/dir_access.cpp:429)
 ERROR: Failed to open log file for writing: user://logs/godot.log
    at: rotate_file (core/io/logger.cpp:169)
 ERROR: Condition "ret != noErr" is true. Returning: ""
    at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS: Jungle 0 expands to 4600 pixels
+PASS: Jungle 0 has seven authored patrol locations
+PASS: Jungle 0 root seal physically blocks the exit
+PASS: Jungle 0 wrong sequence safely resets
+PASS: Jungle 0 distinct puzzle opens physical root seal
+PASS: Jungle 0 unlocked exit crosses on real ground
+PASS: Jungle 0 authored gap reaches safe terrain
+PASS: Jungle 0 authored gap reaches safe terrain
+PASS: Jungle 1 expands to 4600 pixels
+PASS: Jungle 1 has seven authored patrol locations
+PASS: Jungle 1 root seal physically blocks the exit
+PASS: Jungle 1 wrong sequence safely resets
+PASS: Jungle 1 distinct puzzle opens physical root seal
+PASS: Jungle 1 unlocked exit crosses on real ground
+PASS: Jungle 1 authored gap reaches safe terrain
+PASS: Jungle 1 authored gap reaches safe terrain
+PASS: Jungle 1 authored gap reaches safe terrain
+PASS: Jungle 2 expands to 4600 pixels
+PASS: Jungle 2 has seven authored patrol locations
+PASS: Jungle 2 root seal physically blocks the exit
+PASS: Jungle 2 wrong sequence safely resets
+PASS: Jungle 2 distinct puzzle opens physical root seal
+PASS: Jungle 2 unlocked exit crosses on real ground
+ERROR: Failed to open 'user://logs/godot2026-10-21T20.52.43.log'.
+   at: copy (core/io/dir_access.cpp:429)
+ERROR: Failed to open log file for writing: user://logs/godot.log
+   at: rotate_file (core/io/logger.cpp:169)
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS: First depletion collapses without clearing the encounter
+PASS: Collapse rejects sword damage
+PASS: Generated collapse leads into rejuvenation animation
+PASS: Rejuvenation rejects sword damage
+PASS: Rejuvenation restores full health and unlocks berserk exactly once
+PASS: Distant target provokes a telegraphed gap-closing charge
+PASS: Charge warning locks facing rather than tracking the dodge
+PASS: Berserk eruption warns two fixed root locations
+PASS: Berserk swipe deals stronger health damage
+PASS: One attack cannot repeatedly damage the player
+PASS: Second depletion alone unlocks the final defeat reward gate
+PASS: Retry resets both boss lives and berserk state
+ERROR: Failed to open 'user://logs/godot2026-10-21T20.52.54.log'.
+   at: copy (core/io/dir_access.cpp:429)
+ERROR: Failed to open log file for writing: user://logs/godot.log
+   at: rotate_file (core/io/logger.cpp:169)
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS: Journey starts with zero trail points
+PASS: Enemy kill grants points and animated reward burst
+PASS: Checkpoint enemy repeat cannot farm points
+PASS: Chest cannot be opened before boss completion
+PASS: First boss depletion does not grant chest or victory
+PASS: Final berserk defeat grants chest and 1000 points
+PASS: Golden Fragment remains gated behind reward chest
+PASS: Reward chest starts opening animation
+PASS: Chest grants Rootward Charm and500points
+PASS: Chest reward is one-shot
+PASS: Opened chest unlocks the story fragment
+REWARD FAILURES: 0 CHECKS: 11
+ERROR: Failed to open 'user://logs/godot2026-10-21T20.52.55.log'.
+   at: copy (core/io/dir_access.cpp:429)
+ERROR: Failed to open log file for writing: user://logs/godot.log
+   at: rotate_file (core/io/logger.cpp:169)
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+WARNING: 52 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 10 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)
+
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS: Jungle layer0 has restrained 0.05 camera speed
+PASS: Layer0 crosses former wrap boundary without a position jump
+PASS: Layer0 restrains vertical background drift during jumps
+PASS: Jungle layer1 has restrained 0.12 camera speed
+PASS: Layer1 crosses former wrap boundary without a position jump
+PASS: Layer1 restrains vertical background drift during jumps
+PASS: Jungle layer2 has restrained 0.24 camera speed
+PASS: Layer2 crosses former wrap boundary without a position jump
+PASS: Layer2 restrains vertical background drift during jumps
+PASS: Jungle layer3 has restrained 0.45 camera speed
+PASS: Layer3 crosses former wrap boundary without a position jump
+PASS: Layer3 restrains vertical background drift during jumps
+PASS: Room0 foliage360 contacts solid terrain
+PASS: Room0 foliage570 contacts solid terrain
+PASS: Room0 foliage1180 contacts solid terrain
+PASS: Room0 foliage1780 contacts solid terrain
+PASS: Room0 foliage2390 contacts solid terrain
+PASS: Room0 foliage2670 contacts solid terrain
+PASS: Room0 foliage3070 contacts solid terrain
+PASS: Room0 foliage3490 contacts solid terrain
+PASS: Room0 foliage3840 contacts solid terrain
+PASS: Room0 foliage4250 contacts solid terrain
+PASS: Room1 foliage360 contacts solid terrain
+PASS: Room1 foliage570 contacts solid terrain
+PASS: Room1 foliage1180 contacts solid terrain
+PASS: Room1 foliage1780 contacts solid terrain
+PASS: Room1 foliage2390 contacts solid terrain
+PASS: Room1 foliage2670 contacts solid terrain
+PASS: Room1 foliage3070 contacts solid terrain
+PASS: Room1 foliage3490 contacts solid terrain
+PASS: Room1 foliage3840 contacts solid terrain
+PASS: Room1 foliage4250 contacts solid terrain
+PASS: Room2 foliage360 contacts solid terrain
+PASS: Room2 foliage570 contacts solid terrain
+PASS: Room2 foliage1180 contacts solid terrain
+PASS: Room2 foliage1780 contacts solid terrain
+PASS: Room2 foliage2390 contacts solid terrain
+PASS: Room2 foliage2670 contacts solid terrain
+PASS: Room2 foliage3070 contacts solid terrain
+PASS: Room2 foliage3490 contacts solid terrain
+PASS: Room2 foliage3840 contacts solid terrain
+PASS: Room2 foliage4250 contacts solid terrain
+PASS: Main-trailENV-02_decorative_props_00 ignores transparent bottom padding
+PASS: Main-trailENV-02_decorative_props_04 ignores transparent bottom padding
+PASS: Main trail parallax speed matches restrained jungle profile
+PASS: Main trail parallax speed matches restrained jungle profile
+PASS: Main trail parallax speed matches restrained jungle profile
+PASS: Main trail parallax speed matches restrained jungle profile
+JUNGLE VISUAL CHECKS: 48 FAILURES: 0
+ERROR: Failed to open 'user://logs/godot2026-10-21T20.52.56.log'.
+   at: copy (core/io/dir_access.cpp:429)
+ERROR: Failed to open log file for writing: user://logs/godot.log
+   at: rotate_file (core/io/logger.cpp:169)
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS: Completion backdrop stays hidden during title
+PASS: Popup entrance completes while gameplay is paused
+PASS: Backdrop dims the full game viewport
+PASS: Backdrop blocks game input behind the active popup
+PASS: Three live text blocks fit safely inside the artwork
+PASS: Replay has a large visible keyboard-focusable hit target
+PASS: Replay hit target lies within the frontmost modal
+PASS: Actual mouse Replay click reloads a usable chapter title
+COMPLETION POPUP: 8 checks; 0 failures
+ERROR: Failed to open 'user://logs/godot2026-10-21T20.52.57.log'.
+   at: copy (core/io/dir_access.cpp:429)
+ERROR: Failed to open log file for writing: user://logs/godot.log
+   at: rotate_file (core/io/logger.cpp:169)
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+WARNING: 8 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 2 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)
+
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS: World lighting uses real canvas modulation
+PASS: Player light uses a real runtime radial PointLight2D
+PASS: Player light follows the actor
+PASS: Companion light follows Mote
+PASS: Actor casts a moving shadow from nearby landmark lights
+PASS: Temple changes the ambient lighting palette
+PASS: Terrain casts real runtime shadows
+PASS: Temple flames have real soft-core and broad-falloff light pairs
+PASS: Temple light centres match the authored lanterns including mirrored tiles
+PASS: Temple light follows parallax motion instead of drifting from its source
+PASS: Offscreen temple lights are culled to bound render cost
+PASS: Boss revival triggers a restrained realtime warm light pulse
+PASS: Shadow lights are bounded for rendering performance
+PASS: Jungle 1 has its own active realtime light setup
+PASS: Jungle 2 has its own active realtime light setup
+PASS: Jungle 3 has its own active realtime light setup
+PASS: Reduced effects removes light pulsation and increases visibility
+PASS: Realtime light animation pauses with gameplay
+PASS: Village has real Hearthlight and lantern emitters
+PASS: Hearthlight failure dims its real light and village ambient
+PASS: World modulation is isolated from the HUD canvas
+LIGHTING: 21/21 checks passed
+ERROR: Failed to open 'user://logs/godot2026-10-21T20.52.59.log'.
+   at: copy (core/io/dir_access.cpp:429)
+ERROR: Failed to open log file for writing: user://logs/godot.log
+   at: rotate_file (core/io/logger.cpp:169)
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS: Memory popup retains both live generated orchard layers
+PASS: Orchard layers share the large framed image window
+PASS: First memory line is copied into the parchment text
+PASS: Memory overlay replaces the legacy dialogue box
+PASS: Memory dialogue suspends player movement
+PASS: Memory text and Continue button have separate layout space
+PASS: Memory controls remain inside the botanical frame
+PASS: Actual mouse click advances exactly one memory line
+PASS: Pause hides memory artwork and backdrop while showing pause menu
+PASS: Resume restores the memory popup on the same line
+PASS: Enter action advances exactly one memory line without button focus duplication
+PASS: Final third line closes memory and backdrop and restores player movement
+MEMORY_POPUP_TESTS: 12/12 passed
+ERROR: Failed to open 'user://logs/godot2026-10-21T20.53.00.log'.
+   at: copy (core/io/dir_access.cpp:429)
+ERROR: Failed to open log file for writing: user://logs/godot.log
+   at: rotate_file (core/io/logger.cpp:169)
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+WARNING: 16 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 4 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)
+
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS: Encounter HUD stays hidden on title menu
+PASS: Playing chapter shows the framed live objective
+PASS: Objective detail mirrors current chapter instruction
+PASS: Points plaque reads the live reward total
+PASS: Botanical notice displays live encounter feedback
+PASS: Boss encounter updates the objective heading
+PASS: Boss phase label retains controller child-zero contract
+PASS: Boss health remains a live proportional fill
+PASS: Wide health bar retains generated Sentinel portrait
+PASS: Boss bar and objective occupy distinct horizontal regions
+PASS: Pause hides encounter panels
+PASS: Completion popup hides encounter panels
+ENCOUNTER_HUD_TESTS: 12/12 passed
+ERROR: Failed to open 'user://logs/godot2026-10-21T20.53.02.log'.
+   at: copy (core/io/dir_access.cpp:429)
+ERROR: Failed to open log file for writing: user://logs/godot.log
+   at: rotate_file (core/io/logger.cpp:169)
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+WARNING: 19 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 4 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)
+
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS: Exact title menu is installed in the game UI
+PASS: Exact title reference has a provenance manifest entry
+PASS: Runtime title preserves the exact supplied pixels and available source bytes
+PASS: Title retains the original 1672 by 941 pixel dimensions
+PASS: The displayed full-screen texture is the exact archived reference
+PASS: Title pauses gameplay before starting
+PASS: Legacy title text and buttons are hidden
+PASS: Exact title artwork covers the full 1280 by 720 game view
+PASS: Both artwork buttons have live visible input targets
+PASS: Button targets align with the supplied Begin and Replay artwork
+PASS: Keyboard start enters Chapter 1 and hides exact title artwork
+PASS: Actual Begin Chapter 1 mouse click skips the prologue and starts the chapter
+PASS: Actual Replay mouse click starts the prologue without another title
+EXACT_TITLE_MENU_TESTS: 13/13 passed
+ERROR: Failed to open 'user://logs/godot2026-10-21T20.53.03.log'.
+   at: copy (core/io/dir_access.cpp:429)
+ERROR: Failed to open log file for writing: user://logs/godot.log
+   at: rotate_file (core/io/logger.cpp:169)
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+WARNING: 12 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 5 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)
+
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS: Prologue installs the shared botanical dialogue helper
+PASS: Botanical dialogue stays hidden on the title
+PASS: Botanical dialogue replaces the legacy render while keeping movement suspended
+PASS: Reusable generated botanical artwork is loaded
+PASS: Speaker and body are live text split from the dialogue model
+PASS: Text, Continue and player feet have separate safe layout space
+PASS: Continue leaves keyboard dialogue input under the controller
+PASS: Actual mouse Continue advances exactly one line and displays narration
+PASS: Pause hides the dialogue artwork and leaves the pause menu interactive
+PASS: Resume restores the same dialogue line
+PASS: Keyboard Continue advances exactly one line without duplicate focus activation
+PASS: Final Continue closes the artwork and restores player control
+PASS: Longest Rusk speech remains readable and fits the parchment body
+PASS: Longest health tutorial wraps within the same safe dialogue body
+PASS: Pause controls share serif typography and emerald-gold button styling
+PASS: Chapter 1 uses the same dialogue helper
+PASS: Orchard memory keeps its dedicated popup without a second dialogue card
+BOTANICAL_DIALOGUE_TESTS: 17/17 passed
+ERROR: Failed to open 'user://logs/godot2026-10-21T20.53.06.log'.
+   at: copy (core/io/dir_access.cpp:429)
+ERROR: Failed to open log file for writing: user://logs/godot.log
+   at: rotate_file (core/io/logger.cpp:169)
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+WARNING: 19 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 4 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)
+
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS: Exact title installs a dedicated menu lighting system
+PASS: Six real PointLight2D sources match reference lanterns
+PASS: Every menu lantern uses a live radial light texture
+PASS: Menu lights affect only the reference backdrop on UI layer 1
+PASS: Lantern coordinates scale from reference to the 1280 by 720 canvas
+PASS: Restrained light energy preserves reference artwork and typography
+PASS: Lantern flicker remains active while the title pauses gameplay
+PASS: Reduced effects restores the unchanged reference image
+PASS: Menu lighting hides when gameplay begins
+PASS: Hidden menu lights cannot illuminate gameplay
+TITLE_LIGHTING_TESTS: 10/10 passed
+ERROR: Failed to open 'user://logs/godot2026-10-21T20.53.08.log'.
+   at: copy (core/io/dir_access.cpp:429)
+ERROR: Failed to open log file for writing: user://logs/godot.log
+   at: rotate_file (core/io/logger.cpp:169)
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS: Chest begins anticipation while granting gameplay reward immediately
+PASS: Visual timeline preserves immediate charm and point grant
+PASS: Anticipation transitions into unlatching
+PASS: Lid opening follows the latch
+PASS: Charm reveal ramps smoothly after the lid opens
+PASS: Pause freezes chest and ambient particle clocks
+PASS: Reduced effects retains readable reward reveal without orbit particles
+PASS: Chest settles into stable looted state
+PASS: Reinteraction cannot restart the reward or animation
+REWARD ANIMATION FAILURES: 0 CHECKS: 9
+ERROR: Failed to open 'user://logs/godot2026-10-21T20.53.09.log'.
+   at: copy (core/io/dir_access.cpp:429)
+ERROR: Failed to open log file for writing: user://logs/godot.log
+   at: rotate_file (core/io/logger.cpp:169)
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS: Reward sources stay dark until the boss is defeated
+PASS: Defeated boss reveals real chest, fragment and portal PointLights
+PASS: Chest light is anchored at the lock and lid
+PASS: Fragment illumination follows the floating fragment
+PASS: Chest reveal warms nearby stone without a white flash
+PASS: Opened chest settles into a softer warm glow
+PASS: Collected fragment light fades instead of popping off
+PASS: Collected fragment vanishes while the onward portal strengthens
+PASS: Reduced effects suppresses chest reveal pulses
+PASS: Reward lighting clock stops while paused
+PASS: Distant reward lights are culled
+PASS: Reward lights add no extra shadow render passes
+PASS: Restart removes reward light immediately
+REWARD LIGHTING: 13/13 checks passed
+ERROR: Failed to open 'user://logs/godot2026-10-21T20.53.10.log'.
+   at: copy (core/io/dir_access.cpp:429)
+ERROR: Failed to open log file for writing: user://logs/godot.log
+   at: rotate_file (core/io/logger.cpp:169)
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+WARNING: 8 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 2 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)
+
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS: Reward HUD does not appear on title
+PASS: Defeated Sentinel reveals slim reward objective
+PASS: Reward objective replaces encounter card
+PASS: Chest proximity provides one readable use prompt
+PASS: Chest use prompt remains in safe viewport bounds
+PASS: Chest button invokes existing one-shot reward interaction
+PASS: Opened chest releases ordinary interaction hints
+PASS: Objective advances to fragment after chest reward
+PASS: Collected fragment advances objective toward exit
+PASS: Reward HUD hides while paused
+PASS: Ordinary encounter objective returns outside reward phase
+REWARD_SCENE_HUD_TESTS: 11/11 passed
+ERROR: Failed to open 'user://logs/godot2026-10-21T20.53.11.log'.
+   at: copy (core/io/dir_access.cpp:429)
+ERROR: Failed to open log file for writing: user://logs/godot.log
+   at: rotate_file (core/io/logger.cpp:169)
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+WARNING: 20 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 5 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)

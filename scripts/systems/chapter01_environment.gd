@@ -11,6 +11,7 @@ var fragment_collected := false
 var rune_progress := 0
 var rune_hint := -1
 var textures: Dictionary = {}
+var prop_regions: Dictionary = {}
 var forest_layers: Array[Parallax2D] = []
 var temple_layers: Array[Parallax2D] = []
 var clock := 0.0
@@ -28,12 +29,29 @@ func _ready() -> void:
 
 func _cache(key: String) -> void:
 	textures[key] = load(ART + key + ".png")
+	if "_props_" in key:
+		var texture: Texture2D = textures[key]
+		var image := texture.get_image()
+		var left := image.get_width()
+		var top := image.get_height()
+		var right := -1
+		var bottom := -1
+		# Export canvases retain faint atlas residue below the actual artwork.
+		# Anchor the visible silhouette, ignoring nearly transparent pixels.
+		for y in range(image.get_height()):
+			for x in range(image.get_width()):
+				if image.get_pixel(x, y).a < 0.125: continue
+				left = mini(left, x)
+				top = mini(top, y)
+				right = maxi(right, x)
+				bottom = maxi(bottom, y)
+		prop_regions[key] = Rect2(left, top, right - left + 1, bottom - top + 1) if right >= left else Rect2(Vector2.ZERO, texture.get_size())
 
 func _build_layers(pack: String, collection: Array[Parallax2D]) -> void:
 	for index in range(4):
 		var layer := Parallax2D.new()
 		layer.name = pack + ["Light", "Horizon", "Architecture", "Canopy"][index]
-		layer.scroll_scale = Vector2([0.15, 0.35, 0.6, 1.1][index], 1.0)
+		layer.scroll_scale = Vector2([0.05, 0.12, 0.24, 0.45][index], 0.12)
 		layer.z_index = [-40, -35, -30, -5][index]
 		# Finite world coverage; no native repeat can leak a temple beyond its transition.
 		add_child(layer)
@@ -47,6 +65,8 @@ func _build_layers(pack: String, collection: Array[Parallax2D]) -> void:
 			sprite.scale = Vector2(1801.0, 1000.0) / sprite.texture.get_size()
 			sprite.flip_h = posmod(x / 1800, 2) == 0
 			sprite.modulate = [Color("9ac4bd"), Color(0.48,0.65,0.64,0.2), Color(0.55,0.69,0.67,0.65), Color(0.55,0.72,0.67,0.65)][index]
+			if pack == "ENV-03":
+				sprite.modulate = [Color("e0ddc9"),Color(0.70,0.68,0.53,0.2),Color(0.72,0.76,0.70,0.65),Color(0.64,0.70,0.62,0.60)][index]
 			if index == 2 or index == 3:
 				var shader := Shader.new()
 				shader.code = "shader_type canvas_item; varying vec4 tint; void vertex(){tint=COLOR;} void fragment(){vec4 c=texture(TEXTURE,UV); c.a *= 1.0-smoothstep(" + ("0.60,0.87" if index == 2 else "0.12,0.42") + ",UV.y); COLOR=c*tint;}"
@@ -58,7 +78,7 @@ func _build_layers(pack: String, collection: Array[Parallax2D]) -> void:
 func _process(delta: float) -> void:
 	clock += delta
 	var camera := get_viewport().get_camera_2d()
-	var camera_x: float = camera.global_position.x if camera else 0.0
+	var camera_x: float = camera.get_screen_center_position().x if camera else 0.0
 	var blend := smoothstep(4100.0, 4900.0, camera_x)
 	for layer in forest_layers: layer.modulate.a = 1.0 - blend
 	for layer in temple_layers: layer.modulate.a = blend
@@ -70,8 +90,9 @@ func _image(key: String, rect: Rect2, tint := Color.WHITE) -> void:
 func _prop(key: String, foot: Vector2, bounds: Vector2, tint := Color.WHITE) -> void:
 	if not textures.has(key): return
 	var texture: Texture2D = textures[key]
-	var size := texture.get_size() * minf(bounds.x / texture.get_width(), bounds.y / texture.get_height())
-	draw_texture_rect(texture, Rect2(foot - Vector2(size.x * 0.5, size.y), size), false, tint)
+	var region: Rect2 = prop_regions.get(key, Rect2(Vector2.ZERO, texture.get_size()))
+	var size := region.size * minf(bounds.x / region.size.x, bounds.y / region.size.y)
+	draw_texture_rect_region(texture, Rect2(foot - Vector2(size.x * 0.5, size.y), size), region, tint)
 
 func _terrain(rect: Rect2) -> void:
 	if rect.position.x < 4500 and rect.end.x > 4500:
@@ -115,7 +136,7 @@ func _draw() -> void:
 		_prop("ENV-02_interactive_props_%02d" % (3 if bridge_open else 0), Vector2(x,620), Vector2(225,270))
 	# Temple threshold, story relief, safe checkpoint, then a clear combat chamber.
 	_prop("ENV-03_interactive_props_05", Vector2(4700,620), Vector2(310,365))
-	_prop("ENV-03_decorative_props_00", Vector2(5300,575), Vector2(250,220))
+	_prop("ENV-03_decorative_props_00", Vector2(5300,620), Vector2(250,220))
 	for x in [5600,6440,8220,8800]:
 		_prop("ENV-03_decorative_props_01",Vector2(x,620),Vector2(120,355),Color(0.62,0.72,0.73))
 	_prop("ENV-03_interactive_props_%02d" % (3 if checkpoint_active else 0), Vector2(6100,620), Vector2(150,185))
@@ -123,7 +144,7 @@ func _draw() -> void:
 	if boss_active and not boss_defeated:
 		_prop("ENV-03_interactive_props_02",Vector2(6500,620),Vector2(100,240),Color(0.75,0.52,0.42,0.9))
 	_prop("ENV-03_interactive_props_%02d" % (5 if boss_defeated else 2),Vector2(8140,620),Vector2(140,230))
-	_prop("ENV-03_interactive_props_%02d" % (4 if boss_defeated and not fragment_collected else 1),Vector2(7950,620),Vector2(145,170))
+	_prop("ENV-03_interactive_props_01",Vector2(7950,620),Vector2(145,105))
 	_prop("ENV-03_interactive_props_%02d" % (5 if fragment_collected else 2), Vector2(8600,620),Vector2(220,290))
 	for x in [4900,5750,6320,8370]:
 		_prop("ENV-03_decorative_props_05",Vector2(x,620),Vector2(85,55))

@@ -3,7 +3,7 @@
   "project_checklist_copy": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/lanterns_underroot_master_asset_checklist.md",
   "asset_library_root": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production",
   "source_chat": "https://chatgpt.com/share/6ad136a4-4cc8-83ee-9742-05bc90e2a1dc",
-  "last_updated": "2026-10-20T00:45:57.707634+05:30",
+  "last_updated": "2026-10-21",
   "checked_count": 197,
   "asset_count": 217,
   "assets": [
@@ -119,7 +119,7 @@
       "asset_id": "TAVI-010",
       "title": "Idle",
       "phase": "01",
-      "subsection": "Core animations \u2014 prototype priority",
+      "subsection": "Core animations — prototype priority",
       "checked": true,
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010",
       "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-010/TAVI-010_idle_source_sheet.png",
@@ -256,7 +256,7 @@
       "asset_id": "TAVI-011",
       "title": "Run",
       "phase": "01",
-      "subsection": "Core animations \u2014 prototype priority",
+      "subsection": "Core animations — prototype priority",
       "checked": true,
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-011",
       "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-011/TAVI-011_run_source_sheet.png",
@@ -445,7 +445,7 @@
       "asset_id": "TAVI-012",
       "title": "Jump start",
       "phase": "01",
-      "subsection": "Core animations \u2014 prototype priority",
+      "subsection": "Core animations — prototype priority",
       "checked": true,
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-012",
       "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-012/TAVI-012_jump_start_source_sheet.png",
@@ -582,7 +582,7 @@
       "asset_id": "TAVI-013",
       "title": "Rising jump",
       "phase": "01",
-      "subsection": "Core animations \u2014 prototype priority",
+      "subsection": "Core animations — prototype priority",
       "checked": true,
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-013",
       "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-013/TAVI-013_jump_rise_source_sheet.png",
@@ -719,7 +719,7 @@
       "asset_id": "TAVI-014",
       "title": "Falling",
       "phase": "01",
-      "subsection": "Core animations \u2014 prototype priority",
+      "subsection": "Core animations — prototype priority",
       "checked": true,
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-014",
       "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-014/TAVI-014_jump_fall_source_sheet.png",
@@ -856,7 +856,7 @@
       "asset_id": "TAVI-015",
       "title": "Landing",
       "phase": "01",
-      "subsection": "Core animations \u2014 prototype priority",
+      "subsection": "Core animations — prototype priority",
       "checked": true,
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-015",
       "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-015/TAVI-015_landing_source_sheet.png",
@@ -993,7 +993,7 @@
       "asset_id": "TAVI-016",
       "title": "Sword attack",
       "phase": "01",
-      "subsection": "Core animations \u2014 prototype priority",
+      "subsection": "Core animations — prototype priority",
       "checked": true,
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016",
       "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-016/TAVI-016_sword_attack_source_sheet.png",
@@ -1130,7 +1130,7 @@
       "asset_id": "TAVI-017",
       "title": "Hurt reaction",
       "phase": "01",
-      "subsection": "Core animations \u2014 prototype priority",
+      "subsection": "Core animations — prototype priority",
       "checked": true,
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-017",
       "stage": "downloaded and visually reviewed prototype; cleanup and model consistency review required; not production approved",
@@ -1145,7 +1145,7 @@
       "asset_id": "TAVI-018",
       "title": "Death",
       "phase": "01",
-      "subsection": "Core animations \u2014 prototype priority",
+      "subsection": "Core animations — prototype priority",
       "checked": true,
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-018",
       "stage": "six-pose death prototype generated and reviewed; halo, continuity and alignment cleanup pending; not production approved",
@@ -1159,7 +1159,7 @@
       "asset_id": "TAVI-019",
       "title": "Interact with object",
       "phase": "01",
-      "subsection": "Core animations \u2014 prototype priority",
+      "subsection": "Core animations — prototype priority",
       "checked": true,
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-019",
       "stage": "six-pose interaction prototype generated and reviewed; continuity and in-engine review pending; not production approved",
@@ -1173,7 +1173,7 @@
       "asset_id": "TAVI-020",
       "title": "Activate rune with sword",
       "phase": "01",
-      "subsection": "Core animations \u2014 prototype priority",
+      "subsection": "Core animations — prototype priority",
       "checked": true,
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-020",
       "stage": "six-pose rune_activation prototype generated and reviewed; continuity and in-engine review pending; not production approved",
@@ -1187,7 +1187,7 @@
       "asset_id": "TAVI-021",
       "title": "Lantern reveal ability",
       "phase": "01",
-      "subsection": "Core animations \u2014 prototype priority",
+      "subsection": "Core animations — prototype priority",
       "checked": true,
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_01_main_character_tavi/core_animations/TAVI-021",
       "stage": "six-pose lantern_reveal prototype generated and reviewed; continuity and in-engine review pending; not production approved",
@@ -5622,7 +5622,95 @@
       "exports_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-014/exports",
       "previews_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-014/previews",
       "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-014/source_images/PROP-014_sheet_original.png",
-      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-014/metadata.json"
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-014/metadata.json",
+      "runtime_integrations": {
+        "chapter01_rewards": {
+          "updated": "2026-10-20T12:46:00.590115+05:30",
+          "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+          "status": "selected generated chest states integrated; gameplay validation tracked separately",
+          "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/rewards/manifest.json",
+          "record": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-rewards-assets.json",
+          "runtime_paths": [
+            "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/rewards/closed.png",
+            "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/rewards/unlatched.png",
+            "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/rewards/open_with_generic_contents.png",
+            "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/rewards/open_looted.png"
+          ],
+          "files": [
+            {
+              "asset_id": "PROP-014",
+              "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-014/exports/PROP-014_closed.png",
+              "runtime": "assets/runtime/chapter01/rewards/closed.png",
+              "source_sha256": "08f254a0583c73f4033e52145574c2f1127a92ff97c795070140585fefe71913",
+              "runtime_sha256": "52c965bf2e3800ccb5133524636f15ad04c92d8db0fa030df278590f08ac870a",
+              "crop": [
+                24,
+                131,
+                488,
+                489
+              ],
+              "dimensions": [
+                464,
+                358
+              ]
+            },
+            {
+              "asset_id": "PROP-014",
+              "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-014/exports/PROP-014_unlatched.png",
+              "runtime": "assets/runtime/chapter01/rewards/unlatched.png",
+              "source_sha256": "86578f9f67580212735df1b2d643d58edf8de62cfa4e34b954c86e0b5d7ce75e",
+              "runtime_sha256": "8717b71d9b8451cb8aa5dc573de539c74f8cd9c3fef30654db02eb79f5392408",
+              "crop": [
+                24,
+                131,
+                487,
+                489
+              ],
+              "dimensions": [
+                463,
+                358
+              ]
+            },
+            {
+              "asset_id": "PROP-014",
+              "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-014/exports/PROP-014_open_with_generic_contents.png",
+              "runtime": "assets/runtime/chapter01/rewards/open_with_generic_contents.png",
+              "source_sha256": "1898c3b893ee901d254778f612270a4b081314355f032e683ab8ae4b9420c97d",
+              "runtime_sha256": "1fae8df113e4c221450786f1cb50c28c2b4004ef843114d737ccabae1a19d11b",
+              "crop": [
+                23,
+                35,
+                488,
+                490
+              ],
+              "dimensions": [
+                465,
+                455
+              ]
+            },
+            {
+              "asset_id": "PROP-014",
+              "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-014/exports/PROP-014_open_looted.png",
+              "runtime": "assets/runtime/chapter01/rewards/open_looted.png",
+              "source_sha256": "264196f02a19c7459f858be730e91f7e23aff6539fffdcf6517b0f50461c5ee9",
+              "runtime_sha256": "d15ce1a6be794a31cb017d8f659454ec354ceb444065ce77b40f98062033989b",
+              "crop": [
+                22,
+                34,
+                490,
+                490
+              ],
+              "dimensions": [
+                468,
+                456
+              ]
+            }
+          ],
+          "provenance": "Mechanical alpha-bounds crops from preserved generated PROP-014 exports. Original sources unchanged.",
+          "release_approved": false
+        }
+      },
+      "runtime_integrated": true
     },
     {
       "asset_id": "OBJ-001",
@@ -8068,7 +8156,7 @@
       "subsection": "HUD elements",
       "checked": true,
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008",
-      "source_count": 1,
+      "source_count": 2,
       "production_approved": false,
       "stage": "selected Chapter 1 runtime exports integrated and desktop-reviewed; full-pack, listening and release/device approval pending",
       "exports_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-008/exports",
@@ -8151,13 +8239,55 @@
               ]
             }
           ]
+        },
+        "encounter_hud": {
+          "updated": "2026-10-20",
+          "status": "native Godot layout and live health-fill review completed; final device/art approval pending",
+          "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+          "runtime_paths": [
+            "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/UI-008_sentinel_portrait_frame.png"
+          ],
+          "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/manifest.json",
+          "files": [
+            {
+              "asset_id": "UI-008",
+              "source": "assets/production/phase_08_user_interface/hud_elements/UI-008/source_images/UI-008_sentinel_portrait_bar_generation_02.png",
+              "export": "assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_sentinel_portrait_frame_02.png",
+              "runtime": "assets/runtime/chapter01/ui/UI-008_sentinel_portrait_frame.png",
+              "source_sha256": "7b507b02979d5eb72f07585fbc699c86987d98921f85f20be580f0b5d6c41db3",
+              "sha256": "8fbde28bf364c042c06bdba0a18112d35c96bdeeeca3fedb71213e9bd5595bcf",
+              "source_dimensions": [
+                2172,
+                724
+              ],
+              "dimensions": [
+                2118,
+                532
+              ],
+              "mode": "RGBA",
+              "crop": [
+                26,
+                95,
+                2144,
+                627
+              ],
+              "crop_method": "Bounding box of alpha > 32, preserving original pixels; no resize or painting.",
+              "role": "sentinel_portrait_boss_frame",
+              "provenance": "Built-in image_gen output, unchanged original archived. Mechanical alpha-bounds crop exported for runtime; empty title area and health track use separate Godot text and fill overlays.",
+              "timing": null,
+              "production_approved": false
+            }
+          ],
+          "release_approved": false,
+          "reference_image": "/var/folders/81/p2gwlll90k13p7zkyl5cjzxr0000gn/T/codex-clipboard-5ef96252-ae44-480f-9f47-61c339e98fd3.png"
         }
       },
       "runtime_integrated": true,
       "runtime_paths": [
         "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/story/boss_fill.png",
         "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/story/boss_frame.png",
-        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/story/boss_track.png"
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/story/boss_track.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/UI-008_sentinel_portrait_frame.png"
       ],
       "runtime_manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
       "archive_stage_before_runtime_integration": "generated_ui_prototype_saved_and_reviewed"
@@ -8169,9 +8299,9 @@
       "subsection": "HUD elements",
       "checked": true,
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009",
-      "source_count": 1,
+      "source_count": 3,
       "production_approved": false,
-      "stage": "selected prologue runtime exports integrated and desktop-reviewed; full-pack and release/device approval pending",
+      "stage": "selected prologue/chapter exports and reference memory popup integrated and desktop reviewed; final production approval pending",
       "exports_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/exports",
       "previews_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/previews",
       "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/source_images/UI-009_sheet_original.png",
@@ -8179,7 +8309,9 @@
       "runtime_integrated": true,
       "runtime_manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/prologue-asset-integration.json",
       "runtime_paths": [
-        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/dialogue.png"
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/dialogue.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/UI-009_memory_popup.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/UI-009_botanical_dialogue.png"
       ],
       "runtime_validation": {
         "scope": "selected prologue exports",
@@ -8213,8 +8345,89 @@
               "preparation_manifest": "docs/prologue-asset-integration.json"
             }
           ]
+        },
+        "memory_popup": {
+          "updated": "2026-10-20",
+          "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/manifest.json",
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/source_images/UI-009_memory_popup_generation_02.png",
+          "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_memory_popup_frame_02.png",
+          "runtime_paths": [
+            "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/UI-009_memory_popup.png"
+          ],
+          "files": [
+            {
+              "asset_id": "UI-009",
+              "source": "assets/production/phase_08_user_interface/hud_elements/UI-009/source_images/UI-009_memory_popup_generation_02.png",
+              "export": "assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_memory_popup_frame_02.png",
+              "runtime": "assets/runtime/chapter01/ui/UI-009_memory_popup.png",
+              "source_sha256": "e64eb43a743d2519054f2594552b376fe1ab51a8cf24341e7c5c786e854b9d94",
+              "sha256": "e64eb43a743d2519054f2594552b376fe1ab51a8cf24341e7c5c786e854b9d94",
+              "dimensions": [
+                1536,
+                1024
+              ],
+              "mode": "RGBA",
+              "alpha_extrema": [
+                0,
+                254
+              ],
+              "role": "memory_popup_frame",
+              "provenance": "Unchanged built-in image_gen output; copied byte-for-byte to archive export and runtime. Transparent image window; text and controls remain separate Godot overlays."
+            }
+          ],
+          "scope": "Reference-style memory popup frame; runtime layout verification managed separately.",
+          "status": "runtime export saved; desktop layout and interaction review completed; final device/art approval pending",
+          "production_approved": false,
+          "release_approved": false
+        },
+        "botanical_dialogue": {
+          "updated": "2026-10-21",
+          "stage": "botanical dialogue frame integrated; runtime review pending",
+          "production_approved": false,
+          "release_approved": false,
+          "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/manifest.json",
+          "runtime_paths": [
+            "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/UI-009_botanical_dialogue.png"
+          ],
+          "scope": "Shared live dialogue popup with engine-rendered text, speaker names and Continue control. Asset alone does not approve all popup content or final release.",
+          "files": [
+            {
+              "asset_id": "UI-009",
+              "source": "assets/production/phase_08_user_interface/hud_elements/UI-009/source_images/UI-009_botanical_dialogue_generation_03.png",
+              "export": "assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_botanical_dialogue_frame_03.png",
+              "runtime": "assets/runtime/chapter01/ui/UI-009_botanical_dialogue.png",
+              "source_sha256": "ab1b7308ab775d7ab97fd7f8c5e3e22f04e4d56de3a26dc1482c8e204f6fb04e",
+              "sha256": "a7aa781203ae9a94b3ffa52e7c55c336553fe9ae618e598a42b63631210cc13a",
+              "dimensions": [
+                2145,
+                688
+              ],
+              "source_dimensions": [
+                2172,
+                724
+              ],
+              "crop_box": [
+                12,
+                15,
+                2157,
+                703
+              ],
+              "alpha_threshold": 32,
+              "mode": "RGBA",
+              "role": "botanical_dialogue_frame",
+              "provenance": "Built-in image_gen output archived unchanged; export and runtime mechanically cropped to alpha > 32 content bounds. Text-free parchment/vine frame with lanterns, nameplate and Continue-button shape. Live words and controls are separate Godot overlays.",
+              "generation_tool": "built-in image_gen",
+              "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-c812f2be-42a7-4599-b382-dab58a678936.png",
+              "reference_images": [
+                "/var/folders/81/p2gwlll90k13p7zkyl5cjzxr0000gn/T/codex-clipboard-5c981194-4a2e-4abc-bd1c-c819283f0bf0.png"
+              ],
+              "source_message_id": null
+            }
+          ],
+          "status": "native Godot layout and input reviewed; final device/art approval pending"
         }
-      }
+      },
+      "last_updated": "2026-10-20"
     },
     {
       "asset_id": "UI-010",
@@ -8529,7 +8742,7 @@
       "subsection": "Menus and screens",
       "checked": true,
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-016",
-      "source_count": 1,
+      "source_count": 2,
       "production_approved": false,
       "stage": "selected prologue runtime exports integrated and desktop-reviewed; full-pack and release/device approval pending",
       "exports_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-016/exports",
@@ -8539,7 +8752,8 @@
       "runtime_integrated": true,
       "runtime_manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/prologue-asset-integration.json",
       "runtime_paths": [
-        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/title_background.png"
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/prologue/ui/title_background.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/UI-016_exact_title_menu.png"
       ],
       "runtime_validation": {
         "scope": "selected prologue exports",
@@ -8573,6 +8787,36 @@
               "preparation_manifest": "docs/prologue-asset-integration.json"
             }
           ]
+        },
+        "exact_title_menu": {
+          "updated": "2026-10-21",
+          "stage": "user reference integrated; runtime review pending",
+          "production_approved": false,
+          "release_approved": false,
+          "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/manifest.json",
+          "runtime_paths": [
+            "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/UI-016_exact_title_menu.png"
+          ],
+          "files": [
+            {
+              "asset_id": "UI-016",
+              "source": "assets/production/phase_08_user_interface/menus_and_screens/UI-016/source_images/UI-016_user_title_reference_02.png",
+              "export": "assets/production/phase_08_user_interface/menus_and_screens/UI-016/exports/UI-016_exact_title_menu_02.png",
+              "runtime": "assets/runtime/chapter01/ui/UI-016_exact_title_menu.png",
+              "source_sha256": "9351bc02d5d8a8e390c7daca374a9dec156e2d9924ad9084544aed2ae3feb1a8",
+              "sha256": "9351bc02d5d8a8e390c7daca374a9dec156e2d9924ad9084544aed2ae3feb1a8",
+              "dimensions": [
+                1672,
+                941
+              ],
+              "role": "exact_title_menu",
+              "provenance": "User-supplied reference artwork copied unchanged byte-for-byte. This supplied reference is not a new AI generation. Embedded typography and ornament are preserved; Godot overlays provide actionable hit regions.",
+              "source_message_id": null,
+              "source_attachment_name": "codex-clipboard-43ea98a1-3f15-4fbc-ad43-bc3a074b25a6.png",
+              "transformation": "none; exact byte copy"
+            }
+          ],
+          "status": "native Godot layout and input reviewed; final device/art approval pending"
         }
       }
     },
@@ -8767,13 +9011,27 @@
       "subsection": "Menus and screens",
       "checked": true,
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023",
-      "source_count": 1,
+      "source_count": 2,
       "production_approved": false,
-      "stage": "reviewed UI texture/component prototypes and separate data layout; Godot implementation pending",
+      "stage": "reference-matched completion popup integrated and visually tested in Godot; final device/art approval pending",
       "exports_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/exports",
       "previews_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/previews",
       "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/source_images/UI-023_level_complete_panel_original.png",
-      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/metadata.json"
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/metadata.json",
+      "runtime_integrated": true,
+      "runtime_integrations": {
+        "chapter01": {
+          "runtime_paths": [
+            "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/UI-023_completion_popup.png"
+          ],
+          "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/manifest.json",
+          "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/source_images/UI-023_completion_reference_generation_02.png",
+          "sha256": "83012944fc1dbacb470a2c861bee404c08d922d11753e3fe36205ebffba07cf3",
+          "recorded_at": "2026-10-20T13:20:06.104093+05:30",
+          "production_approved": false,
+          "scope": "chapter completion popup skin; text and interactive controls remain Godot overlays; implementation validation coordinated separately"
+        }
+      }
     },
     {
       "asset_id": "UI-024",

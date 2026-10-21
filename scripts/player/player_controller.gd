@@ -8,6 +8,7 @@ signal action_event(kind: String, at: Vector2)
 @export var jump_speed: float = 680.0
 @export var gravity: float = 1600.0
 const MAX_VITALITY := 100
+var attack_damage: int = 1
 var health: int = 5 # Remaining lives; a complete vitality bar protects each life.
 var vitality: int = MAX_VITALITY
 var combo_index := 0
@@ -68,7 +69,7 @@ func _physics_process(delta: float) -> void:
 			var offset: Vector2 = enemy.global_position - global_position
 			if offset.x * facing > -8 and offset.x * facing < 100 and absf(offset.y) < 75 and not enemy in hit_targets:
 				hit_targets.append(enemy)
-				enemy.take_damage(1, facing)
+				enemy.take_damage(attack_damage, facing)
 	if is_on_floor() and not was_grounded:
 		landing_time = 0.22
 		action_event.emit("land", global_position)

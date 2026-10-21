@@ -14,3 +14,5 @@ Chapter 1 integrates selected generated ENV-02 Forgotten Trail and ENV-03 root-t
 
 
 Chapter1 jungle expansion reuses generated ENV-02/03 and TILE-001/002 exports, plus Sporeling EN-012/013/014 and Brambleguard EN-016/017/018 animation frames. The [expansion asset record](chapter01-expansion-assets.json) preserves source/output hashes. Reference games inform route structure only; no reference-game artwork was imported. Runtime use does not imply final production approval.
+
+Chapter1 rewards additionally use four generated PROP-014 chest states with mechanical alpha cropping; [provenance](chapter01-rewards-assets.json). Existing UI-008 textures provide the player health frame. Boss rejuvenation reuses generated collapse/wake/transition frames; new root effects are code-rendered animation. No third-party images were introduced.

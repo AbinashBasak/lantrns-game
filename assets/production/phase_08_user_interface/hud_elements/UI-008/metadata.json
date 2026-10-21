@@ -533,7 +533,88 @@
           ]
         }
       ]
+    },
+    "encounter_hud": {
+      "updated": "2026-10-20",
+      "status": "native Godot layout and live health-fill review completed; final device/art approval pending",
+      "scene": "res://scenes/levels/chapter01_forgotten_trail.tscn",
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/UI-008_sentinel_portrait_frame.png"
+      ],
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/manifest.json",
+      "files": [
+        {
+          "asset_id": "UI-008",
+          "source": "assets/production/phase_08_user_interface/hud_elements/UI-008/source_images/UI-008_sentinel_portrait_bar_generation_02.png",
+          "export": "assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_sentinel_portrait_frame_02.png",
+          "runtime": "assets/runtime/chapter01/ui/UI-008_sentinel_portrait_frame.png",
+          "source_sha256": "7b507b02979d5eb72f07585fbc699c86987d98921f85f20be580f0b5d6c41db3",
+          "sha256": "8fbde28bf364c042c06bdba0a18112d35c96bdeeeca3fedb71213e9bd5595bcf",
+          "source_dimensions": [
+            2172,
+            724
+          ],
+          "dimensions": [
+            2118,
+            532
+          ],
+          "mode": "RGBA",
+          "crop": [
+            26,
+            95,
+            2144,
+            627
+          ],
+          "crop_method": "Bounding box of alpha > 32, preserving original pixels; no resize or painting.",
+          "role": "sentinel_portrait_boss_frame",
+          "provenance": "Built-in image_gen output, unchanged original archived. Mechanical alpha-bounds crop exported for runtime; empty title area and health track use separate Godot text and fill overlays.",
+          "timing": null,
+          "production_approved": false
+        }
+      ],
+      "release_approved": false,
+      "reference_image": "/var/folders/81/p2gwlll90k13p7zkyl5cjzxr0000gn/T/codex-clipboard-5ef96252-ae44-480f-9f47-61c339e98fd3.png"
     }
   },
-  "last_updated": "2026-10-18T05:32:46.261707+05:30"
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
+  "revisions": {
+    "sentinel_portrait_frame_02": {
+      "asset_id": "UI-008",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-008/source_images/UI-008_sentinel_portrait_bar_generation_02.png",
+      "export": "assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_sentinel_portrait_frame_02.png",
+      "runtime": "assets/runtime/chapter01/ui/UI-008_sentinel_portrait_frame.png",
+      "source_sha256": "7b507b02979d5eb72f07585fbc699c86987d98921f85f20be580f0b5d6c41db3",
+      "sha256": "8fbde28bf364c042c06bdba0a18112d35c96bdeeeca3fedb71213e9bd5595bcf",
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "dimensions": [
+        2118,
+        532
+      ],
+      "mode": "RGBA",
+      "crop": [
+        26,
+        95,
+        2144,
+        627
+      ],
+      "crop_method": "Bounding box of alpha > 32, preserving original pixels; no resize or painting.",
+      "role": "sentinel_portrait_boss_frame",
+      "provenance": "Built-in image_gen output, unchanged original archived. Mechanical alpha-bounds crop exported for runtime; empty title area and health track use separate Godot text and fill overlays.",
+      "timing": null,
+      "production_approved": false,
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-b0cdc907-c308-46e3-8c2e-c162df30e594.png",
+      "reference_images": [
+        "/var/folders/81/p2gwlll90k13p7zkyl5cjzxr0000gn/T/codex-clipboard-5ef96252-ae44-480f-9f47-61c339e98fd3.png"
+      ],
+      "source_message_id": null,
+      "review_notes": [
+        "Generated text-free portrait and frame revision; prior sheet and exports retained.",
+        "Static UI artwork: no animation timing. Title and health fill remain dynamic Godot controls.",
+        "Runtime crop prepared; full production/device approval remains pending."
+      ]
+    }
+  }
 }

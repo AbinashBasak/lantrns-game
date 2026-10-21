@@ -1,0 +1,121 @@
+{
+  "scope": "Chapter 1 completion, memory popup, boss encounter UI frames and exact supplied title menu",
+  "provenance": "Generated sources archived unchanged; each file records whether copied unchanged or mechanically alpha-cropped.",
+  "production_approved": false,
+  "files": [
+    {
+      "asset_id": "UI-023",
+      "source": "assets/production/phase_08_user_interface/menus_and_screens/UI-023/source_images/UI-023_completion_reference_generation_02.png",
+      "runtime": "assets/runtime/chapter01/ui/UI-023_completion_popup.png",
+      "source_sha256": "83012944fc1dbacb470a2c861bee404c08d922d11753e3fe36205ebffba07cf3",
+      "sha256": "83012944fc1dbacb470a2c861bee404c08d922d11753e3fe36205ebffba07cf3",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
+    },
+    {
+      "asset_id": "UI-009",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-009/source_images/UI-009_memory_popup_generation_02.png",
+      "export": "assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_memory_popup_frame_02.png",
+      "runtime": "assets/runtime/chapter01/ui/UI-009_memory_popup.png",
+      "source_sha256": "e64eb43a743d2519054f2594552b376fe1ab51a8cf24341e7c5c786e854b9d94",
+      "sha256": "e64eb43a743d2519054f2594552b376fe1ab51a8cf24341e7c5c786e854b9d94",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "role": "memory_popup_frame",
+      "provenance": "Unchanged built-in image_gen output; copied byte-for-byte to archive export and runtime. Transparent image window; text and controls remain separate Godot overlays."
+    },
+    {
+      "asset_id": "UI-008",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-008/source_images/UI-008_sentinel_portrait_bar_generation_02.png",
+      "export": "assets/production/phase_08_user_interface/hud_elements/UI-008/exports/UI-008_sentinel_portrait_frame_02.png",
+      "runtime": "assets/runtime/chapter01/ui/UI-008_sentinel_portrait_frame.png",
+      "source_sha256": "7b507b02979d5eb72f07585fbc699c86987d98921f85f20be580f0b5d6c41db3",
+      "sha256": "8fbde28bf364c042c06bdba0a18112d35c96bdeeeca3fedb71213e9bd5595bcf",
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "dimensions": [
+        2118,
+        532
+      ],
+      "mode": "RGBA",
+      "crop": [
+        26,
+        95,
+        2144,
+        627
+      ],
+      "crop_method": "Bounding box of alpha > 32, preserving original pixels; no resize or painting.",
+      "role": "sentinel_portrait_boss_frame",
+      "provenance": "Built-in image_gen output, unchanged original archived. Mechanical alpha-bounds crop exported for runtime; empty title area and health track use separate Godot text and fill overlays.",
+      "timing": null,
+      "production_approved": false
+    },
+    {
+      "asset_id": "UI-016",
+      "source": "assets/production/phase_08_user_interface/menus_and_screens/UI-016/source_images/UI-016_user_title_reference_02.png",
+      "export": "assets/production/phase_08_user_interface/menus_and_screens/UI-016/exports/UI-016_exact_title_menu_02.png",
+      "runtime": "assets/runtime/chapter01/ui/UI-016_exact_title_menu.png",
+      "source_sha256": "9351bc02d5d8a8e390c7daca374a9dec156e2d9924ad9084544aed2ae3feb1a8",
+      "sha256": "9351bc02d5d8a8e390c7daca374a9dec156e2d9924ad9084544aed2ae3feb1a8",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "role": "exact_title_menu",
+      "provenance": "User-supplied reference artwork copied unchanged byte-for-byte. This supplied reference is not a new AI generation. Embedded typography and ornament are preserved; Godot overlays provide actionable hit regions.",
+      "source_message_id": null,
+      "source_attachment_name": "codex-clipboard-43ea98a1-3f15-4fbc-ad43-bc3a074b25a6.png",
+      "transformation": "none; exact byte copy",
+      "pixel_sha256": "b3faa58941a0c2267d4f274a02800cea37efaa41db339de20918041957c815be",
+      "pixel_hash_format": "RGBA8 unpremultiplied row-major"
+    },
+    {
+      "asset_id": "UI-009",
+      "source": "assets/production/phase_08_user_interface/hud_elements/UI-009/source_images/UI-009_botanical_dialogue_generation_03.png",
+      "export": "assets/production/phase_08_user_interface/hud_elements/UI-009/exports/UI-009_botanical_dialogue_frame_03.png",
+      "runtime": "assets/runtime/chapter01/ui/UI-009_botanical_dialogue.png",
+      "source_sha256": "ab1b7308ab775d7ab97fd7f8c5e3e22f04e4d56de3a26dc1482c8e204f6fb04e",
+      "sha256": "a7aa781203ae9a94b3ffa52e7c55c336553fe9ae618e598a42b63631210cc13a",
+      "dimensions": [
+        2145,
+        688
+      ],
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "crop_box": [
+        12,
+        15,
+        2157,
+        703
+      ],
+      "alpha_threshold": 32,
+      "mode": "RGBA",
+      "role": "botanical_dialogue_frame",
+      "provenance": "Built-in image_gen output archived unchanged; export and runtime mechanically cropped to alpha > 32 content bounds. Text-free parchment/vine frame with lanterns, nameplate and Continue-button shape. Live words and controls are separate Godot overlays.",
+      "generation_tool": "built-in image_gen",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-c812f2be-42a7-4599-b382-dab58a678936.png",
+      "reference_images": [
+        "/var/folders/81/p2gwlll90k13p7zkyl5cjzxr0000gn/T/codex-clipboard-5c981194-4a2e-4abc-bd1c-c819283f0bf0.png"
+      ],
+      "source_message_id": null
+    }
+  ]
+}

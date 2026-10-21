@@ -31,6 +31,8 @@ func run() -> void:
 	await process_frame
 	check(paused and game.menu.visible,"Chapter can launch directly with a title")
 	game._begin()
+	# Isolate the original trail quest; mandatory jungle routes have their own suite.
+	game.jungle_cleared.assign([0,1,2])
 	check(not game.player.active and not game.dialogue_lines.is_empty(),"Chapter intro is skippable dialogue")
 	dialogue()
 	await frames(35)
@@ -138,9 +140,9 @@ func run() -> void:
 	game.player.restore_vitality()
 	game.player.invincible = 0
 	await frames(2)
-	check(game.player.health == 5 and game.player.vitality == 45,"Root-wave danger ground deals 55 vitality damage")
+	check(game.player.health == 5 and game.player.vitality == 55,"Root-wave danger ground deals 45 vitality damage")
 	await frames(3)
-	check(game.player.health == 5 and game.player.vitality == 45,"A single wave does not chain-hit the player")
+	check(game.player.health == 5 and game.player.vitality == 55,"A single wave does not chain-hit the player")
 	game.player.invincible = 0
 	game.player.health = 1
 	game.player.take_damage(100)
@@ -151,9 +153,16 @@ func run() -> void:
 	await frames(105)
 	game.boss.state = "recover"
 	game.boss.take_damage(24,1)
+	check(game.boss.state == "collapse" and not game.boss_defeated and not game.arena_exit.disabled,"First depletion keeps the arena sealed for rejuvenation")
+	game.player.invincible = 10
+	await frames(235)
+	check(game.boss.berserk and game.boss.health == 24,"Sentinel returns with full health in berserk mode")
+	game.boss.state = "recover"
+	game.boss.take_damage(24,1)
 	await frames(3)
 	dialogue()
 	check(game.boss_defeated and game.arena_exit.disabled and not game.boss.is_in_group("enemies"),"Sentinel defeat opens the arena and removes attack targeting")
+	game.rewards.open_chest()
 	game.interact_at("fragment")
 	check(game.fragment_collected and game.memory.visible,"Golden Fragment reveals the generated orchard memory")
 	dialogue()
@@ -166,7 +175,7 @@ func run() -> void:
 	game._restart()
 	for i in 4: await process_frame
 	game = current_scene
-	check(not game.bridge_open and not game.token_collected and not game.fragment_collected and game.boss.health == 24,"Chapter restart resets puzzle, optional token, fragment and boss")
+	check(not game.bridge_open and not game.token_collected and not game.fragment_collected and game.boss.health == 24 and not game.boss.berserk and not game.boss.revival_used,"Chapter restart resets puzzle, optional token, fragment and boss")
 	check(paused and game.menu.visible,"Restart returns to a usable chapter title")
 	paused = false
 	game.queue_free()

@@ -1,0 +1,72 @@
+{
+  "files": [
+    {
+      "asset_id": "PROP-014",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-014/exports/PROP-014_closed.png",
+      "runtime": "assets/runtime/chapter01/rewards/closed.png",
+      "source_sha256": "08f254a0583c73f4033e52145574c2f1127a92ff97c795070140585fefe71913",
+      "runtime_sha256": "52c965bf2e3800ccb5133524636f15ad04c92d8db0fa030df278590f08ac870a",
+      "crop": [
+        24,
+        131,
+        488,
+        489
+      ],
+      "dimensions": [
+        464,
+        358
+      ]
+    },
+    {
+      "asset_id": "PROP-014",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-014/exports/PROP-014_unlatched.png",
+      "runtime": "assets/runtime/chapter01/rewards/unlatched.png",
+      "source_sha256": "86578f9f67580212735df1b2d643d58edf8de62cfa4e34b954c86e0b5d7ce75e",
+      "runtime_sha256": "8717b71d9b8451cb8aa5dc573de539c74f8cd9c3fef30654db02eb79f5392408",
+      "crop": [
+        24,
+        131,
+        487,
+        489
+      ],
+      "dimensions": [
+        463,
+        358
+      ]
+    },
+    {
+      "asset_id": "PROP-014",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-014/exports/PROP-014_open_with_generic_contents.png",
+      "runtime": "assets/runtime/chapter01/rewards/open_with_generic_contents.png",
+      "source_sha256": "1898c3b893ee901d254778f612270a4b081314355f032e683ab8ae4b9420c97d",
+      "runtime_sha256": "1fae8df113e4c221450786f1cb50c28c2b4004ef843114d737ccabae1a19d11b",
+      "crop": [
+        23,
+        35,
+        488,
+        490
+      ],
+      "dimensions": [
+        465,
+        455
+      ]
+    },
+    {
+      "asset_id": "PROP-014",
+      "source": "assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-014/exports/PROP-014_open_looted.png",
+      "runtime": "assets/runtime/chapter01/rewards/open_looted.png",
+      "source_sha256": "264196f02a19c7459f858be730e91f7e23aff6539fffdcf6517b0f50461c5ee9",
+      "runtime_sha256": "d15ce1a6be794a31cb017d8f659454ec354ceb444065ce77b40f98062033989b",
+      "crop": [
+        22,
+        34,
+        490,
+        490
+      ],
+      "dimensions": [
+        468,
+        456
+      ]
+    }
+  ]
+}

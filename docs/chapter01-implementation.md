@@ -1,3 +1,7 @@
+# Current behavior
+
+The [mandatory route and Sentinel revival update](chapter01-combat-route-update.md) supersedes the optional-route and single-life boss descriptions below. Current tests and reward behavior are documented there.
+
 # Chapter 1 — The Forgotten Trail
 
 Chapter 1 is implemented as a connected playable route from Brackenreach to the first Golden Fragment. The prologue's eastern exit opens `scenes/levels/chapter01_forgotten_trail.tscn` directly. F5 starts the full game from the prologue; open that Chapter 1 scene and press F6 to start its own title screen. `scenes/main/main.tscn` remains the earlier trail regression scene.
@@ -44,3 +48,7 @@ Rendered forest, watchpost, runes, crossing, temple, Sentinel, root wave, memory
 - Obtain human listening and final art/animation approval, including balances on headphones and phone speakers.
 - Run a first-player accessibility, boss balance, narrative and pacing playtest. The plan's 8–12 minute combined target remains unmeasured.
 - Add engine/distribution notices, platform credentials and signing when shipping executable builds.
+
+## Shared title and dialogue update
+
+F5 now opens the supplied exact title screen. Begin Chapter1 starts the chapter directly; Replay the prologue starts the connected opening. [Menu and dialogue behavior](exact-title-and-botanical-dialogue.md).

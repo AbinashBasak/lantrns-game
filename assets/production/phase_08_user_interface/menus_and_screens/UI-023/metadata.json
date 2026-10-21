@@ -65,15 +65,57 @@
         }
       ],
       "preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/previews/UI-023_source_checker.jpg"
+    },
+    {
+      "asset_id": "UI-023",
+      "slug": "completion_reference_generation_02",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a148b8-ed25-74c2-ab57-d51d66483b40/exec-c2dc512e-a2bf-4541-8c9a-5fd51249d975.png",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/source_images/UI-023_completion_reference_generation_02.png",
+      "source_message_id": null,
+      "reference_images": [
+        "/var/folders/81/p2gwlll90k13p7zkyl5cjzxr0000gn/T/codex-clipboard-d67409b2-b48b-4454-b2f6-c5c904080763.png"
+      ],
+      "provenance": "unchanged built-in image_gen output; new reference-matched text-free completion frame; existing generation preserved",
+      "source_file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/source_images/UI-023_completion_reference_generation_02.png",
+        "sha256": "83012944fc1dbacb470a2c861bee404c08d922d11753e3fe36205ebffba07cf3",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          254
+        ]
+      },
+      "export_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/exports/UI-023_completion_frame_02.png"
+      ],
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/UI-023_completion_popup.png"
+      ],
+      "timing": null,
+      "loop": false,
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ]
     }
   ],
   "layout_spec": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/exports/UI-023_layout.json",
   "asset_id": "UI-023",
   "generation_tool": "built-in image_gen",
-  "stage": "reviewed UI texture/component prototypes and separate data layout; Godot implementation pending",
+  "stage": "reference-matched completion popup integrated and visually tested in Godot; final device/art approval pending",
   "requested_deliverables_saved_and_reviewed": true,
   "production_approved": false,
-  "runtime_integrated": false,
+  "runtime_integrated": true,
   "text_overlays_deferred": true,
   "review_notes": [
     "Assembled layout preview reviewed: separate title/button/progress labels legible, controls fit quiet interior; no UI text baked into source.",
@@ -82,5 +124,22 @@
   ],
   "assembled_preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/previews/UI-023_assembled_layout_preview.png",
   "preview_provenance": "data-layout render using separate artwork and text, not an image_gen source",
-  "preview_button_asset": "UI-018"
+  "preview_button_asset": "UI-018",
+  "runtime_integrations": {
+    "chapter01": {
+      "runtime_paths": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/UI-023_completion_popup.png"
+      ],
+      "manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/ui/manifest.json",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-023/source_images/UI-023_completion_reference_generation_02.png",
+      "sha256": "83012944fc1dbacb470a2c861bee404c08d922d11753e3fe36205ebffba07cf3",
+      "recorded_at": "2026-10-20T13:20:06.104093+05:30",
+      "production_approved": false,
+      "scope": "chapter completion popup skin; text and interactive controls remain Godot overlays; implementation validation coordinated separately"
+    }
+  },
+  "runtime_review": {
+    "scope": "Godot desktop reference popup, live typography, paused entrance animation and Replay interaction",
+    "production_approved": false
+  }
 }
