@@ -446,6 +446,7 @@ Generation batch: **11/11 prototype packs, 88/88 source types saved and reviewed
   - Location fx: [ENV-01_location_fx_original_v2.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-01/source_images/ENV-01_location_fx_original_v2.png)
   <!-- phase04-record:ENV-01:end -->
 - [x] ENV-02 — The Forgotten Trail (Chapter 1)
+  - Reference jungle revision: source-preserving modules and high-resolution runtime exports; reviewed in Godot, final approval pending. [Revision metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/metadata.json) · [Runtime manifest](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/manifest.json).
   - Chapter 1 runtime: Selected exports integrated into Chapter 1; original sources preserved, full-pack/device/listening approval pending. [Source/runtime record](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json).
   <!-- phase04-record:ENV-02:start -->
   - Production stage: prototype sources and exports reviewed. Final production approval pending.
@@ -609,6 +610,7 @@ Verified across all 11 packs: seven categories have reviewed prototype sources a
 <!-- phase05-summary:end -->
 
 - [x] TILE-001 — Grass-topped ground tiles
+  - Reference jungle revision: source-preserving modules and high-resolution runtime exports; reviewed in Godot, final approval pending. [Revision metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/metadata.json) · [Runtime manifest](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/manifest.json).
   - Chapter 1 runtime: Selected exports integrated into Chapter 1; original sources preserved, full-pack/device/listening approval pending. [Source/runtime record](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json).
   - Prologue runtime integration: selected exports imported and visually checked in Godot on macOS; full-pack/device production approval remains pending. [Runtime manifest](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/prologue-asset-integration.json).
   <!-- phase05-record:TILE-001:start -->
@@ -625,6 +627,7 @@ Verified across all 11 packs: seven categories have reviewed prototype sources a
   - Selected source: [TILE-002_terrain_atlas_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-002/source_images/TILE-002_terrain_atlas_original.png)
   <!-- phase05-record:TILE-002:end -->
 - [x] TILE-003 — Stone platform tiles
+  - Reference jungle revision: source-preserving modules and high-resolution runtime exports; reviewed in Godot, final approval pending. [Revision metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/metadata.json) · [Runtime manifest](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/manifest.json).
   - Chapter 1 runtime: Selected exports integrated into Chapter 1; original sources preserved, full-pack/device/listening approval pending. [Source/runtime record](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json).
   <!-- phase05-record:TILE-003:start -->
   - Production stage: reviewed prototype sources and 64px exports. Final production approval pending.
@@ -638,6 +641,7 @@ Verified across all 11 packs: seven categories have reviewed prototype sources a
   - Selected source: [TILE-004_terrain_atlas_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-004/source_images/TILE-004_terrain_atlas_original.png)
   <!-- phase05-record:TILE-004:end -->
 - [x] TILE-005 — Root platforms
+  - Reference jungle revision: source-preserving modules and high-resolution runtime exports; reviewed in Godot, final approval pending. [Revision metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-005/metadata.json) · [Runtime manifest](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/manifest.json).
   <!-- phase05-record:TILE-005:start -->
   - Production stage: reviewed prototype sources and 64px exports. Final production approval pending.
   - Saved folder: [TILE-005](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-005) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-005/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-005/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-005/previews)
@@ -705,6 +709,7 @@ Verified across all 11 packs: seven categories have reviewed prototype sources a
   - Selected source: [TILE-015_river_water_atlas_original_v2.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-015/source_images/TILE-015_river_water_atlas_original_v2.png)
   <!-- phase05-record:TILE-015:end -->
 - [x] TILE-016 — Decorative foliage and rock overlays
+  - Reference jungle revision: source-preserving modules and high-resolution runtime exports; reviewed in Godot, final approval pending. [Revision metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016/metadata.json) · [Runtime manifest](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/manifest.json).
   <!-- phase05-record:TILE-016:start -->
   - Production stage: reviewed generated tile prototypes and64px exports; seam cleanup and engine validation pending. Final production approval pending.
   - Saved folder: [TILE-016](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016/previews)
@@ -726,12 +731,14 @@ Verified across all 11 packs: seven categories have reviewed prototype sources a
 ## Village and forest props
 
 - [x] PROP-001 — Wooden lantern
+  - Reference jungle revision: source-preserving modules and high-resolution runtime exports; reviewed in Godot, final approval pending. [Revision metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/metadata.json) · [Runtime manifest](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/manifest.json).
   <!-- phase06-record:PROP-001:start -->
   - Production stage: reviewed prototype source and fixed cell exports. Final production approval pending.
   - Saved folder: [PROP-001](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/previews)
   - Selected source: [PROP-001_prop_states_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/source_images/PROP-001_prop_states_original.png)
   <!-- phase06-record:PROP-001:end -->
 - [x] PROP-002 — Hanging lantern
+  - Reference jungle revision: source-preserving modules and high-resolution runtime exports; reviewed in Godot, final approval pending. [Revision metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/metadata.json) · [Runtime manifest](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/manifest.json).
   <!-- phase06-record:PROP-002:start -->
   - Production stage: reviewed prototype source and fixed cell exports. Final production approval pending.
   - Saved folder: [PROP-002](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/previews)
@@ -790,6 +797,7 @@ Verified across all 11 packs: seven categories have reviewed prototype sources a
   - Selected source: [PROP-010_sheet_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-010/source_images/PROP-010_sheet_original.png)
   <!-- phase06-record:PROP-010:end -->
 - [x] PROP-011 — Bushes, flowers, and mushrooms
+  - Reference jungle revision: source-preserving modules and high-resolution runtime exports; reviewed in Godot, final approval pending. [Revision metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/metadata.json) · [Runtime manifest](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/manifest.json).
   - Prologue runtime integration: selected exports imported and visually checked in Godot on macOS; full-pack/device production approval remains pending. [Runtime manifest](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/prologue-asset-integration.json).
   <!-- phase06-record:PROP-011:start -->
   - Production stage: generated prop prototype saved and reviewed. Final production approval pending.
@@ -797,6 +805,7 @@ Verified across all 11 packs: seven categories have reviewed prototype sources a
   - Selected source: [PROP-011_sheet_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_sheet_original.png)
   <!-- phase06-record:PROP-011:end -->
 - [x] PROP-012 — Small tree and root clusters
+  - Reference jungle revision: source-preserving modules and high-resolution runtime exports; reviewed in Godot, final approval pending. [Revision metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012/metadata.json) · [Runtime manifest](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/manifest.json).
   - Prologue runtime integration: selected exports imported and visually checked in Godot on macOS; full-pack/device production approval remains pending. [Runtime manifest](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/prologue-asset-integration.json).
   <!-- phase06-record:PROP-012:start -->
   - Production stage: generated prop prototype saved and reviewed. Final production approval pending.
@@ -839,6 +848,7 @@ Verified across all 11 packs: seven categories have reviewed prototype sources a
   - Selected source: [OBJ-003_state_atlas_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-003/source_images/OBJ-003_state_atlas_original.png)
   <!-- phase06-record:OBJ-003:end -->
 - [x] OBJ-004 — Rune-activated door
+  - Reference jungle revision: source-preserving modules and high-resolution runtime exports; reviewed in Godot, final approval pending. [Revision metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004/metadata.json) · [Runtime manifest](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/manifest.json).
   <!-- phase06-record:OBJ-004:start -->
   - Production stage: generated prototype reviewed exported. Final production approval pending.
   - Saved folder: [OBJ-004](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004/previews)
@@ -1070,6 +1080,7 @@ Verified across all 11 packs: seven categories have reviewed prototype sources a
   - Selected source: [UI-003_ui_components_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-003/source_images/UI-003_ui_components_original.png)
   <!-- phase08-record:UI-003:end -->
 - [x] UI-004 — Objective banner
+  - Reference jungle revision: source-preserving modules and high-resolution runtime exports; reviewed in Godot, final approval pending. [Revision metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/metadata.json) · [Runtime manifest](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/manifest.json).
   <!-- phase08-record:UI-004:start -->
   - Production stage: reviewed prototype components and fixed cell exports. Final production approval pending.
   - Saved folder: [UI-004](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/previews)
@@ -1227,6 +1238,7 @@ Verified across all 11 packs: seven categories have reviewed prototype sources a
   - Selected source: [UI-024_save_indicator_states_original.png](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-024/source_images/UI-024_save_indicator_states_original.png)
   <!-- phase08-record:UI-024:end -->
 - [x] UI-025 — Controller and keyboard prompts
+  - Reference jungle revision: source-preserving modules and high-resolution runtime exports; reviewed in Godot, final approval pending. [Revision metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/metadata.json) · [Runtime manifest](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/manifest.json).
   <!-- phase08-record:UI-025:start -->
   - Production stage: reviewed editable input glyphs, raster exports and current-binding map. Final production approval pending.
   - Saved folder: [UI-025](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025) · [metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/metadata.json) · [exports](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports) · [previews](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/previews)
@@ -1583,3 +1595,7 @@ UI-004 generation02 now supplies a compact nine-slice gold/teal frame, nine arch
 ## HUD scope correction — 2026-10-21
 
 The player heart list and health bar are restored to their prior artwork, sizing, position, and numeric styling. The modular panel update applies to content lists, points and reward prompts. Top-left guidance still auto-hides after five seconds. Existing asset originals and checkboxes remain unchanged.
+
+## High-resolution reference jungle and real-time lighting — 2026-10-21
+
+The main forest and all three jungle rooms now use source-palette modular vegetation, supported treehouses/arches, waterfalls and capped terrain. Five new high-resolution generations replace magnified thumbnail scenery; original sources and earlier exports are preserved. Original player health UI stays unchanged; supplied guidance and keycaps retain live text. Native on/off frames verify dynamic world illumination. The lighting skill is installed and project memory updated. Existing checkboxes and final approvals remain unchanged. [Implementation](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/reference-jungle-and-lighting.md) · [Preview](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/reference-jungle-0-preview.png) · [Lighting proof](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/reference-lighting-render-proof.json) · [Persistent memory](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/project-memory.md).

@@ -6,6 +6,7 @@ var feedback_panel: PanelContainer
 var points_panel: PanelContainer
 var objective_heading: Label
 var objective_detail: Label
+var objective_progress: Label
 var feedback_text: Label
 var points_text: Label
 var serif: SystemFont
@@ -14,6 +15,7 @@ var portrait: TextureRect
 var hearts_frame: Panel
 var hint_panel: PanelContainer
 var hint_text: Label
+var reference_controls: HBoxContainer
 var hint_remaining := 0.0
 var last_hint := ""
 const HINT_DURATION := 5.0
@@ -75,6 +77,9 @@ func _layout() -> void:
 		hint_y += game.rune_clue.size.y + 12
 	hint_panel.position = Vector2(20,hint_y)
 	hint_panel.size = Vector2(card_width,0)
+	if reference_controls:
+		reference_controls.position = Vector2(30,get_viewport_rect().size.y-92)
+		reference_controls.scale = Vector2.ONE*minf(1.0,(width-60)/maxf(1,reference_controls.get_combined_minimum_size().x))
 
 func _install() -> void:
 	mouse_filter = Control.MOUSE_FILTER_IGNORE
@@ -88,6 +93,9 @@ func _install() -> void:
 	_wrap(objective_heading)
 	objective_detail = _label(objective_column,"",16)
 	_wrap(objective_detail)
+	objective_progress = _label(objective_column,"",14,true)
+	_wrap(objective_progress)
+	objective_progress.hide()
 	feedback_panel = _panel()
 	feedback_row = HBoxContainer.new()
 	feedback_row.add_theme_constant_override("separation",12)
@@ -106,8 +114,16 @@ func _install() -> void:
 	points_text.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
 	hint_panel = _panel()
 	hint_panel.name = "TransientGuidance"
-	hint_text = _label(hint_panel,"",16)
+	hint_panel.add_theme_stylebox_override("panel",_reference_style("UI-004_leaf_hint_frame.png",Vector2(36,20),Vector2(22,20)))
+	var hint_row := HBoxContainer.new()
+	hint_row.add_theme_constant_override("separation",8)
+	hint_panel.add_child(hint_row)
+	Ornate.icon(hint_row,"res://assets/runtime/chapter01/reference_jungle/UI-004_hint_attention.png",32)
+	hint_text = _label(hint_row,"",16,true)
 	_wrap(hint_text)
+	hint_text.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+	Ornate.icon(hint_row,"res://assets/runtime/chapter01/reference_jungle/UI-004_hint_arrow.png",28)
+	_install_reference_controls()
 	hint_panel.hide()
 	_install_previous_health_frame()
 	get_parent().move_child(self,1)
@@ -149,6 +165,10 @@ func _process(delta: float) -> void:
 	if not is_instance_valid(game): return
 	var playing: bool = game.started and not game.menu.visible and not game.get_tree().paused and not game.dialogue_box.visible and not game.memory.visible and not game.victory_panel.visible
 	visible = playing
+	if reference_controls:
+		reference_controls.visible = playing and not game.touch_layer.visible
+	var old_controls := get_parent().get_node_or_null("ControlsHint")
+	if old_controls: old_controls.self_modulate.a = 0
 	game.boss_ui.modulate.a = 1.0 if playing else 0.0
 	game.objective.modulate.a = 0
 	game.feedback.modulate.a = 0
@@ -161,6 +181,10 @@ func _process(delta: float) -> void:
 	var boss_visible: bool = game.boss_ui.visible
 	objective_heading.text = "Hollow Sentinel" if boss_visible else ("Jungle Exploration" if game.jungle_area >= 0 else "The Forgotten Trail")
 	objective_detail.text = "Watch the wind-up; strike during recovery." if boss_visible else full_text
+	objective_progress.visible = game.jungle_area >= 0
+	if is_instance_valid(game.jungle_label):
+		game.jungle_label.self_modulate.a = 0
+		objective_progress.text = game.jungle_label.text
 	feedback_panel.visible = game.feedback_time > 0 and not game.feedback.text.is_empty()
 	feedback_text.text = game.feedback.text
 	_update_hint(delta,playing)
@@ -207,3 +231,34 @@ func _install_previous_health_frame() -> void:
 			child.health_row.add_theme_constant_override("separation",3)
 			for heart in child.hearts:
 				heart.custom_minimum_size = Vector2(41,40)
+
+func _reference_style(file: String, corners: Vector2, padding: Vector2) -> StyleBoxTexture:
+	var style := StyleBoxTexture.new()
+	style.texture = load("res://assets/runtime/chapter01/reference_jungle/"+file)
+	for edge in [SIDE_LEFT,SIDE_RIGHT]:
+		style.set_texture_margin(edge,corners.x)
+		style.set_content_margin(edge,padding.x)
+	for edge in [SIDE_TOP,SIDE_BOTTOM]:
+		style.set_texture_margin(edge,corners.y)
+		style.set_content_margin(edge,padding.y)
+	return style
+
+func _install_reference_controls() -> void:
+	reference_controls = HBoxContainer.new()
+	reference_controls.name = "ReferenceKeyboardControls"
+	reference_controls.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	reference_controls.add_theme_constant_override("separation",24)
+	add_child(reference_controls)
+	for entry in [["A  ←","Move left"],["D  →","Move right"],["SPACE","Jump"],["J","Sword"],["E","Interact"],["ESC","Pause"]]:
+		var column := VBoxContainer.new()
+		column.add_theme_constant_override("separation",5)
+		reference_controls.add_child(column)
+		var key := PanelContainer.new()
+		key.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		key.add_theme_stylebox_override("panel",_reference_style("UI-025_keycap.png",Vector2(12,12),Vector2(14,8)))
+		column.add_child(key)
+		var key_label := _label(key,entry[0],22)
+		key_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+		key_label.custom_minimum_size = Vector2(42,30)
+		var caption := _label(column,entry[1],15)
+		caption.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER

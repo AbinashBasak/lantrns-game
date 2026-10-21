@@ -1,5 +1,7 @@
 extends Node2D
 ## Three mandatory jungle journeys. All decoration reuses reviewed ENV-02/03 runtime exports.
+const ReferenceDecor = preload("res://scripts/systems/reference_jungle_decor.gd")
+var reference_decor = ReferenceDecor.new()
 const ART := "res://assets/runtime/chapter01/environment/"
 const PARALLAX_RATES := [0.05,0.12,0.24,0.45]
 const BACKGROUND_TILE_WIDTH := 1800.0
@@ -27,6 +29,7 @@ var textures: Dictionary = {}
 var prop_regions: Dictionary = {}
 var clock := 0.0
 func _ready() -> void:
+	reference_decor.load_assets()
 	for key in ["ENV-02_distant_background","ENV-02_midground","ENV-02_foreground","ENV-02_decorative_props_00","ENV-02_decorative_props_01","ENV-02_decorative_props_04","ENV-02_decorative_props_05","ENV-02_interactive_props_03","ENV-03_decorative_props_01","ENV-03_interactive_props_03","TILE-001_surface_strip","TILE-002_soil_fill"]:
 		textures[key] = load(ART+key+".png")
 		if "_props_" in key:
@@ -95,44 +98,24 @@ func _draw() -> void:
 	if not active or textures.is_empty(): return
 	var cam := get_viewport().get_camera_2d()
 	var center := cam.get_screen_center_position()-global_position if cam else Vector2(640,360)
-	var tones := [Color("8fb7a0"),Color("78aeb8"),Color("c3bb83")]
-	# Four camera-relative planes move at independent rates; room origins never affect parallax.
-	for layer in 4:
-		var key: String = ["ENV-02_distant_background","ENV-02_distant_background","ENV-02_midground","ENV-02_foreground"][layer]
-		var origin := parallax_origin(center,layer)
-		var first := int(floor((center.x-640-origin.x)/BACKGROUND_TILE_WIDTH))-1
-		for tile in range(first,first+4):
-			var tint: Color = tones[area_index]
-			tint.a = [1.0,0.22,0.5,0.28][layer]
-			var tile_origin := Vector2(tile*BACKGROUND_TILE_WIDTH,0)+origin
-			# Mirror neighbouring artwork so repeated edges meet without a hard tree seam.
-			var mirrored := posmod(tile,2) == 1
-			draw_set_transform(tile_origin+Vector2(1800 if mirrored else 0,0),0,Vector2(-1 if mirrored else 1,1))
-			draw_texture_rect(textures[key],Rect2(0,0,1801,1000),false,tint)
-			draw_set_transform(Vector2.ZERO)
+	if reference_decor.available():
+		reference_decor.draw_background(self,center,area_index)
+	else:
+		draw_texture_rect(textures["ENV-02_distant_background"],Rect2(center.x-900,-230,1800,1000),false,Color.WHITE)
 
+	reference_decor.draw_architecture(self,terrain())
 	if area_index == 1:
 		draw_rect(Rect2(0,738 if puzzle_cleared else 690,4600,180),Color(0.12,0.35,0.39,0.7))
 		for x in range(0,4600,75): draw_line(Vector2(x,(756 if puzzle_cleared else 708)+sin(clock+x)*3),Vector2(x+40,(756 if puzzle_cleared else 708)+sin(clock+x)*3),Color(0.53,0.8,0.75,0.45),2)
 	for rect in terrain():
-		draw_rect(rect,Color("25372b"))
-		for x in range(int(rect.position.x),int(rect.end.x),64):
-			draw_texture_rect(textures["TILE-001_surface_strip"],Rect2(x,rect.position.y-3,minf(65,rect.end.x-x),36),false)
-			if rect.size.y > 40: draw_texture_rect(textures["TILE-002_soil_fill"],Rect2(x,rect.position.y+30,minf(65,rect.end.x-x),rect.size.y-30),false)
-	for x in [360,570,1180,1780,2390,2670,3070,3490,3840,4250]: prop("ENV-02_decorative_props_05",Vector2(x,624),Vector2(100,60))
-	for x in [50,4430]: prop("ENV-02_interactive_props_03",Vector2(x,620),Vector2(150,215))
-	for entry in [[160,"THE PATH CONTINUES"],[4320,"RETURN TO THE TRAIL"]]:
-		draw_string(ThemeDB.fallback_font,Vector2(entry[0]-75,460),entry[1],HORIZONTAL_ALIGNMENT_LEFT,-1,17,Color("ffe2a1"))
+		if reference_decor.available(): reference_decor.draw_terrain(self,rect)
+		else:
+			draw_texture_rect(textures["TILE-001_surface_strip"],Rect2(rect.position,Vector2(rect.size.x,36)),false)
+	reference_decor.draw_foliage(self,terrain())
+	reference_decor.draw_lanterns(self,terrain(),WIDTH)
 	if discovered:
 		prop("ENV-02_decorative_props_00",Vector2(2620,620),Vector2(80,125))
 		draw_string(ThemeDB.fallback_font,Vector2(2540,470),"MEMORY RECORDED",HORIZONTAL_ALIGNMENT_LEFT,-1,17,Color("ffe2a1"))
-	if area_index == 0:
-		prop("ENV-02_decorative_props_01",Vector2(1550,350),Vector2(230,280))
-	elif area_index == 1:
-		for x in [420,1830,2580]: prop("ENV-03_decorative_props_01",Vector2(x,620),Vector2(110,270),Color("8ab4ae"))
-	else:
-		prop("ENV-03_interactive_props_03",Vector2(1550,620),Vector2(230,270))
-		for x in [500,950,2100,2550]: prop("ENV-02_decorative_props_04",Vector2(x,620),Vector2(100,95))
 	_draw_puzzle()
 	var discovery := Vector2(1560,285) if area_index != 1 else Vector2(1510,305)
 	if not discovered:
@@ -185,17 +168,32 @@ func _draw_puzzle() -> void:
 	var labels: Array = [["I","II","III"],["UPSTREAM","DOWNSTREAM"],["LEAF","SUN","MOON"]][area_index]
 	for i in spots.size():
 		var foot: Vector2=spots[i]
-		prop("ENV-02_interactive_props_03" if area_index==0 else "ENV-03_interactive_props_03",foot,Vector2(110,145))
+		if area_index==0:
+			reference_decor.prop(self,"PROP-001_lantern_post",foot,Vector2(75,145))
+		else:
+			prop("ENV-03_interactive_props_03",foot,Vector2(110,145))
 		var order: Array=[[0,2,1],[0,1],[2,0,1]][area_index]
 		var lit := puzzle_cleared or order.slice(0,puzzle_progress).has(i)
-		draw_circle(foot+Vector2(0,-95),18,Color(1.0,0.8,0.28,0.48) if lit else Color(0.2,0.55,0.6,0.3))
+		var marker := foot+Vector2(0,-151)
+		draw_circle(marker,4,Color("ffe2a1") if lit else Color("4d6657"))
 		draw_string(ThemeDB.fallback_font,foot+Vector2(-45,-165),labels[i],HORIZONTAL_ALIGNMENT_CENTER,90,16,Color("ffe2a1"))
 	var inscription: String=["LANTERN SEAL · I → III → II","WATER SEAL · UPSTREAM → DOWNSTREAM","SHRINE SEAL · MOON → LEAF → SUN"][area_index]
 	draw_string(ThemeDB.fallback_font,Vector2(2750,375),inscription,HORIZONTAL_ALIGNMENT_LEFT,-1,18,Color("ffe2a1"))
+	reference_decor.draw_gate(self,GATE_X,puzzle_cleared)
 	if not puzzle_cleared:
-		for y in range(175,620,65):
-			prop("ENV-02_decorative_props_01",Vector2(GATE_X,y+75),Vector2(100,120),Color("8fae89"))
-		draw_string(ThemeDB.fallback_font,Vector2(GATE_X-80,140),"ROOT SEAL",HORIZONTAL_ALIGNMENT_LEFT,-1,18,Color("ffe2a1"))
+		draw_string(ThemeDB.fallback_font,Vector2(GATE_X-62,355),"ROOT SEAL",HORIZONTAL_ALIGNMENT_LEFT,-1,18,Color("ffe2a1"))
+
+func get_reference_light_anchors() -> Array[Dictionary]:
+	var anchors: Array[Dictionary] = reference_decor.light_anchors(terrain(),WIDTH,global_position)
+	if not active: return []
+	var order: Array = [[0,2,1],[0,1],[2,0,1]][area_index]
+	var spots := puzzle_positions()
+	for i in spots.size():
+		var flame: Vector2 = reference_decor.lantern_flame({"key":"PROP-001_lantern_post","foot":spots[i],"bounds":Vector2(75,145)}) if area_index==0 else spots[i]+Vector2(0,-95)
+		anchors.append({"world_position":global_position+flame,"local_position":flame,"color":Color("ffc75a"),"energy":0.8,"radius":185.0,"active":puzzle_cleared or order.slice(0,puzzle_progress).has(i)})
+	if not puzzle_cleared:
+		anchors.append({"world_position":global_position+Vector2(GATE_X,480),"color":Color("ffc75a"),"energy":0.5,"radius":165.0,"active":true})
+	return anchors
 
 func terrain() -> Array:
 	return PLATFORMS[area_index] + [Rect2(2700,520,190,28),Rect2(2940,435,220,28),Rect2(3220,350,260,28),Rect2(3570,435,220,28),Rect2(3820,520,160,28)]

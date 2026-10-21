@@ -517,7 +517,7 @@
   ],
   "production_approved": false,
   "requested_deliverables_saved_and_reviewed": true,
-  "stage": "reviewed_prototype_sources_and_64px_exports",
+  "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
   "metadata_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/metadata.json",
   "review_notes": [
     "Source alpha-checker visually reviewed:16 distinguishable requested material modules in four rows/four columns. 64px exports and assembly preview visually reviewed.",
@@ -638,5 +638,78 @@
       ]
     }
   },
-  "last_updated": "2026-10-18T05:32:46.261707+05:30"
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
+  "reference_jungle_revision_2026_10_21": {
+    "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
+    "source_message_ids": null,
+    "animation_timing": null,
+    "originals_preserved": true,
+    "colors": "Original source RGB retained for sheet derivatives; generated replacements requested to match the supplied palette; no scene-wide recoloring. Alpha cleanup/removal of baked text is explicitly derived.",
+    "records": [
+      {
+        "asset_id": "TILE-003",
+        "name": "TILE-003_platform",
+        "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/source_images/TILE-003_reference_jungle_user_sheet_original.png",
+        "source_crop": [
+          260,
+          781,
+          386,
+          863
+        ],
+        "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/TILE-003_platform.png",
+        "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/exports/TILE-003_platform_reference02.png",
+        "dimensions": [
+          126,
+          78
+        ],
+        "sha256": "7a722fc31dc07fa5ffe5d32104f769c838ee5b3b5b71b5b13df039e537c058f1",
+        "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+        "animation_timing": null,
+        "source_message_id": null,
+        "active_runtime": true,
+        "runtime_current_sha256": "7a722fc31dc07fa5ffe5d32104f769c838ee5b3b5b71b5b13df039e537c058f1",
+        "sha256_applies_to": "export"
+      }
+    ],
+    "current_file_hashes": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/source_images/TILE-003_reference_jungle_user_sheet_original.png",
+        "sha256": "323232a6c7ec43260e73fa483f1b8d72ee210126e3b2706b1572ac3b7f25882f",
+        "role": "source",
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/exports/TILE-003_platform_reference02.png",
+        "sha256": "7a722fc31dc07fa5ffe5d32104f769c838ee5b3b5b71b5b13df039e537c058f1",
+        "role": "export",
+        "dimensions": [
+          126,
+          78
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/TILE-003_platform.png",
+        "sha256": "7a722fc31dc07fa5ffe5d32104f769c838ee5b3b5b71b5b13df039e537c058f1",
+        "role": "runtime",
+        "dimensions": [
+          126,
+          78
+        ]
+      }
+    ],
+    "runtime_validation": {
+      "scene_support_reachability_anchors": 276,
+      "traversal": 34,
+      "dynamic_hud": 29,
+      "reference_lighting": 12,
+      "timed_guidance": 11,
+      "reward_hud": 11,
+      "native_render_review": true,
+      "lighting_on_off_proof": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/reference-lighting-render-proof.json"
+    },
+    "approval": "Runtime review only; no new final production approval or checkbox changes"
+  }
 }

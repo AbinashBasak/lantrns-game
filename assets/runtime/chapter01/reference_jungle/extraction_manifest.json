@@ -1,0 +1,538 @@
+{
+  "source": "/var/folders/81/p2gwlll90k13p7zkyl5cjzxr0000gn/T/codex-clipboard-54f227e9-8c63-4070-95de-8c89b9227cdd.png",
+  "source_sha256": "323232a6c7ec43260e73fa483f1b8d72ee210126e3b2706b1572ac3b7f25882f",
+  "records": [
+    {
+      "asset_id": "OBJ-004",
+      "name": "OBJ-004_root_seal",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004/source_images/OBJ-004_reference_jungle_user_sheet_original.png",
+      "source_crop": [
+        0,
+        452,
+        282,
+        723
+      ],
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/OBJ-004_root_seal.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004/exports/OBJ-004_root_seal_reference02.png",
+      "dimensions": [
+        272,
+        268
+      ],
+      "sha256": "930205aa054cfd94dd6e6b103ceadf724287964f348981778e6aa326c63a0d47",
+      "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+      "animation_timing": null,
+      "source_message_id": null,
+      "active_runtime": true,
+      "runtime_current_sha256": "930205aa054cfd94dd6e6b103ceadf724287964f348981778e6aa326c63a0d47",
+      "sha256_applies_to": "export"
+    },
+    {
+      "asset_id": "PROP-002",
+      "name": "PROP-002_lantern_hanging",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/source_images/PROP-002_reference_jungle_user_sheet_original.png",
+      "source_crop": [
+        283,
+        506,
+        375,
+        689
+      ],
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-002_lantern_hanging.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/exports/PROP-002_lantern_hanging_reference02.png",
+      "dimensions": [
+        67,
+        156
+      ],
+      "sha256": "8558fd3a7b207163f91d57caa04e151a4b9f084d1d0a85a0c329e19b9fba66b5",
+      "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+      "animation_timing": null,
+      "source_message_id": null,
+      "active_runtime": true,
+      "runtime_current_sha256": "8558fd3a7b207163f91d57caa04e151a4b9f084d1d0a85a0c329e19b9fba66b5",
+      "sha256_applies_to": "export"
+    },
+    {
+      "asset_id": "PROP-002",
+      "name": "PROP-002_lantern_small",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/source_images/PROP-002_reference_jungle_user_sheet_original.png",
+      "source_crop": [
+        389,
+        538,
+        468,
+        691
+      ],
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-002_lantern_small.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/exports/PROP-002_lantern_small_reference02.png",
+      "dimensions": [
+        65,
+        140
+      ],
+      "sha256": "0f6c0226618171cda88e4b14a0e1fbf55f89c6dcb534baf2b8cdba06f446dfbb",
+      "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+      "animation_timing": null,
+      "source_message_id": null,
+      "active_runtime": true,
+      "runtime_current_sha256": "0f6c0226618171cda88e4b14a0e1fbf55f89c6dcb534baf2b8cdba06f446dfbb",
+      "sha256_applies_to": "export"
+    },
+    {
+      "asset_id": "PROP-001",
+      "name": "PROP-001_lantern_post",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/source_images/PROP-001_reference_jungle_user_sheet_original.png",
+      "source_crop": [
+        472,
+        470,
+        577,
+        727
+      ],
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-001_lantern_post.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/exports/PROP-001_lantern_post_reference02.png",
+      "dimensions": [
+        92,
+        246
+      ],
+      "sha256": "851e6e79a07c478aceb825b550e553a6fa3d2ff41ef3aaea9578c60afd64ce46",
+      "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+      "animation_timing": null,
+      "source_message_id": null,
+      "active_runtime": true,
+      "runtime_current_sha256": "851e6e79a07c478aceb825b550e553a6fa3d2ff41ef3aaea9578c60afd64ce46",
+      "sha256_applies_to": "export"
+    },
+    {
+      "asset_id": "ENV-02",
+      "name": "ENV-02_treehouse",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/source_images/ENV-02_reference_jungle_user_sheet_original.png",
+      "source_crop": [
+        566,
+        477,
+        928,
+        731
+      ],
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_treehouse.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_treehouse_reference02.png",
+      "dimensions": [
+        359,
+        253
+      ],
+      "sha256": "793f8d85ffa6dba4256e9675f5b8aa1159f016c885eea43f8f45c1c24600450c",
+      "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+      "animation_timing": null,
+      "source_message_id": null,
+      "active_runtime": false,
+      "runtime_current_sha256": "83967c55d693d0ee3f3cc8cf028b64ab673bf579bfc85008c408d3d240bf985e",
+      "sha256_applies_to": "export",
+      "runtime_replaced_by": "highres_generation03_manifest.json"
+    },
+    {
+      "asset_id": "ENV-02",
+      "name": "ENV-02_tree_arch",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/source_images/ENV-02_reference_jungle_user_sheet_original.png",
+      "source_crop": [
+        848,
+        466,
+        1239,
+        733
+      ],
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_tree_arch.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_tree_arch_reference02.png",
+      "dimensions": [
+        389,
+        261
+      ],
+      "sha256": "48e7a2c3ff07998fa9c220e46de3587a08370c3e4869582e7bf211f7db7214c2",
+      "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+      "animation_timing": null,
+      "source_message_id": null,
+      "active_runtime": false,
+      "runtime_current_sha256": "f359ffbd825bf94071ba65f544684cde2665af7aaf5027634d2d99bd87105bd6",
+      "sha256_applies_to": "export",
+      "runtime_replaced_by": "highres_generation03_manifest.json"
+    },
+    {
+      "asset_id": "ENV-02",
+      "name": "ENV-02_waterfall",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/source_images/ENV-02_reference_jungle_user_sheet_original.png",
+      "source_crop": [
+        1238,
+        465,
+        1536,
+        732
+      ],
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_waterfall.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_waterfall_reference02.png",
+      "dimensions": [
+        288,
+        261
+      ],
+      "sha256": "6b4dfc0ba1a585aa5b4c6945b892627754ffc00fc630c0d6eaac6b6485e2ca7c",
+      "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+      "animation_timing": null,
+      "source_message_id": null,
+      "active_runtime": false,
+      "runtime_current_sha256": "81ce9adee99befeca7d621dce958de21f84e1c908072902cead54fd2e4dd825d",
+      "sha256_applies_to": "export",
+      "runtime_replaced_by": "highres_generation03_manifest.json"
+    },
+    {
+      "asset_id": "TILE-001",
+      "name": "TILE-001_ground",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/source_images/TILE-001_reference_jungle_user_sheet_original.png",
+      "source_crop": [
+        9,
+        778,
+        253,
+        926
+      ],
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/TILE-001_ground.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/exports/TILE-001_ground_reference02.png",
+      "dimensions": [
+        241,
+        143
+      ],
+      "sha256": "ef93a96f3cb3e247eb119299326d4055671b8d5e7863f72f897de3a56b57b5b1",
+      "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+      "animation_timing": null,
+      "source_message_id": null,
+      "active_runtime": true,
+      "runtime_current_sha256": "ef93a96f3cb3e247eb119299326d4055671b8d5e7863f72f897de3a56b57b5b1",
+      "sha256_applies_to": "export"
+    },
+    {
+      "asset_id": "TILE-003",
+      "name": "TILE-003_platform",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/source_images/TILE-003_reference_jungle_user_sheet_original.png",
+      "source_crop": [
+        260,
+        781,
+        386,
+        863
+      ],
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/TILE-003_platform.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/exports/TILE-003_platform_reference02.png",
+      "dimensions": [
+        126,
+        78
+      ],
+      "sha256": "7a722fc31dc07fa5ffe5d32104f769c838ee5b3b5b71b5b13df039e537c058f1",
+      "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+      "animation_timing": null,
+      "source_message_id": null,
+      "active_runtime": true,
+      "runtime_current_sha256": "7a722fc31dc07fa5ffe5d32104f769c838ee5b3b5b71b5b13df039e537c058f1",
+      "sha256_applies_to": "export"
+    },
+    {
+      "asset_id": "TILE-005",
+      "name": "TILE-005_vine_platform",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-005/source_images/TILE-005_reference_jungle_user_sheet_original.png",
+      "source_crop": [
+        391,
+        777,
+        544,
+        966
+      ],
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/TILE-005_vine_platform.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-005/exports/TILE-005_vine_platform_reference02.png",
+      "dimensions": [
+        149,
+        177
+      ],
+      "sha256": "185124c9825133d969be8ec179847ac21346f8dfa7cabaeeeddd507fd640e26f",
+      "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+      "animation_timing": null,
+      "source_message_id": null,
+      "active_runtime": true,
+      "runtime_current_sha256": "185124c9825133d969be8ec179847ac21346f8dfa7cabaeeeddd507fd640e26f",
+      "sha256_applies_to": "export"
+    },
+    {
+      "asset_id": "TILE-016",
+      "name": "TILE-016_fern",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016/source_images/TILE-016_reference_jungle_user_sheet_original.png",
+      "source_crop": [
+        547,
+        764,
+        635,
+        876
+      ],
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/TILE-016_fern.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016/exports/TILE-016_fern_reference02.png",
+      "dimensions": [
+        84,
+        109
+      ],
+      "sha256": "096871d29257d074e342abcbdaa11912ac2b26f01b762a1f89cd9e795587ca4e",
+      "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+      "animation_timing": null,
+      "source_message_id": null,
+      "active_runtime": true,
+      "runtime_current_sha256": "096871d29257d074e342abcbdaa11912ac2b26f01b762a1f89cd9e795587ca4e",
+      "sha256_applies_to": "export"
+    },
+    {
+      "asset_id": "PROP-011",
+      "name": "PROP-011_fern",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_reference_jungle_user_sheet_original.png",
+      "source_crop": [
+        641,
+        772,
+        812,
+        876
+      ],
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-011_fern.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_fern_reference02.png",
+      "dimensions": [
+        169,
+        93
+      ],
+      "sha256": "a88a11d5bb4fea4b13021c030002998038e66b7c69d49be8e955c1aec21abe7f",
+      "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+      "animation_timing": null,
+      "source_message_id": null,
+      "active_runtime": true,
+      "runtime_current_sha256": "a88a11d5bb4fea4b13021c030002998038e66b7c69d49be8e955c1aec21abe7f",
+      "sha256_applies_to": "export"
+    },
+    {
+      "asset_id": "PROP-011",
+      "name": "PROP-011_bush",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_reference_jungle_user_sheet_original.png",
+      "source_crop": [
+        570,
+        872,
+        723,
+        968
+      ],
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-011_bush.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_bush_reference02.png",
+      "dimensions": [
+        139,
+        90
+      ],
+      "sha256": "2188107fd85475eae7cc580c44d5fb0345517b8edfa23799683eaaecc8943e75",
+      "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+      "animation_timing": null,
+      "source_message_id": null,
+      "active_runtime": true,
+      "runtime_current_sha256": "2188107fd85475eae7cc580c44d5fb0345517b8edfa23799683eaaecc8943e75",
+      "sha256_applies_to": "export"
+    },
+    {
+      "asset_id": "PROP-011",
+      "name": "PROP-011_mushroom",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_reference_jungle_user_sheet_original.png",
+      "source_crop": [
+        721,
+        899,
+        782,
+        966
+      ],
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-011_mushroom.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_mushroom_reference02.png",
+      "dimensions": [
+        54,
+        63
+      ],
+      "sha256": "4ce2d44ec59a3d65afe32577b08ef779471d0f86eb72dc02d9864b8b078e1919",
+      "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+      "animation_timing": null,
+      "source_message_id": null,
+      "active_runtime": true,
+      "runtime_current_sha256": "4ce2d44ec59a3d65afe32577b08ef779471d0f86eb72dc02d9864b8b078e1919",
+      "sha256_applies_to": "export"
+    },
+    {
+      "asset_id": "PROP-012",
+      "name": "PROP-012_stump",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012/source_images/PROP-012_reference_jungle_user_sheet_original.png",
+      "source_crop": [
+        811,
+        864,
+        926,
+        971
+      ],
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-012_stump.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012/exports/PROP-012_stump_reference02.png",
+      "dimensions": [
+        107,
+        102
+      ],
+      "sha256": "812cf5be1dfae26043eb24822ae6f627d3d496e8eb4aa7a880600761615cecfe",
+      "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+      "animation_timing": null,
+      "source_message_id": null,
+      "active_runtime": true,
+      "runtime_current_sha256": "812cf5be1dfae26043eb24822ae6f627d3d496e8eb4aa7a880600761615cecfe",
+      "sha256_applies_to": "export"
+    },
+    {
+      "asset_id": "ENV-02",
+      "name": "ENV-02_background",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/source_images/ENV-02_reference_jungle_user_sheet_original.png",
+      "source_crop": [
+        940,
+        774,
+        1524,
+        975
+      ],
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_background.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_background_reference02.png",
+      "dimensions": [
+        584,
+        201
+      ],
+      "sha256": "2128391f1eabe829387fa0b3eb5a34ef074ca711a3def11ab0b0a418d8fed60a",
+      "method": "Unchanged rectangular background crop",
+      "animation_timing": null,
+      "source_message_id": null,
+      "active_runtime": false,
+      "runtime_current_sha256": "c824c26728513180e1b08d1f8348cbdab674fa79528570b0c60d6a86ab186ca3",
+      "sha256_applies_to": "export",
+      "runtime_replaced_by": "highres_generation03_manifest.json"
+    },
+    {
+      "asset_id": "PROP-011",
+      "name": "PROP-011_hanging_vine",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_reference_jungle_user_sheet_original.png",
+      "source_crop": [
+        784,
+        873,
+        817,
+        967
+      ],
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-011_hanging_vine.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_hanging_vine_reference02.png",
+      "dimensions": [
+        29,
+        89
+      ],
+      "sha256": "8602b9bd662e1f05fef6a31b047a41907d45a2362ecf1726fef30f486f8ec1c9",
+      "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+      "animation_timing": null,
+      "source_message_id": null,
+      "active_runtime": true,
+      "runtime_current_sha256": "8602b9bd662e1f05fef6a31b047a41907d45a2362ecf1726fef30f486f8ec1c9",
+      "sha256_applies_to": "export"
+    },
+    {
+      "asset_id": "PROP-011",
+      "name": "PROP-011_leaf_cluster",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_reference_jungle_user_sheet_original.png",
+      "source_crop": [
+        814,
+        777,
+        908,
+        851
+      ],
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-011_leaf_cluster.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_leaf_cluster_reference02.png",
+      "dimensions": [
+        85,
+        66
+      ],
+      "sha256": "bbc51ca113cdce2a427f69e8682b210d2b23794938eb681f5f52ade1cd5ebddf",
+      "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+      "animation_timing": null,
+      "source_message_id": null,
+      "active_runtime": true,
+      "runtime_current_sha256": "bbc51ca113cdce2a427f69e8682b210d2b23794938eb681f5f52ade1cd5ebddf",
+      "sha256_applies_to": "export"
+    },
+    {
+      "asset_id": "UI-004",
+      "name": "UI-004_leaf_hint_frame",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/source_images/UI-004_reference_jungle_user_sheet_original.png",
+      "source_crop": [
+        524,
+        126,
+        943,
+        225
+      ],
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/UI-004_leaf_hint_frame.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/exports/UI-004_leaf_hint_frame_reference02.png",
+      "dimensions": [
+        419,
+        99
+      ],
+      "sha256": "b5ec5ca6512d856913792ab0d4361d2076cad0113015ec6792f8ebbb336b1992",
+      "method": "Source frame crop; baked words/symbols replaced by unchanged dark interior sample so runtime text stays live; checker alpha removed",
+      "animation_timing": null,
+      "source_message_id": null,
+      "active_runtime": true,
+      "runtime_current_sha256": "b5ec5ca6512d856913792ab0d4361d2076cad0113015ec6792f8ebbb336b1992",
+      "sha256_applies_to": "export"
+    },
+    {
+      "asset_id": "UI-004",
+      "name": "UI-004_hint_attention",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/source_images/UI-004_reference_jungle_user_sheet_original.png",
+      "source_crop": [
+        548,
+        151,
+        607,
+        212
+      ],
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/UI-004_hint_attention.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/exports/UI-004_hint_attention_reference02.png",
+      "dimensions": [
+        59,
+        61
+      ],
+      "sha256": "72d7fa926e642370779d19b0dd6bcbf5ac9ba2884ea895ca35da596816169ad6",
+      "method": "Exact isolated medallion region, native dark interior",
+      "animation_timing": null,
+      "source_message_id": null,
+      "active_runtime": true,
+      "runtime_current_sha256": "72d7fa926e642370779d19b0dd6bcbf5ac9ba2884ea895ca35da596816169ad6",
+      "sha256_applies_to": "export"
+    },
+    {
+      "asset_id": "UI-004",
+      "name": "UI-004_hint_arrow",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/source_images/UI-004_reference_jungle_user_sheet_original.png",
+      "source_crop": [
+        861,
+        156,
+        911,
+        202
+      ],
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/UI-004_hint_arrow.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/exports/UI-004_hint_arrow_reference02.png",
+      "dimensions": [
+        50,
+        46
+      ],
+      "sha256": "c9c68bb6450ac92c1912b7f9a4805fc3932fc52b9ced8c4b75ff0d9752670da3",
+      "method": "Exact directional arrow region, native dark interior",
+      "animation_timing": null,
+      "source_message_id": null,
+      "active_runtime": true,
+      "runtime_current_sha256": "c9c68bb6450ac92c1912b7f9a4805fc3932fc52b9ced8c4b75ff0d9752670da3",
+      "sha256_applies_to": "export"
+    },
+    {
+      "asset_id": "UI-025",
+      "name": "UI-025_keycap",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/source_images/UI-025_reference_jungle_user_sheet_original.png",
+      "source_crop": [
+        1271,
+        148,
+        1337,
+        208
+      ],
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/UI-025_keycap.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keycap_reference02.png",
+      "dimensions": [
+        66,
+        60
+      ],
+      "sha256": "8caef8bb74ad50d18ad239f6d225c497012c4c75ce9023e88934045c74314c6e",
+      "method": "Source key border and interior swatch; baked key character removed for live bindings",
+      "animation_timing": null,
+      "source_message_id": null,
+      "active_runtime": true,
+      "runtime_current_sha256": "8caef8bb74ad50d18ad239f6d225c497012c4c75ce9023e88934045c74314c6e",
+      "sha256_applies_to": "export"
+    }
+  ]
+}

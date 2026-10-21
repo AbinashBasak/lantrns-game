@@ -3,7 +3,7 @@
   "asset_id": "UI-025",
   "title": "Controller and keyboard prompts",
   "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025",
-  "stage": "reviewed editable input glyphs, raster exports and current-binding map",
+  "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
   "generation_tool": "authored SVG geometry and deterministic Pillow raster export",
   "deliverables": [
     {
@@ -1029,5 +1029,78 @@
     "128px and64pxcontactpreviews visually reviewed: exact labels and arrow directions readable, normal/pressed pairs present. No gamepadmanufacturer branding.",
     "All20 normal/pressed glyph pairs and current input mappings reviewed. Readability preview at64px included.",
     "SVG text uses system sans-serif fallback; final Godot font, platform input changes and focus/remapping still require integration/testing."
-  ]
+  ],
+  "reference_jungle_revision_2026_10_21": {
+    "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
+    "source_message_ids": null,
+    "animation_timing": null,
+    "originals_preserved": true,
+    "colors": "Original source RGB retained for sheet derivatives; generated replacements requested to match the supplied palette; no scene-wide recoloring. Alpha cleanup/removal of baked text is explicitly derived.",
+    "records": [
+      {
+        "asset_id": "UI-025",
+        "name": "UI-025_keycap",
+        "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/source_images/UI-025_reference_jungle_user_sheet_original.png",
+        "source_crop": [
+          1271,
+          148,
+          1337,
+          208
+        ],
+        "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/UI-025_keycap.png",
+        "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keycap_reference02.png",
+        "dimensions": [
+          66,
+          60
+        ],
+        "sha256": "8caef8bb74ad50d18ad239f6d225c497012c4c75ce9023e88934045c74314c6e",
+        "method": "Source key border and interior swatch; baked key character removed for live bindings",
+        "animation_timing": null,
+        "source_message_id": null,
+        "active_runtime": true,
+        "runtime_current_sha256": "8caef8bb74ad50d18ad239f6d225c497012c4c75ce9023e88934045c74314c6e",
+        "sha256_applies_to": "export"
+      }
+    ],
+    "current_file_hashes": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/source_images/UI-025_reference_jungle_user_sheet_original.png",
+        "sha256": "323232a6c7ec43260e73fa483f1b8d72ee210126e3b2706b1572ac3b7f25882f",
+        "role": "source",
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports/UI-025_keycap_reference02.png",
+        "sha256": "8caef8bb74ad50d18ad239f6d225c497012c4c75ce9023e88934045c74314c6e",
+        "role": "export",
+        "dimensions": [
+          66,
+          60
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/UI-025_keycap.png",
+        "sha256": "8caef8bb74ad50d18ad239f6d225c497012c4c75ce9023e88934045c74314c6e",
+        "role": "runtime",
+        "dimensions": [
+          66,
+          60
+        ]
+      }
+    ],
+    "runtime_validation": {
+      "scene_support_reachability_anchors": 276,
+      "traversal": 34,
+      "dynamic_hud": 29,
+      "reference_lighting": 12,
+      "timed_guidance": 11,
+      "reward_hud": 11,
+      "native_render_review": true,
+      "lighting_on_off_proof": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/reference-lighting-render-proof.json"
+    },
+    "approval": "Runtime review only; no new final production approval or checkbox changes"
+  }
 }

@@ -37,7 +37,7 @@
   "production_approved": false,
   "runtime_integrated": true,
   "requested_deliverables_saved_and_reviewed": true,
-  "stage": "selected prologue exports integrated and desktop-reviewed; full-pack and release/device approval pending",
+  "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
   "source_message_id": null,
   "reference_images": [],
   "provenance": {
@@ -745,5 +745,78 @@
       }
     }
   },
-  "last_updated": "2026-10-18T03:06:39.226816+05:30"
+  "last_updated": "2026-10-18T03:06:39.226816+05:30",
+  "reference_jungle_revision_2026_10_21": {
+    "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
+    "source_message_ids": null,
+    "animation_timing": null,
+    "originals_preserved": true,
+    "colors": "Original source RGB retained for sheet derivatives; generated replacements requested to match the supplied palette; no scene-wide recoloring. Alpha cleanup/removal of baked text is explicitly derived.",
+    "records": [
+      {
+        "asset_id": "PROP-012",
+        "name": "PROP-012_stump",
+        "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012/source_images/PROP-012_reference_jungle_user_sheet_original.png",
+        "source_crop": [
+          811,
+          864,
+          926,
+          971
+        ],
+        "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-012_stump.png",
+        "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012/exports/PROP-012_stump_reference02.png",
+        "dimensions": [
+          107,
+          102
+        ],
+        "sha256": "812cf5be1dfae26043eb24822ae6f627d3d496e8eb4aa7a880600761615cecfe",
+        "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+        "animation_timing": null,
+        "source_message_id": null,
+        "active_runtime": true,
+        "runtime_current_sha256": "812cf5be1dfae26043eb24822ae6f627d3d496e8eb4aa7a880600761615cecfe",
+        "sha256_applies_to": "export"
+      }
+    ],
+    "current_file_hashes": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012/source_images/PROP-012_reference_jungle_user_sheet_original.png",
+        "sha256": "323232a6c7ec43260e73fa483f1b8d72ee210126e3b2706b1572ac3b7f25882f",
+        "role": "source",
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012/exports/PROP-012_stump_reference02.png",
+        "sha256": "812cf5be1dfae26043eb24822ae6f627d3d496e8eb4aa7a880600761615cecfe",
+        "role": "export",
+        "dimensions": [
+          107,
+          102
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-012_stump.png",
+        "sha256": "812cf5be1dfae26043eb24822ae6f627d3d496e8eb4aa7a880600761615cecfe",
+        "role": "runtime",
+        "dimensions": [
+          107,
+          102
+        ]
+      }
+    ],
+    "runtime_validation": {
+      "scene_support_reachability_anchors": 276,
+      "traversal": 34,
+      "dynamic_hud": 29,
+      "reference_lighting": 12,
+      "timed_guidance": 11,
+      "reward_hud": 11,
+      "native_render_review": true,
+      "lighting_on_off_proof": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/reference-lighting-render-proof.json"
+    },
+    "approval": "Runtime review only; no new final production approval or checkbox changes"
+  }
 }

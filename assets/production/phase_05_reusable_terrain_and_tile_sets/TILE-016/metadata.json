@@ -502,7 +502,7 @@
   "production_approved": false,
   "runtime_integrated": false,
   "last_updated": "2026-10-17T16:53:26.184511+05:30",
-  "stage": "reviewed generated tile prototypes and64px exports; seam cleanup and engine validation pending",
+  "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
   "requested_deliverables_saved_and_reviewed": true,
   "review_notes": [
     "Eighteen separate decorative foliage/rock/root modules in6x3 source grid visually reviewed. All complete silhouettes within own cells; no collision or reachable platforms.",
@@ -524,5 +524,78 @@
         255
       ]
     }
-  ]
+  ],
+  "reference_jungle_revision_2026_10_21": {
+    "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
+    "source_message_ids": null,
+    "animation_timing": null,
+    "originals_preserved": true,
+    "colors": "Original source RGB retained for sheet derivatives; generated replacements requested to match the supplied palette; no scene-wide recoloring. Alpha cleanup/removal of baked text is explicitly derived.",
+    "records": [
+      {
+        "asset_id": "TILE-016",
+        "name": "TILE-016_fern",
+        "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016/source_images/TILE-016_reference_jungle_user_sheet_original.png",
+        "source_crop": [
+          547,
+          764,
+          635,
+          876
+        ],
+        "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/TILE-016_fern.png",
+        "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016/exports/TILE-016_fern_reference02.png",
+        "dimensions": [
+          84,
+          109
+        ],
+        "sha256": "096871d29257d074e342abcbdaa11912ac2b26f01b762a1f89cd9e795587ca4e",
+        "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+        "animation_timing": null,
+        "source_message_id": null,
+        "active_runtime": true,
+        "runtime_current_sha256": "096871d29257d074e342abcbdaa11912ac2b26f01b762a1f89cd9e795587ca4e",
+        "sha256_applies_to": "export"
+      }
+    ],
+    "current_file_hashes": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016/source_images/TILE-016_reference_jungle_user_sheet_original.png",
+        "sha256": "323232a6c7ec43260e73fa483f1b8d72ee210126e3b2706b1572ac3b7f25882f",
+        "role": "source",
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016/exports/TILE-016_fern_reference02.png",
+        "sha256": "096871d29257d074e342abcbdaa11912ac2b26f01b762a1f89cd9e795587ca4e",
+        "role": "export",
+        "dimensions": [
+          84,
+          109
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/TILE-016_fern.png",
+        "sha256": "096871d29257d074e342abcbdaa11912ac2b26f01b762a1f89cd9e795587ca4e",
+        "role": "runtime",
+        "dimensions": [
+          84,
+          109
+        ]
+      }
+    ],
+    "runtime_validation": {
+      "scene_support_reachability_anchors": 276,
+      "traversal": 34,
+      "dynamic_hud": 29,
+      "reference_lighting": 12,
+      "timed_guidance": 11,
+      "reward_hud": 11,
+      "native_render_review": true,
+      "lighting_on_off_proof": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/reference-lighting-render-proof.json"
+    },
+    "approval": "Runtime review only; no new final production approval or checkbox changes"
+  }
 }

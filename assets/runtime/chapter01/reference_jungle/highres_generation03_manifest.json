@@ -1,0 +1,144 @@
+{
+  "records": [
+    {
+      "asset_id": "ENV-02",
+      "name": "ENV-02_tree_arch",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/source_images/ENV-02_tree_arch_generation03_original.png",
+      "source_generator_path": "/Users/abinashbasak/.codex/generated_images/01a15f16-49cf-7f00-b82e-eb9a87456aef/exec-da8fb929-7065-438a-8819-fe829129724b.png",
+      "source_sha256": "9de939a533c85720e6490e3ab8ff1b95c073ab776d573dda0b227c716bb3d850",
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_tree_arch.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_tree_arch_generation03.png",
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "dimensions": [
+        1018,
+        1324
+      ],
+      "crop": [
+        5,
+        110,
+        1023,
+        1434
+      ],
+      "sha256": "f359ffbd825bf94071ba65f544684cde2665af7aaf5027634d2d99bd87105bd6",
+      "method": "Built-in image_gen high-resolution replacement; unchanged RGB; alpha-bounds crop only for isolated props",
+      "prompt": "One high-resolution complete ancient forest tree arch with mossy ground roots, sweeping trunk, emerald/yellow-green canopy, hanging vines and teal-brown bark. Transparent exterior and arch opening; full silhouette fits canvas with padding. No houses/bridge/UI/characters, no floating or cropped base. Crisp source-matched painterly detail.",
+      "tool": "built-in image_gen",
+      "animation_timing": null,
+      "source_message_id": null
+    },
+    {
+      "asset_id": "ENV-02",
+      "name": "ENV-02_background",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/source_images/ENV-02_background_generation03_original.png",
+      "source_generator_path": "/Users/abinashbasak/.codex/generated_images/01a15f16-49cf-7f00-b82e-eb9a87456aef/exec-f04ba090-ecc6-4042-8c8f-7cced4e20186.png",
+      "source_sha256": "66566e4e8cf409dc714242cd1621e7821a8620d5e2ce71cf8187db3281f28ab6",
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_background.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_background_generation03.png",
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "crop": null,
+      "sha256": "c824c26728513180e1b08d1f8348cbdab674fa79528570b0c60d6a86ab186ca3",
+      "method": "Built-in image_gen high-resolution replacement; unchanged RGB; alpha-bounds crop only for isolated props",
+      "prompt": "High-resolution forest background plane. Match supplied crisp forest greens, yellow-green canopy, deep teal trees, turquoise waterfall valley and golden lamps; small treehouses attached to real trunks and branches, complete anchored bridges. Background only, no UI, text, characters, creatures or gameplay platforms; no pixelation, no global color filter.",
+      "tool": "built-in image_gen",
+      "animation_timing": null,
+      "source_message_id": null
+    },
+    {
+      "asset_id": "ENV-02",
+      "name": "ENV-02_treehouse",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/source_images/ENV-02_treehouse_generation03_original.png",
+      "source_generator_path": "/Users/abinashbasak/.codex/generated_images/01a15f16-49cf-7f00-b82e-eb9a87456aef/exec-b0e0483b-6ebd-4cfb-a39d-c56cd4ca6635.png",
+      "source_sha256": "a3f6a03091ae1ee9ed23ddae370df3408eea4fd70be6b9dc2e6f927320363ae6",
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_treehouse.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_treehouse_generation03.png",
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "dimensions": [
+        1013,
+        1514
+      ],
+      "crop": [
+        8,
+        9,
+        1021,
+        1523
+      ],
+      "sha256": "83967c55d693d0ee3f3cc8cf028b64ab673bf579bfc85008c408d3d240bf985e",
+      "method": "Built-in image_gen high-resolution replacement; unchanged RGB; alpha-bounds crop only for isolated props",
+      "prompt": "High-resolution isolated complete ancient tree with naturally supported timber treehouse and short rope bridge anchored at both ends. Continuous trunk to broad mossy roots. Full silhouette fits canvas, no cut-off base or floating house. Match vibrant green/yellow-green, teal-brown bark and golden lamps. Transparent exterior; crisp painted detail, no UI, text or characters.",
+      "tool": "built-in image_gen",
+      "animation_timing": null,
+      "source_message_id": null
+    },
+    {
+      "asset_id": "ENV-02",
+      "name": "ENV-02_waterfall",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/source_images/ENV-02_waterfall_generation03_original.png",
+      "source_generator_path": "/Users/abinashbasak/.codex/generated_images/01a15f16-49cf-7f00-b82e-eb9a87456aef/exec-9c885040-974f-474e-987b-26846d29cb6f.png",
+      "source_sha256": "86dee9e983466554146949942a5c02323aa31295f8d3b1616021cca43a29a956",
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_waterfall.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_waterfall_generation03.png",
+      "source_dimensions": [
+        1024,
+        1536
+      ],
+      "dimensions": [
+        997,
+        1488
+      ],
+      "crop": [
+        11,
+        25,
+        1008,
+        1513
+      ],
+      "sha256": "81ce9adee99befeca7d621dce958de21f84e1c908072902cead54fd2e4dd825d",
+      "method": "Built-in image_gen high-resolution replacement; unchanged RGB; alpha-bounds crop only for isolated props",
+      "prompt": "High-resolution complete tall waterfall cliff with mossy rocks, bright emerald/yellow-green ferns and hanging vines, detailed pale turquoise/white water and a modest pool. Natural irregular fully contained silhouette, transparent exterior. Crisp illustrated fantasy side-view, no pixelation, no UI, text, characters or frame.",
+      "tool": "built-in image_gen",
+      "animation_timing": null,
+      "source_message_id": null
+    },
+    {
+      "asset_id": "PROP-011",
+      "name": "PROP-011_lush_fern",
+      "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_lush_fern_generation03_original.png",
+      "source_generator_path": "/Users/abinashbasak/.codex/generated_images/01a15f16-49cf-7f00-b82e-eb9a87456aef/exec-cb88cb64-4c7e-4688-a1f8-99b7ea509e86.png",
+      "source_sha256": "8371db1cc766333287660f5d71479349ce7aea72127031d37de0e7f6717654cc",
+      "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-011_lush_fern.png",
+      "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports/PROP-011_lush_fern_generation03.png",
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "dimensions": [
+        2105,
+        619
+      ],
+      "crop": [
+        34,
+        65,
+        2139,
+        684
+      ],
+      "sha256": "0c54ff38371d6216a5fbac0537b6c1705b1b780bd675d716eca75572ca2cd9e1",
+      "method": "Built-in image_gen high-resolution replacement; unchanged RGB; alpha-bounds crop only for isolated props",
+      "prompt": "One broad low forest-floor foliage cluster of emerald, jade and yellow-green ferns, tiny moss leaves, pale gold flowers and small roots along the base. Crisp high-resolution painted detail with complete leaf tips. Grounded low silhouette, transparent exterior, no soil pedestal/rocks/creatures/text/UI. Match supplied forest palette.",
+      "tool": "built-in image_gen",
+      "animation_timing": null,
+      "source_message_id": null
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
+  "asset_ids": [
+    "ENV-02",
+    "OBJ-004",
+    "PROP-001",
+    "PROP-002",
+    "PROP-011",
+    "PROP-012",
+    "TILE-001",
+    "TILE-003",
+    "TILE-005",
+    "TILE-016",
+    "UI-004",
+    "UI-025"
+  ],
+  "current_runtime_files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_background.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "c824c26728513180e1b08d1f8348cbdab674fa79528570b0c60d6a86ab186ca3"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_tree_arch.png",
+      "dimensions": [
+        1018,
+        1324
+      ],
+      "sha256": "f359ffbd825bf94071ba65f544684cde2665af7aaf5027634d2d99bd87105bd6"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_treehouse.png",
+      "dimensions": [
+        1013,
+        1514
+      ],
+      "sha256": "83967c55d693d0ee3f3cc8cf028b64ab673bf579bfc85008c408d3d240bf985e"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_waterfall.png",
+      "dimensions": [
+        997,
+        1488
+      ],
+      "sha256": "81ce9adee99befeca7d621dce958de21f84e1c908072902cead54fd2e4dd825d"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/OBJ-004_root_seal.png",
+      "dimensions": [
+        272,
+        268
+      ],
+      "sha256": "930205aa054cfd94dd6e6b103ceadf724287964f348981778e6aa326c63a0d47"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-001_lantern_post.png",
+      "dimensions": [
+        92,
+        246
+      ],
+      "sha256": "851e6e79a07c478aceb825b550e553a6fa3d2ff41ef3aaea9578c60afd64ce46"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-002_lantern_hanging.png",
+      "dimensions": [
+        67,
+        156
+      ],
+      "sha256": "8558fd3a7b207163f91d57caa04e151a4b9f084d1d0a85a0c329e19b9fba66b5"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-002_lantern_small.png",
+      "dimensions": [
+        65,
+        140
+      ],
+      "sha256": "0f6c0226618171cda88e4b14a0e1fbf55f89c6dcb534baf2b8cdba06f446dfbb"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-011_bush.png",
+      "dimensions": [
+        139,
+        90
+      ],
+      "sha256": "2188107fd85475eae7cc580c44d5fb0345517b8edfa23799683eaaecc8943e75"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-011_fern.png",
+      "dimensions": [
+        169,
+        93
+      ],
+      "sha256": "a88a11d5bb4fea4b13021c030002998038e66b7c69d49be8e955c1aec21abe7f"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-011_hanging_vine.png",
+      "dimensions": [
+        29,
+        89
+      ],
+      "sha256": "8602b9bd662e1f05fef6a31b047a41907d45a2362ecf1726fef30f486f8ec1c9"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-011_leaf_cluster.png",
+      "dimensions": [
+        85,
+        66
+      ],
+      "sha256": "bbc51ca113cdce2a427f69e8682b210d2b23794938eb681f5f52ade1cd5ebddf"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-011_lush_fern.png",
+      "dimensions": [
+        2105,
+        619
+      ],
+      "sha256": "0c54ff38371d6216a5fbac0537b6c1705b1b780bd675d716eca75572ca2cd9e1"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-011_mushroom.png",
+      "dimensions": [
+        54,
+        63
+      ],
+      "sha256": "4ce2d44ec59a3d65afe32577b08ef779471d0f86eb72dc02d9864b8b078e1919"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-012_stump.png",
+      "dimensions": [
+        107,
+        102
+      ],
+      "sha256": "812cf5be1dfae26043eb24822ae6f627d3d496e8eb4aa7a880600761615cecfe"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/TILE-001_ground.png",
+      "dimensions": [
+        241,
+        143
+      ],
+      "sha256": "ef93a96f3cb3e247eb119299326d4055671b8d5e7863f72f897de3a56b57b5b1"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/TILE-003_platform.png",
+      "dimensions": [
+        126,
+        78
+      ],
+      "sha256": "7a722fc31dc07fa5ffe5d32104f769c838ee5b3b5b71b5b13df039e537c058f1"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/TILE-005_vine_platform.png",
+      "dimensions": [
+        149,
+        177
+      ],
+      "sha256": "185124c9825133d969be8ec179847ac21346f8dfa7cabaeeeddd507fd640e26f"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/TILE-016_fern.png",
+      "dimensions": [
+        84,
+        109
+      ],
+      "sha256": "096871d29257d074e342abcbdaa11912ac2b26f01b762a1f89cd9e795587ca4e"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/UI-004_hint_arrow.png",
+      "dimensions": [
+        50,
+        46
+      ],
+      "sha256": "c9c68bb6450ac92c1912b7f9a4805fc3932fc52b9ced8c4b75ff0d9752670da3"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/UI-004_hint_attention.png",
+      "dimensions": [
+        59,
+        61
+      ],
+      "sha256": "72d7fa926e642370779d19b0dd6bcbf5ac9ba2884ea895ca35da596816169ad6"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/UI-004_leaf_hint_frame.png",
+      "dimensions": [
+        419,
+        99
+      ],
+      "sha256": "b5ec5ca6512d856913792ab0d4361d2076cad0113015ec6792f8ebbb336b1992"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/UI-025_keycap.png",
+      "dimensions": [
+        66,
+        60
+      ],
+      "sha256": "8caef8bb74ad50d18ad239f6d225c497012c4c75ce9023e88934045c74314c6e"
+    }
+  ],
+  "source_extraction": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/extraction_manifest.json",
+  "high_resolution_generations": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/highres_generation03_manifest.json",
+  "runtime_preview": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/reference-jungle-0-preview.png",
+  "lighting_proof": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/reference-lighting-render-proof.json",
+  "skill": "/Users/abinashbasak/.codex/skills/godot-2d-lighting/SKILL.md",
+  "memory": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/project-memory.md",
+  "final_approved": false
+}

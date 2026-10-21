@@ -179,7 +179,7 @@
   ],
   "production_approved": false,
   "requested_deliverables_saved_and_reviewed": true,
-  "stage": "reviewed_prototype_source_and_fixed_cell_exports",
+  "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
   "runtime_integrated": false,
   "metadata_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/metadata.json",
   "review_notes": [
@@ -199,5 +199,120 @@
   "previews": [
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/previews/PROP-002_source_alpha_checker.png",
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/previews/PROP-002_export_contact.png"
-  ]
+  ],
+  "reference_jungle_revision_2026_10_21": {
+    "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
+    "source_message_ids": null,
+    "animation_timing": null,
+    "originals_preserved": true,
+    "colors": "Original source RGB retained for sheet derivatives; generated replacements requested to match the supplied palette; no scene-wide recoloring. Alpha cleanup/removal of baked text is explicitly derived.",
+    "records": [
+      {
+        "asset_id": "PROP-002",
+        "name": "PROP-002_lantern_hanging",
+        "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/source_images/PROP-002_reference_jungle_user_sheet_original.png",
+        "source_crop": [
+          283,
+          506,
+          375,
+          689
+        ],
+        "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-002_lantern_hanging.png",
+        "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/exports/PROP-002_lantern_hanging_reference02.png",
+        "dimensions": [
+          67,
+          156
+        ],
+        "sha256": "8558fd3a7b207163f91d57caa04e151a4b9f084d1d0a85a0c329e19b9fba66b5",
+        "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+        "animation_timing": null,
+        "source_message_id": null,
+        "active_runtime": true,
+        "runtime_current_sha256": "8558fd3a7b207163f91d57caa04e151a4b9f084d1d0a85a0c329e19b9fba66b5",
+        "sha256_applies_to": "export"
+      },
+      {
+        "asset_id": "PROP-002",
+        "name": "PROP-002_lantern_small",
+        "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/source_images/PROP-002_reference_jungle_user_sheet_original.png",
+        "source_crop": [
+          389,
+          538,
+          468,
+          691
+        ],
+        "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-002_lantern_small.png",
+        "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/exports/PROP-002_lantern_small_reference02.png",
+        "dimensions": [
+          65,
+          140
+        ],
+        "sha256": "0f6c0226618171cda88e4b14a0e1fbf55f89c6dcb534baf2b8cdba06f446dfbb",
+        "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+        "animation_timing": null,
+        "source_message_id": null,
+        "active_runtime": true,
+        "runtime_current_sha256": "0f6c0226618171cda88e4b14a0e1fbf55f89c6dcb534baf2b8cdba06f446dfbb",
+        "sha256_applies_to": "export"
+      }
+    ],
+    "current_file_hashes": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/source_images/PROP-002_reference_jungle_user_sheet_original.png",
+        "sha256": "323232a6c7ec43260e73fa483f1b8d72ee210126e3b2706b1572ac3b7f25882f",
+        "role": "source",
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/exports/PROP-002_lantern_hanging_reference02.png",
+        "sha256": "8558fd3a7b207163f91d57caa04e151a4b9f084d1d0a85a0c329e19b9fba66b5",
+        "role": "export",
+        "dimensions": [
+          67,
+          156
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-002_lantern_hanging.png",
+        "sha256": "8558fd3a7b207163f91d57caa04e151a4b9f084d1d0a85a0c329e19b9fba66b5",
+        "role": "runtime",
+        "dimensions": [
+          67,
+          156
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/exports/PROP-002_lantern_small_reference02.png",
+        "sha256": "0f6c0226618171cda88e4b14a0e1fbf55f89c6dcb534baf2b8cdba06f446dfbb",
+        "role": "export",
+        "dimensions": [
+          65,
+          140
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-002_lantern_small.png",
+        "sha256": "0f6c0226618171cda88e4b14a0e1fbf55f89c6dcb534baf2b8cdba06f446dfbb",
+        "role": "runtime",
+        "dimensions": [
+          65,
+          140
+        ]
+      }
+    ],
+    "runtime_validation": {
+      "scene_support_reachability_anchors": 276,
+      "traversal": 34,
+      "dynamic_hud": 29,
+      "reference_lighting": 12,
+      "timed_guidance": 11,
+      "reward_hud": 11,
+      "native_render_review": true,
+      "lighting_on_off_proof": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/reference-lighting-render-proof.json"
+    },
+    "approval": "Runtime review only; no new final production approval or checkbox changes"
+  }
 }

@@ -3,7 +3,7 @@
   "project_checklist_copy": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/lanterns_underroot_master_asset_checklist.md",
   "asset_library_root": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production",
   "source_chat": "https://chatgpt.com/share/6ad136a4-4cc8-83ee-9742-05bc90e2a1dc",
-  "last_updated": "2026-10-21T00:00:00+05:30",
+  "last_updated": "2026-10-21T22:55:01.677668+05:30",
   "checked_count": 197,
   "asset_count": 217,
   "assets": [
@@ -3835,7 +3835,7 @@
       "deliverables_saved": 8,
       "deliverables_expected": 8,
       "production_approved": false,
-      "stage": "selected Chapter 1 runtime exports integrated and desktop-reviewed; full-pack, listening and release/device approval pending",
+      "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
       "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/source_images/ENV-02_lighting_reference_original.png",
       "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/metadata.json",
       "exports_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports",
@@ -4249,7 +4249,14 @@
         "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/environment/ENV-02_midground.png"
       ],
       "runtime_manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
-      "archive_stage_before_runtime_integration": "prototype_sources_and_exports_reviewed"
+      "archive_stage_before_runtime_integration": "prototype_sources_and_exports_reviewed",
+      "reference_jungle_metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/metadata.json",
+      "reference_jungle_runtime_exports": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_background.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_tree_arch.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_treehouse.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_waterfall.png"
+      ]
     },
     {
       "asset_id": "ENV-03",
@@ -4876,7 +4883,7 @@
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001",
       "source_count": 2,
       "production_approved": false,
-      "stage": "selected prologue runtime exports integrated and desktop-reviewed; full-pack and release/device approval pending",
+      "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
       "exports_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/exports",
       "previews_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/previews",
       "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/source_images/TILE-001_terrain_atlas_original.png",
@@ -4930,7 +4937,11 @@
             }
           ]
         }
-      }
+      },
+      "reference_jungle_metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-001/metadata.json",
+      "reference_jungle_runtime_exports": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/TILE-001_ground.png"
+      ]
     },
     {
       "asset_id": "TILE-002",
@@ -5003,7 +5014,7 @@
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003",
       "source_count": 2,
       "production_approved": false,
-      "stage": "selected Chapter 1 runtime exports integrated and desktop-reviewed; full-pack, listening and release/device approval pending",
+      "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
       "exports_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/exports",
       "previews_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/previews",
       "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/source_images/TILE-003_terrain_atlas_original.png",
@@ -5099,7 +5110,11 @@
         "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/environment/TILE-003_05_opaque_interior.png"
       ],
       "runtime_manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
-      "archive_stage_before_runtime_integration": "reviewed_prototype_sources_and_64px_exports"
+      "archive_stage_before_runtime_integration": "reviewed_prototype_sources_and_64px_exports",
+      "reference_jungle_metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-003/metadata.json",
+      "reference_jungle_runtime_exports": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/TILE-003_platform.png"
+      ]
     },
     {
       "asset_id": "TILE-004",
@@ -5125,11 +5140,15 @@
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-005",
       "source_count": 1,
       "production_approved": false,
-      "stage": "reviewed_prototype_sources_and_64px_exports",
+      "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
       "exports_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-005/exports",
       "previews_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-005/previews",
       "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-005/source_images/TILE-005_terrain_atlas_original.png",
-      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-005/metadata.json"
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-005/metadata.json",
+      "reference_jungle_metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-005/metadata.json",
+      "reference_jungle_runtime_exports": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/TILE-005_vine_platform.png"
+      ]
     },
     {
       "asset_id": "TILE-006",
@@ -5303,11 +5322,15 @@
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016",
       "source_count": 1,
       "production_approved": false,
-      "stage": "reviewed generated tile prototypes and64px exports; seam cleanup and engine validation pending",
+      "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
       "exports_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016/exports",
       "previews_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016/previews",
       "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016/source_images/TILE-016_foliage_rock_overlays_original.png",
-      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016/metadata.json"
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016/metadata.json",
+      "reference_jungle_metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-016/metadata.json",
+      "reference_jungle_runtime_exports": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/TILE-016_fern.png"
+      ]
     },
     {
       "asset_id": "TILE-017",
@@ -5333,11 +5356,15 @@
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001",
       "source_count": 1,
       "production_approved": false,
-      "stage": "reviewed_prototype_source_and_fixed_cell_exports",
+      "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
       "exports_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/exports",
       "previews_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/previews",
       "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/source_images/PROP-001_prop_states_original.png",
-      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/metadata.json"
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/metadata.json",
+      "reference_jungle_metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-001/metadata.json",
+      "reference_jungle_runtime_exports": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-001_lantern_post.png"
+      ]
     },
     {
       "asset_id": "PROP-002",
@@ -5348,11 +5375,16 @@
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002",
       "source_count": 1,
       "production_approved": false,
-      "stage": "reviewed_prototype_source_and_fixed_cell_exports",
+      "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
       "exports_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/exports",
       "previews_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/previews",
       "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/source_images/PROP-002_prop_states_original.png",
-      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/metadata.json"
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/metadata.json",
+      "reference_jungle_metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-002/metadata.json",
+      "reference_jungle_runtime_exports": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-002_lantern_hanging.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-002_lantern_small.png"
+      ]
     },
     {
       "asset_id": "PROP-003",
@@ -5541,7 +5573,7 @@
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011",
       "source_count": 1,
       "production_approved": false,
-      "stage": "selected prologue runtime exports integrated and desktop-reviewed; full-pack and release/device approval pending",
+      "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
       "exports_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/exports",
       "previews_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/previews",
       "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/source_images/PROP-011_sheet_original.png",
@@ -5561,7 +5593,16 @@
         "platform": "macOS",
         "checked": "2026-10-18T03:06:39.226816+05:30",
         "release_approved": false
-      }
+      },
+      "reference_jungle_metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-011/metadata.json",
+      "reference_jungle_runtime_exports": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-011_bush.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-011_fern.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-011_hanging_vine.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-011_leaf_cluster.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-011_lush_fern.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-011_mushroom.png"
+      ]
     },
     {
       "asset_id": "PROP-012",
@@ -5572,7 +5613,7 @@
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012",
       "source_count": 1,
       "production_approved": false,
-      "stage": "selected prologue runtime exports integrated and desktop-reviewed; full-pack and release/device approval pending",
+      "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
       "exports_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012/exports",
       "previews_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012/previews",
       "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012/source_images/PROP-012_sheet_original.png",
@@ -5592,7 +5633,11 @@
         "platform": "macOS",
         "checked": "2026-10-18T03:06:39.226816+05:30",
         "release_approved": false
-      }
+      },
+      "reference_jungle_metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/village_and_forest_props/PROP-012/metadata.json",
+      "reference_jungle_runtime_exports": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/PROP-012_stump.png"
+      ]
     },
     {
       "asset_id": "PROP-013",
@@ -5808,11 +5853,15 @@
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004",
       "source_count": 1,
       "production_approved": false,
-      "stage": "generated_prototype_reviewed_exported",
+      "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
       "exports_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004/exports",
       "previews_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004/previews",
       "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004/source_images/OBJ-004_state_atlas_original.png",
-      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004/metadata.json"
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004/metadata.json",
+      "reference_jungle_metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004/metadata.json",
+      "reference_jungle_runtime_exports": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/OBJ-004_root_seal.png"
+      ]
     },
     {
       "asset_id": "OBJ-005",
@@ -8067,14 +8116,20 @@
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004",
       "source_count": 1,
       "production_approved": false,
-      "stage": "Modular gold/teal HUD kit exported, integrated and runtime-reviewed; final art/device approval pending",
+      "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
       "exports_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/exports",
       "previews_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/previews",
       "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/source_images/UI-004_ui_components_original.png",
       "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/metadata.json",
       "dynamic_hud_runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/shared/ui",
       "dynamic_hud_metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/metadata.json",
-      "dynamic_hud_scope": "Content panels, points and reward prompts only; original player hearts and vitality restored"
+      "dynamic_hud_scope": "Content panels, points and reward prompts only; original player hearts and vitality restored",
+      "reference_jungle_metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/metadata.json",
+      "reference_jungle_runtime_exports": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/UI-004_hint_arrow.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/UI-004_hint_attention.png",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/UI-004_leaf_hint_frame.png"
+      ]
     },
     {
       "asset_id": "UI-005",
@@ -9061,11 +9116,15 @@
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025",
       "source_count": 0,
       "production_approved": false,
-      "stage": "reviewed editable input glyphs, raster exports and current-binding map",
+      "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
       "exports_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/exports",
       "previews_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/previews",
       "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/source_images/UI-025_prompt_atlas.svg",
-      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/metadata.json"
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/metadata.json",
+      "reference_jungle_metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/menus_and_screens/UI-025/metadata.json",
+      "reference_jungle_runtime_exports": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/UI-025_keycap.png"
+      ]
     },
     {
       "asset_id": "AUD-SFX-001",

@@ -3,7 +3,7 @@
   "id": "OBJ-004",
   "title": "Rune-activated door",
   "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004",
-  "stage": "generated_prototype_reviewed_exported",
+  "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
   "deliverables": [
     {
       "slug": "state_atlas",
@@ -115,7 +115,7 @@
       "generation_tool": "built-in image_gen",
       "review_notes": [
         "Static art states only; no gameplay logic, finalized animation or engine behavior implied.",
-        "Source reviewed over checkerboard: four complete isolated objects in2\u00d72 equal cells, genuine alpha-zero surroundings.",
+        "Source reviewed over checkerboard: four complete isolated objects in2×2 equal cells, genuine alpha-zero surroundings.",
         "Fixed256px cell exports reviewed. Minor state geometry/painted margins vary; register pivots and verify readability at actual game scale before runtime use.",
         "Geometric rune vocabulary is an unapproved visual proposal, not approved canonical lettering.",
         "Both open/empty threshold cells have genuine transparent interior. Open leaf is edge-on inside frame; empty threshold removes leaf. Lantern decoration generated on frame; no scenery or gameplay logic implied."
@@ -218,5 +218,78 @@
   "production_approved": false,
   "runtime_integrated": false,
   "provenance": "New built-in image_gen original copied unchanged; exports/previews derived locally.",
-  "review_notes": []
+  "review_notes": [],
+  "reference_jungle_revision_2026_10_21": {
+    "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
+    "source_message_ids": null,
+    "animation_timing": null,
+    "originals_preserved": true,
+    "colors": "Original source RGB retained for sheet derivatives; generated replacements requested to match the supplied palette; no scene-wide recoloring. Alpha cleanup/removal of baked text is explicitly derived.",
+    "records": [
+      {
+        "asset_id": "OBJ-004",
+        "name": "OBJ-004_root_seal",
+        "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004/source_images/OBJ-004_reference_jungle_user_sheet_original.png",
+        "source_crop": [
+          0,
+          452,
+          282,
+          723
+        ],
+        "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/OBJ-004_root_seal.png",
+        "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004/exports/OBJ-004_root_seal_reference02.png",
+        "dimensions": [
+          272,
+          268
+        ],
+        "sha256": "930205aa054cfd94dd6e6b103ceadf724287964f348981778e6aa326c63a0d47",
+        "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+        "animation_timing": null,
+        "source_message_id": null,
+        "active_runtime": true,
+        "runtime_current_sha256": "930205aa054cfd94dd6e6b103ceadf724287964f348981778e6aa326c63a0d47",
+        "sha256_applies_to": "export"
+      }
+    ],
+    "current_file_hashes": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004/source_images/OBJ-004_reference_jungle_user_sheet_original.png",
+        "sha256": "323232a6c7ec43260e73fa483f1b8d72ee210126e3b2706b1572ac3b7f25882f",
+        "role": "source",
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_06_props_and_interactive_objects/gameplay_objects/OBJ-004/exports/OBJ-004_root_seal_reference02.png",
+        "sha256": "930205aa054cfd94dd6e6b103ceadf724287964f348981778e6aa326c63a0d47",
+        "role": "export",
+        "dimensions": [
+          272,
+          268
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/OBJ-004_root_seal.png",
+        "sha256": "930205aa054cfd94dd6e6b103ceadf724287964f348981778e6aa326c63a0d47",
+        "role": "runtime",
+        "dimensions": [
+          272,
+          268
+        ]
+      }
+    ],
+    "runtime_validation": {
+      "scene_support_reachability_anchors": 276,
+      "traversal": 34,
+      "dynamic_hud": 29,
+      "reference_lighting": 12,
+      "timed_guidance": 11,
+      "reward_hud": 11,
+      "native_render_review": true,
+      "lighting_on_off_proof": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/reference-lighting-render-proof.json"
+    },
+    "approval": "Runtime review only; no new final production approval or checkbox changes"
+  }
 }

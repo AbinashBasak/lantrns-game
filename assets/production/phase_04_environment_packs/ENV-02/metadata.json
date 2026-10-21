@@ -7,7 +7,7 @@
       "docs/lanterns_underroot_prologue_ch1_development_plan.md",
       "docs/full-story.md"
     ],
-    "summary": "Current development plan Chapter1 A\u2013E: raised roots, broad safe routes, watchpost, log/platform traversal, ancient arch and three-stone3slow/2quick rhythm puzzle; roots reveal temporary platforms. Full-story Chapter1 supplies abandoned watchtowers and altered forest.",
+    "summary": "Current development plan Chapter1 A–E: raised roots, broad safe routes, watchpost, log/platform traversal, ancient arch and three-stone3slow/2quick rhythm puzzle; roots reveal temporary platforms. Full-story Chapter1 supplies abandoned watchtowers and altered forest.",
     "status": "Sources generated and visually reviewed; prototype exports prepared."
   },
   "review_notes": [
@@ -1046,7 +1046,7 @@
       ]
     }
   ],
-  "stage": "prototype_sources_and_exports_reviewed",
+  "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
   "requested_deliverables_saved_and_reviewed": true,
   "production_approved": false,
   "asset_id": "ENV-02",
@@ -1442,5 +1442,409 @@
       ]
     }
   },
-  "last_updated": "2026-10-18T05:32:46.261707+05:30"
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
+  "reference_jungle_revision_2026_10_21": {
+    "stage": "Reference jungle modules and high-resolution replacements exported, Godot-integrated and visually reviewed; final device/art approval pending",
+    "source_message_ids": null,
+    "animation_timing": null,
+    "originals_preserved": true,
+    "colors": "Original source RGB retained for sheet derivatives; generated replacements requested to match the supplied palette; no scene-wide recoloring. Alpha cleanup/removal of baked text is explicitly derived.",
+    "records": [
+      {
+        "asset_id": "ENV-02",
+        "name": "ENV-02_treehouse",
+        "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/source_images/ENV-02_reference_jungle_user_sheet_original.png",
+        "source_crop": [
+          566,
+          477,
+          928,
+          731
+        ],
+        "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_treehouse.png",
+        "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_treehouse_reference02.png",
+        "dimensions": [
+          359,
+          253
+        ],
+        "sha256": "793f8d85ffa6dba4256e9675f5b8aa1159f016c885eea43f8f45c1c24600450c",
+        "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+        "animation_timing": null,
+        "source_message_id": null,
+        "active_runtime": false,
+        "runtime_current_sha256": "83967c55d693d0ee3f3cc8cf028b64ab673bf579bfc85008c408d3d240bf985e",
+        "sha256_applies_to": "export",
+        "runtime_replaced_by": "highres_generation03_manifest.json"
+      },
+      {
+        "asset_id": "ENV-02",
+        "name": "ENV-02_tree_arch",
+        "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/source_images/ENV-02_reference_jungle_user_sheet_original.png",
+        "source_crop": [
+          848,
+          466,
+          1239,
+          733
+        ],
+        "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_tree_arch.png",
+        "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_tree_arch_reference02.png",
+        "dimensions": [
+          389,
+          261
+        ],
+        "sha256": "48e7a2c3ff07998fa9c220e46de3587a08370c3e4869582e7bf211f7db7214c2",
+        "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+        "animation_timing": null,
+        "source_message_id": null,
+        "active_runtime": false,
+        "runtime_current_sha256": "f359ffbd825bf94071ba65f544684cde2665af7aaf5027634d2d99bd87105bd6",
+        "sha256_applies_to": "export",
+        "runtime_replaced_by": "highres_generation03_manifest.json"
+      },
+      {
+        "asset_id": "ENV-02",
+        "name": "ENV-02_waterfall",
+        "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/source_images/ENV-02_reference_jungle_user_sheet_original.png",
+        "source_crop": [
+          1238,
+          465,
+          1536,
+          732
+        ],
+        "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_waterfall.png",
+        "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_waterfall_reference02.png",
+        "dimensions": [
+          288,
+          261
+        ],
+        "sha256": "6b4dfc0ba1a585aa5b4c6945b892627754ffc00fc630c0d6eaac6b6485e2ca7c",
+        "method": "Crop and alpha-mask baked light-gray checkerboard; original RGB of retained pixels unchanged",
+        "animation_timing": null,
+        "source_message_id": null,
+        "active_runtime": false,
+        "runtime_current_sha256": "81ce9adee99befeca7d621dce958de21f84e1c908072902cead54fd2e4dd825d",
+        "sha256_applies_to": "export",
+        "runtime_replaced_by": "highres_generation03_manifest.json"
+      },
+      {
+        "asset_id": "ENV-02",
+        "name": "ENV-02_background",
+        "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/source_images/ENV-02_reference_jungle_user_sheet_original.png",
+        "source_crop": [
+          940,
+          774,
+          1524,
+          975
+        ],
+        "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_background.png",
+        "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_background_reference02.png",
+        "dimensions": [
+          584,
+          201
+        ],
+        "sha256": "2128391f1eabe829387fa0b3eb5a34ef074ca711a3def11ab0b0a418d8fed60a",
+        "method": "Unchanged rectangular background crop",
+        "animation_timing": null,
+        "source_message_id": null,
+        "active_runtime": false,
+        "runtime_current_sha256": "c824c26728513180e1b08d1f8348cbdab674fa79528570b0c60d6a86ab186ca3",
+        "sha256_applies_to": "export",
+        "runtime_replaced_by": "highres_generation03_manifest.json"
+      },
+      {
+        "asset_id": "ENV-02",
+        "name": "ENV-02_tree_arch",
+        "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/source_images/ENV-02_tree_arch_generation03_original.png",
+        "source_generator_path": "/Users/abinashbasak/.codex/generated_images/01a15f16-49cf-7f00-b82e-eb9a87456aef/exec-da8fb929-7065-438a-8819-fe829129724b.png",
+        "source_sha256": "9de939a533c85720e6490e3ab8ff1b95c073ab776d573dda0b227c716bb3d850",
+        "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_tree_arch.png",
+        "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_tree_arch_generation03.png",
+        "source_dimensions": [
+          1024,
+          1536
+        ],
+        "dimensions": [
+          1018,
+          1324
+        ],
+        "crop": [
+          5,
+          110,
+          1023,
+          1434
+        ],
+        "sha256": "f359ffbd825bf94071ba65f544684cde2665af7aaf5027634d2d99bd87105bd6",
+        "method": "Built-in image_gen high-resolution replacement; unchanged RGB; alpha-bounds crop only for isolated props",
+        "prompt": "One high-resolution complete ancient forest tree arch with mossy ground roots, sweeping trunk, emerald/yellow-green canopy, hanging vines and teal-brown bark. Transparent exterior and arch opening; full silhouette fits canvas with padding. No houses/bridge/UI/characters, no floating or cropped base. Crisp source-matched painterly detail.",
+        "tool": "built-in image_gen",
+        "animation_timing": null,
+        "source_message_id": null
+      },
+      {
+        "asset_id": "ENV-02",
+        "name": "ENV-02_background",
+        "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/source_images/ENV-02_background_generation03_original.png",
+        "source_generator_path": "/Users/abinashbasak/.codex/generated_images/01a15f16-49cf-7f00-b82e-eb9a87456aef/exec-f04ba090-ecc6-4042-8c8f-7cced4e20186.png",
+        "source_sha256": "66566e4e8cf409dc714242cd1621e7821a8620d5e2ce71cf8187db3281f28ab6",
+        "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_background.png",
+        "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_background_generation03.png",
+        "source_dimensions": [
+          1536,
+          1024
+        ],
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "crop": null,
+        "sha256": "c824c26728513180e1b08d1f8348cbdab674fa79528570b0c60d6a86ab186ca3",
+        "method": "Built-in image_gen high-resolution replacement; unchanged RGB; alpha-bounds crop only for isolated props",
+        "prompt": "High-resolution forest background plane. Match supplied crisp forest greens, yellow-green canopy, deep teal trees, turquoise waterfall valley and golden lamps; small treehouses attached to real trunks and branches, complete anchored bridges. Background only, no UI, text, characters, creatures or gameplay platforms; no pixelation, no global color filter.",
+        "tool": "built-in image_gen",
+        "animation_timing": null,
+        "source_message_id": null
+      },
+      {
+        "asset_id": "ENV-02",
+        "name": "ENV-02_treehouse",
+        "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/source_images/ENV-02_treehouse_generation03_original.png",
+        "source_generator_path": "/Users/abinashbasak/.codex/generated_images/01a15f16-49cf-7f00-b82e-eb9a87456aef/exec-b0e0483b-6ebd-4cfb-a39d-c56cd4ca6635.png",
+        "source_sha256": "a3f6a03091ae1ee9ed23ddae370df3408eea4fd70be6b9dc2e6f927320363ae6",
+        "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_treehouse.png",
+        "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_treehouse_generation03.png",
+        "source_dimensions": [
+          1024,
+          1536
+        ],
+        "dimensions": [
+          1013,
+          1514
+        ],
+        "crop": [
+          8,
+          9,
+          1021,
+          1523
+        ],
+        "sha256": "83967c55d693d0ee3f3cc8cf028b64ab673bf579bfc85008c408d3d240bf985e",
+        "method": "Built-in image_gen high-resolution replacement; unchanged RGB; alpha-bounds crop only for isolated props",
+        "prompt": "High-resolution isolated complete ancient tree with naturally supported timber treehouse and short rope bridge anchored at both ends. Continuous trunk to broad mossy roots. Full silhouette fits canvas, no cut-off base or floating house. Match vibrant green/yellow-green, teal-brown bark and golden lamps. Transparent exterior; crisp painted detail, no UI, text or characters.",
+        "tool": "built-in image_gen",
+        "animation_timing": null,
+        "source_message_id": null
+      },
+      {
+        "asset_id": "ENV-02",
+        "name": "ENV-02_waterfall",
+        "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/source_images/ENV-02_waterfall_generation03_original.png",
+        "source_generator_path": "/Users/abinashbasak/.codex/generated_images/01a15f16-49cf-7f00-b82e-eb9a87456aef/exec-9c885040-974f-474e-987b-26846d29cb6f.png",
+        "source_sha256": "86dee9e983466554146949942a5c02323aa31295f8d3b1616021cca43a29a956",
+        "runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_waterfall.png",
+        "export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_waterfall_generation03.png",
+        "source_dimensions": [
+          1024,
+          1536
+        ],
+        "dimensions": [
+          997,
+          1488
+        ],
+        "crop": [
+          11,
+          25,
+          1008,
+          1513
+        ],
+        "sha256": "81ce9adee99befeca7d621dce958de21f84e1c908072902cead54fd2e4dd825d",
+        "method": "Built-in image_gen high-resolution replacement; unchanged RGB; alpha-bounds crop only for isolated props",
+        "prompt": "High-resolution complete tall waterfall cliff with mossy rocks, bright emerald/yellow-green ferns and hanging vines, detailed pale turquoise/white water and a modest pool. Natural irregular fully contained silhouette, transparent exterior. Crisp illustrated fantasy side-view, no pixelation, no UI, text, characters or frame.",
+        "tool": "built-in image_gen",
+        "animation_timing": null,
+        "source_message_id": null
+      }
+    ],
+    "current_file_hashes": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/source_images/ENV-02_reference_jungle_user_sheet_original.png",
+        "sha256": "323232a6c7ec43260e73fa483f1b8d72ee210126e3b2706b1572ac3b7f25882f",
+        "role": "source",
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_treehouse_reference02.png",
+        "sha256": "793f8d85ffa6dba4256e9675f5b8aa1159f016c885eea43f8f45c1c24600450c",
+        "role": "export",
+        "dimensions": [
+          359,
+          253
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_treehouse.png",
+        "sha256": "83967c55d693d0ee3f3cc8cf028b64ab673bf579bfc85008c408d3d240bf985e",
+        "role": "runtime",
+        "dimensions": [
+          1013,
+          1514
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_tree_arch_reference02.png",
+        "sha256": "48e7a2c3ff07998fa9c220e46de3587a08370c3e4869582e7bf211f7db7214c2",
+        "role": "export",
+        "dimensions": [
+          389,
+          261
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_tree_arch.png",
+        "sha256": "f359ffbd825bf94071ba65f544684cde2665af7aaf5027634d2d99bd87105bd6",
+        "role": "runtime",
+        "dimensions": [
+          1018,
+          1324
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_waterfall_reference02.png",
+        "sha256": "6b4dfc0ba1a585aa5b4c6945b892627754ffc00fc630c0d6eaac6b6485e2ca7c",
+        "role": "export",
+        "dimensions": [
+          288,
+          261
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_waterfall.png",
+        "sha256": "81ce9adee99befeca7d621dce958de21f84e1c908072902cead54fd2e4dd825d",
+        "role": "runtime",
+        "dimensions": [
+          997,
+          1488
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_background_reference02.png",
+        "sha256": "2128391f1eabe829387fa0b3eb5a34ef074ca711a3def11ab0b0a418d8fed60a",
+        "role": "export",
+        "dimensions": [
+          584,
+          201
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/reference_jungle/ENV-02_background.png",
+        "sha256": "c824c26728513180e1b08d1f8348cbdab674fa79528570b0c60d6a86ab186ca3",
+        "role": "runtime",
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/source_images/ENV-02_tree_arch_generation03_original.png",
+        "sha256": "9de939a533c85720e6490e3ab8ff1b95c073ab776d573dda0b227c716bb3d850",
+        "role": "source",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_tree_arch_generation03.png",
+        "sha256": "f359ffbd825bf94071ba65f544684cde2665af7aaf5027634d2d99bd87105bd6",
+        "role": "export",
+        "dimensions": [
+          1018,
+          1324
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/source_images/ENV-02_background_generation03_original.png",
+        "sha256": "66566e4e8cf409dc714242cd1621e7821a8620d5e2ce71cf8187db3281f28ab6",
+        "role": "source",
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_background_generation03.png",
+        "sha256": "c824c26728513180e1b08d1f8348cbdab674fa79528570b0c60d6a86ab186ca3",
+        "role": "export",
+        "dimensions": [
+          1536,
+          1024
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/source_images/ENV-02_treehouse_generation03_original.png",
+        "sha256": "a3f6a03091ae1ee9ed23ddae370df3408eea4fd70be6b9dc2e6f927320363ae6",
+        "role": "source",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_treehouse_generation03.png",
+        "sha256": "83967c55d693d0ee3f3cc8cf028b64ab673bf579bfc85008c408d3d240bf985e",
+        "role": "export",
+        "dimensions": [
+          1013,
+          1514
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/source_images/ENV-02_waterfall_generation03_original.png",
+        "sha256": "86dee9e983466554146949942a5c02323aa31295f8d3b1616021cca43a29a956",
+        "role": "source",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/exports/ENV-02_waterfall_generation03.png",
+        "sha256": "81ce9adee99befeca7d621dce958de21f84e1c908072902cead54fd2e4dd825d",
+        "role": "export",
+        "dimensions": [
+          997,
+          1488
+        ]
+      }
+    ],
+    "runtime_validation": {
+      "scene_support_reachability_anchors": 276,
+      "traversal": 34,
+      "dynamic_hud": 29,
+      "reference_lighting": 12,
+      "timed_guidance": 11,
+      "reward_hud": 11,
+      "native_render_review": true,
+      "lighting_on_off_proof": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/reference-lighting-render-proof.json"
+    },
+    "approval": "Runtime review only; no new final production approval or checkbox changes",
+    "review_previews": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/previews/ENV-02_generation03_reference-jungle-0-preview.png",
+        "sha256": "8e06613c55885871b7bc5a04ae2468f3c2f32e592404738461397f3a33d324c5"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/previews/ENV-02_generation03_reference-jungle-1-preview.png",
+        "sha256": "6a55f918f40354bcc710c8a8494cfe3f2c466107a4b3ca1056ab88901c43b295"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/previews/ENV-02_generation03_reference-jungle-2-preview.png",
+        "sha256": "49cf5f4413c097cb273da12efdfdf92b15a0eb54c83dd3c11bc14416e8f4a385"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_04_environment_packs/ENV-02/previews/ENV-02_generation03_reference-forest-preview.png",
+        "sha256": "0a370e567494611d2d6f82a43c206d4e9ef62c562477d6864ee0428fc8f07d29"
+      }
+    ]
+  }
 }

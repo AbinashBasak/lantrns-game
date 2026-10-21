@@ -1,0 +1,21 @@
+{
+	"ambient_color_on_and_off": "eeeeeeff",
+	"changed_pixels": 160425,
+	"changed_pixels_top_left_480x180": 486,
+	"changed_world_pixels_below_220": 145407,
+	"difference": "reference-lighting-difference.png",
+	"enabled_visible_world_lights": 8,
+	"hud_separate_canvas": true,
+	"maximum_channel_delta": 0.309803903102875,
+	"method": "Identical frozen frame with all world PointLight2D enabled versus disabled; ambient retained. Difference image multiplied by four for inspection.",
+	"off": "reference-lighting-off.png",
+	"on": "reference-lighting-on.png",
+	"player_position": [
+		10350,
+		620
+	],
+	"viewport": [
+		1280,
+		720
+	]
+}

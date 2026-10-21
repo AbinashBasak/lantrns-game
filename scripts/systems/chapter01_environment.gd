@@ -1,6 +1,8 @@
 extends Node2D
 ## Selected ENV-02/03 art, finite parallax planes and contact-aligned world props.
 ## Gameplay owns collisions; this node draws exactly the supplied platform rectangles.
+const ReferenceDecor = preload("res://scripts/systems/reference_jungle_decor.gd")
+var reference_decor = ReferenceDecor.new()
 const ART := "res://assets/runtime/chapter01/environment/"
 var platforms: Array[Rect2] = []
 var bridge_open := false
@@ -17,6 +19,7 @@ var temple_layers: Array[Parallax2D] = []
 var clock := 0.0
 
 func _ready() -> void:
+	reference_decor.load_assets()
 	for pack in ["ENV-02", "ENV-03"]:
 		for layer in ["distant_background", "midground", "foreground"]:
 			_cache(pack + "_" + layer)
@@ -57,14 +60,19 @@ func _build_layers(pack: String, collection: Array[Parallax2D]) -> void:
 		add_child(layer)
 		collection.append(layer)
 		var key: String = pack + "_" + ["distant_background", "distant_background", "midground", "foreground"][index]
-		for x in range(-1800, 12600, 1800):
+		var forest_width := 1800
+		if pack=="ENV-02" and reference_decor.available():
+			var background: Texture2D = reference_decor.textures["ENV-02_background"]
+			forest_width=ceili(1000.0*background.get_width()/background.get_height())
+		for x in range(-forest_width, 12600, forest_width):
 			var sprite := Sprite2D.new()
-			sprite.texture = textures[key]
+			sprite.texture = reference_decor.textures["ENV-02_background"] if pack=="ENV-02" and reference_decor.available() else textures[key]
 			sprite.centered = false
 			sprite.position = Vector2(x, -230)
-			sprite.scale = Vector2(1801.0, 1000.0) / sprite.texture.get_size()
-			sprite.flip_h = posmod(x / 1800, 2) == 0
+			sprite.scale = Vector2(forest_width+1.0, 1000.0) / sprite.texture.get_size()
+			sprite.flip_h = posmod(x / forest_width, 2) == 0
 			sprite.modulate = [Color("9ac4bd"), Color(0.48,0.65,0.64,0.2), Color(0.55,0.69,0.67,0.65), Color(0.55,0.72,0.67,0.65)][index]
+			if pack == "ENV-02": sprite.modulate = Color(1,1,1,1 if index==0 else 0)
 			if pack == "ENV-03":
 				sprite.modulate = [Color("e0ddc9"),Color(0.70,0.68,0.53,0.2),Color(0.72,0.76,0.70,0.65),Color(0.64,0.70,0.62,0.60)][index]
 			if index == 2 or index == 3:
@@ -99,6 +107,9 @@ func _terrain(rect: Rect2) -> void:
 		_terrain(Rect2(rect.position, Vector2(4500-rect.position.x,rect.size.y)))
 		_terrain(Rect2(4500,rect.position.y,rect.end.x-4500,rect.size.y))
 		return
+	if rect.end.x <= 4500 and reference_decor.available():
+		reference_decor.draw_terrain(self,rect)
+		return
 	var temple := rect.position.x >= 4500
 	var surface := "TILE-003_01_top_middle" if temple else "TILE-001_surface_strip"
 	var fill := "TILE-003_05_opaque_interior" if temple else "TILE-002_soil_fill"
@@ -111,7 +122,15 @@ func _terrain(rect: Rect2) -> void:
 
 func _draw() -> void:
 	if textures.is_empty(): return
+	# Grounded architecture uses the same platform coordinates as gameplay.
+	var forest_platforms: Array = []
+	for rect in platforms:
+		if rect.position.x < 4500: forest_platforms.append(Rect2(rect.position,Vector2(minf(rect.end.x,4500)-rect.position.x,rect.size.y)))
+	reference_decor.draw_architecture(self,forest_platforms)
 	for rect in platforms: _terrain(rect)
+	reference_decor.draw_foliage(self,forest_platforms)
+	reference_decor.draw_lanterns(self,forest_platforms,4500)
+	reference_decor.draw_gate(self,3270,bridge_open)
 	if bridge_open:
 		for rect in [Rect2(3320,610,150,28),Rect2(3510,560,150,28),Rect2(3710,610,150,28)]:
 			_image("ENV-02_interactive_props_05", rect)
@@ -132,8 +151,7 @@ func _draw() -> void:
 		if i == rune_hint: color = Color(1.0,0.86,0.45) * (1.0 + sin(clock*5.0)*0.22)
 		_prop("ENV-02_interactive_props_%02d" % (4 if active else 1), Vector2(2860+i*140,620), Vector2(75,122),color)
 		draw_string(ThemeDB.fallback_font,Vector2(2852+i*140,480),["I","II","III"][i],HORIZONTAL_ALIGNMENT_LEFT,-1,20,Color("f4d68c"))
-	for x in [3220,3980]:
-		_prop("ENV-02_interactive_props_%02d" % (3 if bridge_open else 0), Vector2(x,620), Vector2(225,270))
+
 	# Temple threshold, story relief, safe checkpoint, then a clear combat chamber.
 	_prop("ENV-03_interactive_props_05", Vector2(4700,620), Vector2(310,365))
 	_prop("ENV-03_decorative_props_00", Vector2(5300,620), Vector2(250,220))
@@ -160,3 +178,11 @@ func _exit_tree() -> void:
 				child.texture = null
 	forest_layers.clear()
 	temple_layers.clear()
+
+func get_reference_light_anchors() -> Array[Dictionary]:
+	var forest_platforms: Array = []
+	for rect in platforms:
+		if rect.position.x < 4500: forest_platforms.append(Rect2(rect.position,Vector2(minf(rect.end.x,4500)-rect.position.x,rect.size.y)))
+	var anchors: Array[Dictionary] = reference_decor.light_anchors(forest_platforms,4500,global_position)
+	if not bridge_open: anchors.append({"world_position":global_position+Vector2(3270,480),"color":Color("ffc75a"),"energy":0.5,"radius":165.0,"active":true})
+	return anchors
