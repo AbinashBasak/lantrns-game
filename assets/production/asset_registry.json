@@ -3,7 +3,7 @@
   "project_checklist_copy": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/lanterns_underroot_master_asset_checklist.md",
   "asset_library_root": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production",
   "source_chat": "https://chatgpt.com/share/6ad136a4-4cc8-83ee-9742-05bc90e2a1dc",
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-10-21T00:00:00+05:30",
   "checked_count": 197,
   "asset_count": 217,
   "assets": [
@@ -8055,7 +8055,8 @@
         "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter01/story/token.png"
       ],
       "runtime_manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter01-asset-integration.json",
-      "archive_stage_before_runtime_integration": "reviewed_prototype_components_and_fixed_cell_exports"
+      "archive_stage_before_runtime_integration": "reviewed_prototype_components_and_fixed_cell_exports",
+      "dynamic_hud_runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/shared/ui/UI-003_crystal.png"
     },
     {
       "asset_id": "UI-004",
@@ -8066,11 +8067,14 @@
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004",
       "source_count": 1,
       "production_approved": false,
-      "stage": "reviewed_prototype_components_and_fixed_cell_exports",
+      "stage": "Modular gold/teal HUD kit exported, integrated and runtime-reviewed; final art/device approval pending",
       "exports_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/exports",
       "previews_folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/previews",
       "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/source_images/UI-004_ui_components_original.png",
-      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/metadata.json"
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/metadata.json",
+      "dynamic_hud_runtime": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/shared/ui",
+      "dynamic_hud_metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/metadata.json",
+      "dynamic_hud_scope": "Content panels, points and reward prompts only; original player hearts and vitality restored"
     },
     {
       "asset_id": "UI-005",

@@ -199,7 +199,7 @@
   "production_approved": false,
   "requested_deliverables_saved_and_reviewed": true,
   "text_overlays_deferred": true,
-  "stage": "reviewed_prototype_components_and_fixed_cell_exports",
+  "stage": "Modular gold/teal HUD kit exported, integrated and runtime-reviewed; final art/device approval pending",
   "runtime_integrated": false,
   "metadata_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/metadata.json",
   "review_notes": [
@@ -221,5 +221,211 @@
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/previews/UI-004_source_alpha_checker.png",
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/previews/UI-004_export_contact.png",
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/previews/UI-004_small_size_legibility.png"
-  ]
+  ],
+  "dynamic_hud_generation02": {
+    "revision": "dynamic_hud_generation02",
+    "date": "2026-10-21",
+    "stage": "Modular gold/teal HUD kit exported, integrated and runtime-reviewed; final art/device approval pending",
+    "tool": "built-in image_gen",
+    "source_message_ids": null,
+    "animation_timing": null,
+    "static_assets": true,
+    "provenance": "Original generated frame and leaf medallion preserved unchanged; frame cropped to alpha>128 bounding box, downsampled to 192x96 and split into nine regions. Crystal is a resized derivative of existing UI-003 neutral export. Runtime panel uses Godot StyleBoxTexture nine-slice rendering; all text and fill remain controller-driven. Existing hearts, pause icon, and health fill textures reused unchanged.",
+    "frame_prompt": "Create one empty rectangular fantasy game HUD panel matching the thin ornate golden root/vine borders and near-black deep teal inset in supplied references. Slim double antique gold rim, corner-confined curling root flourishes, plain middle edges for nine-patch stretching. No text, icons, scenery. Transparent outside panel.",
+    "medallion_prompt": "Single fantasy HUD icon: three luminous pale lime green leaves on a stem inside a round dark teal medallion, antique gold rim and four small clasps. Painted 2D, legible at 44px, transparent outside medallion, no text or scenery.",
+    "nine_slice": {
+      "texture_size": [
+        192,
+        96
+      ],
+      "left": 32,
+      "right": 32,
+      "top": 32,
+      "bottom": 32,
+      "content_margin": 18,
+      "note": "Runtime engine slices the compact atlas at draw time; individual nine exports are also archived."
+    },
+    "files": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/source_images/UI-004_dynamic_frame_generation02_original.png",
+        "kind": "generated_original",
+        "sha256": "eacb48980542cc7a8e6d34807628c3daaf6c4bbe07d4c93f74709e4ce4033de9",
+        "dimensions": [
+          1774,
+          887
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/source_images/UI-004_notice_medallion_original.png",
+        "kind": "generated_original",
+        "sha256": "3620e37b304b7a98fcec3dab4dbe029b3e7b78ae774f58466a9def83f5aed80e",
+        "dimensions": [
+          1254,
+          1254
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/source_images/UI-004_user_reference_01.png",
+        "kind": "unchanged_user_reference",
+        "sha256": "63e86251ac4fad3fed7c7d5d871687b30d91a0d30f422cb2a42f8f77aa25fb06",
+        "dimensions": [
+          714,
+          398
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/source_images/UI-004_user_reference_02.png",
+        "kind": "unchanged_user_reference",
+        "sha256": "a2deebe35ad408f16117bf50c7b3472e69c6f80b874606242df573df468d2172",
+        "dimensions": [
+          714,
+          398
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/exports/UI-004_dynamic_frame_generation02.png",
+        "kind": "derived_export",
+        "sha256": "9eb8ee578a0c75f108edf57948bd20233b30e3754c7ba3d383b99ce6f45d80d0",
+        "dimensions": [
+          192,
+          96
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/exports/UI-004_dynamic_slice_00.png",
+        "kind": "derived_export",
+        "sha256": "c86317f5e75f77150df9154b62fc3500c937521db2d1c7480c3c48cc314b6807",
+        "dimensions": [
+          32,
+          32
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/exports/UI-004_dynamic_slice_01.png",
+        "kind": "derived_export",
+        "sha256": "f8bdfd93daa36c1f666c5f9a6057f349633b5929e9caaece154bd380d49108a4",
+        "dimensions": [
+          128,
+          32
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/exports/UI-004_dynamic_slice_02.png",
+        "kind": "derived_export",
+        "sha256": "54470d930b1308081fd786c9638a6cd92477658f35c55adf1386bea83ed1e6f2",
+        "dimensions": [
+          32,
+          32
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/exports/UI-004_dynamic_slice_10.png",
+        "kind": "derived_export",
+        "sha256": "3e857d312b5e81896cd489208558d0af960c8f9693b3408e8f4ce67715cec56e",
+        "dimensions": [
+          32,
+          32
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/exports/UI-004_dynamic_slice_11.png",
+        "kind": "derived_export",
+        "sha256": "aa10a33dd71c97ff3994eeb1efc29f4af7e349b5c02f5c70e72fcb6100f88fda",
+        "dimensions": [
+          128,
+          32
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/exports/UI-004_dynamic_slice_12.png",
+        "kind": "derived_export",
+        "sha256": "bcaea10c28d937bd41166e75ec4d68e8ae8b5ce9062331f2947558c2cfa0091f",
+        "dimensions": [
+          32,
+          32
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/exports/UI-004_dynamic_slice_20.png",
+        "kind": "derived_export",
+        "sha256": "01c8232ce5de601440289d941a88c5900acd20a357f128a3904e7af502ca493b",
+        "dimensions": [
+          32,
+          32
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/exports/UI-004_dynamic_slice_21.png",
+        "kind": "derived_export",
+        "sha256": "f234367024e79132fd34bac737bf3d5a0372c0297f71d7b7b26969596c7ebb6a",
+        "dimensions": [
+          128,
+          32
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/exports/UI-004_dynamic_slice_22.png",
+        "kind": "derived_export",
+        "sha256": "1089ada0ffff1a957188cacf78f38c00be46a3eadc880788ae6e80063a620ef5",
+        "dimensions": [
+          32,
+          32
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/exports/UI-004_notice_medallion.png",
+        "kind": "derived_export",
+        "sha256": "7a71901184d4a94e097d1b2149eb62567171757963d42eebe921346313a7273f",
+        "dimensions": [
+          64,
+          64
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/shared/ui/UI-003_crystal.png",
+        "kind": "runtime_export",
+        "sha256": "33f0b9c518ced35e31484d8aa80e4dc52bf99a4840d2e015ca595cb575787fbb",
+        "dimensions": [
+          43,
+          48
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/shared/ui/UI-004_notice_medallion.png",
+        "kind": "runtime_export",
+        "sha256": "7a71901184d4a94e097d1b2149eb62567171757963d42eebe921346313a7273f",
+        "dimensions": [
+          64,
+          64
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/shared/ui/UI-004_panel.png",
+        "kind": "runtime_export",
+        "sha256": "9eb8ee578a0c75f108edf57948bd20233b30e3754c7ba3d383b99ce6f45d80d0",
+        "dimensions": [
+          192,
+          96
+        ]
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/previews/UI-004_dynamic_hud_runtime.png",
+        "kind": "Godot_runtime_preview",
+        "sha256": "d03db90876a180de4e5a8a4f0762170debe39a983a45dec9cbe4594b108ce5ee",
+        "dimensions": [
+          1280,
+          720
+        ]
+      }
+    ],
+    "validation": {
+      "dynamic_layout": 21,
+      "encounter_hud": 12,
+      "reward_hud": 11,
+      "runtime_visual_review": true,
+      "final_approved": false,
+      "health_combat": 13
+    },
+    "scope_correction": "Player hearts and vitality restored to original design at user request. New nine-slice skin applies only to content panels, points and reward prompts; transient guidance retained."
+  }
 }

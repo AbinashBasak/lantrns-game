@@ -82,7 +82,8 @@ func set_region(value: String) -> void:
 func cue(key: String, at: Vector2) -> void:
 	var alias := {"seed":"fragment", "pickup":"fragment", "rune_activate":"rune", "boss_hit":"boss_damage", "boss_land":"boss_slam"}
 	key = alias.get(key, key)
-	if clips.audio.has(key):
+	# Repetitive running recordings are intentionally silent; keep movement visuals.
+	if key not in ["step", "stone_step"] and clips.audio.has(key):
 		var voice := voices[voice_index % voices.size()]
 		voice_index += 1
 		voice.stream = load(clips.audio[key].path).duplicate()

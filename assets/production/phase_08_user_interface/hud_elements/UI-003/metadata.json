@@ -242,5 +242,14 @@
       ]
     }
   },
-  "last_updated": "2026-10-18T05:32:46.261707+05:30"
+  "last_updated": "2026-10-18T05:32:46.261707+05:30",
+  "dynamic_hud_runtime": {
+    "source": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-003/exports/UI-003_00_neutral.png",
+    "derived_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-003/exports/UI-003_dynamic_hud_crystal.png",
+    "runtime_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/shared/ui/UI-003_crystal.png",
+    "method": "Crop alpha bounds and downsample to fit 48px; no generation",
+    "sha256": "33f0b9c518ced35e31484d8aa80e4dc52bf99a4840d2e015ca595cb575787fbb",
+    "animation_timing": null,
+    "source_message_id": null
+  }
 }

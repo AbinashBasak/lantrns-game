@@ -82,7 +82,8 @@ func fail_hearth() -> void:
 	)
 
 func cue(key: String, at: Vector2) -> void:
-	if clips.audio.has(key):
+	# Repetitive running recordings are intentionally silent; keep movement visuals.
+	if key not in ["step", "stone_step"] and clips.audio.has(key):
 		var voice := voices[voice_index % voices.size()]
 		voice_index += 1
 		voice.stream = load(clips.audio[key].path)

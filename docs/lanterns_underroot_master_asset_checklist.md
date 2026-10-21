@@ -1575,3 +1575,11 @@ The revised UI-008 portrait frame is integrated with live health and phase text.
 ## Exact title and botanical dialogue — runtime review
 
 The supplied UI-016 title reference is used unchanged with live Begin Chapter1 and Replay controls and restrained runtime lantern lights. UI-009 generation03 styles regular dialogue with separate speaker/body text and Continue input; pause/settings typography and buttons are harmonized. Native placement and actual input were reviewed, and all344 source-project checks pass. Existing checkboxes, older artwork and final approval flags are preserved. See [title and dialogue implementation](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/exact-title-and-botanical-dialogue.md).
+
+## Modular live HUD — 2026-10-21
+
+UI-004 generation02 now supplies a compact nine-slice gold/teal frame, nine archived corner/edge/center exports and a separate botanical notice medallion. Live points, objectives, notices, hearts, vitality and reward prompts use content-sized containers; UI-003 crystal and existing life/pause/health exports remain separate. Original references and generated sources are preserved. 44 focused checks pass and native Godot placement was visually reviewed. Existing checkboxes and final approval flags are preserved. [Metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_08_user_interface/hud_elements/UI-004/metadata.json) · [Runtime assets](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/shared/ui) · [Preview](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/dynamic-hud-preview.png) · [Implementation](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/dynamic-hud.md).
+
+## HUD scope correction — 2026-10-21
+
+The player heart list and health bar are restored to their prior artwork, sizing, position, and numeric styling. The modular panel update applies to content lists, points and reward prompts. Top-left guidance still auto-hides after five seconds. Existing asset originals and checkboxes remain unchanged.
