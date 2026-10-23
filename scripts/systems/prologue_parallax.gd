@@ -7,6 +7,10 @@ var darkness := 0.0
 
 
 func _ready() -> void:
+	if get_child_count() > 0:
+		for child in get_children():
+			if child is Parallax2D: layers.append(child)
+		return
 	# Each period contains a normal and mirrored tile. Repeat sizes use displayed pixels.
 	var sky := _layer("Sky", 0.12, -40, 2560)
 	_tile(sky, "distant_background", Vector2(0, -150), Vector2(1280, 854), Color("a3b1b2"))

@@ -1,0 +1,150 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-004_attack_01.png" id="1_h5hd0"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-004_attack_02.png" id="2_u5ce8"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-004_attack_03.png" id="3_dyk2g"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-004_attack_04.png" id="4_cdoqs"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-004_attack_05.png" id="5_j8hkp"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-004_attack_06.png" id="6_fgknl"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-006_defeat_01.png" id="7_6u7mc"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-006_defeat_02.png" id="8_im055"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-006_defeat_03.png" id="9_i4h7x"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-006_defeat_04.png" id="10_ot0jo"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-006_defeat_05.png" id="11_p7uso"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-006_defeat_06.png" id="12_wqajo"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-005_hurt_01.png" id="13_ssrlu"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-005_hurt_02.png" id="14_qhseh"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-005_hurt_03.png" id="15_met75"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-005_hurt_04.png" id="16_52glo"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-005_hurt_05.png" id="17_47li4"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-005_hurt_06.png" id="18_512bv"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-002_idle_01.png" id="19_radyf"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-002_idle_02.png" id="20_0wmcy"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-002_idle_03.png" id="21_5urpr"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-002_idle_04.png" id="22_lvfrm"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-002_idle_05.png" id="23_0s5ox"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-002_idle_06.png" id="24_c46xa"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-003_patrol_01.png" id="25_ks0xr"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-003_patrol_02.png" id="26_x0oa8"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-003_patrol_03.png" id="27_4uc6v"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-003_patrol_04.png" id="28_xnltr"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-003_patrol_05.png" id="29_fd03s"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/characters/rootling/EN-003_patrol_06.png" id="30_wn4fh"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 0.14,
+"texture": ExtResource("1_h5hd0")
+}, {
+"duration": 0.16,
+"texture": ExtResource("2_u5ce8")
+}, {
+"duration": 0.12,
+"texture": ExtResource("3_dyk2g")
+}, {
+"duration": 0.09,
+"texture": ExtResource("4_cdoqs")
+}, {
+"duration": 0.14,
+"texture": ExtResource("5_j8hkp")
+}, {
+"duration": 0.2,
+"texture": ExtResource("6_fgknl")
+}],
+"loop": 0,
+"name": &"attack",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 0.14,
+"texture": ExtResource("7_6u7mc")
+}, {
+"duration": 0.16,
+"texture": ExtResource("8_im055")
+}, {
+"duration": 0.18,
+"texture": ExtResource("9_i4h7x")
+}, {
+"duration": 0.22,
+"texture": ExtResource("10_ot0jo")
+}, {
+"duration": 0.26,
+"texture": ExtResource("11_p7uso")
+}, {
+"duration": 0.45,
+"texture": ExtResource("12_wqajo")
+}],
+"loop": 0,
+"name": &"defeat",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 0.14,
+"texture": ExtResource("13_ssrlu")
+}, {
+"duration": 0.09,
+"texture": ExtResource("14_qhseh")
+}, {
+"duration": 0.14,
+"texture": ExtResource("15_met75")
+}, {
+"duration": 0.17,
+"texture": ExtResource("16_52glo")
+}, {
+"duration": 0.16,
+"texture": ExtResource("17_47li4")
+}, {
+"duration": 0.18,
+"texture": ExtResource("18_512bv")
+}],
+"loop": 0,
+"name": &"hurt",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 0.18,
+"texture": ExtResource("19_radyf")
+}, {
+"duration": 0.18,
+"texture": ExtResource("20_0wmcy")
+}, {
+"duration": 0.16,
+"texture": ExtResource("21_5urpr")
+}, {
+"duration": 0.18,
+"texture": ExtResource("22_lvfrm")
+}, {
+"duration": 0.18,
+"texture": ExtResource("23_0s5ox")
+}, {
+"duration": 0.16,
+"texture": ExtResource("24_c46xa")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 0.12,
+"texture": ExtResource("25_ks0xr")
+}, {
+"duration": 0.12,
+"texture": ExtResource("26_x0oa8")
+}, {
+"duration": 0.12,
+"texture": ExtResource("27_4uc6v")
+}, {
+"duration": 0.12,
+"texture": ExtResource("28_xnltr")
+}, {
+"duration": 0.12,
+"texture": ExtResource("29_fd03s")
+}, {
+"duration": 0.12,
+"texture": ExtResource("30_wn4fh")
+}],
+"loop": 1,
+"name": &"move",
+"speed": 1.0
+}]

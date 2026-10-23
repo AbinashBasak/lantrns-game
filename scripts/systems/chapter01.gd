@@ -46,31 +46,16 @@ func _ready() -> void:
 	_setup_inputs()
 	font = ThemeDB.fallback_font
 	dialogue_data = JSON.parse_string(FileAccess.get_file_as_string("res://data/dialogue/chapter01.json"))
-	checkpoint = Vector2(150,590)
-	environment = Node2D.new()
-	environment.set_script(ChapterEnvironment)
-	environment.platforms = BASE_PLATFORMS.duplicate()
-	environment.process_mode = Node.PROCESS_MODE_PAUSABLE
-	add_child(environment)
-	for rect in BASE_PLATFORMS: _make_platform(rect)
-	puzzle_gate = _make_platform(Rect2(3270,180,30,440))
-	arena_entry = _make_platform(Rect2(6500,180,25,440))
-	arena_entry.disabled = true
-	arena_exit = _make_platform(Rect2(8140,180,30,440))
-	player = PlayerScene.instantiate()
-	player.position = checkpoint
+	checkpoint = get_node("PlayerSpawn").position
+	environment = get_node("Environment")
+	puzzle_gate = get_node("Gates/PuzzleGate/CollisionShape2D")
+	arena_entry = get_node("Gates/ArenaEntry/CollisionShape2D")
+	arena_exit = get_node("Gates/ArenaExit/CollisionShape2D")
+	player = get_node("Player")
 	player.process_mode = Node.PROCESS_MODE_PAUSABLE
-	add_child(player)
 	player.health_changed.connect(func(_value: int): _update_hud())
 	player.died.connect(_respawn)
-	camera = Camera2D.new()
-	camera.position = Vector2(0,-260)
-	camera.limit_left = 0
-	camera.limit_right = 9000
-	camera.limit_top = 0
-	camera.limit_bottom = 800
-	camera.position_smoothing_enabled = true
-	player.add_child(camera)
+	camera = player.get_node("Camera2D")
 	mote = Node2D.new()
 	mote.set_script(Mote)
 	mote.target = player
@@ -86,10 +71,7 @@ func _ready() -> void:
 	add_child(presentation)
 	player.action_event.connect(presentation.cue)
 	_reset_trail_enemies()
-	boss = SentinelScene.instantiate()
-	boss.position = Vector2(7350,620)
-	boss.process_mode = Node.PROCESS_MODE_PAUSABLE
-	add_child(boss)
+	boss = get_node("HollowSentinel")
 	boss.health_changed.connect(_on_boss_health)
 	boss.defeated.connect(_on_boss_defeated)
 	token_icon = load(STORY_ART + "token.png")
@@ -404,18 +386,28 @@ func _complete_chapter() -> void:
 	victory_panel.show()
 	get_tree().paused = true
 
+var trail_spawns: Array[Vector2] = []
+var trail_initialized := false
+
 func _reset_trail_enemies() -> void:
+	var authored := get_node("TrailEnemies")
+	if not trail_initialized:
+		for enemy in authored.get_children():
+			trail_spawns.append(enemy.position)
+			enemy.health = 3
+		trail_initialized = true
+		return
 	for enemy in get_tree().get_nodes_in_group("enemies"):
 		if enemy != boss:
 			enemy.remove_from_group("enemies")
 			enemy.queue_free()
-	for x in [1300,2400,4100,4800,5600]:
+	for at in trail_spawns:
 		var enemy := EnemyScene.instantiate()
-		enemy.position = Vector2(x,600)
+		enemy.position = at
 		enemy.health = 3
 		enemy.process_mode = Node.PROCESS_MODE_PAUSABLE
-		add_child(enemy)
-		if rewards: rewards.watch_enemy(enemy,"trail:%d" % int(x))
+		authored.add_child(enemy)
+		if rewards: rewards.watch_enemy(enemy,"trail:%d" % int(at.x))
 
 func _respawn() -> void:
 	if jungle_area >= 0:
@@ -497,13 +489,8 @@ func _replay_prologue() -> void:
 
 func _build_jungle_rooms() -> void:
 	for i in 3:
-		var room := Node2D.new()
-		room.set_script(JungleArea)
-		room.area_index = i
-		room.z_index = -1
-		room.position = Vector2(10000+i*JungleArea.SPACING,0)
+		var room := get_node("JungleRooms").get_child(i)
 		room.process_mode = Node.PROCESS_MODE_PAUSABLE
-		add_child(room)
 		jungle_rooms.append(room)
 		room.puzzle_solved.connect(_on_jungle_puzzle)
 	jungle_label = _label("",18,Color("f4d68c"))

@@ -1,6 +1,9 @@
+@tool
 extends Node2D
 ## Selected ENV-02/03 art, finite parallax planes and contact-aligned world props.
 ## Gameplay owns collisions; this node draws exactly the supplied platform rectangles.
+const SceneArt = preload("res://scripts/editor/scene_art.gd")
+var art_target: Node2D
 const ReferenceDecor = preload("res://scripts/systems/reference_jungle_decor.gd")
 var reference_decor = ReferenceDecor.new()
 const ART := "res://assets/runtime/chapter01/environment/"
@@ -19,6 +22,19 @@ var temple_layers: Array[Parallax2D] = []
 var clock := 0.0
 
 func _ready() -> void:
+	load_assets()
+	var terrain := get_parent().get_node_or_null("Terrain")
+	if terrain:
+		platforms.clear()
+		for body in terrain.get_children():
+			var shape: CollisionShape2D = body.get_node("CollisionShape2D")
+			platforms.append(Rect2(body.position-shape.shape.size/2,shape.shape.size))
+	_build_layers("ENV-02", forest_layers)
+	_build_layers("ENV-03", temple_layers)
+	for layer in temple_layers: layer.modulate.a = 0.0
+
+func load_assets() -> void:
+	if not textures.is_empty(): return
 	reference_decor.load_assets()
 	for pack in ["ENV-02", "ENV-03"]:
 		for layer in ["distant_background", "midground", "foreground"]:
@@ -27,9 +43,6 @@ func _ready() -> void:
 		for i in range(6): _cache(pack + "_interactive_props_%02d" % i)
 	for key in ["TILE-001_surface_strip", "TILE-002_soil_fill", "TILE-003_01_top_middle", "TILE-003_05_opaque_interior", "TILE-003_03_isolated_block"]:
 		_cache(key)
-	_build_layers("ENV-02", forest_layers)
-	_build_layers("ENV-03", temple_layers)
-
 func _cache(key: String) -> void:
 	textures[key] = load(ART + key + ".png")
 	if "_props_" in key:
@@ -51,6 +64,10 @@ func _cache(key: String) -> void:
 		prop_regions[key] = Rect2(left, top, right - left + 1, bottom - top + 1) if right >= left else Rect2(Vector2.ZERO, texture.get_size())
 
 func _build_layers(pack: String, collection: Array[Parallax2D]) -> void:
+	if has_node(pack + "Light"):
+		for suffix in ["Light", "Horizon", "Architecture", "Canopy"]:
+			collection.append(get_node(pack + suffix))
+		return
 	for index in range(4):
 		var layer := Parallax2D.new()
 		layer.name = pack + ["Light", "Horizon", "Architecture", "Canopy"][index]
@@ -84,6 +101,9 @@ func _build_layers(pack: String, collection: Array[Parallax2D]) -> void:
 			layer.add_child(sprite)
 
 func _process(delta: float) -> void:
+	if Engine.is_editor_hint():
+		queue_redraw()
+		return
 	clock += delta
 	var camera := get_viewport().get_camera_2d()
 	var camera_x: float = camera.get_screen_center_position().x if camera else 0.0
@@ -93,14 +113,18 @@ func _process(delta: float) -> void:
 	queue_redraw()
 
 func _image(key: String, rect: Rect2, tint := Color.WHITE) -> void:
-	if textures.has(key): draw_texture_rect(textures[key], rect, false, tint)
+	if not textures.has(key): return
+	if art_target: SceneArt.image(art_target,textures[key],rect,tint)
+	else: draw_texture_rect(textures[key], rect, false, tint)
 
 func _prop(key: String, foot: Vector2, bounds: Vector2, tint := Color.WHITE) -> void:
 	if not textures.has(key): return
 	var texture: Texture2D = textures[key]
 	var region: Rect2 = prop_regions.get(key, Rect2(Vector2.ZERO, texture.get_size()))
 	var size := region.size * minf(bounds.x / region.size.x, bounds.y / region.size.y)
-	draw_texture_rect_region(texture, Rect2(foot - Vector2(size.x * 0.5, size.y), size), region, tint)
+	var bounds_rect := Rect2(foot - Vector2(size.x * 0.5, size.y), size)
+	if art_target: SceneArt.region(art_target,texture,bounds_rect,region,tint)
+	else: draw_texture_rect_region(texture,bounds_rect,region,tint)
 
 func _terrain(rect: Rect2) -> void:
 	if rect.position.x < 4500 and rect.end.x > 4500:
@@ -108,35 +132,54 @@ func _terrain(rect: Rect2) -> void:
 		_terrain(Rect2(4500,rect.position.y,rect.end.x-4500,rect.size.y))
 		return
 	if rect.end.x <= 4500 and reference_decor.available():
-		reference_decor.draw_terrain(self,rect)
+		reference_decor.build_terrain(art_target,rect) if art_target else reference_decor.draw_terrain(self,rect)
 		return
 	var temple := rect.position.x >= 4500
 	var surface := "TILE-003_01_top_middle" if temple else "TILE-001_surface_strip"
 	var fill := "TILE-003_05_opaque_interior" if temple else "TILE-002_soil_fill"
-	draw_rect(rect, Color("29332e"))
+	if art_target: SceneArt.rect(art_target,rect,Color("29332e"))
+	else: draw_rect(rect, Color("29332e"))
 	for x in range(int(rect.position.x), int(rect.end.x), 64):
 		var width := minf(64.0, rect.end.x - x)
 		for y in range(int(rect.position.y + 25), int(rect.end.y), 64):
 			_image(fill, Rect2(x,y,width,minf(65.0,rect.end.y-y)))
 		_image(surface, Rect2(x,rect.position.y-3,width+0.5,minf(39.0,rect.size.y+3)))
 
-func _draw() -> void:
-	if textures.is_empty(): return
+func build_static_art() -> void:
+	load_assets()
+	if has_node("StaticArt"): return
+	art_target = Node2D.new()
+	art_target.name = "StaticArt"
+	# Scripted state overlays draw above the saved scenery, as before.
+	art_target.show_behind_parent = true
+	add_child(art_target)
 	# Grounded architecture uses the same platform coordinates as gameplay.
 	var forest_platforms: Array = []
 	for rect in platforms:
 		if rect.position.x < 4500: forest_platforms.append(Rect2(rect.position,Vector2(minf(rect.end.x,4500)-rect.position.x,rect.size.y)))
-	reference_decor.draw_architecture(self,forest_platforms)
-	for rect in platforms: _terrain(rect)
-	reference_decor.draw_foliage(self,forest_platforms)
-	reference_decor.draw_lanterns(self,forest_platforms,4500)
-	reference_decor.draw_gate(self,3270,bridge_open)
-	if bridge_open:
-		for rect in [Rect2(3320,610,150,28),Rect2(3510,560,150,28),Rect2(3710,610,150,28)]:
-			_image("ENV-02_interactive_props_05", rect)
+	var architecture := Node2D.new()
+	architecture.name = "Architecture"
+	architecture.z_index = -1
+	art_target.add_child(architecture)
+	reference_decor.build_architecture(architecture,forest_platforms)
+	var scenery := art_target
+	var terrain := get_parent().get_node_or_null("Terrain")
+	if terrain:
+		for body in terrain.get_children():
+			art_target = Node2D.new()
+			art_target.name = "Art"
+			art_target.position = -body.position
+			body.add_child(art_target)
+			var collision: CollisionShape2D = body.get_node("CollisionShape2D")
+			_terrain(Rect2(body.position-collision.shape.size/2,collision.shape.size))
+	else:
+		for rect in platforms: _terrain(rect)
+	art_target = scenery
+	reference_decor.build_foliage(art_target,forest_platforms)
+	reference_decor.build_lanterns(art_target,forest_platforms,4500)
 	for entry in [[650,"CANOPY PATH"],[4250,"FLOODED ROOTS"],[5800,"LANTERN GROVE"]]:
 		_prop("ENV-02_decorative_props_00",Vector2(entry[0],620),Vector2(75,115))
-		draw_string(ThemeDB.fallback_font,Vector2(entry[0]-65,480),entry[1],HORIZONTAL_ALIGNMENT_LEFT,-1,16,Color("f4d68c"))
+		SceneArt.text(art_target,Vector2(entry[0]-65,480),entry[1],Color("f4d68c"),16)
 	# Small landmarks are readable silhouettes, each belonging to its encounter.
 	_prop("ENV-02_decorative_props_00", Vector2(300,620), Vector2(95,145))
 	_prop("ENV-02_decorative_props_01", Vector2(2300,620), Vector2(220,335))
@@ -145,6 +188,21 @@ func _draw() -> void:
 		_prop("ENV-02_decorative_props_05", Vector2(x,624), Vector2(90,57))
 	for x in [620,1480,2730]:
 		_prop("ENV-02_decorative_props_04", Vector2(x,620), Vector2(75,75))
+	_prop("ENV-03_interactive_props_05", Vector2(4700,620), Vector2(310,365))
+	_prop("ENV-03_decorative_props_00", Vector2(5300,620), Vector2(250,220))
+	for x in [5600,6440,8220,8800]:
+		_prop("ENV-03_decorative_props_01",Vector2(x,620),Vector2(120,355),Color(0.62,0.72,0.73))
+	_prop("ENV-03_interactive_props_01",Vector2(7950,620),Vector2(145,105))
+	for x in [4900,5750,6320,8370]:
+		_prop("ENV-03_decorative_props_05",Vector2(x,620),Vector2(85,55))
+	art_target = null
+
+func _draw() -> void:
+	if textures.is_empty(): return
+	reference_decor.draw_gate(self,3270,bridge_open)
+	if bridge_open:
+		for rect in [Rect2(3320,610,150,28),Rect2(3510,560,150,28),Rect2(3710,610,150,28)]:
+			_image("ENV-02_interactive_props_05", rect)
 	for i in range(3):
 		var active := i < rune_progress
 		var color := Color.WHITE if active else Color(0.70,0.84,0.80)
@@ -152,30 +210,15 @@ func _draw() -> void:
 		_prop("ENV-02_interactive_props_%02d" % (4 if active else 1), Vector2(2860+i*140,620), Vector2(75,122),color)
 		draw_string(ThemeDB.fallback_font,Vector2(2852+i*140,480),["I","II","III"][i],HORIZONTAL_ALIGNMENT_LEFT,-1,20,Color("f4d68c"))
 
-	# Temple threshold, story relief, safe checkpoint, then a clear combat chamber.
-	_prop("ENV-03_interactive_props_05", Vector2(4700,620), Vector2(310,365))
-	_prop("ENV-03_decorative_props_00", Vector2(5300,620), Vector2(250,220))
-	for x in [5600,6440,8220,8800]:
-		_prop("ENV-03_decorative_props_01",Vector2(x,620),Vector2(120,355),Color(0.62,0.72,0.73))
 	_prop("ENV-03_interactive_props_%02d" % (3 if checkpoint_active else 0), Vector2(6100,620), Vector2(150,185))
-	# Gates communicate the same physical limits enforced by the controller.
 	if boss_active and not boss_defeated:
 		_prop("ENV-03_interactive_props_02",Vector2(6500,620),Vector2(100,240),Color(0.75,0.52,0.42,0.9))
 	_prop("ENV-03_interactive_props_%02d" % (5 if boss_defeated else 2),Vector2(8140,620),Vector2(140,230))
-	_prop("ENV-03_interactive_props_01",Vector2(7950,620),Vector2(145,105))
 	_prop("ENV-03_interactive_props_%02d" % (5 if fragment_collected else 2), Vector2(8600,620),Vector2(220,290))
-	for x in [4900,5750,6320,8370]:
-		_prop("ENV-03_decorative_props_05",Vector2(x,620),Vector2(85,55))
-	# Restrained floor guides reinforce destination without obscuring actors.
 	if checkpoint_active:
 		draw_arc(Vector2(6100,616),45,PI,TAU,24,Color(0.95,0.71,0.30,0.65),2,true)
 
 func _exit_tree() -> void:
-	for layer in forest_layers + temple_layers:
-		for child in layer.get_children():
-			if child is Sprite2D:
-				child.material = null
-				child.texture = null
 	forest_layers.clear()
 	temple_layers.clear()
 

@@ -1,5 +1,7 @@
+@tool
 extends Node2D
 ## Three mandatory jungle journeys. All decoration reuses reviewed ENV-02/03 runtime exports.
+const SceneArt = preload("res://scripts/editor/scene_art.gd")
 const ReferenceDecor = preload("res://scripts/systems/reference_jungle_decor.gd")
 var reference_decor = ReferenceDecor.new()
 const ART := "res://assets/runtime/chapter01/environment/"
@@ -22,28 +24,96 @@ var puzzle_cleared := false
 var puzzle_progress := 0
 var puzzle_message := ""
 var gate: StaticBody2D
-var area_index := 0
+@export_range(0, 2) var area_index := 0
 var active := false
 var discovered := false
 var textures: Dictionary = {}
 var prop_regions: Dictionary = {}
 var clock := 0.0
-func _ready() -> void:
+func _load_art() -> void:
 	reference_decor.load_assets()
 	for key in ["ENV-02_distant_background","ENV-02_midground","ENV-02_foreground","ENV-02_decorative_props_00","ENV-02_decorative_props_01","ENV-02_decorative_props_04","ENV-02_decorative_props_05","ENV-02_interactive_props_03","ENV-03_decorative_props_01","ENV-03_interactive_props_03","TILE-001_surface_strip","TILE-002_soil_fill"]:
 		textures[key] = load(ART+key+".png")
 		if "_props_" in key:
 			prop_regions[key] = visible_region(textures[key].get_image())
-	for rect in terrain():
+
+## Bake once into a saved scene. These are ordinary editable Godot nodes.
+func build_editor_scene() -> void:
+	_load_art()
+	for child_name in ["Background", "Terrain", "StaticArt"]:
+		var previous := get_node_or_null(child_name)
+		if previous:
+			remove_child(previous)
+			previous.free()
+	var background := Node2D.new()
+	background.name = "Background"
+	background.z_index = -2
+	add_child(background)
+	var background_texture: Texture2D = reference_decor.textures.get("ENV-02_background", textures["ENV-02_distant_background"])
+	var tile_width := 1000.0 * background_texture.get_width() / background_texture.get_height()
+	var distant := Node2D.new()
+	distant.name = "Distant"
+	distant.position.y = -180
+	background.add_child(distant)
+	for tile in range(-2, int(ceil(WIDTH / tile_width)) + 2):
+		var sprite := SceneArt.image(distant, background_texture, Rect2(tile * tile_width, 0, tile_width + 1, 1000))
+		if posmod(tile, 2):
+			sprite.position.x += tile_width
+			sprite.scale.x *= -1
+	var canopy := Node2D.new()
+	canopy.name = "Canopy"
+	background.add_child(canopy)
+	for x in range(-1200, 6000, 1100):
+		for item: Dictionary in [{"key":"PROP-011_hanging_vine", "foot":Vector2(x+1040,155), "bounds":Vector2(56,240)}, {"key":"PROP-011_leaf_cluster", "foot":Vector2(x+230,130), "bounds":Vector2(130,85)}]:
+			if reference_decor.textures.has(item.key):
+				SceneArt.image(canopy, reference_decor.textures[item.key], reference_decor.prop_rect(item.key, item.foot, item.bounds))
+	var terrain_root := Node2D.new()
+	terrain_root.name = "Terrain"
+	add_child(terrain_root)
+	for platform: Rect2 in _default_terrain():
 		var body := StaticBody2D.new()
-		body.position = rect.get_center()
+		body.name = "Platform%02d" % terrain_root.get_child_count()
+		body.position = platform.get_center()
 		var shape := RectangleShape2D.new()
-		shape.size = rect.size
+		shape.size = platform.size
 		var collision := CollisionShape2D.new()
+		collision.name = "CollisionShape2D"
 		collision.shape = shape
-		collision.one_way_collision = rect.size.y < 50
+		collision.one_way_collision = platform.size.y < 50
+		terrain_root.add_child(body)
 		body.add_child(collision)
-		add_child(body)
+	var art := Node2D.new()
+	art.name = "StaticArt"
+	add_child(art)
+	var architecture := Node2D.new()
+	architecture.name = "Architecture"
+	architecture.z_index = -1
+	art.add_child(architecture)
+	reference_decor.build_architecture(architecture, terrain())
+	for body in terrain_root.get_children():
+		var artwork := Node2D.new()
+		artwork.name = "Artwork"
+		artwork.position = -body.position
+		body.add_child(artwork)
+		var collision: CollisionShape2D = body.get_node("CollisionShape2D")
+		var platform := Rect2(body.position - collision.shape.size / 2, collision.shape.size)
+		reference_decor.build_terrain(artwork, platform)
+		reference_decor.build_foliage(artwork, [platform])
+	reference_decor.build_lanterns(art, terrain(), WIDTH)
+	_assign_editor_owner(self)
+
+func _assign_editor_owner(parent: Node) -> void:
+	for child in parent.get_children():
+		child.owner = self
+		_assign_editor_owner(child)
+
+func _ready() -> void:
+	if Engine.is_editor_hint():
+		set_process(false)
+		return
+	_load_art()
+	if not has_node("Terrain"):
+		build_editor_scene()
 	gate = StaticBody2D.new()
 	gate.position = Vector2(GATE_X,150)
 	var gate_shape := RectangleShape2D.new()
@@ -54,8 +124,13 @@ func _ready() -> void:
 	add_child(gate)
 	visible = false
 func _process(delta: float) -> void:
-	if not active: return
+	if Engine.is_editor_hint() or not active: return
 	clock += delta
+	if has_node("Background"):
+		var camera := get_viewport().get_camera_2d()
+		var center := camera.get_screen_center_position() - global_position if camera else Vector2(640,360)
+		$Background/Distant.position = Vector2(center.x * 0.90, -180 + (center.y - 360) * 0.975)
+		$Background/Canopy.position = Vector2(center.x * 0.76, (center.y - 360) * 0.94)
 	queue_redraw()
 static func visible_region(image: Image) -> Rect2:
 	var low := Vector2i(image.get_width(),image.get_height())
@@ -95,24 +170,27 @@ static func parallax_origin(camera_center: Vector2, layer: int) -> Vector2:
 	return Vector2(camera_center.x*(1.0-rate),-230+(camera_center.y-360)*(1.0-rate*0.25))
 
 func _draw() -> void:
-	if not active or textures.is_empty(): return
+	if Engine.is_editor_hint() or not active or textures.is_empty(): return
 	var cam := get_viewport().get_camera_2d()
 	var center := cam.get_screen_center_position()-global_position if cam else Vector2(640,360)
-	if reference_decor.available():
-		reference_decor.draw_background(self,center,area_index)
-	else:
-		draw_texture_rect(textures["ENV-02_distant_background"],Rect2(center.x-900,-230,1800,1000),false,Color.WHITE)
+	if not has_node("Background"):
+		if reference_decor.available():
+			reference_decor.draw_background(self,center,area_index)
+		else:
+			draw_texture_rect(textures["ENV-02_distant_background"],Rect2(center.x-900,-230,1800,1000),false,Color.WHITE)
 
-	reference_decor.draw_architecture(self,terrain())
+	if not has_node("StaticArt"):
+		reference_decor.draw_architecture(self,terrain())
 	if area_index == 1:
 		draw_rect(Rect2(0,738 if puzzle_cleared else 690,4600,180),Color(0.12,0.35,0.39,0.7))
 		for x in range(0,4600,75): draw_line(Vector2(x,(756 if puzzle_cleared else 708)+sin(clock+x)*3),Vector2(x+40,(756 if puzzle_cleared else 708)+sin(clock+x)*3),Color(0.53,0.8,0.75,0.45),2)
-	for rect in terrain():
-		if reference_decor.available(): reference_decor.draw_terrain(self,rect)
-		else:
-			draw_texture_rect(textures["TILE-001_surface_strip"],Rect2(rect.position,Vector2(rect.size.x,36)),false)
-	reference_decor.draw_foliage(self,terrain())
-	reference_decor.draw_lanterns(self,terrain(),WIDTH)
+	if not has_node("StaticArt"):
+		for rect in terrain():
+			if reference_decor.available(): reference_decor.draw_terrain(self,rect)
+			else:
+				draw_texture_rect(textures["TILE-001_surface_strip"],Rect2(rect.position,Vector2(rect.size.x,36)),false)
+		reference_decor.draw_foliage(self,terrain())
+		reference_decor.draw_lanterns(self,terrain(),WIDTH)
 	if discovered:
 		prop("ENV-02_decorative_props_00",Vector2(2620,620),Vector2(80,125))
 		draw_string(ThemeDB.fallback_font,Vector2(2540,470),"MEMORY RECORDED",HORIZONTAL_ALIGNMENT_LEFT,-1,17,Color("ffe2a1"))
@@ -196,4 +274,16 @@ func get_reference_light_anchors() -> Array[Dictionary]:
 	return anchors
 
 func terrain() -> Array:
+	var terrain_root := get_node_or_null("Terrain")
+	if terrain_root:
+		var platforms: Array = []
+		for body in terrain_root.get_children():
+			var collision := body.get_node_or_null("CollisionShape2D") as CollisionShape2D
+			if collision and collision.shape is RectangleShape2D:
+				var size: Vector2 = collision.shape.size * collision.scale * body.scale
+				platforms.append(Rect2(body.position + collision.position * body.scale - size / 2, size))
+		return platforms
+	return _default_terrain()
+
+func _default_terrain() -> Array:
 	return PLATFORMS[area_index] + [Rect2(2700,520,190,28),Rect2(2940,435,220,28),Rect2(3220,350,260,28),Rect2(3570,435,220,28),Rect2(3820,520,160,28)]

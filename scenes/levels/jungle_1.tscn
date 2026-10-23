@@ -1,0 +1,3658 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/systems/chapter01_jungle.gd" id="1_g1geb"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/reference_jungle/ENV-02_background.png" id="2_01ibe"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/reference_jungle/PROP-011_hanging_vine.png" id="3_q3a2p"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/reference_jungle/PROP-011_leaf_cluster.png" id="4_ksmnf"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/reference_jungle/TILE-001_ground.png" id="5_e4eg7"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/reference_jungle/PROP-011_bush.png" id="6_4ywgw"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/reference_jungle/PROP-011_lush_fern.png" id="7_4x50x"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/reference_jungle/PROP-011_fern.png" id="8_f8y0g"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/reference_jungle/PROP-011_mushroom.png" id="9_offuw"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/reference_jungle/TILE-005_vine_platform.png" id="10_rc0d3"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/reference_jungle/TILE-003_platform.png" id="11_ydhn0"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/reference_jungle/ENV-02_treehouse.png" id="12_yhfe8"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/reference_jungle/ENV-02_tree_arch.png" id="13_v0a68"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/reference_jungle/ENV-02_waterfall.png" id="14_nplba"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/reference_jungle/PROP-001_lantern_post.png" id="15_0uc6o"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/reference_jungle/PROP-002_lantern_hanging.png" id="16_6ysp2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t8emq"]
+size = Vector2(700, 400)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e5lmm"]
+size = Vector2(630, 400)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tegua"]
+size = Vector2(650, 400)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yb2eg"]
+size = Vector2(2140, 400)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x71h5"]
+size = Vector2(180, 28)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qc1fe"]
+size = Vector2(200, 28)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xx6gp"]
+size = Vector2(260, 28)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q14lp"]
+size = Vector2(250, 28)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xm0k2"]
+size = Vector2(200, 28)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4ayrn"]
+size = Vector2(200, 28)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_do3lb"]
+size = Vector2(200, 25)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kmx5v"]
+size = Vector2(200, 25)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nveq3"]
+size = Vector2(200, 25)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6v501"]
+size = Vector2(190, 28)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7khpk"]
+size = Vector2(220, 28)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6y664"]
+size = Vector2(260, 28)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rbnqk"]
+size = Vector2(220, 28)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8d00v"]
+size = Vector2(160, 28)
+
+[node name="FloodedRootways" type="Node2D" unique_id=1180266297]
+script = ExtResource("1_g1geb")
+area_index = 1
+
+[node name="Background" type="Node2D" parent="." unique_id=1173434135]
+z_index = -2
+
+[node name="Distant" type="Node2D" parent="Background" unique_id=1425366730]
+position = Vector2(0, -180)
+
+[node name="ENV-02_background" type="Sprite2D" parent="Background/Distant" unique_id=1705498623]
+position = Vector2(-3000, 0)
+scale = Vector2(0.97721356, 0.9765625)
+texture = ExtResource("2_01ibe")
+centered = false
+
+[node name="ENV-02_background2" type="Sprite2D" parent="Background/Distant" unique_id=1553828542]
+scale = Vector2(-0.97721356, 0.9765625)
+texture = ExtResource("2_01ibe")
+centered = false
+
+[node name="ENV-02_background3" type="Sprite2D" parent="Background/Distant" unique_id=897998311]
+scale = Vector2(0.97721356, 0.9765625)
+texture = ExtResource("2_01ibe")
+centered = false
+
+[node name="ENV-02_background4" type="Sprite2D" parent="Background/Distant" unique_id=210009099]
+position = Vector2(3000, 0)
+scale = Vector2(-0.97721356, 0.9765625)
+texture = ExtResource("2_01ibe")
+centered = false
+
+[node name="ENV-02_background5" type="Sprite2D" parent="Background/Distant" unique_id=1977995625]
+position = Vector2(3000, 0)
+scale = Vector2(0.97721356, 0.9765625)
+texture = ExtResource("2_01ibe")
+centered = false
+
+[node name="ENV-02_background6" type="Sprite2D" parent="Background/Distant" unique_id=1990868704]
+position = Vector2(6000, 0)
+scale = Vector2(-0.97721356, 0.9765625)
+texture = ExtResource("2_01ibe")
+centered = false
+
+[node name="ENV-02_background7" type="Sprite2D" parent="Background/Distant" unique_id=239295035]
+position = Vector2(6000, 0)
+scale = Vector2(0.97721356, 0.9765625)
+texture = ExtResource("2_01ibe")
+centered = false
+
+[node name="ENV-02_background8" type="Sprite2D" parent="Background/Distant" unique_id=1494716454]
+position = Vector2(9000, 0)
+scale = Vector2(-0.97721356, 0.9765625)
+texture = ExtResource("2_01ibe")
+centered = false
+
+[node name="Canopy" type="Node2D" parent="Background" unique_id=1418049451]
+
+[node name="PROP-011_hanging_vine" type="Sprite2D" parent="Background/Canopy" unique_id=20795876]
+position = Vector2(-174.5, 66)
+texture = ExtResource("3_q3a2p")
+centered = false
+
+[node name="PROP-011_leaf_cluster" type="Sprite2D" parent="Background/Canopy" unique_id=2077472111]
+position = Vector2(-1012.5, 64)
+texture = ExtResource("4_ksmnf")
+centered = false
+
+[node name="PROP-011_hanging_vine2" type="Sprite2D" parent="Background/Canopy" unique_id=365197443]
+position = Vector2(925.5, 66)
+texture = ExtResource("3_q3a2p")
+centered = false
+
+[node name="PROP-011_leaf_cluster2" type="Sprite2D" parent="Background/Canopy" unique_id=1115830500]
+position = Vector2(87.5, 64)
+texture = ExtResource("4_ksmnf")
+centered = false
+
+[node name="PROP-011_hanging_vine3" type="Sprite2D" parent="Background/Canopy" unique_id=852550715]
+position = Vector2(2025.5, 66)
+texture = ExtResource("3_q3a2p")
+centered = false
+
+[node name="PROP-011_leaf_cluster3" type="Sprite2D" parent="Background/Canopy" unique_id=293853647]
+position = Vector2(1187.5, 64)
+texture = ExtResource("4_ksmnf")
+centered = false
+
+[node name="PROP-011_hanging_vine4" type="Sprite2D" parent="Background/Canopy" unique_id=428380245]
+position = Vector2(3125.5, 66)
+texture = ExtResource("3_q3a2p")
+centered = false
+
+[node name="PROP-011_leaf_cluster4" type="Sprite2D" parent="Background/Canopy" unique_id=346887165]
+position = Vector2(2287.5, 64)
+texture = ExtResource("4_ksmnf")
+centered = false
+
+[node name="PROP-011_hanging_vine5" type="Sprite2D" parent="Background/Canopy" unique_id=314424509]
+position = Vector2(4225.5, 66)
+texture = ExtResource("3_q3a2p")
+centered = false
+
+[node name="PROP-011_leaf_cluster5" type="Sprite2D" parent="Background/Canopy" unique_id=398753954]
+position = Vector2(3387.5, 64)
+texture = ExtResource("4_ksmnf")
+centered = false
+
+[node name="PROP-011_hanging_vine6" type="Sprite2D" parent="Background/Canopy" unique_id=2142740103]
+position = Vector2(5325.5, 66)
+texture = ExtResource("3_q3a2p")
+centered = false
+
+[node name="PROP-011_leaf_cluster6" type="Sprite2D" parent="Background/Canopy" unique_id=54413835]
+position = Vector2(4487.5, 64)
+texture = ExtResource("4_ksmnf")
+centered = false
+
+[node name="PROP-011_hanging_vine7" type="Sprite2D" parent="Background/Canopy" unique_id=2102481939]
+position = Vector2(6425.5, 66)
+texture = ExtResource("3_q3a2p")
+centered = false
+
+[node name="PROP-011_leaf_cluster7" type="Sprite2D" parent="Background/Canopy" unique_id=674957748]
+position = Vector2(5587.5, 64)
+texture = ExtResource("4_ksmnf")
+centered = false
+
+[node name="Terrain" type="Node2D" parent="." unique_id=1797072739]
+
+[node name="Platform00" type="StaticBody2D" parent="Terrain" unique_id=1369805220]
+position = Vector2(350, 820)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Platform00" unique_id=113185231]
+shape = SubResource("RectangleShape2D_t8emq")
+
+[node name="Artwork" type="Node2D" parent="Terrain/Platform00" unique_id=901967434]
+position = Vector2(-350, -820)
+
+[node name="Fill" type="Polygon2D" parent="Terrain/Platform00/Artwork" unique_id=611493443]
+position = Vector2(0, 620)
+color = Color(0.18431373, 0.0627451, 0.007843138, 1)
+polygon = PackedVector2Array(0, 0, 700, 0, 700, 400, 0, 400)
+
+[node name="TILE-001_ground" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=896126924]
+position = Vector2(0, 612)
+scale = Vector2(0.88709676, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 217, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground2" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=1328064478]
+position = Vector2(0, 714)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground3" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=626817841]
+position = Vector2(0, 786)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground4" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=494694270]
+position = Vector2(0, 858)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground5" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=1273325673]
+position = Vector2(0, 930)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground6" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=1498390607]
+position = Vector2(0, 1002)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground7" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=1982287399]
+position = Vector2(192, 612)
+scale = Vector2(0.88709676, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 217, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground8" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=824742580]
+position = Vector2(192, 714)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground9" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=876209027]
+position = Vector2(192, 786)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground10" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=1864390541]
+position = Vector2(192, 858)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground11" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=1752409628]
+position = Vector2(192, 930)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground12" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=643857675]
+position = Vector2(192, 1002)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground13" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=43369515]
+position = Vector2(384, 612)
+scale = Vector2(0.88709676, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 217, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground14" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=691494659]
+position = Vector2(384, 714)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground15" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=1711475989]
+position = Vector2(384, 786)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground16" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=403284811]
+position = Vector2(384, 858)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground17" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=768077004]
+position = Vector2(384, 930)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground18" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=316576271]
+position = Vector2(384, 1002)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground19" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=695056984]
+position = Vector2(576, 612)
+scale = Vector2(0.8883604, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 140.14583, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground20" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=224993792]
+position = Vector2(576, 714)
+scale = Vector2(0.8883604, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 140.14583, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground21" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=113700991]
+position = Vector2(576, 786)
+scale = Vector2(0.8883604, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 140.14583, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground22" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=2096894840]
+position = Vector2(576, 858)
+scale = Vector2(0.8883604, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 140.14583, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground23" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=1629021159]
+position = Vector2(576, 930)
+scale = Vector2(0.8883604, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 140.14583, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground24" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=1369201441]
+position = Vector2(576, 1002)
+scale = Vector2(0.8883604, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 140.14583, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="PROP-011_bush" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=631088036]
+position = Vector2(38.02222, 578)
+scale = Vector2(0.48888892, 0.4888889)
+texture = ExtResource("6_4ywgw")
+centered = false
+
+[node name="PROP-011_leaf_cluster" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=60942215]
+position = Vector2(137.66667, 578)
+scale = Vector2(0.6666667, 0.6666667)
+texture = ExtResource("4_ksmnf")
+centered = false
+
+[node name="PROP-011_lush_fern" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=253408686]
+position = Vector2(218, 579.6551)
+scale = Vector2(0.06840855, 0.06840855)
+texture = ExtResource("7_4x50x")
+centered = false
+
+[node name="PROP-011_fern" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=1742097002]
+position = Vector2(374.0215, 578)
+scale = Vector2(0.47311825, 0.47311828)
+texture = ExtResource("8_f8y0g")
+centered = false
+
+[node name="PROP-011_mushroom" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=1074933712]
+position = Vector2(519.1429, 578)
+scale = Vector2(0.6984127, 0.6984127)
+texture = ExtResource("9_offuw")
+centered = false
+
+[node name="PROP-011_bush2" type="Sprite2D" parent="Terrain/Platform00/Artwork" unique_id=105676798]
+position = Vector2(594.0222, 578)
+scale = Vector2(0.48888892, 0.4888889)
+texture = ExtResource("6_4ywgw")
+centered = false
+
+[node name="Platform01" type="StaticBody2D" parent="Terrain" unique_id=1949577272]
+position = Vector2(1175, 820)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Platform01" unique_id=589255672]
+shape = SubResource("RectangleShape2D_e5lmm")
+
+[node name="Artwork" type="Node2D" parent="Terrain/Platform01" unique_id=133008738]
+position = Vector2(-1175, -820)
+
+[node name="Fill" type="Polygon2D" parent="Terrain/Platform01/Artwork" unique_id=1320960986]
+position = Vector2(860, 620)
+color = Color(0.18431373, 0.0627451, 0.007843138, 1)
+polygon = PackedVector2Array(0, 0, 630, 0, 630, 400, 0, 400)
+
+[node name="TILE-001_ground" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=46121735]
+position = Vector2(860, 612)
+scale = Vector2(0.88709676, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 217, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground2" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=933302893]
+position = Vector2(860, 714)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground3" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=185350080]
+position = Vector2(860, 786)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground4" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=1642222469]
+position = Vector2(860, 858)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground5" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=517047276]
+position = Vector2(860, 930)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground6" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=265536327]
+position = Vector2(860, 1002)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground7" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=469566921]
+position = Vector2(1052, 612)
+scale = Vector2(0.88709676, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 217, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground8" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=620743156]
+position = Vector2(1052, 714)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground9" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=716200181]
+position = Vector2(1052, 786)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground10" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=1032858471]
+position = Vector2(1052, 858)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground11" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=1072261894]
+position = Vector2(1052, 930)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground12" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=2036260445]
+position = Vector2(1052, 1002)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground13" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=1924989826]
+position = Vector2(1244, 612)
+scale = Vector2(0.88709676, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 217, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground14" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=1454889332]
+position = Vector2(1244, 714)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground15" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=1957844409]
+position = Vector2(1244, 786)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground16" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=946383329]
+position = Vector2(1244, 858)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground17" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=1075349015]
+position = Vector2(1244, 930)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground18" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=1596459542]
+position = Vector2(1244, 1002)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground19" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=1734986851]
+position = Vector2(1436, 612)
+scale = Vector2(0.89298517, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 61.03125, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground20" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=1972018623]
+position = Vector2(1436, 714)
+scale = Vector2(0.89298517, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 61.03125, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground21" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=925329372]
+position = Vector2(1436, 786)
+scale = Vector2(0.89298517, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 61.03125, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground22" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=1042903577]
+position = Vector2(1436, 858)
+scale = Vector2(0.89298517, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 61.03125, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground23" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=733828398]
+position = Vector2(1436, 930)
+scale = Vector2(0.89298517, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 61.03125, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground24" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=931097133]
+position = Vector2(1436, 1002)
+scale = Vector2(0.89298517, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 61.03125, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="PROP-011_lush_fern" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=1633643076]
+position = Vector2(860, 579.6551)
+scale = Vector2(0.06840855, 0.06840855)
+texture = ExtResource("7_4x50x")
+centered = false
+
+[node name="PROP-011_lush_fern2" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=923478773]
+position = Vector2(954, 579.6551)
+scale = Vector2(0.06840855, 0.06840855)
+texture = ExtResource("7_4x50x")
+centered = false
+
+[node name="PROP-011_mushroom" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=1277250342]
+position = Vector2(1131.1428, 578)
+scale = Vector2(0.6984127, 0.6984127)
+texture = ExtResource("9_offuw")
+centered = false
+
+[node name="PROP-011_lush_fern3" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=854978054]
+position = Vector2(1202, 579.6551)
+scale = Vector2(0.06840855, 0.06840855)
+texture = ExtResource("7_4x50x")
+centered = false
+
+[node name="PROP-011_leaf_cluster" type="Sprite2D" parent="Terrain/Platform01/Artwork" unique_id=96845031]
+position = Vector2(1369.6666, 578)
+scale = Vector2(0.6666667, 0.6666667)
+texture = ExtResource("4_ksmnf")
+centered = false
+
+[node name="Platform02" type="StaticBody2D" parent="Terrain" unique_id=798643464]
+position = Vector2(1975, 820)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Platform02" unique_id=1595534702]
+shape = SubResource("RectangleShape2D_tegua")
+
+[node name="Artwork" type="Node2D" parent="Terrain/Platform02" unique_id=1160832840]
+position = Vector2(-1975, -820)
+
+[node name="Fill" type="Polygon2D" parent="Terrain/Platform02/Artwork" unique_id=1951304689]
+position = Vector2(1650, 620)
+color = Color(0.18431373, 0.0627451, 0.007843138, 1)
+polygon = PackedVector2Array(0, 0, 650, 0, 650, 400, 0, 400)
+
+[node name="TILE-001_ground" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=254496410]
+position = Vector2(1650, 612)
+scale = Vector2(0.88709676, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 217, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground2" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=980669086]
+position = Vector2(1650, 714)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground3" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=607231295]
+position = Vector2(1650, 786)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground4" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=361696982]
+position = Vector2(1650, 858)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground5" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=1506759184]
+position = Vector2(1650, 930)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground6" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=129721590]
+position = Vector2(1650, 1002)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground7" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=700446579]
+position = Vector2(1842, 612)
+scale = Vector2(0.88709676, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 217, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground8" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=1992436475]
+position = Vector2(1842, 714)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground9" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=1146765242]
+position = Vector2(1842, 786)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground10" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=100694986]
+position = Vector2(1842, 858)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground11" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=1741350276]
+position = Vector2(1842, 930)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground12" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=1643489388]
+position = Vector2(1842, 1002)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground13" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=1748994214]
+position = Vector2(2034, 612)
+scale = Vector2(0.88709676, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 217, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground14" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=1581184573]
+position = Vector2(2034, 714)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground15" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=955819465]
+position = Vector2(2034, 786)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground16" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=844276135]
+position = Vector2(2034, 858)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground17" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=1900932986]
+position = Vector2(2034, 930)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground18" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=1808782906]
+position = Vector2(2034, 1002)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground19" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=1780018399]
+position = Vector2(2226, 612)
+scale = Vector2(0.890771, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 83.635414, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground20" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=1191017899]
+position = Vector2(2226, 714)
+scale = Vector2(0.890771, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 83.635414, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground21" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=78910955]
+position = Vector2(2226, 786)
+scale = Vector2(0.890771, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 83.635414, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground22" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=1016651566]
+position = Vector2(2226, 858)
+scale = Vector2(0.890771, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 83.635414, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground23" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=2024062027]
+position = Vector2(2226, 930)
+scale = Vector2(0.890771, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 83.635414, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground24" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=1171991472]
+position = Vector2(2226, 1002)
+scale = Vector2(0.890771, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 83.635414, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="PROP-011_mushroom" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=126655836]
+position = Vector2(1703.1428, 578)
+scale = Vector2(0.6984127, 0.6984127)
+texture = ExtResource("9_offuw")
+centered = false
+
+[node name="PROP-011_bush" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=1065068704]
+position = Vector2(1782.0222, 578)
+scale = Vector2(0.48888892, 0.4888889)
+texture = ExtResource("6_4ywgw")
+centered = false
+
+[node name="PROP-011_leaf_cluster" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=752565187]
+position = Vector2(1911.6666, 578)
+scale = Vector2(0.6666667, 0.6666667)
+texture = ExtResource("4_ksmnf")
+centered = false
+
+[node name="PROP-011_lush_fern" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=1489617927]
+position = Vector2(1992, 579.6551)
+scale = Vector2(0.06840855, 0.06840855)
+texture = ExtResource("7_4x50x")
+centered = false
+
+[node name="PROP-011_lush_fern2" type="Sprite2D" parent="Terrain/Platform02/Artwork" unique_id=1058531406]
+position = Vector2(2116, 579.6551)
+scale = Vector2(0.06840855, 0.06840855)
+texture = ExtResource("7_4x50x")
+centered = false
+
+[node name="Platform03" type="StaticBody2D" parent="Terrain" unique_id=2023630697]
+position = Vector2(3530, 820)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Platform03" unique_id=1961353327]
+shape = SubResource("RectangleShape2D_yb2eg")
+
+[node name="Artwork" type="Node2D" parent="Terrain/Platform03" unique_id=421642754]
+position = Vector2(-3530, -820)
+
+[node name="Fill" type="Polygon2D" parent="Terrain/Platform03/Artwork" unique_id=1764320689]
+position = Vector2(2460, 620)
+color = Color(0.18431373, 0.0627451, 0.007843138, 1)
+polygon = PackedVector2Array(0, 0, 2140, 0, 2140, 400, 0, 400)
+
+[node name="TILE-001_ground" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1473836320]
+position = Vector2(2460, 612)
+scale = Vector2(0.88709676, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 217, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground2" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=600685685]
+position = Vector2(2460, 714)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground3" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=238267518]
+position = Vector2(2460, 786)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground4" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1482012270]
+position = Vector2(2460, 858)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground5" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1314820572]
+position = Vector2(2460, 930)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground6" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1776270082]
+position = Vector2(2460, 1002)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground7" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1566736304]
+position = Vector2(2652, 612)
+scale = Vector2(0.88709676, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 217, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground8" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=110796989]
+position = Vector2(2652, 714)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground9" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1807903499]
+position = Vector2(2652, 786)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground10" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1340407945]
+position = Vector2(2652, 858)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground11" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=989990546]
+position = Vector2(2652, 930)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground12" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1642654944]
+position = Vector2(2652, 1002)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground13" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=830624188]
+position = Vector2(2844, 612)
+scale = Vector2(0.88709676, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 217, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground14" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=725570021]
+position = Vector2(2844, 714)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground15" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=504990126]
+position = Vector2(2844, 786)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground16" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=834396149]
+position = Vector2(2844, 858)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground17" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=6811113]
+position = Vector2(2844, 930)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground18" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1250731268]
+position = Vector2(2844, 1002)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground19" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1917858370]
+position = Vector2(3036, 612)
+scale = Vector2(0.88709676, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 217, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground20" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1005964407]
+position = Vector2(3036, 714)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground21" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=2002476187]
+position = Vector2(3036, 786)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground22" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1203109695]
+position = Vector2(3036, 858)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground23" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=273489525]
+position = Vector2(3036, 930)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground24" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1548184653]
+position = Vector2(3036, 1002)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground25" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1376286213]
+position = Vector2(3228, 612)
+scale = Vector2(0.88709676, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 217, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground26" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1815312761]
+position = Vector2(3228, 714)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground27" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1343342819]
+position = Vector2(3228, 786)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground28" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1444198993]
+position = Vector2(3228, 858)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground29" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=924156211]
+position = Vector2(3228, 930)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground30" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=853643162]
+position = Vector2(3228, 1002)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground31" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1766178099]
+position = Vector2(3420, 612)
+scale = Vector2(0.88709676, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 217, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground32" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1562625283]
+position = Vector2(3420, 714)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground33" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=2117210459]
+position = Vector2(3420, 786)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground34" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=109624190]
+position = Vector2(3420, 858)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground35" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1086974603]
+position = Vector2(3420, 930)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground36" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1772457095]
+position = Vector2(3420, 1002)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground37" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=723137103]
+position = Vector2(3612, 612)
+scale = Vector2(0.88709676, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 217, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground38" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=267539349]
+position = Vector2(3612, 714)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground39" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1140346242]
+position = Vector2(3612, 786)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground40" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1250816262]
+position = Vector2(3612, 858)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground41" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1394281925]
+position = Vector2(3612, 930)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground42" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=96951469]
+position = Vector2(3612, 1002)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground43" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=519915129]
+position = Vector2(3804, 612)
+scale = Vector2(0.88709676, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 217, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground44" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1632693964]
+position = Vector2(3804, 714)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground45" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=653047284]
+position = Vector2(3804, 786)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground46" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1528741190]
+position = Vector2(3804, 858)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground47" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1721983777]
+position = Vector2(3804, 930)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground48" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=101222361]
+position = Vector2(3804, 1002)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground49" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1207789376]
+position = Vector2(3996, 612)
+scale = Vector2(0.88709676, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 217, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground50" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1045965521]
+position = Vector2(3996, 714)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground51" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=86734602]
+position = Vector2(3996, 786)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground52" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=126071343]
+position = Vector2(3996, 858)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground53" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1544159663]
+position = Vector2(3996, 930)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground54" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=377363645]
+position = Vector2(3996, 1002)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground55" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=669019775]
+position = Vector2(4188, 612)
+scale = Vector2(0.88709676, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 217, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground56" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=513991268]
+position = Vector2(4188, 714)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground57" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1289579940]
+position = Vector2(4188, 786)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground58" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1055552861]
+position = Vector2(4188, 858)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground59" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=234984895]
+position = Vector2(4188, 930)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground60" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=111143801]
+position = Vector2(4188, 1002)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground61" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1216305108]
+position = Vector2(4380, 612)
+scale = Vector2(0.88709676, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 217, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground62" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=133846432]
+position = Vector2(4380, 714)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground63" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=569514634]
+position = Vector2(4380, 786)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground64" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1413490107]
+position = Vector2(4380, 858)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground65" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=75922381]
+position = Vector2(4380, 930)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground66" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1299503882]
+position = Vector2(4380, 1002)
+scale = Vector2(0.88709676, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 217, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground67" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=929008118]
+position = Vector2(4572, 612)
+scale = Vector2(0.9005925, 0.8396947)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 0, 31.645834, 131)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground68" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=2142352302]
+position = Vector2(4572, 714)
+scale = Vector2(0.9005925, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 31.645834, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground69" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1908685395]
+position = Vector2(4572, 786)
+scale = Vector2(0.9005925, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 31.645834, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground70" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1647851879]
+position = Vector2(4572, 858)
+scale = Vector2(0.9005925, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 31.645834, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground71" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1497241760]
+position = Vector2(4572, 930)
+scale = Vector2(0.9005925, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 31.645834, 83)
+region_filter_clip_enabled = true
+
+[node name="TILE-001_ground72" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=273498544]
+position = Vector2(4572, 1002)
+scale = Vector2(0.9005925, 0.8795181)
+texture = ExtResource("5_e4eg7")
+centered = false
+region_enabled = true
+region_rect = Rect2(12, 48, 31.645834, 20.465754)
+region_filter_clip_enabled = true
+
+[node name="PROP-011_leaf_cluster" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=342222122]
+position = Vector2(2503.6667, 578)
+scale = Vector2(0.6666667, 0.6666667)
+texture = ExtResource("4_ksmnf")
+centered = false
+
+[node name="PROP-011_lush_fern" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1430028719]
+position = Vector2(2554, 579.6551)
+scale = Vector2(0.06840855, 0.06840855)
+texture = ExtResource("7_4x50x")
+centered = false
+
+[node name="PROP-011_lush_fern2" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1159734215]
+position = Vector2(2678, 579.6551)
+scale = Vector2(0.06840855, 0.06840855)
+texture = ExtResource("7_4x50x")
+centered = false
+
+[node name="PROP-011_mushroom" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=142726703]
+position = Vector2(2855.1428, 578)
+scale = Vector2(0.6984127, 0.6984127)
+texture = ExtResource("9_offuw")
+centered = false
+
+[node name="PROP-011_lush_fern3" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=849072524]
+position = Vector2(2926, 579.6551)
+scale = Vector2(0.06840855, 0.06840855)
+texture = ExtResource("7_4x50x")
+centered = false
+
+[node name="PROP-011_leaf_cluster2" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1169020787]
+position = Vector2(3093.6667, 578)
+scale = Vector2(0.6666667, 0.6666667)
+texture = ExtResource("4_ksmnf")
+centered = false
+
+[node name="PROP-011_fern" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1659451384]
+position = Vector2(3206.0215, 578)
+scale = Vector2(0.47311825, 0.47311828)
+texture = ExtResource("8_f8y0g")
+centered = false
+
+[node name="PROP-011_lush_fern4" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=118335368]
+position = Vector2(3298, 579.6551)
+scale = Vector2(0.06840855, 0.06840855)
+texture = ExtResource("7_4x50x")
+centered = false
+
+[node name="PROP-011_bush" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=935587880]
+position = Vector2(3460.0222, 578)
+scale = Vector2(0.48888892, 0.4888889)
+texture = ExtResource("6_4ywgw")
+centered = false
+
+[node name="PROP-011_lush_fern5" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=971728485]
+position = Vector2(3546, 579.6551)
+scale = Vector2(0.06840855, 0.06840855)
+texture = ExtResource("7_4x50x")
+centered = false
+
+[node name="PROP-011_lush_fern6" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1419739328]
+position = Vector2(3670, 579.6551)
+scale = Vector2(0.06840855, 0.06840855)
+texture = ExtResource("7_4x50x")
+centered = false
+
+[node name="PROP-011_fern2" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=445224742]
+position = Vector2(3826.0215, 578)
+scale = Vector2(0.47311825, 0.47311828)
+texture = ExtResource("8_f8y0g")
+centered = false
+
+[node name="PROP-011_mushroom2" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1518920474]
+position = Vector2(3971.1428, 578)
+scale = Vector2(0.6984127, 0.6984127)
+texture = ExtResource("9_offuw")
+centered = false
+
+[node name="PROP-011_bush2" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1375679688]
+position = Vector2(4080.0222, 578)
+scale = Vector2(0.48888892, 0.4888889)
+texture = ExtResource("6_4ywgw")
+centered = false
+
+[node name="PROP-011_leaf_cluster3" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1315319351]
+position = Vector2(4209.6665, 578)
+scale = Vector2(0.6666667, 0.6666667)
+texture = ExtResource("4_ksmnf")
+centered = false
+
+[node name="PROP-011_lush_fern7" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=2044445417]
+position = Vector2(4290, 579.6551)
+scale = Vector2(0.06840855, 0.06840855)
+texture = ExtResource("7_4x50x")
+centered = false
+
+[node name="PROP-011_lush_fern8" type="Sprite2D" parent="Terrain/Platform03/Artwork" unique_id=1765995462]
+position = Vector2(4414, 579.6551)
+scale = Vector2(0.06840855, 0.06840855)
+texture = ExtResource("7_4x50x")
+centered = false
+
+[node name="Platform04" type="StaticBody2D" parent="Terrain" unique_id=2144257968]
+position = Vector2(610, 539)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Platform04" unique_id=624822084]
+shape = SubResource("RectangleShape2D_x71h5")
+one_way_collision = true
+
+[node name="Artwork" type="Node2D" parent="Terrain/Platform04" unique_id=2015098764]
+position = Vector2(-610, -539)
+
+[node name="TILE-005_vine_platform" type="Sprite2D" parent="Terrain/Platform04/Artwork" unique_id=1527471739]
+position = Vector2(520, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 63.64045, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform2" type="Sprite2D" parent="Terrain/Platform04/Artwork" unique_id=562388268]
+position = Vector2(668, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(85.35955, 0, 63.64045, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform3" type="Sprite2D" parent="Terrain/Platform04/Artwork" unique_id=1743889071]
+position = Vector2(552, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform4" type="Sprite2D" parent="Terrain/Platform04/Artwork" unique_id=1844123862]
+position = Vector2(562.9209, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform5" type="Sprite2D" parent="Terrain/Platform04/Artwork" unique_id=803280051]
+position = Vector2(573.8418, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform6" type="Sprite2D" parent="Terrain/Platform04/Artwork" unique_id=1770918595]
+position = Vector2(584.7627, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform7" type="Sprite2D" parent="Terrain/Platform04/Artwork" unique_id=1894362119]
+position = Vector2(595.6836, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform8" type="Sprite2D" parent="Terrain/Platform04/Artwork" unique_id=704854942]
+position = Vector2(606.6045, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform9" type="Sprite2D" parent="Terrain/Platform04/Artwork" unique_id=2132335450]
+position = Vector2(617.52545, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform10" type="Sprite2D" parent="Terrain/Platform04/Artwork" unique_id=1804519997]
+position = Vector2(628.44635, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform11" type="Sprite2D" parent="Terrain/Platform04/Artwork" unique_id=533971035]
+position = Vector2(639.36725, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform12" type="Sprite2D" parent="Terrain/Platform04/Artwork" unique_id=1084713450]
+position = Vector2(650.28815, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform13" type="Sprite2D" parent="Terrain/Platform04/Artwork" unique_id=1735077375]
+position = Vector2(661.20905, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 13.505618, 177)
+region_filter_clip_enabled = true
+
+[node name="PROP-011_leaf_cluster" type="Sprite2D" parent="Terrain/Platform04/Artwork" unique_id=77343489]
+position = Vector2(545.6818, 497)
+scale = Vector2(0.45454547, 0.45454547)
+texture = ExtResource("4_ksmnf")
+centered = false
+
+[node name="Platform05" type="StaticBody2D" parent="Terrain" unique_id=811198855]
+position = Vector2(850, 459)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Platform05" unique_id=504844250]
+shape = SubResource("RectangleShape2D_qc1fe")
+one_way_collision = true
+
+[node name="Artwork" type="Node2D" parent="Terrain/Platform05" unique_id=349192438]
+position = Vector2(-850, -459)
+
+[node name="TILE-005_vine_platform" type="Sprite2D" parent="Terrain/Platform05/Artwork" unique_id=461513229]
+position = Vector2(750, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 63.64045, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform2" type="Sprite2D" parent="Terrain/Platform05/Artwork" unique_id=514256955]
+position = Vector2(918, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(85.35955, 0, 63.64045, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform3" type="Sprite2D" parent="Terrain/Platform05/Artwork" unique_id=1920677088]
+position = Vector2(782, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform4" type="Sprite2D" parent="Terrain/Platform05/Artwork" unique_id=1262420292]
+position = Vector2(792.9209, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform5" type="Sprite2D" parent="Terrain/Platform05/Artwork" unique_id=1195062781]
+position = Vector2(803.8418, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform6" type="Sprite2D" parent="Terrain/Platform05/Artwork" unique_id=622878807]
+position = Vector2(814.7627, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform7" type="Sprite2D" parent="Terrain/Platform05/Artwork" unique_id=1193266897]
+position = Vector2(825.6836, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform8" type="Sprite2D" parent="Terrain/Platform05/Artwork" unique_id=1763079984]
+position = Vector2(836.6045, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform9" type="Sprite2D" parent="Terrain/Platform05/Artwork" unique_id=1825859439]
+position = Vector2(847.52545, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform10" type="Sprite2D" parent="Terrain/Platform05/Artwork" unique_id=220341701]
+position = Vector2(858.44635, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform11" type="Sprite2D" parent="Terrain/Platform05/Artwork" unique_id=1257494823]
+position = Vector2(869.36725, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform12" type="Sprite2D" parent="Terrain/Platform05/Artwork" unique_id=1970738823]
+position = Vector2(880.28815, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform13" type="Sprite2D" parent="Terrain/Platform05/Artwork" unique_id=41866845]
+position = Vector2(891.20905, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform14" type="Sprite2D" parent="Terrain/Platform05/Artwork" unique_id=208326724]
+position = Vector2(902.12994, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform15" type="Sprite2D" parent="Terrain/Platform05/Artwork" unique_id=1010963422]
+position = Vector2(913.05084, 437)
+scale = Vector2(0.5028249, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 9.842696, 177)
+region_filter_clip_enabled = true
+
+[node name="PROP-011_leaf_cluster" type="Sprite2D" parent="Terrain/Platform05/Artwork" unique_id=1038136949]
+position = Vector2(775.6818, 417)
+scale = Vector2(0.45454547, 0.45454547)
+texture = ExtResource("4_ksmnf")
+centered = false
+
+[node name="PROP-011_fern" type="Sprite2D" parent="Terrain/Platform05/Artwork" unique_id=1913311140]
+position = Vector2(877.74194, 417)
+scale = Vector2(0.32258064, 0.32258064)
+texture = ExtResource("8_f8y0g")
+centered = false
+
+[node name="Platform06" type="StaticBody2D" parent="Terrain" unique_id=1580772436]
+position = Vector2(1140, 379)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Platform06" unique_id=1731219172]
+shape = SubResource("RectangleShape2D_xx6gp")
+one_way_collision = true
+
+[node name="Artwork" type="Node2D" parent="Terrain/Platform06" unique_id=802334395]
+position = Vector2(-1140, -379)
+
+[node name="TILE-003_platform" type="Sprite2D" parent="Terrain/Platform06/Artwork" unique_id=154988100]
+position = Vector2(1010, 357)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 43.03448, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform2" type="Sprite2D" parent="Terrain/Platform06/Artwork" unique_id=424360867]
+position = Vector2(1238, 357)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(82.965515, 0, 43.03448, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform3" type="Sprite2D" parent="Terrain/Platform06/Artwork" unique_id=1754968251]
+position = Vector2(1042, 357)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform4" type="Sprite2D" parent="Terrain/Platform06/Artwork" unique_id=1438955304]
+position = Vector2(1071.6923, 357)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform5" type="Sprite2D" parent="Terrain/Platform06/Artwork" unique_id=1261952506]
+position = Vector2(1101.3846, 357)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform6" type="Sprite2D" parent="Terrain/Platform06/Artwork" unique_id=866591600]
+position = Vector2(1131.0769, 357)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform7" type="Sprite2D" parent="Terrain/Platform06/Artwork" unique_id=2142629562]
+position = Vector2(1160.7693, 357)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform8" type="Sprite2D" parent="Terrain/Platform06/Artwork" unique_id=1277566109]
+position = Vector2(1190.4615, 357)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform9" type="Sprite2D" parent="Terrain/Platform06/Artwork" unique_id=81691921]
+position = Vector2(1220.1538, 357)
+scale = Vector2(0.7435897, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 24, 78)
+region_filter_clip_enabled = true
+
+[node name="PROP-011_leaf_cluster" type="Sprite2D" parent="Terrain/Platform06/Artwork" unique_id=2103997342]
+position = Vector2(1035.6818, 337)
+scale = Vector2(0.45454547, 0.45454547)
+texture = ExtResource("4_ksmnf")
+centered = false
+
+[node name="PROP-011_fern" type="Sprite2D" parent="Terrain/Platform06/Artwork" unique_id=87100296]
+position = Vector2(1148.742, 337)
+scale = Vector2(0.32258064, 0.32258064)
+texture = ExtResource("8_f8y0g")
+centered = false
+
+[node name="Platform07" type="StaticBody2D" parent="Terrain" unique_id=631219160]
+position = Vector2(1505, 379)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Platform07" unique_id=1955551110]
+shape = SubResource("RectangleShape2D_q14lp")
+one_way_collision = true
+
+[node name="Artwork" type="Node2D" parent="Terrain/Platform07" unique_id=1545184924]
+position = Vector2(-1505, -379)
+
+[node name="TILE-005_vine_platform" type="Sprite2D" parent="Terrain/Platform07/Artwork" unique_id=1302341111]
+position = Vector2(1380, 357)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 63.64045, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform2" type="Sprite2D" parent="Terrain/Platform07/Artwork" unique_id=1165424958]
+position = Vector2(1598, 357)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(85.35955, 0, 63.64045, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform3" type="Sprite2D" parent="Terrain/Platform07/Artwork" unique_id=1897769159]
+position = Vector2(1412, 357)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform4" type="Sprite2D" parent="Terrain/Platform07/Artwork" unique_id=1676068148]
+position = Vector2(1422.9209, 357)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform5" type="Sprite2D" parent="Terrain/Platform07/Artwork" unique_id=1828767359]
+position = Vector2(1433.8418, 357)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform6" type="Sprite2D" parent="Terrain/Platform07/Artwork" unique_id=1359891607]
+position = Vector2(1444.7627, 357)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform7" type="Sprite2D" parent="Terrain/Platform07/Artwork" unique_id=1564684630]
+position = Vector2(1455.6836, 357)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform8" type="Sprite2D" parent="Terrain/Platform07/Artwork" unique_id=2109470628]
+position = Vector2(1466.6045, 357)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform9" type="Sprite2D" parent="Terrain/Platform07/Artwork" unique_id=932494452]
+position = Vector2(1477.5254, 357)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform10" type="Sprite2D" parent="Terrain/Platform07/Artwork" unique_id=307365239]
+position = Vector2(1488.4463, 357)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform11" type="Sprite2D" parent="Terrain/Platform07/Artwork" unique_id=1627658898]
+position = Vector2(1499.3672, 357)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform12" type="Sprite2D" parent="Terrain/Platform07/Artwork" unique_id=326809482]
+position = Vector2(1510.2881, 357)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform13" type="Sprite2D" parent="Terrain/Platform07/Artwork" unique_id=2079274476]
+position = Vector2(1521.209, 357)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform14" type="Sprite2D" parent="Terrain/Platform07/Artwork" unique_id=132233557]
+position = Vector2(1532.1299, 357)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform15" type="Sprite2D" parent="Terrain/Platform07/Artwork" unique_id=294362700]
+position = Vector2(1543.0509, 357)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform16" type="Sprite2D" parent="Terrain/Platform07/Artwork" unique_id=349492792]
+position = Vector2(1553.9718, 357)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform17" type="Sprite2D" parent="Terrain/Platform07/Artwork" unique_id=945978833]
+position = Vector2(1564.8927, 357)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform18" type="Sprite2D" parent="Terrain/Platform07/Artwork" unique_id=1637288743]
+position = Vector2(1575.8136, 357)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform19" type="Sprite2D" parent="Terrain/Platform07/Artwork" unique_id=2073114691]
+position = Vector2(1586.7345, 357)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform20" type="Sprite2D" parent="Terrain/Platform07/Artwork" unique_id=2044210808]
+position = Vector2(1597.6554, 357)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 0.6853933, 177)
+region_filter_clip_enabled = true
+
+[node name="PROP-011_bush" type="Sprite2D" parent="Terrain/Platform07/Artwork" unique_id=1503740168]
+position = Vector2(1401.8334, 337)
+scale = Vector2(0.33333334, 0.33333334)
+texture = ExtResource("6_4ywgw")
+centered = false
+
+[node name="PROP-011_lush_fern" type="Sprite2D" parent="Terrain/Platform07/Artwork" unique_id=1946615907]
+position = Vector2(1501, 340.53445)
+scale = Vector2(0.042755343, 0.042755343)
+texture = ExtResource("7_4x50x")
+centered = false
+
+[node name="Platform08" type="StaticBody2D" parent="Terrain" unique_id=2015062775]
+position = Vector2(1840, 459)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Platform08" unique_id=1725311608]
+shape = SubResource("RectangleShape2D_xm0k2")
+one_way_collision = true
+
+[node name="Artwork" type="Node2D" parent="Terrain/Platform08" unique_id=1951098656]
+position = Vector2(-1840, -459)
+
+[node name="TILE-005_vine_platform" type="Sprite2D" parent="Terrain/Platform08/Artwork" unique_id=1865765011]
+position = Vector2(1740, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 63.64045, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform2" type="Sprite2D" parent="Terrain/Platform08/Artwork" unique_id=1053345258]
+position = Vector2(1908, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(85.35955, 0, 63.64045, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform3" type="Sprite2D" parent="Terrain/Platform08/Artwork" unique_id=413023769]
+position = Vector2(1772, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform4" type="Sprite2D" parent="Terrain/Platform08/Artwork" unique_id=1848022099]
+position = Vector2(1782.9209, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform5" type="Sprite2D" parent="Terrain/Platform08/Artwork" unique_id=1535654930]
+position = Vector2(1793.8418, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform6" type="Sprite2D" parent="Terrain/Platform08/Artwork" unique_id=475977722]
+position = Vector2(1804.7627, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform7" type="Sprite2D" parent="Terrain/Platform08/Artwork" unique_id=1190303895]
+position = Vector2(1815.6836, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform8" type="Sprite2D" parent="Terrain/Platform08/Artwork" unique_id=1642482678]
+position = Vector2(1826.6045, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform9" type="Sprite2D" parent="Terrain/Platform08/Artwork" unique_id=1846803516]
+position = Vector2(1837.5254, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform10" type="Sprite2D" parent="Terrain/Platform08/Artwork" unique_id=2050212052]
+position = Vector2(1848.4463, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform11" type="Sprite2D" parent="Terrain/Platform08/Artwork" unique_id=1186309899]
+position = Vector2(1859.3672, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform12" type="Sprite2D" parent="Terrain/Platform08/Artwork" unique_id=1459540162]
+position = Vector2(1870.2881, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform13" type="Sprite2D" parent="Terrain/Platform08/Artwork" unique_id=1190458310]
+position = Vector2(1881.209, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform14" type="Sprite2D" parent="Terrain/Platform08/Artwork" unique_id=783245270]
+position = Vector2(1892.1299, 437)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform15" type="Sprite2D" parent="Terrain/Platform08/Artwork" unique_id=2085110192]
+position = Vector2(1903.0509, 437)
+scale = Vector2(0.5028249, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 9.842696, 177)
+region_filter_clip_enabled = true
+
+[node name="PROP-011_bush" type="Sprite2D" parent="Terrain/Platform08/Artwork" unique_id=648792376]
+position = Vector2(1761.8334, 417)
+scale = Vector2(0.33333334, 0.33333334)
+texture = ExtResource("6_4ywgw")
+centered = false
+
+[node name="PROP-011_lush_fern" type="Sprite2D" parent="Terrain/Platform08/Artwork" unique_id=1607301719]
+position = Vector2(1850, 420.53445)
+scale = Vector2(0.042755343, 0.042755343)
+texture = ExtResource("7_4x50x")
+centered = false
+
+[node name="Platform09" type="StaticBody2D" parent="Terrain" unique_id=1501069681]
+position = Vector2(2200, 539)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Platform09" unique_id=218001580]
+shape = SubResource("RectangleShape2D_4ayrn")
+one_way_collision = true
+
+[node name="Artwork" type="Node2D" parent="Terrain/Platform09" unique_id=137357081]
+position = Vector2(-2200, -539)
+
+[node name="TILE-005_vine_platform" type="Sprite2D" parent="Terrain/Platform09/Artwork" unique_id=1854371534]
+position = Vector2(2100, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 63.64045, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform2" type="Sprite2D" parent="Terrain/Platform09/Artwork" unique_id=817832058]
+position = Vector2(2268, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(85.35955, 0, 63.64045, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform3" type="Sprite2D" parent="Terrain/Platform09/Artwork" unique_id=1143474770]
+position = Vector2(2132, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform4" type="Sprite2D" parent="Terrain/Platform09/Artwork" unique_id=281995841]
+position = Vector2(2142.921, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform5" type="Sprite2D" parent="Terrain/Platform09/Artwork" unique_id=401085165]
+position = Vector2(2153.8418, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform6" type="Sprite2D" parent="Terrain/Platform09/Artwork" unique_id=320509988]
+position = Vector2(2164.7627, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform7" type="Sprite2D" parent="Terrain/Platform09/Artwork" unique_id=1598927744]
+position = Vector2(2175.6836, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform8" type="Sprite2D" parent="Terrain/Platform09/Artwork" unique_id=949636551]
+position = Vector2(2186.6045, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform9" type="Sprite2D" parent="Terrain/Platform09/Artwork" unique_id=1747395827]
+position = Vector2(2197.5254, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform10" type="Sprite2D" parent="Terrain/Platform09/Artwork" unique_id=2104659664]
+position = Vector2(2208.4463, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform11" type="Sprite2D" parent="Terrain/Platform09/Artwork" unique_id=1536270271]
+position = Vector2(2219.3672, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform12" type="Sprite2D" parent="Terrain/Platform09/Artwork" unique_id=1550795035]
+position = Vector2(2230.288, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform13" type="Sprite2D" parent="Terrain/Platform09/Artwork" unique_id=754256992]
+position = Vector2(2241.209, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform14" type="Sprite2D" parent="Terrain/Platform09/Artwork" unique_id=884280693]
+position = Vector2(2252.13, 517)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform15" type="Sprite2D" parent="Terrain/Platform09/Artwork" unique_id=1373672728]
+position = Vector2(2263.0508, 517)
+scale = Vector2(0.5028249, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 9.842696, 177)
+region_filter_clip_enabled = true
+
+[node name="PROP-011_bush" type="Sprite2D" parent="Terrain/Platform09/Artwork" unique_id=1951731881]
+position = Vector2(2121.8333, 497)
+scale = Vector2(0.33333334, 0.33333334)
+texture = ExtResource("6_4ywgw")
+centered = false
+
+[node name="PROP-011_leaf_cluster" type="Sprite2D" parent="Terrain/Platform09/Artwork" unique_id=137124855]
+position = Vector2(2235.682, 497)
+scale = Vector2(0.45454547, 0.45454547)
+texture = ExtResource("4_ksmnf")
+centered = false
+
+[node name="Platform10" type="StaticBody2D" parent="Terrain" unique_id=1950772448]
+position = Vector2(780, 747.5)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Platform10" unique_id=1632015807]
+shape = SubResource("RectangleShape2D_do3lb")
+one_way_collision = true
+
+[node name="Artwork" type="Node2D" parent="Terrain/Platform10" unique_id=1322827808]
+position = Vector2(-780, -747.5)
+
+[node name="TILE-003_platform" type="Sprite2D" parent="Terrain/Platform10/Artwork" unique_id=1667315888]
+position = Vector2(680, 727)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 43.03448, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform2" type="Sprite2D" parent="Terrain/Platform10/Artwork" unique_id=618745360]
+position = Vector2(848, 727)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(82.965515, 0, 43.03448, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform3" type="Sprite2D" parent="Terrain/Platform10/Artwork" unique_id=540520584]
+position = Vector2(712, 727)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform4" type="Sprite2D" parent="Terrain/Platform10/Artwork" unique_id=535728169]
+position = Vector2(741.6923, 727)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform5" type="Sprite2D" parent="Terrain/Platform10/Artwork" unique_id=1796101316]
+position = Vector2(771.38464, 727)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform6" type="Sprite2D" parent="Terrain/Platform10/Artwork" unique_id=169261761]
+position = Vector2(801.0769, 727)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform7" type="Sprite2D" parent="Terrain/Platform10/Artwork" unique_id=81017330]
+position = Vector2(830.7692, 727)
+scale = Vector2(0.7435898, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 23.172413, 78)
+region_filter_clip_enabled = true
+
+[node name="PROP-011_fern" type="Sprite2D" parent="Terrain/Platform10/Artwork" unique_id=1315625237]
+position = Vector2(697.74194, 707)
+scale = Vector2(0.32258064, 0.32258064)
+texture = ExtResource("8_f8y0g")
+centered = false
+
+[node name="PROP-011_mushroom" type="Sprite2D" parent="Terrain/Platform10/Artwork" unique_id=793452439]
+position = Vector2(822.1429, 707)
+scale = Vector2(0.47619045, 0.47619048)
+texture = ExtResource("9_offuw")
+centered = false
+
+[node name="Platform11" type="StaticBody2D" parent="Terrain" unique_id=1242830244]
+position = Vector2(1570, 747.5)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Platform11" unique_id=1278471793]
+shape = SubResource("RectangleShape2D_kmx5v")
+one_way_collision = true
+
+[node name="Artwork" type="Node2D" parent="Terrain/Platform11" unique_id=1131864460]
+position = Vector2(-1570, -747.5)
+
+[node name="TILE-003_platform" type="Sprite2D" parent="Terrain/Platform11/Artwork" unique_id=1030483309]
+position = Vector2(1470, 727)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 43.03448, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform2" type="Sprite2D" parent="Terrain/Platform11/Artwork" unique_id=633363395]
+position = Vector2(1638, 727)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(82.965515, 0, 43.03448, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform3" type="Sprite2D" parent="Terrain/Platform11/Artwork" unique_id=257365982]
+position = Vector2(1502, 727)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform4" type="Sprite2D" parent="Terrain/Platform11/Artwork" unique_id=1508893076]
+position = Vector2(1531.6923, 727)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform5" type="Sprite2D" parent="Terrain/Platform11/Artwork" unique_id=1194080347]
+position = Vector2(1561.3846, 727)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform6" type="Sprite2D" parent="Terrain/Platform11/Artwork" unique_id=2106651717]
+position = Vector2(1591.0769, 727)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform7" type="Sprite2D" parent="Terrain/Platform11/Artwork" unique_id=1865074044]
+position = Vector2(1620.7693, 727)
+scale = Vector2(0.7435898, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 23.172413, 78)
+region_filter_clip_enabled = true
+
+[node name="PROP-011_bush" type="Sprite2D" parent="Terrain/Platform11/Artwork" unique_id=829895028]
+position = Vector2(1491.8334, 707)
+scale = Vector2(0.33333334, 0.33333334)
+texture = ExtResource("6_4ywgw")
+centered = false
+
+[node name="PROP-011_lush_fern" type="Sprite2D" parent="Terrain/Platform11/Artwork" unique_id=409488784]
+position = Vector2(1580, 710.5344)
+scale = Vector2(0.042755343, 0.042755343)
+texture = ExtResource("7_4x50x")
+centered = false
+
+[node name="Platform12" type="StaticBody2D" parent="Terrain" unique_id=1007562407]
+position = Vector2(2380, 747.5)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Platform12" unique_id=967863740]
+shape = SubResource("RectangleShape2D_nveq3")
+one_way_collision = true
+
+[node name="Artwork" type="Node2D" parent="Terrain/Platform12" unique_id=2043692214]
+position = Vector2(-2380, -747.5)
+
+[node name="TILE-003_platform" type="Sprite2D" parent="Terrain/Platform12/Artwork" unique_id=1730434355]
+position = Vector2(2280, 727)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 43.03448, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform2" type="Sprite2D" parent="Terrain/Platform12/Artwork" unique_id=63689341]
+position = Vector2(2448, 727)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(82.965515, 0, 43.03448, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform3" type="Sprite2D" parent="Terrain/Platform12/Artwork" unique_id=1049494568]
+position = Vector2(2312, 727)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform4" type="Sprite2D" parent="Terrain/Platform12/Artwork" unique_id=1159275042]
+position = Vector2(2341.6924, 727)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform5" type="Sprite2D" parent="Terrain/Platform12/Artwork" unique_id=405889814]
+position = Vector2(2371.3845, 727)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform6" type="Sprite2D" parent="Terrain/Platform12/Artwork" unique_id=102926522]
+position = Vector2(2401.077, 727)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform7" type="Sprite2D" parent="Terrain/Platform12/Artwork" unique_id=2017476042]
+position = Vector2(2430.7693, 727)
+scale = Vector2(0.7435898, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 23.172413, 78)
+region_filter_clip_enabled = true
+
+[node name="PROP-011_leaf_cluster" type="Sprite2D" parent="Terrain/Platform12/Artwork" unique_id=1251263923]
+position = Vector2(2305.682, 707)
+scale = Vector2(0.45454547, 0.45454547)
+texture = ExtResource("4_ksmnf")
+centered = false
+
+[node name="PROP-011_fern" type="Sprite2D" parent="Terrain/Platform12/Artwork" unique_id=1324654279]
+position = Vector2(2407.742, 707)
+scale = Vector2(0.32258064, 0.32258064)
+texture = ExtResource("8_f8y0g")
+centered = false
+
+[node name="Platform13" type="StaticBody2D" parent="Terrain" unique_id=1810601985]
+position = Vector2(2795, 534)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Platform13" unique_id=2037157184]
+shape = SubResource("RectangleShape2D_6v501")
+one_way_collision = true
+
+[node name="Artwork" type="Node2D" parent="Terrain/Platform13" unique_id=1294146281]
+position = Vector2(-2795, -534)
+
+[node name="TILE-005_vine_platform" type="Sprite2D" parent="Terrain/Platform13/Artwork" unique_id=1955739867]
+position = Vector2(2700, 512)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 63.64045, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform2" type="Sprite2D" parent="Terrain/Platform13/Artwork" unique_id=1769055143]
+position = Vector2(2858, 512)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(85.35955, 0, 63.64045, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform3" type="Sprite2D" parent="Terrain/Platform13/Artwork" unique_id=870669333]
+position = Vector2(2732, 512)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform4" type="Sprite2D" parent="Terrain/Platform13/Artwork" unique_id=2069073831]
+position = Vector2(2742.921, 512)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform5" type="Sprite2D" parent="Terrain/Platform13/Artwork" unique_id=362842025]
+position = Vector2(2753.8418, 512)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform6" type="Sprite2D" parent="Terrain/Platform13/Artwork" unique_id=1415946347]
+position = Vector2(2764.7627, 512)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform7" type="Sprite2D" parent="Terrain/Platform13/Artwork" unique_id=1216600021]
+position = Vector2(2775.6836, 512)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform8" type="Sprite2D" parent="Terrain/Platform13/Artwork" unique_id=676192477]
+position = Vector2(2786.6045, 512)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform9" type="Sprite2D" parent="Terrain/Platform13/Artwork" unique_id=188585370]
+position = Vector2(2797.5254, 512)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform10" type="Sprite2D" parent="Terrain/Platform13/Artwork" unique_id=294229986]
+position = Vector2(2808.4463, 512)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform11" type="Sprite2D" parent="Terrain/Platform13/Artwork" unique_id=1791985121]
+position = Vector2(2819.3672, 512)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform12" type="Sprite2D" parent="Terrain/Platform13/Artwork" unique_id=1016240565]
+position = Vector2(2830.288, 512)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform13" type="Sprite2D" parent="Terrain/Platform13/Artwork" unique_id=66611277]
+position = Vector2(2841.209, 512)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform14" type="Sprite2D" parent="Terrain/Platform13/Artwork" unique_id=685611765]
+position = Vector2(2852.13, 512)
+scale = Vector2(0.5028249, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 11.674157, 177)
+region_filter_clip_enabled = true
+
+[node name="PROP-011_lush_fern" type="Sprite2D" parent="Terrain/Platform13/Artwork" unique_id=367672837]
+position = Vector2(2700, 495.53445)
+scale = Vector2(0.042755343, 0.042755343)
+texture = ExtResource("7_4x50x")
+centered = false
+
+[node name="Platform14" type="StaticBody2D" parent="Terrain" unique_id=1671529865]
+position = Vector2(3050, 449)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Platform14" unique_id=1383273031]
+shape = SubResource("RectangleShape2D_7khpk")
+one_way_collision = true
+
+[node name="Artwork" type="Node2D" parent="Terrain/Platform14" unique_id=1459046130]
+position = Vector2(-3050, -449)
+
+[node name="TILE-005_vine_platform" type="Sprite2D" parent="Terrain/Platform14/Artwork" unique_id=1336116923]
+position = Vector2(2940, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 63.64045, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform2" type="Sprite2D" parent="Terrain/Platform14/Artwork" unique_id=1187081259]
+position = Vector2(3128, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(85.35955, 0, 63.64045, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform3" type="Sprite2D" parent="Terrain/Platform14/Artwork" unique_id=321351588]
+position = Vector2(2972, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform4" type="Sprite2D" parent="Terrain/Platform14/Artwork" unique_id=1146910084]
+position = Vector2(2982.921, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform5" type="Sprite2D" parent="Terrain/Platform14/Artwork" unique_id=431631226]
+position = Vector2(2993.8418, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform6" type="Sprite2D" parent="Terrain/Platform14/Artwork" unique_id=1382309723]
+position = Vector2(3004.7627, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform7" type="Sprite2D" parent="Terrain/Platform14/Artwork" unique_id=355797196]
+position = Vector2(3015.6836, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform8" type="Sprite2D" parent="Terrain/Platform14/Artwork" unique_id=1309015487]
+position = Vector2(3026.6045, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform9" type="Sprite2D" parent="Terrain/Platform14/Artwork" unique_id=1410638980]
+position = Vector2(3037.5254, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform10" type="Sprite2D" parent="Terrain/Platform14/Artwork" unique_id=1961308936]
+position = Vector2(3048.4463, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform11" type="Sprite2D" parent="Terrain/Platform14/Artwork" unique_id=1358663810]
+position = Vector2(3059.3672, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform12" type="Sprite2D" parent="Terrain/Platform14/Artwork" unique_id=1399400263]
+position = Vector2(3070.288, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform13" type="Sprite2D" parent="Terrain/Platform14/Artwork" unique_id=37641898]
+position = Vector2(3081.209, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform14" type="Sprite2D" parent="Terrain/Platform14/Artwork" unique_id=98697652]
+position = Vector2(3092.13, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform15" type="Sprite2D" parent="Terrain/Platform14/Artwork" unique_id=112349342]
+position = Vector2(3103.0508, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform16" type="Sprite2D" parent="Terrain/Platform14/Artwork" unique_id=1105775219]
+position = Vector2(3113.9717, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform17" type="Sprite2D" parent="Terrain/Platform14/Artwork" unique_id=316428278]
+position = Vector2(3124.8926, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 6.179775, 177)
+region_filter_clip_enabled = true
+
+[node name="PROP-011_fern" type="Sprite2D" parent="Terrain/Platform14/Artwork" unique_id=2056582653]
+position = Vector2(2957.742, 407)
+scale = Vector2(0.32258064, 0.32258064)
+texture = ExtResource("8_f8y0g")
+centered = false
+
+[node name="PROP-011_mushroom" type="Sprite2D" parent="Terrain/Platform14/Artwork" unique_id=1403458244]
+position = Vector2(3093.1428, 407)
+scale = Vector2(0.47619045, 0.47619048)
+texture = ExtResource("9_offuw")
+centered = false
+
+[node name="Platform15" type="StaticBody2D" parent="Terrain" unique_id=2035299186]
+position = Vector2(3350, 364)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Platform15" unique_id=1472614064]
+shape = SubResource("RectangleShape2D_6y664")
+one_way_collision = true
+
+[node name="Artwork" type="Node2D" parent="Terrain/Platform15" unique_id=1408303268]
+position = Vector2(-3350, -364)
+
+[node name="TILE-003_platform" type="Sprite2D" parent="Terrain/Platform15/Artwork" unique_id=1714234931]
+position = Vector2(3220, 342)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 43.03448, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform2" type="Sprite2D" parent="Terrain/Platform15/Artwork" unique_id=1924553999]
+position = Vector2(3448, 342)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(82.965515, 0, 43.03448, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform3" type="Sprite2D" parent="Terrain/Platform15/Artwork" unique_id=1935955502]
+position = Vector2(3252, 342)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform4" type="Sprite2D" parent="Terrain/Platform15/Artwork" unique_id=862053447]
+position = Vector2(3281.6924, 342)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform5" type="Sprite2D" parent="Terrain/Platform15/Artwork" unique_id=1408025724]
+position = Vector2(3311.3845, 342)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform6" type="Sprite2D" parent="Terrain/Platform15/Artwork" unique_id=1033727905]
+position = Vector2(3341.077, 342)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform7" type="Sprite2D" parent="Terrain/Platform15/Artwork" unique_id=568727347]
+position = Vector2(3370.7693, 342)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform8" type="Sprite2D" parent="Terrain/Platform15/Artwork" unique_id=1855536875]
+position = Vector2(3400.4614, 342)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform9" type="Sprite2D" parent="Terrain/Platform15/Artwork" unique_id=201735212]
+position = Vector2(3430.1538, 342)
+scale = Vector2(0.7435897, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 24, 78)
+region_filter_clip_enabled = true
+
+[node name="PROP-011_bush" type="Sprite2D" parent="Terrain/Platform15/Artwork" unique_id=234164219]
+position = Vector2(3241.8333, 322)
+scale = Vector2(0.33333334, 0.33333334)
+texture = ExtResource("6_4ywgw")
+centered = false
+
+[node name="PROP-011_lush_fern" type="Sprite2D" parent="Terrain/Platform15/Artwork" unique_id=1357588226]
+position = Vector2(3341, 325.53445)
+scale = Vector2(0.042755343, 0.042755343)
+texture = ExtResource("7_4x50x")
+centered = false
+
+[node name="Platform16" type="StaticBody2D" parent="Terrain" unique_id=785860458]
+position = Vector2(3680, 449)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Platform16" unique_id=937444367]
+shape = SubResource("RectangleShape2D_rbnqk")
+one_way_collision = true
+
+[node name="Artwork" type="Node2D" parent="Terrain/Platform16" unique_id=1386319930]
+position = Vector2(-3680, -449)
+
+[node name="TILE-005_vine_platform" type="Sprite2D" parent="Terrain/Platform16/Artwork" unique_id=882445112]
+position = Vector2(3570, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 63.64045, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform2" type="Sprite2D" parent="Terrain/Platform16/Artwork" unique_id=134984266]
+position = Vector2(3758, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(85.35955, 0, 63.64045, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform3" type="Sprite2D" parent="Terrain/Platform16/Artwork" unique_id=819956946]
+position = Vector2(3602, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform4" type="Sprite2D" parent="Terrain/Platform16/Artwork" unique_id=2017867693]
+position = Vector2(3612.921, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform5" type="Sprite2D" parent="Terrain/Platform16/Artwork" unique_id=258241896]
+position = Vector2(3623.8418, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform6" type="Sprite2D" parent="Terrain/Platform16/Artwork" unique_id=1110523747]
+position = Vector2(3634.7627, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform7" type="Sprite2D" parent="Terrain/Platform16/Artwork" unique_id=436667235]
+position = Vector2(3645.6836, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform8" type="Sprite2D" parent="Terrain/Platform16/Artwork" unique_id=1283209058]
+position = Vector2(3656.6045, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform9" type="Sprite2D" parent="Terrain/Platform16/Artwork" unique_id=1582155985]
+position = Vector2(3667.5254, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform10" type="Sprite2D" parent="Terrain/Platform16/Artwork" unique_id=1747597768]
+position = Vector2(3678.4463, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform11" type="Sprite2D" parent="Terrain/Platform16/Artwork" unique_id=890906764]
+position = Vector2(3689.3672, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform12" type="Sprite2D" parent="Terrain/Platform16/Artwork" unique_id=1052662774]
+position = Vector2(3700.288, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform13" type="Sprite2D" parent="Terrain/Platform16/Artwork" unique_id=1287396874]
+position = Vector2(3711.209, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform14" type="Sprite2D" parent="Terrain/Platform16/Artwork" unique_id=1696873750]
+position = Vector2(3722.13, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform15" type="Sprite2D" parent="Terrain/Platform16/Artwork" unique_id=1399649507]
+position = Vector2(3733.0508, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform16" type="Sprite2D" parent="Terrain/Platform16/Artwork" unique_id=1256938360]
+position = Vector2(3743.9717, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 21.7191, 177)
+region_filter_clip_enabled = true
+
+[node name="TILE-005_vine_platform17" type="Sprite2D" parent="Terrain/Platform16/Artwork" unique_id=614317793]
+position = Vector2(3754.8926, 427)
+scale = Vector2(0.50282484, 0.50282484)
+texture = ExtResource("10_rc0d3")
+centered = false
+region_enabled = true
+region_rect = Rect2(63.64045, 0, 6.179775, 177)
+region_filter_clip_enabled = true
+
+[node name="PROP-011_lush_fern" type="Sprite2D" parent="Terrain/Platform16/Artwork" unique_id=2118251287]
+position = Vector2(3570, 410.53445)
+scale = Vector2(0.042755343, 0.042755343)
+texture = ExtResource("7_4x50x")
+centered = false
+
+[node name="PROP-011_bush" type="Sprite2D" parent="Terrain/Platform16/Artwork" unique_id=2147302220]
+position = Vector2(3712.8333, 407)
+scale = Vector2(0.33333334, 0.33333334)
+texture = ExtResource("6_4ywgw")
+centered = false
+
+[node name="Platform17" type="StaticBody2D" parent="Terrain" unique_id=327030382]
+position = Vector2(3900, 534)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Terrain/Platform17" unique_id=1608370907]
+shape = SubResource("RectangleShape2D_8d00v")
+one_way_collision = true
+
+[node name="Artwork" type="Node2D" parent="Terrain/Platform17" unique_id=1559256306]
+position = Vector2(-3900, -534)
+
+[node name="TILE-003_platform" type="Sprite2D" parent="Terrain/Platform17/Artwork" unique_id=253795723]
+position = Vector2(3820, 512)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 43.03448, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform2" type="Sprite2D" parent="Terrain/Platform17/Artwork" unique_id=148287543]
+position = Vector2(3948, 512)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(82.965515, 0, 43.03448, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform3" type="Sprite2D" parent="Terrain/Platform17/Artwork" unique_id=1936094684]
+position = Vector2(3852, 512)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform4" type="Sprite2D" parent="Terrain/Platform17/Artwork" unique_id=978734244]
+position = Vector2(3881.6924, 512)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform5" type="Sprite2D" parent="Terrain/Platform17/Artwork" unique_id=2054617338]
+position = Vector2(3911.3845, 512)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 39.931034, 78)
+region_filter_clip_enabled = true
+
+[node name="TILE-003_platform6" type="Sprite2D" parent="Terrain/Platform17/Artwork" unique_id=151856055]
+position = Vector2(3941.077, 512)
+scale = Vector2(0.74358976, 0.74358976)
+texture = ExtResource("11_ydhn0")
+centered = false
+region_enabled = true
+region_rect = Rect2(43.03448, 0, 9.310345, 78)
+region_filter_clip_enabled = true
+
+[node name="PROP-011_leaf_cluster" type="Sprite2D" parent="Terrain/Platform17/Artwork" unique_id=835660068]
+position = Vector2(3845.682, 492)
+scale = Vector2(0.45454547, 0.45454547)
+texture = ExtResource("4_ksmnf")
+centered = false
+
+[node name="StaticArt" type="Node2D" parent="." unique_id=1496407466]
+
+[node name="Architecture" type="Node2D" parent="StaticArt" unique_id=2077131028]
+z_index = -1
+
+[node name="ENV-02_treehouse" type="Sprite2D" parent="StaticArt/Architecture" unique_id=614759560]
+position = Vector2(132.54623, -18)
+scale = Vector2(0.4293263, 0.4293263)
+texture = ExtResource("12_yhfe8")
+centered = false
+
+[node name="ENV-02_treehouse2" type="Sprite2D" parent="StaticArt/Architecture" unique_id=350686584]
+position = Vector2(957.54626, -18)
+scale = Vector2(0.4293263, 0.4293263)
+texture = ExtResource("12_yhfe8")
+centered = false
+
+[node name="ENV-02_tree_arch" type="Sprite2D" parent="StaticArt/Architecture" unique_id=1953850751]
+position = Vector2(1725.1133, -18)
+scale = Vector2(0.49093655, 0.49093655)
+texture = ExtResource("13_v0a68")
+centered = false
+
+[node name="ENV-02_tree_arch2" type="Sprite2D" parent="StaticArt/Architecture" unique_id=1641551646]
+position = Vector2(3280.1133, -18)
+scale = Vector2(0.49093655, 0.49093655)
+texture = ExtResource("13_v0a68")
+centered = false
+
+[node name="ENV-02_waterfall" type="Sprite2D" parent="StaticArt/Architecture" unique_id=1753130878]
+position = Vector2(630, 572.25684)
+scale = Vector2(0.3009027, 0.3009027)
+texture = ExtResource("14_nplba")
+centered = false
+
+[node name="ENV-02_waterfall2" type="Sprite2D" parent="StaticArt/Architecture" unique_id=614362505]
+position = Vector2(1420, 572.25684)
+scale = Vector2(0.3009027, 0.3009027)
+texture = ExtResource("14_nplba")
+centered = false
+
+[node name="ENV-02_waterfall3" type="Sprite2D" parent="StaticArt/Architecture" unique_id=1875001249]
+position = Vector2(2230, 572.25684)
+scale = Vector2(0.3009027, 0.3009027)
+texture = ExtResource("14_nplba")
+centered = false
+
+[node name="PROP-001_lantern_post" type="Sprite2D" parent="StaticArt" unique_id=1653196993]
+position = Vector2(280.7317, 410)
+scale = Vector2(0.8536586, 0.85365856)
+texture = ExtResource("15_0uc6o")
+centered = false
+
+[node name="PROP-002_lantern_hanging" type="Sprite2D" parent="StaticArt" unique_id=1254821702]
+position = Vector2(972.5128, 237)
+scale = Vector2(0.82051283, 0.82051283)
+texture = ExtResource("16_6ysp2")
+centered = false
+
+[node name="PROP-002_lantern_hanging2" type="Sprite2D" parent="StaticArt" unique_id=1081180746]
+position = Vector2(3012.513, 237)
+scale = Vector2(0.82051283, 0.82051283)
+texture = ExtResource("16_6ysp2")
+centered = false
+
+[node name="PROP-002_lantern_hanging3" type="Sprite2D" parent="StaticArt" unique_id=1538454371]
+position = Vector2(3692.513, 237)
+scale = Vector2(0.82051283, 0.82051283)
+texture = ExtResource("16_6ysp2")
+centered = false
+
+[node name="PROP-001_lantern_post2" type="Sprite2D" parent="StaticArt" unique_id=2013587226]
+position = Vector2(4360.732, 410)
+scale = Vector2(0.8536586, 0.85365856)
+texture = ExtResource("15_0uc6o")
+centered = false

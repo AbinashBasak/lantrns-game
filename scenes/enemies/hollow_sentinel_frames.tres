@@ -1,0 +1,266 @@
+[gd_resource type="SpriteFrames" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-010_defeat_01.png" id="1_dwusk"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-010_defeat_02.png" id="2_cuwg7"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-010_defeat_03.png" id="3_x560k"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-010_defeat_04.png" id="4_wqslt"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-010_defeat_05.png" id="5_10kgc"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-010_defeat_06.png" id="6_eqyt0"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-008_stagger_damage_01.png" id="7_ycxg3"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-008_stagger_damage_02.png" id="8_ry6de"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-008_stagger_damage_03.png" id="9_rqcco"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-008_stagger_damage_04.png" id="10_t2xmg"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-008_stagger_damage_05.png" id="11_7nglm"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-008_stagger_damage_06.png" id="12_f6a7l"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-002_idle_01.png" id="13_u0emt"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-002_idle_02.png" id="14_ljl88"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-002_idle_03.png" id="15_488pt"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-002_idle_04.png" id="16_ievq5"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-002_idle_05.png" id="17_l3wnb"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-002_idle_06.png" id="18_dxbmw"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-003_walk_reposition_profile_corrected_01.png" id="19_0txjy"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-003_walk_reposition_profile_corrected_02.png" id="20_rdj4m"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-003_walk_reposition_profile_corrected_03.png" id="21_sfg4m"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-003_walk_reposition_profile_corrected_04.png" id="22_h1s6j"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-003_walk_reposition_profile_corrected_05.png" id="23_2midw"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-003_walk_reposition_profile_corrected_06.png" id="24_4ms2b"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-005_ground_slam_01.png" id="25_5mjx1"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-005_ground_slam_02.png" id="26_ieots"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-005_ground_slam_03.png" id="27_dt1e5"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-005_ground_slam_04.png" id="28_tpku7"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-005_ground_slam_05.png" id="29_3glm4"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-005_ground_slam_06.png" id="30_gjjox"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-006_arm_swipe_01.png" id="31_i16mv"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-006_arm_swipe_02.png" id="32_knis8"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-006_arm_swipe_03.png" id="33_xun57"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-006_arm_swipe_04.png" id="34_jr23d"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-006_arm_swipe_05.png" id="35_k5i8n"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-006_arm_swipe_06.png" id="36_ectwa"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-009_phase_transition_01.png" id="37_ay7iq"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-009_phase_transition_02.png" id="38_gbtq2"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-009_phase_transition_03.png" id="39_ncx1y"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-009_phase_transition_04.png" id="40_aeyd2"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-009_phase_transition_05.png" id="41_vmswd"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-009_phase_transition_06.png" id="42_262yf"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-011_awakening_01.png" id="43_hebaj"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-011_awakening_02.png" id="44_e2lkr"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-011_awakening_03.png" id="45_yoeai"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-011_awakening_04.png" id="46_dbt18"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-011_awakening_05.png" id="47_50pu2"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-011_awakening_06.png" id="48_fbisd"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-004_attack_windup_01.png" id="49_tddsx"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-004_attack_windup_02.png" id="50_xd5sr"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-004_attack_windup_03.png" id="51_4k8l2"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-004_attack_windup_04.png" id="52_svtqj"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-004_attack_windup_05.png" id="53_oxhbn"]
+[ext_resource type="Texture2D" path="res://assets/runtime/chapter01/boss/BOSS-004_attack_windup_06.png" id="54_r7f34"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 0.16,
+"texture": ExtResource("1_dwusk")
+}, {
+"duration": 0.22,
+"texture": ExtResource("2_cuwg7")
+}, {
+"duration": 0.18,
+"texture": ExtResource("3_x560k")
+}, {
+"duration": 0.2,
+"texture": ExtResource("4_wqslt")
+}, {
+"duration": 0.22,
+"texture": ExtResource("5_10kgc")
+}, {
+"duration": 0.4,
+"texture": ExtResource("6_eqyt0")
+}],
+"loop": 0,
+"name": &"defeat",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 0.13,
+"texture": ExtResource("7_ycxg3")
+}, {
+"duration": 0.09,
+"texture": ExtResource("8_ry6de")
+}, {
+"duration": 0.16,
+"texture": ExtResource("9_rqcco")
+}, {
+"duration": 0.22,
+"texture": ExtResource("10_t2xmg")
+}, {
+"duration": 0.18,
+"texture": ExtResource("11_7nglm")
+}, {
+"duration": 0.17,
+"texture": ExtResource("12_f6a7l")
+}],
+"loop": 0,
+"name": &"hurt",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 0.18,
+"texture": ExtResource("13_u0emt")
+}, {
+"duration": 0.18,
+"texture": ExtResource("14_ljl88")
+}, {
+"duration": 0.18,
+"texture": ExtResource("15_488pt")
+}, {
+"duration": 0.18,
+"texture": ExtResource("16_ievq5")
+}, {
+"duration": 0.18,
+"texture": ExtResource("17_l3wnb")
+}, {
+"duration": 0.18,
+"texture": ExtResource("18_dxbmw")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 0.15,
+"texture": ExtResource("19_0txjy")
+}, {
+"duration": 0.15,
+"texture": ExtResource("20_rdj4m")
+}, {
+"duration": 0.15,
+"texture": ExtResource("21_sfg4m")
+}, {
+"duration": 0.15,
+"texture": ExtResource("22_h1s6j")
+}, {
+"duration": 0.15,
+"texture": ExtResource("23_2midw")
+}, {
+"duration": 0.15,
+"texture": ExtResource("24_4ms2b")
+}],
+"loop": 1,
+"name": &"move",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 0.15,
+"texture": ExtResource("25_5mjx1")
+}, {
+"duration": 0.14,
+"texture": ExtResource("26_ieots")
+}, {
+"duration": 0.28,
+"texture": ExtResource("27_dt1e5")
+}, {
+"duration": 0.09,
+"texture": ExtResource("28_tpku7")
+}, {
+"duration": 0.22,
+"texture": ExtResource("29_3glm4")
+}, {
+"duration": 0.2,
+"texture": ExtResource("30_gjjox")
+}],
+"loop": 0,
+"name": &"slam",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 0.15,
+"texture": ExtResource("31_i16mv")
+}, {
+"duration": 0.18,
+"texture": ExtResource("32_knis8")
+}, {
+"duration": 0.1,
+"texture": ExtResource("33_xun57")
+}, {
+"duration": 0.1,
+"texture": ExtResource("34_jr23d")
+}, {
+"duration": 0.16,
+"texture": ExtResource("35_k5i8n")
+}, {
+"duration": 0.2,
+"texture": ExtResource("36_ectwa")
+}],
+"loop": 0,
+"name": &"swipe",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 0.16,
+"texture": ExtResource("37_ay7iq")
+}, {
+"duration": 0.16,
+"texture": ExtResource("38_gbtq2")
+}, {
+"duration": 0.2,
+"texture": ExtResource("39_ncx1y")
+}, {
+"duration": 0.3,
+"texture": ExtResource("40_aeyd2")
+}, {
+"duration": 0.18,
+"texture": ExtResource("41_vmswd")
+}, {
+"duration": 0.18,
+"texture": ExtResource("42_262yf")
+}],
+"loop": 0,
+"name": &"transition",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 0.28,
+"texture": ExtResource("43_hebaj")
+}, {
+"duration": 0.18,
+"texture": ExtResource("44_e2lkr")
+}, {
+"duration": 0.18,
+"texture": ExtResource("45_yoeai")
+}, {
+"duration": 0.22,
+"texture": ExtResource("46_dbt18")
+}, {
+"duration": 0.18,
+"texture": ExtResource("47_50pu2")
+}, {
+"duration": 0.22,
+"texture": ExtResource("48_fbisd")
+}],
+"loop": 0,
+"name": &"wake",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 0.16,
+"texture": ExtResource("49_tddsx")
+}, {
+"duration": 0.15,
+"texture": ExtResource("50_xd5sr")
+}, {
+"duration": 0.15,
+"texture": ExtResource("51_4k8l2")
+}, {
+"duration": 0.16,
+"texture": ExtResource("52_svtqj")
+}, {
+"duration": 0.26,
+"texture": ExtResource("53_oxhbn")
+}, {
+"duration": 0.35,
+"texture": ExtResource("54_r7f34")
+}],
+"loop": 0,
+"name": &"windup",
+"speed": 1.0
+}]

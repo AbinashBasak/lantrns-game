@@ -1,6 +1,2916 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene format=3]
 
-[ext_resource type="Script" path="res://scripts/systems/prologue.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/systems/prologue.gd" id="1_x3iug"]
+[ext_resource type="Script" path="res://scripts/systems/prologue_village.gd" id="2_j8erg"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/TILE-006_timbers.png" id="3_itjn3"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/PROP-010_roof_repeat.png" id="4_fhnx4"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/PROP-010_roof_left_eave.png" id="5_fjhqs"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/PROP-010_roof_right_eave.png" id="6_scb1l"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/PROP-009_closed_unlatched.png" id="7_pah8h"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/PROP-010_window_closed.png" id="8_18n04"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/PROP-012_small_bare_tree.png" id="9_ecbon"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/PROP-012_root_arch.png" id="10_gpwtl"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/PROP-012_sapling_leafy.png" id="11_w0c8m"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/ENV-01_decorative_props_07.png" id="12_7rps2"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/ENV-01_decorative_props_00.png" id="13_42otc"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/TILE-002_soil_fill.png" id="14_7q0y0"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/TILE-001_surface_strip.png" id="15_2orcx"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/TILE-001_03_isolated_block.png" id="16_yrpv2"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/PROP-011_bush_low.png" id="17_g2t3t"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/PROP-011_flower_white.png" id="18_t7yk0"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/PROP-004_00_intact.png" id="19_xvcn3"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/PROP-012_root_stump.png" id="20_2np3r"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/PROP-006_00_left_entry.png" id="21_ropfo"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/PROP-006_01_middle_repeat.png" id="22_hiag0"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/PROP-006_02_right_entry.png" id="23_n73ye"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/ENV-01_decorative_props_02.png" id="24_vrv1g"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/ENV-01_villager_idle.png" id="25_veb5e"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/ENV-01_rusk_idle.png" id="26_s3qbf"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/ENV-01_interactive_props_01.png" id="27_xsqnv"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/ENV-01_interactive_props_00.png" id="28_2d0eb"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/ENV-01_interactive_props_02.png" id="29_8eko6"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/ENV-01_interactive_props_03.png" id="30_6trs7"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/ENV-01_interactive_props_04.png" id="31_u63pa"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/ENV-01_interactive_props_05.png" id="32_nxeh0"]
+[ext_resource type="Script" path="res://scripts/systems/prologue_parallax.gd" id="33_i4dwi"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/ENV-01_distant_background.png" id="34_ae6k4"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/ENV-01_distant_background_mirrored.png" id="35_47ac2"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/ENV-01_midground.png" id="36_73dvv"]
+[ext_resource type="Texture2D" path="res://assets/runtime/prologue/environment/ENV-01_foreground.png" id="37_c1v68"]
+[ext_resource type="PackedScene" path="res://scenes/player/player.tscn" id="38_6e2g2"]
+[ext_resource type="Script" path="res://scripts/player/player_controller.gd" id="39_sp8mr"]
+[ext_resource type="SpriteFrames" path="res://assets/characters/tavi/sprite_frames.tres" id="40_8qksy"]
 
-[node name="PrologueBrackenreach" type="Node2D"]
-script = ExtResource("1")
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4wd5r"]
+size = Vector2(4400, 180)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qipao"]
+size = Vector2(100, 45)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1adat"]
+size = Vector2(80, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ebrg4"]
+atlas = ExtResource("4_fhnx4")
+region = Rect2(0, 0, 220, 149)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_smg8j"]
+atlas = ExtResource("5_fjhqs")
+region = Rect2(0, 0, 220, 196)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_73ryc"]
+atlas = ExtResource("6_scb1l")
+region = Rect2(0, 0, 220, 201)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5nxsx"]
+atlas = ExtResource("7_pah8h")
+region = Rect2(0, 0, 381, 458)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_in6mf"]
+atlas = ExtResource("8_18n04")
+region = Rect2(0, 0, 175, 221)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_50u0t"]
+atlas = ExtResource("9_ecbon")
+region = Rect2(0, 0, 135, 220)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xt271"]
+atlas = ExtResource("10_gpwtl")
+region = Rect2(0, 0, 220, 218)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_16eae"]
+atlas = ExtResource("11_w0c8m")
+region = Rect2(0, 0, 173, 220)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dqnmd"]
+atlas = ExtResource("12_7rps2")
+region = Rect2(0, 0, 208, 158)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fiepq"]
+atlas = ExtResource("13_42otc")
+region = Rect2(0, 0, 116, 241)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2f5tv"]
+atlas = ExtResource("16_yrpv2")
+region = Rect2(0, 5, 60, 59)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3iips"]
+atlas = ExtResource("17_g2t3t")
+region = Rect2(0, 0, 222, 135)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jq7by"]
+atlas = ExtResource("18_t7yk0")
+region = Rect2(0, 0, 218, 220)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_da3eg"]
+atlas = ExtResource("19_xvcn3")
+region = Rect2(0, 0, 427, 355)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y2lax"]
+atlas = ExtResource("20_2np3r")
+region = Rect2(0, 0, 220, 208)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8tapi"]
+atlas = ExtResource("24_vrv1g")
+region = Rect2(0, 0, 155, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nrbsg"]
+atlas = ExtResource("25_veb5e")
+region = Rect2(0, 0, 377, 927)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_moi2e"]
+atlas = ExtResource("26_s3qbf")
+region = Rect2(0, 0, 520, 959)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1fsln"]
+atlas = ExtResource("27_xsqnv")
+region = Rect2(0, 0, 227, 234)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6arii"]
+atlas = ExtResource("28_2d0eb")
+region = Rect2(0, 0, 226, 233)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p66yb"]
+atlas = ExtResource("29_8eko6")
+region = Rect2(0, 0, 249, 177)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ahbj7"]
+atlas = ExtResource("30_6trs7")
+region = Rect2(0, 0, 237, 161)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h4ryj"]
+atlas = ExtResource("31_u63pa")
+region = Rect2(0, 0, 250, 136)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sct3e"]
+atlas = ExtResource("32_nxeh0")
+region = Rect2(0, 0, 217, 229)
+
+[sub_resource type="Shader" id="Shader_0h0uu"]
+code = "shader_type canvas_item; varying vec4 layer_tint; void vertex() { layer_tint = COLOR; } void fragment() { vec4 sample_color = texture(TEXTURE, UV); sample_color.a *= smoothstep(0.42, 0.60, UV.y); COLOR = sample_color * layer_tint; }"
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_0xhsp"]
+shader = SubResource("Shader_0h0uu")
+
+[sub_resource type="Shader" id="Shader_mkxqj"]
+code = "shader_type canvas_item; varying vec4 layer_tint; void vertex() { layer_tint = COLOR; } void fragment() { vec4 sample_color = texture(TEXTURE, UV); sample_color.a *= smoothstep(0.42, 0.60, UV.y); COLOR = sample_color * layer_tint; }"
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ttu4u"]
+shader = SubResource("Shader_mkxqj")
+
+[sub_resource type="Shader" id="Shader_13ain"]
+code = "shader_type canvas_item; varying vec4 layer_tint; void vertex() { layer_tint = COLOR; } void fragment() { vec4 sample_color = texture(TEXTURE, UV); sample_color.a *= (1.0 - smoothstep(0.24, 0.49, UV.y)); COLOR = sample_color * layer_tint; }"
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_vcyjm"]
+shader = SubResource("Shader_13ain")
+
+[sub_resource type="Shader" id="Shader_pdp7e"]
+code = "shader_type canvas_item; varying vec4 layer_tint; void vertex() { layer_tint = COLOR; } void fragment() { vec4 sample_color = texture(TEXTURE, UV); sample_color.a *= (1.0 - smoothstep(0.24, 0.49, UV.y)); COLOR = sample_color * layer_tint; }"
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_0ioro"]
+shader = SubResource("Shader_pdp7e")
+
+[sub_resource type="CapsuleShape2D" id="Body"]
+radius = 14.0
+height = 64.0
+
+[node name="PrologueBrackenreach" type="Node2D" unique_id=1959540100]
+script = ExtResource("1_x3iug")
+
+[node name="Village" type="Node2D" parent="." unique_id=318382779]
+process_mode = 1
+script = ExtResource("2_j8erg")
+
+[node name="Terrain" type="Node2D" parent="Village" unique_id=630698251]
+
+[node name="@StaticBody2D@3" type="StaticBody2D" parent="Village/Terrain" unique_id=2070367366]
+position = Vector2(2200, 710)
+
+[node name="@CollisionShape2D@2" type="CollisionShape2D" parent="Village/Terrain/@StaticBody2D@3" unique_id=401674511]
+shape = SubResource("RectangleShape2D_4wd5r")
+
+[node name="@StaticBody2D@5" type="StaticBody2D" parent="Village/Terrain" unique_id=276690945]
+position = Vector2(450, 597.5)
+
+[node name="@CollisionShape2D@4" type="CollisionShape2D" parent="Village/Terrain/@StaticBody2D@5" unique_id=666895905]
+shape = SubResource("RectangleShape2D_qipao")
+
+[node name="CartCollision" type="StaticBody2D" parent="Village" unique_id=31680825]
+position = Vector2(1750, 599)
+
+[node name="@CollisionShape2D@6" type="CollisionShape2D" parent="Village/CartCollision" unique_id=858012304]
+shape = SubResource("RectangleShape2D_1adat")
+
+[node name="StaticArt" type="Node2D" parent="Village" unique_id=911184941]
+
+[node name="Fill" type="Polygon2D" parent="Village/StaticArt" unique_id=1894769898]
+position = Vector2(124.6, 461.6)
+color = Color(0.45490196, 0.39215687, 0.28627452, 1)
+polygon = PackedVector2Array(0, 0, 240.8, 0, 240.8, 158.4, 0, 158.4)
+
+[node name="TILE-006_timbers" type="Sprite2D" parent="Village/StaticArt" unique_id=1138787669]
+modulate = Color(0.66, 0.64, 0.57, 1)
+texture_repeat = 2
+position = Vector2(128.6, 465.6)
+texture = ExtResource("3_itjn3")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 232.8, 150.4)
+
+[node name="Detail" type="Line2D" parent="Village/StaticArt" unique_id=389763312]
+points = PackedVector2Array(133, 461.6, 133, 620)
+width = 7.0
+default_color = Color(0.2509804, 0.23137255, 0.16470589, 1)
+antialiased = true
+
+[node name="Detail2" type="Line2D" parent="Village/StaticArt" unique_id=618171035]
+points = PackedVector2Array(245, 461.6, 245, 620)
+width = 7.0
+default_color = Color(0.2509804, 0.23137255, 0.16470589, 1)
+antialiased = true
+
+[node name="Detail3" type="Line2D" parent="Village/StaticArt" unique_id=560936995]
+points = PackedVector2Array(357, 461.6, 357, 620)
+width = 7.0
+default_color = Color(0.2509804, 0.23137255, 0.16470589, 1)
+antialiased = true
+
+[node name="Art" type="Sprite2D" parent="Village/StaticArt" unique_id=606867910]
+position = Vector2(163.79195, 371.6)
+scale = Vector2(0.738255, 0.738255)
+texture = SubResource("AtlasTexture_ebrg4")
+centered = false
+
+[node name="Art2" type="Sprite2D" parent="Village/StaticArt" unique_id=422145724]
+position = Vector2(81.200005, 385.31274)
+scale = Vector2(0.4963636, 0.4963636)
+texture = SubResource("AtlasTexture_smg8j")
+centered = false
+
+[node name="Art3" type="Sprite2D" parent="Village/StaticArt" unique_id=1397680818]
+position = Vector2(299.6, 382.83093)
+scale = Vector2(0.4963636, 0.49636364)
+texture = SubResource("AtlasTexture_73ryc")
+centered = false
+
+[node name="Art4" type="Sprite2D" parent="Village/StaticArt" unique_id=1440404466]
+position = Vector2(208, 532.0446)
+scale = Vector2(0.19422573, 0.19422573)
+texture = SubResource("AtlasTexture_5nxsx")
+centered = false
+
+[node name="Art5" type="Sprite2D" parent="Village/StaticArt" unique_id=892549980]
+position = Vector2(140.6, 494.33142)
+scale = Vector2(0.29714286, 0.29714286)
+texture = SubResource("AtlasTexture_in6mf")
+centered = false
+
+[node name="Art6" type="Sprite2D" parent="Village/StaticArt" unique_id=1108381083]
+position = Vector2(297.4, 494.33142)
+scale = Vector2(0.29714286, 0.29714286)
+texture = SubResource("AtlasTexture_in6mf")
+centered = false
+
+[node name="Fill2" type="Polygon2D" parent="Village/StaticArt" unique_id=373327612]
+position = Vector2(3187.45, 462.32)
+color = Color(0.45490196, 0.39215687, 0.28627452, 1)
+polygon = PackedVector2Array(0, 0, 245.1, 0, 245.1, 157.68, 0, 157.68)
+
+[node name="TILE-006_timbers2" type="Sprite2D" parent="Village/StaticArt" unique_id=1877417794]
+modulate = Color(0.66, 0.64, 0.57, 1)
+texture_repeat = 2
+position = Vector2(3191.45, 466.32)
+texture = ExtResource("3_itjn3")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 237.1, 149.68)
+
+[node name="Detail4" type="Line2D" parent="Village/StaticArt" unique_id=1433435034]
+points = PackedVector2Array(3196, 462.32, 3196, 620)
+width = 7.0
+default_color = Color(0.2509804, 0.23137255, 0.16470589, 1)
+antialiased = true
+
+[node name="Detail5" type="Line2D" parent="Village/StaticArt" unique_id=1716008179]
+points = PackedVector2Array(3310, 462.32, 3310, 620)
+width = 7.0
+default_color = Color(0.2509804, 0.23137255, 0.16470589, 1)
+antialiased = true
+
+[node name="Detail6" type="Line2D" parent="Village/StaticArt" unique_id=2113812294]
+points = PackedVector2Array(3424, 462.32, 3424, 620)
+width = 7.0
+default_color = Color(0.2509804, 0.23137255, 0.16470589, 1)
+antialiased = true
+
+[node name="Art7" type="Sprite2D" parent="Village/StaticArt" unique_id=1104187993]
+position = Vector2(3228.792, 372.32)
+scale = Vector2(0.738255, 0.738255)
+texture = SubResource("AtlasTexture_ebrg4")
+centered = false
+
+[node name="Art8" type="Sprite2D" parent="Village/StaticArt" unique_id=463609358]
+position = Vector2(3143.2751, 384.29547)
+scale = Vector2(0.50522727, 0.50522727)
+texture = SubResource("AtlasTexture_smg8j")
+centered = false
+
+[node name="Art9" type="Sprite2D" parent="Village/StaticArt" unique_id=164861692]
+position = Vector2(3365.575, 381.76932)
+scale = Vector2(0.50522727, 0.50522727)
+texture = SubResource("AtlasTexture_73ryc")
+centered = false
+
+[node name="Art10" type="Sprite2D" parent="Village/StaticArt" unique_id=831811665]
+position = Vector2(3273, 532.0446)
+scale = Vector2(0.19422573, 0.19422573)
+texture = SubResource("AtlasTexture_5nxsx")
+centered = false
+
+[node name="Art11" type="Sprite2D" parent="Village/StaticArt" unique_id=405768971]
+position = Vector2(3204.2, 494.33142)
+scale = Vector2(0.29714286, 0.29714286)
+texture = SubResource("AtlasTexture_in6mf")
+centered = false
+
+[node name="Art12" type="Sprite2D" parent="Village/StaticArt" unique_id=274542977]
+position = Vector2(3363.8, 494.33142)
+scale = Vector2(0.29714286, 0.29714286)
+texture = SubResource("AtlasTexture_in6mf")
+centered = false
+
+[node name="Fill3" type="Polygon2D" parent="Village/StaticArt" unique_id=1251436629]
+position = Vector2(3728.2, 470.24)
+color = Color(0.45490196, 0.39215687, 0.28627452, 1)
+polygon = PackedVector2Array(0, 0, 223.6, 0, 223.6, 149.76, 0, 149.76)
+
+[node name="TILE-006_timbers3" type="Sprite2D" parent="Village/StaticArt" unique_id=878046482]
+modulate = Color(0.66, 0.64, 0.57, 1)
+texture_repeat = 2
+position = Vector2(3732.2, 474.24)
+texture = ExtResource("3_itjn3")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 215.6, 141.76)
+
+[node name="Detail7" type="Line2D" parent="Village/StaticArt" unique_id=208751365]
+points = PackedVector2Array(3736, 470.24, 3736, 620)
+width = 7.0
+default_color = Color(0.2509804, 0.23137255, 0.16470589, 1)
+antialiased = true
+
+[node name="Detail8" type="Line2D" parent="Village/StaticArt" unique_id=2037333190]
+points = PackedVector2Array(3840, 470.24, 3840, 620)
+width = 7.0
+default_color = Color(0.2509804, 0.23137255, 0.16470589, 1)
+antialiased = true
+
+[node name="Detail9" type="Line2D" parent="Village/StaticArt" unique_id=582071397]
+points = PackedVector2Array(3944, 470.24, 3944, 620)
+width = 7.0
+default_color = Color(0.2509804, 0.23137255, 0.16470589, 1)
+antialiased = true
+
+[node name="Art13" type="Sprite2D" parent="Village/StaticArt" unique_id=1298939557]
+position = Vector2(3758.792, 380.24)
+scale = Vector2(0.738255, 0.738255)
+texture = SubResource("AtlasTexture_ebrg4")
+centered = false
+
+[node name="Art14" type="Sprite2D" parent="Village/StaticArt" unique_id=1251462599]
+position = Vector2(3687.9001, 400.9018)
+scale = Vector2(0.4609091, 0.4609091)
+texture = SubResource("AtlasTexture_smg8j")
+centered = false
+
+[node name="Art15" type="Sprite2D" parent="Village/StaticArt" unique_id=1660503417]
+position = Vector2(3890.7, 398.59726)
+scale = Vector2(0.4609091, 0.4609091)
+texture = SubResource("AtlasTexture_73ryc")
+centered = false
+
+[node name="Art16" type="Sprite2D" parent="Village/StaticArt" unique_id=813258797]
+position = Vector2(3803, 532.0446)
+scale = Vector2(0.19422573, 0.19422573)
+texture = SubResource("AtlasTexture_5nxsx")
+centered = false
+
+[node name="Art17" type="Sprite2D" parent="Village/StaticArt" unique_id=2032778476]
+position = Vector2(3741.2, 494.33142)
+scale = Vector2(0.29714286, 0.29714286)
+texture = SubResource("AtlasTexture_in6mf")
+centered = false
+
+[node name="Art18" type="Sprite2D" parent="Village/StaticArt" unique_id=272295730]
+position = Vector2(3886.8, 494.33142)
+scale = Vector2(0.29714286, 0.29714286)
+texture = SubResource("AtlasTexture_in6mf")
+centered = false
+
+[node name="Art19" type="Sprite2D" parent="Village/StaticArt" unique_id=1512571375]
+position = Vector2(2561.932, 170)
+scale = Vector2(2.0454545, 2.0454545)
+texture = SubResource("AtlasTexture_50u0t")
+centered = false
+
+[node name="Art20" type="Sprite2D" parent="Village/StaticArt" unique_id=1899244143]
+position = Vector2(2278.4404, 280)
+scale = Vector2(1.559633, 1.559633)
+texture = SubResource("AtlasTexture_xt271")
+centered = false
+
+[node name="Art21" type="Sprite2D" parent="Village/StaticArt" unique_id=192944058]
+position = Vector2(32.5, 448.3237)
+scale = Vector2(0.7803468, 0.7803468)
+texture = SubResource("AtlasTexture_16eae")
+centered = false
+
+[node name="Art22" type="Sprite2D" parent="Village/StaticArt" unique_id=563250412]
+position = Vector2(1482.5, 448.3237)
+scale = Vector2(0.7803468, 0.7803468)
+texture = SubResource("AtlasTexture_16eae")
+centered = false
+
+[node name="Art23" type="Sprite2D" parent="Village/StaticArt" unique_id=70482852]
+position = Vector2(2992.5, 448.3237)
+scale = Vector2(0.7803468, 0.7803468)
+texture = SubResource("AtlasTexture_16eae")
+centered = false
+
+[node name="Art24" type="Sprite2D" parent="Village/StaticArt" unique_id=78668385]
+position = Vector2(4032.5, 448.3237)
+scale = Vector2(0.7803468, 0.7803468)
+texture = SubResource("AtlasTexture_16eae")
+centered = false
+
+[node name="Detail10" type="Line2D" parent="Village/StaticArt" unique_id=1479398931]
+points = PackedVector2Array(1010, 620, 1010, 342)
+width = 9.0
+default_color = Color(0.36078432, 0.28627452, 0.1882353, 1)
+antialiased = true
+
+[node name="Detail11" type="Line2D" parent="Village/StaticArt" unique_id=1848127837]
+points = PackedVector2Array(1390, 620, 1390, 342)
+width = 9.0
+default_color = Color(0.36078432, 0.28627452, 0.1882353, 1)
+antialiased = true
+
+[node name="Detail12" type="Line2D" parent="Village/StaticArt" unique_id=728805929]
+points = PackedVector2Array(1010, 342, 1200, 365, 1390, 342)
+width = 3.0
+default_color = Color(0.6039216, 0.5058824, 0.3254902, 1)
+antialiased = true
+
+[node name="Art25" type="Sprite2D" parent="Village/StaticArt" unique_id=1771932204]
+position = Vector2(1140.7595, 350)
+scale = Vector2(0.56962025, 0.56962025)
+texture = SubResource("AtlasTexture_dqnmd")
+centered = false
+
+[node name="Art26" type="Sprite2D" parent="Village/StaticArt" unique_id=528939197]
+position = Vector2(991.9502, 375)
+scale = Vector2(0.31120333, 0.31120333)
+texture = SubResource("AtlasTexture_fiepq")
+centered = false
+
+[node name="Art27" type="Sprite2D" parent="Village/StaticArt" unique_id=1684298338]
+position = Vector2(1371.9502, 375)
+scale = Vector2(0.31120333, 0.31120333)
+texture = SubResource("AtlasTexture_fiepq")
+centered = false
+
+[node name="Fill4" type="Polygon2D" parent="Village/StaticArt" unique_id=1446634461]
+position = Vector2(0, 624)
+color = Color(0.21960784, 0.2509804, 0.18039216, 1)
+polygon = PackedVector2Array(0, 0, 4400, 0, 4400, 300, 0, 300)
+
+[node name="TILE-002_soil_fill" type="Sprite2D" parent="Village/StaticArt" unique_id=383692696]
+position = Vector2(0, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill2" type="Sprite2D" parent="Village/StaticArt" unique_id=2073850599]
+position = Vector2(0, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill3" type="Sprite2D" parent="Village/StaticArt" unique_id=1216267294]
+position = Vector2(0, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill4" type="Sprite2D" parent="Village/StaticArt" unique_id=1309631954]
+position = Vector2(0, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip" type="Sprite2D" parent="Village/StaticArt" unique_id=1587666901]
+position = Vector2(0, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill5" type="Sprite2D" parent="Village/StaticArt" unique_id=1416064700]
+position = Vector2(64, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill6" type="Sprite2D" parent="Village/StaticArt" unique_id=1031198479]
+position = Vector2(64, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill7" type="Sprite2D" parent="Village/StaticArt" unique_id=1801047113]
+position = Vector2(64, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill8" type="Sprite2D" parent="Village/StaticArt" unique_id=191319020]
+position = Vector2(64, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip2" type="Sprite2D" parent="Village/StaticArt" unique_id=976050704]
+position = Vector2(64, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill9" type="Sprite2D" parent="Village/StaticArt" unique_id=1718083058]
+position = Vector2(128, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill10" type="Sprite2D" parent="Village/StaticArt" unique_id=1310569369]
+position = Vector2(128, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill11" type="Sprite2D" parent="Village/StaticArt" unique_id=1289511586]
+position = Vector2(128, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill12" type="Sprite2D" parent="Village/StaticArt" unique_id=360653437]
+position = Vector2(128, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip3" type="Sprite2D" parent="Village/StaticArt" unique_id=1082143022]
+position = Vector2(128, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill13" type="Sprite2D" parent="Village/StaticArt" unique_id=1927465551]
+position = Vector2(192, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill14" type="Sprite2D" parent="Village/StaticArt" unique_id=657225328]
+position = Vector2(192, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill15" type="Sprite2D" parent="Village/StaticArt" unique_id=1335132135]
+position = Vector2(192, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill16" type="Sprite2D" parent="Village/StaticArt" unique_id=834721343]
+position = Vector2(192, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip4" type="Sprite2D" parent="Village/StaticArt" unique_id=1792581120]
+position = Vector2(192, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill17" type="Sprite2D" parent="Village/StaticArt" unique_id=1928318310]
+position = Vector2(256, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill18" type="Sprite2D" parent="Village/StaticArt" unique_id=422567398]
+position = Vector2(256, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill19" type="Sprite2D" parent="Village/StaticArt" unique_id=1213561166]
+position = Vector2(256, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill20" type="Sprite2D" parent="Village/StaticArt" unique_id=1986947634]
+position = Vector2(256, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip5" type="Sprite2D" parent="Village/StaticArt" unique_id=1506696219]
+position = Vector2(256, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill21" type="Sprite2D" parent="Village/StaticArt" unique_id=2020632312]
+position = Vector2(320, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill22" type="Sprite2D" parent="Village/StaticArt" unique_id=1213634593]
+position = Vector2(320, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill23" type="Sprite2D" parent="Village/StaticArt" unique_id=1745445853]
+position = Vector2(320, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill24" type="Sprite2D" parent="Village/StaticArt" unique_id=1269308328]
+position = Vector2(320, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip6" type="Sprite2D" parent="Village/StaticArt" unique_id=426137446]
+position = Vector2(320, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill25" type="Sprite2D" parent="Village/StaticArt" unique_id=56281412]
+position = Vector2(384, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill26" type="Sprite2D" parent="Village/StaticArt" unique_id=1892824794]
+position = Vector2(384, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill27" type="Sprite2D" parent="Village/StaticArt" unique_id=902457414]
+position = Vector2(384, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill28" type="Sprite2D" parent="Village/StaticArt" unique_id=275200282]
+position = Vector2(384, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip7" type="Sprite2D" parent="Village/StaticArt" unique_id=1256340601]
+position = Vector2(384, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill29" type="Sprite2D" parent="Village/StaticArt" unique_id=951677740]
+position = Vector2(448, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill30" type="Sprite2D" parent="Village/StaticArt" unique_id=1569295555]
+position = Vector2(448, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill31" type="Sprite2D" parent="Village/StaticArt" unique_id=109224647]
+position = Vector2(448, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill32" type="Sprite2D" parent="Village/StaticArt" unique_id=710881212]
+position = Vector2(448, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip8" type="Sprite2D" parent="Village/StaticArt" unique_id=1346484557]
+position = Vector2(448, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill33" type="Sprite2D" parent="Village/StaticArt" unique_id=1050680233]
+position = Vector2(512, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill34" type="Sprite2D" parent="Village/StaticArt" unique_id=1813030933]
+position = Vector2(512, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill35" type="Sprite2D" parent="Village/StaticArt" unique_id=1990570852]
+position = Vector2(512, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill36" type="Sprite2D" parent="Village/StaticArt" unique_id=909905564]
+position = Vector2(512, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip9" type="Sprite2D" parent="Village/StaticArt" unique_id=384863932]
+position = Vector2(512, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill37" type="Sprite2D" parent="Village/StaticArt" unique_id=753600760]
+position = Vector2(576, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill38" type="Sprite2D" parent="Village/StaticArt" unique_id=225289451]
+position = Vector2(576, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill39" type="Sprite2D" parent="Village/StaticArt" unique_id=1190778615]
+position = Vector2(576, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill40" type="Sprite2D" parent="Village/StaticArt" unique_id=1620857692]
+position = Vector2(576, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip10" type="Sprite2D" parent="Village/StaticArt" unique_id=1560792808]
+position = Vector2(576, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill41" type="Sprite2D" parent="Village/StaticArt" unique_id=1147523176]
+position = Vector2(640, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill42" type="Sprite2D" parent="Village/StaticArt" unique_id=168220750]
+position = Vector2(640, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill43" type="Sprite2D" parent="Village/StaticArt" unique_id=59183419]
+position = Vector2(640, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill44" type="Sprite2D" parent="Village/StaticArt" unique_id=1818023447]
+position = Vector2(640, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip11" type="Sprite2D" parent="Village/StaticArt" unique_id=1425787500]
+position = Vector2(640, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill45" type="Sprite2D" parent="Village/StaticArt" unique_id=258915624]
+position = Vector2(704, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill46" type="Sprite2D" parent="Village/StaticArt" unique_id=1235579994]
+position = Vector2(704, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill47" type="Sprite2D" parent="Village/StaticArt" unique_id=1623081544]
+position = Vector2(704, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill48" type="Sprite2D" parent="Village/StaticArt" unique_id=1551412961]
+position = Vector2(704, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip12" type="Sprite2D" parent="Village/StaticArt" unique_id=1834111436]
+position = Vector2(704, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill49" type="Sprite2D" parent="Village/StaticArt" unique_id=634422262]
+position = Vector2(768, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill50" type="Sprite2D" parent="Village/StaticArt" unique_id=1066845579]
+position = Vector2(768, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill51" type="Sprite2D" parent="Village/StaticArt" unique_id=457192415]
+position = Vector2(768, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill52" type="Sprite2D" parent="Village/StaticArt" unique_id=1925509257]
+position = Vector2(768, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip13" type="Sprite2D" parent="Village/StaticArt" unique_id=347526257]
+position = Vector2(768, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill53" type="Sprite2D" parent="Village/StaticArt" unique_id=692939496]
+position = Vector2(832, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill54" type="Sprite2D" parent="Village/StaticArt" unique_id=1254477106]
+position = Vector2(832, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill55" type="Sprite2D" parent="Village/StaticArt" unique_id=1093414114]
+position = Vector2(832, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill56" type="Sprite2D" parent="Village/StaticArt" unique_id=1621593050]
+position = Vector2(832, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip14" type="Sprite2D" parent="Village/StaticArt" unique_id=1578758410]
+position = Vector2(832, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill57" type="Sprite2D" parent="Village/StaticArt" unique_id=1844746605]
+position = Vector2(896, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill58" type="Sprite2D" parent="Village/StaticArt" unique_id=271308189]
+position = Vector2(896, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill59" type="Sprite2D" parent="Village/StaticArt" unique_id=1569983570]
+position = Vector2(896, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill60" type="Sprite2D" parent="Village/StaticArt" unique_id=382297191]
+position = Vector2(896, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip15" type="Sprite2D" parent="Village/StaticArt" unique_id=739615984]
+position = Vector2(896, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill61" type="Sprite2D" parent="Village/StaticArt" unique_id=1119880696]
+position = Vector2(960, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill62" type="Sprite2D" parent="Village/StaticArt" unique_id=1678544315]
+position = Vector2(960, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill63" type="Sprite2D" parent="Village/StaticArt" unique_id=649900671]
+position = Vector2(960, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill64" type="Sprite2D" parent="Village/StaticArt" unique_id=821368761]
+position = Vector2(960, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip16" type="Sprite2D" parent="Village/StaticArt" unique_id=658673372]
+position = Vector2(960, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill65" type="Sprite2D" parent="Village/StaticArt" unique_id=1366875113]
+position = Vector2(1024, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill66" type="Sprite2D" parent="Village/StaticArt" unique_id=367530038]
+position = Vector2(1024, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill67" type="Sprite2D" parent="Village/StaticArt" unique_id=677789190]
+position = Vector2(1024, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill68" type="Sprite2D" parent="Village/StaticArt" unique_id=2123953345]
+position = Vector2(1024, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip17" type="Sprite2D" parent="Village/StaticArt" unique_id=216304841]
+position = Vector2(1024, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill69" type="Sprite2D" parent="Village/StaticArt" unique_id=2121327809]
+position = Vector2(1088, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill70" type="Sprite2D" parent="Village/StaticArt" unique_id=162728914]
+position = Vector2(1088, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill71" type="Sprite2D" parent="Village/StaticArt" unique_id=683447347]
+position = Vector2(1088, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill72" type="Sprite2D" parent="Village/StaticArt" unique_id=2001167903]
+position = Vector2(1088, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip18" type="Sprite2D" parent="Village/StaticArt" unique_id=526287453]
+position = Vector2(1088, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill73" type="Sprite2D" parent="Village/StaticArt" unique_id=1344035672]
+position = Vector2(1152, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill74" type="Sprite2D" parent="Village/StaticArt" unique_id=1097321623]
+position = Vector2(1152, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill75" type="Sprite2D" parent="Village/StaticArt" unique_id=1904773118]
+position = Vector2(1152, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill76" type="Sprite2D" parent="Village/StaticArt" unique_id=55855501]
+position = Vector2(1152, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip19" type="Sprite2D" parent="Village/StaticArt" unique_id=2075574445]
+position = Vector2(1152, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill77" type="Sprite2D" parent="Village/StaticArt" unique_id=892417844]
+position = Vector2(1216, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill78" type="Sprite2D" parent="Village/StaticArt" unique_id=1532748803]
+position = Vector2(1216, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill79" type="Sprite2D" parent="Village/StaticArt" unique_id=639894548]
+position = Vector2(1216, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill80" type="Sprite2D" parent="Village/StaticArt" unique_id=945180317]
+position = Vector2(1216, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip20" type="Sprite2D" parent="Village/StaticArt" unique_id=174778983]
+position = Vector2(1216, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill81" type="Sprite2D" parent="Village/StaticArt" unique_id=263568824]
+position = Vector2(1280, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill82" type="Sprite2D" parent="Village/StaticArt" unique_id=1502028440]
+position = Vector2(1280, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill83" type="Sprite2D" parent="Village/StaticArt" unique_id=1588480995]
+position = Vector2(1280, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill84" type="Sprite2D" parent="Village/StaticArt" unique_id=482088021]
+position = Vector2(1280, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip21" type="Sprite2D" parent="Village/StaticArt" unique_id=47033498]
+position = Vector2(1280, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill85" type="Sprite2D" parent="Village/StaticArt" unique_id=1218113234]
+position = Vector2(1344, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill86" type="Sprite2D" parent="Village/StaticArt" unique_id=500433882]
+position = Vector2(1344, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill87" type="Sprite2D" parent="Village/StaticArt" unique_id=1445068038]
+position = Vector2(1344, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill88" type="Sprite2D" parent="Village/StaticArt" unique_id=1010117253]
+position = Vector2(1344, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip22" type="Sprite2D" parent="Village/StaticArt" unique_id=1465901800]
+position = Vector2(1344, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill89" type="Sprite2D" parent="Village/StaticArt" unique_id=1833910515]
+position = Vector2(1408, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill90" type="Sprite2D" parent="Village/StaticArt" unique_id=2097730179]
+position = Vector2(1408, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill91" type="Sprite2D" parent="Village/StaticArt" unique_id=254681169]
+position = Vector2(1408, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill92" type="Sprite2D" parent="Village/StaticArt" unique_id=1154313855]
+position = Vector2(1408, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip23" type="Sprite2D" parent="Village/StaticArt" unique_id=1430577911]
+position = Vector2(1408, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill93" type="Sprite2D" parent="Village/StaticArt" unique_id=1364821029]
+position = Vector2(1472, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill94" type="Sprite2D" parent="Village/StaticArt" unique_id=1072854919]
+position = Vector2(1472, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill95" type="Sprite2D" parent="Village/StaticArt" unique_id=1083183452]
+position = Vector2(1472, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill96" type="Sprite2D" parent="Village/StaticArt" unique_id=1343923576]
+position = Vector2(1472, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip24" type="Sprite2D" parent="Village/StaticArt" unique_id=904716777]
+position = Vector2(1472, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill97" type="Sprite2D" parent="Village/StaticArt" unique_id=1937563446]
+position = Vector2(1536, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill98" type="Sprite2D" parent="Village/StaticArt" unique_id=1509000120]
+position = Vector2(1536, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill99" type="Sprite2D" parent="Village/StaticArt" unique_id=1929467061]
+position = Vector2(1536, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill100" type="Sprite2D" parent="Village/StaticArt" unique_id=1573060753]
+position = Vector2(1536, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip25" type="Sprite2D" parent="Village/StaticArt" unique_id=992130215]
+position = Vector2(1536, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill101" type="Sprite2D" parent="Village/StaticArt" unique_id=2043631904]
+position = Vector2(1600, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill102" type="Sprite2D" parent="Village/StaticArt" unique_id=872440589]
+position = Vector2(1600, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill103" type="Sprite2D" parent="Village/StaticArt" unique_id=211311873]
+position = Vector2(1600, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill104" type="Sprite2D" parent="Village/StaticArt" unique_id=2061139130]
+position = Vector2(1600, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip26" type="Sprite2D" parent="Village/StaticArt" unique_id=107340777]
+position = Vector2(1600, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill105" type="Sprite2D" parent="Village/StaticArt" unique_id=1044974720]
+position = Vector2(1664, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill106" type="Sprite2D" parent="Village/StaticArt" unique_id=1352199901]
+position = Vector2(1664, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill107" type="Sprite2D" parent="Village/StaticArt" unique_id=1459802928]
+position = Vector2(1664, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill108" type="Sprite2D" parent="Village/StaticArt" unique_id=985279245]
+position = Vector2(1664, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip27" type="Sprite2D" parent="Village/StaticArt" unique_id=993939118]
+position = Vector2(1664, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill109" type="Sprite2D" parent="Village/StaticArt" unique_id=69961512]
+position = Vector2(1728, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill110" type="Sprite2D" parent="Village/StaticArt" unique_id=2146510569]
+position = Vector2(1728, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill111" type="Sprite2D" parent="Village/StaticArt" unique_id=1249362426]
+position = Vector2(1728, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill112" type="Sprite2D" parent="Village/StaticArt" unique_id=1000226705]
+position = Vector2(1728, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip28" type="Sprite2D" parent="Village/StaticArt" unique_id=1818459283]
+position = Vector2(1728, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill113" type="Sprite2D" parent="Village/StaticArt" unique_id=1621802581]
+position = Vector2(1792, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill114" type="Sprite2D" parent="Village/StaticArt" unique_id=1059456391]
+position = Vector2(1792, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill115" type="Sprite2D" parent="Village/StaticArt" unique_id=268878244]
+position = Vector2(1792, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill116" type="Sprite2D" parent="Village/StaticArt" unique_id=1130622212]
+position = Vector2(1792, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip29" type="Sprite2D" parent="Village/StaticArt" unique_id=1547968931]
+position = Vector2(1792, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill117" type="Sprite2D" parent="Village/StaticArt" unique_id=1977377921]
+position = Vector2(1856, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill118" type="Sprite2D" parent="Village/StaticArt" unique_id=1887117180]
+position = Vector2(1856, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill119" type="Sprite2D" parent="Village/StaticArt" unique_id=1170948892]
+position = Vector2(1856, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill120" type="Sprite2D" parent="Village/StaticArt" unique_id=361602769]
+position = Vector2(1856, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip30" type="Sprite2D" parent="Village/StaticArt" unique_id=954340241]
+position = Vector2(1856, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill121" type="Sprite2D" parent="Village/StaticArt" unique_id=638117716]
+position = Vector2(1920, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill122" type="Sprite2D" parent="Village/StaticArt" unique_id=1988847380]
+position = Vector2(1920, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill123" type="Sprite2D" parent="Village/StaticArt" unique_id=960764217]
+position = Vector2(1920, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill124" type="Sprite2D" parent="Village/StaticArt" unique_id=1446222672]
+position = Vector2(1920, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip31" type="Sprite2D" parent="Village/StaticArt" unique_id=809929131]
+position = Vector2(1920, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill125" type="Sprite2D" parent="Village/StaticArt" unique_id=90776604]
+position = Vector2(1984, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill126" type="Sprite2D" parent="Village/StaticArt" unique_id=138013162]
+position = Vector2(1984, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill127" type="Sprite2D" parent="Village/StaticArt" unique_id=544329935]
+position = Vector2(1984, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill128" type="Sprite2D" parent="Village/StaticArt" unique_id=1992682023]
+position = Vector2(1984, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip32" type="Sprite2D" parent="Village/StaticArt" unique_id=991337348]
+position = Vector2(1984, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill129" type="Sprite2D" parent="Village/StaticArt" unique_id=664949332]
+position = Vector2(2048, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill130" type="Sprite2D" parent="Village/StaticArt" unique_id=964481623]
+position = Vector2(2048, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill131" type="Sprite2D" parent="Village/StaticArt" unique_id=797187267]
+position = Vector2(2048, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill132" type="Sprite2D" parent="Village/StaticArt" unique_id=1783282562]
+position = Vector2(2048, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip33" type="Sprite2D" parent="Village/StaticArt" unique_id=87125333]
+position = Vector2(2048, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill133" type="Sprite2D" parent="Village/StaticArt" unique_id=2112721084]
+position = Vector2(2112, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill134" type="Sprite2D" parent="Village/StaticArt" unique_id=1564651508]
+position = Vector2(2112, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill135" type="Sprite2D" parent="Village/StaticArt" unique_id=892222858]
+position = Vector2(2112, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill136" type="Sprite2D" parent="Village/StaticArt" unique_id=544728996]
+position = Vector2(2112, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip34" type="Sprite2D" parent="Village/StaticArt" unique_id=215406020]
+position = Vector2(2112, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill137" type="Sprite2D" parent="Village/StaticArt" unique_id=630547450]
+position = Vector2(2176, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill138" type="Sprite2D" parent="Village/StaticArt" unique_id=2079922074]
+position = Vector2(2176, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill139" type="Sprite2D" parent="Village/StaticArt" unique_id=1946817901]
+position = Vector2(2176, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill140" type="Sprite2D" parent="Village/StaticArt" unique_id=1637809025]
+position = Vector2(2176, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip35" type="Sprite2D" parent="Village/StaticArt" unique_id=1248768021]
+position = Vector2(2176, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill141" type="Sprite2D" parent="Village/StaticArt" unique_id=1440905617]
+position = Vector2(2240, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill142" type="Sprite2D" parent="Village/StaticArt" unique_id=1250021670]
+position = Vector2(2240, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill143" type="Sprite2D" parent="Village/StaticArt" unique_id=1663180306]
+position = Vector2(2240, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill144" type="Sprite2D" parent="Village/StaticArt" unique_id=146493259]
+position = Vector2(2240, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip36" type="Sprite2D" parent="Village/StaticArt" unique_id=1352189644]
+position = Vector2(2240, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill145" type="Sprite2D" parent="Village/StaticArt" unique_id=1144810064]
+position = Vector2(2304, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill146" type="Sprite2D" parent="Village/StaticArt" unique_id=1187257300]
+position = Vector2(2304, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill147" type="Sprite2D" parent="Village/StaticArt" unique_id=572356910]
+position = Vector2(2304, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill148" type="Sprite2D" parent="Village/StaticArt" unique_id=677640569]
+position = Vector2(2304, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip37" type="Sprite2D" parent="Village/StaticArt" unique_id=2087525884]
+position = Vector2(2304, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill149" type="Sprite2D" parent="Village/StaticArt" unique_id=72565652]
+position = Vector2(2368, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill150" type="Sprite2D" parent="Village/StaticArt" unique_id=1165403543]
+position = Vector2(2368, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill151" type="Sprite2D" parent="Village/StaticArt" unique_id=2144392222]
+position = Vector2(2368, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill152" type="Sprite2D" parent="Village/StaticArt" unique_id=1554351593]
+position = Vector2(2368, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip38" type="Sprite2D" parent="Village/StaticArt" unique_id=245374516]
+position = Vector2(2368, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill153" type="Sprite2D" parent="Village/StaticArt" unique_id=132187498]
+position = Vector2(2432, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill154" type="Sprite2D" parent="Village/StaticArt" unique_id=2037587078]
+position = Vector2(2432, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill155" type="Sprite2D" parent="Village/StaticArt" unique_id=1679323692]
+position = Vector2(2432, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill156" type="Sprite2D" parent="Village/StaticArt" unique_id=2143956658]
+position = Vector2(2432, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip39" type="Sprite2D" parent="Village/StaticArt" unique_id=1781513383]
+position = Vector2(2432, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill157" type="Sprite2D" parent="Village/StaticArt" unique_id=1334142124]
+position = Vector2(2496, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill158" type="Sprite2D" parent="Village/StaticArt" unique_id=561397874]
+position = Vector2(2496, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill159" type="Sprite2D" parent="Village/StaticArt" unique_id=1783678405]
+position = Vector2(2496, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill160" type="Sprite2D" parent="Village/StaticArt" unique_id=702463548]
+position = Vector2(2496, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip40" type="Sprite2D" parent="Village/StaticArt" unique_id=186545010]
+position = Vector2(2496, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill161" type="Sprite2D" parent="Village/StaticArt" unique_id=1729853619]
+position = Vector2(2560, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill162" type="Sprite2D" parent="Village/StaticArt" unique_id=1003000841]
+position = Vector2(2560, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill163" type="Sprite2D" parent="Village/StaticArt" unique_id=1683450614]
+position = Vector2(2560, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill164" type="Sprite2D" parent="Village/StaticArt" unique_id=2028749545]
+position = Vector2(2560, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip41" type="Sprite2D" parent="Village/StaticArt" unique_id=1395264764]
+position = Vector2(2560, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill165" type="Sprite2D" parent="Village/StaticArt" unique_id=781051763]
+position = Vector2(2624, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill166" type="Sprite2D" parent="Village/StaticArt" unique_id=516191698]
+position = Vector2(2624, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill167" type="Sprite2D" parent="Village/StaticArt" unique_id=349748504]
+position = Vector2(2624, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill168" type="Sprite2D" parent="Village/StaticArt" unique_id=367019467]
+position = Vector2(2624, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip42" type="Sprite2D" parent="Village/StaticArt" unique_id=1627330780]
+position = Vector2(2624, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill169" type="Sprite2D" parent="Village/StaticArt" unique_id=1343739733]
+position = Vector2(2688, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill170" type="Sprite2D" parent="Village/StaticArt" unique_id=1837591526]
+position = Vector2(2688, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill171" type="Sprite2D" parent="Village/StaticArt" unique_id=1063157918]
+position = Vector2(2688, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill172" type="Sprite2D" parent="Village/StaticArt" unique_id=1052962754]
+position = Vector2(2688, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip43" type="Sprite2D" parent="Village/StaticArt" unique_id=2126138938]
+position = Vector2(2688, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill173" type="Sprite2D" parent="Village/StaticArt" unique_id=625087812]
+position = Vector2(2752, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill174" type="Sprite2D" parent="Village/StaticArt" unique_id=1798824945]
+position = Vector2(2752, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill175" type="Sprite2D" parent="Village/StaticArt" unique_id=1720772442]
+position = Vector2(2752, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill176" type="Sprite2D" parent="Village/StaticArt" unique_id=1272342901]
+position = Vector2(2752, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip44" type="Sprite2D" parent="Village/StaticArt" unique_id=1642126664]
+position = Vector2(2752, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill177" type="Sprite2D" parent="Village/StaticArt" unique_id=376702531]
+position = Vector2(2816, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill178" type="Sprite2D" parent="Village/StaticArt" unique_id=728131628]
+position = Vector2(2816, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill179" type="Sprite2D" parent="Village/StaticArt" unique_id=1469019416]
+position = Vector2(2816, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill180" type="Sprite2D" parent="Village/StaticArt" unique_id=139929832]
+position = Vector2(2816, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip45" type="Sprite2D" parent="Village/StaticArt" unique_id=442678461]
+position = Vector2(2816, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill181" type="Sprite2D" parent="Village/StaticArt" unique_id=1529351024]
+position = Vector2(2880, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill182" type="Sprite2D" parent="Village/StaticArt" unique_id=908302685]
+position = Vector2(2880, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill183" type="Sprite2D" parent="Village/StaticArt" unique_id=146479212]
+position = Vector2(2880, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill184" type="Sprite2D" parent="Village/StaticArt" unique_id=1732838371]
+position = Vector2(2880, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip46" type="Sprite2D" parent="Village/StaticArt" unique_id=170441265]
+position = Vector2(2880, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill185" type="Sprite2D" parent="Village/StaticArt" unique_id=892111168]
+position = Vector2(2944, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill186" type="Sprite2D" parent="Village/StaticArt" unique_id=2079774095]
+position = Vector2(2944, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill187" type="Sprite2D" parent="Village/StaticArt" unique_id=404310513]
+position = Vector2(2944, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill188" type="Sprite2D" parent="Village/StaticArt" unique_id=1182243041]
+position = Vector2(2944, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip47" type="Sprite2D" parent="Village/StaticArt" unique_id=596769063]
+position = Vector2(2944, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill189" type="Sprite2D" parent="Village/StaticArt" unique_id=1491907559]
+position = Vector2(3008, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill190" type="Sprite2D" parent="Village/StaticArt" unique_id=254745978]
+position = Vector2(3008, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill191" type="Sprite2D" parent="Village/StaticArt" unique_id=262812963]
+position = Vector2(3008, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill192" type="Sprite2D" parent="Village/StaticArt" unique_id=1198716708]
+position = Vector2(3008, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip48" type="Sprite2D" parent="Village/StaticArt" unique_id=242016005]
+position = Vector2(3008, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill193" type="Sprite2D" parent="Village/StaticArt" unique_id=440045836]
+position = Vector2(3072, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill194" type="Sprite2D" parent="Village/StaticArt" unique_id=1817542741]
+position = Vector2(3072, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill195" type="Sprite2D" parent="Village/StaticArt" unique_id=2043003765]
+position = Vector2(3072, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill196" type="Sprite2D" parent="Village/StaticArt" unique_id=1070568095]
+position = Vector2(3072, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip49" type="Sprite2D" parent="Village/StaticArt" unique_id=1508708416]
+position = Vector2(3072, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill197" type="Sprite2D" parent="Village/StaticArt" unique_id=389532821]
+position = Vector2(3136, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill198" type="Sprite2D" parent="Village/StaticArt" unique_id=2013570900]
+position = Vector2(3136, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill199" type="Sprite2D" parent="Village/StaticArt" unique_id=689099288]
+position = Vector2(3136, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill200" type="Sprite2D" parent="Village/StaticArt" unique_id=1424114887]
+position = Vector2(3136, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip50" type="Sprite2D" parent="Village/StaticArt" unique_id=1321829942]
+position = Vector2(3136, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill201" type="Sprite2D" parent="Village/StaticArt" unique_id=1916833366]
+position = Vector2(3200, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill202" type="Sprite2D" parent="Village/StaticArt" unique_id=1555684617]
+position = Vector2(3200, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill203" type="Sprite2D" parent="Village/StaticArt" unique_id=873704941]
+position = Vector2(3200, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill204" type="Sprite2D" parent="Village/StaticArt" unique_id=370510170]
+position = Vector2(3200, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip51" type="Sprite2D" parent="Village/StaticArt" unique_id=408619667]
+position = Vector2(3200, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill205" type="Sprite2D" parent="Village/StaticArt" unique_id=137469908]
+position = Vector2(3264, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill206" type="Sprite2D" parent="Village/StaticArt" unique_id=1375394546]
+position = Vector2(3264, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill207" type="Sprite2D" parent="Village/StaticArt" unique_id=1868786829]
+position = Vector2(3264, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill208" type="Sprite2D" parent="Village/StaticArt" unique_id=1699892719]
+position = Vector2(3264, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip52" type="Sprite2D" parent="Village/StaticArt" unique_id=515307162]
+position = Vector2(3264, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill209" type="Sprite2D" parent="Village/StaticArt" unique_id=442480477]
+position = Vector2(3328, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill210" type="Sprite2D" parent="Village/StaticArt" unique_id=914815660]
+position = Vector2(3328, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill211" type="Sprite2D" parent="Village/StaticArt" unique_id=1077968267]
+position = Vector2(3328, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill212" type="Sprite2D" parent="Village/StaticArt" unique_id=1688640546]
+position = Vector2(3328, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip53" type="Sprite2D" parent="Village/StaticArt" unique_id=2012527686]
+position = Vector2(3328, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill213" type="Sprite2D" parent="Village/StaticArt" unique_id=383198854]
+position = Vector2(3392, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill214" type="Sprite2D" parent="Village/StaticArt" unique_id=443987820]
+position = Vector2(3392, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill215" type="Sprite2D" parent="Village/StaticArt" unique_id=1591513111]
+position = Vector2(3392, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill216" type="Sprite2D" parent="Village/StaticArt" unique_id=483840375]
+position = Vector2(3392, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip54" type="Sprite2D" parent="Village/StaticArt" unique_id=765035039]
+position = Vector2(3392, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill217" type="Sprite2D" parent="Village/StaticArt" unique_id=1009493038]
+position = Vector2(3456, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill218" type="Sprite2D" parent="Village/StaticArt" unique_id=233432492]
+position = Vector2(3456, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill219" type="Sprite2D" parent="Village/StaticArt" unique_id=1986496615]
+position = Vector2(3456, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill220" type="Sprite2D" parent="Village/StaticArt" unique_id=927905155]
+position = Vector2(3456, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip55" type="Sprite2D" parent="Village/StaticArt" unique_id=302122009]
+position = Vector2(3456, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill221" type="Sprite2D" parent="Village/StaticArt" unique_id=842442656]
+position = Vector2(3520, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill222" type="Sprite2D" parent="Village/StaticArt" unique_id=166757854]
+position = Vector2(3520, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill223" type="Sprite2D" parent="Village/StaticArt" unique_id=2020542047]
+position = Vector2(3520, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill224" type="Sprite2D" parent="Village/StaticArt" unique_id=720124303]
+position = Vector2(3520, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip56" type="Sprite2D" parent="Village/StaticArt" unique_id=594258885]
+position = Vector2(3520, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill225" type="Sprite2D" parent="Village/StaticArt" unique_id=2017370137]
+position = Vector2(3584, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill226" type="Sprite2D" parent="Village/StaticArt" unique_id=1734164556]
+position = Vector2(3584, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill227" type="Sprite2D" parent="Village/StaticArt" unique_id=923529113]
+position = Vector2(3584, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill228" type="Sprite2D" parent="Village/StaticArt" unique_id=404382805]
+position = Vector2(3584, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip57" type="Sprite2D" parent="Village/StaticArt" unique_id=605120522]
+position = Vector2(3584, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill229" type="Sprite2D" parent="Village/StaticArt" unique_id=169656518]
+position = Vector2(3648, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill230" type="Sprite2D" parent="Village/StaticArt" unique_id=310410610]
+position = Vector2(3648, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill231" type="Sprite2D" parent="Village/StaticArt" unique_id=1922540619]
+position = Vector2(3648, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill232" type="Sprite2D" parent="Village/StaticArt" unique_id=221758513]
+position = Vector2(3648, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip58" type="Sprite2D" parent="Village/StaticArt" unique_id=224981490]
+position = Vector2(3648, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill233" type="Sprite2D" parent="Village/StaticArt" unique_id=372408217]
+position = Vector2(3712, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill234" type="Sprite2D" parent="Village/StaticArt" unique_id=469604508]
+position = Vector2(3712, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill235" type="Sprite2D" parent="Village/StaticArt" unique_id=1666848703]
+position = Vector2(3712, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill236" type="Sprite2D" parent="Village/StaticArt" unique_id=704028900]
+position = Vector2(3712, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip59" type="Sprite2D" parent="Village/StaticArt" unique_id=1111789955]
+position = Vector2(3712, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill237" type="Sprite2D" parent="Village/StaticArt" unique_id=241746559]
+position = Vector2(3776, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill238" type="Sprite2D" parent="Village/StaticArt" unique_id=294498213]
+position = Vector2(3776, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill239" type="Sprite2D" parent="Village/StaticArt" unique_id=1567365141]
+position = Vector2(3776, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill240" type="Sprite2D" parent="Village/StaticArt" unique_id=166158591]
+position = Vector2(3776, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip60" type="Sprite2D" parent="Village/StaticArt" unique_id=1598206642]
+position = Vector2(3776, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill241" type="Sprite2D" parent="Village/StaticArt" unique_id=588892663]
+position = Vector2(3840, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill242" type="Sprite2D" parent="Village/StaticArt" unique_id=847349125]
+position = Vector2(3840, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill243" type="Sprite2D" parent="Village/StaticArt" unique_id=1809347730]
+position = Vector2(3840, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill244" type="Sprite2D" parent="Village/StaticArt" unique_id=1613726720]
+position = Vector2(3840, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip61" type="Sprite2D" parent="Village/StaticArt" unique_id=2029021366]
+position = Vector2(3840, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill245" type="Sprite2D" parent="Village/StaticArt" unique_id=1642861000]
+position = Vector2(3904, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill246" type="Sprite2D" parent="Village/StaticArt" unique_id=260201558]
+position = Vector2(3904, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill247" type="Sprite2D" parent="Village/StaticArt" unique_id=212762605]
+position = Vector2(3904, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill248" type="Sprite2D" parent="Village/StaticArt" unique_id=1266416948]
+position = Vector2(3904, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip62" type="Sprite2D" parent="Village/StaticArt" unique_id=444948747]
+position = Vector2(3904, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill249" type="Sprite2D" parent="Village/StaticArt" unique_id=10325665]
+position = Vector2(3968, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill250" type="Sprite2D" parent="Village/StaticArt" unique_id=1732372418]
+position = Vector2(3968, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill251" type="Sprite2D" parent="Village/StaticArt" unique_id=1672544022]
+position = Vector2(3968, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill252" type="Sprite2D" parent="Village/StaticArt" unique_id=1846256410]
+position = Vector2(3968, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip63" type="Sprite2D" parent="Village/StaticArt" unique_id=1795467964]
+position = Vector2(3968, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill253" type="Sprite2D" parent="Village/StaticArt" unique_id=2029051439]
+position = Vector2(4032, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill254" type="Sprite2D" parent="Village/StaticArt" unique_id=765588603]
+position = Vector2(4032, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill255" type="Sprite2D" parent="Village/StaticArt" unique_id=513068485]
+position = Vector2(4032, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill256" type="Sprite2D" parent="Village/StaticArt" unique_id=1457273056]
+position = Vector2(4032, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip64" type="Sprite2D" parent="Village/StaticArt" unique_id=1264527620]
+position = Vector2(4032, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill257" type="Sprite2D" parent="Village/StaticArt" unique_id=1228279329]
+position = Vector2(4096, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill258" type="Sprite2D" parent="Village/StaticArt" unique_id=1011287521]
+position = Vector2(4096, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill259" type="Sprite2D" parent="Village/StaticArt" unique_id=1409440316]
+position = Vector2(4096, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill260" type="Sprite2D" parent="Village/StaticArt" unique_id=1652511493]
+position = Vector2(4096, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip65" type="Sprite2D" parent="Village/StaticArt" unique_id=712821925]
+position = Vector2(4096, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill261" type="Sprite2D" parent="Village/StaticArt" unique_id=538063707]
+position = Vector2(4160, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill262" type="Sprite2D" parent="Village/StaticArt" unique_id=1022275198]
+position = Vector2(4160, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill263" type="Sprite2D" parent="Village/StaticArt" unique_id=2084948084]
+position = Vector2(4160, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill264" type="Sprite2D" parent="Village/StaticArt" unique_id=627482255]
+position = Vector2(4160, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip66" type="Sprite2D" parent="Village/StaticArt" unique_id=89704788]
+position = Vector2(4160, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill265" type="Sprite2D" parent="Village/StaticArt" unique_id=1392683502]
+position = Vector2(4224, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill266" type="Sprite2D" parent="Village/StaticArt" unique_id=2032496643]
+position = Vector2(4224, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill267" type="Sprite2D" parent="Village/StaticArt" unique_id=666766110]
+position = Vector2(4224, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill268" type="Sprite2D" parent="Village/StaticArt" unique_id=1315883215]
+position = Vector2(4224, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip67" type="Sprite2D" parent="Village/StaticArt" unique_id=118251843]
+position = Vector2(4224, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill269" type="Sprite2D" parent="Village/StaticArt" unique_id=304258622]
+position = Vector2(4288, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill270" type="Sprite2D" parent="Village/StaticArt" unique_id=1862053577]
+position = Vector2(4288, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill271" type="Sprite2D" parent="Village/StaticArt" unique_id=1915220965]
+position = Vector2(4288, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill272" type="Sprite2D" parent="Village/StaticArt" unique_id=48327041]
+position = Vector2(4288, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip68" type="Sprite2D" parent="Village/StaticArt" unique_id=1631437604]
+position = Vector2(4288, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="TILE-002_soil_fill273" type="Sprite2D" parent="Village/StaticArt" unique_id=313412595]
+position = Vector2(4352, 640)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill274" type="Sprite2D" parent="Village/StaticArt" unique_id=2027439120]
+position = Vector2(4352, 704)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill275" type="Sprite2D" parent="Village/StaticArt" unique_id=1301816625]
+position = Vector2(4352, 768)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-002_soil_fill276" type="Sprite2D" parent="Village/StaticArt" unique_id=1606900214]
+position = Vector2(4352, 832)
+scale = Vector2(1.3541666, 1.5116279)
+texture = ExtResource("14_7q0y0")
+centered = false
+
+[node name="TILE-001_surface_strip69" type="Sprite2D" parent="Village/StaticArt" unique_id=1875168844]
+position = Vector2(4352, 616)
+scale = Vector2(1.2037038, 1.1818181)
+texture = ExtResource("15_2orcx")
+centered = false
+
+[node name="Art28" type="Sprite2D" parent="Village/StaticArt" unique_id=81451406]
+position = Vector2(400, 575)
+scale = Vector2(1.6666666, 0.7627119)
+texture = SubResource("AtlasTexture_2f5tv")
+centered = false
+
+[node name="Art29" type="Sprite2D" parent="Village/StaticArt" unique_id=360741919]
+position = Vector2(172.24445, 572)
+scale = Vector2(0.38518518, 0.38518518)
+texture = SubResource("AtlasTexture_3iips")
+centered = false
+
+[node name="Art30" type="Sprite2D" parent="Village/StaticArt" unique_id=1516911871]
+position = Vector2(667.24445, 572)
+scale = Vector2(0.38518518, 0.38518518)
+texture = SubResource("AtlasTexture_3iips")
+centered = false
+
+[node name="Art31" type="Sprite2D" parent="Village/StaticArt" unique_id=897995050]
+position = Vector2(887.24445, 572)
+scale = Vector2(0.38518518, 0.38518518)
+texture = SubResource("AtlasTexture_3iips")
+centered = false
+
+[node name="Art32" type="Sprite2D" parent="Village/StaticArt" unique_id=1209106564]
+position = Vector2(1427.2444, 572)
+scale = Vector2(0.38518518, 0.38518518)
+texture = SubResource("AtlasTexture_3iips")
+centered = false
+
+[node name="Art33" type="Sprite2D" parent="Village/StaticArt" unique_id=1108618648]
+position = Vector2(2037.2444, 572)
+scale = Vector2(0.38518518, 0.38518518)
+texture = SubResource("AtlasTexture_3iips")
+centered = false
+
+[node name="Art34" type="Sprite2D" parent="Village/StaticArt" unique_id=1456658151]
+position = Vector2(2787.2444, 572)
+scale = Vector2(0.38518518, 0.38518518)
+texture = SubResource("AtlasTexture_3iips")
+centered = false
+
+[node name="Art35" type="Sprite2D" parent="Village/StaticArt" unique_id=53041394]
+position = Vector2(3497.2444, 572)
+scale = Vector2(0.38518518, 0.38518518)
+texture = SubResource("AtlasTexture_3iips")
+centered = false
+
+[node name="Art36" type="Sprite2D" parent="Village/StaticArt" unique_id=507724785]
+position = Vector2(3927.2444, 572)
+scale = Vector2(0.38518518, 0.38518518)
+texture = SubResource("AtlasTexture_3iips")
+centered = false
+
+[node name="Art37" type="Sprite2D" parent="Village/StaticArt" unique_id=699771761]
+position = Vector2(4197.2446, 572)
+scale = Vector2(0.38518518, 0.38518518)
+texture = SubResource("AtlasTexture_3iips")
+centered = false
+
+[node name="Art38" type="Sprite2D" parent="Village/StaticArt" unique_id=233959430]
+position = Vector2(322.16364, 587)
+scale = Vector2(0.16363636, 0.16363636)
+texture = SubResource("AtlasTexture_jq7by")
+centered = false
+
+[node name="Art39" type="Sprite2D" parent="Village/StaticArt" unique_id=1189961708]
+position = Vector2(722.16364, 587)
+scale = Vector2(0.16363636, 0.16363636)
+texture = SubResource("AtlasTexture_jq7by")
+centered = false
+
+[node name="Art40" type="Sprite2D" parent="Village/StaticArt" unique_id=177164640]
+position = Vector2(1492.1637, 587)
+scale = Vector2(0.16363636, 0.16363636)
+texture = SubResource("AtlasTexture_jq7by")
+centered = false
+
+[node name="Art41" type="Sprite2D" parent="Village/StaticArt" unique_id=1648987248]
+position = Vector2(2902.1636, 587)
+scale = Vector2(0.16363636, 0.16363636)
+texture = SubResource("AtlasTexture_jq7by")
+centered = false
+
+[node name="Art42" type="Sprite2D" parent="Village/StaticArt" unique_id=1821280515]
+position = Vector2(3572.1636, 587)
+scale = Vector2(0.16363636, 0.16363636)
+texture = SubResource("AtlasTexture_jq7by")
+centered = false
+
+[node name="Art43" type="Sprite2D" parent="Village/StaticArt" unique_id=1469910337]
+position = Vector2(4132.1636, 587)
+scale = Vector2(0.16363636, 0.16363636)
+texture = SubResource("AtlasTexture_jq7by")
+centered = false
+
+[node name="Art44" type="Sprite2D" parent="Village/StaticArt" unique_id=614322786]
+position = Vector2(1536.5, 564.2974)
+scale = Vector2(0.15690866, 0.15690866)
+texture = SubResource("AtlasTexture_da3eg")
+centered = false
+
+[node name="Art45" type="Sprite2D" parent="Village/StaticArt" unique_id=816291795]
+position = Vector2(2040, 553.48944)
+scale = Vector2(0.18735363, 0.18735363)
+texture = SubResource("AtlasTexture_da3eg")
+centered = false
+
+[node name="Art46" type="Sprite2D" parent="Village/StaticArt" unique_id=2001181539]
+position = Vector2(2820, 525.4545)
+scale = Vector2(0.45454547, 0.45454547)
+texture = SubResource("AtlasTexture_y2lax")
+centered = false
+
+[node name="PROP-006_00_left_entry" type="Sprite2D" parent="Village/StaticArt" unique_id=437569826]
+position = Vector2(1600, 515)
+scale = Vector2(0.32397407, 0.32426304)
+texture = ExtResource("21_ropfo")
+centered = false
+
+[node name="PROP-006_01_middle_repeat" type="Sprite2D" parent="Village/StaticArt" unique_id=359859856]
+position = Vector2(1748, 591)
+scale = Vector2(0.32478634, 0.3265306)
+texture = ExtResource("22_hiag0")
+centered = false
+
+[node name="PROP-006_02_right_entry" type="Sprite2D" parent="Village/StaticArt" unique_id=94900273]
+position = Vector2(1898, 515)
+scale = Vector2(0.33112583, 0.33031675)
+texture = ExtResource("23_n73ye")
+centered = false
+
+[node name="Art47" type="Sprite2D" parent="Village/StaticArt" unique_id=955720958]
+position = Vector2(807.6172, 515)
+scale = Vector2(0.546875, 0.546875)
+texture = SubResource("AtlasTexture_8tapi")
+centered = false
+
+[node name="Art48" type="Sprite2D" parent="Village/StaticArt" unique_id=1178822942]
+position = Vector2(1357.6172, 515)
+scale = Vector2(0.546875, 0.546875)
+texture = SubResource("AtlasTexture_8tapi")
+centered = false
+
+[node name="Art49" type="Sprite2D" parent="Village/StaticArt" unique_id=1773389174]
+position = Vector2(4157.617, 515)
+scale = Vector2(0.546875, 0.546875)
+texture = SubResource("AtlasTexture_8tapi")
+centered = false
+
+[node name="Sign" type="Label" parent="Village/StaticArt" unique_id=933883102]
+offset_left = 1120.0
+offset_top = 350.0
+offset_right = 1120.0
+offset_bottom = 350.0
+theme_override_colors/font_color = Color(0.91764706, 0.7647059, 0.5411765, 1)
+theme_override_font_sizes/font_size = 18
+text = "HEARTHLIGHT SQUARE"
+
+[node name="Sign2" type="Label" parent="Village/StaticArt" unique_id=1995411856]
+offset_left = 4040.0
+offset_top = 459.0
+offset_right = 4040.0
+offset_bottom = 459.0
+theme_override_colors/font_color = Color(0.91764706, 0.7647059, 0.5411765, 1)
+theme_override_font_sizes/font_size = 19
+text = "FORGOTTEN TRAIL  →"
+
+[node name="Art50" type="Sprite2D" parent="Village/StaticArt" unique_id=2022607917]
+position = Vector2(632.71576, 535)
+scale = Vector2(0.09169363, 0.09169363)
+texture = SubResource("AtlasTexture_nrbsg")
+centered = false
+
+[node name="Art51" type="Sprite2D" parent="Village/StaticArt" unique_id=1145518277]
+position = Vector2(3675.0574, 528)
+scale = Vector2(0.09593326, 0.095933266)
+texture = SubResource("AtlasTexture_moi2e")
+centered = false
+
+[node name="Sign3" type="Label" parent="Village/StaticArt" unique_id=226759799]
+offset_left = 3665.0
+offset_top = 508.0
+offset_right = 3665.0
+offset_bottom = 508.0
+theme_override_colors/font_color = Color(0.8980392, 0.84313726, 0.7058824, 1)
+theme_override_font_sizes/font_size = 15
+text = "RUSK"
+
+[node name="StoryProps" type="Node2D" parent="Village" unique_id=753364030]
+
+[node name="HearthLit" type="Node2D" parent="Village/StoryProps" unique_id=895217861]
+
+[node name="Art" type="Sprite2D" parent="Village/StoryProps/HearthLit" unique_id=1834848124]
+position = Vector2(1090, 395.21588)
+scale = Vector2(0.969163, 0.96916294)
+texture = SubResource("AtlasTexture_1fsln")
+centered = false
+
+[node name="HearthFailed" type="Node2D" parent="Village/StoryProps" unique_id=1604527604]
+visible = false
+
+[node name="Art" type="Sprite2D" parent="Village/StoryProps/HearthFailed" unique_id=1449456250]
+position = Vector2(1090, 395.18585)
+scale = Vector2(0.9734513, 0.9734513)
+texture = SubResource("AtlasTexture_6arii")
+centered = false
+
+[node name="CartInitial" type="Node2D" parent="Village/StoryProps" unique_id=1995634673]
+
+[node name="Art" type="Sprite2D" parent="Village/StoryProps/CartInitial" unique_id=1175762972]
+position = Vector2(1682.5, 526.03613)
+scale = Vector2(0.5421687, 0.5421687)
+texture = SubResource("AtlasTexture_p66yb")
+centered = false
+
+[node name="CartMoved" type="Node2D" parent="Village/StoryProps" unique_id=1822139537]
+visible = false
+
+[node name="Art" type="Sprite2D" parent="Village/StoryProps/CartMoved" unique_id=827314444]
+position = Vector2(1832.5, 530.29114)
+scale = Vector2(0.56962025, 0.56962025)
+texture = SubResource("AtlasTexture_ahbj7")
+centered = false
+
+[node name="BeamFallen" type="Node2D" parent="Village/StoryProps" unique_id=1282311231]
+visible = false
+
+[node name="Art" type="Sprite2D" parent="Village/StoryProps/BeamFallen" unique_id=1470286972]
+position = Vector2(2350, 502.32)
+scale = Vector2(0.88, 0.88)
+texture = SubResource("AtlasTexture_h4ryj")
+centered = false
+
+[node name="BeamMoved" type="Node2D" parent="Village/StoryProps" unique_id=1050579744]
+visible = false
+
+[node name="Art" type="Sprite2D" parent="Village/StoryProps/BeamMoved" unique_id=764314424]
+position = Vector2(2379.454, 452)
+scale = Vector2(0.7423581, 0.7423581)
+texture = SubResource("AtlasTexture_sct3e")
+centered = false
+
+[node name="Parallax" type="Node2D" parent="." unique_id=1686916279]
+process_mode = 1
+script = ExtResource("33_i4dwi")
+
+[node name="Sky" type="Parallax2D" parent="Parallax" unique_id=479223001]
+z_index = -40
+scroll_scale = Vector2(0.12, 1)
+repeat_size = Vector2(2560, 0)
+repeat_times = 3
+
+[node name="@Sprite2D@8" type="Sprite2D" parent="Parallax/Sky" unique_id=1626130208]
+modulate = Color(0.6392157, 0.69411767, 0.69803923, 1)
+position = Vector2(0, -150)
+scale = Vector2(0.8333333, 0.8339844)
+texture = ExtResource("34_ae6k4")
+centered = false
+
+[node name="@Sprite2D@9" type="Sprite2D" parent="Parallax/Sky" unique_id=1765532288]
+modulate = Color(0.6392157, 0.69411767, 0.69803923, 1)
+position = Vector2(1280, -150)
+scale = Vector2(0.8333333, 0.8339844)
+texture = ExtResource("35_47ac2")
+centered = false
+
+[node name="ForestHorizon" type="Parallax2D" parent="Parallax" unique_id=1002758081]
+z_index = -35
+scroll_scale = Vector2(0.28, 1)
+repeat_size = Vector2(2560, 0)
+repeat_times = 3
+
+[node name="@Sprite2D@10" type="Sprite2D" parent="Parallax/ForestHorizon" unique_id=1257530118]
+modulate = Color(0.6, 0.75, 0.79, 0.8)
+material = SubResource("ShaderMaterial_0xhsp")
+position = Vector2(0, -197)
+scale = Vector2(0.8333333, 0.9)
+texture = ExtResource("34_ae6k4")
+centered = false
+
+[node name="@Sprite2D@11" type="Sprite2D" parent="Parallax/ForestHorizon" unique_id=1154663989]
+modulate = Color(0.6, 0.75, 0.79, 0.8)
+material = SubResource("ShaderMaterial_ttu4u")
+position = Vector2(1280, -197)
+scale = Vector2(0.8333333, 0.9)
+texture = ExtResource("34_ae6k4")
+centered = false
+flip_h = true
+
+[node name="DistantVillage" type="Parallax2D" parent="Parallax" unique_id=1175088655]
+z_index = -30
+scroll_scale = Vector2(0.42, 1)
+repeat_size = Vector2(3200, 0)
+repeat_times = 3
+
+[node name="@Sprite2D@12" type="Sprite2D" parent="Parallax/DistantVillage" unique_id=608989092]
+modulate = Color(0.48, 0.59, 0.63, 0.72)
+position = Vector2(0, -345)
+scale = Vector2(1.0416666, 1.0419922)
+texture = ExtResource("36_73dvv")
+centered = false
+
+[node name="@Sprite2D@13" type="Sprite2D" parent="Parallax/DistantVillage" unique_id=774531336]
+modulate = Color(0.48, 0.59, 0.63, 0.72)
+position = Vector2(1600, -345)
+scale = Vector2(1.0416666, 1.0419922)
+texture = ExtResource("36_73dvv")
+centered = false
+flip_h = true
+
+[node name="NearCanopy" type="Parallax2D" parent="Parallax" unique_id=2073045991]
+z_index = 10
+scroll_scale = Vector2(1.12, 1)
+repeat_size = Vector2(2560, 0)
+repeat_times = 3
+
+[node name="@Sprite2D@14" type="Sprite2D" parent="Parallax/NearCanopy" unique_id=1351343572]
+modulate = Color(0.6, 0.73, 0.72, 0.75)
+material = SubResource("ShaderMaterial_vcyjm")
+position = Vector2(0, -160)
+scale = Vector2(0.8333333, 0.74)
+texture = ExtResource("37_c1v68")
+centered = false
+
+[node name="@Sprite2D@15" type="Sprite2D" parent="Parallax/NearCanopy" unique_id=5677089]
+modulate = Color(0.6, 0.73, 0.72, 0.75)
+material = SubResource("ShaderMaterial_0ioro")
+position = Vector2(1280, -160)
+scale = Vector2(0.8333333, 0.74)
+texture = ExtResource("37_c1v68")
+centered = false
+
+[node name="PlayerSpawn" type="Marker2D" parent="." unique_id=706219522]
+position = Vector2(150, 590)
+
+[node name="Player" type="CharacterBody2D" parent="." unique_id=1185879407 instance=ExtResource("38_6e2g2")]
+process_mode = 1
+position = Vector2(150, 590)
+collision_layer = 2
+script = ExtResource("39_sp8mr")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=1858059241]
+position = Vector2(0, -32)
+shape = SubResource("Body")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Player" unique_id=864321771]
+position = Vector2(-3.9999998, -40)
+scale = Vector2(0.2, 0.2)
+sprite_frames = ExtResource("40_8qksy")
+animation = &"idle"
+autoplay = "idle"
+
+[node name="Camera2D" type="Camera2D" parent="Player" unique_id=2133112318]
+position = Vector2(0, -205)
+limit_left = 0
+limit_top = 0
+limit_right = 4400
+limit_bottom = 720
+position_smoothing_enabled = true

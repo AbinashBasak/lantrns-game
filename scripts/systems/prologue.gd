@@ -34,20 +34,14 @@ func _ready() -> void:
 	_setup_inputs()
 	font = ThemeDB.fallback_font
 	dialogue_data = JSON.parse_string(FileAccess.get_file_as_string("res://data/dialogue/prologue.json"))
-	village = Node2D.new()
-	village.set_script(Village)
-	village.process_mode = Node.PROCESS_MODE_PAUSABLE
-	add_child(village)
-	parallax = Node2D.new()
-	parallax.set_script(VillageParallax)
+	village = get_node("Village")
+	parallax = get_node("Parallax")
 	parallax.village = village
-	parallax.process_mode = Node.PROCESS_MODE_PAUSABLE
-	add_child(parallax)
-	player = PlayerScene.instantiate()
+	player = get_node("Player")
+	story_checkpoint = get_node("PlayerSpawn").position
 	player.position = story_checkpoint
 	player.attack_enabled = false
 	player.process_mode = Node.PROCESS_MODE_PAUSABLE
-	add_child(player)
 	player.health_changed.connect(func(_value: int): _update_hud())
 	player.died.connect(_respawn)
 	mote = Node2D.new()
@@ -62,14 +56,7 @@ func _ready() -> void:
 	presentation.process_mode = Node.PROCESS_MODE_PAUSABLE
 	add_child(presentation)
 	player.action_event.connect(presentation.cue)
-	camera = Camera2D.new()
-	camera.position = Vector2(0, -205)
-	camera.limit_left = 0
-	camera.limit_right = 4400
-	camera.limit_top = 0
-	camera.limit_bottom = 720
-	camera.position_smoothing_enabled = true
-	player.add_child(camera)
+	camera = player.get_node("Camera2D")
 	_build_ui()
 	failure_flash = ColorRect.new()
 	failure_flash.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)

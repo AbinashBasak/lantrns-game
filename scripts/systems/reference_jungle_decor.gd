@@ -1,5 +1,8 @@
+@tool
 extends RefCounted
 ## Modular cutouts from the supplied reference. Color.WHITE preserves the provided palette.
+const SceneArt = preload("res://scripts/editor/scene_art.gd")
+var building_nodes := false
 const ART := "res://assets/runtime/chapter01/reference_jungle/"
 const KEYS := ["ENV-02_background", "ENV-02_treehouse", "ENV-02_tree_arch", "ENV-02_waterfall", "OBJ-004_root_seal", "PROP-002_lantern_hanging", "PROP-002_lantern_small", "PROP-001_lantern_post", "TILE-001_ground", "TILE-003_platform", "TILE-005_vine_platform", "TILE-016_fern", "PROP-011_fern", "PROP-011_bush", "PROP-011_mushroom", "PROP-012_stump", "PROP-011_hanging_vine", "PROP-011_leaf_cluster", "PROP-011_lush_fern"]
 var textures: Dictionary = {}
@@ -20,7 +23,9 @@ func available() -> bool:
 	return textures.has("ENV-02_background")
 
 func image(target: Node2D, key: String, rect: Rect2, tint := Color.WHITE) -> void:
-	if textures.has(key): target.draw_texture_rect(textures[key], rect, false, tint)
+	if not textures.has(key): return
+	if building_nodes: SceneArt.image(target,textures[key],rect,tint)
+	else: target.draw_texture_rect(textures[key], rect, false, tint)
 
 func prop_rect(key: String, foot: Vector2, bounds: Vector2) -> Rect2:
 	if not textures.has(key): return Rect2(foot, Vector2.ZERO)
@@ -85,27 +90,27 @@ func draw_terrain(target: Node2D, rect: Rect2) -> void:
 	else:
 		# Source modules have rounded alpha edges. Interior rock slices cover the
 		# floor continuously; the grass silhouette is sampled only on the top row.
-		target.draw_rect(rect,ground_color)
+		_rect(target,rect,ground_color)
 		var tile_width := 192.0
 		for x in range(int(rect.position.x),int(rect.end.x),int(tile_width)):
 			var width := minf(tile_width,rect.end.x-x)
 			var source_width := (tex.get_width()-24)*width/tile_width
-			target.draw_texture_rect_region(tex,Rect2(x,rect.position.y-8,width+0.5,110),Rect2(12,0,source_width,tex.get_height()-12))
+			_region(target,tex,Rect2(x,rect.position.y-8,width+0.5,110),Rect2(12,0,source_width,tex.get_height()-12))
 			for y in range(int(rect.position.y+94),int(rect.end.y),72):
 				var height := minf(73,rect.end.y-y)
-				target.draw_texture_rect_region(tex,Rect2(x,y,width+0.5,height),Rect2(12,48,source_width,(tex.get_height()-60)*height/73))
+				_region(target,tex,Rect2(x,y,width+0.5,height),Rect2(12,48,source_width,(tex.get_height()-60)*height/73))
 
 func _draw_capped(target: Node2D, tex: Texture2D, dest: Rect2, height: float) -> void:
 	var scale := height/tex.get_height()
 	var cap := minf(32.0,dest.size.x*0.25)
 	var source_cap := cap/scale
-	target.draw_texture_rect_region(tex,Rect2(dest.position,Vector2(cap,height)),Rect2(0,0,source_cap,tex.get_height()))
-	target.draw_texture_rect_region(tex,Rect2(dest.end.x-cap,dest.position.y,cap,height),Rect2(tex.get_width()-source_cap,0,source_cap,tex.get_height()))
+	_region(target,tex,Rect2(dest.position,Vector2(cap,height)),Rect2(0,0,source_cap,tex.get_height()))
+	_region(target,tex,Rect2(dest.end.x-cap,dest.position.y,cap,height),Rect2(tex.get_width()-source_cap,0,source_cap,tex.get_height()))
 	var center_width := maxf(1.0,(tex.get_width()-2*source_cap)*scale)
 	var x := dest.position.x+cap
 	while x < dest.end.x-cap-0.01:
 		var width := minf(center_width,dest.end.x-cap-x)
-		target.draw_texture_rect_region(tex,Rect2(x,dest.position.y,width,height),Rect2(source_cap,0,width/scale,tex.get_height()))
+		_region(target,tex,Rect2(x,dest.position.y,width,height),Rect2(source_cap,0,width/scale,tex.get_height()))
 		x += width
 
 func foliage_layout(platforms: Array) -> Array[Dictionary]:
@@ -160,3 +165,32 @@ func draw_gate(target: Node2D, gate_x: float, opened: bool) -> void:
 		# A small stump and foliage replace the closed door: the route is visibly open.
 		prop(target,"PROP-012_stump",Vector2(gate_x-88,620),Vector2(68,78))
 		prop(target,"PROP-011_fern",Vector2(gate_x+95,620),Vector2(72,52))
+
+# The same layout produces saved, selectable nodes and the legacy drawing fallback.
+func build_architecture(target: Node2D, platforms: Array) -> void:
+	building_nodes = true
+	draw_architecture(target,platforms)
+	building_nodes = false
+
+func build_terrain(target: Node2D, bounds: Rect2) -> void:
+	building_nodes = true
+	draw_terrain(target,bounds)
+	building_nodes = false
+
+func build_foliage(target: Node2D, platforms: Array) -> void:
+	building_nodes = true
+	draw_foliage(target,platforms)
+	building_nodes = false
+
+func build_lanterns(target: Node2D, platforms: Array, width: float) -> void:
+	building_nodes = true
+	draw_lanterns(target,platforms,width)
+	building_nodes = false
+
+func _rect(target: Node2D, bounds: Rect2, color: Color) -> void:
+	if building_nodes: SceneArt.rect(target,bounds,color)
+	else: target.draw_rect(bounds,color)
+
+func _region(target: Node2D, texture: Texture2D, bounds: Rect2, source: Rect2) -> void:
+	if building_nodes: SceneArt.region(target,texture,bounds,source)
+	else: target.draw_texture_rect_region(texture,bounds,source)

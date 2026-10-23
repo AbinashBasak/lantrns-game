@@ -11,12 +11,7 @@ var clock: float = 0.0
 
 func _ready() -> void:
 	add_to_group("enemies")
-	sprite = AnimatedSprite2D.new()
-	sprite.sprite_frames = Generated.frames_from_manifest(ROOTLING_PACK)
-	sprite.centered = false
-	sprite.offset = Vector2(-256, -480)
-	sprite.scale = Vector2.ONE * 0.18
-	add_child(sprite)
+	sprite = get_node("AnimatedSprite2D")
 	sprite.play("idle")
 
 var state := "idle"

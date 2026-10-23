@@ -33,12 +33,7 @@ var sprite: AnimatedSprite2D
 func _ready() -> void:
 	collision_layer = 4
 	collision_mask = 1
-	sprite = AnimatedSprite2D.new()
-	sprite.sprite_frames = Generated.frames_from_manifest(PACK)
-	sprite.centered = false
-	sprite.offset = Vector2(-256, -480)
-	sprite.scale = Vector2(-0.40, 0.40)
-	add_child(sprite)
+	sprite = get_node("AnimatedSprite2D")
 	_play("idle")
 	sprite.set_frame_and_progress(0, 0)
 	sprite.pause()
