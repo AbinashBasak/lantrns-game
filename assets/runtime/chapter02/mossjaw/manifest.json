@@ -1,0 +1,181 @@
+{
+  "identity": "Mossjaw \u2014 Chapter 2 orchard guardian",
+  "provenance": "New built-in image_gen output, mechanically split and feet-aligned. Six illustrated poses; charge has two distinct stride frames. Single-pose idle/recovery are held, not claimed full animations. Slam reuses anticipation and bowed recovery; bespoke slam animation remains pending. Added nine dedicated poses for three new attack clips; original six-pose sources/frames preserved.",
+  "animations": {
+    "idle": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_idle.png",
+          "sha256": "bac40f97f523c8b6107d953c831ed090cdbab99285cf663318d704c62beefed2"
+        }
+      ],
+      "durations_ms": [
+        500
+      ],
+      "loop": true,
+      "pivot_px": [
+        280,
+        520
+      ]
+    },
+    "windup": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_windup.png",
+          "sha256": "fb1311e59eda8bd1a199dada23e578347186ea1efa93be53143e65c43e969cbc"
+        }
+      ],
+      "durations_ms": [
+        500
+      ],
+      "loop": false,
+      "pivot_px": [
+        280,
+        520
+      ]
+    },
+    "charge": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_charge_a.png",
+          "sha256": "3ccb34623a66cd0742e2fd5757b22162c67e1ae8817229303b33303a10e4de63"
+        },
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_charge_b.png",
+          "sha256": "21c3d638ea8a45afab0f35435d6e9043f1a6ff2ba30e5f30cc0e87dacc76c372"
+        }
+      ],
+      "durations_ms": [
+        140,
+        140
+      ],
+      "loop": true,
+      "pivot_px": [
+        280,
+        520
+      ]
+    },
+    "slam": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_windup.png",
+          "sha256": "fb1311e59eda8bd1a199dada23e578347186ea1efa93be53143e65c43e969cbc"
+        },
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_recover.png",
+          "sha256": "be36da251397bb84bccf6f0e985bf6761b5b0ffec6f368f2c4e339a2df6930ac"
+        }
+      ],
+      "durations_ms": [
+        140,
+        140
+      ],
+      "loop": false,
+      "pivot_px": [
+        280,
+        520
+      ]
+    },
+    "recover": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_recover.png",
+          "sha256": "be36da251397bb84bccf6f0e985bf6761b5b0ffec6f368f2c4e339a2df6930ac"
+        }
+      ],
+      "durations_ms": [
+        500
+      ],
+      "loop": true,
+      "pivot_px": [
+        280,
+        520
+      ]
+    },
+    "defeat": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_defeat.png",
+          "sha256": "d3dd9220f6a375e649f9daa364c9bd709afb27f313a427119d34b67dc5749379"
+        }
+      ],
+      "durations_ms": [
+        500
+      ],
+      "loop": false,
+      "pivot_px": [
+        280,
+        520
+      ]
+    },
+    "claw": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_attack_00.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_attack_01.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_attack_02.png"
+        }
+      ],
+      "durations_ms": [
+        180,
+        180,
+        240
+      ],
+      "loop": false,
+      "pivot_px": [
+        280,
+        520
+      ]
+    },
+    "eruption": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_attack_03.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_attack_04.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_attack_05.png"
+        }
+      ],
+      "durations_ms": [
+        180,
+        180,
+        240
+      ],
+      "loop": false,
+      "pivot_px": [
+        280,
+        520
+      ]
+    },
+    "volley": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_attack_06.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_attack_07.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_attack_08.png"
+        }
+      ],
+      "durations_ms": [
+        180,
+        180,
+        240
+      ],
+      "loop": false,
+      "pivot_px": [
+        280,
+        520
+      ]
+    }
+  }
+}

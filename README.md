@@ -1,5 +1,21 @@
 # Lanterns Underroot
 
+## Current chapter progress
+
+Godot 4.7.2 illustrated action-adventure. F5 opens the shared title and Chapter 1. Chapter 1 completion now offers **Continue to Briarwake** for Chapter 2.
+
+Open `scenes/levels/chapter02_briarwake.tscn` and press **F6** to start Chapter 2 directly. It includes four mandatory jungle expeditions (including two generated underground regions), three grove bindings, 38 regular enemy placements, five Mossjaw attack patterns, points, chest rewards and Sable's warning. Chapter 1 points and sword upgrades carry forward. See [the expansion](docs/chapter02-expansion.md). Existing illustrated assets and the original health HUD are preserved. The newly generated Mossjaw pose set is an initial animation pass; final art/animation approval remains pending.
+
+Move with A/D or arrows, jump with Space, attack with J/X, interact with E, and pause with Escape. Controller and touch controls use the same actions.
+
+See [Chapter 2 implementation](docs/chapter02-implementation.md), [Chapter 1 details](docs/chapter01-implementation.md), [campaign plan](docs/lanterns_underroot_chapters.md), and [project memory](docs/project-memory.md).
+
+Run `tools/test.command` for the initial smoke suite. Chapter-specific suites are `tests/chapter01_test.gd` and `tests/chapter02_test.gd`, run with Godot's `--headless --path . --script res://tests/<name>.gd`. Standalone Windows/Android builds and physical-device verification remain pending.
+
+## Original prototype reference
+
+The following notes describe the initial `scenes/main/main.tscn` regression scene; current chapter progress is documented above.
+
 Godot 4.7.2 · GDScript · Illustrated 2D action-adventure · Initial playable setup
 
 Open `project.godot` in Godot and press **F6** with `scenes/main/main.tscn` selected, or **F5** to run the project. Choose **Begin the trail** or press Enter.

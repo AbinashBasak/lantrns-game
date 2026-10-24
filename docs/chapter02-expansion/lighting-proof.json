@@ -1,0 +1,10 @@
+{
+	"changed_top_left_including_world_pixels_400x180": 587,
+	"changed_world_pixels_below_220": 173923,
+	"method": "Identical frozen frame, PointLight2D enabled versus disabled; ambient and UI nodes frozen. Region differences include background visible between HUD panels; they do not isolate opaque UI pixels.",
+	"source_count": 19,
+	"viewport": [
+		1280,
+		720
+	]
+}

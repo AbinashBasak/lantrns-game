@@ -1,0 +1,18 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+PASS Five lives each begin with full health
+PASS Rootling hit removes health, preserving life
+PASS Recovery immunity prevents repeated damage
+PASS Stronger swipe removes forty health
+PASS Empty health costs exactly one life and refills bar
+PASS Invalid negative damage cannot heal or cost lives
+PASS Final empty health bar emits death once
+PASS Already defeated player cannot emit repeated death
+PASS Checkpoint reset restores lives and health safely
+PASS Sword begins at generated anticipation frame
+PASS Recovery input buffers next sword swing
+PASS Buffered follow-up uses second combo tempo
+PASS Respawn clears attack combo state
+Health combat: 13 checks; 0 failures

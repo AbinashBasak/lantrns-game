@@ -1,0 +1,22 @@
+{
+	"captures": [
+		"res://docs/chapter02-expansion/01-title.png",
+		"res://docs/chapter02-expansion/02-orchard.png",
+		"res://docs/chapter02-expansion/03-jungle-1.png",
+		"res://docs/chapter02-expansion/03-jungle-2.png",
+		"res://docs/chapter02-expansion/03-jungle-3.png",
+		"res://docs/chapter02-expansion/03-jungle-4.png",
+		"res://docs/chapter02-expansion/04-mossjaw-charge.png",
+		"res://docs/chapter02-expansion/04-mossjaw-eruption.png",
+		"res://docs/chapter02-expansion/04-mossjaw-sweep.png",
+		"res://docs/chapter02-expansion/04-mossjaw-volley.png",
+		"res://docs/chapter02-expansion/04-mossjaw-claw.png",
+		"res://docs/chapter02-expansion/05-binding-recovery.png",
+		"res://docs/chapter02-expansion/06-mossjaw-chest.png",
+		"res://docs/chapter02-expansion/07-orchard-charm.png",
+		"res://docs/chapter02-expansion/08-anchor-fragment.png",
+		"res://docs/chapter02-expansion/09-completion.png"
+	],
+	"note": "Real runtime scenery, generated species, live HUD and five guardian attack poses. Capture placement/progression are staged; behavior is checked separately by chapter02_expansion_test.gd.",
+	"scene": "chapter02_briarwake"
+}

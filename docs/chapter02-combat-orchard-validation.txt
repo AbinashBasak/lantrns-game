@@ -1,0 +1,56 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+PASS: Chapter 2 launches with its own title
+PASS: Orchard title cannot accidentally launch Chapter 1
+PASS: Intro disables movement and attack
+PASS: Orchard spawn settles on terrain
+PASS: Remote interaction cannot skip grove traversal
+PASS: Climbing grove first ledge is reachable
+PASS: First binding ledge is reachable
+PASS: Actual interact input cuts elevated binding
+PASS: Unbinding releases the grove enemy
+PASS: Moving root carries a standing player across the ravine
+PASS: First moving-root crossing reaches the far bank
+PASS: Pause freezes moving roots
+PASS: All three independent grove bindings can be released
+PASS: Second irrigation gap is crossable using its moving root
+PASS: Repeated guidance does not restart its timer
+PASS: Orchard checkpoint activates after traversal
+PASS: Checkpoint activation preserves current lives and vitality
+PASS: Voice memory opens the guardian passage
+PASS: Guardian enters with a skippable tutorial
+PASS: Guardian encounter closes its entrance
+PASS: Guardian body takes sword damage outside recovery
+PASS: Charge warning locks its direction before Tavi moves
+PASS: Pause freezes guardian attack timing
+PASS: Actual player sword hits illustrated guardian once from the left
+PASS: Frontal sword damage reaches guardian body
+PASS: Weakening guardian to nine health opens optional column stage
+PASS: Three nearby column strikes expose the parasite
+PASS: Death resets guardian strength and column for a fair retry
+PASS: Checkpoint retry preserves all grove and story progress
+PASS: Retry restores Tavi at orchard checkpoint
+PASS: Retry starts boss without replaying tutorial
+PASS: Weakened living guardian supports optional binding rescue
+PASS: Binding cut is blocked outside recovery
+PASS: Three recovery-window cuts free Mossjaw
+PASS: Freed guardian opens exit and ceases being a sword target
+PASS: Fragment is required before the chapter ending
+PASS: Anchor fragment grants the orchard memory
+PASS: Sable warning completes Chapter 2
+PASS: Restart clears Chapter 2 session progression
+PASS: Restart returns to Chapter 2 title
+PASS: Chapter 1 continuation starts Chapter 2 directly
+CHAPTER 2 TEST: PASS (41 checks, 0 failures)
+WARNING: 1336 RIDs of type "CanvasItem" were leaked.
+   at: _free_rids (servers/rendering/renderer_canvas_cull.cpp:2735)
+WARNING: 1706 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 211 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)
+ERROR: 46 RID allocations of type 'P11GodotBody2D' were leaked at exit.
+ERROR: 49 RID allocations of type 'P12GodotShape2D' were leaked at exit.
+ERROR: 8 RID allocations of type 'N13RendererDummy9DummyMeshE' were leaked at exit.
+ERROR: 159 RID allocations of type 'PN13RendererDummy14TextureStorage12DummyTextureE' were leaked at exit.

@@ -1,0 +1,265 @@
+{
+  "scene": "res://scenes/levels/chapter02_briarwake.tscn",
+  "source_metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/LATE-001_expansion_metadata.json",
+  "runtime_files": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/environment/LATE-001_underground_background.png",
+      "sha256": "1f503dec3da18af45da765d89f9207431bcba69d1efa5e6be2322b81e2f7cd6e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_underground_background.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/environment/LATE-001_grotto_background.png",
+      "sha256": "b0096604bb058da5047d6d61c2fbccc0a566812cb07b7a1b9e790cef546adbdf",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_grotto_background.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/enemies/thornrunner/LATE-001_thornrunner_00.png",
+      "sha256": "b30eecec0bc1b1a4b6f4edce014ac6001533f253ac8086a541a1ceab0834cdc7",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_thornrunner_00.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/enemies/thornrunner/LATE-001_thornrunner_01.png",
+      "sha256": "3c900bdff54296f705b4abeb4e1ac0e1b06017a24fd89963b7263fdef2c3f5d8",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_thornrunner_01.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/enemies/thornrunner/LATE-001_thornrunner_02.png",
+      "sha256": "df67a3bb2fa400111e3af7e696b066a5f29887b8d3c31e3f5a5126db4c3e3814",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_thornrunner_02.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/enemies/thornrunner/LATE-001_thornrunner_03.png",
+      "sha256": "b698021163ff8d79ee0f2b5bdb9b036870d213ffaf0b5cc0adc9b781473b7746",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_thornrunner_03.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/enemies/sporespitter/LATE-001_sporespitter_00.png",
+      "sha256": "a9ceb7fdd54c69f5e53a5fbd156f8ea8dde35a7ed2c381ac8b606e556fc57a61",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_sporespitter_00.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/enemies/sporespitter/LATE-001_sporespitter_01.png",
+      "sha256": "bcd00682a2f10d79eb307133df33849e259a333b16f02cb0e01e6dc447beb02e",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_sporespitter_01.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/enemies/sporespitter/LATE-001_sporespitter_02.png",
+      "sha256": "0bb4a93762ad8456d5ef027bc9b151b9209ad3935ff10afbd38b68aa859106db",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_sporespitter_02.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/enemies/sporespitter/LATE-001_sporespitter_03.png",
+      "sha256": "aa86f0aa507464db48c2582e2063466a41c80d01a6b77c0a23c04e289e8eb4e5",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_sporespitter_03.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/enemies/lantern_moth/LATE-001_lantern_moth_00.png",
+      "sha256": "1f1ecb4d25d52e5b78dbc9dd5f77c7ab78e9a5af5f28b593f2dac90290b52d95",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_lantern_moth_00.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/enemies/lantern_moth/LATE-001_lantern_moth_01.png",
+      "sha256": "c41c049e1fd411c69eb4db10911851be7d676dcffd6d737e04c261b18dbbce86",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_lantern_moth_01.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/enemies/lantern_moth/LATE-001_lantern_moth_02.png",
+      "sha256": "c2f42dbe8660e94646f6089024042a8574ff20f95113b45f47fa0611accbd17d",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_lantern_moth_02.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/enemies/lantern_moth/LATE-001_lantern_moth_03.png",
+      "sha256": "53bcc049900b507266d4a82161117addbed2d4a09a916684dbd9470687f5ba8c",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_lantern_moth_03.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_attack_00.png",
+      "sha256": "6a55c1dc0511cbb9a9852bf6ddf5c5678a831332df01c8971d71d797384ad163",
+      "dimensions": [
+        560,
+        560
+      ],
+      "mode": "RGBA",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_mossjaw_attack_00.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_attack_01.png",
+      "sha256": "c0d91013229818ad4cb2d39d5f69ce64d22c8d924edeca4ef1c824d5e4087b72",
+      "dimensions": [
+        560,
+        560
+      ],
+      "mode": "RGBA",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_mossjaw_attack_01.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_attack_02.png",
+      "sha256": "8e58d3ae038fc66bfdff893cbb0332df3fb97142c6ae9c6837d03af66be2c64b",
+      "dimensions": [
+        560,
+        560
+      ],
+      "mode": "RGBA",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_mossjaw_attack_02.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_attack_03.png",
+      "sha256": "5d7a49765c3ed239f74125a8086d7a764f6693c79898d8b937b5d7e99611dd04",
+      "dimensions": [
+        560,
+        560
+      ],
+      "mode": "RGBA",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_mossjaw_attack_03.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_attack_04.png",
+      "sha256": "c583f91560eb09ae602da90e4be96cc9f8a61180a7a03867c2036eab1382a7ac",
+      "dimensions": [
+        560,
+        560
+      ],
+      "mode": "RGBA",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_mossjaw_attack_04.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_attack_05.png",
+      "sha256": "1bda6b6f2afba71a7ae4cc61addd53a5566d98ecef9c6dc0bc7a5f4f38dd7b73",
+      "dimensions": [
+        560,
+        560
+      ],
+      "mode": "RGBA",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_mossjaw_attack_05.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_attack_06.png",
+      "sha256": "9ff95d4d90d5477a11acdac9aa0de76d088f058693f59dea8005ab16de9be054",
+      "dimensions": [
+        560,
+        560
+      ],
+      "mode": "RGBA",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_mossjaw_attack_06.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_attack_07.png",
+      "sha256": "e5612bd5e4ebf82ef867daa0ca128e662a9cd9745f0a61effcc6accfe2867834",
+      "dimensions": [
+        560,
+        560
+      ],
+      "mode": "RGBA",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_mossjaw_attack_07.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_attack_08.png",
+      "sha256": "54bdc83d51b4e7000a13e5cb59e65a0ebab605d6f1e5b4a44e945ee9dbcbd8fb",
+      "dimensions": [
+        560,
+        560
+      ],
+      "mode": "RGBA",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_mossjaw_attack_08.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/mossjaw/LATE-001_root_spike.png",
+      "sha256": "51de47c4384ee98067fd2f07ba975964f43165de280994c02bd5ad43870a35e5",
+      "dimensions": [
+        592,
+        755
+      ],
+      "mode": "RGBA",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_root_spike.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/mossjaw/LATE-001_seed_pod.png",
+      "sha256": "8aad971c55e83c0c9af3f25be4515bb0dab47e3a3b5765e7a961859bdebfd88e",
+      "dimensions": [
+        632,
+        431
+      ],
+      "mode": "RGBA",
+      "source_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_seed_pod.png"
+    }
+  ],
+  "existing_style_sources": [
+    "res://scripts/ui/encounter_hud.gd",
+    "res://assets/runtime/shared/ui/",
+    "res://assets/runtime/chapter01/reference_jungle/",
+    "res://assets/runtime/chapter01/rewards/",
+    "res://assets/runtime/chapter01/ui/UI-016_exact_title_menu.png",
+    "res://assets/runtime/chapter01/ui/UI-023_completion_popup.png"
+  ],
+  "release_approved": false
+}

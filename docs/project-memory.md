@@ -12,6 +12,8 @@ Updated 2026-10-21. This file stores user decisions and validated lighting/asset
 - Treehouses/arches need visible support: complete roots on actual terrain or structurally attached to an authored tree/branch. No floating houses, visibly cut-off rectangular bases, or decoration that implies an unreachable gameplay platform.
 - Keep foliage dense and natural without covering Tavi's silhouette, hazards or landing surfaces. Repeat modular plants, not entire flattened game screens. Level gaps and jumps must be verified against actual player speed, jump impulse and gravity.
 
+- Chapter 2 user correction (2026-10-24): use existing styles and actual game assets; never substitute dummy geometry or unrelated enemy artwork. User explicitly authorized creating missing Mossjaw artwork now. LATE-001 stores both generated sources and the selected six-pose set; full pack/final art approval remains pending.
+
 ## Lighting knowledge
 
 Personal skill installed at `/Users/abinashbasak/.codex/skills/godot-2d-lighting/SKILL.md`; read its focused reference notes for future lighting work.
@@ -35,3 +37,16 @@ Official research references:
 ## Archive and verification
 
 Follow the root AGENTS.md asset workflow. Preserve source images unchanged and older generations, use existing registered asset-ID folders, label crops/alpha cleanup/generated replacements separately, record source hashes and runtime dimensions, and coordinate checklist/registry writes through the primary agent. The master checklist and project copy must match. Existing checkboxes and final approval flags are separate from runtime integration.
+
+## Chapter 2 expansion decisions — 2026-10-24
+
+- User requested longer Chapter 2, connected campaign, more enemies/puzzles/missions, generated enemy variants and underground scenes, additional Mossjaw attacks/animations, boss health bar, points/rewards and latest Chapter 1 UI throughout.
+- Chapter 2 now reuses Chapter 1 objective/feedback/points/guidance/keycap/completion/title artwork; preserve these and the unchanged hearts/vitality on future work. Four 4,800px expedition scenes are required before Mossjaw. New sources remain archived in LATE-001; generation does not imply final user approval.
+
+## Combat corrections — 2026-10-24
+
+- User rejects boss continuing after an empty health bar: Mossjaw must immediately end its encounter and grant the normal reward at zero. Column/binding rescue is optional, never a hidden additional condition after zero HP.
+- Sword hit detection follows the visible body, from either side and at jump height. Keep Tavi in front of large enemy art for readability.
+- Same-chapter scene/area handoffs and checkpoint activation preserve current hearts/vitality. Only actual death/retry or explicit healing rewards restore health.
+- All new species must visibly anticipate/strike/recover; ranged throws solve an arc to the locked player body position and remain dodgeable, without homing.
+- Combat camera shake stays bounded and clears on pause/dialogue/reduced effects. Projectile loops must tolerate synchronous player death resetting/clearing hazards mid-hit.

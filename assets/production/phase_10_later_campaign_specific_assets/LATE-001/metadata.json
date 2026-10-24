@@ -1,0 +1,492 @@
+{
+  "asset_id": "LATE-001",
+  "title": "Briarwake orchard pack, Mossjaw, and root-stone",
+  "stage": "Expanded Chapter2 integrated: three enemy variants, two underground scenes, nine additional Mossjaw attack poses and actual root/seed hazards. Full LATE-001 release approval remains pending.",
+  "release_approved": false,
+  "source_message_ids": null,
+  "source_provenance": "Unchanged built-in image_gen outputs; not downloaded originals. Generation01 archived as rejected crowded layout. Generation02 selected after visual review.",
+  "source_images": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/source_images/LATE-001_mossjaw_generation_01.png",
+      "sha256": "e45711505454ac4784a8054172fa678260d506fc680d8e2f8c290c8132339ee9",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a16a57-3876-7010-9dfd-afd93830a6f5/exec-bb0f52c1-4b1c-4401-999e-f6f877f6f833.png"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/source_images/LATE-001_mossjaw_generation_02.png",
+      "sha256": "f63b12227fe81b1a7c2fa646daddeb5559f628817d22152252da964a2d73ad30",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a16a57-3876-7010-9dfd-afd93830a6f5/exec-825bc4e7-3d61-4c8f-a559-85ff3731e276.png"
+    }
+  ],
+  "frames": [
+    {
+      "pose": "idle",
+      "source_cell": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "source_visible_bbox_alpha64": [
+        37,
+        98,
+        485,
+        447
+      ],
+      "vertical_alignment_shift": 73,
+      "file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_mossjaw_idle.png",
+        "sha256": "bac40f97f523c8b6107d953c831ed090cdbab99285cf663318d704c62beefed2",
+        "dimensions": [
+          560,
+          560
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          254
+        ]
+      },
+      "runtime": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_idle.png",
+        "sha256": "bac40f97f523c8b6107d953c831ed090cdbab99285cf663318d704c62beefed2",
+        "dimensions": [
+          560,
+          560
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          254
+        ]
+      }
+    },
+    {
+      "pose": "windup",
+      "source_cell": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "source_visible_bbox_alpha64": [
+        28,
+        156,
+        482,
+        445
+      ],
+      "vertical_alignment_shift": 75,
+      "file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_mossjaw_windup.png",
+        "sha256": "fb1311e59eda8bd1a199dada23e578347186ea1efa93be53143e65c43e969cbc",
+        "dimensions": [
+          560,
+          560
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          254
+        ]
+      },
+      "runtime": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_windup.png",
+        "sha256": "fb1311e59eda8bd1a199dada23e578347186ea1efa93be53143e65c43e969cbc",
+        "dimensions": [
+          560,
+          560
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          254
+        ]
+      }
+    },
+    {
+      "pose": "charge_a",
+      "source_cell": [
+        0,
+        512,
+        530,
+        1024
+      ],
+      "source_visible_bbox_alpha64": [
+        21,
+        84,
+        514,
+        427
+      ],
+      "vertical_alignment_shift": 93,
+      "file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_mossjaw_charge_a.png",
+        "sha256": "3ccb34623a66cd0742e2fd5757b22162c67e1ae8817229303b33303a10e4de63",
+        "dimensions": [
+          560,
+          560
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          254
+        ]
+      },
+      "runtime": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_charge_a.png",
+        "sha256": "3ccb34623a66cd0742e2fd5757b22162c67e1ae8817229303b33303a10e4de63",
+        "dimensions": [
+          560,
+          560
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          254
+        ]
+      }
+    },
+    {
+      "pose": "charge_b",
+      "source_cell": [
+        530,
+        512,
+        1024,
+        1024
+      ],
+      "source_visible_bbox_alpha64": [
+        8,
+        97,
+        480,
+        432
+      ],
+      "vertical_alignment_shift": 88,
+      "file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_mossjaw_charge_b.png",
+        "sha256": "21c3d638ea8a45afab0f35435d6e9043f1a6ff2ba30e5f30cc0e87dacc76c372",
+        "dimensions": [
+          560,
+          560
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          254
+        ]
+      },
+      "runtime": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_charge_b.png",
+        "sha256": "21c3d638ea8a45afab0f35435d6e9043f1a6ff2ba30e5f30cc0e87dacc76c372",
+        "dimensions": [
+          560,
+          560
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          254
+        ]
+      }
+    },
+    {
+      "pose": "recover",
+      "source_cell": [
+        0,
+        1024,
+        512,
+        1536
+      ],
+      "source_visible_bbox_alpha64": [
+        41,
+        65,
+        509,
+        411
+      ],
+      "vertical_alignment_shift": 109,
+      "file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_mossjaw_recover.png",
+        "sha256": "be36da251397bb84bccf6f0e985bf6761b5b0ffec6f368f2c4e339a2df6930ac",
+        "dimensions": [
+          560,
+          560
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          254
+        ]
+      },
+      "runtime": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_recover.png",
+        "sha256": "be36da251397bb84bccf6f0e985bf6761b5b0ffec6f368f2c4e339a2df6930ac",
+        "dimensions": [
+          560,
+          560
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          254
+        ]
+      }
+    },
+    {
+      "pose": "defeat",
+      "source_cell": [
+        512,
+        1024,
+        1024,
+        1536
+      ],
+      "source_visible_bbox_alpha64": [
+        32,
+        35,
+        477,
+        417
+      ],
+      "vertical_alignment_shift": 103,
+      "file": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/exports/LATE-001_mossjaw_defeat.png",
+        "sha256": "d3dd9220f6a375e649f9daa364c9bd709afb27f313a427119d34b67dc5749379",
+        "dimensions": [
+          560,
+          560
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          254
+        ]
+      },
+      "runtime": {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_defeat.png",
+        "sha256": "d3dd9220f6a375e649f9daa364c9bd709afb27f313a427119d34b67dc5749379",
+        "dimensions": [
+          560,
+          560
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          254
+        ]
+      }
+    }
+  ],
+  "animation_timing": {
+    "idle": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_idle.png",
+          "sha256": "bac40f97f523c8b6107d953c831ed090cdbab99285cf663318d704c62beefed2"
+        }
+      ],
+      "durations_ms": [
+        500
+      ],
+      "loop": true,
+      "pivot_px": [
+        280,
+        520
+      ]
+    },
+    "windup": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_windup.png",
+          "sha256": "fb1311e59eda8bd1a199dada23e578347186ea1efa93be53143e65c43e969cbc"
+        }
+      ],
+      "durations_ms": [
+        500
+      ],
+      "loop": false,
+      "pivot_px": [
+        280,
+        520
+      ]
+    },
+    "charge": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_charge_a.png",
+          "sha256": "3ccb34623a66cd0742e2fd5757b22162c67e1ae8817229303b33303a10e4de63"
+        },
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_charge_b.png",
+          "sha256": "21c3d638ea8a45afab0f35435d6e9043f1a6ff2ba30e5f30cc0e87dacc76c372"
+        }
+      ],
+      "durations_ms": [
+        140,
+        140
+      ],
+      "loop": true,
+      "pivot_px": [
+        280,
+        520
+      ]
+    },
+    "slam": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_windup.png",
+          "sha256": "fb1311e59eda8bd1a199dada23e578347186ea1efa93be53143e65c43e969cbc"
+        },
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_recover.png",
+          "sha256": "be36da251397bb84bccf6f0e985bf6761b5b0ffec6f368f2c4e339a2df6930ac"
+        }
+      ],
+      "durations_ms": [
+        140,
+        140
+      ],
+      "loop": false,
+      "pivot_px": [
+        280,
+        520
+      ]
+    },
+    "recover": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_recover.png",
+          "sha256": "be36da251397bb84bccf6f0e985bf6761b5b0ffec6f368f2c4e339a2df6930ac"
+        }
+      ],
+      "durations_ms": [
+        500
+      ],
+      "loop": true,
+      "pivot_px": [
+        280,
+        520
+      ]
+    },
+    "defeat": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter02/mossjaw/LATE-001_mossjaw_defeat.png",
+          "sha256": "d3dd9220f6a375e649f9daa364c9bd709afb27f313a427119d34b67dc5749379"
+        }
+      ],
+      "durations_ms": [
+        500
+      ],
+      "loop": false,
+      "pivot_px": [
+        280,
+        520
+      ]
+    }
+  },
+  "runtime_manifest": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/runtime/chapter02/mossjaw/manifest.json",
+  "review_notes": [
+    "Matches established illustrated bark/moss/amber palette; no vector stand-in.",
+    "New character design requires final user art approval.",
+    "Pose set and two-frame run are not a full production animation pack.",
+    "No checklist completion inferred for the broader LATE-001 bundle."
+  ],
+  "preview_paths": [
+    "assets/production/phase_10_later_campaign_specific_assets/LATE-001/previews/LATE-001_mossjaw_alpha_review.jpg"
+  ],
+  "prompt_file": "assets/production/phase_10_later_campaign_specific_assets/LATE-001/LATE-001_generation_prompts.json",
+  "expansion_metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/LATE-001_expansion_metadata.json",
+  "expansion_prompt_file": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/LATE-001_expansion_prompts.json",
+  "additional_source_images": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/source_images/LATE-001_mossjaw_attacks_generation_01.png",
+      "sha256": "780f1bd6c06d0b32097672eab71e2e9b9d079681fdb09116967a3a7879744261",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a16a57-3876-7010-9dfd-afd93830a6f5/exec-6d058035-a5c1-47be-9216-8113f8f54012.png",
+      "provenance": "unchanged built-in image_gen output; not a downloaded original"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/source_images/LATE-001_underground_background_generation_01.png",
+      "sha256": "d72a3daf4713e712629fabdc209c5690d8c0dbe710648c287cd8c689a19f19a5",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a16a57-3876-7010-9dfd-afd93830a6f5/exec-f64386d1-d08a-43fa-b683-d3ea48a38a4e.png",
+      "provenance": "unchanged built-in image_gen output; not a downloaded original"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/source_images/LATE-001_thornrunner_generation_01.png",
+      "sha256": "11242e1e8a86aefefb0a1aa020dd74c77efbffb661b155cd628f64e5113ee4ad",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a16a57-3876-7010-9dfd-afd93830a6f5/exec-8bde58a6-beed-4af9-855a-1ad875c44422.png",
+      "provenance": "unchanged built-in image_gen output; not a downloaded original"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/source_images/LATE-001_sporespitter_generation_01.png",
+      "sha256": "a8a5d6251d782d7475d4597025518452ca813819000af5c1eaa7cd50f529aa99",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a16a57-3876-7010-9dfd-afd93830a6f5/exec-e3a706c6-3757-4d9b-be7c-67a227e1aba4.png",
+      "provenance": "unchanged built-in image_gen output; not a downloaded original"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/source_images/LATE-001_lantern_moth_generation_01.png",
+      "sha256": "c2a20905ce954eb48ae12bcd3eb0d73211660fe56bd6e6f0d4cf596824ac039d",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a16a57-3876-7010-9dfd-afd93830a6f5/exec-5972377e-6f2a-4d39-ae00-91233b52b83a.png",
+      "provenance": "unchanged built-in image_gen output; not a downloaded original"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/source_images/LATE-001_grotto_background_generation_01.png",
+      "sha256": "1256bd69a5d7bac66ae93f00158f6347215437344c60e3b95ae04fa693c8805b",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a16a57-3876-7010-9dfd-afd93830a6f5/exec-155ef9d1-92b4-4df3-be2e-7819b9a27b1b.png",
+      "provenance": "unchanged built-in image_gen output; not a downloaded original"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_10_later_campaign_specific_assets/LATE-001/source_images/LATE-001_boss_fx_generation_01.png",
+      "sha256": "5a000638ea2fb1f7dc899d8f6fb47ef77e96ed7d162f3a757e1470d5038c593b",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "generation_path": "/Users/abinashbasak/.codex/generated_images/01a16a57-3876-7010-9dfd-afd93830a6f5/exec-586190bb-c48a-4afc-b25b-c7fc94e38b26.png",
+      "provenance": "unchanged built-in image_gen output; not a downloaded original"
+    }
+  ]
+}

@@ -71,7 +71,7 @@ func _picture(parent: Node, name: String, bounds: Rect2) -> TextureRect:
 	return image
 
 func _install() -> void:
-	if not game.has_node("WorldLighting"):
+	if not game.has_node("WorldLighting") and not "chapter_number" in game:
 		var lighting := Node2D.new()
 		lighting.name = "WorldLighting"
 		lighting.set_script(load("res://scripts/presentation/world_lighting.gd"))
@@ -108,7 +108,8 @@ func _install() -> void:
 	title_background = _picture(root, "title_background", Rect2(0, 0, 1280, 720))
 	title_background.stretch_mode = TextureRect.STRETCH_SCALE
 	root.move_child(title_background, 0)
-	load("res://scripts/ui/exact_title_menu.gd").apply(game,title_background)
+	if not "chapter_number" in game:
+		load("res://scripts/ui/exact_title_menu.gd").apply(game,title_background)
 	game.pause_panel.position = Vector2(410, 180)
 	game.pause_panel.size = Vector2(460, 400)
 	game.dialogue_box.position = Vector2(150, 285)
@@ -239,3 +240,8 @@ func _process(_delta: float) -> void:
 	vitality_bar.value = game.player.vitality
 	vitality_bar.modulate = Color("ffae8f") if game.player.vitality <= 25 else Color.WHITE
 	game.touch_layer.visible = (OS.has_feature("mobile") or "--touch" in OS.get_cmdline_user_args()) and game.started and not game.get_tree().paused
+
+	if "chapter_number" in game and game.completed:
+		game.objective.hide()
+		game.hint.hide()
+		root.get_node("ControlsHint").hide()

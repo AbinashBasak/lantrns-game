@@ -592,3 +592,9 @@ func _process_jungle(delta: float) -> void:
 		_leave_jungle()
 	if local.y > 900: _respawn()
 	queue_redraw()
+
+func _continue_to_chapter02() -> void:
+	get_tree().set_meta("campaign_progress", {"points":rewards.points,"attack_damage":player.attack_damage,"chapter":1})
+	get_tree().paused = false
+	get_tree().set_meta("from_chapter01", true)
+	get_tree().change_scene_to_file("res://scenes/levels/chapter02_briarwake.tscn")

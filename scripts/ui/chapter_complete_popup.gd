@@ -7,6 +7,7 @@ var was_visible := false
 var replay: Button
 func install(target: Node) -> void:
 	game = target
+	var orchard: bool = "chapter_number" in game and game.chapter_number == 2
 	process_mode = Node.PROCESS_MODE_ALWAYS
 	var panel: PanelContainer = game.victory_panel
 	panel.get_child(0).hide()
@@ -27,12 +28,12 @@ func install(target: Node) -> void:
 	var serif := SystemFont.new()
 	serif.font_names = PackedStringArray(["Georgia","Noto Serif","DejaVu Serif","Times New Roman"])
 	serif.font_weight = 400
-	text_line("THE FORGOTTEN TRAIL — COMPLETE",Rect2(190,165,560,50),20,Color("332414"),serif)
-	text_line("First Golden Fragment recovered",Rect2(135,237,670,56),29,Color("ffe4ac"),serif)
-	text_line("The sword remembers an orchard.\nA newly opened passage leads toward Briarwake.",Rect2(160,327,620,76),22,Color("e0e4d9"),serif)
+	text_line("BRIARWAKE ORCHARD — COMPLETE" if orchard else "THE FORGOTTEN TRAIL — COMPLETE",Rect2(190,165,560,50),20,Color("332414"),serif)
+	text_line("First true Anchor fragment recovered" if orchard else "First Golden Fragment recovered",Rect2(135,237,670,56),29,Color("ffe4ac"),serif)
+	text_line("Four jungle seals restored. Mossjaw is free.\nSable’s warning leads toward Glasswater Fen." if orchard else "The sword remembers an orchard.\nA newly opened passage leads toward Briarwake.",Rect2(160,327,620,76),22,Color("e0e4d9"),serif)
 	replay = Button.new()
 	replay.name = "ReplayChapter"
-	replay.text = "Replay Chapter 1    ›"
+	replay.text = "Replay Chapter 2    ›" if orchard else "Replay Chapter 1    ›"
 	replay.position = Vector2(257,446)
 	replay.size = Vector2(426,62)
 	replay.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
@@ -52,6 +53,21 @@ func install(target: Node) -> void:
 	replay.mouse_exited.connect(func(): picture.modulate=Color.WHITE)
 	replay.pressed.connect(game._restart)
 	add_child(replay)
+	if not orchard:
+		var proceed := Button.new()
+		proceed.name = "ContinueChapter"
+		proceed.text = "Continue to Briarwake    ›"
+		proceed.position = Vector2(257, 525)
+		proceed.size = Vector2(426, 52)
+		proceed.add_theme_font_override("font", serif)
+		proceed.add_theme_font_size_override("font_size", 22)
+		proceed.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
+		var existing_button: Button = game.pause_panel.get_child(0).get_child(1)
+		for state in ["normal","hover","pressed","disabled","focus"]:
+			proceed.add_theme_stylebox_override(state,existing_button.get_theme_stylebox(state))
+		proceed.add_theme_color_override("font_color",Color("fff0ce"))
+		proceed.pressed.connect(game._continue_to_chapter02)
+		add_child(proceed)
 	backdrop = ColorRect.new()
 	backdrop.name = "CompletionBackdrop"
 	backdrop.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)

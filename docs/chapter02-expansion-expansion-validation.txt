@@ -1,0 +1,156 @@
+ERROR: Failed to open 'user://logs/godot2026-10-24T02.55.39.log'.
+   at: copy (core/io/dir_access.cpp:429)
+ERROR: Failed to open log file for writing: user://logs/godot.log
+   at: rotate_file (core/io/logger.cpp:169)
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+PASS: Chapter 2 launches its updated title
+PASS: Chapter 2 has the latest artwork title with its own actions
+PASS: Campaign points and Rootward Charm carry into Chapter 2
+PASS: Real HUD displays campaign points and current objective
+PASS: Guidance retains Chapter 1 texture frame
+PASS: A remote binding interaction cannot skip traversal
+PASS: Mossjaw chest stays locked before guardian rescue
+PASS: Guardian activation cannot skip four jungle missions
+PASS: Route enters jungle 1
+PASS: Jungle 1 contains seven authored enemy placements
+PASS: Generated species texture loaded in jungle 1
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 1
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 1
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 1
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 1
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 1
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 1
+PASS: Enemy has actual illustrated attack frames
+PASS: Remote puzzle interaction rejected in jungle 1
+PASS: Wrong-order puzzle resets jungle 1
+PASS: Unsolved jungle 1 has a physical exit gate
+PASS: Correct puzzle order opens jungle 1 gate
+PASS: Jungle 1 puzzle grants its one-time reward
+PASS: Room enemy grants100points
+PASS: Checkpoint preserves jungle 1 puzzle
+PASS: Respawn cannot farm the same jungle enemy
+PASS: Walking through solved jungle 1 returns to orchard
+PASS: Route enters jungle 2
+PASS: Jungle 2 contains seven authored enemy placements
+PASS: Generated species texture loaded in jungle 2
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 2
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 2
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 2
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 2
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 2
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 2
+PASS: Enemy has actual illustrated attack frames
+PASS: Remote puzzle interaction rejected in jungle 2
+PASS: Wrong-order puzzle resets jungle 2
+PASS: Unsolved jungle 2 has a physical exit gate
+PASS: Correct puzzle order opens jungle 2 gate
+PASS: Jungle 2 puzzle grants its one-time reward
+PASS: Room enemy grants100points
+PASS: Checkpoint preserves jungle 2 puzzle
+PASS: Respawn cannot farm the same jungle enemy
+PASS: Walking through solved jungle 2 returns to orchard
+PASS: Route enters jungle 3
+PASS: Jungle 3 contains seven authored enemy placements
+PASS: Generated species texture loaded in jungle 3
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 3
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 3
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 3
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 3
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 3
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 3
+PASS: Enemy has actual illustrated attack frames
+PASS: Remote puzzle interaction rejected in jungle 3
+PASS: Wrong-order puzzle resets jungle 3
+PASS: Unsolved jungle 3 has a physical exit gate
+PASS: Underground route gap is traversable with real jump input
+PASS: Correct puzzle order opens jungle 3 gate
+PASS: Jungle 3 puzzle grants its one-time reward
+PASS: Room enemy grants100points
+PASS: Checkpoint preserves jungle 3 puzzle
+PASS: Respawn cannot farm the same jungle enemy
+PASS: Walking through solved jungle 3 returns to orchard
+PASS: Route enters jungle 4
+PASS: Jungle 4 contains seven authored enemy placements
+PASS: Generated species texture loaded in jungle 4
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 4
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 4
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 4
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 4
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 4
+PASS: Enemy has actual illustrated attack frames
+PASS: Generated species texture loaded in jungle 4
+PASS: Enemy has actual illustrated attack frames
+PASS: Remote puzzle interaction rejected in jungle 4
+PASS: Wrong-order puzzle resets jungle 4
+PASS: Unsolved jungle 4 has a physical exit gate
+PASS: Correct puzzle order opens jungle 4 gate
+PASS: Jungle 4 puzzle grants its one-time reward
+PASS: Room enemy grants100points
+PASS: Checkpoint preserves jungle 4 puzzle
+PASS: Respawn cannot farm the same jungle enemy
+PASS: Walking through solved jungle 4 returns to orchard
+PASS: Three bindings unlock after their required jungle routes
+PASS: Four expeditions provide28distinct enemy placements
+PASS: Real running jump completes orchard moving-root crossing 1
+PASS: Real running jump completes orchard moving-root crossing 2
+PASS: All jungle missions unlock the guardian gate
+PASS: Guardian encounter closes arena entry
+PASS: Mossjaw has a live proportional textured health bar
+PASS: Mossjaw pattern: charge_warning
+PASS: Mossjaw pattern: eruption_warning
+PASS: Mossjaw pattern: sweep_warning
+PASS: Mossjaw pattern: volley_warning
+PASS: Mossjaw pattern: claw_warning
+PASS: Guardian wind-up locks target and facing
+PASS: Dialogue freezes boss seeds and attack timers
+PASS: Front armor rejects sword damage
+PASS: Health depletion cannot bypass the nonlethal rescue
+PASS: Three real nearby column interactions expose bindings
+PASS: Binding interaction requires the recovery window
+PASS: Three binding cuts free Mossjaw and unlock its chest
+PASS: Anchor fragment requires opening Mossjaw chest
+PASS: Orchard Charm grants500points and capped sword upgrade once
+PASS: Reward restores lives and vitality
+PASS: Anchor memory reuses Chapter 1 botanical popup artwork
+PASS: Memory Continue closes its illustration and restores play
+PASS: Opened chest unlocks the Anchor memory
+PASS: Sable warning completes the expanded chapter
+PASS: Real Chapter 1 Continue button enters Chapter 2 directly
+PASS: Real chapter transition retains points and sword charm
+CHAPTER02 EXPANSION: 137 checks, 0 failures
+WARNING: 1336 RIDs of type "CanvasItem" were leaked.
+   at: _free_rids (servers/rendering/renderer_canvas_cull.cpp:2735)
+WARNING: 1718 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 214 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)
+ERROR: 46 RID allocations of type 'P11GodotBody2D' were leaked at exit.
+ERROR: 49 RID allocations of type 'P12GodotShape2D' were leaked at exit.
+ERROR: 8 RID allocations of type 'N13RendererDummy9DummyMeshE' were leaked at exit.
+ERROR: 159 RID allocations of type 'PN13RendererDummy14TextureStorage12DummyTextureE' were leaked at exit.

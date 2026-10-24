@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-24",
+  "suites": [
+    {
+      "suite": "reported_cases",
+      "checks": 52,
+      "result": "pass",
+      "log": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter02-combat-reported_cases-validation.txt"
+    },
+    {
+      "suite": "orchard",
+      "checks": 41,
+      "result": "pass",
+      "log": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter02-combat-orchard-validation.txt"
+    },
+    {
+      "suite": "expansion",
+      "checks": 151,
+      "result": "pass",
+      "log": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter02-combat-expansion-validation.txt"
+    },
+    {
+      "suite": "chapter01",
+      "checks": 44,
+      "result": "pass",
+      "log": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter02-combat-chapter01-validation.txt"
+    },
+    {
+      "suite": "health",
+      "checks": 13,
+      "result": "pass",
+      "log": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter02-combat-health-validation.txt"
+    }
+  ],
+  "total_checks": 301,
+  "script_errors": 0,
+  "remaining_review": "Human encounter balance and animation polish; inherited Godot shutdown resource warnings remain in logs"
+}

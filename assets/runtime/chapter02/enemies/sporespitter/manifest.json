@@ -1,0 +1,73 @@
+{
+  "identity": "sporespitter",
+  "provenance": "Generated four-pose set, mechanically separated/aligned. Two-pose locomotion; staged attack uses preparation/strike/recovery. Held hurt/defeat pose, not a full death animation.",
+  "animations": {
+    "idle": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter02/enemies/sporespitter/LATE-001_sporespitter_00.png"
+        }
+      ],
+      "durations_ms": [
+        400
+      ],
+      "loop": true
+    },
+    "move": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter02/enemies/sporespitter/LATE-001_sporespitter_00.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter02/enemies/sporespitter/LATE-001_sporespitter_01.png"
+        }
+      ],
+      "durations_ms": [
+        180,
+        180
+      ],
+      "loop": true
+    },
+    "attack": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter02/enemies/sporespitter/LATE-001_sporespitter_01.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter02/enemies/sporespitter/LATE-001_sporespitter_02.png"
+        },
+        {
+          "path": "res://assets/runtime/chapter02/enemies/sporespitter/LATE-001_sporespitter_03.png"
+        }
+      ],
+      "durations_ms": [
+        160,
+        160,
+        160
+      ],
+      "loop": false
+    },
+    "hurt": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter02/enemies/sporespitter/LATE-001_sporespitter_03.png"
+        }
+      ],
+      "durations_ms": [
+        220
+      ],
+      "loop": false
+    },
+    "defeat": {
+      "frames": [
+        {
+          "path": "res://assets/runtime/chapter02/enemies/sporespitter/LATE-001_sporespitter_03.png"
+        }
+      ],
+      "durations_ms": [
+        350
+      ],
+      "loop": false
+    }
+  }
+}

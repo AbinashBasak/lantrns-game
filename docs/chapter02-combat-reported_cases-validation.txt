@@ -1,0 +1,57 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Condition "ret != noErr" is true. Returning: ""
+   at: get_system_ca_certificates (platform/macos/os_macos.mm:1035)
+PASS: Entering expedition 1 retains lives and vitality
+PASS: Returning from expedition 1 retains lives and vitality
+PASS: Entering expedition 2 retains lives and vitality
+PASS: Returning from expedition 2 retains lives and vitality
+PASS: Entering expedition 3 retains lives and vitality
+PASS: Returning from expedition 3 retains lives and vitality
+PASS: Entering expedition 4 retains lives and vitality
+PASS: Returning from expedition 4 retains lives and vitality
+PASS: Passing the orchard checkpoint does not silently heal
+PASS: Actual death retry still restores health
+PASS: Species 0 reaches a distinct illustrated strike pose
+PASS: Thornrunner damaging lunge is active
+PASS: Species 0 displays the recovery artwork
+PASS: Species 1 reaches a distinct illustrated strike pose
+PASS: Species 1 displays the recovery artwork
+PASS: Species 2 reaches a distinct illustrated strike pose
+PASS: Moth dive reaches and strikes a target 200 pixels from its perch
+PASS: Species 2 displays the recovery artwork
+PASS: Spitter trajectory hits the locked body target at (260.0, 0.0)
+PASS: Spitter shot preserves its telegraphed target
+PASS: Spitter trajectory hits the locked body target at (-260.0, 0.0)
+PASS: Spitter shot preserves its telegraphed target
+PASS: Spitter trajectory hits the locked body target at (240.0, -100.0)
+PASS: Spitter shot preserves its telegraphed target
+PASS: Spitter trajectory hits the locked body target at (-240.0, 80.0)
+PASS: Spitter shot preserves its telegraphed target
+PASS: Jumping clear of the advertised seed path evades a shot without homing
+PASS: Fatal boss seed safely resets the encounter inside a three-projectile update
+PASS: All detached boss seeds are disposed after reset
+PASS: Empty projectile update remains safe
+PASS: Fatal enemy projectile can replace its owner during the same update
+PASS: Detached enemy projectile batch is cleaned on reentrant death
+PASS: Real sword swing hits visible boss body at (-190.0, 0.0) exactly once
+PASS: Real sword swing hits visible boss body at (190.0, 0.0) exactly once
+PASS: Real sword swing hits visible boss body at (-175.0, -155.0) exactly once
+PASS: Real sword swing hits visible boss body at (175.0, -155.0) exactly once
+PASS: Mossjaw's aimed seed volley reaches a stationary player on side -1.0
+PASS: Mossjaw's aimed seed volley reaches a stationary player on side 1.0
+PASS: Boss exposes seven distinct advertised attack moves
+PASS: Leap destination and facing stay locked during warning
+PASS: Leap launches toward the advertised destination
+PASS: Actual leap lands at its advertised ground marker (state slam_impact, at 5843.6, marker 5840.0)
+PASS: Real boss impact produces bounded camera shake
+PASS: Impact shake fully settles without leaving a camera offset
+PASS: Reduced effects clears active camera shake
+PASS: Opening pause clears active camera shake
+PASS: Narrative freeze clears active camera shake
+PASS: Zero boss health completes the encounter immediately
+PASS: Defeat clears roots, seeds and sword targets
+PASS: Normal combat victory unlocks Mossjaw's reward chest
+PASS: Boss defeat emits once even after repeated damage
+PASS: Explicit Orchard Charm reward still restores health
+CHAPTER02 COMBAT FIX: 52 checks, 0 failures

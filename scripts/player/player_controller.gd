@@ -66,8 +66,18 @@ func _physics_process(delta: float) -> void:
 	var attack_elapsed := attack_duration - attack_time
 	if attack_time > 0 and attack_elapsed >= 0.12 and attack_elapsed <= 0.30:
 		for enemy in get_tree().get_nodes_in_group("enemies"):
-			var offset: Vector2 = enemy.global_position - global_position
-			if offset.x * facing > -8 and offset.x * facing < 100 and absf(offset.y) < 75 and not enemy in hit_targets:
+			if not is_instance_valid(enemy) or enemy in hit_targets: continue
+			var reaches := false
+			if enemy.has_method("get_hurt_rect"):
+				# Large illustrated bodies must be reachable at their visible edge,
+				# rather than requiring the sword to reach the enemy's origin.
+				var sword := Rect2(global_position+Vector2(-8 if facing>0 else -100,-88),Vector2(108,90))
+				var body: Rect2 = enemy.get_hurt_rect()
+				reaches = sword.intersects(body)
+			else:
+				var offset: Vector2 = enemy.global_position - global_position
+				reaches = offset.x*facing > -8 and offset.x*facing < 100 and absf(offset.y)<75
+			if reaches:
 				hit_targets.append(enemy)
 				enemy.take_damage(attack_damage, facing)
 	if is_on_floor() and not was_grounded:

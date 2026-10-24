@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-24",
+  "suites": [
+    {
+      "suite": "expansion",
+      "checks": 137,
+      "result": "pass",
+      "log": "chapter02-expansion-expansion-validation.txt"
+    },
+    {
+      "suite": "orchard",
+      "checks": 40,
+      "result": "pass",
+      "log": "chapter02-expansion-orchard-validation.txt"
+    },
+    {
+      "suite": "chapter01",
+      "checks": 44,
+      "result": "pass",
+      "log": "chapter02-expansion-chapter01-validation.txt"
+    },
+    {
+      "suite": "completion_popup",
+      "checks": 8,
+      "result": "pass",
+      "log": "chapter02-expansion-completion_popup-validation.txt"
+    }
+  ],
+  "total_checks": 229,
+  "source_export_runtime_hashes_verified": 57,
+  "script_errors": 0,
+  "known_limitations": [
+    "Host user-log/keychain warnings in headless environment",
+    "Inherited Godot resource/RID cleanup warnings at shutdown",
+    "First-player balance/pacing and target devices remain unverified"
+  ]
+}
