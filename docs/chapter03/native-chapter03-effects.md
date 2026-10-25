@@ -6,10 +6,10 @@ Run it with F6. Use **Preview opening** for the chest animation and native gold 
 
 ## Editor-visible resources
 
-- `scenes/chapter_03/lighting/c3_lantern_light.tscn`: PointLight2D using shared radial GradientTexture2D, warm amber, restrained 0.85–0.93 energy AnimationPlayer loop, shadow mask and receiver mask 1. Instance at an actual flame; offset animation start per placed lantern. The review places this light at the actual chest mouth as an illumination demonstration; no lantern artwork is invented.
-- `scenes/chapter_03/vfx/c3_lantern_sparks.tscn`: seven warm CPUParticles2D, 1.2-second lifetime, small native radial texture.
-- `scenes/chapter_03/vfx/c3_crystal_motes.tscn`: ten cyan CPUParticles2D, 2.8-second lifetime, local drifting emitter.
-- `scenes/chapter_03/vfx/c3_waterfall_mist.tscn`: 22 soft low-alpha CPUParticles2D, 2-second lifetime, wider upward mist emitter.
+- `scenes/props/chapter_03/c3_lantern_light.tscn`: PointLight2D using shared radial GradientTexture2D, warm amber, restrained 0.85–0.93 energy AnimationPlayer loop, shadow mask and receiver mask 1. Instance at an actual flame; offset animation start per placed lantern. The review places this light at the actual chest mouth as an illumination demonstration; no lantern artwork is invented.
+- `scenes/vfx/chapter_03/c3_lantern_sparks.tscn`: seven warm CPUParticles2D, 1.2-second lifetime, small native radial texture.
+- `scenes/vfx/chapter_03/c3_crystal_motes.tscn`: ten cyan CPUParticles2D, 2.8-second lifetime, local drifting emitter.
+- `scenes/vfx/chapter_03/c3_waterfall_mist.tscn`: 22 soft low-alpha CPUParticles2D, 2-second lifetime, wider upward mist emitter.
 - `scenes/chapter_03/review/c3_chest_animation_review.tscn`: authored OpeningGoldParticles (18 native particles, 0.8-second lifetime), emission keyed in the Opening AnimationPlayer clip (0.25–0.65 seconds), existing MouthLight energy keys, and a simple LightOccluder2D polygon inside the opaque chest base. AnimationTree discrete property mode permits particle emission events. Open/Closed stop emission; existing particles finish their lifetimes.
 
 No scripts draw effects or construct these nodes at runtime. Particle textures are native GradientTexture2D resources, not generated artwork. The chest source still contains painted glow, disclosed in its review notice; that source limitation is not removed or relabeled as native lighting. Crystal/waterfall/lantern source props are not fabricated from the emitter previews. Reduced-effects behavior is documented on the reusable lamp rig; no new settings system is introduced here.

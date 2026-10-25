@@ -1,8 +1,8 @@
 [gd_scene load_steps=23 format=3]
 
-[ext_resource type="Texture2D" path="res://art/export/chapter_03/review/C3-CHR-001_idle_review_source.png" id="1_idle"]
+[ext_resource type="Texture2D" path="res://art/characters/chapter_03/review/C3-CHR-001_idle_review_source.png" id="1_idle"]
 
-[ext_resource type="Texture2D" path="res://art/export/chapter_03/review/C3-CHR-002_run_review_source.png" id="2_run"]
+[ext_resource type="Texture2D" path="res://art/characters/chapter_03/review/C3-CHR-002_run_review_source.png" id="2_run"]
 
 [ext_resource type="Script" path="res://scripts/chapter_03/review/player_animation_review.gd" id="3_script"]
 

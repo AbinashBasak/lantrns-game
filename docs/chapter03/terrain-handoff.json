@@ -1,0 +1,461 @@
+{
+  "exports": [
+    {
+      "asset_id": "C3-TILE-001",
+      "export": "art/environment/chapter_03/tiles/terrain_candidates/c3_tile_001_mossy_stone_top_native.png",
+      "export_sha256": "c786bda2095617760c8d341c016942cab035f706c70dccd26620649310682d42",
+      "dimensions": [
+        256,
+        256
+      ],
+      "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-004/source_images/TILE-004_terrain_atlas_original.png",
+      "source_sha256": "b6e6b6dd6160841feaa08b6381d50b1b053e7c5c2017e16477c95289ded3f7c5",
+      "source_crop": [
+        340,
+        128,
+        596,
+        384
+      ],
+      "operation": "unchanged native crop",
+      "alpha_bounds": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "world_units_per_tile": 64,
+      "native_pixels_per_tile": 256,
+      "world_scale": 0.25,
+      "filter": "linear",
+      "compression": "lossless",
+      "receives_light": true,
+      "emits_light": false,
+      "casts_shadows": "separate simple authored terrain occluder if needed",
+      "animation_frames": 1,
+      "fps": 0,
+      "approved": false,
+      "stage": "native TileSet seam/collision review candidate",
+      "limitations": [
+        "Generic reusable mossy blue-gray rock material; not a newly authored ornate Chapter3 terrain pack",
+        "Mirrored repetition is visible; no seamless-authored-art claim",
+        "Vertical sequence top, odd number of alternating middle/middle-Y rows, underside preserves source joins; arbitrary transitions not approved"
+      ],
+      "atlas_coords": [
+        0,
+        0
+      ],
+      "source_alpha_preserved": true
+    },
+    {
+      "asset_id": "C3-TILE-001",
+      "export": "art/environment/chapter_03/tiles/terrain_candidates/c3_tile_001_mossy_stone_top_mirror_x.png",
+      "export_sha256": "c288eaf1162d2a6af2048a5d3ba8cdceabffedb6bb95448085df28d6058f4d24",
+      "dimensions": [
+        256,
+        256
+      ],
+      "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-004/source_images/TILE-004_terrain_atlas_original.png",
+      "source_sha256": "b6e6b6dd6160841feaa08b6381d50b1b053e7c5c2017e16477c95289ded3f7c5",
+      "source_crop": [
+        340,
+        128,
+        596,
+        384
+      ],
+      "operation": "mirror_x",
+      "alpha_bounds": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "world_units_per_tile": 64,
+      "native_pixels_per_tile": 256,
+      "world_scale": 0.25,
+      "filter": "linear",
+      "compression": "lossless",
+      "receives_light": true,
+      "emits_light": false,
+      "casts_shadows": "separate simple authored terrain occluder if needed",
+      "animation_frames": 1,
+      "fps": 0,
+      "approved": false,
+      "stage": "native TileSet seam/collision review candidate",
+      "limitations": [
+        "Generic reusable mossy blue-gray rock material; not a newly authored ornate Chapter3 terrain pack",
+        "Mirrored repetition is visible; no seamless-authored-art claim",
+        "Vertical sequence top, odd number of alternating middle/middle-Y rows, underside preserves source joins; arbitrary transitions not approved"
+      ],
+      "atlas_coords": [
+        1,
+        0
+      ],
+      "source_alpha_preserved": true
+    },
+    {
+      "asset_id": "C3-TILE-002",
+      "export": "art/environment/chapter_03/tiles/terrain_candidates/c3_tile_002_stone_middle_native.png",
+      "export_sha256": "6a842b6b81500a702912025c0b6e09650813724e1dee6271be18863b50f8d95e",
+      "dimensions": [
+        256,
+        256
+      ],
+      "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-004/source_images/TILE-004_terrain_atlas_original.png",
+      "source_sha256": "b6e6b6dd6160841feaa08b6381d50b1b053e7c5c2017e16477c95289ded3f7c5",
+      "source_crop": [
+        340,
+        384,
+        596,
+        640
+      ],
+      "operation": "unchanged native crop",
+      "alpha_bounds": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "world_units_per_tile": 64,
+      "native_pixels_per_tile": 256,
+      "world_scale": 0.25,
+      "filter": "linear",
+      "compression": "lossless",
+      "receives_light": true,
+      "emits_light": false,
+      "casts_shadows": "separate simple authored terrain occluder if needed",
+      "animation_frames": 1,
+      "fps": 0,
+      "approved": false,
+      "stage": "native TileSet seam/collision review candidate",
+      "limitations": [
+        "Generic reusable mossy blue-gray rock material; not a newly authored ornate Chapter3 terrain pack",
+        "Mirrored repetition is visible; no seamless-authored-art claim",
+        "Vertical sequence top, odd number of alternating middle/middle-Y rows, underside preserves source joins; arbitrary transitions not approved"
+      ],
+      "atlas_coords": [
+        2,
+        0
+      ],
+      "source_alpha_preserved": true
+    },
+    {
+      "asset_id": "C3-TILE-002",
+      "export": "art/environment/chapter_03/tiles/terrain_candidates/c3_tile_002_stone_middle_mirror_x.png",
+      "export_sha256": "77a9b734cf526e2877425f36c9b875a9f7918c7322cc4134f45ccef08bc21193",
+      "dimensions": [
+        256,
+        256
+      ],
+      "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-004/source_images/TILE-004_terrain_atlas_original.png",
+      "source_sha256": "b6e6b6dd6160841feaa08b6381d50b1b053e7c5c2017e16477c95289ded3f7c5",
+      "source_crop": [
+        340,
+        384,
+        596,
+        640
+      ],
+      "operation": "mirror_x",
+      "alpha_bounds": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "world_units_per_tile": 64,
+      "native_pixels_per_tile": 256,
+      "world_scale": 0.25,
+      "filter": "linear",
+      "compression": "lossless",
+      "receives_light": true,
+      "emits_light": false,
+      "casts_shadows": "separate simple authored terrain occluder if needed",
+      "animation_frames": 1,
+      "fps": 0,
+      "approved": false,
+      "stage": "native TileSet seam/collision review candidate",
+      "limitations": [
+        "Generic reusable mossy blue-gray rock material; not a newly authored ornate Chapter3 terrain pack",
+        "Mirrored repetition is visible; no seamless-authored-art claim",
+        "Vertical sequence top, odd number of alternating middle/middle-Y rows, underside preserves source joins; arbitrary transitions not approved"
+      ],
+      "atlas_coords": [
+        3,
+        0
+      ],
+      "source_alpha_preserved": true
+    },
+    {
+      "asset_id": "C3-TILE-002",
+      "export": "art/environment/chapter_03/tiles/terrain_candidates/c3_tile_002_stone_middle_mirror_y.png",
+      "export_sha256": "5c798c2ed50815ac669db2ff447c21edea14bbc3478a51d4af8ebd0e85dc2e73",
+      "dimensions": [
+        256,
+        256
+      ],
+      "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-004/source_images/TILE-004_terrain_atlas_original.png",
+      "source_sha256": "b6e6b6dd6160841feaa08b6381d50b1b053e7c5c2017e16477c95289ded3f7c5",
+      "source_crop": [
+        340,
+        384,
+        596,
+        640
+      ],
+      "operation": "mirror_y",
+      "alpha_bounds": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "world_units_per_tile": 64,
+      "native_pixels_per_tile": 256,
+      "world_scale": 0.25,
+      "filter": "linear",
+      "compression": "lossless",
+      "receives_light": true,
+      "emits_light": false,
+      "casts_shadows": "separate simple authored terrain occluder if needed",
+      "animation_frames": 1,
+      "fps": 0,
+      "approved": false,
+      "stage": "native TileSet seam/collision review candidate",
+      "limitations": [
+        "Generic reusable mossy blue-gray rock material; not a newly authored ornate Chapter3 terrain pack",
+        "Mirrored repetition is visible; no seamless-authored-art claim",
+        "Vertical sequence top, odd number of alternating middle/middle-Y rows, underside preserves source joins; arbitrary transitions not approved"
+      ],
+      "atlas_coords": [
+        4,
+        0
+      ],
+      "source_alpha_preserved": true
+    },
+    {
+      "asset_id": "C3-TILE-002",
+      "export": "art/environment/chapter_03/tiles/terrain_candidates/c3_tile_002_stone_middle_mirror_xy.png",
+      "export_sha256": "1724e740f265c7ee9c6258d54ed882fc103112c25bc467ce1dcd254f348e8636",
+      "dimensions": [
+        256,
+        256
+      ],
+      "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-004/source_images/TILE-004_terrain_atlas_original.png",
+      "source_sha256": "b6e6b6dd6160841feaa08b6381d50b1b053e7c5c2017e16477c95289ded3f7c5",
+      "source_crop": [
+        340,
+        384,
+        596,
+        640
+      ],
+      "operation": "mirror_xy",
+      "alpha_bounds": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "world_units_per_tile": 64,
+      "native_pixels_per_tile": 256,
+      "world_scale": 0.25,
+      "filter": "linear",
+      "compression": "lossless",
+      "receives_light": true,
+      "emits_light": false,
+      "casts_shadows": "separate simple authored terrain occluder if needed",
+      "animation_frames": 1,
+      "fps": 0,
+      "approved": false,
+      "stage": "native TileSet seam/collision review candidate",
+      "limitations": [
+        "Generic reusable mossy blue-gray rock material; not a newly authored ornate Chapter3 terrain pack",
+        "Mirrored repetition is visible; no seamless-authored-art claim",
+        "Vertical sequence top, odd number of alternating middle/middle-Y rows, underside preserves source joins; arbitrary transitions not approved"
+      ],
+      "atlas_coords": [
+        5,
+        0
+      ],
+      "source_alpha_preserved": true
+    },
+    {
+      "asset_id": "C3-TILE-003",
+      "export": "art/environment/chapter_03/tiles/terrain_candidates/c3_tile_003_stone_underside_native.png",
+      "export_sha256": "3f004b28f3ea6f4a59d450476587e96b5bc6118234fe5152a6bbd28cc8183fef",
+      "dimensions": [
+        256,
+        256
+      ],
+      "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-004/source_images/TILE-004_terrain_atlas_original.png",
+      "source_sha256": "b6e6b6dd6160841feaa08b6381d50b1b053e7c5c2017e16477c95289ded3f7c5",
+      "source_crop": [
+        340,
+        640,
+        596,
+        896
+      ],
+      "operation": "unchanged native crop",
+      "alpha_bounds": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "world_units_per_tile": 64,
+      "native_pixels_per_tile": 256,
+      "world_scale": 0.25,
+      "filter": "linear",
+      "compression": "lossless",
+      "receives_light": true,
+      "emits_light": false,
+      "casts_shadows": "separate simple authored terrain occluder if needed",
+      "animation_frames": 1,
+      "fps": 0,
+      "approved": false,
+      "stage": "native TileSet seam/collision review candidate",
+      "limitations": [
+        "Generic reusable mossy blue-gray rock material; not a newly authored ornate Chapter3 terrain pack",
+        "Mirrored repetition is visible; no seamless-authored-art claim",
+        "Vertical sequence top, odd number of alternating middle/middle-Y rows, underside preserves source joins; arbitrary transitions not approved"
+      ],
+      "atlas_coords": [
+        6,
+        0
+      ],
+      "source_alpha_preserved": true
+    },
+    {
+      "asset_id": "C3-TILE-003",
+      "export": "art/environment/chapter_03/tiles/terrain_candidates/c3_tile_003_stone_underside_mirror_x.png",
+      "export_sha256": "ce264541e884ffd75a6c6d18d30f834c19be115c219045aa2f9ee0e843fdc433",
+      "dimensions": [
+        256,
+        256
+      ],
+      "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-004/source_images/TILE-004_terrain_atlas_original.png",
+      "source_sha256": "b6e6b6dd6160841feaa08b6381d50b1b053e7c5c2017e16477c95289ded3f7c5",
+      "source_crop": [
+        340,
+        640,
+        596,
+        896
+      ],
+      "operation": "mirror_x",
+      "alpha_bounds": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "world_units_per_tile": 64,
+      "native_pixels_per_tile": 256,
+      "world_scale": 0.25,
+      "filter": "linear",
+      "compression": "lossless",
+      "receives_light": true,
+      "emits_light": false,
+      "casts_shadows": "separate simple authored terrain occluder if needed",
+      "animation_frames": 1,
+      "fps": 0,
+      "approved": false,
+      "stage": "native TileSet seam/collision review candidate",
+      "limitations": [
+        "Generic reusable mossy blue-gray rock material; not a newly authored ornate Chapter3 terrain pack",
+        "Mirrored repetition is visible; no seamless-authored-art claim",
+        "Vertical sequence top, odd number of alternating middle/middle-Y rows, underside preserves source joins; arbitrary transitions not approved"
+      ],
+      "atlas_coords": [
+        7,
+        0
+      ],
+      "source_alpha_preserved": true
+    }
+  ],
+  "atlas": {
+    "path": "art/environment/chapter_03/tiles/terrain_candidates/c3_terrain_candidate_atlas.png",
+    "sha256": "b6bbc4ba793fea141d6caff2f487787f75886f61aa1aa34888648e0a95f13a3b"
+  },
+  "source_scope": "All phase05 originals and ENV03/05/07 terrain packs visually compared; ZIP115\u2013151 architectural props examined; locked map and miniature reference images excluded.",
+  "seam_evidence": {
+    "horizontal_mirror_x_mae_rgba": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "top_to_middle_mae_rgba": [
+      4.2617,
+      5.168,
+      4.6602,
+      0.125
+    ],
+    "middle_to_mirror_y_mae_rgba": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "middle_to_underside_mae_rgba": [
+      8.1367,
+      8.9141,
+      7.6953,
+      0.0703
+    ]
+  },
+  "native_tileset": "resources/chapter_03/terrain/c3_terrain_candidate_tileset.tres",
+  "native_scene": "scenes/chapter_03/review/c3_terrain_seam_review.tscn",
+  "native_resources": [
+    "resources/chapter_03/terrain/c3_terrain_candidate_tileset.tres",
+    "scenes/chapter_03/review/c3_terrain_seam_review.tscn"
+  ],
+  "approval": false,
+  "canonical_id_cautions": [
+    "Broken pillars/rubble remain PROP008 candidates. Partial wall/arch buttresses138/139/146 are broken architecture candidates, not proof of a clean three-piece broken-pillar set; complete temple arches belong PROP009.",
+    "Existing source-image124/125 in ZIP are ornate arches, not flat moss platform deliverables. They are not terrain replacements."
+  ],
+  "remaining_gates": [
+    "Mirrored texture repetition acceptance",
+    "Approval of generic reusable rock material against Chapter3 target; color unchanged",
+    "Corners, sidewalls, alternative depth transitions and autoterrain peering not delivered"
+  ],
+  "validation": {
+    "engine": "Godot 4.7.2 mono OpenGL Compatibility",
+    "actual_native_render": "docs/chapter03/terrain-native-review.png",
+    "render_sha256": "d2e8710b3eaf3baefee08a2cb2b1cfe6241a03921bc86f58b46a3026c9723217",
+    "collision_surface_rays_passed": 12,
+    "outside_edge_clearance_rays_passed": 2,
+    "resource_path_errors": 0,
+    "resource_path_warnings": 0,
+    "visual_review": "Continuous surface and body observed; mirrored pattern and inherited mortar bands are visible. Candidate for terrain placement testing, not final source-art approval."
+  }
+}

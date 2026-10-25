@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Texture2D" path="res://resources/chapter_03/lighting/C3-PROP-008_source138_canvas_texture.tres" id="1"]
+[node name="C3RuinedArchMapped" type="Node2D"]
+metadata/official_id = "C3-PROP-008"
+metadata/source = "ZIP source138; mapped material handoff docs/chapter03/lighting-vfx-preparation-depth.json"
+metadata/pivot = "bottom-center; native diffuse496x687"
+metadata/collision = "None. Opening is traversable visual space. Author collision/occluders against actual level geometry; do not fill arch opening."
+metadata/light_response = "Supplied height-derived bump normal and registered supplied bitmap via CanvasTexture. No emitter in this unlit architecture."
+metadata/production_approved = false
+[node name="Artwork" type="Sprite2D" parent="."]
+texture = ExtResource("1")
+offset = Vector2(0, -343.5)
+light_mask = 1
+[node name="GroundAnchor" type="Marker2D" parent="."]

@@ -4,7 +4,7 @@ func _initialize() -> void:
 	call_deferred("run")
 
 func run() -> void:
-	var lift = load("res://scenes/chapter_03/interactables/c3_moving_platform.tscn").instantiate()
+	var lift = load("res://scenes/interactables/chapter_03/c3_moving_platform.tscn").instantiate()
 	lift.position = Vector2(300, 400)
 	root.add_child(lift)
 	var body: AnimatableBody2D = lift.get_node("Body")

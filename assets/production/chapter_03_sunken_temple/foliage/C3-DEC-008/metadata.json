@@ -1,0 +1,889 @@
+{
+  "asset_id": "C3-DEC-008",
+  "title": "Small rock clusters",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/foliage/C3-DEC-008/source_images/C3-DEC-008_organized_image-145-57e4f898.png",
+      "sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+      "bytes": 2819129,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+      "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+      "source_requested_ids": [
+        "C3-BG-011-020"
+      ],
+      "generated_subject_title": "Teal Temple Ruins Asset Sheet",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-DEC-008",
+          "source_index": 145,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+          "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+          "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+          "requested_ids": [
+            "C3-BG-011-020"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 1,
+          "source_crop": [
+            0,
+            820,
+            195,
+            970
+          ],
+          "content_trim": [
+            12,
+            10,
+            195,
+            124
+          ],
+          "export": "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_01.png",
+          "export_sha256": "9780d01d9e7911e040cdc017147c425fe8a28159bf42facb17003db5083424b3",
+          "dimensions": [
+            183,
+            114
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            183,
+            114
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 6425,
+          "nonopaque_pixel_count": 6425,
+          "opaque_pixel_count": 14437,
+          "pivot": [
+            91.5,
+            114
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Visible content touches a source crop boundary; inspect source for clipping before use."
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_01.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-DEC-008",
+          "source_index": 145,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+          "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+          "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+          "requested_ids": [
+            "C3-BG-011-020"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 1,
+          "source_crop": [
+            195,
+            820,
+            325,
+            970
+          ],
+          "content_trim": [
+            0,
+            5,
+            129,
+            111
+          ],
+          "export": "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_02.png",
+          "export_sha256": "c43749aa11630e4a5707968a494262db27f322061d161260bf640e2dbc74c393",
+          "dimensions": [
+            129,
+            106
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            129,
+            106
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 3872,
+          "nonopaque_pixel_count": 3872,
+          "opaque_pixel_count": 9802,
+          "pivot": [
+            64.5,
+            106
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Visible content touches a source crop boundary; inspect source for clipping before use."
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_02.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-DEC-008",
+          "source_index": 145,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+          "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+          "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+          "requested_ids": [
+            "C3-BG-011-020"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 1,
+          "source_crop": [
+            325,
+            820,
+            440,
+            970
+          ],
+          "content_trim": [
+            5,
+            19,
+            110,
+            108
+          ],
+          "export": "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_03.png",
+          "export_sha256": "8ed9820664707fff48a1bdcba3bdce0f38b081a28f64514d617031b348fe0744",
+          "dimensions": [
+            105,
+            89
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            105,
+            89
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 3008,
+          "nonopaque_pixel_count": 3008,
+          "opaque_pixel_count": 6337,
+          "pivot": [
+            52.5,
+            89
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_03.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-DEC-008",
+          "source_index": 145,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+          "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+          "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+          "requested_ids": [
+            "C3-BG-011-020"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            440,
+            820,
+            575,
+            970
+          ],
+          "content_trim": [
+            7,
+            17,
+            130,
+            114
+          ],
+          "export": "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_04.png",
+          "export_sha256": "2ee1c76aa2e95e551e56c017cc1700605fa262f4858f8a78636a14199f54da8f",
+          "dimensions": [
+            123,
+            97
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            123,
+            97
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 3119,
+          "nonopaque_pixel_count": 3119,
+          "opaque_pixel_count": 8812,
+          "pivot": [
+            61.5,
+            97
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_04.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-DEC-008",
+          "source_index": 145,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+          "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+          "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+          "requested_ids": [
+            "C3-BG-011-020"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            575,
+            820,
+            715,
+            970
+          ],
+          "content_trim": [
+            3,
+            37,
+            138,
+            114
+          ],
+          "export": "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_05.png",
+          "export_sha256": "9c33fb59ebc7861241c67e72f9594fd0c70f8f8dec12867b1c9598ada4ae8076",
+          "dimensions": [
+            135,
+            77
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            135,
+            77
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 3857,
+          "nonopaque_pixel_count": 3857,
+          "opaque_pixel_count": 6538,
+          "pivot": [
+            67.5,
+            77
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_05.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-DEC-008",
+          "source_index": 145,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+          "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+          "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+          "requested_ids": [
+            "C3-BG-011-020"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            715,
+            820,
+            830,
+            970
+          ],
+          "content_trim": [
+            1,
+            10,
+            104,
+            115
+          ],
+          "export": "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_06.png",
+          "export_sha256": "47c0a9a7c4e47cc37864c4009a0651512df7d4bfbb6481498505c561a8e5ee63",
+          "dimensions": [
+            103,
+            105
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            103,
+            105
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 2849,
+          "nonopaque_pixel_count": 2849,
+          "opaque_pixel_count": 7966,
+          "pivot": [
+            51.5,
+            105
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_06.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-DEC-008",
+          "source_index": 145,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+          "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+          "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+          "requested_ids": [
+            "C3-BG-011-020"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 2,
+          "source_crop": [
+            830,
+            820,
+            940,
+            970
+          ],
+          "content_trim": [
+            9,
+            20,
+            106,
+            101
+          ],
+          "export": "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_07.png",
+          "export_sha256": "8bac333c298853665e7da6181b2c11ed8caa42e0d51e3595e30b6ceaeaba0b15",
+          "dimensions": [
+            97,
+            81
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            97,
+            81
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 2046,
+          "nonopaque_pixel_count": 2046,
+          "opaque_pixel_count": 5811,
+          "pivot": [
+            48.5,
+            81
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_07.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-DEC-008",
+          "source_index": 145,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+          "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+          "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+          "requested_ids": [
+            "C3-BG-011-020"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            940,
+            820,
+            1135,
+            970
+          ],
+          "content_trim": [
+            0,
+            20,
+            191,
+            116
+          ],
+          "export": "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_08.png",
+          "export_sha256": "82a8a01d176b3e5ae03bf2e764305b19d085b65b51845194323df8d3b6107bb3",
+          "dimensions": [
+            191,
+            96
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            191,
+            96
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 5284,
+          "nonopaque_pixel_count": 5284,
+          "opaque_pixel_count": 13052,
+          "pivot": [
+            95.5,
+            96
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Visible content touches a source crop boundary; inspect source for clipping before use."
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_08.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-DEC-008",
+          "source_index": 145,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+          "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+          "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+          "requested_ids": [
+            "C3-BG-011-020"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 3,
+          "source_crop": [
+            1135,
+            820,
+            1275,
+            970
+          ],
+          "content_trim": [
+            0,
+            6,
+            135,
+            124
+          ],
+          "export": "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_09.png",
+          "export_sha256": "486d36ec6065bea656bd79380a185cd977f07ffb9cc7f5c311b47ab87c02fe73",
+          "dimensions": [
+            135,
+            118
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            135,
+            118
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 5851,
+          "nonopaque_pixel_count": 5851,
+          "opaque_pixel_count": 10079,
+          "pivot": [
+            67.5,
+            118
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Visible content touches a source crop boundary; inspect source for clipping before use."
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_09.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-DEC-008",
+          "source_index": 145,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+          "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+          "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+          "requested_ids": [
+            "C3-BG-011-020"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            1275,
+            820,
+            1365,
+            970
+          ],
+          "content_trim": [
+            0,
+            11,
+            90,
+            105
+          ],
+          "export": "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_10.png",
+          "export_sha256": "415597b74d06bb4ab78b7a04fd4d279d55d780ab2f1d0198ee7fab9157cfe6a9",
+          "dimensions": [
+            90,
+            94
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            90,
+            94
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 2395,
+          "nonopaque_pixel_count": 2395,
+          "opaque_pixel_count": 6065,
+          "pivot": [
+            45.0,
+            94
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Visible content touches a source crop boundary; inspect source for clipping before use."
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_10.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-DEC-008",
+          "source_index": 145,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+          "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+          "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+          "requested_ids": [
+            "C3-BG-011-020"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            1365,
+            820,
+            1536,
+            970
+          ],
+          "content_trim": [
+            0,
+            12,
+            159,
+            113
+          ],
+          "export": "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_11.png",
+          "export_sha256": "f4d0bb8ebd80665df39f2dab24bd0b5c095e246f91492ab400e6ad9e26bd7ef7",
+          "dimensions": [
+            159,
+            101
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            159,
+            101
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 6371,
+          "nonopaque_pixel_count": 6371,
+          "opaque_pixel_count": 9688,
+          "pivot": [
+            79.5,
+            101
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Visible content touches a source crop boundary; inspect source for clipping before use."
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_11.png"
+        ]
+      }
+    ],
+    "exports": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/foliage/C3-DEC-008/exports/organized_v1/C3-DEC-008_00_c3_dec_008_small_rock_cluster_01.png",
+        "sha256": "9780d01d9e7911e040cdc017147c425fe8a28159bf42facb17003db5083424b3",
+        "bytes": 51327,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_01.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/foliage/C3-DEC-008/exports/organized_v1/C3-DEC-008_01_c3_dec_008_small_rock_cluster_02.png",
+        "sha256": "c43749aa11630e4a5707968a494262db27f322061d161260bf640e2dbc74c393",
+        "bytes": 33612,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_02.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/foliage/C3-DEC-008/exports/organized_v1/C3-DEC-008_02_c3_dec_008_small_rock_cluster_03.png",
+        "sha256": "8ed9820664707fff48a1bdcba3bdce0f38b081a28f64514d617031b348fe0744",
+        "bytes": 22759,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_03.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/foliage/C3-DEC-008/exports/organized_v1/C3-DEC-008_03_c3_dec_008_small_rock_cluster_04.png",
+        "sha256": "2ee1c76aa2e95e551e56c017cc1700605fa262f4858f8a78636a14199f54da8f",
+        "bytes": 29527,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_04.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/foliage/C3-DEC-008/exports/organized_v1/C3-DEC-008_04_c3_dec_008_small_rock_cluster_05.png",
+        "sha256": "9c33fb59ebc7861241c67e72f9594fd0c70f8f8dec12867b1c9598ada4ae8076",
+        "bytes": 25244,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_05.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/foliage/C3-DEC-008/exports/organized_v1/C3-DEC-008_05_c3_dec_008_small_rock_cluster_06.png",
+        "sha256": "47c0a9a7c4e47cc37864c4009a0651512df7d4bfbb6481498505c561a8e5ee63",
+        "bytes": 26362,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_06.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/foliage/C3-DEC-008/exports/organized_v1/C3-DEC-008_06_c3_dec_008_small_rock_cluster_07.png",
+        "sha256": "8bac333c298853665e7da6181b2c11ed8caa42e0d51e3595e30b6ceaeaba0b15",
+        "bytes": 19565,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_07.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/foliage/C3-DEC-008/exports/organized_v1/C3-DEC-008_07_c3_dec_008_small_rock_cluster_08.png",
+        "sha256": "82a8a01d176b3e5ae03bf2e764305b19d085b65b51845194323df8d3b6107bb3",
+        "bytes": 45326,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_08.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/foliage/C3-DEC-008/exports/organized_v1/C3-DEC-008_08_c3_dec_008_small_rock_cluster_09.png",
+        "sha256": "486d36ec6065bea656bd79380a185cd977f07ffb9cc7f5c311b47ab87c02fe73",
+        "bytes": 38543,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_09.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/foliage/C3-DEC-008/exports/organized_v1/C3-DEC-008_09_c3_dec_008_small_rock_cluster_10.png",
+        "sha256": "415597b74d06bb4ab78b7a04fd4d279d55d780ab2f1d0198ee7fab9157cfe6a9",
+        "bytes": 20455,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_10.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/foliage/C3-DEC-008/exports/organized_v1/C3-DEC-008_10_c3_dec_008_small_rock_cluster_11.png",
+        "sha256": "f4d0bb8ebd80665df39f2dab24bd0b5c095e246f91492ab400e6ad9e26bd7ef7",
+        "bytes": 38701,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_11.png",
+        "kind": "environment"
+      }
+    ],
+    "native_resources": [],
+    "missing_or_blocked": [],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

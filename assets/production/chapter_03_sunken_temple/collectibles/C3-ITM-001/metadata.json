@@ -1,0 +1,126 @@
+{
+  "asset_id": "C3-ITM-001",
+  "title": "Golden Fragment",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-001/source_images/C3-ITM-001_organized_C3-ITM-001_archive_image-050-f3a86461.png",
+      "sha256": "1fdf7f235962b0ebe38cb13bd9c979cb484fd69fecfb5d565877dc8d0d4f342c",
+      "bytes": 2892847,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-001/source_images/C3-ITM-001_archive_image-050-f3a86461.png",
+      "source_message_id": "0b0e3036-d411-4319-9379-ae810ace1ca0",
+      "source_requested_ids": [],
+      "generated_subject_title": "Golden Crystal Sprite Animation Sheet",
+      "production_approved": false,
+      "dimensions": [
+        1774,
+        887
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-001/source_images/C3-ITM-001_organized_C3-ITM-001_archive_image-064-5c0948d8.png",
+      "sha256": "c7747228cb7568194985372a798eb035611a622f803caedbceb97ecf2b219db8",
+      "bytes": 2901767,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-001/source_images/C3-ITM-001_archive_image-064-5c0948d8.png",
+      "source_message_id": "c7258c1e-1dcb-45f0-8d98-1f500b43c7d2",
+      "source_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "generated_subject_title": "Golden Crystal Animation Sprite Sheet",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-001/source_images/C3-ITM-001_organized_image-043-96c9c744.png",
+      "sha256": "c5d41f3c37f80d317d916fd6704d1880c165024abb0ec9b8233982789ea57765",
+      "bytes": 1883252,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-043-96c9c744.png",
+      "source_message_id": "21509abe-c342-47cc-bb7f-32dd04117ab5",
+      "source_requested_ids": [
+        "C3-ITM-001"
+      ],
+      "generated_subject_title": "Cyan-Hued Mimic Chest Sprite Sheet",
+      "production_approved": false,
+      "dimensions": [
+        1774,
+        887
+      ]
+    }
+  ],
+  "stage": "sources organized; clean deliverables blocked; see metadata",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "collectible",
+        "details": {
+          "asset_id": "C3-ITM-001",
+          "title": "Golden Fragment",
+          "sources": [
+            {
+              "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-001/source_images/C3-ITM-001_archive_image-050-f3a86461.png",
+              "sha256": "1fdf7f235962b0ebe38cb13bd9c979cb484fd69fecfb5d565877dc8d0d4f342c",
+              "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-050-f3a86461.png",
+              "source_message_id": "0b0e3036-d411-4319-9379-ae810ace1ca0",
+              "source_message_index": 203,
+              "source_requested_ids": [],
+              "source_official_requested_ids": [],
+              "verified_actual_asset_id": "C3-ITM-001",
+              "generated_subject_title": "Golden Crystal Sprite Animation Sheet",
+              "dimensions": [
+                1774,
+                887
+              ],
+              "mode": "RGB",
+              "provenance": "unchanged original bytes supplied in user ZIP",
+              "requested_vs_actual_mismatch": true
+            },
+            {
+              "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-001/source_images/C3-ITM-001_archive_image-064-5c0948d8.png",
+              "sha256": "c7747228cb7568194985372a798eb035611a622f803caedbceb97ecf2b219db8",
+              "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-064-5c0948d8.png",
+              "source_message_id": "c7258c1e-1dcb-45f0-8d98-1f500b43c7d2",
+              "source_message_index": 245,
+              "source_requested_ids": [
+                "C3-ITM-007"
+              ],
+              "source_official_requested_ids": [
+                "C3-ITM-007"
+              ],
+              "verified_actual_asset_id": "C3-ITM-001",
+              "generated_subject_title": "Golden Crystal Animation Sprite Sheet",
+              "dimensions": [
+                1536,
+                1024
+              ],
+              "mode": "RGB",
+              "provenance": "unchanged original bytes supplied in user ZIP",
+              "requested_vs_actual_mismatch": true
+            }
+          ],
+          "stage": "source archive reviewed; no clean base export",
+          "blockers": [
+            "Golden-crystal originals are RGB with a painted checkerboard. Alpha/antialias background colors cannot be recovered without inferred pixels; no clean base export is claimed."
+          ],
+          "runtime_exports": [],
+          "production_approved": false
+        },
+        "output_paths": []
+      }
+    ],
+    "exports": [],
+    "native_resources": [],
+    "missing_or_blocked": [
+      "Golden-crystal originals are RGB with a painted checkerboard. Alpha/antialias background colors cannot be recovered without inferred pixels; no clean base export is claimed.",
+      "chest source belongs to chest/collectible workflow"
+    ],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

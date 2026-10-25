@@ -1,0 +1,225 @@
+{
+  "governing_bible": "lanterns_underroot_chapter_3_production_bible.md",
+  "source_zip": "1.zip",
+  "outputs": [
+    {
+      "official_ids": [
+        "C3-TILE-020",
+        "C3-BG-003"
+      ],
+      "role": "transparent waterfall artwork",
+      "source_path": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-107-4e876289.png",
+      "source_sha256": "3c84443442b6e0513aca06cede5a235b1f78c020e006d42a3a941eaaac5b240b",
+      "source_message_id": "a4437728-e85b-44dc-9fcc-cf2aa1cc5a8d",
+      "source_crop": [
+        2,
+        0,
+        505,
+        815
+      ],
+      "output_path": "art/vfx/chapter_03/C3-TILE-020_waterfall_stream.png",
+      "output_sha256": "7460a56511aecf2b84fc87ff43864d6bdbf50694b03bf2b4743583243ba91e58",
+      "dimensions": [
+        503,
+        815
+      ],
+      "visible_bounds": [
+        26,
+        0,
+        503,
+        815
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "provenance": "derived rectangular crop from unchanged ZIP source",
+      "notes": "Caption/map panels excluded. Static illustrated stream animated by subtle native shader; not a recovered animation sheet. No collision. Top-center pivot.",
+      "production_approved": false,
+      "pivot": "top-center",
+      "receives_light": true,
+      "casts_shadows": false,
+      "emits_light": false,
+      "collision_shape": "none; author water collision separately",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "z_index": "-30..-10 for distant waterfall; +10 caustic water overlay",
+      "frame_count": 1,
+      "fps": null,
+      "animation_timing": "native shader motion; not a sprite animation sheet",
+      "status": "imported and resource-review passed; actual-section QA pending"
+    },
+    {
+      "official_ids": [
+        "C3-BG-011"
+      ],
+      "role": "grayscale caustic intensity shader input",
+      "source_path": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-153-a2292005.png",
+      "source_sha256": "5937fc5cad288a7c7f7c865a4eef72c812a94827449e0281df5a75e46c4a6214",
+      "source_message_id": "ebeaab2f-73a6-4cec-aff2-7d1457530164",
+      "source_crop": [
+        515,
+        2,
+        1025,
+        856
+      ],
+      "output_path": "art/vfx/chapter_03/C3-BG-011_caustic_intensity.png",
+      "output_sha256": "ffd6e46f6e210ecb8ea14ef266ba692e54eeb8628ff9ceb782f5308d52f4ff4b",
+      "dimensions": [
+        510,
+        854
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        510,
+        854
+      ],
+      "alpha_extrema": null,
+      "provenance": "derived rectangular crop from unchanged ZIP source",
+      "notes": "Middle panel extracted; printed depth label is source terminology only. Not a normal map or a registered depth map. Source colored panel has baked checkerboard and is excluded. Pattern is not proven seamless; shader mirrors addressing to prevent value seams. Top-left origin.",
+      "production_approved": false,
+      "pivot": "top-left",
+      "receives_light": false,
+      "casts_shadows": false,
+      "emits_light": false,
+      "collision_shape": "none; author water collision separately",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "z_index": "-30..-10 for distant waterfall; +10 caustic water overlay",
+      "frame_count": 1,
+      "fps": null,
+      "animation_timing": "native shader motion; not a sprite animation sheet",
+      "status": "imported and resource-review passed; actual-section QA pending"
+    }
+  ],
+  "source_guide": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/files/C3-BG-008-LGT-001_Godot_Setup_Guide.txt",
+  "lighting_budget": {
+    "active_visible_target": 16,
+    "shadowed_target": 2,
+    "offscreen_lights": "light_budget.tscn culls grouped lantern/crystal/checkpoint scenes; scene manager instance required",
+    "reduced_effects": "freeze shader motion; disable particles and shadows; retain light cues"
+  },
+  "qa": {
+    "stage": "prepared + native scene load/logic/reduced-effects and graphical on/off review passed",
+    "final_production_approved": false,
+    "render_proof": {
+      "changed_pixels": 25953,
+      "mean_absolute_channel_difference": 0.06185691550925926,
+      "ui_title_unchanged": true,
+      "renderer": "Godot 4.7.2 stable mono; Compatibility OpenGL/Metal on Apple M3 Pro",
+      "frozen_effects": true,
+      "render_log_clean": true
+    },
+    "actual_section_layout_review": "pending; standalone resource review does not approve eight section layouts",
+    "tests": [
+      "tools/validate_c3_vfx.gd: PASS native resources, reduced effects, 16-light/two-shadow cap, offscreen culling",
+      "tests/chapter03_shrine_light_test.gd: PASS native shrine states and reduced effects"
+    ]
+  },
+  "existing_native_components": [
+    "c3_lantern_light",
+    "c3_lantern_sparks",
+    "c3_crystal_motes",
+    "c3_waterfall_mist",
+    "c3_shrine_light"
+  ],
+  "native_resource_files": [
+    {
+      "path": "scenes/vfx/chapter_03/c3_effects_review.tscn",
+      "sha256": "8feb65842a654041ba0ea16dd57248a8450d12f3f8260fab412c02031b7a56f3"
+    },
+    {
+      "path": "scenes/vfx/chapter_03/c3_waterfall_stream.tscn",
+      "sha256": "b2fa7a3b9b7f48cd070ba83d5b3d4255cb8acef31fcd282d7c42506adc7daaf4"
+    },
+    {
+      "path": "scenes/vfx/chapter_03/c3_crystal_light.tscn",
+      "sha256": "8ffaf969c2e465ea50bedb73bf27b18ab2a2336a80bb2d35b4326444e00f4dc7"
+    },
+    {
+      "path": "scenes/vfx/chapter_03/c3_lantern_sparks.tscn",
+      "sha256": "64d5ba2fe47e79529634c6f76ff032e67f92924db1e3795909ba15a612649be0"
+    },
+    {
+      "path": "scenes/vfx/chapter_03/c3_shrine_light.tscn",
+      "sha256": "6e56510784ff14099cbf2530f4ec0366b503485fe007a7c12acbbce52123b1d9"
+    },
+    {
+      "path": "scenes/vfx/chapter_03/c3_checkpoint_light.tscn",
+      "sha256": "6ade25b9e3fe99970de570a7e6763889c43e51ee8ace6aed05f2b2c58e7f5789"
+    },
+    {
+      "path": "scenes/vfx/chapter_03/c3_underwater_bubbles.tscn",
+      "sha256": "ccc4821b462ee93c6896c53dd90d278405da4372b1f57c141167c4d4e4a86c23"
+    },
+    {
+      "path": "scenes/vfx/chapter_03/c3_water_caustics.tscn",
+      "sha256": "719f31ee34708c4c8bfcfeb0f1f35e7df1410274357f96b4b8d2f2dc2e05b976"
+    },
+    {
+      "path": "scenes/vfx/chapter_03/c3_crystal_motes.tscn",
+      "sha256": "8af0181b384c1265c8d982b01cc1b2ae5d9706fb5539289db06285ed739dbff8"
+    },
+    {
+      "path": "scenes/vfx/chapter_03/c3_waterfall_mist.tscn",
+      "sha256": "f8c8b2ab1f7480c612690da5d2addfda15bacc8998a47ae05f9be9389b647784"
+    },
+    {
+      "path": "scenes/vfx/chapter_03/c3_water_splash.tscn",
+      "sha256": "b13edcb33a047ff143ccd3f11a7ad585caa046bebb937452ebf1bf4b779ed8b6"
+    },
+    {
+      "path": "scenes/vfx/chapter_03/c3_fragment_pickup.tscn",
+      "sha256": "01acfb0572c97f44e5ccad0d227a1b82919f048e77719f8c04b9d0fa4adf284e"
+    },
+    {
+      "path": "scenes/props/chapter_03/c3_lantern_light.tscn",
+      "sha256": "56c9f9ae3981bf765c1ca4abb7fb4936e4af335b99e590f9b877136b889d13ae"
+    },
+    {
+      "path": "scripts/chapter_03/vfx/water_effect.gd",
+      "sha256": "d0ba50b825d0b47cdd900f91b57cbc5ad3f55b6bb2613ce407cdb4927a5bdd9e"
+    },
+    {
+      "path": "scripts/chapter_03/vfx/light_budget.gd",
+      "sha256": "efc883a0389056dd69fd05fe51406ce053789b6340bc57f3d8cb2285bf23fa19"
+    },
+    {
+      "path": "scripts/chapter_03/vfx/particle_effect.gd",
+      "sha256": "38349dcc3162bc4c599472d9281f14df2872c6cd3433cdc4d152670e29b16f2a"
+    },
+    {
+      "path": "scripts/chapter_03/vfx/lantern_light.gd",
+      "sha256": "eaf4d3868ab515e91760b6ee94894def8811c505565d594f49524b5721415517"
+    },
+    {
+      "path": "scripts/chapter_03/vfx/shrine_light.gd",
+      "sha256": "b6ae1347c14485b9700cef537edbf6ee3e51ba258095de60db0d3484e585451c"
+    },
+    {
+      "path": "resources/chapter_03/vfx/caustics.gdshader",
+      "sha256": "b9ec73628ef2ba03f13c76d059e5740fcdad287ab570a61295f08e62c0eeba97"
+    },
+    {
+      "path": "resources/chapter_03/vfx/waterfall.gdshader",
+      "sha256": "cb8ac6bb16dde29a5a529fd38b5e4902292f850cbb5ec558a05acf4214948366"
+    },
+    {
+      "path": "resources/chapter_03/lighting/light_budget.tscn",
+      "sha256": "ddd0c4a89d8526164462e9c2b4e0fc54c5438f2697f4ee49dc9f2d8ff109474e"
+    }
+  ],
+  "native_role_mappings": {
+    "C3-LIGHT-LANTERN-01": "scenes/props/chapter_03/c3_lantern_light.tscn",
+    "C3-LIGHT-CRYSTAL-01": "scenes/vfx/chapter_03/c3_crystal_light.tscn",
+    "C3-LIGHT-CHECKPOINT-01": "scenes/vfx/chapter_03/c3_checkpoint_light.tscn",
+    "C3-LIGHT-SHRINE-01": "scenes/vfx/chapter_03/c3_shrine_light.tscn",
+    "C3-VFX-002": "scenes/vfx/chapter_03/c3_lantern_sparks.tscn",
+    "C3-VFX-003": "scenes/vfx/chapter_03/c3_crystal_motes.tscn",
+    "C3-VFX-005": "scenes/vfx/chapter_03/c3_fragment_pickup.tscn",
+    "C3-VFX-008": "scenes/vfx/chapter_03/c3_water_splash.tscn",
+    "C3-VFX-009": "scenes/vfx/chapter_03/c3_underwater_bubbles.tscn",
+    "C3-VFX-010": "scenes/vfx/chapter_03/c3_waterfall_mist.tscn"
+  }
+}

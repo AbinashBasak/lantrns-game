@@ -1,0 +1,207 @@
+{
+  "asset_id": "C3-BG-002",
+  "title": "Distant submerged ruins",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/backgrounds/C3-BG-002/source_images/C3-BG-002_organized_image-076-fdc3ac82.png",
+      "sha256": "ee2adc137401b83bab15038db9d4e377fe95436aaa6ef4313375ed4d37e723f2",
+      "bytes": 2115542,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-076-fdc3ac82.png",
+      "source_message_id": "9d1aa5a2-2bc6-463c-a3d5-788b7a52215b",
+      "source_requested_ids": [
+        "C3-BG-002"
+      ],
+      "generated_subject_title": "Sunken Temple Ruins in Teal Light",
+      "production_approved": false,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/backgrounds/C3-BG-002/source_images/C3-BG-002_organized_image-079-75fb8da1.png",
+      "sha256": "331e2394223653157d65070bcd3033a0b372ff172c661c42f92fa4de956df85b",
+      "bytes": 2369051,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-079-75fb8da1.png",
+      "source_message_id": "1c5ef501-8cc7-487e-9c54-d79a8b2ed68f",
+      "source_requested_ids": [
+        "C3-BG-003"
+      ],
+      "generated_subject_title": "Submerged Temple Ruins with Golden Shrine",
+      "production_approved": false,
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-BG-002",
+          "source_index": 76,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-076-fdc3ac82.png",
+          "source_sha256": "ee2adc137401b83bab15038db9d4e377fe95436aaa6ef4313375ed4d37e723f2",
+          "source_message_id": "9d1aa5a2-2bc6-463c-a3d5-788b7a52215b",
+          "requested_ids": [
+            "C3-BG-002"
+          ],
+          "source_dimensions": [
+            1672,
+            941
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "content_trim": [
+            0,
+            8,
+            1672,
+            941
+          ],
+          "export": "art/environment/chapter_03/backgrounds/c3_bg_002_distant_submerged_ruins.png",
+          "export_sha256": "e410d2c7e1459e824b8c59f4591f0bc1b3e028cf848b52687bfd48390a0b6a82",
+          "dimensions": [
+            1672,
+            933
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            1672,
+            933
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 560705,
+          "nonopaque_pixel_count": 1559852,
+          "opaque_pixel_count": 124,
+          "pivot": [
+            836.0,
+            933
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -60,
+          "receives_light": false,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "unchanged native alpha crop",
+          "purpose": "distant backdrop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Visible content touches a source crop boundary; inspect source for clipping before use."
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/backgrounds/c3_bg_002_distant_submerged_ruins.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-BG-002",
+          "source_index": 79,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-079-75fb8da1.png",
+          "source_sha256": "331e2394223653157d65070bcd3033a0b372ff172c661c42f92fa4de956df85b",
+          "source_message_id": "1c5ef501-8cc7-487e-9c54-d79a8b2ed68f",
+          "requested_ids": [
+            "C3-BG-003"
+          ],
+          "source_dimensions": [
+            1672,
+            941
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "content_trim": [
+            0,
+            0,
+            1662,
+            941
+          ],
+          "export": "art/environment/chapter_03/backgrounds/c3_bg_002_distant_submerged_ruins_variant.png",
+          "export_sha256": "99b9c4155bee74d0bfb48f801acec5e94b04666f4ec71bff4b823d25bf9916fc",
+          "dimensions": [
+            1662,
+            941
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            1662,
+            941
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 525443,
+          "nonopaque_pixel_count": 1563736,
+          "opaque_pixel_count": 206,
+          "pivot": [
+            831.0,
+            941
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -60,
+          "receives_light": false,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "unchanged native alpha crop",
+          "purpose": "distant backdrop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Visible content touches a source crop boundary; inspect source for clipping before use."
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/backgrounds/c3_bg_002_distant_submerged_ruins_variant.png"
+        ]
+      }
+    ],
+    "exports": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/backgrounds/C3-BG-002/exports/organized_v1/C3-BG-002_00_c3_bg_002_distant_submerged_ruins.png",
+        "sha256": "e410d2c7e1459e824b8c59f4591f0bc1b3e028cf848b52687bfd48390a0b6a82",
+        "bytes": 2230349,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/backgrounds/c3_bg_002_distant_submerged_ruins.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/backgrounds/C3-BG-002/exports/organized_v1/C3-BG-002_01_c3_bg_002_distant_submerged_ruins_variant.png",
+        "sha256": "99b9c4155bee74d0bfb48f801acec5e94b04666f4ec71bff4b823d25bf9916fc",
+        "bytes": 2457747,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/backgrounds/c3_bg_002_distant_submerged_ruins_variant.png",
+        "kind": "environment"
+      }
+    ],
+    "native_resources": [],
+    "missing_or_blocked": [],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

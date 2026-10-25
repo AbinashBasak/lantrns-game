@@ -2,7 +2,7 @@
   "asset_id": "C3-ENM-003",
   "title": "Drowned Archive Keeper",
   "source_chat": "https://chatgpt.com/share/6adcfe72-eeb4-83ee-b43a-a08319abf676",
-  "stage": "originals recovered; cleanup and in-engine approval pending",
+  "stage": "sources organized; clean deliverables blocked; see metadata",
   "production_approved": false,
   "notes": "Generated spectral glide/cast art conflicts with bible ground/swim/melee behavior. Preserve sources; no mechanic replacement approved.",
   "sources": [
@@ -160,5 +160,21 @@
   "runtime_exports": [],
   "preview_paths": [
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-003/previews/C3-ENM-003_source_contact_review.jpg"
-  ]
+  ],
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [],
+    "exports": [],
+    "native_resources": [],
+    "missing_or_blocked": [
+      "walk",
+      "swim",
+      "windup",
+      "swing",
+      "recover",
+      "death; existing glide/cast artwork conflicts with bible"
+    ],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
 }

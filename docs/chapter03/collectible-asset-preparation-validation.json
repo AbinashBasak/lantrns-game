@@ -1,0 +1,73 @@
+{
+	"failures": [],
+	"godot_version": "4.7.2-stable (official)",
+	"renderer": "macOS",
+	"results": [
+		{
+			"asset_id": "C3-ITM-002",
+			"body_light_separate_nodes": true,
+			"captures": [
+				"res://docs/chapter03/collectible-asset-preparation-c3-itm-002-native-light-off.png",
+				"res://docs/chapter03/collectible-asset-preparation-c3-itm-002-native-light-on.png"
+			],
+			"fps": 6.0,
+			"frame_count": 4.0,
+			"loop_verified": true,
+			"native_scene": "scenes/props/chapter_03/review/c3_collectible_itm_002_review.tscn",
+			"native_travel_state": "idle_unlit",
+			"production_approved": false,
+			"travel_first_frame": 0,
+			"travel_progressed_frame": 1
+		},
+		{
+			"asset_id": "C3-ITM-006",
+			"body_light_separate_nodes": true,
+			"captures": [
+				"res://docs/chapter03/collectible-asset-preparation-c3-itm-006-native-light-off.png",
+				"res://docs/chapter03/collectible-asset-preparation-c3-itm-006-native-light-on.png"
+			],
+			"fps": 6.0,
+			"frame_count": 4.0,
+			"loop_verified": true,
+			"native_scene": "scenes/props/chapter_03/review/c3_collectible_itm_006_review.tscn",
+			"native_travel_state": "idle_unlit",
+			"production_approved": false,
+			"travel_first_frame": 0,
+			"travel_progressed_frame": 1
+		},
+		{
+			"asset_id": "C3-ITM-007",
+			"body_light_separate_nodes": true,
+			"captures": [
+				"res://docs/chapter03/collectible-asset-preparation-c3-itm-007-native-light-off.png",
+				"res://docs/chapter03/collectible-asset-preparation-c3-itm-007-native-light-on.png"
+			],
+			"fps": 6.0,
+			"frame_count": 6.0,
+			"loop_verified": true,
+			"native_scene": "scenes/props/chapter_03/review/c3_collectible_itm_007_review.tscn",
+			"native_travel_state": "idle_unlit",
+			"production_approved": false,
+			"travel_first_frame": 0,
+			"travel_progressed_frame": 1
+		},
+		{
+			"asset_id": "C3-ITM-008",
+			"body_light_separate_nodes": true,
+			"captures": [
+				"res://docs/chapter03/collectible-asset-preparation-c3-itm-008-native-light-off.png",
+				"res://docs/chapter03/collectible-asset-preparation-c3-itm-008-native-light-on.png"
+			],
+			"fps": 6.0,
+			"frame_count": 6.0,
+			"loop_verified": true,
+			"native_scene": "scenes/props/chapter_03/review/c3_collectible_itm_008_review.tscn",
+			"native_travel_state": "idle_unlit",
+			"production_approved": false,
+			"travel_first_frame": 0,
+			"travel_progressed_frame": 1
+		}
+	],
+	"scope": "Native import/counts/timelines, actual AnimationTree travel and frame progression through the single supplied idle loop, and identical native light-off/light-on captures. Missing action/VFX families are not fabricated; gameplay integration and art approval pending.",
+	"status": "passed"
+}

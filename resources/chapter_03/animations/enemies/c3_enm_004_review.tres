@@ -1,0 +1,92 @@
+[gd_resource type="SpriteFrames" load_steps=39 format=3]
+
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/idle/C3-ENM-004_idle_00.png" id="1"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/idle/C3-ENM-004_idle_01.png" id="2"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/idle/C3-ENM-004_idle_02.png" id="3"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/idle/C3-ENM-004_idle_03.png" id="4"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/idle/C3-ENM-004_idle_04.png" id="5"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/walk/C3-ENM-004_walk_00.png" id="6"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/walk/C3-ENM-004_walk_01.png" id="7"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/walk/C3-ENM-004_walk_02.png" id="8"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/walk/C3-ENM-004_walk_03.png" id="9"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/walk/C3-ENM-004_walk_04.png" id="10"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/walk/C3-ENM-004_walk_05.png" id="11"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/shield/C3-ENM-004_shield_00.png" id="12"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/shield/C3-ENM-004_shield_01.png" id="13"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/shield/C3-ENM-004_shield_02.png" id="14"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/shield/C3-ENM-004_shield_03.png" id="15"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/windup/C3-ENM-004_windup_00.png" id="16"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/windup/C3-ENM-004_windup_01.png" id="17"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/windup/C3-ENM-004_windup_02.png" id="18"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/windup/C3-ENM-004_windup_03.png" id="19"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/slam_partial/C3-ENM-004_slam_partial_00.png" id="20"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/slam_partial/C3-ENM-004_slam_partial_01.png" id="21"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/slam_partial/C3-ENM-004_slam_partial_02.png" id="22"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/slam_partial/C3-ENM-004_slam_partial_03.png" id="23"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/recover/C3-ENM-004_recover_00.png" id="24"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/recover/C3-ENM-004_recover_01.png" id="25"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/recover/C3-ENM-004_recover_02.png" id="26"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/recover/C3-ENM-004_recover_03.png" id="27"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/hurt/C3-ENM-004_hurt_00.png" id="28"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/hurt/C3-ENM-004_hurt_01.png" id="29"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/hurt/C3-ENM-004_hurt_02.png" id="30"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/death/C3-ENM-004_death_00.png" id="31"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/death/C3-ENM-004_death_01.png" id="32"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/death/C3-ENM-004_death_02.png" id="33"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/death/C3-ENM-004_death_03.png" id="34"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/death/C3-ENM-004_death_04.png" id="35"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/death/C3-ENM-004_death_05.png" id="36"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/death/C3-ENM-004_death_06.png" id="37"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_004/death/C3-ENM-004_death_07.png" id="38"]
+
+[resource]
+animations = [
+{
+"frames": [{"duration": 1.0, "texture": ExtResource("1")}, {"duration": 1.0, "texture": ExtResource("2")}, {"duration": 1.0, "texture": ExtResource("3")}, {"duration": 1.0, "texture": ExtResource("4")}, {"duration": 1.0, "texture": ExtResource("5")}],
+"loop": true,
+"name": &"idle",
+"speed": 6.0
+},
+{
+"frames": [{"duration": 1.0, "texture": ExtResource("6")}, {"duration": 1.0, "texture": ExtResource("7")}, {"duration": 1.0, "texture": ExtResource("8")}, {"duration": 1.0, "texture": ExtResource("9")}, {"duration": 1.0, "texture": ExtResource("10")}, {"duration": 1.0, "texture": ExtResource("11")}],
+"loop": true,
+"name": &"walk",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": ExtResource("12")}, {"duration": 1.0, "texture": ExtResource("13")}, {"duration": 1.0, "texture": ExtResource("14")}, {"duration": 1.0, "texture": ExtResource("15")}],
+"loop": false,
+"name": &"shield",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": ExtResource("16")}, {"duration": 1.0, "texture": ExtResource("17")}, {"duration": 1.0, "texture": ExtResource("18")}, {"duration": 1.0, "texture": ExtResource("19")}],
+"loop": false,
+"name": &"windup",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": ExtResource("20")}, {"duration": 1.0, "texture": ExtResource("21")}, {"duration": 1.0, "texture": ExtResource("22")}, {"duration": 1.0, "texture": ExtResource("23")}],
+"loop": false,
+"name": &"slam_partial",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": ExtResource("24")}, {"duration": 1.0, "texture": ExtResource("25")}, {"duration": 1.0, "texture": ExtResource("26")}, {"duration": 1.0, "texture": ExtResource("27")}],
+"loop": false,
+"name": &"recover",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": ExtResource("28")}, {"duration": 1.0, "texture": ExtResource("29")}, {"duration": 1.0, "texture": ExtResource("30")}],
+"loop": false,
+"name": &"hurt",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": ExtResource("31")}, {"duration": 1.0, "texture": ExtResource("32")}, {"duration": 1.0, "texture": ExtResource("33")}, {"duration": 1.0, "texture": ExtResource("34")}, {"duration": 1.0, "texture": ExtResource("35")}, {"duration": 1.0, "texture": ExtResource("36")}, {"duration": 1.0, "texture": ExtResource("37")}, {"duration": 1.0, "texture": ExtResource("38")}],
+"loop": false,
+"name": &"death",
+"speed": 8.0
+},
+]

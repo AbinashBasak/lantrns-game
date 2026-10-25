@@ -2,7 +2,7 @@
   "asset_id": "C3-ENM-002",
   "title": "Crystal Wisp",
   "source_chat": "https://chatgpt.com/share/6adcfe72-eeb4-83ee-b43a-a08319abf676",
-  "stage": "originals recovered; cleanup and in-engine approval pending",
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
   "production_approved": false,
   "notes": "Projectile and emitted light must be separate native scenes/nodes. Frame dimensions, clipping, and poses need review.",
   "sources": [
@@ -114,5 +114,906 @@
   "runtime_exports": [],
   "preview_paths": [
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/previews/C3-ENM-002_source_contact_review.jpg"
-  ]
+  ],
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "animation",
+        "details": {
+          "asset": 2,
+          "action": "hover",
+          "image": "old_2_hover",
+          "row": "all",
+          "expected": 6,
+          "skip": [],
+          "note": "Earlier recovered original. Native review only; edge clipping and source design consistency remain unapproved.",
+          "fps": 8,
+          "loop": true,
+          "asset_id": "C3-ENM-002",
+          "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/source_images/C3-ENM-002_hover_msg_319_00000000437882088ef1167d3c2dead2.png",
+          "source_sha256": "862ca67c5d7b769b55fae09c6578225493e8bead6e7e68d1a6689712e7e215cf",
+          "source_dimensions": [
+            2172,
+            724
+          ],
+          "source_message_id": "cf6ebaa6-f0ff-47a2-b7da-c6a32229232d",
+          "source_message_index": 319,
+          "source_pointer": "sediment://file_00000000437882088ef1167d3c2dead2?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+          "source_visual_poses": 6,
+          "recovered_frames": 6,
+          "full_family_recovered": true,
+          "source_component_map": [
+            {
+              "label": 4,
+              "pixels": 61165,
+              "box": [
+                40,
+                108,
+                344,
+                620
+              ],
+              "cluster": 4
+            },
+            {
+              "label": 3,
+              "pixels": 62555,
+              "box": [
+                398,
+                98,
+                704,
+                621
+              ],
+              "cluster": 3
+            },
+            {
+              "label": 1,
+              "pixels": 71357,
+              "box": [
+                759,
+                49,
+                1058,
+                624
+              ],
+              "cluster": 1
+            },
+            {
+              "label": 6,
+              "pixels": 62871,
+              "box": [
+                1109,
+                117,
+                1424,
+                614
+              ],
+              "cluster": 5
+            },
+            {
+              "label": 2,
+              "pixels": 61809,
+              "box": [
+                1489,
+                88,
+                1761,
+                614
+              ],
+              "cluster": 2
+            },
+            {
+              "label": 10,
+              "pixels": 53016,
+              "box": [
+                1875,
+                145,
+                2137,
+                613
+              ],
+              "cluster": 6
+            }
+          ],
+          "source_component_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "source_crop_bounds": [
+            [
+              38,
+              106,
+              346,
+              622
+            ],
+            [
+              396,
+              96,
+              706,
+              623
+            ],
+            [
+              757,
+              47,
+              1060,
+              626
+            ],
+            [
+              1107,
+              115,
+              1426,
+              616
+            ],
+            [
+              1487,
+              86,
+              1763,
+              616
+            ],
+            [
+              1873,
+              143,
+              2139,
+              615
+            ]
+          ],
+          "touches_source_edge": false,
+          "production_approved": false,
+          "stage": "native diagnostic review; source cleanup and gameplay approval pending",
+          "receives_light": true,
+          "casts_shadows": false,
+          "emits_light": false,
+          "collision_shape": "none in art review; gameplay body/hurtbox/attack areas must be authored separately",
+          "z_index": 10,
+          "import_filter": "linear",
+          "compression": "lossless",
+          "timing_status": "authored review playback only; combat timing not approved",
+          "exports": [
+            {
+              "path": "art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_00.png",
+              "sha256": "8e3b8db235000ceafd4b8f25b518489020a3c5cb9b80721d901f3561eea91367",
+              "dimensions": [
+                472,
+                612
+              ],
+              "visible_bounds": [
+                82,
+                48,
+                390,
+                564
+              ],
+              "source_crop_bounds": [
+                38,
+                106,
+                346,
+                622
+              ],
+              "source_component_index": 0
+            },
+            {
+              "path": "art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_01.png",
+              "sha256": "2907c65794c3ea427aeb23e8e533773af66535152f2c3146ba61c28556e4acd4",
+              "dimensions": [
+                472,
+                612
+              ],
+              "visible_bounds": [
+                81,
+                42,
+                391,
+                569
+              ],
+              "source_crop_bounds": [
+                396,
+                96,
+                706,
+                623
+              ],
+              "source_component_index": 1
+            },
+            {
+              "path": "art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_02.png",
+              "sha256": "2772f94861afc941b647f26513f7e7cdda71ef57ad8e4d4f8e1323e8e0425f34",
+              "dimensions": [
+                472,
+                612
+              ],
+              "visible_bounds": [
+                84,
+                16,
+                387,
+                595
+              ],
+              "source_crop_bounds": [
+                757,
+                47,
+                1060,
+                626
+              ],
+              "source_component_index": 2
+            },
+            {
+              "path": "art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_03.png",
+              "sha256": "eeefa1c906de79b2a629939a8628a18bb408a9f66adc2d50b3ac884d912a32fd",
+              "dimensions": [
+                472,
+                612
+              ],
+              "visible_bounds": [
+                76,
+                55,
+                395,
+                556
+              ],
+              "source_crop_bounds": [
+                1107,
+                115,
+                1426,
+                616
+              ],
+              "source_component_index": 3
+            },
+            {
+              "path": "art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_04.png",
+              "sha256": "abb2cb1fab28941aa756ea1701142bc1a0146e1ebb94ab6df19966ccabbc2120",
+              "dimensions": [
+                472,
+                612
+              ],
+              "visible_bounds": [
+                98,
+                41,
+                374,
+                571
+              ],
+              "source_crop_bounds": [
+                1487,
+                86,
+                1763,
+                616
+              ],
+              "source_component_index": 4
+            },
+            {
+              "path": "art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_05.png",
+              "sha256": "e40aa5d3fee3994e04ca3557116894f5560b3328bf5870f81f56dc68951fab85",
+              "dimensions": [
+                472,
+                612
+              ],
+              "visible_bounds": [
+                103,
+                70,
+                369,
+                542
+              ],
+              "source_crop_bounds": [
+                1873,
+                143,
+                2139,
+                615
+              ],
+              "source_component_index": 5
+            }
+          ],
+          "canvas_size": [
+            472,
+            612
+          ],
+          "pivot": [
+            236,
+            306
+          ],
+          "pivot_type": "center",
+          "normalization": "Exact source RGBA pixels from the selected alpha>16 connected component plus its native two-pixel antialias fringe; disconnected particles and faint canvas noise excluded. Transparent padding only; no resize or painted pixels. Each isolated pose centered horizontally; shared bottom baseline for ground actors. Floating actors use center pivot.",
+          "qa_pending": [
+            "identity/volume continuity across independent source sheets",
+            "attached highlights and attack VFX separation",
+            "playback timing and gameplay-scale silhouettes",
+            "source clipping correction where flagged",
+            "missing canonical families"
+          ],
+          "preview_path": "docs/chapter03/animation-asset-preparation-c3-enm-002-hover.png",
+          "production_exports": [
+            {
+              "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/exports/native_animation_review_v1/hover/C3-ENM-002_hover_00.png",
+              "sha256": "8e3b8db235000ceafd4b8f25b518489020a3c5cb9b80721d901f3561eea91367",
+              "runtime_review_copy": "art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_00.png"
+            },
+            {
+              "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/exports/native_animation_review_v1/hover/C3-ENM-002_hover_01.png",
+              "sha256": "2907c65794c3ea427aeb23e8e533773af66535152f2c3146ba61c28556e4acd4",
+              "runtime_review_copy": "art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_01.png"
+            },
+            {
+              "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/exports/native_animation_review_v1/hover/C3-ENM-002_hover_02.png",
+              "sha256": "2772f94861afc941b647f26513f7e7cdda71ef57ad8e4d4f8e1323e8e0425f34",
+              "runtime_review_copy": "art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_02.png"
+            },
+            {
+              "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/exports/native_animation_review_v1/hover/C3-ENM-002_hover_03.png",
+              "sha256": "eeefa1c906de79b2a629939a8628a18bb408a9f66adc2d50b3ac884d912a32fd",
+              "runtime_review_copy": "art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_03.png"
+            },
+            {
+              "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/exports/native_animation_review_v1/hover/C3-ENM-002_hover_04.png",
+              "sha256": "abb2cb1fab28941aa756ea1701142bc1a0146e1ebb94ab6df19966ccabbc2120",
+              "runtime_review_copy": "art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_04.png"
+            },
+            {
+              "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/exports/native_animation_review_v1/hover/C3-ENM-002_hover_05.png",
+              "sha256": "e40aa5d3fee3994e04ca3557116894f5560b3328bf5870f81f56dc68951fab85",
+              "runtime_review_copy": "art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_05.png"
+            }
+          ],
+          "production_preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/previews/native_animation_review_v1/C3-ENM-002_hover_review.png"
+        },
+        "output_paths": [
+          "art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_00.png",
+          "art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_01.png",
+          "art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_02.png",
+          "art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_03.png",
+          "art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_04.png",
+          "art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_05.png"
+        ],
+        "preview": "docs/chapter03/animation-asset-preparation-c3-enm-002-hover.png"
+      },
+      {
+        "kind": "animation",
+        "details": {
+          "asset": 2,
+          "action": "charge",
+          "image": "old_2_attack",
+          "row": "all",
+          "expected": 3,
+          "skip": [
+            3,
+            4,
+            5
+          ],
+          "note": "Three distinct source charge poses isolated from mixed attack strip. Separate bolt is exported independently.",
+          "fps": 8,
+          "loop": false,
+          "asset_id": "C3-ENM-002",
+          "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/source_images/C3-ENM-002_attack_msg_325_00000000908482089171caf455ee7c0a.png",
+          "source_sha256": "29a1b0df8d28e71b14443ccfa672e7d4c82148083b11d1c88ad95ffdccc2bf61",
+          "source_dimensions": [
+            2172,
+            724
+          ],
+          "source_message_id": "40ef8884-5a45-47eb-a5e3-41c4a6708dc1",
+          "source_message_index": 325,
+          "source_pointer": "sediment://file_00000000908482089171caf455ee7c0a?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+          "source_visual_poses": 3,
+          "recovered_frames": 3,
+          "full_family_recovered": true,
+          "source_component_map": [
+            {
+              "label": 4,
+              "pixels": 67821,
+              "box": [
+                19,
+                144,
+                304,
+                607
+              ],
+              "cluster": 4
+            },
+            {
+              "label": 3,
+              "pixels": 94719,
+              "box": [
+                351,
+                142,
+                673,
+                608
+              ],
+              "cluster": 3
+            },
+            {
+              "label": 1,
+              "pixels": 137031,
+              "box": [
+                689,
+                96,
+                1036,
+                620
+              ],
+              "cluster": 1
+            },
+            {
+              "label": 5,
+              "pixels": 104242,
+              "box": [
+                1047,
+                147,
+                1482,
+                608
+              ],
+              "cluster": 5
+            },
+            {
+              "label": 10,
+              "pixels": 46641,
+              "box": [
+                1463,
+                269,
+                1857,
+                486
+              ],
+              "cluster": 6
+            },
+            {
+              "label": 2,
+              "pixels": 70831,
+              "box": [
+                1878,
+                124,
+                2154,
+                610
+              ],
+              "cluster": 2
+            }
+          ],
+          "source_component_indices": [
+            0,
+            1,
+            2
+          ],
+          "source_crop_bounds": [
+            [
+              17,
+              142,
+              306,
+              609
+            ],
+            [
+              349,
+              140,
+              675,
+              610
+            ],
+            [
+              687,
+              94,
+              1038,
+              622
+            ]
+          ],
+          "touches_source_edge": false,
+          "production_approved": false,
+          "stage": "native diagnostic review; source cleanup and gameplay approval pending",
+          "receives_light": true,
+          "casts_shadows": false,
+          "emits_light": false,
+          "collision_shape": "none in art review; gameplay body/hurtbox/attack areas must be authored separately",
+          "z_index": 10,
+          "import_filter": "linear",
+          "compression": "lossless",
+          "timing_status": "authored review playback only; combat timing not approved",
+          "exports": [
+            {
+              "path": "art/enemies/chapter_03/c3_enm_002/charge/C3-ENM-002_charge_00.png",
+              "sha256": "ceee469c2754341ea9e892b6fda41cfd8a0440b12f6fd105f0eb244993c92df0",
+              "dimensions": [
+                472,
+                612
+              ],
+              "visible_bounds": [
+                91,
+                72,
+                380,
+                539
+              ],
+              "source_crop_bounds": [
+                17,
+                142,
+                306,
+                609
+              ],
+              "source_component_index": 0
+            },
+            {
+              "path": "art/enemies/chapter_03/c3_enm_002/charge/C3-ENM-002_charge_01.png",
+              "sha256": "245fe5c6327b73bec3ff1ecd96c4261db81330296fbe07b0251a51a9df09172c",
+              "dimensions": [
+                472,
+                612
+              ],
+              "visible_bounds": [
+                73,
+                71,
+                399,
+                541
+              ],
+              "source_crop_bounds": [
+                349,
+                140,
+                675,
+                610
+              ],
+              "source_component_index": 1
+            },
+            {
+              "path": "art/enemies/chapter_03/c3_enm_002/charge/C3-ENM-002_charge_02.png",
+              "sha256": "f6b3d30344426a698df03e6ba671400b9a9d180f1a73d6ff2076c1d3fa6e9e46",
+              "dimensions": [
+                472,
+                612
+              ],
+              "visible_bounds": [
+                60,
+                42,
+                411,
+                570
+              ],
+              "source_crop_bounds": [
+                687,
+                94,
+                1038,
+                622
+              ],
+              "source_component_index": 2
+            }
+          ],
+          "canvas_size": [
+            472,
+            612
+          ],
+          "pivot": [
+            236,
+            306
+          ],
+          "pivot_type": "center",
+          "normalization": "Exact source RGBA pixels from the selected alpha>16 connected component plus its native two-pixel antialias fringe; disconnected particles and faint canvas noise excluded. Transparent padding only; no resize or painted pixels. Each isolated pose centered horizontally; shared bottom baseline for ground actors. Floating actors use center pivot.",
+          "qa_pending": [
+            "identity/volume continuity across independent source sheets",
+            "attached highlights and attack VFX separation",
+            "playback timing and gameplay-scale silhouettes",
+            "source clipping correction where flagged",
+            "missing canonical families"
+          ],
+          "preview_path": "docs/chapter03/animation-asset-preparation-c3-enm-002-charge.png",
+          "production_exports": [
+            {
+              "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/exports/native_animation_review_v1/charge/C3-ENM-002_charge_00.png",
+              "sha256": "ceee469c2754341ea9e892b6fda41cfd8a0440b12f6fd105f0eb244993c92df0",
+              "runtime_review_copy": "art/enemies/chapter_03/c3_enm_002/charge/C3-ENM-002_charge_00.png"
+            },
+            {
+              "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/exports/native_animation_review_v1/charge/C3-ENM-002_charge_01.png",
+              "sha256": "245fe5c6327b73bec3ff1ecd96c4261db81330296fbe07b0251a51a9df09172c",
+              "runtime_review_copy": "art/enemies/chapter_03/c3_enm_002/charge/C3-ENM-002_charge_01.png"
+            },
+            {
+              "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/exports/native_animation_review_v1/charge/C3-ENM-002_charge_02.png",
+              "sha256": "f6b3d30344426a698df03e6ba671400b9a9d180f1a73d6ff2076c1d3fa6e9e46",
+              "runtime_review_copy": "art/enemies/chapter_03/c3_enm_002/charge/C3-ENM-002_charge_02.png"
+            }
+          ],
+          "production_preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/previews/native_animation_review_v1/C3-ENM-002_charge_review.png"
+        },
+        "output_paths": [
+          "art/enemies/chapter_03/c3_enm_002/charge/C3-ENM-002_charge_00.png",
+          "art/enemies/chapter_03/c3_enm_002/charge/C3-ENM-002_charge_01.png",
+          "art/enemies/chapter_03/c3_enm_002/charge/C3-ENM-002_charge_02.png"
+        ],
+        "preview": "docs/chapter03/animation-asset-preparation-c3-enm-002-charge.png"
+      },
+      {
+        "kind": "animation",
+        "details": {
+          "asset": 2,
+          "action": "projectile_body_partial",
+          "image": "old_2_attack",
+          "row": "all",
+          "expected": 2,
+          "skip": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "note": "Two source body fire/recover poses. Attached launch accents remain cleanup work; standalone bolt is independent.",
+          "fps": 8,
+          "loop": false,
+          "asset_id": "C3-ENM-002",
+          "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/source_images/C3-ENM-002_attack_msg_325_00000000908482089171caf455ee7c0a.png",
+          "source_sha256": "29a1b0df8d28e71b14443ccfa672e7d4c82148083b11d1c88ad95ffdccc2bf61",
+          "source_dimensions": [
+            2172,
+            724
+          ],
+          "source_message_id": "40ef8884-5a45-47eb-a5e3-41c4a6708dc1",
+          "source_message_index": 325,
+          "source_pointer": "sediment://file_00000000908482089171caf455ee7c0a?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+          "source_visual_poses": 2,
+          "recovered_frames": 2,
+          "full_family_recovered": false,
+          "source_component_map": [
+            {
+              "label": 4,
+              "pixels": 67821,
+              "box": [
+                19,
+                144,
+                304,
+                607
+              ],
+              "cluster": 4
+            },
+            {
+              "label": 3,
+              "pixels": 94719,
+              "box": [
+                351,
+                142,
+                673,
+                608
+              ],
+              "cluster": 3
+            },
+            {
+              "label": 1,
+              "pixels": 137031,
+              "box": [
+                689,
+                96,
+                1036,
+                620
+              ],
+              "cluster": 1
+            },
+            {
+              "label": 5,
+              "pixels": 104242,
+              "box": [
+                1047,
+                147,
+                1482,
+                608
+              ],
+              "cluster": 5
+            },
+            {
+              "label": 10,
+              "pixels": 46641,
+              "box": [
+                1463,
+                269,
+                1857,
+                486
+              ],
+              "cluster": 6
+            },
+            {
+              "label": 2,
+              "pixels": 70831,
+              "box": [
+                1878,
+                124,
+                2154,
+                610
+              ],
+              "cluster": 2
+            }
+          ],
+          "source_component_indices": [
+            3,
+            5
+          ],
+          "source_crop_bounds": [
+            [
+              1045,
+              145,
+              1484,
+              610
+            ],
+            [
+              1876,
+              122,
+              2156,
+              612
+            ]
+          ],
+          "touches_source_edge": false,
+          "production_approved": false,
+          "stage": "native diagnostic review; source cleanup and gameplay approval pending",
+          "receives_light": true,
+          "casts_shadows": false,
+          "emits_light": false,
+          "collision_shape": "none in art review; gameplay body/hurtbox/attack areas must be authored separately",
+          "z_index": 10,
+          "import_filter": "linear",
+          "compression": "lossless",
+          "timing_status": "authored review playback only; combat timing not approved",
+          "exports": [
+            {
+              "path": "art/enemies/chapter_03/c3_enm_002/projectile_body_partial/C3-ENM-002_projectile_body_partial_00.png",
+              "sha256": "0758b389b7067bb3683d5ce81dd03992b2e5f995ce3c76f66f7d2b79a3aa6811",
+              "dimensions": [
+                472,
+                612
+              ],
+              "visible_bounds": [
+                16,
+                73,
+                455,
+                538
+              ],
+              "source_crop_bounds": [
+                1045,
+                145,
+                1484,
+                610
+              ],
+              "source_component_index": 3
+            },
+            {
+              "path": "art/enemies/chapter_03/c3_enm_002/projectile_body_partial/C3-ENM-002_projectile_body_partial_01.png",
+              "sha256": "b93d0ef4abf69b2c71f84d9e4057d034c9442fd90f0dea0efe43f03115d13b8d",
+              "dimensions": [
+                472,
+                612
+              ],
+              "visible_bounds": [
+                96,
+                61,
+                376,
+                551
+              ],
+              "source_crop_bounds": [
+                1876,
+                122,
+                2156,
+                612
+              ],
+              "source_component_index": 5
+            }
+          ],
+          "canvas_size": [
+            472,
+            612
+          ],
+          "pivot": [
+            236,
+            306
+          ],
+          "pivot_type": "center",
+          "normalization": "Exact source RGBA pixels from the selected alpha>16 connected component plus its native two-pixel antialias fringe; disconnected particles and faint canvas noise excluded. Transparent padding only; no resize or painted pixels. Each isolated pose centered horizontally; shared bottom baseline for ground actors. Floating actors use center pivot.",
+          "qa_pending": [
+            "identity/volume continuity across independent source sheets",
+            "attached highlights and attack VFX separation",
+            "playback timing and gameplay-scale silhouettes",
+            "source clipping correction where flagged",
+            "missing canonical families"
+          ],
+          "preview_path": "docs/chapter03/animation-asset-preparation-c3-enm-002-projectile_body_partial.png",
+          "production_exports": [
+            {
+              "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/exports/native_animation_review_v1/projectile_body_partial/C3-ENM-002_projectile_body_partial_00.png",
+              "sha256": "0758b389b7067bb3683d5ce81dd03992b2e5f995ce3c76f66f7d2b79a3aa6811",
+              "runtime_review_copy": "art/enemies/chapter_03/c3_enm_002/projectile_body_partial/C3-ENM-002_projectile_body_partial_00.png"
+            },
+            {
+              "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/exports/native_animation_review_v1/projectile_body_partial/C3-ENM-002_projectile_body_partial_01.png",
+              "sha256": "b93d0ef4abf69b2c71f84d9e4057d034c9442fd90f0dea0efe43f03115d13b8d",
+              "runtime_review_copy": "art/enemies/chapter_03/c3_enm_002/projectile_body_partial/C3-ENM-002_projectile_body_partial_01.png"
+            }
+          ],
+          "production_preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/previews/native_animation_review_v1/C3-ENM-002_projectile_body_partial_review.png"
+        },
+        "output_paths": [
+          "art/enemies/chapter_03/c3_enm_002/projectile_body_partial/C3-ENM-002_projectile_body_partial_00.png",
+          "art/enemies/chapter_03/c3_enm_002/projectile_body_partial/C3-ENM-002_projectile_body_partial_01.png"
+        ],
+        "preview": "docs/chapter03/animation-asset-preparation-c3-enm-002-projectile_body_partial.png"
+      }
+    ],
+    "exports": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/exports/organized_v1/C3-ENM-002_00_C3-ENM-002_hover_00.png",
+        "sha256": "8e3b8db235000ceafd4b8f25b518489020a3c5cb9b80721d901f3561eea91367",
+        "bytes": 181289,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_00.png",
+        "kind": "animation"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/exports/organized_v1/C3-ENM-002_00_C3-ENM-002_hover_01.png",
+        "sha256": "2907c65794c3ea427aeb23e8e533773af66535152f2c3146ba61c28556e4acd4",
+        "bytes": 185680,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_01.png",
+        "kind": "animation"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/exports/organized_v1/C3-ENM-002_00_C3-ENM-002_hover_02.png",
+        "sha256": "2772f94861afc941b647f26513f7e7cdda71ef57ad8e4d4f8e1323e8e0425f34",
+        "bytes": 207361,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_02.png",
+        "kind": "animation"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/exports/organized_v1/C3-ENM-002_00_C3-ENM-002_hover_03.png",
+        "sha256": "eeefa1c906de79b2a629939a8628a18bb408a9f66adc2d50b3ac884d912a32fd",
+        "bytes": 186108,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_03.png",
+        "kind": "animation"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/exports/organized_v1/C3-ENM-002_00_C3-ENM-002_hover_04.png",
+        "sha256": "abb2cb1fab28941aa756ea1701142bc1a0146e1ebb94ab6df19966ccabbc2120",
+        "bytes": 183425,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_04.png",
+        "kind": "animation"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/exports/organized_v1/C3-ENM-002_00_C3-ENM-002_hover_05.png",
+        "sha256": "e40aa5d3fee3994e04ca3557116894f5560b3328bf5870f81f56dc68951fab85",
+        "bytes": 157469,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_05.png",
+        "kind": "animation"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/exports/organized_v1/C3-ENM-002_01_C3-ENM-002_charge_00.png",
+        "sha256": "ceee469c2754341ea9e892b6fda41cfd8a0440b12f6fd105f0eb244993c92df0",
+        "bytes": 193666,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/enemies/chapter_03/c3_enm_002/charge/C3-ENM-002_charge_00.png",
+        "kind": "animation"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/exports/organized_v1/C3-ENM-002_01_C3-ENM-002_charge_01.png",
+        "sha256": "245fe5c6327b73bec3ff1ecd96c4261db81330296fbe07b0251a51a9df09172c",
+        "bytes": 253365,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/enemies/chapter_03/c3_enm_002/charge/C3-ENM-002_charge_01.png",
+        "kind": "animation"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/exports/organized_v1/C3-ENM-002_01_C3-ENM-002_charge_02.png",
+        "sha256": "f6b3d30344426a698df03e6ba671400b9a9d180f1a73d6ff2076c1d3fa6e9e46",
+        "bytes": 348886,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/enemies/chapter_03/c3_enm_002/charge/C3-ENM-002_charge_02.png",
+        "kind": "animation"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/exports/organized_v1/C3-ENM-002_02_C3-ENM-002_projectile_body_partial_00.png",
+        "sha256": "0758b389b7067bb3683d5ce81dd03992b2e5f995ce3c76f66f7d2b79a3aa6811",
+        "bytes": 281324,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/enemies/chapter_03/c3_enm_002/projectile_body_partial/C3-ENM-002_projectile_body_partial_00.png",
+        "kind": "animation"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/exports/organized_v1/C3-ENM-002_02_C3-ENM-002_projectile_body_partial_01.png",
+        "sha256": "b93d0ef4abf69b2c71f84d9e4057d034c9442fd90f0dea0efe43f03115d13b8d",
+        "bytes": 201880,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/enemies/chapter_03/c3_enm_002/projectile_body_partial/C3-ENM-002_projectile_body_partial_01.png",
+        "kind": "animation"
+      }
+    ],
+    "native_resources": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/resources/chapter_03/animations/enemies/c3_enm_002_review.tres",
+        "sha256": "5c8b3772d8a2d9e34b9f7e72f8a6b947653843ca1df04be46d5e973ad2706155",
+        "bytes": 2180
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/enemies/chapter_03/review/c3_enm_002_animation_review.tscn",
+        "sha256": "36da1514fe4105372b4d2d795506fb4bb57388d275b356ea441ba8ae1e667acc",
+        "bytes": 5462
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/animation-asset-preparation-c3-enm-002-native.png",
+        "sha256": "6569b6586730b5df6c8bfcb0ab6eff1820a6f21e83a2dc5b4d5163c989266d69",
+        "bytes": 117925
+      }
+    ],
+    "missing_or_blocked": [
+      "patrol",
+      "aim",
+      "clean complete projectile body sequence",
+      "clean hurt",
+      "clean death"
+    ],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
 }

@@ -1,6 +1,6 @@
 # Native shrine light — 2026-10-25
 
-Reusable effect: `scenes/chapter_03/vfx/c3_shrine_light.tscn`.
+Reusable effect: `scenes/vfx/chapter_03/c3_shrine_light.tscn`.
 Run `scenes/chapter_03/review/c3_shrine_light_review.tscn` with F6 for idle, activation, dormant, light on/off and reduced-effects controls.
 
 This implements the native effect described by bible §6 and the local `C3-BG-008-LGT-001_Godot_Setup_Guide.txt`. Its editable nodes are gradient-texture core and glow sprites, two Line2D rings, twelve Line2D rays, a real PointLight2D, continuous CPUParticles2D sparks, a separate one-shot activation burst and AnimationPlayer timelines. Compatibility rendering uses CPU particles. No runtime node construction, scripted drawing, raster regeneration, fake heatmap or depth/normal map is used.

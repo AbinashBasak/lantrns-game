@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="PackedScene" path="res://scenes/props/chapter_03/c3_lantern_light.tscn" id="1"]
+[node name="C3CrystalLight" instance=ExtResource("1")]
+metadata/source_bible = "§6.2 C3-LIGHT-CRYSTAL-01; C3-VFX-003"
+metadata/placement = "Attach to actual large crystal core. Smaller local radius; illumination separate from art."
+[node name="PointLight2D" parent="." index="0"]
+texture_scale = 0.85
+color = Color(0.224, 0.847, 1, 1)
+shadow_enabled = false

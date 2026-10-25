@@ -1,0 +1,171 @@
+{
+  "asset_id": "C3-TILE-003",
+  "title": "Stone platform underside",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-003/source_images/C3-TILE-003_organized_TILE-004_terrain_atlas_original.png",
+      "sha256": "b6e6b6dd6160841feaa08b6381d50b1b053e7c5c2017e16477c95289ded3f7c5",
+      "bytes": 2017349,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-004/source_images/TILE-004_terrain_atlas_original.png",
+      "source_message_id": null,
+      "source_requested_ids": [],
+      "generated_subject_title": null,
+      "production_approved": false,
+      "dimensions": [
+        1254,
+        1254
+      ]
+    }
+  ],
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "terrain",
+        "details": {
+          "asset_id": "C3-TILE-003",
+          "export": "art/environment/chapter_03/tiles/terrain_candidates/c3_tile_003_stone_underside_native.png",
+          "export_sha256": "3f004b28f3ea6f4a59d450476587e96b5bc6118234fe5152a6bbd28cc8183fef",
+          "dimensions": [
+            256,
+            256
+          ],
+          "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-004/source_images/TILE-004_terrain_atlas_original.png",
+          "source_sha256": "b6e6b6dd6160841feaa08b6381d50b1b053e7c5c2017e16477c95289ded3f7c5",
+          "source_crop": [
+            340,
+            640,
+            596,
+            896
+          ],
+          "operation": "unchanged native crop",
+          "alpha_bounds": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0,
+            0
+          ],
+          "world_units_per_tile": 64,
+          "native_pixels_per_tile": 256,
+          "world_scale": 0.25,
+          "filter": "linear",
+          "compression": "lossless",
+          "receives_light": true,
+          "emits_light": false,
+          "casts_shadows": "separate simple authored terrain occluder if needed",
+          "animation_frames": 1,
+          "fps": 0,
+          "approved": false,
+          "stage": "native TileSet seam/collision review candidate",
+          "limitations": [
+            "Generic reusable mossy blue-gray rock material; not a newly authored ornate Chapter3 terrain pack",
+            "Mirrored repetition is visible; no seamless-authored-art claim",
+            "Vertical sequence top, odd number of alternating middle/middle-Y rows, underside preserves source joins; arbitrary transitions not approved"
+          ],
+          "atlas_coords": [
+            6,
+            0
+          ],
+          "source_alpha_preserved": true
+        },
+        "output_paths": [
+          "art/environment/chapter_03/tiles/terrain_candidates/c3_tile_003_stone_underside_native.png"
+        ]
+      },
+      {
+        "kind": "terrain",
+        "details": {
+          "asset_id": "C3-TILE-003",
+          "export": "art/environment/chapter_03/tiles/terrain_candidates/c3_tile_003_stone_underside_mirror_x.png",
+          "export_sha256": "ce264541e884ffd75a6c6d18d30f834c19be115c219045aa2f9ee0e843fdc433",
+          "dimensions": [
+            256,
+            256
+          ],
+          "source": "assets/production/phase_05_reusable_terrain_and_tile_sets/TILE-004/source_images/TILE-004_terrain_atlas_original.png",
+          "source_sha256": "b6e6b6dd6160841feaa08b6381d50b1b053e7c5c2017e16477c95289ded3f7c5",
+          "source_crop": [
+            340,
+            640,
+            596,
+            896
+          ],
+          "operation": "mirror_x",
+          "alpha_bounds": [
+            0,
+            0,
+            256,
+            256
+          ],
+          "pivot": [
+            0,
+            0
+          ],
+          "world_units_per_tile": 64,
+          "native_pixels_per_tile": 256,
+          "world_scale": 0.25,
+          "filter": "linear",
+          "compression": "lossless",
+          "receives_light": true,
+          "emits_light": false,
+          "casts_shadows": "separate simple authored terrain occluder if needed",
+          "animation_frames": 1,
+          "fps": 0,
+          "approved": false,
+          "stage": "native TileSet seam/collision review candidate",
+          "limitations": [
+            "Generic reusable mossy blue-gray rock material; not a newly authored ornate Chapter3 terrain pack",
+            "Mirrored repetition is visible; no seamless-authored-art claim",
+            "Vertical sequence top, odd number of alternating middle/middle-Y rows, underside preserves source joins; arbitrary transitions not approved"
+          ],
+          "atlas_coords": [
+            7,
+            0
+          ],
+          "source_alpha_preserved": true
+        },
+        "output_paths": [
+          "art/environment/chapter_03/tiles/terrain_candidates/c3_tile_003_stone_underside_mirror_x.png"
+        ]
+      }
+    ],
+    "exports": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-003/exports/organized_v1/C3-TILE-003_00_c3_tile_003_stone_underside_native.png",
+        "sha256": "3f004b28f3ea6f4a59d450476587e96b5bc6118234fe5152a6bbd28cc8183fef",
+        "bytes": 97955,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/tiles/terrain_candidates/c3_tile_003_stone_underside_native.png",
+        "kind": "terrain"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-003/exports/organized_v1/C3-TILE-003_01_c3_tile_003_stone_underside_mirror_x.png",
+        "sha256": "ce264541e884ffd75a6c6d18d30f834c19be115c219045aa2f9ee0e843fdc433",
+        "bytes": 98163,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/tiles/terrain_candidates/c3_tile_003_stone_underside_mirror_x.png",
+        "kind": "terrain"
+      }
+    ],
+    "native_resources": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/resources/chapter_03/terrain/c3_terrain_candidate_tileset.tres",
+        "sha256": "7b873e471f963cb450e04e879d5eda49ab1ee92799f01ab569ef079e898a6d5f",
+        "bytes": 501
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/chapter_03/review/c3_terrain_seam_review.tscn",
+        "sha256": "8e864b822b0a864125759196f2bd0bcc846e259d57222c20b959d10b43dc07ed",
+        "bytes": 3065
+      }
+    ],
+    "missing_or_blocked": [],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

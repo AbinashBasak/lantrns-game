@@ -1,0 +1,462 @@
+{
+  "asset_id": "C3-PROP-007",
+  "title": "Ancient stone pillar",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-007/source_images/C3-PROP-007_organized_image-117-f2240354.png",
+      "sha256": "f2809be9563b39faf306c2b1e7e3713f9945f1d32f40f13ea0de18bdf4a4f772",
+      "bytes": 1764122,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-117-f2240354.png",
+      "source_message_id": "98100166-eb54-413d-a7fe-8a4e04f73665",
+      "source_requested_ids": [
+        "C3-BG-011"
+      ],
+      "generated_subject_title": "Fantasy Ruined Arch Texture Map Triptych",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-007/source_images/C3-PROP-007_organized_image-118-e6c96cb3.png",
+      "sha256": "6e9c1c1eac6510067aad008d99c783b0a438dd2c1a7392d45bd96e7ca657fca0",
+      "bytes": 1731213,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-118-e6c96cb3.png",
+      "source_message_id": "a3ffc616-4ff6-4643-b82f-1d8f34b8fd84",
+      "source_requested_ids": [
+        "C3-BG-011-002"
+      ],
+      "generated_subject_title": "Ornate Ruined Pillar Texture Maps",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-007/source_images/C3-PROP-007_organized_image-119-3f92c33d.png",
+      "sha256": "ea3b91861fe36f37d1c0de37322aca36024d4b23b34729ca0bd72d4d73c38d95",
+      "bytes": 1726811,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-119-3f92c33d.png",
+      "source_message_id": "db470f89-e5de-44ed-8977-387bef1800a3",
+      "source_requested_ids": [
+        "C3-BG-011-004"
+      ],
+      "generated_subject_title": "Fantasy Ruined Pillar Asset Triptych",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-007/source_images/C3-PROP-007_organized_image-130-73a81ce9.png",
+      "sha256": "eaad1457381e02ca33d123d99e7215b0eb2a0815e368da5b8900031ab327567e",
+      "bytes": 1668935,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-130-73a81ce9.png",
+      "source_message_id": "5694e5b9-5a2c-4ecc-8228-90ae437cb70e",
+      "source_requested_ids": [
+        "C3-BG-011-006"
+      ],
+      "generated_subject_title": "Fantasy Pillar Render Pass Triptych",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-PROP-007",
+          "source_index": 117,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-117-f2240354.png",
+          "source_sha256": "f2809be9563b39faf306c2b1e7e3713f9945f1d32f40f13ea0de18bdf4a4f772",
+          "source_message_id": "98100166-eb54-413d-a7fe-8a4e04f73665",
+          "requested_ids": [
+            "C3-BG-011"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            18,
+            148,
+            510,
+            810
+          ],
+          "export": "art/environment/chapter_03/props/c3_prop_007_ancient_stone_pillar_a.png",
+          "export_sha256": "ea63b27626459cf47ff3965719bf9981f2461c5bd8f3f4a04c56020fdf07d25f",
+          "dimensions": [
+            492,
+            662
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            492,
+            662
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 153246,
+          "nonopaque_pixel_count": 153246,
+          "opaque_pixel_count": 172458,
+          "pivot": [
+            246.0,
+            662
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Visible content touches a source crop boundary; inspect source for clipping before use."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_007_117_depth_reference.png",
+              "sha256": "2688c5a95d161e5ba313ada0d896fe550d3ed1fe2c0a30e6504bcd814a3fbcf4",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_007_117_mask_reference.png",
+              "sha256": "c8fcc59efb6c571fa5629d8deeac609760d22c48e5c7900a8972639d83be9c89",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_prop_007_ancient_stone_pillar_a.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-PROP-007",
+          "source_index": 118,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-118-e6c96cb3.png",
+          "source_sha256": "6e9c1c1eac6510067aad008d99c783b0a438dd2c1a7392d45bd96e7ca657fca0",
+          "source_message_id": "a3ffc616-4ff6-4643-b82f-1d8f34b8fd84",
+          "requested_ids": [
+            "C3-BG-011-002"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            67,
+            18,
+            457,
+            880
+          ],
+          "export": "art/environment/chapter_03/props/c3_prop_007_ancient_stone_pillar_b.png",
+          "export_sha256": "25ee2adbea715eb8c2346c66944ae7631d0777d8ccca2ce0a2ef0090200d3d4e",
+          "dimensions": [
+            390,
+            862
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            390,
+            862
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 152012,
+          "nonopaque_pixel_count": 152012,
+          "opaque_pixel_count": 184168,
+          "pivot": [
+            195.0,
+            862
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Visible content touches a source crop boundary; inspect source for clipping before use."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_007_118_depth_reference.png",
+              "sha256": "b4cf2111f490ac8778aef59710b85d452d07dedb4f8a495daabd054c97a3ac1d",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_007_118_mask_reference.png",
+              "sha256": "654806b2cd9b91ff68858aa58817281489dffa633840a76f026cff97cc12e15e",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_prop_007_ancient_stone_pillar_b.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-PROP-007",
+          "source_index": 119,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-119-3f92c33d.png",
+          "source_sha256": "ea3b91861fe36f37d1c0de37322aca36024d4b23b34729ca0bd72d4d73c38d95",
+          "source_message_id": "db470f89-e5de-44ed-8977-387bef1800a3",
+          "requested_ids": [
+            "C3-BG-011-004"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            62,
+            15,
+            467,
+            880
+          ],
+          "export": "art/environment/chapter_03/props/c3_prop_007_ancient_stone_pillar_c.png",
+          "export_sha256": "97f37b14b12c9a1dab4616c808f9cc867c45292632d54659e967cdd568f9311e",
+          "dimensions": [
+            405,
+            865
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            405,
+            865
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 187348,
+          "nonopaque_pixel_count": 187348,
+          "opaque_pixel_count": 162977,
+          "pivot": [
+            202.5,
+            865
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Visible content touches a source crop boundary; inspect source for clipping before use."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_007_119_depth_reference.png",
+              "sha256": "ae468ac3f5ddcc20ab05135b65dc7694fb6482e95e823aae1cc36ec6beaf9343",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_007_119_mask_reference.png",
+              "sha256": "092b403fa1f6bffccf487a8f6ad40618f17bead1b694977b20dddbba7f1d9e49",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_prop_007_ancient_stone_pillar_c.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-PROP-007",
+          "source_index": 130,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-130-73a81ce9.png",
+          "source_sha256": "eaad1457381e02ca33d123d99e7215b0eb2a0815e368da5b8900031ab327567e",
+          "source_message_id": "5694e5b9-5a2c-4ecc-8228-90ae437cb70e",
+          "requested_ids": [
+            "C3-BG-011-006"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            66,
+            21,
+            424,
+            872
+          ],
+          "export": "art/environment/chapter_03/props/c3_prop_007_ancient_stone_pillar_d.png",
+          "export_sha256": "85d4541cebe1e39c8e22451c52b4583aa071e91c59c8918fcb7de1d30fc614c3",
+          "dimensions": [
+            358,
+            851
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            358,
+            851
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 136038,
+          "nonopaque_pixel_count": 136038,
+          "opaque_pixel_count": 168620,
+          "pivot": [
+            179.0,
+            851
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_007_130_depth_reference.png",
+              "sha256": "29aec5b08e56d9d1861dd4846d31c843c458021c739b5d56e5c65306996ab295",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_007_130_mask_reference.png",
+              "sha256": "84b1538222cf6beddc0e1189118d24e0fac92d3b5a3b29ec9353da07d8194125",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_prop_007_ancient_stone_pillar_d.png"
+        ]
+      }
+    ],
+    "exports": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-007/exports/organized_v1/C3-PROP-007_00_c3_prop_007_ancient_stone_pillar_a.png",
+        "sha256": "ea63b27626459cf47ff3965719bf9981f2461c5bd8f3f4a04c56020fdf07d25f",
+        "bytes": 654504,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_prop_007_ancient_stone_pillar_a.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-007/exports/organized_v1/C3-PROP-007_01_c3_prop_007_ancient_stone_pillar_b.png",
+        "sha256": "25ee2adbea715eb8c2346c66944ae7631d0777d8ccca2ce0a2ef0090200d3d4e",
+        "bytes": 664149,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_prop_007_ancient_stone_pillar_b.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-007/exports/organized_v1/C3-PROP-007_02_c3_prop_007_ancient_stone_pillar_c.png",
+        "sha256": "97f37b14b12c9a1dab4616c808f9cc867c45292632d54659e967cdd568f9311e",
+        "bytes": 668827,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_prop_007_ancient_stone_pillar_c.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-007/exports/organized_v1/C3-PROP-007_03_c3_prop_007_ancient_stone_pillar_d.png",
+        "sha256": "85d4541cebe1e39c8e22451c52b4583aa071e91c59c8918fcb7de1d30fc614c3",
+        "bytes": 600843,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_prop_007_ancient_stone_pillar_d.png",
+        "kind": "environment"
+      }
+    ],
+    "native_resources": [],
+    "missing_or_blocked": [],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

@@ -1,0 +1,761 @@
+{
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "assets": [
+    {
+      "asset_id": "C3-AUD-001",
+      "title": "Cavern ambience",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/audio/C3-AUD-001/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/audio/C3-AUD-001",
+      "prepared_outputs": 1,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/audio/chapter_03/c3_audio_cavern_ambience.tscn"
+      ],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-AUD-005",
+      "title": "Fragment pickup",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/audio/C3-AUD-005/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/audio/C3-AUD-005",
+      "prepared_outputs": 1,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/audio/chapter_03/c3_audio_fragment_pickup.tscn"
+      ],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-AUD-006",
+      "title": "Chest open",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/audio/C3-AUD-006/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/audio/C3-AUD-006",
+      "prepared_outputs": 1,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/audio/chapter_03/c3_audio_chest_open.tscn"
+      ],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-AUD-008",
+      "title": "Rune gate rumble",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/audio/C3-AUD-008/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/audio/C3-AUD-008",
+      "prepared_outputs": 1,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/audio/chapter_03/c3_audio_rune_gate_rumble.tscn"
+      ],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-BG-002",
+      "title": "Distant submerged ruins",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/backgrounds/C3-BG-002/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/backgrounds/C3-BG-002",
+      "prepared_outputs": 2,
+      "native_resources": [],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-BG-003",
+      "title": "Distant waterfall layer",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/backgrounds/C3-BG-003/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/backgrounds/C3-BG-003",
+      "prepared_outputs": 1,
+      "native_resources": [],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-BG-004",
+      "title": "Crystal cavern silhouettes",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/backgrounds/C3-BG-004/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/backgrounds/C3-BG-004",
+      "prepared_outputs": 1,
+      "native_resources": [],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-BG-011",
+      "title": "Water caustics texture",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/backgrounds/C3-BG-011/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/backgrounds/C3-BG-011",
+      "prepared_outputs": 1,
+      "native_resources": [],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-CHEST-ASSET-001",
+      "title": "Common chest opening",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001",
+      "prepared_outputs": 0,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/chapter_03/review/c3_chest_animation_review.tscn"
+      ],
+      "blockers": [
+        "Number labels and bright painted interior effects are present. Remove labels by export cropping; emitted illumination remains native Godot. Lid/base consistency needs review."
+      ],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-CHR-001",
+      "title": "Player idle",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001",
+      "prepared_outputs": 0,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/chapter_03/review/c3_player_animation_review.tscn"
+      ],
+      "blockers": [
+        "Original blue-haired idle sources preserved. User supplied a mixed blue-haired action source (attachment14), plus historical brown-haired variants. The blue-haired action sheet is RGB with a painted checkerboard; clean action exports remain pending. Do not substitute brown-haired designs or count variants as production approval."
+      ],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-CHR-002",
+      "title": "Player run / recovered walk variant",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-002/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-002",
+      "prepared_outputs": 0,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/chapter_03/review/c3_player_animation_review.tscn"
+      ],
+      "blockers": [
+        "Run and walk source sheets; frame and pivot review pending. Walk is a source variant, not a newly invented asset ID."
+      ],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-DEC-003",
+      "title": "Hanging vines long",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/foliage/C3-DEC-003/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/foliage/C3-DEC-003",
+      "prepared_outputs": 1,
+      "native_resources": [],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-DEC-008",
+      "title": "Small rock clusters",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/foliage/C3-DEC-008/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/foliage/C3-DEC-008",
+      "prepared_outputs": 11,
+      "native_resources": [],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-ENM-001",
+      "title": "Temple Mite",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001",
+      "prepared_outputs": 18,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/resources/chapter_03/animations/enemies/c3_enm_001_review.tres",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/enemies/chapter_03/review/c3_enm_001_animation_review.tscn",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/animation-asset-preparation-c3-enm-001-native.png"
+      ],
+      "blockers": [
+        "clean matching idle",
+        "turn",
+        "notice",
+        "hop_attack",
+        "knockback"
+      ],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-ENM-002",
+      "title": "Crystal Wisp",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002",
+      "prepared_outputs": 11,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/resources/chapter_03/animations/enemies/c3_enm_002_review.tres",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/enemies/chapter_03/review/c3_enm_002_animation_review.tscn",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/animation-asset-preparation-c3-enm-002-native.png"
+      ],
+      "blockers": [
+        "patrol",
+        "aim",
+        "clean complete projectile body sequence",
+        "clean hurt",
+        "clean death"
+      ],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-ENM-003",
+      "title": "Drowned Archive Keeper",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-003/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-003",
+      "prepared_outputs": 0,
+      "native_resources": [],
+      "blockers": [
+        "walk",
+        "swim",
+        "windup",
+        "swing",
+        "recover",
+        "death; existing glide/cast artwork conflicts with bible"
+      ],
+      "stage": "sources organized; clean deliverables blocked; see metadata",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-ENM-004",
+      "title": "Drowned Sentinel",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-004/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-004",
+      "prepared_outputs": 38,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/resources/chapter_03/animations/enemies/c3_enm_004_review.tres",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/enemies/chapter_03/review/c3_enm_004_animation_review.tscn",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/animation-asset-preparation-c3-enm-004-native.png"
+      ],
+      "blockers": [
+        "notice",
+        "clean complete slam",
+        "separate shockwave",
+        "explicitly rejected wrong subject",
+        "explicitly rejected wrong subject"
+      ],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-ENM-005",
+      "title": "Temple Eel",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-005/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-005",
+      "prepared_outputs": 23,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/resources/chapter_03/animations/enemies/c3_enm_005_review.tres",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/enemies/chapter_03/review/c3_enm_005_animation_review.tscn",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/animation-asset-preparation-c3-enm-005-native.png"
+      ],
+      "blockers": [
+        "hurt",
+        "death",
+        "clean complete lunge",
+        "separate lunge trail"
+      ],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-ENM-006",
+      "title": "Shrine Warden",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-006/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-006",
+      "prepared_outputs": 0,
+      "native_resources": [],
+      "blockers": [
+        "all canonical staff-bearing Warden families; continuation is a jellyfish substitution",
+        "jellyfish substitution lacks canonical Warden staff/ground actions",
+        "jellyfish substitution lacks canonical Warden staff/ground actions",
+        "jellyfish substitution lacks canonical Warden staff/ground actions",
+        "jellyfish substitution lacks canonical Warden staff/ground actions",
+        "jellyfish substitution lacks canonical Warden staff/ground actions",
+        "jellyfish substitution lacks canonical Warden staff/ground actions",
+        "jellyfish substitution lacks canonical Warden staff/ground actions",
+        "jellyfish substitution lacks canonical Warden staff/ground actions"
+      ],
+      "stage": "sources organized; clean deliverables blocked; see metadata",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-ENM-007",
+      "title": "Guardian Knight mini-boss",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-007/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-007",
+      "prepared_outputs": 40,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/resources/chapter_03/animations/enemies/c3_enm_007_review.tres",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/enemies/chapter_03/review/c3_enm_007_animation_review.tscn",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/animation-asset-preparation-c3-enm-007-native.png"
+      ],
+      "blockers": [
+        "clean complete walk",
+        "clean slam",
+        "phase_change",
+        "clean complete stagger",
+        "clean complete defeat",
+        "separate shockwave",
+        "all slam poses merge; no safe isolated complete frames"
+      ],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-ENM-008",
+      "title": "Sunken Guardian boss",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-008/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-008",
+      "prepared_outputs": 61,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/resources/chapter_03/animations/enemies/c3_enm_008_review.tres",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/enemies/chapter_03/review/c3_enm_008_animation_review.tscn",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/animation-asset-preparation-c3-enm-008-native.png"
+      ],
+      "blockers": [
+        "walk_or_float",
+        "trident_sweep_windup",
+        "trident_sweep",
+        "clean dash",
+        "water_column_attack",
+        "clean seal_beam",
+        "stagger",
+        "clean complete defeat",
+        "separate attack/projectile effects"
+      ],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-ENM-PRJ-001",
+      "title": "Crystal Wisp bolt",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-PRJ-001/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-PRJ-001",
+      "prepared_outputs": 1,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/vfx/chapter_03/c3_crystal_wisp_bolt.tscn"
+      ],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-ITM-001",
+      "title": "Golden Fragment",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-001/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-001",
+      "prepared_outputs": 0,
+      "native_resources": [],
+      "blockers": [
+        "Golden-crystal originals are RGB with a painted checkerboard. Alpha/antialias background colors cannot be recovered without inferred pixels; no clean base export is claimed.",
+        "chest source belongs to chest/collectible workflow"
+      ],
+      "stage": "sources organized; clean deliverables blocked; see metadata",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-ITM-002",
+      "title": "Temple Key",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002",
+      "prepared_outputs": 4,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/resources/chapter_03/animations/collectibles/c3_itm_002_review.tres",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/props/chapter_03/review/c3_collectible_itm_002_review.tscn"
+      ],
+      "blockers": [
+        "cross-pose identity/volume/tip stability requires visual approval",
+        "pickup burst/activation families and separated source overlays not delivered as clean independent assets",
+        "actual gameplay-scale/collision/light tuning pending"
+      ],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-ITM-003",
+      "title": "Drainage Sigil",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-003/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-003",
+      "prepared_outputs": 0,
+      "native_resources": [],
+      "blockers": [
+        "Only combined glowing sigil/burst artwork. No matching unlit base or isolated overlay; subtracting the glow would infer missing body pixels."
+      ],
+      "stage": "sources organized; clean deliverables blocked; see metadata",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-ITM-004",
+      "title": "Guardian Key",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-004/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-004",
+      "prepared_outputs": 0,
+      "native_resources": [],
+      "blockers": [
+        "Only combined glowing Guardian Key/burst artwork. No clean base independent of halo or standalone effect."
+      ],
+      "stage": "sources organized; clean deliverables blocked; see metadata",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-ITM-005",
+      "title": "Sunken Seal",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-005/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-005",
+      "prepared_outputs": 0,
+      "native_resources": [],
+      "blockers": [
+        "Only combined Sunken Seal glow/activation artwork. No unlit base or standalone overlay delivered."
+      ],
+      "stage": "sources organized; clean deliverables blocked; see metadata",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-ITM-006",
+      "title": "Health pickup",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006",
+      "prepared_outputs": 4,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/resources/chapter_03/animations/collectibles/c3_itm_006_review.tres",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/props/chapter_03/review/c3_collectible_itm_006_review.tscn"
+      ],
+      "blockers": [
+        "cross-pose identity/volume/tip stability requires visual approval",
+        "pickup burst/activation families and separated source overlays not delivered as clean independent assets",
+        "actual gameplay-scale/collision/light tuning pending"
+      ],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-ITM-007",
+      "title": "Lore tablet",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-007/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-007",
+      "prepared_outputs": 6,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/resources/chapter_03/animations/collectibles/c3_itm_007_review.tres",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/props/chapter_03/review/c3_collectible_itm_007_review.tscn"
+      ],
+      "blockers": [
+        "cross-pose identity/volume/tip stability requires visual approval",
+        "pickup burst/activation families and separated source overlays not delivered as clean independent assets",
+        "actual gameplay-scale/collision/light tuning pending"
+      ],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-ITM-008",
+      "title": "Relic shard",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-008/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-008",
+      "prepared_outputs": 6,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/resources/chapter_03/animations/collectibles/c3_itm_008_review.tres",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/props/chapter_03/review/c3_collectible_itm_008_review.tscn"
+      ],
+      "blockers": [
+        "cross-pose identity/volume/tip stability requires visual approval",
+        "pickup burst/activation families and separated source overlays not delivered as clean independent assets",
+        "actual gameplay-scale/collision/light tuning pending"
+      ],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-PROP-004",
+      "title": "Wall-mounted lantern",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-004/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-004",
+      "prepared_outputs": 1,
+      "native_resources": [],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-PROP-007",
+      "title": "Ancient stone pillar",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-007/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-007",
+      "prepared_outputs": 4,
+      "native_resources": [],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-PROP-008",
+      "title": "Broken pillar set / broken architecture candidates",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-008/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-008",
+      "prepared_outputs": 20,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/vfx/chapter_03/c3_depth_lighting_review.tscn",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/props/chapter_03/c3_ruined_arch_mapped.tscn"
+      ],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-PROP-009",
+      "title": "Temple arch",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-009/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-009",
+      "prepared_outputs": 9,
+      "native_resources": [],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-PROP-013",
+      "title": "Temple statue",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-013/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-013",
+      "prepared_outputs": 2,
+      "native_resources": [],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-PROP-023",
+      "title": "Mirror pedestal candidate",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-023/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-023",
+      "prepared_outputs": 3,
+      "native_resources": [],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-PROP-027",
+      "title": "Floating stone platform candidate",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-027/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-027",
+      "prepared_outputs": 1,
+      "native_resources": [],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-REF-002",
+      "title": "Chapter 3 player scale reference boards",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/references/C3-REF-002/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/references/C3-REF-002",
+      "prepared_outputs": 0,
+      "native_resources": [],
+      "blockers": [
+        "Reference boards include inconsistent printed player scales (56–60,96,160 pixels) and brown-haired examples. Text inside boards does not replace the locked blue-haired design or approve a scale change. Do not upscale thumbnails into playable scenery."
+      ],
+      "stage": "sources organized; clean deliverables blocked; see metadata",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-TILE-001",
+      "title": "Mossy stone platform top",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-001/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-001",
+      "prepared_outputs": 2,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/resources/chapter_03/terrain/c3_terrain_candidate_tileset.tres",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/chapter_03/review/c3_terrain_seam_review.tscn"
+      ],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-TILE-002",
+      "title": "Stone platform middle",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-002/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-002",
+      "prepared_outputs": 4,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/resources/chapter_03/terrain/c3_terrain_candidate_tileset.tres",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/chapter_03/review/c3_terrain_seam_review.tscn"
+      ],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-TILE-003",
+      "title": "Stone platform underside",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-003/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-003",
+      "prepared_outputs": 2,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/resources/chapter_03/terrain/c3_terrain_candidate_tileset.tres",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/chapter_03/review/c3_terrain_seam_review.tscn"
+      ],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-TILE-007",
+      "title": "Ancient temple floor candidate",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-007/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-007",
+      "prepared_outputs": 5,
+      "native_resources": [],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-TILE-008",
+      "title": "Bridge plank reference",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-008/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-008",
+      "prepared_outputs": 1,
+      "native_resources": [],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-TILE-011",
+      "title": "Stone stairs segment",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-011/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-011",
+      "prepared_outputs": 1,
+      "native_resources": [],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-TILE-012",
+      "title": "Wall collision tile atlas candidate",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-012/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-012",
+      "prepared_outputs": 5,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/vfx/chapter_03/c3_depth_lighting_review.tscn",
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/props/chapter_03/c3_wall_relief_mapped.tscn"
+      ],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-TILE-020",
+      "title": "Waterfall collision-free visual strip",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-020/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-020",
+      "prepared_outputs": 1,
+      "native_resources": [],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-VFX-002",
+      "title": "Lantern sparks",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/vfx/C3-VFX-002/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/vfx/C3-VFX-002",
+      "prepared_outputs": 0,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/vfx/chapter_03/c3_lantern_sparks.tscn"
+      ],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-VFX-003",
+      "title": "Crystal pulse / motes resource",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/vfx/C3-VFX-003/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/vfx/C3-VFX-003",
+      "prepared_outputs": 0,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/vfx/chapter_03/c3_crystal_motes.tscn"
+      ],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-VFX-005",
+      "title": "Golden Fragment pickup effect",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/vfx/C3-VFX-005/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/vfx/C3-VFX-005",
+      "prepared_outputs": 0,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/vfx/chapter_03/c3_fragment_pickup.tscn"
+      ],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-VFX-008",
+      "title": "Water splash",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/vfx/C3-VFX-008/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/vfx/C3-VFX-008",
+      "prepared_outputs": 0,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/vfx/chapter_03/c3_water_splash.tscn"
+      ],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-VFX-009",
+      "title": "Underwater bubbles",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/vfx/C3-VFX-009/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/vfx/C3-VFX-009",
+      "prepared_outputs": 0,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/vfx/chapter_03/c3_underwater_bubbles.tscn"
+      ],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-VFX-010",
+      "title": "Waterfall mist",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/vfx/C3-VFX-010/metadata.json",
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/vfx/C3-VFX-010",
+      "prepared_outputs": 0,
+      "native_resources": [
+        "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/vfx/chapter_03/c3_waterfall_mist.tscn"
+      ],
+      "blockers": [],
+      "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+      "production_approved": false
+    }
+  ],
+  "native_light_roles": {
+    "C3-LIGHT-LANTERN-01": "scenes/props/chapter_03/c3_lantern_light.tscn",
+    "C3-LIGHT-CRYSTAL-01": "scenes/vfx/chapter_03/c3_crystal_light.tscn",
+    "C3-LIGHT-CHECKPOINT-01": "scenes/vfx/chapter_03/c3_checkpoint_light.tscn",
+    "C3-LIGHT-SHRINE-01": "scenes/vfx/chapter_03/c3_shrine_light.tscn",
+    "C3-VFX-002": "scenes/vfx/chapter_03/c3_lantern_sparks.tscn",
+    "C3-VFX-003": "scenes/vfx/chapter_03/c3_crystal_motes.tscn",
+    "C3-VFX-005": "scenes/vfx/chapter_03/c3_fragment_pickup.tscn",
+    "C3-VFX-008": "scenes/vfx/chapter_03/c3_water_splash.tscn",
+    "C3-VFX-009": "scenes/vfx/chapter_03/c3_underwater_bubbles.tscn",
+    "C3-VFX-010": "scenes/vfx/chapter_03/c3_waterfall_mist.tscn"
+  },
+  "approval_policy": "Bible section17; imported diagnostic assets are not final approval",
+  "production_approved": false
+}

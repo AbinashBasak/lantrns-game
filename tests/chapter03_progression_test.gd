@@ -96,14 +96,14 @@ func validate() -> void:
 	spawn.position = Vector2(320, 200)
 	destination.add_child(spawn)
 	spawn.owner = destination
-	var arrival_exit = load("res://scenes/chapter_03/core/section_exit.tscn").instantiate()
+	var arrival_exit = load("res://scenes/interactables/chapter_03/section_exit.tscn").instantiate()
 	destination.add_child(arrival_exit)
 	arrival_exit.owner = destination
 	arrival_exit.position = spawn.position
 	var packed := PackedScene.new()
 	assert(packed.pack(destination) == OK)
 	destination.free()
-	var exit = load("res://scenes/chapter_03/core/section_exit.tscn").instantiate()
+	var exit = load("res://scenes/interactables/chapter_03/section_exit.tscn").instantiate()
 	stage.add_child(exit)
 	exit.set_physics_process(false)
 	exit.destination_scene = packed

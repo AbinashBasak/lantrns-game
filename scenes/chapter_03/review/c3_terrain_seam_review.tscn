@@ -1,0 +1,55 @@
+[gd_scene format=4]
+
+[ext_resource type="TileSet" path="res://resources/chapter_03/terrain/c3_terrain_candidate_tileset.tres" id="1_7ugbv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_o50tf"]
+size = Vector2(768, 14)
+
+[node name="C3TerrainSeamReview" type="Node2D" unique_id=419327329]
+metadata/production_approved = false
+
+[node name="NeutralBackdrop" type="Polygon2D" parent="." unique_id=2027660644]
+color = Color(0.09019608, 0.20784314, 0.23921569, 1)
+polygon = PackedVector2Array(0, 0, 1280, 0, 1280, 720, 0, 720)
+
+[node name="AuthoredRockTiles" type="TileMapLayer" parent="." unique_id=1752809479]
+texture_filter = 2
+position = Vector2(80, 180)
+scale = Vector2(0.25, 0.25)
+tile_map_data = PackedByteArray("AAAAAAAAAAAAAAAAAAABAAAAAAABAAAAAAACAAAAAAAAAAAAAAADAAAAAAABAAAAAAAEAAAAAAAAAAAAAAAFAAAAAAABAAAAAAAGAAAAAAAAAAAAAAAHAAAAAAABAAAAAAAIAAAAAAAAAAAAAAAJAAAAAAABAAAAAAAKAAAAAAAAAAAAAAALAAAAAAABAAAAAAAAAAEAAAACAAAAAAABAAEAAAADAAAAAAACAAEAAAACAAAAAAADAAEAAAADAAAAAAAEAAEAAAACAAAAAAAFAAEAAAADAAAAAAAGAAEAAAACAAAAAAAHAAEAAAADAAAAAAAIAAEAAAACAAAAAAAJAAEAAAADAAAAAAAKAAEAAAACAAAAAAALAAEAAAADAAAAAAAAAAIAAAAEAAAAAAABAAIAAAAFAAAAAAACAAIAAAAEAAAAAAADAAIAAAAFAAAAAAAEAAIAAAAEAAAAAAAFAAIAAAAFAAAAAAAGAAIAAAAEAAAAAAAHAAIAAAAFAAAAAAAIAAIAAAAEAAAAAAAJAAIAAAAFAAAAAAAKAAIAAAAEAAAAAAALAAIAAAAFAAAAAAAAAAMAAAACAAAAAAABAAMAAAADAAAAAAACAAMAAAACAAAAAAADAAMAAAADAAAAAAAEAAMAAAACAAAAAAAFAAMAAAADAAAAAAAGAAMAAAACAAAAAAAHAAMAAAADAAAAAAAIAAMAAAACAAAAAAAJAAMAAAADAAAAAAAKAAMAAAACAAAAAAALAAMAAAADAAAAAAAAAAQAAAAGAAAAAAABAAQAAAAHAAAAAAACAAQAAAAGAAAAAAADAAQAAAAHAAAAAAAEAAQAAAAGAAAAAAAFAAQAAAAHAAAAAAAGAAQAAAAGAAAAAAAHAAQAAAAHAAAAAAAIAAQAAAAGAAAAAAAJAAQAAAAHAAAAAAAKAAQAAAAGAAAAAAALAAQAAAAHAAAAAAA=")
+tile_set = ExtResource("1_7ugbv")
+
+[node name="SeparateFlatCollision" type="StaticBody2D" parent="." unique_id=1878382160]
+position = Vector2(464, 190)
+
+[node name="WalkableSurface" type="CollisionShape2D" parent="SeparateFlatCollision" unique_id=995786380]
+shape = SubResource("RectangleShape2D_o50tf")
+
+[node name="ReviewNote0" type="Label" parent="." unique_id=1137333478]
+offset_left = 80.0
+offset_top = 30.0
+offset_right = 80.0
+offset_bottom = 30.0
+text = "Chapter 3 terrain candidate: existing high-resolution orthographic mossy rock"
+
+[node name="ReviewNote1" type="Label" parent="." unique_id=899189572]
+offset_left = 80.0
+offset_top = 60.0
+offset_right = 80.0
+offset_bottom = 60.0
+text = "12 columns: native crop / mirrored X. Middle rows alternate Y. No paint or enlargement."
+
+[node name="ReviewNote2" type="Label" parent="." unique_id=1640167936]
+offset_left = 80.0
+offset_top = 90.0
+offset_right = 80.0
+offset_bottom = 90.0
+text = "Separate flat collision at y=183. Technical review only; visual pattern approval pending."
+
+[node name="Gate" type="Label" parent="." unique_id=2009542877]
+offset_left = 80.0
+offset_top = 540.0
+offset_right = 80.0
+offset_bottom = 540.0
+text = "TILE001 top / TILE002 fill / TILE003 underside | 256 native pixels = 64 world units
+Odd middle-row sequence retains original vertical source joins. No arbitrary autoterrain claims."

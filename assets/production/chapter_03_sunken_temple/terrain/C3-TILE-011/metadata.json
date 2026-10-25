@@ -1,0 +1,131 @@
+{
+  "asset_id": "C3-TILE-011",
+  "title": "Stone stairs segment",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-011/source_images/C3-TILE-011_organized_image-131-b4d803f2.png",
+      "sha256": "4c78eca516205ee965e30d68998d4cf0f73bb9ae3fd9e44608a7bdc40f69a967",
+      "bytes": 1654950,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-131-b4d803f2.png",
+      "source_message_id": "368e4481-814b-45e5-b8c9-33542e4d6444",
+      "source_requested_ids": [
+        "C3-BG-011-008"
+      ],
+      "generated_subject_title": "Ruined Staircase Asset Triptych",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-TILE-011",
+          "source_index": 131,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-131-b4d803f2.png",
+          "source_sha256": "4c78eca516205ee965e30d68998d4cf0f73bb9ae3fd9e44608a7bdc40f69a967",
+          "source_message_id": "368e4481-814b-45e5-b8c9-33542e4d6444",
+          "requested_ids": [
+            "C3-BG-011-008"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            13,
+            172,
+            503,
+            787
+          ],
+          "export": "art/environment/chapter_03/platforms/c3_tile_011_stone_stairs.png",
+          "export_sha256": "bf170971727dae0095706afbf8b52bf5d7af3a3cc64fb07259064b6b17891b95",
+          "dimensions": [
+            490,
+            615
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            490,
+            615
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 127104,
+          "nonopaque_pixel_count": 127104,
+          "opaque_pixel_count": 174246,
+          "pivot": [
+            245.0,
+            615
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "solid modular art candidate",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Perspective artwork; not a complete modular tile/end-cap kit or verified side-view collision surface.",
+            "Seams and gameplay collision are not approved; not substituted for missing TILE001/002/003 terrain."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_tile_011_131_depth_reference.png",
+              "sha256": "665a4038f50cf587006de6e2279ca802cea73f3fa6b2c316c9aec62850d094e5",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_tile_011_131_mask_reference.png",
+              "sha256": "2c6b6238c7f88a5d4cd078bbbd6b99be3a1c7f7c39ad69286084ac4878a888be",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/platforms/c3_tile_011_stone_stairs.png"
+        ]
+      }
+    ],
+    "exports": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-011/exports/organized_v1/C3-TILE-011_00_c3_tile_011_stone_stairs.png",
+        "sha256": "bf170971727dae0095706afbf8b52bf5d7af3a3cc64fb07259064b6b17891b95",
+        "bytes": 602783,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/platforms/c3_tile_011_stone_stairs.png",
+        "kind": "environment"
+      }
+    ],
+    "native_resources": [],
+    "missing_or_blocked": [],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

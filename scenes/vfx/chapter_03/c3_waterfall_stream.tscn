@@ -1,0 +1,18 @@
+[gd_scene load_steps=6 format=3]
+[ext_resource type="Texture2D" path="res://art/vfx/chapter_03/C3-TILE-020_waterfall_stream.png" id="1"]
+[ext_resource type="Shader" path="res://resources/chapter_03/vfx/waterfall.gdshader" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/vfx/chapter_03/c3_waterfall_mist.tscn" id="3"]
+[ext_resource type="Script" path="res://scripts/chapter_03/vfx/water_effect.gd" id="4"]
+[sub_resource type="ShaderMaterial" id="Material"]
+shader = ExtResource("2")
+[node name="C3WaterfallStream" type="Node2D"]
+script = ExtResource("4")
+metadata/official_ids = "C3-TILE-020; C3-BG-003 when placed in parallax"
+metadata/pivot = "Top-center; 503x815 native pixels. Mist at bottom. No collision."
+metadata/production_approved = false
+[node name="Artwork" type="Sprite2D" parent="."]
+texture = ExtResource("1")
+material = SubResource("Material")
+offset = Vector2(0, 407.5)
+[node name="Mist" parent="." instance=ExtResource("3")]
+position = Vector2(0, 775)

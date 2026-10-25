@@ -1,0 +1,2076 @@
+{
+  "schema": 1,
+  "kind": "Chapter3 supplied collectible base organization",
+  "source_archive": "assets/production/source_archives/chat_export_6add021c/metadata.json",
+  "governing_bible": "lanterns_underroot_chapter_3_production_bible.md",
+  "production_approved": false,
+  "assets": [
+    {
+      "asset_id": "C3-ITM-001",
+      "title": "Golden Fragment",
+      "sources": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-001/source_images/C3-ITM-001_archive_image-050-f3a86461.png",
+          "sha256": "1fdf7f235962b0ebe38cb13bd9c979cb484fd69fecfb5d565877dc8d0d4f342c",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-050-f3a86461.png",
+          "source_message_id": "0b0e3036-d411-4319-9379-ae810ace1ca0",
+          "source_message_index": 203,
+          "source_requested_ids": [],
+          "source_official_requested_ids": [],
+          "verified_actual_asset_id": "C3-ITM-001",
+          "generated_subject_title": "Golden Crystal Sprite Animation Sheet",
+          "dimensions": [
+            1774,
+            887
+          ],
+          "mode": "RGB",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": true
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-001/source_images/C3-ITM-001_archive_image-064-5c0948d8.png",
+          "sha256": "c7747228cb7568194985372a798eb035611a622f803caedbceb97ecf2b219db8",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-064-5c0948d8.png",
+          "source_message_id": "c7258c1e-1dcb-45f0-8d98-1f500b43c7d2",
+          "source_message_index": 245,
+          "source_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "source_official_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "verified_actual_asset_id": "C3-ITM-001",
+          "generated_subject_title": "Golden Crystal Animation Sprite Sheet",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGB",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": true
+        }
+      ],
+      "stage": "source archive reviewed; no clean base export",
+      "blockers": [
+        "Golden-crystal originals are RGB with a painted checkerboard. Alpha/antialias background colors cannot be recovered without inferred pixels; no clean base export is claimed."
+      ],
+      "runtime_exports": [],
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-ITM-002",
+      "title": "Temple Key",
+      "sources": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/source_images/C3-ITM-002_archive_image-066-493bec8e.png",
+          "sha256": "4a0696aff99b24f1373cdf89213d889d419ec9af4f8cb324233cbee606fdcf07",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-066-493bec8e.png",
+          "source_message_id": "a1301b1c-3f28-4e61-b423-683ef54b836d",
+          "source_message_index": 249,
+          "source_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "source_official_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "verified_actual_asset_id": "C3-ITM-002",
+          "generated_subject_title": "Temple Key Animation Sprite Sheet",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGBA",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": true
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/source_images/C3-ITM-002_archive_image-051-bcafa605.png",
+          "sha256": "e1a0929f9913f8d92726d4defa38bf2b56c08920e1239d28723948d0b79913ea",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-051-bcafa605.png",
+          "source_message_id": "7058dfdc-f33e-4f24-a747-8e5a09232b5c",
+          "source_message_index": 208,
+          "source_requested_ids": [
+            "C3-ITM-002"
+          ],
+          "source_official_requested_ids": [
+            "C3-ITM-002"
+          ],
+          "verified_actual_asset_id": "C3-ITM-002",
+          "generated_subject_title": "Enchanted Key Sprite Animation Sheet",
+          "dimensions": [
+            1774,
+            887
+          ],
+          "mode": "RGBA",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": false,
+          "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/source_images/C3-ITM-002_archive_image-067-e35d51de.png",
+          "sha256": "f47894ac4ced6875b80a1dbb0130d40a79ec1d3b0307e4c8f8f1ab0e90945caa",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-067-e35d51de.png",
+          "source_message_id": "119e8c96-792a-4cc4-ba96-d3e84c9d580b",
+          "source_message_index": 251,
+          "source_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "source_official_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "verified_actual_asset_id": "C3-ITM-002",
+          "generated_subject_title": "Temple Key: Base and Glowing Animation Frames",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGB",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": true,
+          "review_result": "RGB checkerboard; no invented alpha export"
+        }
+      ],
+      "source_recipe": {
+        "image": 66,
+        "regions": [
+          [
+            0,
+            540,
+            207,
+            1000
+          ],
+          [
+            207,
+            540,
+            394,
+            1000
+          ],
+          [
+            394,
+            540,
+            578,
+            1000
+          ],
+          [
+            578,
+            540,
+            774,
+            1000
+          ]
+        ],
+        "note": "Requested Lore tablet; actual Temple Key. First four intact unlit lower-row keys only. Fifth key disintegrates and is not idle."
+      },
+      "normalization": "Alpha>32 largest connected body per explicit cell plus original two-pixel antialias fringe. Source RGB/retained alpha unchanged; no scale or repainted pixels. Common per-family canvas; center pivot. Detached stones/leaves/labels/depth rows and faint canvas noise excluded.",
+      "runtime_exports": [
+        {
+          "path": "art/environment/chapter_03/collectibles/c3_itm_002/idle_unlit/C3-ITM-002_idle_unlit_00.png",
+          "sha256": "c40327f282b7cede4d0362d87354c42da0e53a0f2097ba818b3899e3435a4ccb",
+          "dimensions": [
+            206,
+            436
+          ],
+          "visible_bounds": [
+            15,
+            16,
+            190,
+            419
+          ],
+          "source_crop_bounds": [
+            25,
+            547,
+            200,
+            950
+          ]
+        },
+        {
+          "path": "art/environment/chapter_03/collectibles/c3_itm_002/idle_unlit/C3-ITM-002_idle_unlit_01.png",
+          "sha256": "eb0c7ce29c259eccb7d03a0e55d71766a32507e43c5df80385dbcbb480e6515e",
+          "dimensions": [
+            206,
+            436
+          ],
+          "visible_bounds": [
+            18,
+            14,
+            188,
+            422
+          ],
+          "source_crop_bounds": [
+            213,
+            559,
+            383,
+            967
+          ]
+        },
+        {
+          "path": "art/environment/chapter_03/collectibles/c3_itm_002/idle_unlit/C3-ITM-002_idle_unlit_02.png",
+          "sha256": "5703208359a3dc46a2286883099725b100b9e0a8b932c936b42e1eb9be611c29",
+          "dimensions": [
+            206,
+            436
+          ],
+          "visible_bounds": [
+            17,
+            12,
+            188,
+            424
+          ],
+          "source_crop_bounds": [
+            399,
+            561,
+            570,
+            973
+          ]
+        },
+        {
+          "path": "art/environment/chapter_03/collectibles/c3_itm_002/idle_unlit/C3-ITM-002_idle_unlit_03.png",
+          "sha256": "f10625ea07d3cdb50c6c6f52ac638df772030f9da9dd6e8a1bab09b8403b09bd",
+          "dimensions": [
+            206,
+            436
+          ],
+          "visible_bounds": [
+            12,
+            12,
+            193,
+            423
+          ],
+          "source_crop_bounds": [
+            580,
+            560,
+            761,
+            971
+          ]
+        }
+      ],
+      "production_exports": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/exports/native_base_review_v1/idle_unlit/C3-ITM-002_idle_unlit_00.png",
+          "sha256": "c40327f282b7cede4d0362d87354c42da0e53a0f2097ba818b3899e3435a4ccb"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/exports/native_base_review_v1/idle_unlit/C3-ITM-002_idle_unlit_01.png",
+          "sha256": "eb0c7ce29c259eccb7d03a0e55d71766a32507e43c5df80385dbcbb480e6515e"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/exports/native_base_review_v1/idle_unlit/C3-ITM-002_idle_unlit_02.png",
+          "sha256": "5703208359a3dc46a2286883099725b100b9e0a8b932c936b42e1eb9be611c29"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/exports/native_base_review_v1/idle_unlit/C3-ITM-002_idle_unlit_03.png",
+          "sha256": "f10625ea07d3cdb50c6c6f52ac638df772030f9da9dd6e8a1bab09b8403b09bd"
+        }
+      ],
+      "frame_count": 4,
+      "fps": 6,
+      "timing_status": "authored review idle playback; source chat does not prove production timing",
+      "canvas_size": [
+        206,
+        436
+      ],
+      "pivot": [
+        103,
+        218
+      ],
+      "pivot_type": "center",
+      "z_index": 15,
+      "receives_light": true,
+      "casts_shadows": false,
+      "emits_light": "separate native optional PointLight2D, disabled by default",
+      "collision_shape": "none inferred from sprite; author pickup interaction Area2D separately",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "native_spriteframes": "resources/chapter_03/animations/collectibles/c3_itm_002_review.tres",
+      "native_spriteframes_sha256": "d1d4aa03f73b7964aae79484bf742bf97b33578a561958bf245c4a75530574b3",
+      "native_review_scene": "scenes/props/chapter_03/review/c3_collectible_itm_002_review.tscn",
+      "native_review_scene_sha256": "2318f5e020ba93fc6e840993d6cbb5943b1962aa382f62d795c88b0d1aefee2e",
+      "preview_path": "docs/chapter03/collectible-asset-preparation-c3-itm-002.png",
+      "production_preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/previews/native_base_review_v1/C3-ITM-002_unlit_preview.png",
+      "stage": "native base review imported; actual gameplay and final approval pending",
+      "production_approved": false,
+      "blockers": [
+        "cross-pose identity/volume/tip stability requires visual approval",
+        "pickup burst/activation families and separated source overlays not delivered as clean independent assets",
+        "actual gameplay-scale/collision/light tuning pending"
+      ],
+      "native_captures": [
+        {
+          "path": "docs/chapter03/collectible-asset-preparation-c3-itm-002-native-light-off.png",
+          "sha256": "1144515b0325ca05361fb48ed263051db1bf4b1f43782c9752b36acd39c34255"
+        },
+        {
+          "path": "docs/chapter03/collectible-asset-preparation-c3-itm-002-native-light-on.png",
+          "sha256": "618cd817071495902282047f24c1829e63cbb836bce81df6c1b046827d7b3798"
+        }
+      ],
+      "technical_validation": "docs/chapter03/collectible-asset-preparation-validation.json",
+      "separate_source_vfx_exports": [],
+      "lighting_implementation": {
+        "native_node": "Actor/EmissionLight",
+        "type": "PointLight2D",
+        "enabled_by_default": false,
+        "texture": "assets/runtime/shared/lighting/soft_radial.tres",
+        "energy": 0.35,
+        "shadow_enabled": false,
+        "body_sprite_unchanged": true
+      },
+      "native_animation_graph": {
+        "available_states": [
+          "idle_unlit"
+        ],
+        "transition_count": 1,
+        "native_travel_verified": true,
+        "loop_frame_progression_verified": true,
+        "missing_action_states_inferred": false,
+        "proof": "docs/chapter03/collectible-asset-preparation-validation.json"
+      }
+    },
+    {
+      "asset_id": "C3-ITM-003",
+      "title": "Drainage Sigil",
+      "sources": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-003/source_images/C3-ITM-003_archive_image-052-6d910d05.png",
+          "sha256": "e2bd387b00de6191f531db32b55a9f2a679341e8c75a352590260d24f90349e0",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-052-6d910d05.png",
+          "source_message_id": "766e2c31-116a-4d8a-bcc7-5c467cd4a77a",
+          "source_message_index": 212,
+          "source_requested_ids": [
+            "C3-ITM-003"
+          ],
+          "source_official_requested_ids": [
+            "C3-ITM-003"
+          ],
+          "verified_actual_asset_id": "C3-ITM-003",
+          "generated_subject_title": "Mystic Water Amulet Animation Sheet",
+          "dimensions": [
+            1774,
+            887
+          ],
+          "mode": "RGBA",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": false
+        }
+      ],
+      "stage": "source archive reviewed; no clean base export",
+      "blockers": [
+        "Only combined glowing sigil/burst artwork. No matching unlit base or isolated overlay; subtracting the glow would infer missing body pixels."
+      ],
+      "runtime_exports": [],
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-ITM-004",
+      "title": "Guardian Key",
+      "sources": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-004/source_images/C3-ITM-004_archive_image-053-b50694e7.png",
+          "sha256": "5010ae82a643173166d43e7f084704d2dd75af484d918a93f59038c3ab5de6ae",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-053-b50694e7.png",
+          "source_message_id": "c2d46984-1397-4102-aa0b-bf52029f69f9",
+          "source_message_index": 216,
+          "source_requested_ids": [
+            "C3-ITM-004"
+          ],
+          "source_official_requested_ids": [
+            "C3-ITM-004"
+          ],
+          "verified_actual_asset_id": "C3-ITM-004",
+          "generated_subject_title": "Magical Guardian Key Animation Sheet",
+          "dimensions": [
+            1774,
+            887
+          ],
+          "mode": "RGBA",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": false
+        }
+      ],
+      "stage": "source archive reviewed; no clean base export",
+      "blockers": [
+        "Only combined glowing Guardian Key/burst artwork. No clean base independent of halo or standalone effect."
+      ],
+      "runtime_exports": [],
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-ITM-005",
+      "title": "Sunken Seal",
+      "sources": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-005/source_images/C3-ITM-005_archive_image-054-16b7c231.png",
+          "sha256": "9e4cd46f2db0704be4ed8def2a783fe0fb94b22fce20340d3614d927ce3160c0",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-054-16b7c231.png",
+          "source_message_id": "bca0ce6f-356c-4bc7-a354-891c55b49f02",
+          "source_message_index": 220,
+          "source_requested_ids": [
+            "C3-ITM-005"
+          ],
+          "source_official_requested_ids": [
+            "C3-ITM-005"
+          ],
+          "verified_actual_asset_id": "C3-ITM-005",
+          "generated_subject_title": "Sunken Seal Orb Activation Sprite Sheet",
+          "dimensions": [
+            1774,
+            887
+          ],
+          "mode": "RGBA",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": false
+        }
+      ],
+      "stage": "source archive reviewed; no clean base export",
+      "blockers": [
+        "Only combined Sunken Seal glow/activation artwork. No unlit base or standalone overlay delivered."
+      ],
+      "runtime_exports": [],
+      "production_approved": false
+    },
+    {
+      "asset_id": "C3-ITM-006",
+      "title": "Health pickup",
+      "sources": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/source_images/C3-ITM-006_archive_image-057-05f0cb33.png",
+          "sha256": "66bf2cc286ca55671ad2775980d68e958ff72790ce1855f2d8a708188171c1b0",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-057-05f0cb33.png",
+          "source_message_id": "5bcd7722-b43d-4d07-aff2-80760c9429ac",
+          "source_message_index": 231,
+          "source_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "source_official_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "verified_actual_asset_id": "C3-ITM-006",
+          "generated_subject_title": "Glowing Heart Relic Sprite Sheet",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGBA",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": true
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/source_images/C3-ITM-006_archive_image-055-2b7443c1.png",
+          "sha256": "5be746157e3cba4ae3c4b6fa558590589d5c7bc84f4a9953b66a15c6b79b5821",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-055-2b7443c1.png",
+          "source_message_id": "140a47f4-4b0e-409c-ae2a-2fc1f7ab5a76",
+          "source_message_index": 224,
+          "source_requested_ids": [
+            "C3-ITM-006"
+          ],
+          "source_official_requested_ids": [
+            "C3-ITM-006"
+          ],
+          "verified_actual_asset_id": "C3-ITM-006",
+          "generated_subject_title": "Magical Healing Orb Animation Sheet",
+          "dimensions": [
+            1774,
+            887
+          ],
+          "mode": "RGBA",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": false,
+          "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/source_images/C3-ITM-006_archive_image-056-0534a7a2.png",
+          "sha256": "c8527a2cd9a87ef5972f90a2dd54d484ea819bfeb0f9d9d087f1cbe81973cd25",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-056-0534a7a2.png",
+          "source_message_id": "847b1e95-618d-4cb1-bc26-c4b71ef7de9b",
+          "source_message_index": 228,
+          "source_requested_ids": [],
+          "source_official_requested_ids": [],
+          "verified_actual_asset_id": "C3-ITM-006",
+          "generated_subject_title": "Fantasy Heart Pickup Sprite Sheet",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGB",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": true,
+          "review_result": "RGB checkerboard; no invented alpha export"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/source_images/C3-ITM-006_archive_image-058-13f940e8.png",
+          "sha256": "1a8f035c15cf0c25382f52a50ac59e7e4bcc97be0cc1e299d24c225aa22b2fc9",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-058-13f940e8.png",
+          "source_message_id": "3b466441-76de-4ab0-a118-25c2f51e8f3c",
+          "source_message_index": 233,
+          "source_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "source_official_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "verified_actual_asset_id": "C3-ITM-006",
+          "generated_subject_title": "Floating Heart Orb Animation Sprite Sheet",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGBA",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": true,
+          "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/source_images/C3-ITM-006_archive_image-059-35c3f713.png",
+          "sha256": "54b10dc9de60790e1b37be138256822f4e960cad84142a96c88077aa45e95b7d",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-059-35c3f713.png",
+          "source_message_id": "2acd3451-04e3-42a3-923f-ebd01cd4e9c2",
+          "source_message_index": 235,
+          "source_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "source_official_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "verified_actual_asset_id": "C3-ITM-006",
+          "generated_subject_title": "Fantasy Heart Orb Animation Sprite Sheet",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGBA",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": true,
+          "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/source_images/C3-ITM-006_archive_image-060-834b4c3f.png",
+          "sha256": "40d402561086d43fcba839a204170d7845f46e0c1b352d1e366f8e5442d38775",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-060-834b4c3f.png",
+          "source_message_id": "8944c502-4633-40aa-8193-17af134ffd85",
+          "source_message_index": 237,
+          "source_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "source_official_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "verified_actual_asset_id": "C3-ITM-006",
+          "generated_subject_title": "Magical Heart Seed Sprite Sheet",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGBA",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": true,
+          "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/source_images/C3-ITM-006_archive_image-061-42d371f3.png",
+          "sha256": "fedac1219e7e9cb60fe58164f74d67e2ac0e94a1de2ec56cea0338ef27757443",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-061-42d371f3.png",
+          "source_message_id": "c94c3b67-bfcf-41e0-b895-4ea1cd1c8fff",
+          "source_message_index": 241,
+          "source_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "source_official_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "verified_actual_asset_id": "C3-ITM-006",
+          "generated_subject_title": "Glowing Heart Orb Sprite Sheet",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGB",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": true,
+          "review_result": "RGB checkerboard; no invented alpha export"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/source_images/C3-ITM-006_archive_image-062-de0bf913.png",
+          "sha256": "2a3345231c4af781d1bed6320ca8aa0e07540e185a1fcc306c0a3dc96db907eb",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-062-de0bf913.png",
+          "source_message_id": "0ef47f19-2789-44ca-aced-00aac6ee58c6",
+          "source_message_index": 239,
+          "source_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "source_official_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "verified_actual_asset_id": "C3-ITM-006",
+          "generated_subject_title": "Glowing Heart Orb Sprite Sheet",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGBA",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": true,
+          "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/source_images/C3-ITM-006_archive_image-063-85e56375.png",
+          "sha256": "b6fbc4dfdc100600bb991edcab421d392ebe6b1844dcd60a088708378a312337",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-063-85e56375.png",
+          "source_message_id": "04e38229-e981-41cc-8441-f6832ee5ba79",
+          "source_message_index": 243,
+          "source_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "source_official_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "verified_actual_asset_id": "C3-ITM-006",
+          "generated_subject_title": "Glowing Floral Heart Orb Animation Sheet",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGB",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": true,
+          "review_result": "RGB checkerboard; no invented alpha export"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/source_images/C3-ITM-006_archive_image-065-4b78d03d.png",
+          "sha256": "def29d48a538cec1d557f64b5a09b5cae34213d75927daea4a2c084b58d39826",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-065-4b78d03d.png",
+          "source_message_id": "214b6dbe-6082-42cc-a672-e6a8f29ac323",
+          "source_message_index": 247,
+          "source_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "source_official_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "verified_actual_asset_id": "C3-ITM-006",
+          "generated_subject_title": "Fantasy Vine Heart Pickup Sprite Sheet",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGB",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": true,
+          "review_result": "RGB checkerboard; no invented alpha export"
+        }
+      ],
+      "source_recipe": {
+        "image": 57,
+        "regions": [
+          [
+            0,
+            570,
+            210,
+            915
+          ],
+          [
+            210,
+            570,
+            407,
+            915
+          ],
+          [
+            407,
+            570,
+            593,
+            915
+          ],
+          [
+            593,
+            570,
+            798,
+            915
+          ]
+        ],
+        "note": "Requested Lore tablet; actual heart-vine health pickup. First four intact lower-row bodies only. Fifth starts the red-fragment burst and is excluded; disconnected leaves and later dissolve fragments remain source-only."
+      },
+      "normalization": "Alpha>32 largest connected body per explicit cell plus original two-pixel antialias fringe. Source RGB/retained alpha unchanged; no scale or repainted pixels. Common per-family canvas; center pivot. Detached stones/leaves/labels/depth rows and faint canvas noise excluded.",
+      "runtime_exports": [
+        {
+          "path": "art/environment/chapter_03/collectibles/c3_itm_006/idle_unlit/C3-ITM-006_idle_unlit_00.png",
+          "sha256": "02dfa5df2550eb9229882a9e7dcbf04372210c1b291fce58bfdba0531a3f28ad",
+          "dimensions": [
+            202,
+            338
+          ],
+          "visible_bounds": [
+            12,
+            23,
+            190,
+            314
+          ],
+          "source_crop_bounds": [
+            20,
+            590,
+            198,
+            881
+          ]
+        },
+        {
+          "path": "art/environment/chapter_03/collectibles/c3_itm_006/idle_unlit/C3-ITM-006_idle_unlit_01.png",
+          "sha256": "31f88c533e7b0d71a265def787e40b0d40020e5012eaad3fa4c800e6c13d534d",
+          "dimensions": [
+            202,
+            338
+          ],
+          "visible_bounds": [
+            17,
+            12,
+            184,
+            325
+          ],
+          "source_crop_bounds": [
+            226,
+            583,
+            393,
+            896
+          ]
+        },
+        {
+          "path": "art/environment/chapter_03/collectibles/c3_itm_006/idle_unlit/C3-ITM-006_idle_unlit_02.png",
+          "sha256": "8bb7e7c1f05fd3e61fc8329211d9b68b89adeabd8799ce68460a8a69ed574f80",
+          "dimensions": [
+            202,
+            338
+          ],
+          "visible_bounds": [
+            20,
+            15,
+            181,
+            323
+          ],
+          "source_crop_bounds": [
+            415,
+            586,
+            576,
+            894
+          ]
+        },
+        {
+          "path": "art/environment/chapter_03/collectibles/c3_itm_006/idle_unlit/C3-ITM-006_idle_unlit_03.png",
+          "sha256": "c8129b3eabb403bccdc353ca63f5c59d2afd95dc1e98d81498e03168051d5c2e",
+          "dimensions": [
+            202,
+            338
+          ],
+          "visible_bounds": [
+            17,
+            22,
+            185,
+            316
+          ],
+          "source_crop_bounds": [
+            613,
+            597,
+            781,
+            891
+          ]
+        }
+      ],
+      "production_exports": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/exports/native_base_review_v1/idle_unlit/C3-ITM-006_idle_unlit_00.png",
+          "sha256": "02dfa5df2550eb9229882a9e7dcbf04372210c1b291fce58bfdba0531a3f28ad"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/exports/native_base_review_v1/idle_unlit/C3-ITM-006_idle_unlit_01.png",
+          "sha256": "31f88c533e7b0d71a265def787e40b0d40020e5012eaad3fa4c800e6c13d534d"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/exports/native_base_review_v1/idle_unlit/C3-ITM-006_idle_unlit_02.png",
+          "sha256": "8bb7e7c1f05fd3e61fc8329211d9b68b89adeabd8799ce68460a8a69ed574f80"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/exports/native_base_review_v1/idle_unlit/C3-ITM-006_idle_unlit_03.png",
+          "sha256": "c8129b3eabb403bccdc353ca63f5c59d2afd95dc1e98d81498e03168051d5c2e"
+        }
+      ],
+      "frame_count": 4,
+      "fps": 6,
+      "timing_status": "authored review idle playback; source chat does not prove production timing",
+      "canvas_size": [
+        202,
+        338
+      ],
+      "pivot": [
+        101,
+        169
+      ],
+      "pivot_type": "center",
+      "z_index": 15,
+      "receives_light": true,
+      "casts_shadows": false,
+      "emits_light": "separate native optional PointLight2D, disabled by default",
+      "collision_shape": "none inferred from sprite; author pickup interaction Area2D separately",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "native_spriteframes": "resources/chapter_03/animations/collectibles/c3_itm_006_review.tres",
+      "native_spriteframes_sha256": "4a69f2e1704065898f4087992d2c7f5e12b3380a5218a8b8a8c9d39651c347ec",
+      "native_review_scene": "scenes/props/chapter_03/review/c3_collectible_itm_006_review.tscn",
+      "native_review_scene_sha256": "3ddee83f64c641c0734ef1c84d88a656b944f0e8ce8789a8b22e39c0cc3e6fc2",
+      "preview_path": "docs/chapter03/collectible-asset-preparation-c3-itm-006.png",
+      "production_preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/previews/native_base_review_v1/C3-ITM-006_unlit_preview.png",
+      "stage": "native base review imported; actual gameplay and final approval pending",
+      "production_approved": false,
+      "blockers": [
+        "cross-pose identity/volume/tip stability requires visual approval",
+        "pickup burst/activation families and separated source overlays not delivered as clean independent assets",
+        "actual gameplay-scale/collision/light tuning pending"
+      ],
+      "native_captures": [
+        {
+          "path": "docs/chapter03/collectible-asset-preparation-c3-itm-006-native-light-off.png",
+          "sha256": "d7486b08aefb73d26059650f41171d8b042dd8ecc26af6c7e35d0ae0b29213ea"
+        },
+        {
+          "path": "docs/chapter03/collectible-asset-preparation-c3-itm-006-native-light-on.png",
+          "sha256": "5b908d751f9b78749ab46ad0650dc3e0034877d432bd54157ed312f6d43f19b3"
+        }
+      ],
+      "technical_validation": "docs/chapter03/collectible-asset-preparation-validation.json",
+      "separate_source_vfx_exports": [],
+      "lighting_implementation": {
+        "native_node": "Actor/EmissionLight",
+        "type": "PointLight2D",
+        "enabled_by_default": false,
+        "texture": "assets/runtime/shared/lighting/soft_radial.tres",
+        "energy": 0.35,
+        "shadow_enabled": false,
+        "body_sprite_unchanged": true
+      },
+      "excluded_derived_diagnostic": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/exports/native_base_review_v1/excluded_partial_pickup_pose/C3-ITM-006_idle_unlit_04.png",
+          "sha256": "66dad5c5388f6e5e6023470e0a37df88c977a64a49a66f592f75a1184515802c",
+          "reason": "Fifth pose begins fragment burst; excluded from clean unlit idle, kept as prior diagnostic only"
+        }
+      ],
+      "native_animation_graph": {
+        "available_states": [
+          "idle_unlit"
+        ],
+        "transition_count": 1,
+        "native_travel_verified": true,
+        "loop_frame_progression_verified": true,
+        "missing_action_states_inferred": false,
+        "proof": "docs/chapter03/collectible-asset-preparation-validation.json"
+      }
+    },
+    {
+      "asset_id": "C3-ITM-007",
+      "title": "Lore tablet",
+      "sources": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-007/source_images/C3-ITM-007_archive_image-069-e7c63438.png",
+          "sha256": "6af3852919375c4977378f8e88ca7a41b821fe19dd5628a82deb2861c8fa029f",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-069-e7c63438.png",
+          "source_message_id": "f3dba64e-f808-4b18-a8ba-3f165e5f4d2b",
+          "source_message_index": 263,
+          "source_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "source_official_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "verified_actual_asset_id": "C3-ITM-007",
+          "generated_subject_title": "Lore Tablet Rune Reveal Sprite Sheet",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGBA",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": false
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-007/source_images/C3-ITM-007_archive_image-068-cbe9d6be.png",
+          "sha256": "5478603ae13006e162688eeaf82278883b47c39482bcc272646aa5d151856c4a",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-068-cbe9d6be.png",
+          "source_message_id": "12fc47ea-3aed-4e0b-91a5-2ef322722874",
+          "source_message_index": 259,
+          "source_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "source_official_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "verified_actual_asset_id": "C3-ITM-007",
+          "generated_subject_title": "Lore Tablet Activation Sprite Sheet",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGBA",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": false,
+          "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-007/source_images/C3-ITM-007_archive_image-070-ae20bb8d.png",
+          "sha256": "cb39738d7a03f39073be8cb1fc6a0708daaf6849a636af6ca805f1eafcefed35",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-070-ae20bb8d.png",
+          "source_message_id": "c9b173f1-e0e3-4b7d-8e56-d13b5b33da18",
+          "source_message_index": 255,
+          "source_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "source_official_requested_ids": [
+            "C3-ITM-007"
+          ],
+          "verified_actual_asset_id": "C3-ITM-007",
+          "generated_subject_title": "Lore Tablet Animation Reference Sheet",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGBA",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": false,
+          "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+        }
+      ],
+      "source_recipe": {
+        "image": 69,
+        "regions": [
+          [
+            0,
+            405,
+            256,
+            644
+          ],
+          [
+            256,
+            405,
+            512,
+            644
+          ],
+          [
+            512,
+            405,
+            768,
+            644
+          ],
+          [
+            768,
+            405,
+            1024,
+            644
+          ],
+          [
+            1024,
+            405,
+            1280,
+            644
+          ],
+          [
+            1280,
+            380,
+            1536,
+            644
+          ]
+        ],
+        "note": "Six unlit middle-row tablets. Printed title/frame labels, depth row, lit row and disconnected flying debris excluded. Sixth pose uses an earlier top bound to preserve its raised leaves."
+      },
+      "normalization": "Alpha>32 largest connected body per explicit cell plus original two-pixel antialias fringe. Source RGB/retained alpha unchanged; no scale or repainted pixels. Common per-family canvas; center pivot. Detached stones/leaves/labels/depth rows and faint canvas noise excluded.",
+      "runtime_exports": [
+        {
+          "path": "art/environment/chapter_03/collectibles/c3_itm_007/idle_unlit/C3-ITM-007_idle_unlit_00.png",
+          "sha256": "48571d99b3fc09d51b992b5ca1c9a6371fefeb25738cb9e10dfa033c79c3bbdf",
+          "dimensions": [
+            220,
+            280
+          ],
+          "visible_bounds": [
+            22,
+            22,
+            198,
+            257
+          ],
+          "source_crop_bounds": [
+            41,
+            409,
+            217,
+            644
+          ]
+        },
+        {
+          "path": "art/environment/chapter_03/collectibles/c3_itm_007/idle_unlit/C3-ITM-007_idle_unlit_01.png",
+          "sha256": "1fb2e12dedb80ce298cf0a3b704a476bb76dd26905f8778d11cb5667a23b4eaf",
+          "dimensions": [
+            220,
+            280
+          ],
+          "visible_bounds": [
+            22,
+            23,
+            198,
+            257
+          ],
+          "source_crop_bounds": [
+            294,
+            410,
+            470,
+            644
+          ]
+        },
+        {
+          "path": "art/environment/chapter_03/collectibles/c3_itm_007/idle_unlit/C3-ITM-007_idle_unlit_02.png",
+          "sha256": "8a4dec0916ca743edb648a57a5e1ecf3683e321fcd59c469cb6d7a968e32c532",
+          "dimensions": [
+            220,
+            280
+          ],
+          "visible_bounds": [
+            13,
+            26,
+            207,
+            254
+          ],
+          "source_crop_bounds": [
+            534,
+            416,
+            728,
+            644
+          ]
+        },
+        {
+          "path": "art/environment/chapter_03/collectibles/c3_itm_007/idle_unlit/C3-ITM-007_idle_unlit_03.png",
+          "sha256": "ba4c25beae451740f41add7fb9707a3e11dd9bcc58d5e6587fa27a7c1f3a8f2f",
+          "dimensions": [
+            220,
+            280
+          ],
+          "visible_bounds": [
+            12,
+            24,
+            208,
+            256
+          ],
+          "source_crop_bounds": [
+            790,
+            410,
+            986,
+            642
+          ]
+        },
+        {
+          "path": "art/environment/chapter_03/collectibles/c3_itm_007/idle_unlit/C3-ITM-007_idle_unlit_04.png",
+          "sha256": "54157be06c8c29422cf1002c53256084f46a79b71b3ead7abbb5788b21189872",
+          "dimensions": [
+            220,
+            280
+          ],
+          "visible_bounds": [
+            20,
+            32,
+            199,
+            248
+          ],
+          "source_crop_bounds": [
+            1054,
+            417,
+            1233,
+            633
+          ]
+        },
+        {
+          "path": "art/environment/chapter_03/collectibles/c3_itm_007/idle_unlit/C3-ITM-007_idle_unlit_05.png",
+          "sha256": "2460d6381323902fb98bb837cfe6f68f615930caee2632fed7db46be77265a43",
+          "dimensions": [
+            220,
+            280
+          ],
+          "visible_bounds": [
+            27,
+            12,
+            192,
+            268
+          ],
+          "source_crop_bounds": [
+            1333,
+            388,
+            1498,
+            644
+          ]
+        }
+      ],
+      "production_exports": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-007/exports/native_base_review_v1/idle_unlit/C3-ITM-007_idle_unlit_00.png",
+          "sha256": "48571d99b3fc09d51b992b5ca1c9a6371fefeb25738cb9e10dfa033c79c3bbdf"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-007/exports/native_base_review_v1/idle_unlit/C3-ITM-007_idle_unlit_01.png",
+          "sha256": "1fb2e12dedb80ce298cf0a3b704a476bb76dd26905f8778d11cb5667a23b4eaf"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-007/exports/native_base_review_v1/idle_unlit/C3-ITM-007_idle_unlit_02.png",
+          "sha256": "8a4dec0916ca743edb648a57a5e1ecf3683e321fcd59c469cb6d7a968e32c532"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-007/exports/native_base_review_v1/idle_unlit/C3-ITM-007_idle_unlit_03.png",
+          "sha256": "ba4c25beae451740f41add7fb9707a3e11dd9bcc58d5e6587fa27a7c1f3a8f2f"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-007/exports/native_base_review_v1/idle_unlit/C3-ITM-007_idle_unlit_04.png",
+          "sha256": "54157be06c8c29422cf1002c53256084f46a79b71b3ead7abbb5788b21189872"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-007/exports/native_base_review_v1/idle_unlit/C3-ITM-007_idle_unlit_05.png",
+          "sha256": "2460d6381323902fb98bb837cfe6f68f615930caee2632fed7db46be77265a43"
+        }
+      ],
+      "frame_count": 6,
+      "fps": 6,
+      "timing_status": "authored review idle playback; source chat does not prove production timing",
+      "canvas_size": [
+        220,
+        280
+      ],
+      "pivot": [
+        110,
+        140
+      ],
+      "pivot_type": "center",
+      "z_index": 15,
+      "receives_light": true,
+      "casts_shadows": false,
+      "emits_light": "separate native optional PointLight2D, disabled by default",
+      "collision_shape": "none inferred from sprite; author pickup interaction Area2D separately",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "native_spriteframes": "resources/chapter_03/animations/collectibles/c3_itm_007_review.tres",
+      "native_spriteframes_sha256": "2d6f993710f539c1af68c5340c97f576aa60e292b1437fb1e84c38d4647beb3d",
+      "native_review_scene": "scenes/props/chapter_03/review/c3_collectible_itm_007_review.tscn",
+      "native_review_scene_sha256": "81a7efb905b325eb706c68a37c03c3b5825e71b6f7494ef8a23a3abb74c6a0e7",
+      "preview_path": "docs/chapter03/collectible-asset-preparation-c3-itm-007.png",
+      "production_preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-007/previews/native_base_review_v1/C3-ITM-007_unlit_preview.png",
+      "stage": "native base review imported; actual gameplay and final approval pending",
+      "production_approved": false,
+      "blockers": [
+        "cross-pose identity/volume/tip stability requires visual approval",
+        "pickup burst/activation families and separated source overlays not delivered as clean independent assets",
+        "actual gameplay-scale/collision/light tuning pending"
+      ],
+      "native_captures": [
+        {
+          "path": "docs/chapter03/collectible-asset-preparation-c3-itm-007-native-light-off.png",
+          "sha256": "be2341f535d0d3440598ebe7a3318f06a957cf3a51a565a7d1b2462f63782bca"
+        },
+        {
+          "path": "docs/chapter03/collectible-asset-preparation-c3-itm-007-native-light-on.png",
+          "sha256": "1ca374190cf49c07011645733afb43a9b1c1d4259b553638ed2ab4455b328db2"
+        }
+      ],
+      "technical_validation": "docs/chapter03/collectible-asset-preparation-validation.json",
+      "separate_source_vfx_exports": [],
+      "lighting_implementation": {
+        "native_node": "Actor/EmissionLight",
+        "type": "PointLight2D",
+        "enabled_by_default": false,
+        "texture": "assets/runtime/shared/lighting/soft_radial.tres",
+        "energy": 0.35,
+        "shadow_enabled": false,
+        "body_sprite_unchanged": true
+      },
+      "native_animation_graph": {
+        "available_states": [
+          "idle_unlit"
+        ],
+        "transition_count": 1,
+        "native_travel_verified": true,
+        "loop_frame_progression_verified": true,
+        "missing_action_states_inferred": false,
+        "proof": "docs/chapter03/collectible-asset-preparation-validation.json"
+      }
+    },
+    {
+      "asset_id": "C3-ITM-008",
+      "title": "Relic shard",
+      "sources": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-008/source_images/C3-ITM-008_archive_image-072-7c2cec4a.png",
+          "sha256": "246c88bab0f938e8e70b88c937fc9a44f131500a9f58314d59d2792b612df29f",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-072-7c2cec4a.png",
+          "source_message_id": "3d93b41e-766d-4abc-b772-8475418bf0d3",
+          "source_message_index": 267,
+          "source_requested_ids": [
+            "C3-ITM-008"
+          ],
+          "source_official_requested_ids": [
+            "C3-ITM-008"
+          ],
+          "verified_actual_asset_id": "C3-ITM-008",
+          "generated_subject_title": "Relic Shard Idle Animation Sheet",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGBA",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": false
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-008/source_images/C3-ITM-008_archive_image-071-fc764239.png",
+          "sha256": "ab8d0c906ef6b3e2fb7d39da552209b92ce0d3a42b7aecb9f6ab47835df50609",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-071-fc764239.png",
+          "source_message_id": "37d2c3c5-f4e1-458f-bbd9-daa9bea3154c",
+          "source_message_index": 271,
+          "source_requested_ids": [
+            "C3-ITM-008"
+          ],
+          "source_official_requested_ids": [
+            "C3-ITM-008"
+          ],
+          "verified_actual_asset_id": "C3-ITM-008",
+          "generated_subject_title": "Glowing Relic Shard Animation Sheet",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGBA",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": false,
+          "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-008/source_images/C3-ITM-008_archive_image-073-e256f7de.png",
+          "sha256": "7326ac46e3c51bb6241757ae770dbbf7bd5359cf64ac4a2363983b87be895c36",
+          "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-073-e256f7de.png",
+          "source_message_id": "6286dd4b-5725-48c7-a148-9881f2927292",
+          "source_message_index": 275,
+          "source_requested_ids": [
+            "C3-ITM-008"
+          ],
+          "source_official_requested_ids": [
+            "C3-ITM-008"
+          ],
+          "verified_actual_asset_id": "C3-ITM-008",
+          "generated_subject_title": "Relic Shard Pickup Animation Sheet",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGBA",
+          "provenance": "unchanged original bytes supplied in user ZIP",
+          "requested_vs_actual_mismatch": false,
+          "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+        }
+      ],
+      "source_recipe": {
+        "image": 72,
+        "regions": [
+          [
+            0,
+            382,
+            256,
+            630
+          ],
+          [
+            256,
+            382,
+            512,
+            630
+          ],
+          [
+            512,
+            350,
+            768,
+            630
+          ],
+          [
+            768,
+            350,
+            1024,
+            630
+          ],
+          [
+            1024,
+            350,
+            1280,
+            630
+          ],
+          [
+            1280,
+            350,
+            1536,
+            630
+          ]
+        ],
+        "note": "Six unlit middle-row relic-shard bodies. Per-cell upper bounds remove the printed row title while preserving later tilted tips. No depth map is presented as normal data."
+      },
+      "normalization": "Alpha>32 largest connected body per explicit cell plus original two-pixel antialias fringe. Source RGB/retained alpha unchanged; no scale or repainted pixels. Common per-family canvas; center pivot. Detached stones/leaves/labels/depth rows and faint canvas noise excluded.",
+      "runtime_exports": [
+        {
+          "path": "art/environment/chapter_03/collectibles/c3_itm_008/idle_unlit/C3-ITM-008_idle_unlit_00.png",
+          "sha256": "ec138f55c55c545a0f4d0fec3be3a125cf8a65d96b241efdbc2e82f2e5ceaef9",
+          "dimensions": [
+            204,
+            300
+          ],
+          "visible_bounds": [
+            14,
+            26,
+            190,
+            273
+          ],
+          "source_crop_bounds": [
+            49,
+            382,
+            225,
+            629
+          ]
+        },
+        {
+          "path": "art/environment/chapter_03/collectibles/c3_itm_008/idle_unlit/C3-ITM-008_idle_unlit_01.png",
+          "sha256": "15c795f505941209c416f627cbcef56288574bf6b8b2c2bd9e4073a3d191299b",
+          "dimensions": [
+            204,
+            300
+          ],
+          "visible_bounds": [
+            24,
+            27,
+            179,
+            272
+          ],
+          "source_crop_bounds": [
+            297,
+            382,
+            452,
+            627
+          ]
+        },
+        {
+          "path": "art/environment/chapter_03/collectibles/c3_itm_008/idle_unlit/C3-ITM-008_idle_unlit_02.png",
+          "sha256": "81ff44d070ad0bfb63aff83ac42f1775a9798890d6b7d6b03e8490ab2973b5f7",
+          "dimensions": [
+            204,
+            300
+          ],
+          "visible_bounds": [
+            12,
+            28,
+            191,
+            271
+          ],
+          "source_crop_bounds": [
+            557,
+            385,
+            736,
+            628
+          ]
+        },
+        {
+          "path": "art/environment/chapter_03/collectibles/c3_itm_008/idle_unlit/C3-ITM-008_idle_unlit_03.png",
+          "sha256": "dd3805b9ec346df5f6e68ffba86bcf3172465d2ede0771c8b5f142ada4e968cb",
+          "dimensions": [
+            204,
+            300
+          ],
+          "visible_bounds": [
+            32,
+            20,
+            171,
+            279
+          ],
+          "source_crop_bounds": [
+            830,
+            369,
+            969,
+            628
+          ]
+        },
+        {
+          "path": "art/environment/chapter_03/collectibles/c3_itm_008/idle_unlit/C3-ITM-008_idle_unlit_04.png",
+          "sha256": "6ac9df754d8784fc9f744489651b9467c652a4e42c63d86a34ac5a9984084312",
+          "dimensions": [
+            204,
+            300
+          ],
+          "visible_bounds": [
+            32,
+            30,
+            171,
+            270
+          ],
+          "source_crop_bounds": [
+            1082,
+            385,
+            1221,
+            625
+          ]
+        },
+        {
+          "path": "art/environment/chapter_03/collectibles/c3_itm_008/idle_unlit/C3-ITM-008_idle_unlit_05.png",
+          "sha256": "2a5e2a28534d398e61f355b80fb2e4e4a50429f106262656abc18d539dc1fe88",
+          "dimensions": [
+            204,
+            300
+          ],
+          "visible_bounds": [
+            34,
+            12,
+            169,
+            288
+          ],
+          "source_crop_bounds": [
+            1340,
+            353,
+            1475,
+            629
+          ]
+        }
+      ],
+      "production_exports": [
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-008/exports/native_base_review_v1/idle_unlit/C3-ITM-008_idle_unlit_00.png",
+          "sha256": "ec138f55c55c545a0f4d0fec3be3a125cf8a65d96b241efdbc2e82f2e5ceaef9"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-008/exports/native_base_review_v1/idle_unlit/C3-ITM-008_idle_unlit_01.png",
+          "sha256": "15c795f505941209c416f627cbcef56288574bf6b8b2c2bd9e4073a3d191299b"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-008/exports/native_base_review_v1/idle_unlit/C3-ITM-008_idle_unlit_02.png",
+          "sha256": "81ff44d070ad0bfb63aff83ac42f1775a9798890d6b7d6b03e8490ab2973b5f7"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-008/exports/native_base_review_v1/idle_unlit/C3-ITM-008_idle_unlit_03.png",
+          "sha256": "dd3805b9ec346df5f6e68ffba86bcf3172465d2ede0771c8b5f142ada4e968cb"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-008/exports/native_base_review_v1/idle_unlit/C3-ITM-008_idle_unlit_04.png",
+          "sha256": "6ac9df754d8784fc9f744489651b9467c652a4e42c63d86a34ac5a9984084312"
+        },
+        {
+          "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-008/exports/native_base_review_v1/idle_unlit/C3-ITM-008_idle_unlit_05.png",
+          "sha256": "2a5e2a28534d398e61f355b80fb2e4e4a50429f106262656abc18d539dc1fe88"
+        }
+      ],
+      "frame_count": 6,
+      "fps": 6,
+      "timing_status": "authored review idle playback; source chat does not prove production timing",
+      "canvas_size": [
+        204,
+        300
+      ],
+      "pivot": [
+        102,
+        150
+      ],
+      "pivot_type": "center",
+      "z_index": 15,
+      "receives_light": true,
+      "casts_shadows": false,
+      "emits_light": "separate native optional PointLight2D, disabled by default",
+      "collision_shape": "none inferred from sprite; author pickup interaction Area2D separately",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "native_spriteframes": "resources/chapter_03/animations/collectibles/c3_itm_008_review.tres",
+      "native_spriteframes_sha256": "b2604f8657beaf9c21b7d2c62d81ffb2645fcce4d71d063e0f6952fea230700f",
+      "native_review_scene": "scenes/props/chapter_03/review/c3_collectible_itm_008_review.tscn",
+      "native_review_scene_sha256": "8cf729388e2374998f1fea533cc432a92fdd1db098bac5c792c8ea8a83eee68d",
+      "preview_path": "docs/chapter03/collectible-asset-preparation-c3-itm-008.png",
+      "production_preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-008/previews/native_base_review_v1/C3-ITM-008_unlit_preview.png",
+      "stage": "native base review imported; actual gameplay and final approval pending",
+      "production_approved": false,
+      "blockers": [
+        "cross-pose identity/volume/tip stability requires visual approval",
+        "pickup burst/activation families and separated source overlays not delivered as clean independent assets",
+        "actual gameplay-scale/collision/light tuning pending"
+      ],
+      "native_captures": [
+        {
+          "path": "docs/chapter03/collectible-asset-preparation-c3-itm-008-native-light-off.png",
+          "sha256": "f53d24c9ede636ccdcd5cb07acef08bfb7dac21a54baa3ba7eea5b128efdb359"
+        },
+        {
+          "path": "docs/chapter03/collectible-asset-preparation-c3-itm-008-native-light-on.png",
+          "sha256": "86015e0db6bcdc066d8ef3f04ef45f0edfee8fa6a449da9f4ed556affd970db2"
+        }
+      ],
+      "technical_validation": "docs/chapter03/collectible-asset-preparation-validation.json",
+      "separate_source_vfx_exports": [],
+      "lighting_implementation": {
+        "native_node": "Actor/EmissionLight",
+        "type": "PointLight2D",
+        "enabled_by_default": false,
+        "texture": "assets/runtime/shared/lighting/soft_radial.tres",
+        "energy": 0.35,
+        "shadow_enabled": false,
+        "body_sprite_unchanged": true
+      },
+      "native_animation_graph": {
+        "available_states": [
+          "idle_unlit"
+        ],
+        "transition_count": 1,
+        "native_travel_verified": true,
+        "loop_frame_progression_verified": true,
+        "missing_action_states_inferred": false,
+        "proof": "docs/chapter03/collectible-asset-preparation-validation.json"
+      }
+    }
+  ],
+  "policy": "Requested ID and verified visual identity remain distinct. Exact native pixels retained; labels, disconnected debris, faint alpha noise and other rows excluded. Base artwork never contains a copied light/burst layer. No reconstruction or resize.",
+  "source_review": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-001/source_images/C3-ITM-001_archive_image-050-f3a86461.png",
+      "sha256": "1fdf7f235962b0ebe38cb13bd9c979cb484fd69fecfb5d565877dc8d0d4f342c",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-050-f3a86461.png",
+      "source_message_id": "0b0e3036-d411-4319-9379-ae810ace1ca0",
+      "source_message_index": 203,
+      "source_requested_ids": [],
+      "source_official_requested_ids": [],
+      "verified_actual_asset_id": "C3-ITM-001",
+      "generated_subject_title": "Golden Crystal Sprite Animation Sheet",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "mode": "RGB",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": true,
+      "review_result": "RGB checkerboard; no invented alpha export"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/source_images/C3-ITM-002_archive_image-051-bcafa605.png",
+      "sha256": "e1a0929f9913f8d92726d4defa38bf2b56c08920e1239d28723948d0b79913ea",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-051-bcafa605.png",
+      "source_message_id": "7058dfdc-f33e-4f24-a747-8e5a09232b5c",
+      "source_message_index": 208,
+      "source_requested_ids": [
+        "C3-ITM-002"
+      ],
+      "source_official_requested_ids": [
+        "C3-ITM-002"
+      ],
+      "verified_actual_asset_id": "C3-ITM-002",
+      "generated_subject_title": "Enchanted Key Sprite Animation Sheet",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": false,
+      "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-003/source_images/C3-ITM-003_archive_image-052-6d910d05.png",
+      "sha256": "e2bd387b00de6191f531db32b55a9f2a679341e8c75a352590260d24f90349e0",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-052-6d910d05.png",
+      "source_message_id": "766e2c31-116a-4d8a-bcc7-5c467cd4a77a",
+      "source_message_index": 212,
+      "source_requested_ids": [
+        "C3-ITM-003"
+      ],
+      "source_official_requested_ids": [
+        "C3-ITM-003"
+      ],
+      "verified_actual_asset_id": "C3-ITM-003",
+      "generated_subject_title": "Mystic Water Amulet Animation Sheet",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": false,
+      "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-004/source_images/C3-ITM-004_archive_image-053-b50694e7.png",
+      "sha256": "5010ae82a643173166d43e7f084704d2dd75af484d918a93f59038c3ab5de6ae",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-053-b50694e7.png",
+      "source_message_id": "c2d46984-1397-4102-aa0b-bf52029f69f9",
+      "source_message_index": 216,
+      "source_requested_ids": [
+        "C3-ITM-004"
+      ],
+      "source_official_requested_ids": [
+        "C3-ITM-004"
+      ],
+      "verified_actual_asset_id": "C3-ITM-004",
+      "generated_subject_title": "Magical Guardian Key Animation Sheet",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": false,
+      "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-005/source_images/C3-ITM-005_archive_image-054-16b7c231.png",
+      "sha256": "9e4cd46f2db0704be4ed8def2a783fe0fb94b22fce20340d3614d927ce3160c0",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-054-16b7c231.png",
+      "source_message_id": "bca0ce6f-356c-4bc7-a354-891c55b49f02",
+      "source_message_index": 220,
+      "source_requested_ids": [
+        "C3-ITM-005"
+      ],
+      "source_official_requested_ids": [
+        "C3-ITM-005"
+      ],
+      "verified_actual_asset_id": "C3-ITM-005",
+      "generated_subject_title": "Sunken Seal Orb Activation Sprite Sheet",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": false,
+      "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/source_images/C3-ITM-006_archive_image-055-2b7443c1.png",
+      "sha256": "5be746157e3cba4ae3c4b6fa558590589d5c7bc84f4a9953b66a15c6b79b5821",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-055-2b7443c1.png",
+      "source_message_id": "140a47f4-4b0e-409c-ae2a-2fc1f7ab5a76",
+      "source_message_index": 224,
+      "source_requested_ids": [
+        "C3-ITM-006"
+      ],
+      "source_official_requested_ids": [
+        "C3-ITM-006"
+      ],
+      "verified_actual_asset_id": "C3-ITM-006",
+      "generated_subject_title": "Magical Healing Orb Animation Sheet",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": false,
+      "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/source_images/C3-ITM-006_archive_image-056-0534a7a2.png",
+      "sha256": "c8527a2cd9a87ef5972f90a2dd54d484ea819bfeb0f9d9d087f1cbe81973cd25",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-056-0534a7a2.png",
+      "source_message_id": "847b1e95-618d-4cb1-bc26-c4b71ef7de9b",
+      "source_message_index": 228,
+      "source_requested_ids": [],
+      "source_official_requested_ids": [],
+      "verified_actual_asset_id": "C3-ITM-006",
+      "generated_subject_title": "Fantasy Heart Pickup Sprite Sheet",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": true,
+      "review_result": "RGB checkerboard; no invented alpha export"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/source_images/C3-ITM-006_archive_image-057-05f0cb33.png",
+      "sha256": "66bf2cc286ca55671ad2775980d68e958ff72790ce1855f2d8a708188171c1b0",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-057-05f0cb33.png",
+      "source_message_id": "5bcd7722-b43d-4d07-aff2-80760c9429ac",
+      "source_message_index": 231,
+      "source_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "source_official_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "verified_actual_asset_id": "C3-ITM-006",
+      "generated_subject_title": "Glowing Heart Relic Sprite Sheet",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": true,
+      "review_result": "selected unlit base subset"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/source_images/C3-ITM-006_archive_image-058-13f940e8.png",
+      "sha256": "1a8f035c15cf0c25382f52a50ac59e7e4bcc97be0cc1e299d24c225aa22b2fc9",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-058-13f940e8.png",
+      "source_message_id": "3b466441-76de-4ab0-a118-25c2f51e8f3c",
+      "source_message_index": 233,
+      "source_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "source_official_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "verified_actual_asset_id": "C3-ITM-006",
+      "generated_subject_title": "Floating Heart Orb Animation Sprite Sheet",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": true,
+      "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/source_images/C3-ITM-006_archive_image-059-35c3f713.png",
+      "sha256": "54b10dc9de60790e1b37be138256822f4e960cad84142a96c88077aa45e95b7d",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-059-35c3f713.png",
+      "source_message_id": "2acd3451-04e3-42a3-923f-ebd01cd4e9c2",
+      "source_message_index": 235,
+      "source_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "source_official_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "verified_actual_asset_id": "C3-ITM-006",
+      "generated_subject_title": "Fantasy Heart Orb Animation Sprite Sheet",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": true,
+      "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/source_images/C3-ITM-006_archive_image-060-834b4c3f.png",
+      "sha256": "40d402561086d43fcba839a204170d7845f46e0c1b352d1e366f8e5442d38775",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-060-834b4c3f.png",
+      "source_message_id": "8944c502-4633-40aa-8193-17af134ffd85",
+      "source_message_index": 237,
+      "source_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "source_official_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "verified_actual_asset_id": "C3-ITM-006",
+      "generated_subject_title": "Magical Heart Seed Sprite Sheet",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": true,
+      "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/source_images/C3-ITM-006_archive_image-061-42d371f3.png",
+      "sha256": "fedac1219e7e9cb60fe58164f74d67e2ac0e94a1de2ec56cea0338ef27757443",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-061-42d371f3.png",
+      "source_message_id": "c94c3b67-bfcf-41e0-b895-4ea1cd1c8fff",
+      "source_message_index": 241,
+      "source_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "source_official_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "verified_actual_asset_id": "C3-ITM-006",
+      "generated_subject_title": "Glowing Heart Orb Sprite Sheet",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": true,
+      "review_result": "RGB checkerboard; no invented alpha export"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/source_images/C3-ITM-006_archive_image-062-de0bf913.png",
+      "sha256": "2a3345231c4af781d1bed6320ca8aa0e07540e185a1fcc306c0a3dc96db907eb",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-062-de0bf913.png",
+      "source_message_id": "0ef47f19-2789-44ca-aced-00aac6ee58c6",
+      "source_message_index": 239,
+      "source_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "source_official_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "verified_actual_asset_id": "C3-ITM-006",
+      "generated_subject_title": "Glowing Heart Orb Sprite Sheet",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": true,
+      "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/source_images/C3-ITM-006_archive_image-063-85e56375.png",
+      "sha256": "b6fbc4dfdc100600bb991edcab421d392ebe6b1844dcd60a088708378a312337",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-063-85e56375.png",
+      "source_message_id": "04e38229-e981-41cc-8441-f6832ee5ba79",
+      "source_message_index": 243,
+      "source_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "source_official_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "verified_actual_asset_id": "C3-ITM-006",
+      "generated_subject_title": "Glowing Floral Heart Orb Animation Sheet",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": true,
+      "review_result": "RGB checkerboard; no invented alpha export"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-001/source_images/C3-ITM-001_archive_image-064-5c0948d8.png",
+      "sha256": "c7747228cb7568194985372a798eb035611a622f803caedbceb97ecf2b219db8",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-064-5c0948d8.png",
+      "source_message_id": "c7258c1e-1dcb-45f0-8d98-1f500b43c7d2",
+      "source_message_index": 245,
+      "source_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "source_official_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "verified_actual_asset_id": "C3-ITM-001",
+      "generated_subject_title": "Golden Crystal Animation Sprite Sheet",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": true,
+      "review_result": "RGB checkerboard; no invented alpha export"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/source_images/C3-ITM-006_archive_image-065-4b78d03d.png",
+      "sha256": "def29d48a538cec1d557f64b5a09b5cae34213d75927daea4a2c084b58d39826",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-065-4b78d03d.png",
+      "source_message_id": "214b6dbe-6082-42cc-a672-e6a8f29ac323",
+      "source_message_index": 247,
+      "source_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "source_official_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "verified_actual_asset_id": "C3-ITM-006",
+      "generated_subject_title": "Fantasy Vine Heart Pickup Sprite Sheet",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": true,
+      "review_result": "RGB checkerboard; no invented alpha export"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/source_images/C3-ITM-002_archive_image-066-493bec8e.png",
+      "sha256": "4a0696aff99b24f1373cdf89213d889d419ec9af4f8cb324233cbee606fdcf07",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-066-493bec8e.png",
+      "source_message_id": "a1301b1c-3f28-4e61-b423-683ef54b836d",
+      "source_message_index": 249,
+      "source_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "source_official_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "verified_actual_asset_id": "C3-ITM-002",
+      "generated_subject_title": "Temple Key Animation Sprite Sheet",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": true,
+      "review_result": "selected unlit base subset"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/source_images/C3-ITM-002_archive_image-067-e35d51de.png",
+      "sha256": "f47894ac4ced6875b80a1dbb0130d40a79ec1d3b0307e4c8f8f1ab0e90945caa",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-067-e35d51de.png",
+      "source_message_id": "119e8c96-792a-4cc4-ba96-d3e84c9d580b",
+      "source_message_index": 251,
+      "source_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "source_official_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "verified_actual_asset_id": "C3-ITM-002",
+      "generated_subject_title": "Temple Key: Base and Glowing Animation Frames",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": true,
+      "review_result": "RGB checkerboard; no invented alpha export"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-007/source_images/C3-ITM-007_archive_image-068-cbe9d6be.png",
+      "sha256": "5478603ae13006e162688eeaf82278883b47c39482bcc272646aa5d151856c4a",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-068-cbe9d6be.png",
+      "source_message_id": "12fc47ea-3aed-4e0b-91a5-2ef322722874",
+      "source_message_index": 259,
+      "source_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "source_official_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "verified_actual_asset_id": "C3-ITM-007",
+      "generated_subject_title": "Lore Tablet Activation Sprite Sheet",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": false,
+      "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-007/source_images/C3-ITM-007_archive_image-069-e7c63438.png",
+      "sha256": "6af3852919375c4977378f8e88ca7a41b821fe19dd5628a82deb2861c8fa029f",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-069-e7c63438.png",
+      "source_message_id": "f3dba64e-f808-4b18-a8ba-3f165e5f4d2b",
+      "source_message_index": 263,
+      "source_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "source_official_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "verified_actual_asset_id": "C3-ITM-007",
+      "generated_subject_title": "Lore Tablet Rune Reveal Sprite Sheet",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": false,
+      "review_result": "selected unlit base subset"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-007/source_images/C3-ITM-007_archive_image-070-ae20bb8d.png",
+      "sha256": "cb39738d7a03f39073be8cb1fc6a0708daaf6849a636af6ca805f1eafcefed35",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-070-ae20bb8d.png",
+      "source_message_id": "c9b173f1-e0e3-4b7d-8e56-d13b5b33da18",
+      "source_message_index": 255,
+      "source_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "source_official_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "verified_actual_asset_id": "C3-ITM-007",
+      "generated_subject_title": "Lore Tablet Animation Reference Sheet",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": false,
+      "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-008/source_images/C3-ITM-008_archive_image-071-fc764239.png",
+      "sha256": "ab8d0c906ef6b3e2fb7d39da552209b92ce0d3a42b7aecb9f6ab47835df50609",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-071-fc764239.png",
+      "source_message_id": "37d2c3c5-f4e1-458f-bbd9-daa9bea3154c",
+      "source_message_index": 271,
+      "source_requested_ids": [
+        "C3-ITM-008"
+      ],
+      "source_official_requested_ids": [
+        "C3-ITM-008"
+      ],
+      "verified_actual_asset_id": "C3-ITM-008",
+      "generated_subject_title": "Glowing Relic Shard Animation Sheet",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": false,
+      "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-008/source_images/C3-ITM-008_archive_image-072-7c2cec4a.png",
+      "sha256": "246c88bab0f938e8e70b88c937fc9a44f131500a9f58314d59d2792b612df29f",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-072-7c2cec4a.png",
+      "source_message_id": "3d93b41e-766d-4abc-b772-8475418bf0d3",
+      "source_message_index": 267,
+      "source_requested_ids": [
+        "C3-ITM-008"
+      ],
+      "source_official_requested_ids": [
+        "C3-ITM-008"
+      ],
+      "verified_actual_asset_id": "C3-ITM-008",
+      "generated_subject_title": "Relic Shard Idle Animation Sheet",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": false,
+      "review_result": "selected unlit base subset"
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-008/source_images/C3-ITM-008_archive_image-073-e256f7de.png",
+      "sha256": "7326ac46e3c51bb6241757ae770dbbf7bd5359cf64ac4a2363983b87be895c36",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-073-e256f7de.png",
+      "source_message_id": "6286dd4b-5725-48c7-a148-9881f2927292",
+      "source_message_index": 275,
+      "source_requested_ids": [
+        "C3-ITM-008"
+      ],
+      "source_official_requested_ids": [
+        "C3-ITM-008"
+      ],
+      "verified_actual_asset_id": "C3-ITM-008",
+      "generated_subject_title": "Relic Shard Pickup Animation Sheet",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "provenance": "unchanged original bytes supplied in user ZIP",
+      "requested_vs_actual_mismatch": false,
+      "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+    }
+  ],
+  "technical_qa": {
+    "native_scene_validation": "docs/chapter03/collectible-asset-preparation-validation.json",
+    "light_render_proof": "docs/chapter03/collectible-asset-preparation-light-proof.json",
+    "status": "passed",
+    "source_files_verified": 24,
+    "body_frames_verified": 20,
+    "production_approved": false,
+    "native_travel_loops_verified": 4,
+    "validation_sha256": "1175aa41d539562f11d42331e3dd12b6a91423c787d3c1d982c6f5224294cc8b"
+  }
+}

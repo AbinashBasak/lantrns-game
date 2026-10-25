@@ -2,6 +2,12 @@
 
 Date: 2026-10-25. Chapter title: **The Sunken Temple**.
 
+## Current organized source workspace — 2026-10-25
+
+The continuation ZIP has now been ingested and processed. [Current per-asset index](organized-asset-index.md) and [native editor entry points](editor-asset-workflow.md) supersede the older source-availability snapshot below. The workspace includes 59 environment candidates, 40 enemy diagnostic clips with 191 isolated poses, four unlit collectible families with 20 poses, separate native lights/VFX, and two supplied-depth/bitmap CanvasTexture demonstrations. Originals and failed attempts remain preserved. Missing or partial source families and final section approval are explicit; this organization does not make the empty chapter scaffolds playable levels.
+
+The subsequent pending-work pass adds 74 native enemy transition routes, three reusable material/projectile prefabs, eight high-resolution terrain variants with a 60-cell native TileMapLayer/collision review, and four matching existing audio prototypes with native players. Technical validation and remaining source/approval gates are recorded in [the pending completion record](pending-completion.md).
+
 ## Supplied-image correction — 2026-10-25
 
 The user subsequently supplied 34 local originals. All are now cataloged: 32 new unique images and two exact duplicates. This adds three scale boards, the supplemental atlas, mixed player action sources, a transparent blue-haired run strip, Mite variants and chest state sheets. The earlier 55-image recovery shortfall describes the previous run, not the current supplied-file inventory. See [the complete attachment review](supplied-image-review.md) and [all 34 file records](supplied-image-review.json). Mixed player action coverage is now confirmed as source material; clean transparent exports remain pending. All four early missing references are supplied. Across both runs, 57 of 80 image records now have local originals (32 source correspondences are strong probable matches, explicitly labeled).

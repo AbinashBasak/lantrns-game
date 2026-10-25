@@ -1,0 +1,271 @@
+{
+  "assets": [
+    {
+      "official_id": "C3-AUD-001",
+      "source_asset_id": "AUD-AMB-004",
+      "source_path": "assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-004/exports/AUD-AMB-004_cave_drips.ogg",
+      "source_metadata": "assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-004/metadata.json",
+      "source_sha256": "47daa399bdfd06b1417defdd8a4572229f876e71448f3802839e18e6dcc99e76",
+      "runtime_path": "audio/chapter_03/ambience/C3-AUD-001_cavern_ambience.ogg",
+      "runtime_sha256": "47daa399bdfd06b1417defdd8a4572229f876e71448f3802839e18e6dcc99e76",
+      "copied_bytes_unchanged": true,
+      "native_path": "scenes/audio/chapter_03/c3_audio_cavern_ambience.tscn",
+      "native_sha256": "873f991eac397e3dc22fac0ab97aafa2f6ee82aa18e3dd58098529f19cb43edd",
+      "bus": "Ambience",
+      "loop": true,
+      "format": "ogg",
+      "volume_db": -8.0,
+      "semantic_mapping": "Existing cave drips, long reverb and low cavern air match cavern ambience.",
+      "measurements": {
+        "duration_s": 30.0,
+        "channels": 2,
+        "sample_rate": 44100,
+        "peak_dbfs": -8.59,
+        "rms_dbfs": -31.82,
+        "lufs_integrated": -28.0,
+        "clipped_samples": 0,
+        "dc_offset": -0.0,
+        "loop_seam_ratio": 0.0
+      },
+      "measurements_provenance": "Copied from original source metadata; not a new loudness/listening measurement",
+      "source_kind": "Pre-existing code-synthesized procedural prototype; no new audio generation",
+      "stage": "unchanged-byte runtime copy; native play/stop and bus routing QA passed; listening/final mix pending",
+      "production_approved": false,
+      "native_import_config": "audio/chapter_03/ambience/C3-AUD-001_cavern_ambience.ogg.import",
+      "native_import_sha256": "116f9367a01bea9e2dfa537284e31e0c8b18611928e8d2c00f9bfab6525d5f6f"
+    },
+    {
+      "official_id": "C3-AUD-005",
+      "source_asset_id": "AUD-SFX-011",
+      "source_path": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-011/exports/AUD-SFX-011_collectible_pickup.wav",
+      "source_metadata": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-011/metadata.json",
+      "source_sha256": "54498281d7ef6524fe3cf7739b94c29783e253719cc834d2c6ed573b3550fbe4",
+      "runtime_path": "audio/chapter_03/interactions/C3-AUD-005_fragment_pickup.wav",
+      "runtime_sha256": "54498281d7ef6524fe3cf7739b94c29783e253719cc834d2c6ed573b3550fbe4",
+      "copied_bytes_unchanged": true,
+      "native_path": "scenes/audio/chapter_03/c3_audio_fragment_pickup.tscn",
+      "native_sha256": "ba64a7f82ec8e8cf5dd3bdf45829d41b961c6b0859f1244956262c5f3c0e0727",
+      "bus": "Effects",
+      "loop": false,
+      "format": "wav",
+      "volume_db": -6.0,
+      "semantic_mapping": "Existing rising collectible bell arpeggio matches fragment pickup; chapter mix approval pending.",
+      "measurements": {
+        "duration_s": 0.9,
+        "channels": 1,
+        "sample_rate": 44100,
+        "peak_dbfs": -1.5,
+        "rms_dbfs": -15.09,
+        "lufs_integrated": null,
+        "clipped_samples": 0,
+        "dc_offset": -2e-06,
+        "loop_seam_ratio": null
+      },
+      "measurements_provenance": "Copied from original source metadata; not a new loudness/listening measurement",
+      "source_kind": "Pre-existing code-synthesized procedural prototype; no new audio generation",
+      "stage": "unchanged-byte runtime copy; native play/stop and bus routing QA passed; listening/final mix pending",
+      "production_approved": false,
+      "native_import_config": "audio/chapter_03/interactions/C3-AUD-005_fragment_pickup.wav.import",
+      "native_import_sha256": "e10201f0ec882e5510a32d783dac359a8a13167a62be64920fae7e83ed35df57"
+    },
+    {
+      "official_id": "C3-AUD-006",
+      "source_asset_id": "AUD-SFX-010",
+      "source_path": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-010/exports/AUD-SFX-010_chest_opening.wav",
+      "source_metadata": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-010/metadata.json",
+      "source_sha256": "f54f8e8920e7c132cae6e5d12ce988fb4c93a984301773496a5b4ccfdba872b1",
+      "runtime_path": "audio/chapter_03/interactions/C3-AUD-006_chest_open.wav",
+      "runtime_sha256": "f54f8e8920e7c132cae6e5d12ce988fb4c93a984301773496a5b4ccfdba872b1",
+      "copied_bytes_unchanged": true,
+      "native_path": "scenes/audio/chapter_03/c3_audio_chest_open.tscn",
+      "native_sha256": "3b5189bd5d37706e7f83a981618784955b4088ae170c55075e708fd2d714f3ec",
+      "bus": "Effects",
+      "loop": false,
+      "format": "wav",
+      "volume_db": -6.0,
+      "semantic_mapping": "Existing chest creak, latch click and sparkle chord match chest opening.",
+      "measurements": {
+        "duration_s": 2.4,
+        "channels": 1,
+        "sample_rate": 44100,
+        "peak_dbfs": -1.5,
+        "rms_dbfs": -17.35,
+        "lufs_integrated": -15.42,
+        "clipped_samples": 0,
+        "dc_offset": -1e-06,
+        "loop_seam_ratio": null
+      },
+      "measurements_provenance": "Copied from original source metadata; not a new loudness/listening measurement",
+      "source_kind": "Pre-existing code-synthesized procedural prototype; no new audio generation",
+      "stage": "unchanged-byte runtime copy; native play/stop and bus routing QA passed; listening/final mix pending",
+      "production_approved": false,
+      "native_import_config": "audio/chapter_03/interactions/C3-AUD-006_chest_open.wav.import",
+      "native_import_sha256": "0e63b3104ad504e889a376f30ebe078fce554e5eb5020b86a23087d580a1a082"
+    },
+    {
+      "official_id": "C3-AUD-008",
+      "source_asset_id": "AUD-SFX-014",
+      "source_path": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-014/exports/AUD-SFX-014_door_opening.wav",
+      "source_metadata": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-014/metadata.json",
+      "source_sha256": "13cf5a7ea39f676da68928e00a88a3f72c6a8f061eeef05396bb68012ec4fe36",
+      "runtime_path": "audio/chapter_03/interactions/C3-AUD-008_rune_gate_rumble.wav",
+      "runtime_sha256": "13cf5a7ea39f676da68928e00a88a3f72c6a8f061eeef05396bb68012ec4fe36",
+      "copied_bytes_unchanged": true,
+      "native_path": "scenes/audio/chapter_03/c3_audio_rune_gate_rumble.tscn",
+      "native_sha256": "2d644b860a8025e7589d97b0607b7a3200972313c549132e536b899198844d87",
+      "bus": "Effects",
+      "loop": false,
+      "format": "wav",
+      "volume_db": -6.0,
+      "semantic_mapping": "Existing heavy stone door slide/thunks match gate rumble; does not invent a separate rune layer.",
+      "measurements": {
+        "duration_s": 1.8,
+        "channels": 1,
+        "sample_rate": 44100,
+        "peak_dbfs": -1.5,
+        "rms_dbfs": -11.74,
+        "lufs_integrated": -19.42,
+        "clipped_samples": 0,
+        "dc_offset": -0.000161,
+        "loop_seam_ratio": null
+      },
+      "measurements_provenance": "Copied from original source metadata; not a new loudness/listening measurement",
+      "source_kind": "Pre-existing code-synthesized procedural prototype; no new audio generation",
+      "stage": "unchanged-byte runtime copy; native play/stop and bus routing QA passed; listening/final mix pending",
+      "production_approved": false,
+      "native_import_config": "audio/chapter_03/interactions/C3-AUD-008_rune_gate_rumble.wav.import",
+      "native_import_sha256": "14d4edc279d61ed129625084f5ae78e7fa11bdf3a970a002bfbd958e99578ace"
+    }
+  ],
+  "missing_cues": [
+    {
+      "official_id": "C3-AUD-002",
+      "reason": "Waterfall-only loop absent; wetland water includes frogs/insects and is not a substitute.",
+      "status": "absent; not generated or substituted"
+    },
+    {
+      "official_id": "C3-AUD-003",
+      "reason": "Dedicated lantern crackle absent.",
+      "status": "absent; not generated or substituted"
+    },
+    {
+      "official_id": "C3-AUD-004",
+      "reason": "Crystal hum absent.",
+      "status": "absent; not generated or substituted"
+    },
+    {
+      "official_id": "C3-AUD-007",
+      "reason": "Locked chest rejection absent; UI back is not treated as a dedicated reject cue.",
+      "status": "absent; not generated or substituted"
+    },
+    {
+      "official_id": "C3-AUD-009",
+      "reason": "Water splash absent.",
+      "status": "absent; not generated or substituted"
+    },
+    {
+      "official_id": "C3-AUD-010",
+      "reason": "No supplied underwater muffling source; native bus filter could be authored separately after routing scope is known.",
+      "status": "absent; not generated or substituted"
+    },
+    {
+      "official_id": "C3-AUD-011",
+      "reason": "Drain mechanism absent.",
+      "status": "absent; not generated or substituted"
+    },
+    {
+      "official_id": "C3-AUD-012",
+      "reason": "Dedicated switch click absent; no isolated recorded/generated mechanical switch source.",
+      "status": "absent; not generated or substituted"
+    },
+    {
+      "official_id": "C3-AUD-013",
+      "reason": "Mirror beam hum absent.",
+      "status": "absent; not generated or substituted"
+    },
+    {
+      "official_id": "C3-AUD-014",
+      "reason": "Dedicated wind-up cue absent; attack/lunge prototypes do not establish telegraph timing.",
+      "status": "absent; not generated or substituted"
+    },
+    {
+      "official_id": "C3-AUD-015",
+      "reason": "Chapter-specific enemy hit/defeat absent; forest leaf-poof is not relabeled temple defeat.",
+      "status": "absent; not generated or substituted"
+    },
+    {
+      "official_id": "C3-AUD-016",
+      "reason": "Guardian Knight-specific intro roar absent; generic boss attack roar is not intro approval.",
+      "status": "absent; not generated or substituted"
+    },
+    {
+      "official_id": "C3-AUD-017",
+      "reason": "Sunken Guardian-specific intro absent.",
+      "status": "absent; not generated or substituted"
+    },
+    {
+      "official_id": "C3-AUD-018",
+      "reason": "Boss phase change absent.",
+      "status": "absent; not generated or substituted"
+    },
+    {
+      "official_id": "C3-AUD-019",
+      "reason": "Boss core exposed absent.",
+      "status": "absent; not generated or substituted"
+    },
+    {
+      "official_id": "C3-AUD-020",
+      "reason": "Chapter completion absent; ending music is not relabeled a short chapter-completion cue.",
+      "status": "absent; not generated or substituted"
+    }
+  ],
+  "source_audit": "All34 phase09 prototype metadata entries read against bible section14. Only4 direct semantic matches selected.",
+  "approval": "No audition by ear or final sound design/mix approval; native technical preparation only.",
+  "project_audio_system_changed": false,
+  "production_approved": false,
+  "native_review_scene": "scenes/audio/chapter_03/c3_audio_review.tscn",
+  "native_review_script": "scripts/chapter_03/audio/audio_review.gd",
+  "native_bus_layout": "resources/chapter_03/audio/review_bus_layout.tres",
+  "bus_layout_policy": "Standalone review temporarily installs serialized Master/Effects/Ambience/Music layout using existing project bus names. Restores prior names/gains/layout at exit; project.godot and campaign audio code untouched.",
+  "gain_staging": "Serialized review Master -6dB; ambience node -8dB; one-shot nodes -6dB. Review headroom only; final target hardware mix is not established.",
+  "qa": {
+    "native_test": "tools/validate_c3_audio.gd",
+    "headless": "PASS",
+    "native_graphical": "PASS with clean exit",
+    "tested": [
+      "Actual Ogg boundary wrapped at30s while remaining playing",
+      "WAV one-shots loaded with looping disabled, start/stop confirmed",
+      "Effects/Ambience bus names exist and player bus assignments match",
+      "Bus gain set/get -12dB verified",
+      "Stop all and teardown restore original global bus layout, names and gains"
+    ],
+    "not_claimed": [
+      "Audition by ear",
+      "Target hardware/speaker/headphone mix approval",
+      "New integrated-LUFS or true-peak measurement",
+      "Gameplay/campaign cue triggering"
+    ],
+    "teardown_fix": "Stop all native players, release stream references before restoring bus layout; release validator scene references and allow120ms for audio thread playback release.",
+    "shutdown_verification": "PASS clean verbose headless +graphical and3 additional independent verbose headless runs; zero errors/warnings/leaked objects/resources in all5 logs.",
+    "failure_handling": "Meaningful check failure counter -> exit1;10-second watchdog -> exit1. Temporary wrongMastergain expectation fault injection exited1 cleanly without modifying native resources or sound bytes.",
+    "native_test_sha256": "4dded1b7b6f059198978b9a0387fc05d1bd6fa004a018acf7eb0f028ace7a44b"
+  },
+  "native_files": [
+    {
+      "path": "scenes/audio/chapter_03/c3_audio_review.tscn",
+      "sha256": "88c142251d9cc2e82bef3a5e57da80abb31caaacb434c5b6266de794c1e60c98"
+    },
+    {
+      "path": "scripts/chapter_03/audio/audio_review.gd",
+      "sha256": "da5b0407516869be05fcf11f989e68c0fccb06811e53e124ad04ef6a4e69e5b0"
+    },
+    {
+      "path": "resources/chapter_03/audio/review_bus_layout.tres",
+      "sha256": "62877f64c0e83d4e23f3d2b1ee652159527c382f2ee6b891ccb9f50a4907fb5e"
+    },
+    {
+      "path": "tools/validate_c3_audio.gd",
+      "sha256": "4dded1b7b6f059198978b9a0387fc05d1bd6fa004a018acf7eb0f028ace7a44b"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "assets": [
+    {
+      "official_id": "C3-PROP-008",
+      "native_path": "scenes/props/chapter_03/c3_ruined_arch_mapped.tscn",
+      "dependencies": [
+        {
+          "path": "scenes/props/chapter_03/c3_ruined_arch_mapped.tscn",
+          "sha256": "59667e8875b4812e8aaaab12505ec76d264927f2dcfbf6c7a4fe81fccbeb9ebd"
+        },
+        {
+          "path": "resources/chapter_03/lighting/C3-PROP-008_source138_canvas_texture.tres",
+          "sha256": "0c8a3df5eeffa30faff4db787c17707114849c45a19d61a245af93c4fb9156f5"
+        },
+        {
+          "path": "art/environment/chapter_03/props/c3_prop_008_broken_arch_buttress_a.png",
+          "sha256": "a36bd5568ecb163cce60c46aa627927482c5e5dd9de7a20e9bc090553d2c5e0f"
+        },
+        {
+          "path": "art/vfx/chapter_03/derived_normals/C3-PROP-008_source138_bump_normal_derived.png",
+          "sha256": "b61faa46721e072896019ac6179e4248eda8845c59da9835c1e79d19d279649d"
+        },
+        {
+          "path": "art/vfx/chapter_03/derived_normals/C3-PROP-008_source138_bitmap_registered.png",
+          "sha256": "93ac5a45d18fceb59c9756a8a3d11d5e1fb693280c54a229dc9f71c3ec01856b"
+        }
+      ],
+      "stage": "reusable editable prefab; native instantiation and graphical resource review passed",
+      "notes": "Bottom-center origin; native diffuse496x687; no collision or occluder blocks arch opening; no nonexistent emitter. Supplied grayscale depth-derived bump +bitmap CanvasTexture. Silhouette overlap .881/.908; interior feature registration remains approximate.",
+      "production_approved": false
+    },
+    {
+      "official_id": "C3-TILE-012",
+      "native_path": "scenes/props/chapter_03/c3_wall_relief_mapped.tscn",
+      "dependencies": [
+        {
+          "path": "scenes/props/chapter_03/c3_wall_relief_mapped.tscn",
+          "sha256": "c4dc3fdbdf9932bdc0649dd91ff06f81762e424bfbd865962a053eafdfcc54d1"
+        },
+        {
+          "path": "resources/chapter_03/lighting/C3-TILE-012_source142_canvas_texture.tres",
+          "sha256": "a2d5eb49bc90f6aec3ccdaffd9226d3fb7eb3e52751f5f1fd8d9e9d48d7ced89"
+        },
+        {
+          "path": "art/environment/chapter_03/tiles/c3_tile_012_temple_wall_relief.png",
+          "sha256": "83da0d46ff037d6b41fbc4c1e67c82bd4d0c25d38f8ae941ad565ae047f1737f"
+        },
+        {
+          "path": "art/vfx/chapter_03/derived_normals/C3-TILE-012_source142_bump_normal_derived.png",
+          "sha256": "e07f3d0afd0b8435646a262bdbf1cb7d3de0ca10bed9cf06e56672665da171e2"
+        },
+        {
+          "path": "art/vfx/chapter_03/derived_normals/C3-TILE-012_source142_bitmap_registered.png",
+          "sha256": "5dff004d21c25d6bacc0f4f06c5a14007767c3a1fcce5fbfd836503dd09236a7"
+        }
+      ],
+      "stage": "reusable editable prefab; native instantiation and graphical resource review passed",
+      "notes": "Bottom-center origin; native diffuse487x815. This wall relief is not a wall-collision atlas; no collision inferred. Stronger supplied map registration .962/.960.",
+      "production_approved": false
+    },
+    {
+      "official_id": "C3-ENM-PRJ-001",
+      "native_path": "scenes/vfx/chapter_03/c3_crystal_wisp_bolt.tscn",
+      "dependencies": [
+        {
+          "path": "scenes/vfx/chapter_03/c3_crystal_wisp_bolt.tscn",
+          "sha256": "84a524839f6ffaef00cebe80fd46920078a3406ebfba169d4bd1a101bc984a40"
+        },
+        {
+          "path": "art/enemies/chapter_03/c3_enm_prj_001/C3-ENM-PRJ-001_crystal_wisp_bolt_review.png",
+          "sha256": "e46d6400626cf9737ed7e1ac365a7a1a69377f155fda2439343dbf88cf21f264"
+        },
+        {
+          "path": "assets/runtime/shared/lighting/soft_radial.tres",
+          "sha256": "a0e57289909dc3542c5c4a2efc741732a0c2feb332dad86bb563d154188a5dc9"
+        }
+      ],
+      "stage": "reusable editable prefab; native instantiation and graphical resource review passed",
+      "notes": "Centered original398x221 sprite; VisualBody/Artwork separate from CoreLight and AttackArea/AttackShape. Explicit24px optional attack circle disabled; monitoring/masks off. No movement, speed, lifetime, targeting or damage invented.",
+      "production_approved": false
+    }
+  ],
+  "qa": {
+    "test": "tools/validate_c3_native_prefabs.gd",
+    "status": "PASS native prefab instantiation, CanvasTexture channels, bottom-center offsets, no inferred architecture collisions/emission; separate bolt art/light/disabled attack shape and source-following light",
+    "capture_scene": "scenes/vfx/chapter_03/c3_native_prefabs_review.tscn",
+    "capture": "docs/chapter03/native-prefab-completion.png",
+    "capture_sha256": "fbc68f2f48604c528f76c45dd266923f3fa8e3577685240e2aa4b25f96d456aa",
+    "graphical_renderer": "Godot4.7.2 mono Compatibility OpenGL/Metal Apple M3 Pro",
+    "graphical_exit": "clean log, no errors/warnings/leaks",
+    "actual_prefab_light_comparison": {
+      "flat-left": {
+        "changed_pixels": 144689,
+        "mean_absolute_channel_difference": 0.5303385416666667,
+        "ui_unchanged": true
+      },
+      "bitmap-flat": {
+        "changed_pixels": 66026,
+        "mean_absolute_channel_difference": 0.05295030381944445,
+        "ui_unchanged": true
+      },
+      "off": {
+        "changed_pixels": 140913,
+        "mean_absolute_channel_difference": 0.9755219184027778,
+        "ui_unchanged": true
+      },
+      "normal-right": {
+        "changed_pixels": 179133,
+        "mean_absolute_channel_difference": 1.8925238715277777,
+        "ui_unchanged": true
+      }
+    }
+  },
+  "lighting_budget": "Review scene: two moving PointLight2D +one projectile PointLight2D, zero shadow lights. Existing section light_budget.tscn remains available; final game manager must count actor/projectile emitters in overall visible budget.",
+  "normal_math_review": "RGB tangent unit normals derived from supplied height; nx=-dheight/dx, ny=+dheight/dRasterY (Godot Y+ upward), nz=1; normalized and encoded(n+1)/2. Pixel normals near alpha edge flattened. No supplied grayscale is directly assigned as normal_texture.",
+  "remaining_unresolved": [
+    "No exact per-pixel internal registration guarantee for generated tonal panels; final actual-section art review required.",
+    "Wall relief is a decorative prop, not the requested complete tile collision atlas.",
+    "Prefab projectile attack activation/movement/damage/lifetime remain disabled until actual enemy/gameplay integration and documented tuning.",
+    "No browser/native editor UI control is claimed; serialized native resources and real renderer validated.",
+    "Playable section layouts and chapter-wide performance remain outside prefab review."
+  ],
+  "source_preservation": "Unchanged ZIP and guide panels retained; no raw source changes or final approval/checklist changes.",
+  "production_approved": false
+}

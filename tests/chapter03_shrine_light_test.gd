@@ -4,7 +4,7 @@ func _initialize() -> void:
 	call_deferred("validate")
 
 func validate() -> void:
-	var effect = load("res://scenes/chapter_03/vfx/c3_shrine_light.tscn").instantiate()
+	var effect = load("res://scenes/vfx/chapter_03/c3_shrine_light.tscn").instantiate()
 	root.add_child(effect)
 	await process_frame
 	var animation: AnimationPlayer = effect.get_node("AnimationPlayer")

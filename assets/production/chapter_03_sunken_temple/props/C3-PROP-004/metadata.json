@@ -1,0 +1,129 @@
+{
+  "asset_id": "C3-PROP-004",
+  "title": "Wall-mounted lantern",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-004/source_images/C3-PROP-004_organized_image-141-f72525fc.png",
+      "sha256": "66796c05061998bb5f616d2f6d966d02d62922a48990a62ff96a43e106baa638",
+      "bytes": 1902687,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-141-f72525fc.png",
+      "source_message_id": "b4e2d6bb-e197-42dc-b763-bc6f0acb7031",
+      "source_requested_ids": [
+        "C3-BG-011-016"
+      ],
+      "generated_subject_title": "Ancient Lantern Asset Reference Sheet",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-PROP-004",
+          "source_index": 141,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-141-f72525fc.png",
+          "source_sha256": "66796c05061998bb5f616d2f6d966d02d62922a48990a62ff96a43e106baa638",
+          "source_message_id": "b4e2d6bb-e197-42dc-b763-bc6f0acb7031",
+          "requested_ids": [
+            "C3-BG-011-016"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            31,
+            45,
+            504,
+            872
+          ],
+          "export": "art/environment/chapter_03/props/c3_prop_004_wall_mounted_lantern_unlit.png",
+          "export_sha256": "3bc0cff5730984a2b3ceab10783fec0c2f3307ec33b92ef90133da14cad80659",
+          "dimensions": [
+            473,
+            827
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            473,
+            827
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 184825,
+          "nonopaque_pixel_count": 184825,
+          "opaque_pixel_count": 206346,
+          "pivot": [
+            236.5,
+            827
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_004_141_depth_reference.png",
+              "sha256": "312ec2cb6b0efeaee52120e0a098301fe7d5d44f6ed9d79e00991d0ec119e171",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_004_141_mask_reference.png",
+              "sha256": "346c90c3232d3a70b5b178b9c78bc338e1cafc723177ffe8c26232fab0c5debe",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_prop_004_wall_mounted_lantern_unlit.png"
+        ]
+      }
+    ],
+    "exports": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-004/exports/organized_v1/C3-PROP-004_00_c3_prop_004_wall_mounted_lantern_unlit.png",
+        "sha256": "3bc0cff5730984a2b3ceab10783fec0c2f3307ec33b92ef90133da14cad80659",
+        "bytes": 786063,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_prop_004_wall_mounted_lantern_unlit.png",
+        "kind": "environment"
+      }
+    ],
+    "native_resources": [],
+    "missing_or_blocked": [],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

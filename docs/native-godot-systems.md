@@ -17,7 +17,7 @@ Open `scenes/enemies/thornling.tscn` or `scenes/enemies/hollow_sentinel.tscn`, s
 
 Open `scenes/chapter_03/review/c3_native_systems_review.tscn` and press **F6**. Use **Preview opening** to see the chest's AnimationTree transition, keyed native mouth light and gold burst. The side emitters demonstrate lantern sparks, crystal motes and waterfall mist.
 
-Editable reusable scenes live in `scenes/chapter_03/lighting/` and `scenes/chapter_03/vfx/`. CPU particles work with this project's Compatibility renderer. Lights, occluders, particles, gradients and flicker clips are saved as native Godot nodes/resources.
+Editable reusable scenes live in `scenes/props/chapter_03/` and `scenes/vfx/chapter_03/`. CPU particles work with this project's Compatibility renderer. Lights, occluders, particles, gradients and flicker clips are saved as native Godot nodes/resources.
 
 The eight Chapter 3 section scenes are still empty layout scaffolds. This systems review does not complete the locked level, approve the reference artwork, or replace missing standalone terrain and background exports. Place the reusable rigs at actual source props when those sections are authored.
 

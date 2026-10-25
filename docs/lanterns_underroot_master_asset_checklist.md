@@ -1641,7 +1641,7 @@ The new Chapter 3 bible and locked map are recorded separately from the older Gl
 - [ ] C3-ENM-004 — Drowned Sentinel
   - Saved folder: [C3-ENM-004](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-004)
   - Record: [metadata.json](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-004/metadata.json)
-  - Stage: originals recovered; cleanup and in-engine approval pending. Death sheet absent. Shield/weapon continuity and core/VFX separation need review.
+  - Stage: originals recovered; cleanup and in-engine approval pending. Continuation death-request and other source attempts archived; correctness, shield/weapon continuity and core/VFX separation need review.
 
 - [ ] C3-REF-002 — Player scale reference boards
   - Saved folder: [C3-REF-002](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/references/C3-REF-002)
@@ -1651,3 +1651,107 @@ The new Chapter 3 bible and locked map are recorded separately from the older Gl
 ## Chapter 3 supplied originals — 2026-10-25
 
 All 34 user attachments were checked and preserved (32 new unique originals, two exact duplicates). New material includes the mixed blue-haired action source, a transparent run strip, three scale boards, an additional chapter atlas and Mite/chest variants. Reference sheets do not imply finished transparent exports, approved animation families, standalone terrain or final gameplay integration. [Complete review](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/supplied-image-review.md) · [Every file and hash](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/supplied-image-review.json).
+
+<!-- continuation-zip-6add021c:start -->
+## Chapter 3 continuation ZIP — 2026-10-25
+
+All 156 original PNGs and conversation/files from the supplied `1.zip` are preserved. 153 images map exactly to source message file keys; three remain unassociated. Nine user attachment references have no included file (six explicit HTTP 403 errors). C3-ENM-004 continuation attempts are saved in its registered source folder; other attempts remain indexed in the complete source archive pending asset association and visual review. Wrong/repeated outputs are retained as attempts, not completed deliverables. Existing checkboxes and production approvals remain unchanged.
+
+[Intake report](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/continuation-zip-intake.md) · [Archive provenance](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/metadata.json) · [Sentinel metadata](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-004/metadata.json)
+<!-- continuation-zip-6add021c:end -->
+
+<!-- c3-organized-v1:start -->
+## Chapter 3 organized available assets — 2026-10-25
+
+[52 registered asset records, exports and native resources](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/organized-asset-index.md). Animation graphs use Godot AnimationPlayer/AnimationTree; light/material reviews use native PointLight2D and supplied depth/bitmap-derived materials. Earlier sources and generations are preserved. Technical review does not mark missing source actions, art cleanup or final campaign approval complete.
+
+- [ ] C3-AUD-001 — Cavern ambience
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/audio/C3-AUD-001/metadata.json)
+- [ ] C3-AUD-005 — Fragment pickup
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/audio/C3-AUD-005/metadata.json)
+- [ ] C3-AUD-006 — Chest open
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/audio/C3-AUD-006/metadata.json)
+- [ ] C3-AUD-008 — Rune gate rumble
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/audio/C3-AUD-008/metadata.json)
+- [ ] C3-TILE-001 — Mossy stone platform top
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-001/metadata.json)
+- [ ] C3-TILE-002 — Stone platform middle
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-002/metadata.json)
+- [ ] C3-TILE-003 — Stone platform underside
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-003/metadata.json)
+- [ ] C3-BG-002 — Distant submerged ruins
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/backgrounds/C3-BG-002/metadata.json)
+- [ ] C3-BG-003 — Distant waterfall layer
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/backgrounds/C3-BG-003/metadata.json)
+- [ ] C3-BG-004 — Crystal cavern silhouettes
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/backgrounds/C3-BG-004/metadata.json)
+- [ ] C3-BG-011 — Water caustics texture
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/backgrounds/C3-BG-011/metadata.json)
+- [ ] C3-DEC-003 — Hanging vines long
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/foliage/C3-DEC-003/metadata.json)
+- [ ] C3-DEC-008 — Small rock clusters
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/foliage/C3-DEC-008/metadata.json)
+- [ ] C3-ENM-005 — Temple Eel
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-005/metadata.json)
+- [ ] C3-ENM-006 — Shrine Warden
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-006/metadata.json)
+- [ ] C3-ENM-007 — Guardian Knight mini-boss
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-007/metadata.json)
+- [ ] C3-ENM-008 — Sunken Guardian boss
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-008/metadata.json)
+- [ ] C3-ENM-PRJ-001 — Crystal Wisp bolt
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-PRJ-001/metadata.json)
+- [ ] C3-ITM-001 — Golden Fragment
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-001/metadata.json)
+- [ ] C3-ITM-002 — Temple Key
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/metadata.json)
+- [ ] C3-ITM-003 — Drainage Sigil
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-003/metadata.json)
+- [ ] C3-ITM-004 — Guardian Key
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-004/metadata.json)
+- [ ] C3-ITM-005 — Sunken Seal
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-005/metadata.json)
+- [ ] C3-ITM-006 — Health pickup
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-006/metadata.json)
+- [ ] C3-ITM-007 — Lore tablet
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-007/metadata.json)
+- [ ] C3-ITM-008 — Relic shard
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-008/metadata.json)
+- [ ] C3-PROP-004 — Wall-mounted lantern
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-004/metadata.json)
+- [ ] C3-PROP-007 — Ancient stone pillar
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-007/metadata.json)
+- [ ] C3-PROP-008 — Broken pillar set / broken architecture candidates
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-008/metadata.json)
+- [ ] C3-PROP-009 — Temple arch
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-009/metadata.json)
+- [ ] C3-PROP-013 — Temple statue
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-013/metadata.json)
+- [ ] C3-PROP-023 — Mirror pedestal candidate
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-023/metadata.json)
+- [ ] C3-PROP-027 — Floating stone platform candidate
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-027/metadata.json)
+- [ ] C3-TILE-007 — Ancient temple floor candidate
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-007/metadata.json)
+- [ ] C3-TILE-008 — Bridge plank reference
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-008/metadata.json)
+- [ ] C3-TILE-011 — Stone stairs segment
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-011/metadata.json)
+- [ ] C3-TILE-012 — Wall collision tile atlas candidate
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-012/metadata.json)
+- [ ] C3-TILE-020 — Waterfall collision-free visual strip
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-020/metadata.json)
+- [ ] C3-VFX-002 — Lantern sparks
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/vfx/C3-VFX-002/metadata.json)
+- [ ] C3-VFX-003 — Crystal pulse / motes resource
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/vfx/C3-VFX-003/metadata.json)
+- [ ] C3-VFX-005 — Golden Fragment pickup effect
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/vfx/C3-VFX-005/metadata.json)
+- [ ] C3-VFX-008 — Water splash
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/vfx/C3-VFX-008/metadata.json)
+- [ ] C3-VFX-009 — Underwater bubbles
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/vfx/C3-VFX-009/metadata.json)
+- [ ] C3-VFX-010 — Waterfall mist
+  - [Saved metadata and stage](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/vfx/C3-VFX-010/metadata.json)
+
+<!-- c3-organized-v1:end -->

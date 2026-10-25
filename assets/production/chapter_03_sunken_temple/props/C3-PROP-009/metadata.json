@@ -1,0 +1,981 @@
+{
+  "asset_id": "C3-PROP-009",
+  "title": "Temple arch",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-009/source_images/C3-PROP-009_organized_image-115-e1f4f7f7.png",
+      "sha256": "cc99f384e6a16b8c3d69dc7d3211c1c44c7f3ba177a5b7ded33ea9f73545c2d2",
+      "bytes": 2096786,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-115-e1f4f7f7.png",
+      "source_message_id": "b1cc0909-ed77-473e-8043-1b8d1d3af585",
+      "source_requested_ids": [],
+      "generated_subject_title": "Fantasy Ruin Archway Asset Triptych",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-009/source_images/C3-PROP-009_organized_image-116-294d5859.png",
+      "sha256": "4b69afcd3b0faa191bc2636902b1a11c60ba0c42e8cddbaa04aaf61bbf28a44d",
+      "bytes": 2073404,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-116-294d5859.png",
+      "source_message_id": "e2b0ca76-a836-49e7-bb54-d283808c1720",
+      "source_requested_ids": [],
+      "generated_subject_title": "Fantasy Archway Material Reference Sheet",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-009/source_images/C3-PROP-009_organized_image-122-f5ac0960.png",
+      "sha256": "626283eb2f6faf9b289b4acebd0f662201d536f15e52be00c0c191e0868ab4e5",
+      "bytes": 1937959,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-122-f5ac0960.png",
+      "source_message_id": "8cc136f4-aad8-4f73-a75a-5c4194710a91",
+      "source_requested_ids": [
+        "C3-BG-011-004"
+      ],
+      "generated_subject_title": "Fantasy Portal Asset Map Triptych",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-009/source_images/C3-PROP-009_organized_image-123-90eca4c4.png",
+      "sha256": "8d84e3179c2cc3beb655bc2af5fdb6daac3dffc53e08af4f351a5a4585309d9a",
+      "bytes": 1910493,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-123-90eca4c4.png",
+      "source_message_id": "7fc873e7-48fc-43de-bc44-e8300faec12b",
+      "source_requested_ids": [],
+      "generated_subject_title": "Fantasy Ruined Archway Asset Triptych",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-009/source_images/C3-PROP-009_organized_image-124-bbd7e76f.png",
+      "sha256": "b439918d1874bc4784fd2acee8379179764aa8d287fa1fa49bf7faa6e44ec1b1",
+      "bytes": 2004800,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-124-bbd7e76f.png",
+      "source_message_id": "45cf2aa5-1821-4089-a395-2b16d22de61f",
+      "source_requested_ids": [
+        "C3-BG-011-005"
+      ],
+      "generated_subject_title": "Fantasy Archway Render Passes",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-009/source_images/C3-PROP-009_organized_image-125-0b642212.png",
+      "sha256": "4acbaf42b1d6bbc84d214c03468ee104f8137fc86eeefa33adfc68928974c8b0",
+      "bytes": 2317577,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-125-0b642212.png",
+      "source_message_id": "7fe92eed-fd99-459e-a237-858b63a11918",
+      "source_requested_ids": [
+        "C3-BG-011-005"
+      ],
+      "generated_subject_title": "Fantasy Ruined Archway Asset Triptych",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-009/source_images/C3-PROP-009_organized_image-126-0f23bfa1.png",
+      "sha256": "bbd6916cd6e25cda5c469f5414fc55e4987f27d49ab295bef1eb1c32439c3038",
+      "bytes": 2474510,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-126-0f23bfa1.png",
+      "source_message_id": "c06158d9-8fa2-4d4a-9196-251718b9a95c",
+      "source_requested_ids": [],
+      "generated_subject_title": "Ornate Overgrown Fantasy Stone Archway",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-009/source_images/C3-PROP-009_organized_image-127-1c76cdf5.png",
+      "sha256": "86bc81a0d5e3028554f6e01cb017858fe4a8f5bd64295e2ee091fb43a4ba19f4",
+      "bytes": 2442841,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-127-1c76cdf5.png",
+      "source_message_id": "b32a079a-6de7-46a2-95c7-0a2a1c21037e",
+      "source_requested_ids": [
+        "C3-BG-011-005"
+      ],
+      "generated_subject_title": "Fantasy Archway Asset Triptych",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-009/source_images/C3-PROP-009_organized_image-147-e138fa5c.png",
+      "sha256": "36762d9baa7c354bc149f585675394217a028ce32d748cab0c7b4a077e2c58d5",
+      "bytes": 1879026,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-147-e138fa5c.png",
+      "source_message_id": "80208e95-0841-407a-98d9-5f64994b288b",
+      "source_requested_ids": [
+        "C3-BG-011-022"
+      ],
+      "generated_subject_title": "Ornate Ruins Arch Asset Sheet",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-PROP-009",
+          "source_index": 115,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-115-e1f4f7f7.png",
+          "source_sha256": "cc99f384e6a16b8c3d69dc7d3211c1c44c7f3ba177a5b7ded33ea9f73545c2d2",
+          "source_message_id": "b1cc0909-ed77-473e-8043-1b8d1d3af585",
+          "requested_ids": [],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            7,
+            24,
+            510,
+            880
+          ],
+          "export": "art/environment/chapter_03/props/c3_prop_009_temple_arch_ruined_a.png",
+          "export_sha256": "c860114795664375f4b35bf9529c9d8799b164599e7529fdccfcd3c7b7771dc4",
+          "dimensions": [
+            503,
+            856
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            503,
+            856
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 176594,
+          "nonopaque_pixel_count": 176594,
+          "opaque_pixel_count": 253974,
+          "pivot": [
+            251.5,
+            856
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Visible content touches a source crop boundary; inspect source for clipping before use."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_115_depth_reference.png",
+              "sha256": "b80f89f4ba9f56559485a4b72ad34b571a145071ad3cebf23c876003920294b6",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_115_mask_reference.png",
+              "sha256": "3ab2858b5cb1feedc449e3b3f2ee00d66d619b070b05b2185a56dc67870284da",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_prop_009_temple_arch_ruined_a.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-PROP-009",
+          "source_index": 116,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-116-294d5859.png",
+          "source_sha256": "4b69afcd3b0faa191bc2636902b1a11c60ba0c42e8cddbaa04aaf61bbf28a44d",
+          "source_message_id": "e2b0ca76-a836-49e7-bb54-d283808c1720",
+          "requested_ids": [],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            5,
+            22,
+            510,
+            856
+          ],
+          "export": "art/environment/chapter_03/props/c3_prop_009_temple_arch_ruined_b.png",
+          "export_sha256": "04f687fc04416ed4b180809a8050fe7bdb1db8f70a605d4c72366b2030149abb",
+          "dimensions": [
+            505,
+            834
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            505,
+            834
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 178007,
+          "nonopaque_pixel_count": 178007,
+          "opaque_pixel_count": 243163,
+          "pivot": [
+            252.5,
+            834
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Visible content touches a source crop boundary; inspect source for clipping before use."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_116_depth_reference.png",
+              "sha256": "d44d0c5502b798fc0f3e5840b6cffffa5a2b87e2800e098e3406e598f8479b82",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_116_mask_reference.png",
+              "sha256": "06bb4ada87f4b8f2cd890bfc459c10577d4143416919664a0e1b3419a8811cff",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_prop_009_temple_arch_ruined_b.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-PROP-009",
+          "source_index": 122,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-122-f5ac0960.png",
+          "source_sha256": "626283eb2f6faf9b289b4acebd0f662201d536f15e52be00c0c191e0868ab4e5",
+          "source_message_id": "8cc136f4-aad8-4f73-a75a-5c4194710a91",
+          "requested_ids": [
+            "C3-BG-011-004"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            18,
+            101,
+            510,
+            864
+          ],
+          "export": "art/environment/chapter_03/props/c3_prop_009_temple_arch_ornate_a.png",
+          "export_sha256": "e286e9909de2dced9470c80e2c0e34cae0b822174cb6a44df7a6211fe013c387",
+          "dimensions": [
+            492,
+            763
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            492,
+            763
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 150109,
+          "nonopaque_pixel_count": 150109,
+          "opaque_pixel_count": 225287,
+          "pivot": [
+            246.0,
+            763
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Visible content touches a source crop boundary; inspect source for clipping before use."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_122_depth_reference.png",
+              "sha256": "c0a8ad4c0d037ec1e65e71454375c56ea92cc0536f1a4a9232bcf304ffc74b03",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_122_mask_reference.png",
+              "sha256": "3faeaa71fb8ea3f797d280732450e40e1072ff6f96f62eec4934742074aa90f6",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_prop_009_temple_arch_ornate_a.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-PROP-009",
+          "source_index": 123,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-123-90eca4c4.png",
+          "source_sha256": "8d84e3179c2cc3beb655bc2af5fdb6daac3dffc53e08af4f351a5a4585309d9a",
+          "source_message_id": "7fc873e7-48fc-43de-bc44-e8300faec12b",
+          "requested_ids": [],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            9,
+            96,
+            505,
+            876
+          ],
+          "export": "art/environment/chapter_03/props/c3_prop_009_temple_arch_ruined_c.png",
+          "export_sha256": "a2855c7df41af994db41547bb91c0c945a9e64a2b80577ee579fbc57fa097abf",
+          "dimensions": [
+            496,
+            780
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            496,
+            780
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 165175,
+          "nonopaque_pixel_count": 165175,
+          "opaque_pixel_count": 221705,
+          "pivot": [
+            248.0,
+            780
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_123_depth_reference.png",
+              "sha256": "7d7dd97def72f886faa1964430616c561ad4ce95ea376d846fba99c42b69816f",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_123_mask_reference.png",
+              "sha256": "ef18c66eb20d692798de25ebe437f6e8bd530f949d27837455e83d0ae0ab7709",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_prop_009_temple_arch_ruined_c.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-PROP-009",
+          "source_index": 124,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-124-bbd7e76f.png",
+          "source_sha256": "b439918d1874bc4784fd2acee8379179764aa8d287fa1fa49bf7faa6e44ec1b1",
+          "source_message_id": "45cf2aa5-1821-4089-a395-2b16d22de61f",
+          "requested_ids": [
+            "C3-BG-011-005"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            8,
+            71,
+            508,
+            867
+          ],
+          "export": "art/environment/chapter_03/props/c3_prop_009_temple_arch_ornate_b.png",
+          "export_sha256": "14f519580093bb560db9f1aef9376c7a3f7688ffebbd353350e4b6068dfd8c6c",
+          "dimensions": [
+            500,
+            796
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            500,
+            796
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 151123,
+          "nonopaque_pixel_count": 151123,
+          "opaque_pixel_count": 246877,
+          "pivot": [
+            250.0,
+            796
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_124_depth_reference.png",
+              "sha256": "58d6b2709c6535f138b695d403bbfd653d8d7687f2320825c5896501fc0f2520",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_124_mask_reference.png",
+              "sha256": "cbeb6e658a0831aad660ac747bae9e23b7e8f106d41d05099de09f65ee61a896",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_prop_009_temple_arch_ornate_b.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-PROP-009",
+          "source_index": 125,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-125-0b642212.png",
+          "source_sha256": "4acbaf42b1d6bbc84d214c03468ee104f8137fc86eeefa33adfc68928974c8b0",
+          "source_message_id": "7fe92eed-fd99-459e-a237-858b63a11918",
+          "requested_ids": [
+            "C3-BG-011-005"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            10,
+            19,
+            500,
+            870
+          ],
+          "export": "art/environment/chapter_03/props/c3_prop_009_temple_arch_ornate_c.png",
+          "export_sha256": "41ed3cc979c5986ca78c1d9a7ccd67679f6ddc4408ebca12f18d7a67f855c873",
+          "dimensions": [
+            490,
+            851
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            490,
+            851
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 179743,
+          "nonopaque_pixel_count": 179743,
+          "opaque_pixel_count": 237247,
+          "pivot": [
+            245.0,
+            851
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_125_depth_reference.png",
+              "sha256": "cdf701abc767f54ffa8fa131f1c1a778dc765b5b3b5d206536c5ee01814b3003",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_125_mask_reference.png",
+              "sha256": "6ece40d97211fcfcedc5c7a0ff69cb562270c15b05648c3ff906fc3134375b65",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_prop_009_temple_arch_ornate_c.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-PROP-009",
+          "source_index": 126,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-126-0f23bfa1.png",
+          "source_sha256": "bbd6916cd6e25cda5c469f5414fc55e4987f27d49ab295bef1eb1c32439c3038",
+          "source_message_id": "c06158d9-8fa2-4d4a-9196-251718b9a95c",
+          "requested_ids": [],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "content_trim": [
+            42,
+            6,
+            1506,
+            999
+          ],
+          "export": "art/environment/chapter_03/props/c3_prop_009_temple_arch_ornate_large.png",
+          "export_sha256": "822d4647cda68aa91f773a88311fe0a843538d48898d49777562413a8bb9c96d",
+          "dimensions": [
+            1464,
+            993
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            1464,
+            993
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 736773,
+          "nonopaque_pixel_count": 736773,
+          "opaque_pixel_count": 716979,
+          "pivot": [
+            732.0,
+            993
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_prop_009_temple_arch_ornate_large.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-PROP-009",
+          "source_index": 127,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-127-1c76cdf5.png",
+          "source_sha256": "86bc81a0d5e3028554f6e01cb017858fe4a8f5bd64295e2ee091fb43a4ba19f4",
+          "source_message_id": "b32a079a-6de7-46a2-95c7-0a2a1c21037e",
+          "requested_ids": [
+            "C3-BG-011-005"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            15,
+            38,
+            510,
+            858
+          ],
+          "export": "art/environment/chapter_03/props/c3_prop_009_temple_arch_ornate_d.png",
+          "export_sha256": "24cf17b19bdecfd7894d04dd22ed1bf11642fd8bc860e91c3612f1df0ea2edf6",
+          "dimensions": [
+            495,
+            820
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            495,
+            820
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 158984,
+          "nonopaque_pixel_count": 405900,
+          "opaque_pixel_count": 0,
+          "pivot": [
+            247.5,
+            820
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Visible content touches a source crop boundary; inspect source for clipping before use."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_127_depth_reference.png",
+              "sha256": "08a1bcde7eee5004d91bf70dc2fb632beb48195ee112b1eedc3ec054f6b610d6",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_127_mask_reference.png",
+              "sha256": "ddd1fa8e3f9cdaec0c30748029fa0a92ec56278fa1139293409c69e9e139d0be",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_prop_009_temple_arch_ornate_d.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-PROP-009",
+          "source_index": 147,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-147-e138fa5c.png",
+          "source_sha256": "36762d9baa7c354bc149f585675394217a028ce32d748cab0c7b4a077e2c58d5",
+          "source_message_id": "80208e95-0841-407a-98d9-5f64994b288b",
+          "requested_ids": [
+            "C3-BG-011-022"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            8,
+            9,
+            509,
+            814
+          ],
+          "export": "art/environment/chapter_03/props/c3_prop_009_temple_arch_lintel.png",
+          "export_sha256": "91a314e39470fcdd5f43af251f010dea33e71fc178ca8f1150627f9a21347175",
+          "dimensions": [
+            501,
+            805
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            501,
+            805
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 231744,
+          "nonopaque_pixel_count": 231744,
+          "opaque_pixel_count": 171561,
+          "pivot": [
+            250.5,
+            805
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_147_depth_reference.png",
+              "sha256": "62e69a56d058dcaa8acca16d683d4a7c4696349367b663a031e2ba65a812c619",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_147_mask_reference.png",
+              "sha256": "a5a58f3e000d657ae5115c477a3b555076baf9e2b336b90bbe331294922d6a9a",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_prop_009_temple_arch_lintel.png"
+        ]
+      }
+    ],
+    "exports": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-009/exports/organized_v1/C3-PROP-009_00_c3_prop_009_temple_arch_ruined_a.png",
+        "sha256": "c860114795664375f4b35bf9529c9d8799b164599e7529fdccfcd3c7b7771dc4",
+        "bytes": 910471,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_prop_009_temple_arch_ruined_a.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-009/exports/organized_v1/C3-PROP-009_01_c3_prop_009_temple_arch_ruined_b.png",
+        "sha256": "04f687fc04416ed4b180809a8050fe7bdb1db8f70a605d4c72366b2030149abb",
+        "bytes": 900678,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_prop_009_temple_arch_ruined_b.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-009/exports/organized_v1/C3-PROP-009_02_c3_prop_009_temple_arch_ornate_a.png",
+        "sha256": "e286e9909de2dced9470c80e2c0e34cae0b822174cb6a44df7a6211fe013c387",
+        "bytes": 815329,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_prop_009_temple_arch_ornate_a.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-009/exports/organized_v1/C3-PROP-009_03_c3_prop_009_temple_arch_ruined_c.png",
+        "sha256": "a2855c7df41af994db41547bb91c0c945a9e64a2b80577ee579fbc57fa097abf",
+        "bytes": 818091,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_prop_009_temple_arch_ruined_c.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-009/exports/organized_v1/C3-PROP-009_04_c3_prop_009_temple_arch_ornate_b.png",
+        "sha256": "14f519580093bb560db9f1aef9376c7a3f7688ffebbd353350e4b6068dfd8c6c",
+        "bytes": 856406,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_prop_009_temple_arch_ornate_b.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-009/exports/organized_v1/C3-PROP-009_05_c3_prop_009_temple_arch_ornate_c.png",
+        "sha256": "41ed3cc979c5986ca78c1d9a7ccd67679f6ddc4408ebca12f18d7a67f855c873",
+        "bytes": 873920,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_prop_009_temple_arch_ornate_c.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-009/exports/organized_v1/C3-PROP-009_06_c3_prop_009_temple_arch_ornate_large.png",
+        "sha256": "822d4647cda68aa91f773a88311fe0a843538d48898d49777562413a8bb9c96d",
+        "bytes": 2630525,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_prop_009_temple_arch_ornate_large.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-009/exports/organized_v1/C3-PROP-009_07_c3_prop_009_temple_arch_ornate_d.png",
+        "sha256": "24cf17b19bdecfd7894d04dd22ed1bf11642fd8bc860e91c3612f1df0ea2edf6",
+        "bytes": 852980,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_prop_009_temple_arch_ornate_d.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-009/exports/organized_v1/C3-PROP-009_08_c3_prop_009_temple_arch_lintel.png",
+        "sha256": "91a314e39470fcdd5f43af251f010dea33e71fc178ca8f1150627f9a21347175",
+        "bytes": 769042,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_prop_009_temple_arch_lintel.png",
+        "kind": "environment"
+      }
+    ],
+    "native_resources": [],
+    "missing_or_blocked": [],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

@@ -1,6 +1,6 @@
 [gd_scene load_steps=26 format=3]
 
-[ext_resource type="Texture2D" path="res://art/export/chapter_03/review/C3-CHEST-ASSET-001_opening_review_source.png" id="1_sheet"]
+[ext_resource type="Texture2D" path="res://art/environment/chapter_03/chests/review/C3-CHEST-ASSET-001_opening_review_source.png" id="1_sheet"]
 [ext_resource type="Script" path="res://scripts/chapter_03/review/chest_animation_review.gd" id="2_script"]
 [ext_resource type="Texture2D" path="res://assets/runtime/shared/lighting/soft_radial.tres" id="3_light"]
 

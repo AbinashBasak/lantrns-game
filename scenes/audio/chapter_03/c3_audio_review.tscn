@@ -1,0 +1,60 @@
+[gd_scene load_steps=6 format=3]
+[ext_resource type="Script" path="res://scripts/chapter_03/audio/audio_review.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/audio/chapter_03/c3_audio_cavern_ambience.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/audio/chapter_03/c3_audio_fragment_pickup.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/audio/chapter_03/c3_audio_chest_open.tscn" id="4"]
+[ext_resource type="PackedScene" path="res://scenes/audio/chapter_03/c3_audio_rune_gate_rumble.tscn" id="5"]
+[node name="C3AudioReview" type="Node2D"]
+script = ExtResource("1")
+metadata/production_approved = false
+[node name="Players" type="Node2D" parent="."]
+[node name="CavernAmbience" parent="Players" instance=ExtResource("2")]
+[node name="FragmentPickup" parent="Players" instance=ExtResource("3")]
+[node name="ChestOpen" parent="Players" instance=ExtResource("4")]
+[node name="RuneGateRumble" parent="Players" instance=ExtResource("5")]
+[node name="UI" type="CanvasLayer" parent="."]
+layer = 10
+[node name="Title" type="Label" parent="UI"]
+offset_left = 40.0
+offset_top = 30.0
+theme_override_font_sizes/font_size = 26
+text = "CHAPTER 3 · EXISTING AUDIO PROTOTYPE REVIEW"
+[node name="Notice" type="Label" parent="UI"]
+offset_left = 40.0
+offset_top = 90.0
+text = "Four existing phase09 prototypes copied unchanged. No new sound generation.\nNative players and serialized temporary Effects/Ambience buses; project layout restored on exit.\nListening and actual scene mix approval remain pending. Missing cues are listed in the JSON handoff."
+[node name="Button0" type="Button" parent="UI"]
+offset_left = 40.0
+offset_top = 210.0
+offset_right = 620.0
+offset_bottom = 258.0
+text = "C3-AUD-001 · Cavern ambience loop"
+[node name="Button1" type="Button" parent="UI"]
+offset_left = 40.0
+offset_top = 275.0
+offset_right = 620.0
+offset_bottom = 323.0
+text = "C3-AUD-005 · Fragment pickup"
+[node name="Button2" type="Button" parent="UI"]
+offset_left = 40.0
+offset_top = 340.0
+offset_right = 620.0
+offset_bottom = 388.0
+text = "C3-AUD-006 · Chest open"
+[node name="Button3" type="Button" parent="UI"]
+offset_left = 40.0
+offset_top = 405.0
+offset_right = 620.0
+offset_bottom = 453.0
+text = "C3-AUD-008 · Rune gate rumble"
+[node name="Button4" type="Button" parent="UI"]
+offset_left = 40.0
+offset_top = 470.0
+offset_right = 620.0
+offset_bottom = 518.0
+text = "Stop all"
+[connection signal="pressed" from="UI/Button0" to="." method="_on_ambience_pressed"]
+[connection signal="pressed" from="UI/Button1" to="." method="_on_pickup_pressed"]
+[connection signal="pressed" from="UI/Button2" to="." method="_on_chest_pressed"]
+[connection signal="pressed" from="UI/Button3" to="." method="_on_gate_pressed"]
+[connection signal="pressed" from="UI/Button4" to="." method="stop_all"]

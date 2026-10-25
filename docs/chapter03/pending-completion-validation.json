@@ -1,0 +1,33 @@
+[
+  {
+    "check": "import",
+    "exit_code": 0,
+    "errors": [],
+    "log": "/tmp/lantrns-completion-import.log"
+  },
+  {
+    "check": "validate_c3_native_prefabs",
+    "exit_code": 0,
+    "errors": [],
+    "log": "/tmp/lantrns-completion-validate_c3_native_prefabs.log"
+  },
+  {
+    "check": "validate_c3_audio",
+    "exit_code": 0,
+    "errors": [],
+    "log": "/tmp/lantrns-completion-validate_c3_audio.log",
+    "shutdown_checked": true
+  },
+  {
+    "check": "validate_c3_vfx",
+    "exit_code": 0,
+    "errors": [],
+    "log": "/tmp/lantrns-completion-validate_c3_vfx.log"
+  },
+  {
+    "check": "chapter03_native_effects_test",
+    "exit_code": 0,
+    "errors": [],
+    "log": "/tmp/lantrns-completion-chapter03_native_effects_test.log"
+  }
+]

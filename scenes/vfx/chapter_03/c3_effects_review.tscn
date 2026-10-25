@@ -1,0 +1,51 @@
+[gd_scene load_steps=9 format=3]
+[ext_resource type="PackedScene" path="res://scenes/vfx/chapter_03/c3_waterfall_stream.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/vfx/chapter_03/c3_water_caustics.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/vfx/chapter_03/c3_underwater_bubbles.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/vfx/chapter_03/c3_shrine_light.tscn" id="4"]
+[ext_resource type="Texture2D" path="res://art/environment/chapter_03/chests/review/C3-CHEST-ASSET-001_opening_review_source.png" id="5"]
+[sub_resource type="AtlasTexture" id="Chest"]
+atlas = ExtResource("5")
+region = Rect2(10, 275, 288, 392)
+filter_clip = true
+[sub_resource type="Environment" id="Environment"]
+background_mode = 1
+background_color = Color(0.035, 0.09, 0.10, 1)
+[sub_resource type="CanvasItemMaterial" id="Unshaded"]
+light_mode = 1
+[node name="C3EffectsReview" type="Node2D"]
+metadata/review_only = true
+metadata/production_approved = false
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment")
+[node name="Ambient" type="CanvasModulate" parent="."]
+color = Color(0.57, 0.57, 0.57, 1)
+[node name="Waterfall" parent="." instance=ExtResource("1")]
+position = Vector2(220, 110)
+scale = Vector2(0.58, 0.58)
+[node name="Caustics" parent="." instance=ExtResource("2")]
+position = Vector2(35, 465)
+scale = Vector2(0.72, 0.23)
+[node name="Bubbles" parent="." instance=ExtResource("3")]
+position = Vector2(340, 580)
+[node name="ChestReceiver" type="Sprite2D" parent="."]
+position = Vector2(930, 440)
+texture = SubResource("Chest")
+light_mask = 1
+[node name="ShrineLight" parent="." instance=ExtResource("4")]
+position = Vector2(685, 355)
+[node name="UI" type="CanvasLayer" parent="."]
+layer = 10
+[node name="Title" type="Label" parent="UI"]
+offset_left = 30.0
+offset_top = 22.0
+theme_override_font_sizes/font_size = 25
+text = "CHAPTER 3 · WATER AND LIGHTING RESOURCE REVIEW"
+[node name="WaterLabel" type="Label" parent="UI"]
+offset_left = 35.0
+offset_top = 620.0
+text = "ZIP waterfall crop + native mist/bubbles\nDerived caustic intensity; source color checkerboard excluded"
+[node name="ShrineLabel" type="Label" parent="UI"]
+offset_left = 620.0
+offset_top = 620.0
+text = "Native shrine effect + actual painted light receiver\nReview resources only; architecture remains separate"

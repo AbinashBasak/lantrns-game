@@ -1,0 +1,131 @@
+{
+  "asset_id": "C3-PROP-027",
+  "title": "Floating stone platform candidate",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-027/source_images/C3-PROP-027_organized_image-135-b17eef99.png",
+      "sha256": "fc326b673b4176939e41f220b92ab77362a58854cef997d132a7c7cc9225f5f7",
+      "bytes": 1829972,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-135-b17eef99.png",
+      "source_message_id": "d76c9fcd-03c0-4862-930b-c877e85795d2",
+      "source_requested_ids": [
+        "C3-BG-011-011"
+      ],
+      "generated_subject_title": "Underwater Ruin Tile Asset Showcase",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-PROP-027",
+          "source_index": 135,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-135-b17eef99.png",
+          "source_sha256": "fc326b673b4176939e41f220b92ab77362a58854cef997d132a7c7cc9225f5f7",
+          "source_message_id": "d76c9fcd-03c0-4862-930b-c877e85795d2",
+          "requested_ids": [
+            "C3-BG-011-011"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            18,
+            133,
+            500,
+            783
+          ],
+          "export": "art/environment/chapter_03/platforms/c3_prop_027_floating_stone_platform_candidate.png",
+          "export_sha256": "e994077f069f625141f510e5e5b367831e1f593f7ec0668ca6d7cf6321d828e3",
+          "dimensions": [
+            482,
+            650
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            482,
+            650
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 96487,
+          "nonopaque_pixel_count": 96487,
+          "opaque_pixel_count": 216813,
+          "pivot": [
+            241.0,
+            650
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "solid modular art candidate",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Official-ID association is a candidate by subject; no motion/puzzle state delivered.",
+            "Seams and gameplay collision are not approved; not substituted for missing TILE001/002/003 terrain."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_027_135_depth_reference.png",
+              "sha256": "251900d88fb78f3cbe8a09dbdc898a2327f3794ed923936d91e62ebb4886b557",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_027_135_mask_reference.png",
+              "sha256": "e9270496664a7b1d8f11cdbe33f54684297e9cfb9aebe788fb4128a341311f66",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/platforms/c3_prop_027_floating_stone_platform_candidate.png"
+        ]
+      }
+    ],
+    "exports": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-027/exports/organized_v1/C3-PROP-027_00_c3_prop_027_floating_stone_platform_candidate.png",
+        "sha256": "e994077f069f625141f510e5e5b367831e1f593f7ec0668ca6d7cf6321d828e3",
+        "bytes": 651259,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/platforms/c3_prop_027_floating_stone_platform_candidate.png",
+        "kind": "environment"
+      }
+    ],
+    "native_resources": [],
+    "missing_or_blocked": [],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

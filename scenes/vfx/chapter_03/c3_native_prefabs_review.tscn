@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="PackedScene" path="res://scenes/vfx/chapter_03/c3_depth_lighting_review.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/vfx/chapter_03/c3_crystal_wisp_bolt.tscn" id="2"]
+[node name="C3NativePrefabsReview" instance=ExtResource("1")]
+metadata/purpose = "Actual reusable mapped prop instances + independently editable dormant Wisp projectile light; attack monitoring disabled."
+[node name="WispBolt" parent="." instance=ExtResource("2")]
+position = Vector2(635, 390)
+scale = Vector2(0.45, 0.45)
+[node name="Title" parent="UI" index="0"]
+text = "CHAPTER 3 · NATIVE MAPPED PROPS + WISP BOLT PREFABS"

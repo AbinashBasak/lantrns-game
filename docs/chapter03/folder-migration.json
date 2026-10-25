@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-25",
+  "basis": "Root Chapter 3 production bible \u00a7\u00a71.2 and 4.1; source archive remains under root AGENTS.md registry IDs",
+  "mapping": [
+    {
+      "old": "scenes/chapter_03/vfx/c3_crystal_motes.tscn",
+      "new": "scenes/vfx/chapter_03/c3_crystal_motes.tscn",
+      "sha256_before_and_after": "8af0181b384c1265c8d982b01cc1b2ae5d9706fb5539289db06285ed739dbff8"
+    },
+    {
+      "old": "scenes/chapter_03/vfx/c3_lantern_sparks.tscn",
+      "new": "scenes/vfx/chapter_03/c3_lantern_sparks.tscn",
+      "sha256_before_and_after": "64d5ba2fe47e79529634c6f76ff032e67f92924db1e3795909ba15a612649be0"
+    },
+    {
+      "old": "scenes/chapter_03/vfx/c3_shrine_light.tscn",
+      "new": "scenes/vfx/chapter_03/c3_shrine_light.tscn",
+      "sha256_before_and_after": "6e56510784ff14099cbf2530f4ec0366b503485fe007a7c12acbbce52123b1d9"
+    },
+    {
+      "old": "scenes/chapter_03/vfx/c3_waterfall_mist.tscn",
+      "new": "scenes/vfx/chapter_03/c3_waterfall_mist.tscn",
+      "sha256_before_and_after": "f8c8b2ab1f7480c612690da5d2addfda15bacc8998a47ae05f9be9389b647784"
+    },
+    {
+      "old": "scenes/chapter_03/lighting/c3_lantern_light.tscn",
+      "new": "scenes/props/chapter_03/c3_lantern_light.tscn",
+      "sha256_before_and_after": "ce387ad255e1f3ebee5b3f75542bd92b926f9e08e5be4380784e0ef31d537c97"
+    },
+    {
+      "old": "scenes/chapter_03/interactables/c3_moving_platform.tscn",
+      "new": "scenes/interactables/chapter_03/c3_moving_platform.tscn",
+      "sha256_before_and_after": "e4e0d245ffd148f775bb49ded5eb261098be59746712eb3758c45ab378da537c"
+    },
+    {
+      "old": "scenes/chapter_03/core/section_exit.tscn",
+      "new": "scenes/interactables/chapter_03/section_exit.tscn",
+      "sha256_before_and_after": "0327f8c9fc1ffabd0bca4f25352d1862c0afd8cf87fed47370fe88969fda0e54"
+    },
+    {
+      "old": "art/export/chapter_03/review/C3-CHR-001_idle_review_source.png",
+      "new": "art/characters/chapter_03/review/C3-CHR-001_idle_review_source.png",
+      "sha256_before_and_after": "836d6cd9244f4bf0848a6c4162203b21a56fdae392091bc2922d88db44a21979"
+    },
+    {
+      "old": "art/export/chapter_03/review/C3-CHR-002_run_review_source.png",
+      "new": "art/characters/chapter_03/review/C3-CHR-002_run_review_source.png",
+      "sha256_before_and_after": "287bba036efa40ae43cf4bc443cce1891d2755a20bebbe2230658a17906d86b2"
+    },
+    {
+      "old": "art/export/chapter_03/review/C3-CHEST-ASSET-001_opening_review_source.png",
+      "new": "art/environment/chapter_03/chests/review/C3-CHEST-ASSET-001_opening_review_source.png",
+      "sha256_before_and_after": "08ca59019946cffa88adfedfea4e891f3860b1ba46f7ff3c380e50c90eff4967"
+    }
+  ],
+  "updated_text_files": [
+    "tests/chapter03_progression_test.gd",
+    "tests/chapter03_shrine_light_test.gd",
+    "tests/chapter03_moving_platform_test.gd",
+    "docs/native-godot-systems.md",
+    "assets/production/chapter_03_sunken_temple/characters/C3-CHR-002/metadata.json",
+    "assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/metadata.json",
+    "assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/metadata.json",
+    "docs/chapter03/player-animation-review.json",
+    "docs/chapter03/native-chapter03-effects.md",
+    "docs/chapter03/completion-audit.md",
+    "docs/chapter03/native-moving-platform.md",
+    "docs/chapter03/progression-systems.md",
+    "docs/chapter03/native-shrine-light.md",
+    "art/characters/chapter_03/review/C3-CHR-001_idle_review_source.png.import",
+    "art/characters/chapter_03/review/C3-CHR-002_run_review_source.png.import",
+    "art/environment/chapter_03/chests/review/C3-CHEST-ASSET-001_opening_review_source.png.import",
+    "scenes/chapter_03/review/c3_shrine_light_review.tscn",
+    "scenes/chapter_03/review/c3_native_systems_review.tscn",
+    "scenes/chapter_03/review/c3_chest_animation_review.tscn",
+    "scenes/chapter_03/review/c3_player_animation_review.tscn"
+  ],
+  "reserved_for_primary": [
+    "assets/production/asset_registry.json",
+    "docs/lanterns_underroot_master_asset_checklist.md",
+    "docs/project-memory.md"
+  ],
+  "validation": "pending"
+}

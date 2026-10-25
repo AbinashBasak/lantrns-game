@@ -1,0 +1,22 @@
+{
+  "asset_id": "C3-VFX-002",
+  "title": "Lantern sparks",
+  "sources": [],
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [],
+    "exports": [],
+    "native_resources": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/vfx/chapter_03/c3_lantern_sparks.tscn",
+        "sha256": "64d5ba2fe47e79529634c6f76ff032e67f92924db1e3795909ba15a612649be0",
+        "bytes": 1131
+      }
+    ],
+    "missing_or_blocked": [],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

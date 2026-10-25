@@ -1,0 +1,72 @@
+[gd_scene load_steps=7 format=3]
+[ext_resource type="PackedScene" path="res://scenes/props/chapter_03/c3_ruined_arch_mapped.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/props/chapter_03/c3_wall_relief_mapped.tscn" id="2"]
+[ext_resource type="Texture2D" path="res://assets/runtime/shared/lighting/soft_radial.tres" id="3"]
+[sub_resource type="Environment" id="Environment"]
+background_mode = 1
+background_color = Color(0.03, 0.07, 0.08, 1)
+[sub_resource type="Animation" id="Sweep"]
+length = 4.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/path = NodePath("LightSweep:position")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 2, 4), "transitions": PackedFloat32Array(1, 1, 1), "update": 0, "values": [Vector2(-170, 0), Vector2(170, 0), Vector2(-170, 0)]}
+[sub_resource type="AnimationLibrary" id="Library"]
+_data = {&"sweep": SubResource("Sweep")}
+[node name="C3DepthLightingReview" type="Node2D"]
+metadata/review_only = true
+metadata/production_approved = false
+metadata/purpose = "Native CanvasTexture supplied height-derived bump + supplied bitmap specular response. Light sweep is editable AnimationPlayer."
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment")
+[node name="Ambient" type="CanvasModulate" parent="."]
+color = Color(0.36, 0.36, 0.36, 1)
+[node name="Arch" parent="." instance=ExtResource("1")]
+position = Vector2(380, 582.97)
+scale = Vector2(0.62, 0.62)
+[node name="Wall" parent="." instance=ExtResource("2")]
+position = Vector2(900, 622.65)
+scale = Vector2(0.62, 0.62)
+[node name="LightSweep" type="Node2D" parent="."]
+position = Vector2(-170, 0)
+[node name="ArchLight" type="PointLight2D" parent="LightSweep"]
+position = Vector2(380, 320)
+texture = ExtResource("3")
+texture_scale = 2.2
+color = Color(1, 0.9, 0.7, 1)
+energy = 1.45
+height = 100.0
+range_item_cull_mask = 1
+shadow_enabled = false
+[node name="WallLight" type="PointLight2D" parent="LightSweep"]
+position = Vector2(900, 320)
+texture = ExtResource("3")
+texture_scale = 2.2
+color = Color(1, 0.9, 0.7, 1)
+energy = 1.45
+height = 100.0
+range_item_cull_mask = 1
+shadow_enabled = false
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "sweep"
+libraries = {&"": SubResource("Library")}
+[node name="UI" type="CanvasLayer" parent="."]
+layer = 10
+[node name="Title" type="Label" parent="UI"]
+offset_left = 30.0
+offset_top = 22.0
+theme_override_font_sizes/font_size = 25
+text = "CHAPTER 3 · SUPPLIED DEPTH + BITMAP · NATIVE LIGHT RESPONSE"
+[node name="Notice" type="Label" parent="UI"]
+offset_left = 30.0
+offset_top = 65.0
+text = "Derived bump normals from supplied grayscale panels. Native CanvasTexture + moving PointLight2D.\nDiagnostic material review; source maps are tonal interpretations, not authored tangent-space normals."
+[node name="ArchLabel" type="Label" parent="UI"]
+offset_left = 200.0
+offset_top = 650.0
+text = "C3-PROP-008 · source138 · aligned depth / bitmap"
+[node name="WallLabel" type="Label" parent="UI"]
+offset_left = 720.0
+offset_top = 650.0
+text = "C3-TILE-012 · source142 · aligned depth / bitmap"

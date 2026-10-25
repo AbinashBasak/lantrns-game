@@ -1,0 +1,47 @@
+{
+  "export_count": 59,
+  "source_attempts_audited": 80,
+  "native_gallery_pages": 8,
+  "engine": "Godot 4.7.2 stable mono, OpenGL Compatibility Apple M3 Pro",
+  "native_import_exit": 0,
+  "native_render_exit": 0,
+  "render_warnings_or_errors": false,
+  "resource_reference_errors": 0,
+  "resource_reference_warnings": 0,
+  "alpha_and_export_hash_checks": "59/59 pass; every export RGBA with transparent pixels; guide links checked",
+  "review_status": "technical and native-gallery visual review complete; asset final approval false; no campaign integration inferred",
+  "review_captures": [
+    {
+      "path": "docs/chapter03/environment-asset-preparation-native-01.png",
+      "sha256": "65331a354cd567855bcd3cb86efd92ffa32aecc596b07918769ea74741a3a8c7"
+    },
+    {
+      "path": "docs/chapter03/environment-asset-preparation-native-02.png",
+      "sha256": "2852a162ed4a03c21d480a4c5b10578729871776bc15750f3b6113d74003fab0"
+    },
+    {
+      "path": "docs/chapter03/environment-asset-preparation-native-03.png",
+      "sha256": "0eeac142c976754757d9d49837c0e45679731e6cf69b5acbecec2af16d2c03f0"
+    },
+    {
+      "path": "docs/chapter03/environment-asset-preparation-native-04.png",
+      "sha256": "610f5224c4513e8947ce45e6f6a6b5d68fb35f2748ea2e9378c90db385e33fb2"
+    },
+    {
+      "path": "docs/chapter03/environment-asset-preparation-native-05.png",
+      "sha256": "8d9edf13c7f82805495181d99bbc17c7628e8c0ec54f6d0b2fcf503e39be3fc6"
+    },
+    {
+      "path": "docs/chapter03/environment-asset-preparation-native-06.png",
+      "sha256": "9d30ff17887a19b07ea1392d1ab52abf0a340a975bd38e9cd35ec6a52126847a"
+    },
+    {
+      "path": "docs/chapter03/environment-asset-preparation-native-07.png",
+      "sha256": "c19b7fb81196e339071124a28574924faf2b9685efbec6bd0a4db8f9fedd9335"
+    },
+    {
+      "path": "docs/chapter03/environment-asset-preparation-native-08.png",
+      "sha256": "1ee9542d8dc9321ba2c8a6ea4952f6dc57bb2deb92328584dd1be6e1755e035f"
+    }
+  ]
+}

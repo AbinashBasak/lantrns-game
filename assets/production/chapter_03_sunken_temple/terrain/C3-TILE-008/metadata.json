@@ -1,0 +1,131 @@
+{
+  "asset_id": "C3-TILE-008",
+  "title": "Bridge plank reference",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-008/source_images/C3-TILE-008_organized_image-136-b844b4f5.png",
+      "sha256": "ae9b626f680ba126ca84e5d3f82933e43dc0022f0f3d406cd63db4246fadd091",
+      "bytes": 1731410,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-136-b844b4f5.png",
+      "source_message_id": "f2183b27-607f-44f6-83e1-41168e026d1f",
+      "source_requested_ids": [
+        "C3-BG-011-012"
+      ],
+      "generated_subject_title": "Rope Bridge Texture Map Sheet",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-TILE-008",
+          "source_index": 136,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-136-b844b4f5.png",
+          "source_sha256": "ae9b626f680ba126ca84e5d3f82933e43dc0022f0f3d406cd63db4246fadd091",
+          "source_message_id": "f2183b27-607f-44f6-83e1-41168e026d1f",
+          "requested_ids": [
+            "C3-BG-011-012"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            540,
+            880
+          ],
+          "content_trim": [
+            6,
+            221,
+            533,
+            798
+          ],
+          "export": "art/environment/chapter_03/platforms/c3_tile_008_rope_bridge_complete_reference.png",
+          "export_sha256": "93f3b3d105248a1b5960b9d4ec2dcac6ef139e3952474d2eaad101c421efacce",
+          "dimensions": [
+            527,
+            577
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            527,
+            577
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 157115,
+          "nonopaque_pixel_count": 157115,
+          "opaque_pixel_count": 146964,
+          "pivot": [
+            263.5,
+            577
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "solid modular art candidate",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Perspective artwork; not a complete modular tile/end-cap kit or verified side-view collision surface.",
+            "Seams and gameplay collision are not approved; not substituted for missing TILE001/002/003 terrain."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_tile_008_136_depth_reference.png",
+              "sha256": "6a0ffffa1ba8a67e330357e1cef5ea469d99f79cf3223b6003059534f5394fed",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_tile_008_136_mask_reference.png",
+              "sha256": "92df3cf645d8498af2de9a65608cdd44812f87f621267cb9004d51d872ab9cf9",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/platforms/c3_tile_008_rope_bridge_complete_reference.png"
+        ]
+      }
+    ],
+    "exports": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-008/exports/organized_v1/C3-TILE-008_00_c3_tile_008_rope_bridge_complete_reference.png",
+        "sha256": "93f3b3d105248a1b5960b9d4ec2dcac6ef139e3952474d2eaad101c421efacce",
+        "bytes": 593424,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/platforms/c3_tile_008_rope_bridge_complete_reference.png",
+        "kind": "environment"
+      }
+    ],
+    "native_resources": [],
+    "missing_or_blocked": [],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

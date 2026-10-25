@@ -1,0 +1,603 @@
+{
+	"failures": [],
+	"godot_version": "4.7.2-stable (official)",
+	"renderer": "macOS",
+	"results": [
+		{
+			"asset_id": "C3-ENM-001",
+			"capture": "res://docs/chapter03/animation-asset-preparation-c3-enm-001-native.png",
+			"cross_action_travel": {
+				"from": "death",
+				"path": [
+					"death",
+					"walk",
+					"hurt"
+				],
+				"reached": "hurt",
+				"to": "hurt"
+			},
+			"native_actions_verified": [
+				"walk",
+				"death",
+				"hurt"
+			],
+			"production_approved": false,
+			"scene": "res://scenes/enemies/chapter_03/review/c3_enm_001_animation_review.tscn",
+			"travel_and_progression": [
+				{
+					"action": "walk",
+					"first_frame": 0,
+					"graph_path": [
+						"walk"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "death",
+					"first_frame": 0,
+					"graph_path": [
+						"walk",
+						"death"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "hurt",
+					"first_frame": 0,
+					"graph_path": [
+						"walk",
+						"hurt"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				}
+			]
+		},
+		{
+			"asset_id": "C3-ENM-002",
+			"capture": "res://docs/chapter03/animation-asset-preparation-c3-enm-002-native.png",
+			"cross_action_travel": {
+				"from": "charge",
+				"path": [
+					"charge",
+					"hover",
+					"projectile_body_partial"
+				],
+				"reached": "projectile_body_partial",
+				"to": "projectile_body_partial"
+			},
+			"native_actions_verified": [
+				"hover",
+				"charge",
+				"projectile_body_partial"
+			],
+			"production_approved": false,
+			"scene": "res://scenes/enemies/chapter_03/review/c3_enm_002_animation_review.tscn",
+			"travel_and_progression": [
+				{
+					"action": "hover",
+					"first_frame": 0,
+					"graph_path": [
+						"hover"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "charge",
+					"first_frame": 0,
+					"graph_path": [
+						"hover",
+						"charge"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "projectile_body_partial",
+					"first_frame": 0,
+					"graph_path": [
+						"hover",
+						"projectile_body_partial"
+					],
+					"partial_source": true,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				}
+			]
+		},
+		{
+			"asset_id": "C3-ENM-004",
+			"capture": "res://docs/chapter03/animation-asset-preparation-c3-enm-004-native.png",
+			"cross_action_travel": {
+				"from": "walk",
+				"path": [
+					"walk",
+					"idle",
+					"death"
+				],
+				"reached": "death",
+				"to": "death"
+			},
+			"native_actions_verified": [
+				"idle",
+				"walk",
+				"shield",
+				"windup",
+				"slam_partial",
+				"recover",
+				"hurt",
+				"death"
+			],
+			"production_approved": false,
+			"scene": "res://scenes/enemies/chapter_03/review/c3_enm_004_animation_review.tscn",
+			"travel_and_progression": [
+				{
+					"action": "idle",
+					"first_frame": 0,
+					"graph_path": [
+						"idle"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "walk",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"walk"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "shield",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"shield"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "windup",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"windup"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "slam_partial",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"slam_partial"
+					],
+					"partial_source": true,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "recover",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"recover"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "hurt",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"hurt"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "death",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"death"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				}
+			]
+		},
+		{
+			"asset_id": "C3-ENM-005",
+			"capture": "res://docs/chapter03/animation-asset-preparation-c3-enm-005-native.png",
+			"cross_action_travel": {
+				"from": "hide",
+				"path": [
+					"hide",
+					"idle_swim",
+					"retreat"
+				],
+				"reached": "retreat",
+				"to": "retreat"
+			},
+			"native_actions_verified": [
+				"idle_swim",
+				"hide",
+				"telegraph",
+				"lunge_partial",
+				"retreat"
+			],
+			"production_approved": false,
+			"scene": "res://scenes/enemies/chapter_03/review/c3_enm_005_animation_review.tscn",
+			"travel_and_progression": [
+				{
+					"action": "idle_swim",
+					"first_frame": 0,
+					"graph_path": [
+						"idle_swim"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "hide",
+					"first_frame": 0,
+					"graph_path": [
+						"idle_swim",
+						"hide"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "telegraph",
+					"first_frame": 0,
+					"graph_path": [
+						"idle_swim",
+						"telegraph"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "lunge_partial",
+					"first_frame": 0,
+					"graph_path": [
+						"idle_swim",
+						"lunge_partial"
+					],
+					"partial_source": true,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "retreat",
+					"first_frame": 0,
+					"graph_path": [
+						"idle_swim",
+						"retreat"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				}
+			]
+		},
+		{
+			"asset_id": "C3-ENM-007",
+			"capture": "res://docs/chapter03/animation-asset-preparation-c3-enm-007-native.png",
+			"cross_action_travel": {
+				"from": "intro",
+				"path": [
+					"intro",
+					"idle",
+					"defeat_partial"
+				],
+				"reached": "defeat_partial",
+				"to": "defeat_partial"
+			},
+			"native_actions_verified": [
+				"idle",
+				"intro",
+				"walk_partial",
+				"shield_raise",
+				"slam_windup",
+				"recover",
+				"hurt",
+				"stagger_partial",
+				"defeat_partial"
+			],
+			"production_approved": false,
+			"scene": "res://scenes/enemies/chapter_03/review/c3_enm_007_animation_review.tscn",
+			"travel_and_progression": [
+				{
+					"action": "idle",
+					"first_frame": 0,
+					"graph_path": [
+						"idle"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "intro",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"intro"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "walk_partial",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"walk_partial"
+					],
+					"partial_source": true,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "shield_raise",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"shield_raise"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "slam_windup",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"slam_windup"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "recover",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"recover"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "hurt",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"hurt"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "stagger_partial",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"stagger_partial"
+					],
+					"partial_source": true,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "defeat_partial",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"defeat_partial"
+					],
+					"partial_source": true,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				}
+			]
+		},
+		{
+			"asset_id": "C3-ENM-008",
+			"capture": "res://docs/chapter03/animation-asset-preparation-c3-enm-008-native.png",
+			"cross_action_travel": {
+				"from": "intro",
+				"path": [
+					"intro",
+					"idle",
+					"defeat_partial"
+				],
+				"reached": "defeat_partial",
+				"to": "defeat_partial"
+			},
+			"native_actions_verified": [
+				"idle",
+				"intro",
+				"dash_windup",
+				"dash_partial",
+				"bubble_summon",
+				"water_column_telegraph_partial",
+				"seal_beam_telegraph",
+				"seal_beam_partial",
+				"core_exposed",
+				"phase_change",
+				"hurt",
+				"defeat_partial"
+			],
+			"production_approved": false,
+			"scene": "res://scenes/enemies/chapter_03/review/c3_enm_008_animation_review.tscn",
+			"travel_and_progression": [
+				{
+					"action": "idle",
+					"first_frame": 0,
+					"graph_path": [
+						"idle"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "intro",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"intro"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "dash_windup",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"dash_windup"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "dash_partial",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"dash_partial"
+					],
+					"partial_source": true,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "bubble_summon",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"bubble_summon"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "water_column_telegraph_partial",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"water_column_telegraph_partial"
+					],
+					"partial_source": true,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "seal_beam_telegraph",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"seal_beam_telegraph"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "seal_beam_partial",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"seal_beam_partial"
+					],
+					"partial_source": true,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "core_exposed",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"core_exposed"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "phase_change",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"phase_change"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "hurt",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"hurt"
+					],
+					"partial_source": false,
+					"progressed_frame": 1,
+					"returns_to_hub": true
+				},
+				{
+					"action": "defeat_partial",
+					"first_frame": 0,
+					"graph_path": [
+						"idle",
+						"defeat_partial"
+					],
+					"partial_source": true,
+					"progressed_frame": 0,
+					"returns_to_hub": true
+				}
+			]
+		}
+	],
+	"scope": "Native import/counts/timelines plus actual travel paths, engine frame progression, locomotion loop hold, one-shot/partial return and cross-action travel through authored AnimationTree graphs; actual diagnostic scene renders. No missing art/gameplay approval.",
+	"status": "passed"
+}

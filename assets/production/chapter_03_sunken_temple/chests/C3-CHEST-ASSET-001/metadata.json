@@ -2,7 +2,7 @@
   "asset_id": "C3-CHEST-ASSET-001",
   "title": "Common chest opening",
   "source_chat": "https://chatgpt.com/share/6adcfe72-eeb4-83ee-b43a-a08319abf676",
-  "stage": "originals recovered; cleanup and in-engine approval pending",
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
   "production_approved": false,
   "notes": "Number labels and bright painted interior effects are present. Remove labels by export cropping; emitted illumination remains native Godot. Lid/base consistency needs review.",
   "sources": [
@@ -533,13 +533,30 @@
     "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/chest-animation-review.png"
   ],
   "review_scene": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/chapter_03/review/c3_chest_animation_review.tscn",
-  "review_source_copy": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/export/chapter_03/review/C3-CHEST-ASSET-001_opening_review_source.png",
+  "review_source_copy": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/chests/review/C3-CHEST-ASSET-001_opening_review_source.png",
   "review_validation": {
-    "native_animation_tree": "Closed \u2192 Opening \u2192 Open; transition/repeat guard/reset passed",
+    "native_animation_tree": "Closed → Opening → Open; transition/repeat guard/reset passed",
     "rendered_review": "Godot Compatibility final opening frame visually inspected",
     "label_handling": "AtlasTexture crops exclude numeric labels",
     "lighting": "Mouth-attached native PointLight2D energy keyed in AnimationPlayer; painted interior glow remains; terrain response not validated",
     "production_approved": false
   },
-  "attachment_review_status": "All supplied originals cataloged; no production approval inferred."
+  "attachment_review_status": "All supplied originals cataloged; no production approval inferred.",
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [],
+    "exports": [],
+    "native_resources": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/chapter_03/review/c3_chest_animation_review.tscn",
+        "sha256": "83a25839267f60c909bb53a59922c794cc191f72b27e4a1f9ba132a0f35d2723",
+        "bytes": 10302
+      }
+    ],
+    "missing_or_blocked": [
+      "Number labels and bright painted interior effects are present. Remove labels by export cropping; emitted illumination remains native Godot. Lid/base consistency needs review."
+    ],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
 }

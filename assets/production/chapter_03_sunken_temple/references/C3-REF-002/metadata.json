@@ -1,9 +1,9 @@
 {
   "asset_id": "C3-REF-002",
   "title": "Chapter 3 player scale reference boards",
-  "stage": "supplied reference boards archived; final scale not approved",
+  "stage": "sources organized; clean deliverables blocked; see metadata",
   "production_approved": false,
-  "notes": "Reference boards include inconsistent printed player scales (56\u201360,96,160 pixels) and brown-haired examples. Text inside boards does not replace the locked blue-haired design or approve a scale change. Do not upscale thumbnails into playable scenery.",
+  "notes": "Reference boards include inconsistent printed player scales (56–60,96,160 pixels) and brown-haired examples. Text inside boards does not replace the locked blue-haired design or approve a scale change. Do not upscale thumbnails into playable scenery.",
   "sources": [
     {
       "action": "scale_reference_board",
@@ -42,7 +42,7 @@
         "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
         "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
       },
-      "visual_description": "Player scale guide, 56\u201360 pixel hero with 64-pixel tile",
+      "visual_description": "Player scale guide, 56–60 pixel hero with 64-pixel tile",
       "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
     },
     {
@@ -128,5 +128,16 @@
   ],
   "runtime_exports": [],
   "preview_paths": [],
-  "attachment_review_status": "All supplied originals cataloged; no production approval inferred."
+  "attachment_review_status": "All supplied originals cataloged; no production approval inferred.",
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [],
+    "exports": [],
+    "native_resources": [],
+    "missing_or_blocked": [
+      "Reference boards include inconsistent printed player scales (56–60,96,160 pixels) and brown-haired examples. Text inside boards does not replace the locked blue-haired design or approve a scale change. Do not upscale thumbnails into playable scenery."
+    ],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
 }

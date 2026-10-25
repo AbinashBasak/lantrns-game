@@ -1,0 +1,38 @@
+[gd_scene load_steps=5 format=3]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_prj_001/C3-ENM-PRJ-001_crystal_wisp_bolt_review.png" id="1"]
+[ext_resource type="Texture2D" path="res://assets/runtime/shared/lighting/soft_radial.tres" id="2"]
+[sub_resource type="CanvasItemMaterial" id="Unshaded"]
+light_mode = 1
+[sub_resource type="CircleShape2D" id="AttackShape"]
+radius = 24.0
+[node name="C3CrystalWispBolt" type="Node2D"]
+z_index = 15
+metadata/official_id = "C3-ENM-PRJ-001"
+metadata/pivot = "center; native sprite398x221; visible bright leading core at local105,18"
+metadata/movement_speed = 0.0
+metadata/lifetime = 0.0
+metadata/mode = "Editable dormant projectile visual prefab; no invented movement, lifetime, damage or targeting behavior."
+metadata/attack_area = "Optional explicitly authored24px circle around bright leading core, disabled by default. Validate at actual gameplay scale before enabling. Independent of alpha bounds and sprite trail."
+metadata/production_approved = false
+[node name="VisualBody" type="Node2D" parent="."]
+[node name="Artwork" type="Sprite2D" parent="VisualBody"]
+texture = ExtResource("1")
+material = SubResource("Unshaded")
+[node name="CoreLight" type="PointLight2D" parent="."]
+position = Vector2(105, 18)
+texture = ExtResource("2")
+texture_scale = 0.8
+color = Color(0.208, 0.851, 1, 1)
+energy = 0.65
+height = 40.0
+shadow_enabled = false
+range_item_cull_mask = 1
+[node name="AttackArea" type="Area2D" parent="."]
+position = Vector2(105, 18)
+monitoring = false
+monitorable = false
+collision_layer = 0
+collision_mask = 0
+[node name="AttackShape" type="CollisionShape2D" parent="AttackArea"]
+shape = SubResource("AttackShape")
+disabled = true

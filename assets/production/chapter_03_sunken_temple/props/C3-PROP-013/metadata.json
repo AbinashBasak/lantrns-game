@@ -1,0 +1,236 @@
+{
+  "asset_id": "C3-PROP-013",
+  "title": "Temple statue",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-013/source_images/C3-PROP-013_organized_image-120-52252886.png",
+      "sha256": "21a7b3fbde09af3ade19ff6774067d66d41c8d146b8db36c1ccf8e26a8482de8",
+      "bytes": 2426435,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-120-52252886.png",
+      "source_message_id": "e13c575c-55f2-406c-89cc-e72506ce31a9",
+      "source_requested_ids": [],
+      "generated_subject_title": "Fantasy Knight Statue Asset Triptych",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-013/source_images/C3-PROP-013_organized_image-121-12343743.png",
+      "sha256": "1d7b594e2833b45931b3175f9f7c64990b74aef09c50c98612f435b37bfbe582",
+      "bytes": 2042208,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-121-12343743.png",
+      "source_message_id": "86c516e9-672d-4121-87ad-96a6b039cfc6",
+      "source_requested_ids": [
+        "C3-BG-011-004"
+      ],
+      "generated_subject_title": "Fantasy Guardian Statue Asset Sheet",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-PROP-013",
+          "source_index": 120,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-120-52252886.png",
+          "source_sha256": "21a7b3fbde09af3ade19ff6774067d66d41c8d146b8db36c1ccf8e26a8482de8",
+          "source_message_id": "e13c575c-55f2-406c-89cc-e72506ce31a9",
+          "requested_ids": [],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "export": "art/environment/chapter_03/props/c3_prop_013_temple_guardian_statue_a.png",
+          "export_sha256": "e7916d0d24df8874922a86f77f5222c09476fe238f1c6184d6ec16ed6260cf6d",
+          "dimensions": [
+            510,
+            880
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 153880,
+          "nonopaque_pixel_count": 448800,
+          "opaque_pixel_count": 0,
+          "pivot": [
+            255.0,
+            880
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "unchanged native alpha crop",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Visible content touches a source crop boundary; inspect source for clipping before use."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_013_120_depth_reference.png",
+              "sha256": "5a866700a4ab7cb1f3d6d8e40bdb6103aacffc97be34a2d5727fe2a18504f233",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_013_120_mask_reference.png",
+              "sha256": "570a05b3d5cbd81c2cae0e2617cee8e0b6c5e48fa37c13584d762aa7960e339c",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_prop_013_temple_guardian_statue_a.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-PROP-013",
+          "source_index": 121,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-121-12343743.png",
+          "source_sha256": "1d7b594e2833b45931b3175f9f7c64990b74aef09c50c98612f435b37bfbe582",
+          "source_message_id": "86c516e9-672d-4121-87ad-96a6b039cfc6",
+          "requested_ids": [
+            "C3-BG-011-004"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            21,
+            11,
+            494,
+            880
+          ],
+          "export": "art/environment/chapter_03/props/c3_prop_013_temple_guardian_statue_b.png",
+          "export_sha256": "685a03ea159d703b4a1ac6d86e391da7ba2080438e3e06a2de1ca005875da8e9",
+          "dimensions": [
+            473,
+            869
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            473,
+            869
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 162155,
+          "nonopaque_pixel_count": 162155,
+          "opaque_pixel_count": 248882,
+          "pivot": [
+            236.5,
+            869
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Visible content touches a source crop boundary; inspect source for clipping before use."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_013_121_depth_reference.png",
+              "sha256": "c8989bc61e05bde2177e93504158eab2118c1b6826d9df0dbb02957accddc137",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_013_121_mask_reference.png",
+              "sha256": "fad5101d09b995699886676ca65191bb746cf2e620366c558f11e3789cdb65b8",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_prop_013_temple_guardian_statue_b.png"
+        ]
+      }
+    ],
+    "exports": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-013/exports/organized_v1/C3-PROP-013_00_c3_prop_013_temple_guardian_statue_a.png",
+        "sha256": "e7916d0d24df8874922a86f77f5222c09476fe238f1c6184d6ec16ed6260cf6d",
+        "bytes": 868573,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_prop_013_temple_guardian_statue_a.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-013/exports/organized_v1/C3-PROP-013_01_c3_prop_013_temple_guardian_statue_b.png",
+        "sha256": "685a03ea159d703b4a1ac6d86e391da7ba2080438e3e06a2de1ca005875da8e9",
+        "bytes": 853962,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_prop_013_temple_guardian_statue_b.png",
+        "kind": "environment"
+      }
+    ],
+    "native_resources": [],
+    "missing_or_blocked": [],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

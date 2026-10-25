@@ -1,0 +1,139 @@
+[gd_scene load_steps=9 format=3]
+
+[ext_resource type="Texture2D" path="res://art/environment/chapter_03/platforms/c3_tile_007_temple_platform_ornate_a.png" id="1"]
+[ext_resource type="Texture2D" path="res://art/environment/chapter_03/props/c3_prop_008_broken_pillar_arch_a.png" id="2"]
+[ext_resource type="Texture2D" path="res://art/environment/chapter_03/props/c3_prop_007_ancient_stone_pillar_d.png" id="3"]
+[ext_resource type="Texture2D" path="res://art/environment/chapter_03/platforms/c3_tile_011_stone_stairs.png" id="4"]
+[ext_resource type="Texture2D" path="res://art/environment/chapter_03/props/c3_prop_008_broken_pillar_arch_b.png" id="5"]
+[ext_resource type="Texture2D" path="res://art/environment/chapter_03/props/c3_prop_008_broken_pillar_arch_c.png" id="6"]
+[ext_resource type="Texture2D" path="res://art/environment/chapter_03/platforms/c3_prop_027_floating_stone_platform_candidate.png" id="7"]
+[ext_resource type="Texture2D" path="res://art/environment/chapter_03/platforms/c3_tile_008_rope_bridge_complete_reference.png" id="8"]
+
+[node name="EnvironmentAssetReview" type="Node2D"]
+texture_filter = 2
+metadata/review_only = true
+metadata/approved = false
+
+[node name="ReviewBackground" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(0, 0, 1280, 0, 1280, 760, 0, 760)
+color = Color(0.04, 0.12, 0.15, 1)
+
+[node name="Asset1" type="Sprite2D" parent="."]
+position = Vector2(160, 305)
+scale = Vector2(0.5907172995780591, 0.5907172995780591)
+texture = ExtResource("1")
+offset = Vector2(0, -237.0)
+metadata/official_id = "C3-TILE-007"
+metadata/source_index = 128
+
+[node name="Label1" type="Label" parent="."]
+offset_left = 8.0
+offset_top = 314.0
+text = "C3-TILE-007 · source 128
+temple_platform_ornate_a"
+theme_override_font_sizes/font_size = 14
+
+[node name="Asset2" type="Sprite2D" parent="."]
+position = Vector2(480, 305)
+scale = Vector2(0.4172876304023845, 0.4172876304023845)
+texture = ExtResource("2")
+offset = Vector2(0, -335.5)
+metadata/official_id = "C3-PROP-008"
+metadata/source_index = 129
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 328.0
+offset_top = 314.0
+text = "C3-PROP-008 · source 129
+broken_pillar_arch_a"
+theme_override_font_sizes/font_size = 14
+
+[node name="Asset3" type="Sprite2D" parent="."]
+position = Vector2(800, 305)
+scale = Vector2(0.3290246768507638, 0.3290246768507638)
+texture = ExtResource("3")
+offset = Vector2(0, -425.5)
+metadata/official_id = "C3-PROP-007"
+metadata/source_index = 130
+
+[node name="Label3" type="Label" parent="."]
+offset_left = 648.0
+offset_top = 314.0
+text = "C3-PROP-007 · source 130
+ancient_stone_pillar_d"
+theme_override_font_sizes/font_size = 14
+
+[node name="Asset4" type="Sprite2D" parent="."]
+position = Vector2(1120, 305)
+scale = Vector2(0.45528455284552843, 0.45528455284552843)
+texture = ExtResource("4")
+offset = Vector2(0, -307.5)
+metadata/official_id = "C3-TILE-011"
+metadata/source_index = 131
+
+[node name="Label4" type="Label" parent="."]
+offset_left = 968.0
+offset_top = 314.0
+text = "C3-TILE-011 · source 131
+stone_stairs"
+theme_override_font_sizes/font_size = 14
+
+[node name="Asset5" type="Sprite2D" parent="."]
+position = Vector2(160, 655)
+scale = Vector2(0.44025157232704404, 0.44025157232704404)
+texture = ExtResource("5")
+offset = Vector2(0, -318.0)
+metadata/official_id = "C3-PROP-008"
+metadata/source_index = 132
+
+[node name="Label5" type="Label" parent="."]
+offset_left = 8.0
+offset_top = 664.0
+text = "C3-PROP-008 · source 132
+broken_pillar_arch_b"
+theme_override_font_sizes/font_size = 14
+
+[node name="Asset6" type="Sprite2D" parent="."]
+position = Vector2(480, 655)
+scale = Vector2(0.49295774647887325, 0.49295774647887325)
+texture = ExtResource("6")
+offset = Vector2(0, -284.0)
+metadata/official_id = "C3-PROP-008"
+metadata/source_index = 133
+
+[node name="Label6" type="Label" parent="."]
+offset_left = 328.0
+offset_top = 664.0
+text = "C3-PROP-008 · source 133
+broken_pillar_arch_c"
+theme_override_font_sizes/font_size = 14
+
+[node name="Asset7" type="Sprite2D" parent="."]
+position = Vector2(800, 655)
+scale = Vector2(0.4307692307692308, 0.4307692307692308)
+texture = ExtResource("7")
+offset = Vector2(0, -325.0)
+metadata/official_id = "C3-PROP-027"
+metadata/source_index = 135
+
+[node name="Label7" type="Label" parent="."]
+offset_left = 648.0
+offset_top = 664.0
+text = "C3-PROP-027 · source 135
+floating_stone_platform_candida"
+theme_override_font_sizes/font_size = 14
+
+[node name="Asset8" type="Sprite2D" parent="."]
+position = Vector2(1120, 655)
+scale = Vector2(0.4852686308492201, 0.4852686308492201)
+texture = ExtResource("8")
+offset = Vector2(0, -288.5)
+metadata/official_id = "C3-TILE-008"
+metadata/source_index = 136
+
+[node name="Label8" type="Label" parent="."]
+offset_left = 968.0
+offset_top = 664.0
+text = "C3-TILE-008 · source 136
+rope_bridge_complete_reference"
+theme_override_font_sizes/font_size = 14

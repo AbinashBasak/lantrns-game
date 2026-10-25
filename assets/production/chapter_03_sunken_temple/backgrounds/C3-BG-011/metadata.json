@@ -1,0 +1,92 @@
+{
+  "asset_id": "C3-BG-011",
+  "title": "Water caustics texture",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/backgrounds/C3-BG-011/source_images/C3-BG-011_organized_image-153-a2292005.png",
+      "sha256": "5937fc5cad288a7c7f7c865a4eef72c812a94827449e0281df5a75e46c4a6214",
+      "bytes": 2021553,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-153-a2292005.png",
+      "source_message_id": "ebeaab2f-73a6-4cec-aff2-7d1457530164",
+      "source_requested_ids": [
+        "C3-BG-012"
+      ],
+      "generated_subject_title": "Water Caustics Texture Asset Sheet",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "effect_texture",
+        "details": {
+          "official_ids": [
+            "C3-BG-011"
+          ],
+          "role": "grayscale caustic intensity shader input",
+          "source_path": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-153-a2292005.png",
+          "source_sha256": "5937fc5cad288a7c7f7c865a4eef72c812a94827449e0281df5a75e46c4a6214",
+          "source_message_id": "ebeaab2f-73a6-4cec-aff2-7d1457530164",
+          "source_crop": [
+            515,
+            2,
+            1025,
+            856
+          ],
+          "output_path": "art/vfx/chapter_03/C3-BG-011_caustic_intensity.png",
+          "output_sha256": "ffd6e46f6e210ecb8ea14ef266ba692e54eeb8628ff9ceb782f5308d52f4ff4b",
+          "dimensions": [
+            510,
+            854
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            510,
+            854
+          ],
+          "alpha_extrema": null,
+          "provenance": "derived rectangular crop from unchanged ZIP source",
+          "notes": "Middle panel extracted; printed depth label is source terminology only. Not a normal map or a registered depth map. Source colored panel has baked checkerboard and is excluded. Pattern is not proven seamless; shader mirrors addressing to prevent value seams. Top-left origin.",
+          "production_approved": false,
+          "pivot": "top-left",
+          "receives_light": false,
+          "casts_shadows": false,
+          "emits_light": false,
+          "collision_shape": "none; author water collision separately",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "z_index": "-30..-10 for distant waterfall; +10 caustic water overlay",
+          "frame_count": 1,
+          "fps": null,
+          "animation_timing": "native shader motion; not a sprite animation sheet",
+          "status": "imported and resource-review passed; actual-section QA pending"
+        },
+        "output_paths": [
+          "art/vfx/chapter_03/C3-BG-011_caustic_intensity.png"
+        ]
+      }
+    ],
+    "exports": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/backgrounds/C3-BG-011/exports/organized_v1/C3-BG-011_00_C3-BG-011_caustic_intensity.png",
+        "sha256": "ffd6e46f6e210ecb8ea14ef266ba692e54eeb8628ff9ceb782f5308d52f4ff4b",
+        "bytes": 455783,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/vfx/chapter_03/C3-BG-011_caustic_intensity.png",
+        "kind": "effect_texture"
+      }
+    ],
+    "native_resources": [],
+    "missing_or_blocked": [],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

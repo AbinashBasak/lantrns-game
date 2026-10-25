@@ -1,0 +1,5177 @@
+{
+  "governing_bible": "lanterns_underroot_chapter_3_production_bible.md",
+  "source_archive": "assets/production/source_archives/chat_export_6add021c/metadata.json",
+  "policy": "No generation, enlargement, normal-map fabrication, checklist approval, or complete level illustration used as gameplay. Native export candidates only. Originals unchanged in archive.",
+  "exports": [
+    {
+      "asset_id": "C3-BG-002",
+      "source_index": 76,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-076-fdc3ac82.png",
+      "source_sha256": "ee2adc137401b83bab15038db9d4e377fe95436aaa6ef4313375ed4d37e723f2",
+      "source_message_id": "9d1aa5a2-2bc6-463c-a3d5-788b7a52215b",
+      "requested_ids": [
+        "C3-BG-002"
+      ],
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "content_trim": [
+        0,
+        8,
+        1672,
+        941
+      ],
+      "export": "art/environment/chapter_03/backgrounds/c3_bg_002_distant_submerged_ruins.png",
+      "export_sha256": "e410d2c7e1459e824b8c59f4591f0bc1b3e028cf848b52687bfd48390a0b6a82",
+      "dimensions": [
+        1672,
+        933
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1672,
+        933
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 560705,
+      "nonopaque_pixel_count": 1559852,
+      "opaque_pixel_count": 124,
+      "pivot": [
+        836.0,
+        933
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -60,
+      "receives_light": false,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "unchanged native alpha crop",
+      "purpose": "distant backdrop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ]
+    },
+    {
+      "asset_id": "C3-BG-002",
+      "source_index": 79,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-079-75fb8da1.png",
+      "source_sha256": "331e2394223653157d65070bcd3033a0b372ff172c661c42f92fa4de956df85b",
+      "source_message_id": "1c5ef501-8cc7-487e-9c54-d79a8b2ed68f",
+      "requested_ids": [
+        "C3-BG-003"
+      ],
+      "source_dimensions": [
+        1672,
+        941
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "content_trim": [
+        0,
+        0,
+        1662,
+        941
+      ],
+      "export": "art/environment/chapter_03/backgrounds/c3_bg_002_distant_submerged_ruins_variant.png",
+      "export_sha256": "99b9c4155bee74d0bfb48f801acec5e94b04666f4ec71bff4b823d25bf9916fc",
+      "dimensions": [
+        1662,
+        941
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1662,
+        941
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 525443,
+      "nonopaque_pixel_count": 1563736,
+      "opaque_pixel_count": 206,
+      "pivot": [
+        831.0,
+        941
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -60,
+      "receives_light": false,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "unchanged native alpha crop",
+      "purpose": "distant backdrop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ]
+    },
+    {
+      "asset_id": "C3-BG-004",
+      "source_index": 90,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-090-ea6e19f3.png",
+      "source_sha256": "6e60c63253c1d8d262df6ab4ef15aa515d3c3f732d5fda4b81254a96d4de14ad",
+      "source_message_id": "eaac7b11-e71f-48de-8a22-18d3e611d5f8",
+      "requested_ids": [
+        "C3-BG-005"
+      ],
+      "source_dimensions": [
+        2087,
+        754
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        2087,
+        754
+      ],
+      "content_trim": [
+        0,
+        0,
+        2087,
+        754
+      ],
+      "export": "art/environment/chapter_03/backgrounds/c3_bg_004_crystal_cavern_silhouettes.png",
+      "export_sha256": "580b3103d6100b24a0d08b92c43596a2ef9bebd32e55e433e5d753189447ce40",
+      "dimensions": [
+        2087,
+        754
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        2087,
+        754
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 413910,
+      "nonopaque_pixel_count": 1573482,
+      "opaque_pixel_count": 116,
+      "pivot": [
+        1043.5,
+        754
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -60,
+      "receives_light": false,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "unchanged native alpha crop",
+      "purpose": "distant backdrop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-009",
+      "source_index": 115,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-115-e1f4f7f7.png",
+      "source_sha256": "cc99f384e6a16b8c3d69dc7d3211c1c44c7f3ba177a5b7ded33ea9f73545c2d2",
+      "source_message_id": "b1cc0909-ed77-473e-8043-1b8d1d3af585",
+      "requested_ids": [],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        7,
+        24,
+        510,
+        880
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_009_temple_arch_ruined_a.png",
+      "export_sha256": "c860114795664375f4b35bf9529c9d8799b164599e7529fdccfcd3c7b7771dc4",
+      "dimensions": [
+        503,
+        856
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        503,
+        856
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 176594,
+      "nonopaque_pixel_count": 176594,
+      "opaque_pixel_count": 253974,
+      "pivot": [
+        251.5,
+        856
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_115_depth_reference.png",
+          "sha256": "b80f89f4ba9f56559485a4b72ad34b571a145071ad3cebf23c876003920294b6",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_115_mask_reference.png",
+          "sha256": "3ab2858b5cb1feedc449e3b3f2ee00d66d619b070b05b2185a56dc67870284da",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-009",
+      "source_index": 116,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-116-294d5859.png",
+      "source_sha256": "4b69afcd3b0faa191bc2636902b1a11c60ba0c42e8cddbaa04aaf61bbf28a44d",
+      "source_message_id": "e2b0ca76-a836-49e7-bb54-d283808c1720",
+      "requested_ids": [],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        5,
+        22,
+        510,
+        856
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_009_temple_arch_ruined_b.png",
+      "export_sha256": "04f687fc04416ed4b180809a8050fe7bdb1db8f70a605d4c72366b2030149abb",
+      "dimensions": [
+        505,
+        834
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        505,
+        834
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 178007,
+      "nonopaque_pixel_count": 178007,
+      "opaque_pixel_count": 243163,
+      "pivot": [
+        252.5,
+        834
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_116_depth_reference.png",
+          "sha256": "d44d0c5502b798fc0f3e5840b6cffffa5a2b87e2800e098e3406e598f8479b82",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_116_mask_reference.png",
+          "sha256": "06bb4ada87f4b8f2cd890bfc459c10577d4143416919664a0e1b3419a8811cff",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-007",
+      "source_index": 117,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-117-f2240354.png",
+      "source_sha256": "f2809be9563b39faf306c2b1e7e3713f9945f1d32f40f13ea0de18bdf4a4f772",
+      "source_message_id": "98100166-eb54-413d-a7fe-8a4e04f73665",
+      "requested_ids": [
+        "C3-BG-011"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        18,
+        148,
+        510,
+        810
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_007_ancient_stone_pillar_a.png",
+      "export_sha256": "ea63b27626459cf47ff3965719bf9981f2461c5bd8f3f4a04c56020fdf07d25f",
+      "dimensions": [
+        492,
+        662
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        492,
+        662
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 153246,
+      "nonopaque_pixel_count": 153246,
+      "opaque_pixel_count": 172458,
+      "pivot": [
+        246.0,
+        662
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_007_117_depth_reference.png",
+          "sha256": "2688c5a95d161e5ba313ada0d896fe550d3ed1fe2c0a30e6504bcd814a3fbcf4",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_007_117_mask_reference.png",
+          "sha256": "c8fcc59efb6c571fa5629d8deeac609760d22c48e5c7900a8972639d83be9c89",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-007",
+      "source_index": 118,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-118-e6c96cb3.png",
+      "source_sha256": "6e9c1c1eac6510067aad008d99c783b0a438dd2c1a7392d45bd96e7ca657fca0",
+      "source_message_id": "a3ffc616-4ff6-4643-b82f-1d8f34b8fd84",
+      "requested_ids": [
+        "C3-BG-011-002"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        67,
+        18,
+        457,
+        880
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_007_ancient_stone_pillar_b.png",
+      "export_sha256": "25ee2adbea715eb8c2346c66944ae7631d0777d8ccca2ce0a2ef0090200d3d4e",
+      "dimensions": [
+        390,
+        862
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        390,
+        862
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 152012,
+      "nonopaque_pixel_count": 152012,
+      "opaque_pixel_count": 184168,
+      "pivot": [
+        195.0,
+        862
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_007_118_depth_reference.png",
+          "sha256": "b4cf2111f490ac8778aef59710b85d452d07dedb4f8a495daabd054c97a3ac1d",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_007_118_mask_reference.png",
+          "sha256": "654806b2cd9b91ff68858aa58817281489dffa633840a76f026cff97cc12e15e",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-007",
+      "source_index": 119,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-119-3f92c33d.png",
+      "source_sha256": "ea3b91861fe36f37d1c0de37322aca36024d4b23b34729ca0bd72d4d73c38d95",
+      "source_message_id": "db470f89-e5de-44ed-8977-387bef1800a3",
+      "requested_ids": [
+        "C3-BG-011-004"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        62,
+        15,
+        467,
+        880
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_007_ancient_stone_pillar_c.png",
+      "export_sha256": "97f37b14b12c9a1dab4616c808f9cc867c45292632d54659e967cdd568f9311e",
+      "dimensions": [
+        405,
+        865
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        405,
+        865
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 187348,
+      "nonopaque_pixel_count": 187348,
+      "opaque_pixel_count": 162977,
+      "pivot": [
+        202.5,
+        865
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_007_119_depth_reference.png",
+          "sha256": "ae468ac3f5ddcc20ab05135b65dc7694fb6482e95e823aae1cc36ec6beaf9343",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_007_119_mask_reference.png",
+          "sha256": "092b403fa1f6bffccf487a8f6ad40618f17bead1b694977b20dddbba7f1d9e49",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-013",
+      "source_index": 120,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-120-52252886.png",
+      "source_sha256": "21a7b3fbde09af3ade19ff6774067d66d41c8d146b8db36c1ccf8e26a8482de8",
+      "source_message_id": "e13c575c-55f2-406c-89cc-e72506ce31a9",
+      "requested_ids": [],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_013_temple_guardian_statue_a.png",
+      "export_sha256": "e7916d0d24df8874922a86f77f5222c09476fe238f1c6184d6ec16ed6260cf6d",
+      "dimensions": [
+        510,
+        880
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 153880,
+      "nonopaque_pixel_count": 448800,
+      "opaque_pixel_count": 0,
+      "pivot": [
+        255.0,
+        880
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "unchanged native alpha crop",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_013_120_depth_reference.png",
+          "sha256": "5a866700a4ab7cb1f3d6d8e40bdb6103aacffc97be34a2d5727fe2a18504f233",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_013_120_mask_reference.png",
+          "sha256": "570a05b3d5cbd81c2cae0e2617cee8e0b6c5e48fa37c13584d762aa7960e339c",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-013",
+      "source_index": 121,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-121-12343743.png",
+      "source_sha256": "1d7b594e2833b45931b3175f9f7c64990b74aef09c50c98612f435b37bfbe582",
+      "source_message_id": "86c516e9-672d-4121-87ad-96a6b039cfc6",
+      "requested_ids": [
+        "C3-BG-011-004"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        21,
+        11,
+        494,
+        880
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_013_temple_guardian_statue_b.png",
+      "export_sha256": "685a03ea159d703b4a1ac6d86e391da7ba2080438e3e06a2de1ca005875da8e9",
+      "dimensions": [
+        473,
+        869
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        473,
+        869
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 162155,
+      "nonopaque_pixel_count": 162155,
+      "opaque_pixel_count": 248882,
+      "pivot": [
+        236.5,
+        869
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_013_121_depth_reference.png",
+          "sha256": "c8989bc61e05bde2177e93504158eab2118c1b6826d9df0dbb02957accddc137",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_013_121_mask_reference.png",
+          "sha256": "fad5101d09b995699886676ca65191bb746cf2e620366c558f11e3789cdb65b8",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-009",
+      "source_index": 122,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-122-f5ac0960.png",
+      "source_sha256": "626283eb2f6faf9b289b4acebd0f662201d536f15e52be00c0c191e0868ab4e5",
+      "source_message_id": "8cc136f4-aad8-4f73-a75a-5c4194710a91",
+      "requested_ids": [
+        "C3-BG-011-004"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        18,
+        101,
+        510,
+        864
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_009_temple_arch_ornate_a.png",
+      "export_sha256": "e286e9909de2dced9470c80e2c0e34cae0b822174cb6a44df7a6211fe013c387",
+      "dimensions": [
+        492,
+        763
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        492,
+        763
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 150109,
+      "nonopaque_pixel_count": 150109,
+      "opaque_pixel_count": 225287,
+      "pivot": [
+        246.0,
+        763
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_122_depth_reference.png",
+          "sha256": "c0a8ad4c0d037ec1e65e71454375c56ea92cc0536f1a4a9232bcf304ffc74b03",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_122_mask_reference.png",
+          "sha256": "3faeaa71fb8ea3f797d280732450e40e1072ff6f96f62eec4934742074aa90f6",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-009",
+      "source_index": 123,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-123-90eca4c4.png",
+      "source_sha256": "8d84e3179c2cc3beb655bc2af5fdb6daac3dffc53e08af4f351a5a4585309d9a",
+      "source_message_id": "7fc873e7-48fc-43de-bc44-e8300faec12b",
+      "requested_ids": [],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        9,
+        96,
+        505,
+        876
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_009_temple_arch_ruined_c.png",
+      "export_sha256": "a2855c7df41af994db41547bb91c0c945a9e64a2b80577ee579fbc57fa097abf",
+      "dimensions": [
+        496,
+        780
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        496,
+        780
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 165175,
+      "nonopaque_pixel_count": 165175,
+      "opaque_pixel_count": 221705,
+      "pivot": [
+        248.0,
+        780
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_123_depth_reference.png",
+          "sha256": "7d7dd97def72f886faa1964430616c561ad4ce95ea376d846fba99c42b69816f",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_123_mask_reference.png",
+          "sha256": "ef18c66eb20d692798de25ebe437f6e8bd530f949d27837455e83d0ae0ab7709",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-009",
+      "source_index": 124,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-124-bbd7e76f.png",
+      "source_sha256": "b439918d1874bc4784fd2acee8379179764aa8d287fa1fa49bf7faa6e44ec1b1",
+      "source_message_id": "45cf2aa5-1821-4089-a395-2b16d22de61f",
+      "requested_ids": [
+        "C3-BG-011-005"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        8,
+        71,
+        508,
+        867
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_009_temple_arch_ornate_b.png",
+      "export_sha256": "14f519580093bb560db9f1aef9376c7a3f7688ffebbd353350e4b6068dfd8c6c",
+      "dimensions": [
+        500,
+        796
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        500,
+        796
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 151123,
+      "nonopaque_pixel_count": 151123,
+      "opaque_pixel_count": 246877,
+      "pivot": [
+        250.0,
+        796
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_124_depth_reference.png",
+          "sha256": "58d6b2709c6535f138b695d403bbfd653d8d7687f2320825c5896501fc0f2520",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_124_mask_reference.png",
+          "sha256": "cbeb6e658a0831aad660ac747bae9e23b7e8f106d41d05099de09f65ee61a896",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-009",
+      "source_index": 125,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-125-0b642212.png",
+      "source_sha256": "4acbaf42b1d6bbc84d214c03468ee104f8137fc86eeefa33adfc68928974c8b0",
+      "source_message_id": "7fe92eed-fd99-459e-a237-858b63a11918",
+      "requested_ids": [
+        "C3-BG-011-005"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        10,
+        19,
+        500,
+        870
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_009_temple_arch_ornate_c.png",
+      "export_sha256": "41ed3cc979c5986ca78c1d9a7ccd67679f6ddc4408ebca12f18d7a67f855c873",
+      "dimensions": [
+        490,
+        851
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        490,
+        851
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 179743,
+      "nonopaque_pixel_count": 179743,
+      "opaque_pixel_count": 237247,
+      "pivot": [
+        245.0,
+        851
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_125_depth_reference.png",
+          "sha256": "cdf701abc767f54ffa8fa131f1c1a778dc765b5b3b5d206536c5ee01814b3003",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_125_mask_reference.png",
+          "sha256": "6ece40d97211fcfcedc5c7a0ff69cb562270c15b05648c3ff906fc3134375b65",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-009",
+      "source_index": 126,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-126-0f23bfa1.png",
+      "source_sha256": "bbd6916cd6e25cda5c469f5414fc55e4987f27d49ab295bef1eb1c32439c3038",
+      "source_message_id": "c06158d9-8fa2-4d4a-9196-251718b9a95c",
+      "requested_ids": [],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "content_trim": [
+        42,
+        6,
+        1506,
+        999
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_009_temple_arch_ornate_large.png",
+      "export_sha256": "822d4647cda68aa91f773a88311fe0a843538d48898d49777562413a8bb9c96d",
+      "dimensions": [
+        1464,
+        993
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1464,
+        993
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 736773,
+      "nonopaque_pixel_count": 736773,
+      "opaque_pixel_count": 716979,
+      "pivot": [
+        732.0,
+        993
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-009",
+      "source_index": 127,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-127-1c76cdf5.png",
+      "source_sha256": "86bc81a0d5e3028554f6e01cb017858fe4a8f5bd64295e2ee091fb43a4ba19f4",
+      "source_message_id": "b32a079a-6de7-46a2-95c7-0a2a1c21037e",
+      "requested_ids": [
+        "C3-BG-011-005"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        15,
+        38,
+        510,
+        858
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_009_temple_arch_ornate_d.png",
+      "export_sha256": "24cf17b19bdecfd7894d04dd22ed1bf11642fd8bc860e91c3612f1df0ea2edf6",
+      "dimensions": [
+        495,
+        820
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        495,
+        820
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 158984,
+      "nonopaque_pixel_count": 405900,
+      "opaque_pixel_count": 0,
+      "pivot": [
+        247.5,
+        820
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_127_depth_reference.png",
+          "sha256": "08a1bcde7eee5004d91bf70dc2fb632beb48195ee112b1eedc3ec054f6b610d6",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_127_mask_reference.png",
+          "sha256": "ddd1fa8e3f9cdaec0c30748029fa0a92ec56278fa1139293409c69e9e139d0be",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-TILE-007",
+      "source_index": 128,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-128-d3501f0d.png",
+      "source_sha256": "f2d755456c2caaf128b1ee64be8d1b17eba44520e4d91ce33d47860f5a79f524",
+      "source_message_id": "f6a46635-e91f-47ec-bec5-417a866188c5",
+      "requested_ids": [
+        "C3-BG-011-005"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        12,
+        280,
+        500,
+        754
+      ],
+      "export": "art/environment/chapter_03/platforms/c3_tile_007_temple_platform_ornate_a.png",
+      "export_sha256": "9c21b5a99e2dbb550fc76bcc4847355ed8b7a7cd0271c7a968169a5263e24a39",
+      "dimensions": [
+        488,
+        474
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        488,
+        474
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 127833,
+      "nonopaque_pixel_count": 127833,
+      "opaque_pixel_count": 103479,
+      "pivot": [
+        244.0,
+        474
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "solid modular art candidate",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Seams and gameplay collision are not approved; not substituted for missing TILE001/002/003 terrain."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_tile_007_128_depth_reference.png",
+          "sha256": "c500761902f1321b8e289bc53e3fb405f4ca650236020aac17910f14ba1f04f2",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_tile_007_128_mask_reference.png",
+          "sha256": "24efa5c884514eccf7023007fc762b8a4a062abe3b705964564b09d4d66bc071",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-008",
+      "source_index": 129,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-129-42d8ca65.png",
+      "source_sha256": "655b202324be7676e9e6242785c44d9e96325130fc21debdba90bb6568510397",
+      "source_message_id": "d00a29fa-0ea5-4622-9f2f-d2aade0ca7c4",
+      "requested_ids": [
+        "C3-BG-011-007"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        19,
+        135,
+        492,
+        806
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_008_broken_pillar_arch_a.png",
+      "export_sha256": "b0081b8190f2fb2d57619aa230451bc61ef1985a374a3f66fa0bb7f637ce6b12",
+      "dimensions": [
+        473,
+        671
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        473,
+        671
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 129849,
+      "nonopaque_pixel_count": 129849,
+      "opaque_pixel_count": 187534,
+      "pivot": [
+        236.5,
+        671
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_008_129_depth_reference.png",
+          "sha256": "034d28dacb38bbb19f9d17c579fba81e910f48c8daf473bdef1d113ee8a36087",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_008_129_mask_reference.png",
+          "sha256": "1882e25bd3d0ce624c5973ac92a74a01e22513530b558ac6e860d2831d52d34b",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-007",
+      "source_index": 130,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-130-73a81ce9.png",
+      "source_sha256": "eaad1457381e02ca33d123d99e7215b0eb2a0815e368da5b8900031ab327567e",
+      "source_message_id": "5694e5b9-5a2c-4ecc-8228-90ae437cb70e",
+      "requested_ids": [
+        "C3-BG-011-006"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        66,
+        21,
+        424,
+        872
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_007_ancient_stone_pillar_d.png",
+      "export_sha256": "85d4541cebe1e39c8e22451c52b4583aa071e91c59c8918fcb7de1d30fc614c3",
+      "dimensions": [
+        358,
+        851
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        358,
+        851
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 136038,
+      "nonopaque_pixel_count": 136038,
+      "opaque_pixel_count": 168620,
+      "pivot": [
+        179.0,
+        851
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_007_130_depth_reference.png",
+          "sha256": "29aec5b08e56d9d1861dd4846d31c843c458021c739b5d56e5c65306996ab295",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_007_130_mask_reference.png",
+          "sha256": "84b1538222cf6beddc0e1189118d24e0fac92d3b5a3b29ec9353da07d8194125",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-TILE-011",
+      "source_index": 131,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-131-b4d803f2.png",
+      "source_sha256": "4c78eca516205ee965e30d68998d4cf0f73bb9ae3fd9e44608a7bdc40f69a967",
+      "source_message_id": "368e4481-814b-45e5-b8c9-33542e4d6444",
+      "requested_ids": [
+        "C3-BG-011-008"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        13,
+        172,
+        503,
+        787
+      ],
+      "export": "art/environment/chapter_03/platforms/c3_tile_011_stone_stairs.png",
+      "export_sha256": "bf170971727dae0095706afbf8b52bf5d7af3a3cc64fb07259064b6b17891b95",
+      "dimensions": [
+        490,
+        615
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        490,
+        615
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 127104,
+      "nonopaque_pixel_count": 127104,
+      "opaque_pixel_count": 174246,
+      "pivot": [
+        245.0,
+        615
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "solid modular art candidate",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Perspective artwork; not a complete modular tile/end-cap kit or verified side-view collision surface.",
+        "Seams and gameplay collision are not approved; not substituted for missing TILE001/002/003 terrain."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_tile_011_131_depth_reference.png",
+          "sha256": "665a4038f50cf587006de6e2279ca802cea73f3fa6b2c316c9aec62850d094e5",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_tile_011_131_mask_reference.png",
+          "sha256": "2c6b6238c7f88a5d4cd078bbbd6b99be3a1c7f7c39ad69286084ac4878a888be",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-008",
+      "source_index": 132,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-132-69c1c6c9.png",
+      "source_sha256": "97944b90190991a5d5e466152516dbd13c150af12198db2ff4a55ebc01cc0d33",
+      "source_message_id": "378db4ea-9812-4bed-b73d-75a48389c4c2",
+      "requested_ids": [
+        "C3-BG-011-007"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        18,
+        145,
+        503,
+        781
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_008_broken_pillar_arch_b.png",
+      "export_sha256": "9b634da234338fee323d4efb57b200ef98b7089138e6b749029643154900e434",
+      "dimensions": [
+        485,
+        636
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        485,
+        636
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 117705,
+      "nonopaque_pixel_count": 117705,
+      "opaque_pixel_count": 190755,
+      "pivot": [
+        242.5,
+        636
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_008_132_depth_reference.png",
+          "sha256": "ef7cb24e44596ed64a25257c63b459b2560b685c30251be810d5782940467f3e",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_008_132_mask_reference.png",
+          "sha256": "0893f2b447215fc5726597242b46e1a2e3d7642391309dee06bc64941c092b06",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-008",
+      "source_index": 133,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-133-901cba83.png",
+      "source_sha256": "c874b977f9c21c8ae8ab3c0d3e9b73ad21fcd3e9720363c19e92071f97ab6f50",
+      "source_message_id": "f1b04ada-e637-4887-95e4-affb8bb37fd1",
+      "requested_ids": [],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        16,
+        199,
+        504,
+        767
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_008_broken_pillar_arch_c.png",
+      "export_sha256": "960f79875da525cc1f0fc9f87a5434a0049801e166df663d24343d1d6e9d57fe",
+      "dimensions": [
+        488,
+        568
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        488,
+        568
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 93329,
+      "nonopaque_pixel_count": 93329,
+      "opaque_pixel_count": 183855,
+      "pivot": [
+        244.0,
+        568
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_008_133_depth_reference.png",
+          "sha256": "d7ce8af2930fa3d3cad2457cd6fefdd68fc1d17ce64655bdffda642749ae9124",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_008_133_mask_reference.png",
+          "sha256": "a0928321bafbe56c109db92e233d842d3b610421e38dfa7437420cd3106976b3",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-027",
+      "source_index": 135,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-135-b17eef99.png",
+      "source_sha256": "fc326b673b4176939e41f220b92ab77362a58854cef997d132a7c7cc9225f5f7",
+      "source_message_id": "d76c9fcd-03c0-4862-930b-c877e85795d2",
+      "requested_ids": [
+        "C3-BG-011-011"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        18,
+        133,
+        500,
+        783
+      ],
+      "export": "art/environment/chapter_03/platforms/c3_prop_027_floating_stone_platform_candidate.png",
+      "export_sha256": "e994077f069f625141f510e5e5b367831e1f593f7ec0668ca6d7cf6321d828e3",
+      "dimensions": [
+        482,
+        650
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        482,
+        650
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 96487,
+      "nonopaque_pixel_count": 96487,
+      "opaque_pixel_count": 216813,
+      "pivot": [
+        241.0,
+        650
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "solid modular art candidate",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Official-ID association is a candidate by subject; no motion/puzzle state delivered.",
+        "Seams and gameplay collision are not approved; not substituted for missing TILE001/002/003 terrain."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_027_135_depth_reference.png",
+          "sha256": "251900d88fb78f3cbe8a09dbdc898a2327f3794ed923936d91e62ebb4886b557",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_027_135_mask_reference.png",
+          "sha256": "e9270496664a7b1d8f11cdbe33f54684297e9cfb9aebe788fb4128a341311f66",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-TILE-008",
+      "source_index": 136,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-136-b844b4f5.png",
+      "source_sha256": "ae9b626f680ba126ca84e5d3f82933e43dc0022f0f3d406cd63db4246fadd091",
+      "source_message_id": "f2183b27-607f-44f6-83e1-41168e026d1f",
+      "requested_ids": [
+        "C3-BG-011-012"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        540,
+        880
+      ],
+      "content_trim": [
+        6,
+        221,
+        533,
+        798
+      ],
+      "export": "art/environment/chapter_03/platforms/c3_tile_008_rope_bridge_complete_reference.png",
+      "export_sha256": "93f3b3d105248a1b5960b9d4ec2dcac6ef139e3952474d2eaad101c421efacce",
+      "dimensions": [
+        527,
+        577
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        527,
+        577
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 157115,
+      "nonopaque_pixel_count": 157115,
+      "opaque_pixel_count": 146964,
+      "pivot": [
+        263.5,
+        577
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "solid modular art candidate",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Perspective artwork; not a complete modular tile/end-cap kit or verified side-view collision surface.",
+        "Seams and gameplay collision are not approved; not substituted for missing TILE001/002/003 terrain."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_tile_008_136_depth_reference.png",
+          "sha256": "6a0ffffa1ba8a67e330357e1cef5ea469d99f79cf3223b6003059534f5394fed",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_tile_008_136_mask_reference.png",
+          "sha256": "92df3cf645d8498af2de9a65608cdd44812f87f621267cb9004d51d872ab9cf9",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-DEC-003",
+      "source_index": 137,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-137-3c7e75a3.png",
+      "source_sha256": "8f3848f6023c17ead916d1c3ae0694d83b6bd9b38f6c566f48fc107e59b9a6de",
+      "source_message_id": "1e1188f9-f92e-4063-b8d1-57b390d26b0b",
+      "requested_ids": [
+        "C3-BG-011-013"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        23,
+        42,
+        508,
+        873
+      ],
+      "export": "art/environment/chapter_03/props/c3_dec_003_hanging_vines_large.png",
+      "export_sha256": "0c74d2c3ceadf91413a62d0cc06a9e54450ce4ff3b5aa222d692bb54f243090e",
+      "dimensions": [
+        485,
+        831
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        485,
+        831
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 229177,
+      "nonopaque_pixel_count": 229177,
+      "opaque_pixel_count": 173858,
+      "pivot": [
+        242.5,
+        831
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_dec_003_137_depth_reference.png",
+          "sha256": "9c3575bf3538f7410298ad9ac0e15798c1894c7a0aa2f88c096017cea7efaa80",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_dec_003_137_mask_reference.png",
+          "sha256": "e8e8f48b42d944b1c2a11589f4e50fd070bea51323e022b753ecc703b872d902",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-008",
+      "source_index": 138,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-138-face7cce.png",
+      "source_sha256": "095e661a9ca4cee33661215ca77239469ad31c75b138137089dbbdb417ebe9f2",
+      "source_message_id": "b794a643-9ef8-467d-995b-a5afbb04992c",
+      "requested_ids": [
+        "C3-BG-011-014"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        12,
+        120,
+        508,
+        807
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_008_broken_arch_buttress_a.png",
+      "export_sha256": "a36bd5568ecb163cce60c46aa627927482c5e5dd9de7a20e9bc090553d2c5e0f",
+      "dimensions": [
+        496,
+        687
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        496,
+        687
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 119902,
+      "nonopaque_pixel_count": 119902,
+      "opaque_pixel_count": 220850,
+      "pivot": [
+        248.0,
+        687
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_008_138_depth_reference.png",
+          "sha256": "6d717857d3829c9a88a152e036e471adf167b97c46bfa93f97e6c87020d928e0",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_008_138_mask_reference.png",
+          "sha256": "83d737f9e4a1884078bbd77f3bca49f5c94fdb352720d8da19c315c79eeca315",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-008",
+      "source_index": 139,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-139-66b050a5.png",
+      "source_sha256": "510fb57678aabb250b955081100853a8edd44d8d8d19e31a905b8f71871baffd",
+      "source_message_id": "8b086f1f-de73-4166-8170-c1ab7d7051ab",
+      "requested_ids": [],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        22,
+        69,
+        501,
+        880
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_008_broken_arch_buttress_b.png",
+      "export_sha256": "af4c9f461c7d7d694ccbb71c4126120ca41e7e302e55d911d4b10e718b45e0ed",
+      "dimensions": [
+        479,
+        811
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        479,
+        811
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 153041,
+      "nonopaque_pixel_count": 153041,
+      "opaque_pixel_count": 235428,
+      "pivot": [
+        239.5,
+        811
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_008_139_depth_reference.png",
+          "sha256": "5c64a26553d31838e1e3d2a6195ed46485149a1d066bda48807d8cf456ca6ed5",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_008_139_mask_reference.png",
+          "sha256": "e8bafef1891a9f33930cce7ab992c54facb5849bef32b4a47833f0d02efc0856",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-008",
+      "source_index": 140,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-140-44a3b7a3.png",
+      "source_sha256": "42e5122c00b6a3a0e13c7177ec1b97f372b8e7566d96229babfe7f67a26d0298",
+      "source_message_id": "6fd84443-b434-48f4-866d-5499635549ce",
+      "requested_ids": [
+        "C3-BG-011-015"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        12,
+        65,
+        506,
+        807
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_008_broken_pillar_short.png",
+      "export_sha256": "50ebd4dc7a5aef1d5ca66805790c2cb244f05864b4d96a96d35fda30ed9cc303",
+      "dimensions": [
+        494,
+        742
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        494,
+        742
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 171534,
+      "nonopaque_pixel_count": 171534,
+      "opaque_pixel_count": 195014,
+      "pivot": [
+        247.0,
+        742
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_008_140_depth_reference.png",
+          "sha256": "e0e07004a761d2f627338a59aa5190a7ae04061fc98e74bef56ecd1206e8f838",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_008_140_mask_reference.png",
+          "sha256": "33ece530907be8ed51686f9d092b14c7d89db8b1020e07365e614fe59543761b",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-004",
+      "source_index": 141,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-141-f72525fc.png",
+      "source_sha256": "66796c05061998bb5f616d2f6d966d02d62922a48990a62ff96a43e106baa638",
+      "source_message_id": "b4e2d6bb-e197-42dc-b763-bc6f0acb7031",
+      "requested_ids": [
+        "C3-BG-011-016"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        31,
+        45,
+        504,
+        872
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_004_wall_mounted_lantern_unlit.png",
+      "export_sha256": "3bc0cff5730984a2b3ceab10783fec0c2f3307ec33b92ef90133da14cad80659",
+      "dimensions": [
+        473,
+        827
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        473,
+        827
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 184825,
+      "nonopaque_pixel_count": 184825,
+      "opaque_pixel_count": 206346,
+      "pivot": [
+        236.5,
+        827
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_004_141_depth_reference.png",
+          "sha256": "312ec2cb6b0efeaee52120e0a098301fe7d5d44f6ed9d79e00991d0ec119e171",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_004_141_mask_reference.png",
+          "sha256": "346c90c3232d3a70b5b178b9c78bc338e1cafc723177ffe8c26232fab0c5debe",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-TILE-012",
+      "source_index": 142,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-142-ed1162de.png",
+      "source_sha256": "ff6487baf1d99c268a087e8cb76f95d88d2d2906a53c42dcb0371142e9210eda",
+      "source_message_id": "a3c92dca-9806-4abf-9f4c-5336fb82b34a",
+      "requested_ids": [
+        "C3-BG-011-017"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        18,
+        43,
+        505,
+        858
+      ],
+      "export": "art/environment/chapter_03/tiles/c3_tile_012_temple_wall_relief.png",
+      "export_sha256": "83da0d46ff037d6b41fbc4c1e67c82bd4d0c25d38f8ae941ad565ae047f1737f",
+      "dimensions": [
+        487,
+        815
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        487,
+        815
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 94147,
+      "nonopaque_pixel_count": 94147,
+      "opaque_pixel_count": 302758,
+      "pivot": [
+        243.5,
+        815
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "solid modular art candidate",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Seams and gameplay collision are not approved; not substituted for missing TILE001/002/003 terrain."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_tile_012_142_depth_reference.png",
+          "sha256": "b70e6aef4d926a13ae265b79c7f5116e86ed98eccfe0209be3c3f2a32fa236a4",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_tile_012_142_mask_reference.png",
+          "sha256": "4d4e3c2e381d7043e74004b93e4d700d65b24421e0b7242746b37228b1cd6db4",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-TILE-007",
+      "source_index": 143,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-143-bab60a8d.png",
+      "source_sha256": "fcbbf1ea81a10fa06622811b1750fd30d11353ba312aaddf9ac89cc497c77282",
+      "source_message_id": "f0557620-b940-4d81-980e-31724a63a5ab",
+      "requested_ids": [
+        "C3-BG-011-018"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        7,
+        161,
+        507,
+        789
+      ],
+      "export": "art/environment/chapter_03/tiles/c3_tile_007_temple_stone_inlay.png",
+      "export_sha256": "913cb319e924229227d46b97de5c48536c8a9c77b8dde3a7372f731181926e2f",
+      "dimensions": [
+        500,
+        628
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        500,
+        628
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 50834,
+      "nonopaque_pixel_count": 50834,
+      "opaque_pixel_count": 263166,
+      "pivot": [
+        250.0,
+        628
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "solid modular art candidate",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Seams and gameplay collision are not approved; not substituted for missing TILE001/002/003 terrain."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_tile_007_143_depth_reference.png",
+          "sha256": "89582285e4e06d7d006cba336179214ab3849eff081576fd7b14e327832fdcf5",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_tile_007_143_mask_reference.png",
+          "sha256": "931b7c7c9fad41da4d3f22cf3bd7a8a3369905a8c2e0388f57607c7ba2bb51fc",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-TILE-007",
+      "source_index": 144,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-144-b072d8c8.png",
+      "source_sha256": "f40c50c40cc93f015e0cef24603af21a3b082a1024b85a060741edadda1eee76",
+      "source_message_id": "bf9bbdcc-e810-4e7c-9504-c2a1c5b11cf2",
+      "requested_ids": [
+        "C3-BG-011-019"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        7,
+        31,
+        510,
+        819
+      ],
+      "export": "art/environment/chapter_03/platforms/c3_tile_007_temple_platform_ornate_b.png",
+      "export_sha256": "01019b567d084dc2531af6248dec1cd2ccbcb32c0d4875c6092664c5014b3e68",
+      "dimensions": [
+        503,
+        788
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        503,
+        788
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 226184,
+      "nonopaque_pixel_count": 226184,
+      "opaque_pixel_count": 170180,
+      "pivot": [
+        251.5,
+        788
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "solid modular art candidate",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Seams and gameplay collision are not approved; not substituted for missing TILE001/002/003 terrain.",
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_tile_007_144_depth_reference.png",
+          "sha256": "dc202edc62fed57f39297b1e2051d93584b2289e6904dbea78dde32602c360f8",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_tile_007_144_mask_reference.png",
+          "sha256": "fb578512ea9978be9d44f5641e482a463c36df4b6ad0d10ef31acc6b5bdbc56c",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-008",
+      "source_index": 146,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-146-0151a67b.png",
+      "source_sha256": "7061896e11d69d4e46cd8b763ce7b982631be82127d20b49be7ea027969b434f",
+      "source_message_id": "e85c396a-13eb-441b-b628-f15ce115199b",
+      "requested_ids": [
+        "C3-BG-011-021"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        25,
+        29,
+        504,
+        876
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_008_broken_ruin_corner.png",
+      "export_sha256": "c7f662164b70f8ae5fd4040e6757a690bd2d32e13ef8d8410c2b64a20f78da59",
+      "dimensions": [
+        479,
+        847
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        479,
+        847
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 135460,
+      "nonopaque_pixel_count": 135460,
+      "opaque_pixel_count": 270253,
+      "pivot": [
+        239.5,
+        847
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_008_146_depth_reference.png",
+          "sha256": "a84c3c56ef8a75e8d68bee2f4499201b35701d8aa03042175a1bb05b35c73d98",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_008_146_mask_reference.png",
+          "sha256": "85800acbf30a4a8d56f20c1854e490c1e9d138c4d50de22f4eb54afad9bd11d1",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-009",
+      "source_index": 147,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-147-e138fa5c.png",
+      "source_sha256": "36762d9baa7c354bc149f585675394217a028ce32d748cab0c7b4a077e2c58d5",
+      "source_message_id": "80208e95-0841-407a-98d9-5f64994b288b",
+      "requested_ids": [
+        "C3-BG-011-022"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        8,
+        9,
+        509,
+        814
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_009_temple_arch_lintel.png",
+      "export_sha256": "91a314e39470fcdd5f43af251f010dea33e71fc178ca8f1150627f9a21347175",
+      "dimensions": [
+        501,
+        805
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        501,
+        805
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 231744,
+      "nonopaque_pixel_count": 231744,
+      "opaque_pixel_count": 171561,
+      "pivot": [
+        250.5,
+        805
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_147_depth_reference.png",
+          "sha256": "62e69a56d058dcaa8acca16d683d4a7c4696349367b663a031e2ba65a812c619",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_009_147_mask_reference.png",
+          "sha256": "a5a58f3e000d657ae5115c477a3b555076baf9e2b336b90bbe331294922d6a9a",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-TILE-007",
+      "source_index": 148,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-148-5ba5f81e.png",
+      "source_sha256": "3bbfc00464ee08ed6502f99acd7e9e465a7e03e34e75d0b9981c4c9ecf479120",
+      "source_message_id": "a4898d16-5a17-4046-a176-b04dec0ad85b",
+      "requested_ids": [
+        "C3-BG-011-023"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        10,
+        0,
+        506,
+        878
+      ],
+      "export": "art/environment/chapter_03/platforms/c3_tile_007_temple_platform_ornate_c.png",
+      "export_sha256": "e7d782f4ffdd438b32ea8f87cd6667c3543001dd010a75786fdfa6b236a9b10f",
+      "dimensions": [
+        496,
+        878
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        496,
+        878
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 311655,
+      "nonopaque_pixel_count": 311655,
+      "opaque_pixel_count": 123833,
+      "pivot": [
+        248.0,
+        878
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "solid modular art candidate",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Seams and gameplay collision are not approved; not substituted for missing TILE001/002/003 terrain.",
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_tile_007_148_depth_reference.png",
+          "sha256": "bdbef2a76a00019f2438ff7b8759073a987097cf0542d81eace339db2a574e1e",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_tile_007_148_mask_reference.png",
+          "sha256": "398b1cc6ea25c36c2f378a34ec51ca608a1da52993a1d93f15082ccad3fe478e",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-TILE-007",
+      "source_index": 149,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-149-26b61613.png",
+      "source_sha256": "a6da8bca8e9ea28842dc01fc394a5a1fc97723adb436eaa1d262b1e3bb2728b5",
+      "source_message_id": "9569b88d-db1a-4b05-ae75-b0eb689b7d2c",
+      "requested_ids": [
+        "C3-BG-011-024"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        10,
+        5,
+        496,
+        876
+      ],
+      "export": "art/environment/chapter_03/platforms/c3_tile_007_temple_corbel_ornate.png",
+      "export_sha256": "5a6d46fa771317e885b7276b1cefa910b36e4cc82c552178857a3546ca8f3b79",
+      "dimensions": [
+        486,
+        871
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        486,
+        871
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 263585,
+      "nonopaque_pixel_count": 263585,
+      "opaque_pixel_count": 159721,
+      "pivot": [
+        243.0,
+        871
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "solid modular art candidate",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Seams and gameplay collision are not approved; not substituted for missing TILE001/002/003 terrain."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_tile_007_149_depth_reference.png",
+          "sha256": "2eb2b46d26013e22e91abd12dc2f7d6cb7d496214bc07acc2f7f7a0e3723bec5",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_tile_007_149_mask_reference.png",
+          "sha256": "33db9c954feb0b72604b639e4a881aa2640215d2195c4d7a20c11a93758665c1",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-023",
+      "source_index": 150,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-150-7100d56d.png",
+      "source_sha256": "cec3a5f01a612095fa4835c4e7d9ec051e51254c9fa72288a7fdbccf2ef6b1c6",
+      "source_message_id": "6aba79bf-bc2b-42a0-be74-931830232708",
+      "requested_ids": [
+        "C3-BG-011-025"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        0,
+        0,
+        510,
+        880
+      ],
+      "content_trim": [
+        10,
+        2,
+        506,
+        876
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_023_mirror_pedestal_candidate.png",
+      "export_sha256": "4e9a95013014c98be73eed8e5b50669d5ae70e19eedeca2dcac2b9aa9c5ac4c7",
+      "dimensions": [
+        496,
+        874
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        496,
+        874
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 220043,
+      "nonopaque_pixel_count": 220043,
+      "opaque_pixel_count": 213461,
+      "pivot": [
+        248.0,
+        874
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Official-ID association is a candidate by subject; no motion/puzzle state delivered."
+      ],
+      "guide_panels": [
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_023_150_depth_reference.png",
+          "sha256": "1e79f60b85f3b7f997dd7d707601a87f708756bee7610a68474c4f8401bcbccd",
+          "role": "depth_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        },
+        {
+          "path": "art/source/chapter_03/environment/guide_panels/c3_prop_023_150_mask_reference.png",
+          "sha256": "ae1da984d8d1b96701fa26b740c37bd1177fc175c3b5a413d9495d7eb8c83ba6",
+          "role": "mask_reference",
+          "usable_as_normal_map": false,
+          "alignment_verified": false
+        }
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-008",
+      "source_index": 145,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+      "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+      "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+      "requested_ids": [
+        "C3-BG-011-020"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 3,
+      "source_crop": [
+        0,
+        0,
+        295,
+        540
+      ],
+      "content_trim": [
+        13,
+        39,
+        290,
+        526
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_008_ruin_rubble_01.png",
+      "export_sha256": "80232382e10a2a87b613bc5b16251951960c66bd23a86d3d51db8effd97c62ff",
+      "dimensions": [
+        277,
+        487
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        277,
+        487
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 61188,
+      "nonopaque_pixel_count": 61188,
+      "opaque_pixel_count": 73711,
+      "pivot": [
+        138.5,
+        487
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-008",
+      "source_index": 145,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+      "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+      "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+      "requested_ids": [
+        "C3-BG-011-020"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 5,
+      "source_crop": [
+        295,
+        160,
+        740,
+        550
+      ],
+      "content_trim": [
+        0,
+        59,
+        445,
+        350
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_008_ruin_rubble_02.png",
+      "export_sha256": "205065b248746596c03c0cf5cf349e5355727b9ad7d9b4c4f724c2f844b45a62",
+      "dimensions": [
+        445,
+        291
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        445,
+        291
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 41605,
+      "nonopaque_pixel_count": 41605,
+      "opaque_pixel_count": 87890,
+      "pivot": [
+        222.5,
+        291
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-008",
+      "source_index": 145,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+      "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+      "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+      "requested_ids": [
+        "C3-BG-011-020"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 5,
+      "source_crop": [
+        740,
+        160,
+        1210,
+        555
+      ],
+      "content_trim": [
+        20,
+        74,
+        457,
+        395
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_008_ruin_rubble_03.png",
+      "export_sha256": "2326243ad5718986eff2d62ecf85a47e56e8f2f06e8d117bf5dbe01ab5fbc2c9",
+      "dimensions": [
+        437,
+        321
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        437,
+        321
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 45242,
+      "nonopaque_pixel_count": 45242,
+      "opaque_pixel_count": 95035,
+      "pivot": [
+        218.5,
+        321
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-008",
+      "source_index": 145,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+      "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+      "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+      "requested_ids": [
+        "C3-BG-011-020"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 2,
+      "source_crop": [
+        1210,
+        0,
+        1536,
+        555
+      ],
+      "content_trim": [
+        7,
+        153,
+        311,
+        537
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_008_ruin_rubble_04.png",
+      "export_sha256": "afa6fb8f79ebb027a22c504354cb7a052b7be6722fe7b871a795803ded5a32eb",
+      "dimensions": [
+        304,
+        384
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        304,
+        384
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 39142,
+      "nonopaque_pixel_count": 39142,
+      "opaque_pixel_count": 77594,
+      "pivot": [
+        152.0,
+        384
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-008",
+      "source_index": 145,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+      "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+      "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+      "requested_ids": [
+        "C3-BG-011-020"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 2,
+      "source_crop": [
+        0,
+        550,
+        295,
+        805
+      ],
+      "content_trim": [
+        13,
+        34,
+        295,
+        236
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_008_ruin_rubble_05.png",
+      "export_sha256": "aa86a8aa3d1c5fdab62fbe12d317f77b6a162c9b355da834fc40f5003371721a",
+      "dimensions": [
+        282,
+        202
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        282,
+        202
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 21418,
+      "nonopaque_pixel_count": 21418,
+      "opaque_pixel_count": 35546,
+      "pivot": [
+        141.0,
+        202
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-008",
+      "source_index": 145,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+      "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+      "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+      "requested_ids": [
+        "C3-BG-011-020"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 2,
+      "source_crop": [
+        295,
+        550,
+        610,
+        805
+      ],
+      "content_trim": [
+        13,
+        14,
+        302,
+        238
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_008_ruin_rubble_06.png",
+      "export_sha256": "d1ed0b673b456486a22995e760bec4e2c4bea90e2e2996ca09c949780f724633",
+      "dimensions": [
+        289,
+        224
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        289,
+        224
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 23109,
+      "nonopaque_pixel_count": 23109,
+      "opaque_pixel_count": 41627,
+      "pivot": [
+        144.5,
+        224
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-008",
+      "source_index": 145,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+      "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+      "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+      "requested_ids": [
+        "C3-BG-011-020"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 2,
+      "source_crop": [
+        610,
+        550,
+        900,
+        805
+      ],
+      "content_trim": [
+        14,
+        41,
+        290,
+        235
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_008_ruin_rubble_07.png",
+      "export_sha256": "0411e73ab6f3eabcc8a7508cde87b2a8ac50d6fae2a6412b9c8444de3e7e90e1",
+      "dimensions": [
+        276,
+        194
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        276,
+        194
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 9387,
+      "nonopaque_pixel_count": 9387,
+      "opaque_pixel_count": 44157,
+      "pivot": [
+        138.0,
+        194
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-008",
+      "source_index": 145,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+      "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+      "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+      "requested_ids": [
+        "C3-BG-011-020"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 3,
+      "source_crop": [
+        900,
+        550,
+        1250,
+        805
+      ],
+      "content_trim": [
+        42,
+        57,
+        350,
+        238
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_008_ruin_rubble_08.png",
+      "export_sha256": "f8fefcd4153f1c31be77b40cae0edbcee2f2d5e6ac43e235a0212df1231f4c1e",
+      "dimensions": [
+        308,
+        181
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        308,
+        181
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 17183,
+      "nonopaque_pixel_count": 17183,
+      "opaque_pixel_count": 38565,
+      "pivot": [
+        154.0,
+        181
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-008",
+      "source_index": 145,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+      "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+      "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+      "requested_ids": [
+        "C3-BG-011-020"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 3,
+      "source_crop": [
+        1250,
+        550,
+        1536,
+        815
+      ],
+      "content_trim": [
+        22,
+        19,
+        262,
+        242
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_008_ruin_rubble_09.png",
+      "export_sha256": "8d917bd1c8cbbf30b9f1a5d7687675b0470490315a4af61a17ba25987a4a54c9",
+      "dimensions": [
+        240,
+        223
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        240,
+        223
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 17763,
+      "nonopaque_pixel_count": 17763,
+      "opaque_pixel_count": 35757,
+      "pivot": [
+        120.0,
+        223
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+      ]
+    },
+    {
+      "asset_id": "C3-DEC-008",
+      "source_index": 145,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+      "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+      "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+      "requested_ids": [
+        "C3-BG-011-020"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 1,
+      "source_crop": [
+        0,
+        820,
+        195,
+        970
+      ],
+      "content_trim": [
+        12,
+        10,
+        195,
+        124
+      ],
+      "export": "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_01.png",
+      "export_sha256": "9780d01d9e7911e040cdc017147c425fe8a28159bf42facb17003db5083424b3",
+      "dimensions": [
+        183,
+        114
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        183,
+        114
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 6425,
+      "nonopaque_pixel_count": 6425,
+      "opaque_pixel_count": 14437,
+      "pivot": [
+        91.5,
+        114
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ]
+    },
+    {
+      "asset_id": "C3-DEC-008",
+      "source_index": 145,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+      "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+      "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+      "requested_ids": [
+        "C3-BG-011-020"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 1,
+      "source_crop": [
+        195,
+        820,
+        325,
+        970
+      ],
+      "content_trim": [
+        0,
+        5,
+        129,
+        111
+      ],
+      "export": "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_02.png",
+      "export_sha256": "c43749aa11630e4a5707968a494262db27f322061d161260bf640e2dbc74c393",
+      "dimensions": [
+        129,
+        106
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        129,
+        106
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 3872,
+      "nonopaque_pixel_count": 3872,
+      "opaque_pixel_count": 9802,
+      "pivot": [
+        64.5,
+        106
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ]
+    },
+    {
+      "asset_id": "C3-DEC-008",
+      "source_index": 145,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+      "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+      "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+      "requested_ids": [
+        "C3-BG-011-020"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 1,
+      "source_crop": [
+        325,
+        820,
+        440,
+        970
+      ],
+      "content_trim": [
+        5,
+        19,
+        110,
+        108
+      ],
+      "export": "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_03.png",
+      "export_sha256": "8ed9820664707fff48a1bdcba3bdce0f38b081a28f64514d617031b348fe0744",
+      "dimensions": [
+        105,
+        89
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        105,
+        89
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 3008,
+      "nonopaque_pixel_count": 3008,
+      "opaque_pixel_count": 6337,
+      "pivot": [
+        52.5,
+        89
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+      ]
+    },
+    {
+      "asset_id": "C3-DEC-008",
+      "source_index": 145,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+      "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+      "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+      "requested_ids": [
+        "C3-BG-011-020"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        440,
+        820,
+        575,
+        970
+      ],
+      "content_trim": [
+        7,
+        17,
+        130,
+        114
+      ],
+      "export": "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_04.png",
+      "export_sha256": "2ee1c76aa2e95e551e56c017cc1700605fa262f4858f8a78636a14199f54da8f",
+      "dimensions": [
+        123,
+        97
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        123,
+        97
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 3119,
+      "nonopaque_pixel_count": 3119,
+      "opaque_pixel_count": 8812,
+      "pivot": [
+        61.5,
+        97
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+      ]
+    },
+    {
+      "asset_id": "C3-DEC-008",
+      "source_index": 145,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+      "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+      "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+      "requested_ids": [
+        "C3-BG-011-020"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        575,
+        820,
+        715,
+        970
+      ],
+      "content_trim": [
+        3,
+        37,
+        138,
+        114
+      ],
+      "export": "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_05.png",
+      "export_sha256": "9c33fb59ebc7861241c67e72f9594fd0c70f8f8dec12867b1c9598ada4ae8076",
+      "dimensions": [
+        135,
+        77
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        135,
+        77
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 3857,
+      "nonopaque_pixel_count": 3857,
+      "opaque_pixel_count": 6538,
+      "pivot": [
+        67.5,
+        77
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+      ]
+    },
+    {
+      "asset_id": "C3-DEC-008",
+      "source_index": 145,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+      "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+      "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+      "requested_ids": [
+        "C3-BG-011-020"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        715,
+        820,
+        830,
+        970
+      ],
+      "content_trim": [
+        1,
+        10,
+        104,
+        115
+      ],
+      "export": "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_06.png",
+      "export_sha256": "47c0a9a7c4e47cc37864c4009a0651512df7d4bfbb6481498505c561a8e5ee63",
+      "dimensions": [
+        103,
+        105
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        103,
+        105
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 2849,
+      "nonopaque_pixel_count": 2849,
+      "opaque_pixel_count": 7966,
+      "pivot": [
+        51.5,
+        105
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+      ]
+    },
+    {
+      "asset_id": "C3-DEC-008",
+      "source_index": 145,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+      "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+      "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+      "requested_ids": [
+        "C3-BG-011-020"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 2,
+      "source_crop": [
+        830,
+        820,
+        940,
+        970
+      ],
+      "content_trim": [
+        9,
+        20,
+        106,
+        101
+      ],
+      "export": "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_07.png",
+      "export_sha256": "8bac333c298853665e7da6181b2c11ed8caa42e0d51e3595e30b6ceaeaba0b15",
+      "dimensions": [
+        97,
+        81
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        97,
+        81
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 2046,
+      "nonopaque_pixel_count": 2046,
+      "opaque_pixel_count": 5811,
+      "pivot": [
+        48.5,
+        81
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+      ]
+    },
+    {
+      "asset_id": "C3-DEC-008",
+      "source_index": 145,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+      "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+      "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+      "requested_ids": [
+        "C3-BG-011-020"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        940,
+        820,
+        1135,
+        970
+      ],
+      "content_trim": [
+        0,
+        20,
+        191,
+        116
+      ],
+      "export": "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_08.png",
+      "export_sha256": "82a8a01d176b3e5ae03bf2e764305b19d085b65b51845194323df8d3b6107bb3",
+      "dimensions": [
+        191,
+        96
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        191,
+        96
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 5284,
+      "nonopaque_pixel_count": 5284,
+      "opaque_pixel_count": 13052,
+      "pivot": [
+        95.5,
+        96
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ]
+    },
+    {
+      "asset_id": "C3-DEC-008",
+      "source_index": 145,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+      "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+      "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+      "requested_ids": [
+        "C3-BG-011-020"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 3,
+      "source_crop": [
+        1135,
+        820,
+        1275,
+        970
+      ],
+      "content_trim": [
+        0,
+        6,
+        135,
+        124
+      ],
+      "export": "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_09.png",
+      "export_sha256": "486d36ec6065bea656bd79380a185cd977f07ffb9cc7f5c311b47ab87c02fe73",
+      "dimensions": [
+        135,
+        118
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        135,
+        118
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 5851,
+      "nonopaque_pixel_count": 5851,
+      "opaque_pixel_count": 10079,
+      "pivot": [
+        67.5,
+        118
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ]
+    },
+    {
+      "asset_id": "C3-DEC-008",
+      "source_index": 145,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+      "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+      "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+      "requested_ids": [
+        "C3-BG-011-020"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        1275,
+        820,
+        1365,
+        970
+      ],
+      "content_trim": [
+        0,
+        11,
+        90,
+        105
+      ],
+      "export": "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_10.png",
+      "export_sha256": "415597b74d06bb4ab78b7a04fd4d279d55d780ab2f1d0198ee7fab9157cfe6a9",
+      "dimensions": [
+        90,
+        94
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        90,
+        94
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 2395,
+      "nonopaque_pixel_count": 2395,
+      "opaque_pixel_count": 6065,
+      "pivot": [
+        45.0,
+        94
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ]
+    },
+    {
+      "asset_id": "C3-DEC-008",
+      "source_index": 145,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+      "source_sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+      "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+      "requested_ids": [
+        "C3-BG-011-020"
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "removed_neighbor_components": 0,
+      "source_crop": [
+        1365,
+        820,
+        1536,
+        970
+      ],
+      "content_trim": [
+        0,
+        12,
+        159,
+        113
+      ],
+      "export": "art/environment/chapter_03/props/c3_dec_008_small_rock_cluster_11.png",
+      "export_sha256": "f4d0bb8ebd80665df39f2dab24bd0b5c095e246f91492ab400e6ad9e26bd7ef7",
+      "dimensions": [
+        159,
+        101
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        159,
+        101
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 6371,
+      "nonopaque_pixel_count": 6371,
+      "opaque_pixel_count": 9688,
+      "pivot": [
+        79.5,
+        101
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Visible content touches a source crop boundary; inspect source for clipping before use."
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-023",
+      "source_index": 151,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-151-11d9433c.png",
+      "source_sha256": "d3314f79e7da368d3426a297616bea6c80bdf88f7c7eebc024f1992cb4be3e06",
+      "source_message_id": "281d40fd-ac8a-49fd-9c53-0ff212afcba0",
+      "requested_ids": [
+        "C3-BG-011-025",
+        "C3-BG-011-026"
+      ],
+      "source_dimensions": [
+        1774,
+        887
+      ],
+      "removed_neighbor_components": 3,
+      "source_crop": [
+        4,
+        4,
+        284,
+        687
+      ],
+      "content_trim": [
+        5,
+        135,
+        277,
+        604
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_023_small_pedestal_candidate.png",
+      "export_sha256": "75fae0f7469de05cc2c87542c1b87800df7735fa7eaf758059292dc63f03e3af",
+      "dimensions": [
+        272,
+        469
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        272,
+        469
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 34070,
+      "nonopaque_pixel_count": 34070,
+      "opaque_pixel_count": 93498,
+      "pivot": [
+        136.0,
+        469
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Official-ID association is a candidate by subject; no motion/puzzle state delivered."
+      ]
+    },
+    {
+      "asset_id": "C3-PROP-023",
+      "source_index": 151,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-151-11d9433c.png",
+      "source_sha256": "d3314f79e7da368d3426a297616bea6c80bdf88f7c7eebc024f1992cb4be3e06",
+      "source_message_id": "281d40fd-ac8a-49fd-9c53-0ff212afcba0",
+      "requested_ids": [
+        "C3-BG-011-025",
+        "C3-BG-011-026"
+      ],
+      "source_dimensions": [
+        1774,
+        887
+      ],
+      "removed_neighbor_components": 7,
+      "source_crop": [
+        865,
+        4,
+        1164,
+        687
+      ],
+      "content_trim": [
+        1,
+        247,
+        298,
+        535
+      ],
+      "export": "art/environment/chapter_03/props/c3_prop_023_small_altar_support_candidate.png",
+      "export_sha256": "a2660e20f2e11e410444dc66f751a992b344ca1acf057f38e27059ec4edf276b",
+      "dimensions": [
+        297,
+        288
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        297,
+        288
+      ],
+      "transparent_background": true,
+      "transparent_pixel_count": 18560,
+      "nonopaque_pixel_count": 18560,
+      "opaque_pixel_count": 66976,
+      "pivot": [
+        148.5,
+        288
+      ],
+      "pivot_role": "bottom-center",
+      "animation_frames": 1,
+      "fps": 0,
+      "z_index": -2,
+      "receives_light": true,
+      "casts_shadow": "author simple polygon separately for solid props",
+      "emits_light": false,
+      "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+      "import_filter": "linear",
+      "compression": "lossless",
+      "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+      "purpose": "scenery / prop",
+      "stage": "alpha/crop prepared; native review gallery; final approval pending",
+      "approved": false,
+      "limitations": [
+        "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+        "Official-ID association is a candidate by subject; no motion/puzzle state delivered."
+      ]
+    }
+  ],
+  "source_audit": [
+    {
+      "source_index": 74,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-074-ea1de5e6.png",
+      "sha256": "2ad60b46d9aeb37e5682ce39847c986e6ce95cd5aba15a2d8c3320ac765f3048",
+      "source_message_id": "7386f418-13b2-4d6a-a9a2-0f92a0c9cbe4",
+      "requested_ids": [
+        "C3-BG-001"
+      ],
+      "verified_official_id": null,
+      "status": "reference only: flattened scene, checkerboard, mixed atlas, or duplicate; no production sprite inferred"
+    },
+    {
+      "source_index": 75,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-075-d06160af.png",
+      "sha256": "966a9939c21db7f5eabdf280d33fcd357c13a96c9b8dd73122dbae0a77b61216",
+      "source_message_id": "58de690c-5b9b-46de-a561-6c603428b5da",
+      "requested_ids": [
+        "C3-BG-001"
+      ],
+      "verified_official_id": null,
+      "status": "reference only: flattened scene, checkerboard, mixed atlas, or duplicate; no production sprite inferred"
+    },
+    {
+      "source_index": 76,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-076-fdc3ac82.png",
+      "sha256": "ee2adc137401b83bab15038db9d4e377fe95436aaa6ef4313375ed4d37e723f2",
+      "source_message_id": "9d1aa5a2-2bc6-463c-a3d5-788b7a52215b",
+      "requested_ids": [
+        "C3-BG-002"
+      ],
+      "verified_official_id": "C3-BG-002",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 77,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-077-0abd34a5.png",
+      "sha256": "9f75ac0b6fe9007c71c1e63fd221a96c547690c420e816e3d13c765addccaadc",
+      "source_message_id": "f6017b45-93ac-4313-bef3-495703c6cceb",
+      "requested_ids": [
+        "C3-BG-003"
+      ],
+      "verified_official_id": null,
+      "status": "reference only: flattened scene, checkerboard, mixed atlas, or duplicate; no production sprite inferred"
+    },
+    {
+      "source_index": 78,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-078-b990155d.png",
+      "sha256": "c60a1874a808cd4a1c4fe97e129e7bcca1fc111fc5c525efbdec34437ba65277",
+      "source_message_id": "8bbb1f74-a584-4677-a53d-4023dfcd83e7",
+      "requested_ids": [
+        "C3-BG-003"
+      ],
+      "verified_official_id": null,
+      "status": "reference only: flattened scene, checkerboard, mixed atlas, or duplicate; no production sprite inferred"
+    },
+    {
+      "source_index": 79,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-079-75fb8da1.png",
+      "sha256": "331e2394223653157d65070bcd3033a0b372ff172c661c42f92fa4de956df85b",
+      "source_message_id": "1c5ef501-8cc7-487e-9c54-d79a8b2ed68f",
+      "requested_ids": [
+        "C3-BG-003"
+      ],
+      "verified_official_id": "C3-BG-002",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 80,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-080-53d8b996.png",
+      "sha256": "982914a49bc417291a90bbab31de6b313846d1bbf7520a10225c38c922cb60a7",
+      "source_message_id": "57482d2a-b559-4e1c-a3fa-b01c41139d02",
+      "requested_ids": [
+        "C3-BG-003"
+      ],
+      "verified_official_id": null,
+      "status": "waterfall; delegated VFX export inventory"
+    },
+    {
+      "source_index": 81,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-081-063f6100.png",
+      "sha256": "8c13d56f4d35dd5e7dcf93db5bd6293841fed518a604b6df37abb5f932877b38",
+      "source_message_id": "4c085a4b-6651-4db0-a03c-e91f9e470502",
+      "requested_ids": [
+        "C3-BG-004"
+      ],
+      "verified_official_id": null,
+      "status": "waterfall; delegated VFX export inventory"
+    },
+    {
+      "source_index": 82,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-082-b9e343f7.png",
+      "sha256": "ce699faf1b0116238d9006b0e1800450ccdbb97baf0caf26136c55ea57746e6c",
+      "source_message_id": "a191ba13-41c0-46f1-b274-6b56e7d464a6",
+      "requested_ids": [
+        "C3-BG-004"
+      ],
+      "verified_official_id": null,
+      "status": "waterfall; delegated VFX export inventory"
+    },
+    {
+      "source_index": 83,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-083-5f190bbe.png",
+      "sha256": "bb69079cbf2856eab7368e032923d56900112eb69b7c67a36271859b97055fc0",
+      "source_message_id": "75ec2093-3c92-4524-a2d5-ea8d73b5a9c1",
+      "requested_ids": [
+        "C3-BG-004"
+      ],
+      "verified_official_id": null,
+      "status": "waterfall; delegated VFX export inventory"
+    },
+    {
+      "source_index": 84,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-084-fd6678fa.png",
+      "sha256": "1d1ed4b316d4c7cb0c5d0f7f69aa04dbbc145a80fd1fbbfc58f16ce0591854e9",
+      "source_message_id": "2dc22aef-28fc-4787-b7bc-f23dbd016aaa",
+      "requested_ids": [
+        "C3-BG-004"
+      ],
+      "verified_official_id": null,
+      "status": "waterfall; delegated VFX export inventory"
+    },
+    {
+      "source_index": 85,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-085-0f5408f5.png",
+      "sha256": "2026d6965096b734221fad85e0d8d4574fb38c945237eb9a8cbf21908392a396",
+      "source_message_id": "740e23c3-aa52-42ec-b627-34060e6a9409",
+      "requested_ids": [],
+      "verified_official_id": null,
+      "status": "waterfall; delegated VFX export inventory"
+    },
+    {
+      "source_index": 86,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-086-e9de67a8.png",
+      "sha256": "93980b2952ef1b0a6dbd5fc91fdca47df70e68f827f8fd472167631b94a3289c",
+      "source_message_id": "363547aa-0a09-475a-a50d-0d7b7377130a",
+      "requested_ids": [],
+      "verified_official_id": null,
+      "status": "waterfall; delegated VFX export inventory"
+    },
+    {
+      "source_index": 87,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-087-a3b00e47.png",
+      "sha256": "b66d5793d847ffc55c6a0d0e9f18eced2f736c04458a0ab7dbd950f1c1968a2e",
+      "source_message_id": "f23b60a8-b3e3-4c38-b1da-1978ac64c15a",
+      "requested_ids": [],
+      "verified_official_id": null,
+      "status": "waterfall; delegated VFX export inventory"
+    },
+    {
+      "source_index": 88,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-088-bf1483c2.png",
+      "sha256": "450047009736784a9d44e7fdd20879ce986212cf5b49d33c640c8d1eb63501e1",
+      "source_message_id": "b723947f-8758-4a26-aa06-b97c61eebebd",
+      "requested_ids": [],
+      "verified_official_id": null,
+      "status": "waterfall; delegated VFX export inventory"
+    },
+    {
+      "source_index": 89,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-089-0456a2b4.png",
+      "sha256": "c3d9b0461eeece121cdeedd17dbe76b8882d463d5b15a9c5c810fa89e0a25276",
+      "source_message_id": "715975d8-fc92-48ec-8ce9-2e67374d14cf",
+      "requested_ids": [],
+      "verified_official_id": null,
+      "status": "reference only: flattened scene, checkerboard, mixed atlas, or duplicate; no production sprite inferred"
+    },
+    {
+      "source_index": 90,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-090-ea6e19f3.png",
+      "sha256": "6e60c63253c1d8d262df6ab4ef15aa515d3c3f732d5fda4b81254a96d4de14ad",
+      "source_message_id": "eaac7b11-e71f-48de-8a22-18d3e611d5f8",
+      "requested_ids": [
+        "C3-BG-005"
+      ],
+      "verified_official_id": "C3-BG-004",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 91,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-091-8eb65ce7.png",
+      "sha256": "cb85be92d55b12ada3fdcb1d3e8f9fd69069fd17f4e934c0313e8571af20fc25",
+      "source_message_id": "9ee7f02f-0af0-4ef9-87db-0a12497986a7",
+      "requested_ids": [
+        "C3-BG-006"
+      ],
+      "verified_official_id": null,
+      "status": "reference only: flattened scene, checkerboard, mixed atlas, or duplicate; no production sprite inferred"
+    },
+    {
+      "source_index": 92,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-092-db0a1279.png",
+      "sha256": "e87daf1a915d2ace3dc0c98aeb9a6d203e59eec120a969ff12eba71cbb583e4b",
+      "source_message_id": "df72bb09-e4d9-48b1-b8b8-4752c89e4e35",
+      "requested_ids": [],
+      "verified_official_id": null,
+      "status": "waterfall; delegated VFX export inventory"
+    },
+    {
+      "source_index": 93,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-093-3cb5deea.png",
+      "sha256": "301ab80d2b5f57dc320ec45156f07862e0541e944999aab202e2f8210b1d041f",
+      "source_message_id": "40564d48-b4bd-4514-aeb9-5756d7627271",
+      "requested_ids": [
+        "C3-BG-007"
+      ],
+      "verified_official_id": null,
+      "status": "reference only: flattened scene, checkerboard, mixed atlas, or duplicate; no production sprite inferred"
+    },
+    {
+      "source_index": 94,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-094-d8bbe08c.png",
+      "sha256": "e0d7a0058c8d84a73313254d5ef7b13df2046c978f8b97e23c92bd109c759233",
+      "source_message_id": "e0b60ac1-d23a-4e37-a2ca-17d848734272",
+      "requested_ids": [],
+      "verified_official_id": null,
+      "status": "reference only: flattened scene, checkerboard, mixed atlas, or duplicate; no production sprite inferred"
+    },
+    {
+      "source_index": 95,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-095-74755664.png",
+      "sha256": "44f4d125e2c823b068396ace4f8130517158b40d66dfa63db0b7389330b9817c",
+      "source_message_id": "a4e0bc1f-1ecb-4211-aa70-6f4c09e48533",
+      "requested_ids": [],
+      "verified_official_id": null,
+      "status": "shrine emblem/light maps; delegated VFX inventory"
+    },
+    {
+      "source_index": 96,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-096-84dee439.png",
+      "sha256": "1d44dd7db205f4d4b19338fd312b1cdabeea994ed064ff71439d735c3259c7f7",
+      "source_message_id": "1eb41b74-ea10-451a-b141-e17456cc5a7d",
+      "requested_ids": [],
+      "verified_official_id": null,
+      "status": "shrine emblem/light maps; delegated VFX inventory"
+    },
+    {
+      "source_index": 97,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-097-03d2c97a.png",
+      "sha256": "4af0cc91a57962263ae6a2dcbe19911d54493c84f826b1856d5ba9d39a2c638a",
+      "source_message_id": "01e77e2b-a6f3-427b-909d-8ce5a62f3192",
+      "requested_ids": [],
+      "verified_official_id": null,
+      "status": "shrine emblem/light maps; delegated VFX inventory"
+    },
+    {
+      "source_index": 98,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-098-4f29aa40.png",
+      "sha256": "522b0be56511b2b425dcad6af2ce6254ca6cad002194a4f53f7e2e54ed2a8066",
+      "source_message_id": "6ca28617-7357-4e22-a99d-8659da4e8997",
+      "requested_ids": [],
+      "verified_official_id": null,
+      "status": "shrine emblem/light maps; delegated VFX inventory"
+    },
+    {
+      "source_index": 99,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-099-0c5548e3.png",
+      "sha256": "34f4cd303c398be40ec4a4357c048e445f70265ee7b5692a7eaa453676af357e",
+      "source_message_id": "5e349bc2-dcdd-4d0b-8eb3-a3b7e5b2d381",
+      "requested_ids": [
+        "C3-BG-008-LGT-001"
+      ],
+      "verified_official_id": null,
+      "status": "shrine emblem/light maps; delegated VFX inventory"
+    },
+    {
+      "source_index": 100,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-100-473ca584.png",
+      "sha256": "20bbf6bf95d4a855dd906e1d1ab6f8493b5234bc54b8c18acfaa07a1c835ea8f",
+      "source_message_id": "6df17314-52d5-4925-98fb-4efbcb5df0c1",
+      "requested_ids": [
+        "C3-BG-008-LGT-001"
+      ],
+      "verified_official_id": null,
+      "status": "shrine emblem/light maps; delegated VFX inventory"
+    },
+    {
+      "source_index": 101,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-101-6f070203.png",
+      "sha256": "e658b787053a3103545fc16beac769113c124d434008fe14ce950cb36b95e8de",
+      "source_message_id": "5b837ad2-e9c9-48dd-9c7d-ac8f2b15790e",
+      "requested_ids": [],
+      "verified_official_id": null,
+      "status": "shrine emblem/light maps; delegated VFX inventory"
+    },
+    {
+      "source_index": 102,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-102-da0c6d74.png",
+      "sha256": "eb68374d06457523de40831481e8256140091afb5859c97748e7bce665ad5eff",
+      "source_message_id": "f1c0811a-a132-441d-a715-4f81eee6d8df",
+      "requested_ids": [],
+      "verified_official_id": null,
+      "status": "shrine emblem/light maps; delegated VFX inventory"
+    },
+    {
+      "source_index": 103,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-103-b8f8531b.png",
+      "sha256": "6104f3cea231b7884983a7a180773bdefefb2b7c2f8abdd6b0ff8fb133af85a4",
+      "source_message_id": "77792af6-f34d-4788-8cd4-540084a2f3cf",
+      "requested_ids": [],
+      "verified_official_id": null,
+      "status": "shrine emblem/light maps; delegated VFX inventory"
+    },
+    {
+      "source_index": 104,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-104-de6d9528.png",
+      "sha256": "fabf3317d6925fa1a67eed176f81a8fd3358191095c03260c5cae73caf14fe69",
+      "source_message_id": "4d60db00-60bd-4424-be67-099e9331c5f1",
+      "requested_ids": [],
+      "verified_official_id": null,
+      "status": "shrine emblem/light maps; delegated VFX inventory"
+    },
+    {
+      "source_index": 105,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-105-98fd3805.png",
+      "sha256": "44535e73e23fd2ad6027e4ffe53ee613f035d38ab287fae3f1dd7277f3f09369",
+      "source_message_id": "7b89015e-8a4f-4b2a-9659-36497373e9e0",
+      "requested_ids": [],
+      "verified_official_id": null,
+      "status": "shrine emblem/light maps; delegated VFX inventory"
+    },
+    {
+      "source_index": 106,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-106-7fd8e083.png",
+      "sha256": "9c26171eea1cff18dbb00abb5aa47c8309e8566ff66f95f6ea4a0ab1743837ed",
+      "source_message_id": "512de15b-e8d7-4890-9d72-50395b084ca5",
+      "requested_ids": [
+        "C3-BG-008-VFX-002"
+      ],
+      "verified_official_id": null,
+      "status": "shrine emblem/light maps; delegated VFX inventory"
+    },
+    {
+      "source_index": 107,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-107-4e876289.png",
+      "sha256": "3c84443442b6e0513aca06cede5a235b1f78c020e006d42a3a941eaaac5b240b",
+      "source_message_id": "a4437728-e85b-44dc-9fcc-cf2aa1cc5a8d",
+      "requested_ids": [
+        "C3-BG-008-VFX-002"
+      ],
+      "verified_official_id": null,
+      "status": "waterfall; delegated VFX export inventory"
+    },
+    {
+      "source_index": 108,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-108-a458b9aa.png",
+      "sha256": "7455380a5a8b19b04ae1af6f036199725bad885e8ff1da56effa7fbf8934ce4f",
+      "source_message_id": "26edbe94-da06-4e5a-8005-9b1a88c45435",
+      "requested_ids": [
+        "C3-BG-008-VFX-002"
+      ],
+      "verified_official_id": null,
+      "status": "shrine emblem/light maps; delegated VFX inventory"
+    },
+    {
+      "source_index": 109,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-109-9b0d6ce6.png",
+      "sha256": "73e89234035cc367c9dce1d357654940ea99e6abc343788ca69dbf77d7b94577",
+      "source_message_id": "75d8616f-d8f2-444a-896a-784ec53de8c6",
+      "requested_ids": [
+        "C3-BG-009"
+      ],
+      "verified_official_id": null,
+      "status": "waterfall; delegated VFX export inventory"
+    },
+    {
+      "source_index": 110,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-110-02e2acc0.png",
+      "sha256": "94f76687885dc50f10e6cfb9baed7beec4c0c03819efb0fcdd486342ddde25dd",
+      "source_message_id": "4f46fe56-d182-4e6e-b7e8-6649bbcbd429",
+      "requested_ids": [
+        "C3-BG-009"
+      ],
+      "verified_official_id": null,
+      "status": "waterfall; delegated VFX export inventory"
+    },
+    {
+      "source_index": 111,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-111-9259a51d.png",
+      "sha256": "2d6427695e28c3ce2bd811606854dfb16f75f13b9b7afe03685fd8eb4dfca4b6",
+      "source_message_id": "4680a2cf-4122-4fc1-bf52-624032f3abd5",
+      "requested_ids": [],
+      "verified_official_id": null,
+      "status": "reference only: flattened scene, checkerboard, mixed atlas, or duplicate; no production sprite inferred"
+    },
+    {
+      "source_index": 112,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-112-54efc782.png",
+      "sha256": "39c508dddd330134e402982136a1f847a91a13ee102a66f022a191ba05db7445",
+      "source_message_id": "fdebe13a-9d2d-4781-a033-b945e04cd622",
+      "requested_ids": [
+        "C3-BG-009"
+      ],
+      "verified_official_id": null,
+      "status": "waterfall; delegated VFX export inventory"
+    },
+    {
+      "source_index": 113,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-113-77c54e97.png",
+      "sha256": "612c11d620bcc21c90e587bfda24a5956743ec091be24a3b13574cc1501d3681",
+      "source_message_id": "c309d3af-95be-48b7-9e27-31bb3b910aac",
+      "requested_ids": [],
+      "verified_official_id": null,
+      "status": "reference only: flattened scene, checkerboard, mixed atlas, or duplicate; no production sprite inferred"
+    },
+    {
+      "source_index": 114,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-114-44cc0cfc.png",
+      "sha256": "9d03fa5f58d7b1df5d8dc1f3b5e5e573ceb68ed43fd7df46ca1e9861bd11a9bb",
+      "source_message_id": "9fe01124-7623-42cc-a44a-ec96ec84b4bb",
+      "requested_ids": [
+        "C3-BG-011"
+      ],
+      "verified_official_id": null,
+      "status": "reference only: flattened scene, checkerboard, mixed atlas, or duplicate; no production sprite inferred"
+    },
+    {
+      "source_index": 115,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-115-e1f4f7f7.png",
+      "sha256": "cc99f384e6a16b8c3d69dc7d3211c1c44c7f3ba177a5b7ded33ea9f73545c2d2",
+      "source_message_id": "b1cc0909-ed77-473e-8043-1b8d1d3af585",
+      "requested_ids": [],
+      "verified_official_id": "C3-PROP-009",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 116,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-116-294d5859.png",
+      "sha256": "4b69afcd3b0faa191bc2636902b1a11c60ba0c42e8cddbaa04aaf61bbf28a44d",
+      "source_message_id": "e2b0ca76-a836-49e7-bb54-d283808c1720",
+      "requested_ids": [],
+      "verified_official_id": "C3-PROP-009",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 117,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-117-f2240354.png",
+      "sha256": "f2809be9563b39faf306c2b1e7e3713f9945f1d32f40f13ea0de18bdf4a4f772",
+      "source_message_id": "98100166-eb54-413d-a7fe-8a4e04f73665",
+      "requested_ids": [
+        "C3-BG-011"
+      ],
+      "verified_official_id": "C3-PROP-007",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 118,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-118-e6c96cb3.png",
+      "sha256": "6e9c1c1eac6510067aad008d99c783b0a438dd2c1a7392d45bd96e7ca657fca0",
+      "source_message_id": "a3ffc616-4ff6-4643-b82f-1d8f34b8fd84",
+      "requested_ids": [
+        "C3-BG-011-002"
+      ],
+      "verified_official_id": "C3-PROP-007",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 119,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-119-3f92c33d.png",
+      "sha256": "ea3b91861fe36f37d1c0de37322aca36024d4b23b34729ca0bd72d4d73c38d95",
+      "source_message_id": "db470f89-e5de-44ed-8977-387bef1800a3",
+      "requested_ids": [
+        "C3-BG-011-004"
+      ],
+      "verified_official_id": "C3-PROP-007",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 120,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-120-52252886.png",
+      "sha256": "21a7b3fbde09af3ade19ff6774067d66d41c8d146b8db36c1ccf8e26a8482de8",
+      "source_message_id": "e13c575c-55f2-406c-89cc-e72506ce31a9",
+      "requested_ids": [],
+      "verified_official_id": "C3-PROP-013",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 121,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-121-12343743.png",
+      "sha256": "1d7b594e2833b45931b3175f9f7c64990b74aef09c50c98612f435b37bfbe582",
+      "source_message_id": "86c516e9-672d-4121-87ad-96a6b039cfc6",
+      "requested_ids": [
+        "C3-BG-011-004"
+      ],
+      "verified_official_id": "C3-PROP-013",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 122,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-122-f5ac0960.png",
+      "sha256": "626283eb2f6faf9b289b4acebd0f662201d536f15e52be00c0c191e0868ab4e5",
+      "source_message_id": "8cc136f4-aad8-4f73-a75a-5c4194710a91",
+      "requested_ids": [
+        "C3-BG-011-004"
+      ],
+      "verified_official_id": "C3-PROP-009",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 123,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-123-90eca4c4.png",
+      "sha256": "8d84e3179c2cc3beb655bc2af5fdb6daac3dffc53e08af4f351a5a4585309d9a",
+      "source_message_id": "7fc873e7-48fc-43de-bc44-e8300faec12b",
+      "requested_ids": [],
+      "verified_official_id": "C3-PROP-009",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 124,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-124-bbd7e76f.png",
+      "sha256": "b439918d1874bc4784fd2acee8379179764aa8d287fa1fa49bf7faa6e44ec1b1",
+      "source_message_id": "45cf2aa5-1821-4089-a395-2b16d22de61f",
+      "requested_ids": [
+        "C3-BG-011-005"
+      ],
+      "verified_official_id": "C3-PROP-009",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 125,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-125-0b642212.png",
+      "sha256": "4acbaf42b1d6bbc84d214c03468ee104f8137fc86eeefa33adfc68928974c8b0",
+      "source_message_id": "7fe92eed-fd99-459e-a237-858b63a11918",
+      "requested_ids": [
+        "C3-BG-011-005"
+      ],
+      "verified_official_id": "C3-PROP-009",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 126,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-126-0f23bfa1.png",
+      "sha256": "bbd6916cd6e25cda5c469f5414fc55e4987f27d49ab295bef1eb1c32439c3038",
+      "source_message_id": "c06158d9-8fa2-4d4a-9196-251718b9a95c",
+      "requested_ids": [],
+      "verified_official_id": "C3-PROP-009",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 127,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-127-1c76cdf5.png",
+      "sha256": "86bc81a0d5e3028554f6e01cb017858fe4a8f5bd64295e2ee091fb43a4ba19f4",
+      "source_message_id": "b32a079a-6de7-46a2-95c7-0a2a1c21037e",
+      "requested_ids": [
+        "C3-BG-011-005"
+      ],
+      "verified_official_id": "C3-PROP-009",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 128,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-128-d3501f0d.png",
+      "sha256": "f2d755456c2caaf128b1ee64be8d1b17eba44520e4d91ce33d47860f5a79f524",
+      "source_message_id": "f6a46635-e91f-47ec-bec5-417a866188c5",
+      "requested_ids": [
+        "C3-BG-011-005"
+      ],
+      "verified_official_id": "C3-TILE-007",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 129,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-129-42d8ca65.png",
+      "sha256": "655b202324be7676e9e6242785c44d9e96325130fc21debdba90bb6568510397",
+      "source_message_id": "d00a29fa-0ea5-4622-9f2f-d2aade0ca7c4",
+      "requested_ids": [
+        "C3-BG-011-007"
+      ],
+      "verified_official_id": "C3-PROP-008",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 130,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-130-73a81ce9.png",
+      "sha256": "eaad1457381e02ca33d123d99e7215b0eb2a0815e368da5b8900031ab327567e",
+      "source_message_id": "5694e5b9-5a2c-4ecc-8228-90ae437cb70e",
+      "requested_ids": [
+        "C3-BG-011-006"
+      ],
+      "verified_official_id": "C3-PROP-007",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 131,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-131-b4d803f2.png",
+      "sha256": "4c78eca516205ee965e30d68998d4cf0f73bb9ae3fd9e44608a7bdc40f69a967",
+      "source_message_id": "368e4481-814b-45e5-b8c9-33542e4d6444",
+      "requested_ids": [
+        "C3-BG-011-008"
+      ],
+      "verified_official_id": "C3-TILE-011",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 132,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-132-69c1c6c9.png",
+      "sha256": "97944b90190991a5d5e466152516dbd13c150af12198db2ff4a55ebc01cc0d33",
+      "source_message_id": "378db4ea-9812-4bed-b73d-75a48389c4c2",
+      "requested_ids": [
+        "C3-BG-011-007"
+      ],
+      "verified_official_id": "C3-PROP-008",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 133,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-133-901cba83.png",
+      "sha256": "c874b977f9c21c8ae8ab3c0d3e9b73ad21fcd3e9720363c19e92071f97ab6f50",
+      "source_message_id": "f1b04ada-e637-4887-95e4-affb8bb37fd1",
+      "requested_ids": [],
+      "verified_official_id": "C3-PROP-008",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 134,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-134-14de3dea.png",
+      "sha256": "89534a0f85be9375a8ebcd0b0afd5a27170f85dd7cd50726ebe5991d679bdc78",
+      "source_message_id": "85585a7b-fdd6-41e2-8191-bb906399ea5d",
+      "requested_ids": [
+        "C3-BG-011-010"
+      ],
+      "verified_official_id": null,
+      "status": "waterfall; delegated VFX export inventory"
+    },
+    {
+      "source_index": 135,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-135-b17eef99.png",
+      "sha256": "fc326b673b4176939e41f220b92ab77362a58854cef997d132a7c7cc9225f5f7",
+      "source_message_id": "d76c9fcd-03c0-4862-930b-c877e85795d2",
+      "requested_ids": [
+        "C3-BG-011-011"
+      ],
+      "verified_official_id": "C3-PROP-027",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 136,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-136-b844b4f5.png",
+      "sha256": "ae9b626f680ba126ca84e5d3f82933e43dc0022f0f3d406cd63db4246fadd091",
+      "source_message_id": "f2183b27-607f-44f6-83e1-41168e026d1f",
+      "requested_ids": [
+        "C3-BG-011-012"
+      ],
+      "verified_official_id": "C3-TILE-008",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 137,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-137-3c7e75a3.png",
+      "sha256": "8f3848f6023c17ead916d1c3ae0694d83b6bd9b38f6c566f48fc107e59b9a6de",
+      "source_message_id": "1e1188f9-f92e-4063-b8d1-57b390d26b0b",
+      "requested_ids": [
+        "C3-BG-011-013"
+      ],
+      "verified_official_id": "C3-DEC-003",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 138,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-138-face7cce.png",
+      "sha256": "095e661a9ca4cee33661215ca77239469ad31c75b138137089dbbdb417ebe9f2",
+      "source_message_id": "b794a643-9ef8-467d-995b-a5afbb04992c",
+      "requested_ids": [
+        "C3-BG-011-014"
+      ],
+      "verified_official_id": "C3-PROP-008",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 139,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-139-66b050a5.png",
+      "sha256": "510fb57678aabb250b955081100853a8edd44d8d8d19e31a905b8f71871baffd",
+      "source_message_id": "8b086f1f-de73-4166-8170-c1ab7d7051ab",
+      "requested_ids": [],
+      "verified_official_id": "C3-PROP-008",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 140,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-140-44a3b7a3.png",
+      "sha256": "42e5122c00b6a3a0e13c7177ec1b97f372b8e7566d96229babfe7f67a26d0298",
+      "source_message_id": "6fd84443-b434-48f4-866d-5499635549ce",
+      "requested_ids": [
+        "C3-BG-011-015"
+      ],
+      "verified_official_id": "C3-PROP-008",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 141,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-141-f72525fc.png",
+      "sha256": "66796c05061998bb5f616d2f6d966d02d62922a48990a62ff96a43e106baa638",
+      "source_message_id": "b4e2d6bb-e197-42dc-b763-bc6f0acb7031",
+      "requested_ids": [
+        "C3-BG-011-016"
+      ],
+      "verified_official_id": "C3-PROP-004",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 142,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-142-ed1162de.png",
+      "sha256": "ff6487baf1d99c268a087e8cb76f95d88d2d2906a53c42dcb0371142e9210eda",
+      "source_message_id": "a3c92dca-9806-4abf-9f4c-5336fb82b34a",
+      "requested_ids": [
+        "C3-BG-011-017"
+      ],
+      "verified_official_id": "C3-TILE-012",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 143,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-143-bab60a8d.png",
+      "sha256": "fcbbf1ea81a10fa06622811b1750fd30d11353ba312aaddf9ac89cc497c77282",
+      "source_message_id": "f0557620-b940-4d81-980e-31724a63a5ab",
+      "requested_ids": [
+        "C3-BG-011-018"
+      ],
+      "verified_official_id": "C3-TILE-007",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 144,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-144-b072d8c8.png",
+      "sha256": "f40c50c40cc93f015e0cef24603af21a3b082a1024b85a060741edadda1eee76",
+      "source_message_id": "bf9bbdcc-e810-4e7c-9504-c2a1c5b11cf2",
+      "requested_ids": [
+        "C3-BG-011-019"
+      ],
+      "verified_official_id": "C3-TILE-007",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 145,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-145-57e4f898.png",
+      "sha256": "62fb6d10f4c3ce2b49ec248773298f9237e9a81876413cf0cd68124bfbe5c120",
+      "source_message_id": "1bb29559-0d9a-4d2d-9fc7-f2d0c9e604a1",
+      "requested_ids": [
+        "C3-BG-011-020"
+      ],
+      "verified_official_id": "C3-PROP-008 / C3-DEC-008",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 146,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-146-0151a67b.png",
+      "sha256": "7061896e11d69d4e46cd8b763ce7b982631be82127d20b49be7ea027969b434f",
+      "source_message_id": "e85c396a-13eb-441b-b628-f15ce115199b",
+      "requested_ids": [
+        "C3-BG-011-021"
+      ],
+      "verified_official_id": "C3-PROP-008",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 147,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-147-e138fa5c.png",
+      "sha256": "36762d9baa7c354bc149f585675394217a028ce32d748cab0c7b4a077e2c58d5",
+      "source_message_id": "80208e95-0841-407a-98d9-5f64994b288b",
+      "requested_ids": [
+        "C3-BG-011-022"
+      ],
+      "verified_official_id": "C3-PROP-009",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 148,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-148-5ba5f81e.png",
+      "sha256": "3bbfc00464ee08ed6502f99acd7e9e465a7e03e34e75d0b9981c4c9ecf479120",
+      "source_message_id": "a4898d16-5a17-4046-a176-b04dec0ad85b",
+      "requested_ids": [
+        "C3-BG-011-023"
+      ],
+      "verified_official_id": "C3-TILE-007",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 149,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-149-26b61613.png",
+      "sha256": "a6da8bca8e9ea28842dc01fc394a5a1fc97723adb436eaa1d262b1e3bb2728b5",
+      "source_message_id": "9569b88d-db1a-4b05-ae75-b0eb689b7d2c",
+      "requested_ids": [
+        "C3-BG-011-024"
+      ],
+      "verified_official_id": "C3-TILE-007",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 150,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-150-7100d56d.png",
+      "sha256": "cec3a5f01a612095fa4835c4e7d9ec051e51254c9fa72288a7fdbccf2ef6b1c6",
+      "source_message_id": "6aba79bf-bc2b-42a0-be74-931830232708",
+      "requested_ids": [
+        "C3-BG-011-025"
+      ],
+      "verified_official_id": "C3-PROP-023",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 151,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-151-11d9433c.png",
+      "sha256": "d3314f79e7da368d3426a297616bea6c80bdf88f7c7eebc024f1992cb4be3e06",
+      "source_message_id": "281d40fd-ac8a-49fd-9c53-0ff212afcba0",
+      "requested_ids": [
+        "C3-BG-011-025",
+        "C3-BG-011-026"
+      ],
+      "verified_official_id": "C3-PROP-023 candidate",
+      "status": "export candidate prepared"
+    },
+    {
+      "source_index": 152,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-152-dc25f2fe.png",
+      "sha256": "543bfd53abcec306b7e322291bbf71f1ebe8b836803eb0b8e8d268052c6f967b",
+      "source_message_id": "aa616fb3-8566-43ec-bdbe-94e367ea3c21",
+      "requested_ids": [
+        "C3-BG-012"
+      ],
+      "verified_official_id": null,
+      "status": "caustics; official C3-BG-011; delegated VFX inventory"
+    },
+    {
+      "source_index": 153,
+      "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-153-a2292005.png",
+      "sha256": "5937fc5cad288a7c7f7c865a4eef72c812a94827449e0281df5a75e46c4a6214",
+      "source_message_id": "ebeaab2f-73a6-4cec-aff2-7d1457530164",
+      "requested_ids": [
+        "C3-BG-012"
+      ],
+      "verified_official_id": null,
+      "status": "caustics; official C3-BG-011; delegated VFX inventory"
+    }
+  ],
+  "missing_or_blocked": [
+    "C3-TILE-001/002/003: no standalone seamless terrain top/middle/underside delivered by these sources",
+    "C3-BG-001: supplied panorama attempts are complete illustrated scenes with gameplay foreground; retained as references",
+    "C3-BG-005/006/007/008/009: wrong subjects or flattened scenery, not the required separable section layers",
+    "C3-PROP-010/011: no matching closed/open rune-door pair; wall-relief art is not a door",
+    "C3-BG-012: source requested this ID but depicts caustics; no foreground roots falsely approved",
+    "Depth/mask guide panels are not normal maps and do not establish valid relief or pixel alignment"
+  ]
+}

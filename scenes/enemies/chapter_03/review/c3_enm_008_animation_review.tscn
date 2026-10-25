@@ -1,0 +1,430 @@
+[gd_scene load_steps=51 format=3]
+[ext_resource type="SpriteFrames" path="res://resources/chapter_03/animations/enemies/c3_enm_008_review.tres" id="1"]
+
+[sub_resource type="Animation" id="Anim_0"]
+resource_name = "idle"
+length = 1.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite:animation")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0), "transitions": PackedFloat32Array(1), "update": 1, "values": [&"idle"]}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite:frame")
+tracks/1/interp = 1
+tracks/1/keys = {"times": PackedFloat32Array(0.0, 0.166667, 0.333333, 0.5, 0.666667, 0.833333), "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1), "update": 1, "values": [0, 1, 2, 3, 4, 5]}
+
+[sub_resource type="AnimationNodeAnimation" id="State_0"]
+animation = &"idle"
+
+[sub_resource type="Animation" id="Anim_1"]
+resource_name = "intro"
+length = 0.625
+loop_mode = 0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite:animation")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0), "transitions": PackedFloat32Array(1), "update": 1, "values": [&"intro"]}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite:frame")
+tracks/1/interp = 1
+tracks/1/keys = {"times": PackedFloat32Array(0.0, 0.125, 0.25, 0.375, 0.5), "transitions": PackedFloat32Array(1, 1, 1, 1, 1), "update": 1, "values": [0, 1, 2, 3, 4]}
+
+[sub_resource type="AnimationNodeAnimation" id="State_1"]
+animation = &"intro"
+
+[sub_resource type="Animation" id="Anim_2"]
+resource_name = "dash_windup"
+length = 0.625
+loop_mode = 0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite:animation")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0), "transitions": PackedFloat32Array(1), "update": 1, "values": [&"dash_windup"]}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite:frame")
+tracks/1/interp = 1
+tracks/1/keys = {"times": PackedFloat32Array(0.0, 0.125, 0.25, 0.375, 0.5), "transitions": PackedFloat32Array(1, 1, 1, 1, 1), "update": 1, "values": [0, 1, 2, 3, 4]}
+
+[sub_resource type="AnimationNodeAnimation" id="State_2"]
+animation = &"dash_windup"
+
+[sub_resource type="Animation" id="Anim_3"]
+resource_name = "dash_partial"
+length = 0.75
+loop_mode = 0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite:animation")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0), "transitions": PackedFloat32Array(1), "update": 1, "values": [&"dash_partial"]}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite:frame")
+tracks/1/interp = 1
+tracks/1/keys = {"times": PackedFloat32Array(0.0, 0.125, 0.25, 0.375, 0.5, 0.625), "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1), "update": 1, "values": [0, 1, 2, 3, 4, 5]}
+
+[sub_resource type="AnimationNodeAnimation" id="State_3"]
+animation = &"dash_partial"
+
+[sub_resource type="Animation" id="Anim_4"]
+resource_name = "bubble_summon"
+length = 0.75
+loop_mode = 0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite:animation")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0), "transitions": PackedFloat32Array(1), "update": 1, "values": [&"bubble_summon"]}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite:frame")
+tracks/1/interp = 1
+tracks/1/keys = {"times": PackedFloat32Array(0.0, 0.125, 0.25, 0.375, 0.5, 0.625), "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1), "update": 1, "values": [0, 1, 2, 3, 4, 5]}
+
+[sub_resource type="AnimationNodeAnimation" id="State_4"]
+animation = &"bubble_summon"
+
+[sub_resource type="Animation" id="Anim_5"]
+resource_name = "water_column_telegraph_partial"
+length = 0.5
+loop_mode = 0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite:animation")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0), "transitions": PackedFloat32Array(1), "update": 1, "values": [&"water_column_telegraph_partial"]}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite:frame")
+tracks/1/interp = 1
+tracks/1/keys = {"times": PackedFloat32Array(0.0, 0.125, 0.25, 0.375), "transitions": PackedFloat32Array(1, 1, 1, 1), "update": 1, "values": [0, 1, 2, 3]}
+
+[sub_resource type="AnimationNodeAnimation" id="State_5"]
+animation = &"water_column_telegraph_partial"
+
+[sub_resource type="Animation" id="Anim_6"]
+resource_name = "seal_beam_telegraph"
+length = 0.75
+loop_mode = 0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite:animation")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0), "transitions": PackedFloat32Array(1), "update": 1, "values": [&"seal_beam_telegraph"]}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite:frame")
+tracks/1/interp = 1
+tracks/1/keys = {"times": PackedFloat32Array(0.0, 0.125, 0.25, 0.375, 0.5, 0.625), "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1), "update": 1, "values": [0, 1, 2, 3, 4, 5]}
+
+[sub_resource type="AnimationNodeAnimation" id="State_6"]
+animation = &"seal_beam_telegraph"
+
+[sub_resource type="Animation" id="Anim_7"]
+resource_name = "seal_beam_partial"
+length = 0.5
+loop_mode = 0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite:animation")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0), "transitions": PackedFloat32Array(1), "update": 1, "values": [&"seal_beam_partial"]}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite:frame")
+tracks/1/interp = 1
+tracks/1/keys = {"times": PackedFloat32Array(0.0, 0.125, 0.25, 0.375), "transitions": PackedFloat32Array(1, 1, 1, 1), "update": 1, "values": [0, 1, 2, 3]}
+
+[sub_resource type="AnimationNodeAnimation" id="State_7"]
+animation = &"seal_beam_partial"
+
+[sub_resource type="Animation" id="Anim_8"]
+resource_name = "core_exposed"
+length = 0.75
+loop_mode = 0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite:animation")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0), "transitions": PackedFloat32Array(1), "update": 1, "values": [&"core_exposed"]}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite:frame")
+tracks/1/interp = 1
+tracks/1/keys = {"times": PackedFloat32Array(0.0, 0.125, 0.25, 0.375, 0.5, 0.625), "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1), "update": 1, "values": [0, 1, 2, 3, 4, 5]}
+
+[sub_resource type="AnimationNodeAnimation" id="State_8"]
+animation = &"core_exposed"
+
+[sub_resource type="Animation" id="Anim_9"]
+resource_name = "phase_change"
+length = 0.75
+loop_mode = 0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite:animation")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0), "transitions": PackedFloat32Array(1), "update": 1, "values": [&"phase_change"]}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite:frame")
+tracks/1/interp = 1
+tracks/1/keys = {"times": PackedFloat32Array(0.0, 0.125, 0.25, 0.375, 0.5, 0.625), "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1), "update": 1, "values": [0, 1, 2, 3, 4, 5]}
+
+[sub_resource type="AnimationNodeAnimation" id="State_9"]
+animation = &"phase_change"
+
+[sub_resource type="Animation" id="Anim_10"]
+resource_name = "hurt"
+length = 0.75
+loop_mode = 0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite:animation")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0), "transitions": PackedFloat32Array(1), "update": 1, "values": [&"hurt"]}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite:frame")
+tracks/1/interp = 1
+tracks/1/keys = {"times": PackedFloat32Array(0.0, 0.125, 0.25, 0.375, 0.5, 0.625), "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1), "update": 1, "values": [0, 1, 2, 3, 4, 5]}
+
+[sub_resource type="AnimationNodeAnimation" id="State_10"]
+animation = &"hurt"
+
+[sub_resource type="Animation" id="Anim_11"]
+resource_name = "defeat_partial"
+length = 0.125
+loop_mode = 0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite:animation")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0), "transitions": PackedFloat32Array(1), "update": 1, "values": [&"defeat_partial"]}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite:frame")
+tracks/1/interp = 1
+tracks/1/keys = {"times": PackedFloat32Array(0.0), "transitions": PackedFloat32Array(1), "update": 1, "values": [0]}
+
+[sub_resource type="AnimationNodeAnimation" id="State_11"]
+animation = &"defeat_partial"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="StartTransition"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="To_1"]
+advance_mode = 1
+switch_mode = 0
+reset = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="Return_1"]
+advance_mode = 2
+switch_mode = 2
+reset = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="To_2"]
+advance_mode = 1
+switch_mode = 0
+reset = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="Return_2"]
+advance_mode = 2
+switch_mode = 2
+reset = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="To_3"]
+advance_mode = 1
+switch_mode = 0
+reset = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="Return_3"]
+advance_mode = 2
+switch_mode = 2
+reset = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="To_4"]
+advance_mode = 1
+switch_mode = 0
+reset = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="Return_4"]
+advance_mode = 2
+switch_mode = 2
+reset = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="To_5"]
+advance_mode = 1
+switch_mode = 0
+reset = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="Return_5"]
+advance_mode = 2
+switch_mode = 2
+reset = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="To_6"]
+advance_mode = 1
+switch_mode = 0
+reset = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="Return_6"]
+advance_mode = 2
+switch_mode = 2
+reset = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="To_7"]
+advance_mode = 1
+switch_mode = 0
+reset = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="Return_7"]
+advance_mode = 2
+switch_mode = 2
+reset = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="To_8"]
+advance_mode = 1
+switch_mode = 0
+reset = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="Return_8"]
+advance_mode = 2
+switch_mode = 2
+reset = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="To_9"]
+advance_mode = 1
+switch_mode = 0
+reset = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="Return_9"]
+advance_mode = 2
+switch_mode = 2
+reset = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="To_10"]
+advance_mode = 1
+switch_mode = 0
+reset = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="Return_10"]
+advance_mode = 2
+switch_mode = 2
+reset = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="To_11"]
+advance_mode = 1
+switch_mode = 0
+reset = true
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="Return_11"]
+advance_mode = 2
+switch_mode = 2
+reset = true
+
+[sub_resource type="AnimationLibrary" id="Library"]
+_data = {&"idle": SubResource("Anim_0"), &"intro": SubResource("Anim_1"), &"dash_windup": SubResource("Anim_2"), &"dash_partial": SubResource("Anim_3"), &"bubble_summon": SubResource("Anim_4"), &"water_column_telegraph_partial": SubResource("Anim_5"), &"seal_beam_telegraph": SubResource("Anim_6"), &"seal_beam_partial": SubResource("Anim_7"), &"core_exposed": SubResource("Anim_8"), &"phase_change": SubResource("Anim_9"), &"hurt": SubResource("Anim_10"), &"defeat_partial": SubResource("Anim_11")}
+
+[sub_resource type="AnimationNodeStateMachine" id="States"]
+states/idle/node = SubResource("State_0")
+states/idle/position = Vector2(260, 100)
+states/intro/node = SubResource("State_1")
+states/intro/position = Vector2(460, 100)
+states/dash_windup/node = SubResource("State_2")
+states/dash_windup/position = Vector2(660, 100)
+states/dash_partial/node = SubResource("State_3")
+states/dash_partial/position = Vector2(860, 100)
+states/bubble_summon/node = SubResource("State_4")
+states/bubble_summon/position = Vector2(260, 230)
+states/water_column_telegraph_partial/node = SubResource("State_5")
+states/water_column_telegraph_partial/position = Vector2(460, 230)
+states/seal_beam_telegraph/node = SubResource("State_6")
+states/seal_beam_telegraph/position = Vector2(660, 230)
+states/seal_beam_partial/node = SubResource("State_7")
+states/seal_beam_partial/position = Vector2(860, 230)
+states/core_exposed/node = SubResource("State_8")
+states/core_exposed/position = Vector2(260, 360)
+states/phase_change/node = SubResource("State_9")
+states/phase_change/position = Vector2(460, 360)
+states/hurt/node = SubResource("State_10")
+states/hurt/position = Vector2(660, 360)
+states/defeat_partial/node = SubResource("State_11")
+states/defeat_partial/position = Vector2(860, 360)
+states/Start/position = Vector2(60, 100)
+transitions = ["Start", "idle", SubResource("StartTransition"), "idle", "intro", SubResource("To_1"), "intro", "idle", SubResource("Return_1"), "idle", "dash_windup", SubResource("To_2"), "dash_windup", "idle", SubResource("Return_2"), "idle", "dash_partial", SubResource("To_3"), "dash_partial", "idle", SubResource("Return_3"), "idle", "bubble_summon", SubResource("To_4"), "bubble_summon", "idle", SubResource("Return_4"), "idle", "water_column_telegraph_partial", SubResource("To_5"), "water_column_telegraph_partial", "idle", SubResource("Return_5"), "idle", "seal_beam_telegraph", SubResource("To_6"), "seal_beam_telegraph", "idle", SubResource("Return_6"), "idle", "seal_beam_partial", SubResource("To_7"), "seal_beam_partial", "idle", SubResource("Return_7"), "idle", "core_exposed", SubResource("To_8"), "core_exposed", "idle", SubResource("Return_8"), "idle", "phase_change", SubResource("To_9"), "phase_change", "idle", SubResource("Return_9"), "idle", "hurt", SubResource("To_10"), "hurt", "idle", SubResource("Return_10"), "idle", "defeat_partial", SubResource("To_11"), "defeat_partial", "idle", SubResource("Return_11")]
+
+[node name="C3ENM008AnimationReview" type="Node2D"]
+metadata/production_approved = false
+metadata/purpose = "Source diagnostic review. All available states are reachable through native AnimationTree playback.travel(). One-shots return at their authored end; partial actions remain partial. No combat logic or hitboxes are inferred."
+
+[node name="Backdrop" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(0, 0, 1280, 0, 1280, 720, 0, 720)
+color = Color(0.035, 0.14, 0.169, 1)
+
+[node name="Title" type="Label" parent="."]
+position = Vector2(32, 24)
+text = "C3-ENM-008 | exact source pixels | diagnostic animation review"
+
+[node name="Status" type="Label" parent="."]
+position = Vector2(32, 64)
+text = "Source overlaps, attached VFX, clipping and missing actions remain pending. Not production approval."
+
+[node name="Baseline" type="Line2D" parent="."]
+points = PackedVector2Array(160, 610, 1120, 610)
+width = 1.0
+default_color = Color(0.3, 0.5, 0.5, 1)
+
+[node name="Actor" type="Node2D" parent="."]
+position = Vector2(640, 610)
+scale = Vector2(0.8, 0.8)
+
+[node name="Sprite" type="AnimatedSprite2D" parent="Actor"]
+sprite_frames = ExtResource("1")
+animation = &"idle"
+centered = false
+offset = Vector2(-215, -492)
+texture_filter = 2
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Actor"]
+libraries = {&"": SubResource("Library")}
+
+[node name="AnimationTree" type="AnimationTree" parent="Actor"]
+tree_root = SubResource("States")
+anim_player = NodePath("../AnimationPlayer")
+active = true
+
+[node name="AvailableActions" type="Label" parent="."]
+position = Vector2(32, 660)
+text = "idle, intro, dash_windup, dash_partial, bubble_summon, water_column_telegraph_partial, seal_beam_telegraph, seal_beam_partial, core_exposed, phase_change, hurt, defeat_partial"

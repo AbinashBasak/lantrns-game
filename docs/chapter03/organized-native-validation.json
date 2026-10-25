@@ -1,0 +1,44 @@
+[
+  {
+    "test": "tests/chapter03_asset_review_test.gd",
+    "exit_code": 0,
+    "errors": [],
+    "log": "/tmp/lantrns-final-chapter03_asset_review_test.log"
+  },
+  {
+    "test": "tests/chapter03_player_animation_review_test.gd",
+    "exit_code": 0,
+    "errors": [],
+    "log": "/tmp/lantrns-final-chapter03_player_animation_review_test.log"
+  },
+  {
+    "test": "tests/chapter03_native_effects_test.gd",
+    "exit_code": 0,
+    "errors": [],
+    "log": "/tmp/lantrns-final-chapter03_native_effects_test.log"
+  },
+  {
+    "test": "tests/chapter03_shrine_light_test.gd",
+    "exit_code": 0,
+    "errors": [],
+    "log": "/tmp/lantrns-final-chapter03_shrine_light_test.log"
+  },
+  {
+    "test": "tests/chapter03_moving_platform_test.gd",
+    "exit_code": 0,
+    "errors": [],
+    "log": "/tmp/lantrns-final-chapter03_moving_platform_test.log"
+  },
+  {
+    "test": "tests/chapter03_progression_test.gd",
+    "exit_code": 0,
+    "errors": [],
+    "log": "/tmp/lantrns-final-chapter03_progression_test.log"
+  },
+  {
+    "test": "tools/validate_c3_vfx.gd",
+    "exit_code": 0,
+    "errors": [],
+    "log": "/tmp/lantrns-final-validate_c3_vfx.log"
+  }
+]

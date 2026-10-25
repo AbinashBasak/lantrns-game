@@ -1,0 +1,306 @@
+{
+  "asset_id": "C3-PROP-023",
+  "title": "Mirror pedestal candidate",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-023/source_images/C3-PROP-023_organized_image-150-7100d56d.png",
+      "sha256": "cec3a5f01a612095fa4835c4e7d9ec051e51254c9fa72288a7fdbccf2ef6b1c6",
+      "bytes": 1975441,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-150-7100d56d.png",
+      "source_message_id": "6aba79bf-bc2b-42a0-be74-931830232708",
+      "source_requested_ids": [
+        "C3-BG-011-025"
+      ],
+      "generated_subject_title": "Stylized Pedestal Render Passes",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-023/source_images/C3-PROP-023_organized_image-151-11d9433c.png",
+      "sha256": "d3314f79e7da368d3426a297616bea6c80bdf88f7c7eebc024f1992cb4be3e06",
+      "bytes": 2009060,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-151-11d9433c.png",
+      "source_message_id": "281d40fd-ac8a-49fd-9c53-0ff212afcba0",
+      "source_requested_ids": [
+        "C3-BG-011-025",
+        "C3-BG-011-026"
+      ],
+      "generated_subject_title": "Fantasy Temple Asset Sheet: Pedestal and Altar",
+      "production_approved": false,
+      "dimensions": [
+        1774,
+        887
+      ]
+    }
+  ],
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-PROP-023",
+          "source_index": 150,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-150-7100d56d.png",
+          "source_sha256": "cec3a5f01a612095fa4835c4e7d9ec051e51254c9fa72288a7fdbccf2ef6b1c6",
+          "source_message_id": "6aba79bf-bc2b-42a0-be74-931830232708",
+          "requested_ids": [
+            "C3-BG-011-025"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            10,
+            2,
+            506,
+            876
+          ],
+          "export": "art/environment/chapter_03/props/c3_prop_023_mirror_pedestal_candidate.png",
+          "export_sha256": "4e9a95013014c98be73eed8e5b50669d5ae70e19eedeca2dcac2b9aa9c5ac4c7",
+          "dimensions": [
+            496,
+            874
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            496,
+            874
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 220043,
+          "nonopaque_pixel_count": 220043,
+          "opaque_pixel_count": 213461,
+          "pivot": [
+            248.0,
+            874
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Official-ID association is a candidate by subject; no motion/puzzle state delivered."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_023_150_depth_reference.png",
+              "sha256": "1e79f60b85f3b7f997dd7d707601a87f708756bee7610a68474c4f8401bcbccd",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_prop_023_150_mask_reference.png",
+              "sha256": "ae1da984d8d1b96701fa26b740c37bd1177fc175c3b5a413d9495d7eb8c83ba6",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_prop_023_mirror_pedestal_candidate.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-PROP-023",
+          "source_index": 151,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-151-11d9433c.png",
+          "source_sha256": "d3314f79e7da368d3426a297616bea6c80bdf88f7c7eebc024f1992cb4be3e06",
+          "source_message_id": "281d40fd-ac8a-49fd-9c53-0ff212afcba0",
+          "requested_ids": [
+            "C3-BG-011-025",
+            "C3-BG-011-026"
+          ],
+          "source_dimensions": [
+            1774,
+            887
+          ],
+          "removed_neighbor_components": 3,
+          "source_crop": [
+            4,
+            4,
+            284,
+            687
+          ],
+          "content_trim": [
+            5,
+            135,
+            277,
+            604
+          ],
+          "export": "art/environment/chapter_03/props/c3_prop_023_small_pedestal_candidate.png",
+          "export_sha256": "75fae0f7469de05cc2c87542c1b87800df7735fa7eaf758059292dc63f03e3af",
+          "dimensions": [
+            272,
+            469
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            272,
+            469
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 34070,
+          "nonopaque_pixel_count": 34070,
+          "opaque_pixel_count": 93498,
+          "pivot": [
+            136.0,
+            469
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Official-ID association is a candidate by subject; no motion/puzzle state delivered."
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_prop_023_small_pedestal_candidate.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-PROP-023",
+          "source_index": 151,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-151-11d9433c.png",
+          "source_sha256": "d3314f79e7da368d3426a297616bea6c80bdf88f7c7eebc024f1992cb4be3e06",
+          "source_message_id": "281d40fd-ac8a-49fd-9c53-0ff212afcba0",
+          "requested_ids": [
+            "C3-BG-011-025",
+            "C3-BG-011-026"
+          ],
+          "source_dimensions": [
+            1774,
+            887
+          ],
+          "removed_neighbor_components": 7,
+          "source_crop": [
+            865,
+            4,
+            1164,
+            687
+          ],
+          "content_trim": [
+            1,
+            247,
+            298,
+            535
+          ],
+          "export": "art/environment/chapter_03/props/c3_prop_023_small_altar_support_candidate.png",
+          "export_sha256": "a2660e20f2e11e410444dc66f751a992b344ca1acf057f38e27059ec4edf276b",
+          "dimensions": [
+            297,
+            288
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            297,
+            288
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 18560,
+          "nonopaque_pixel_count": 18560,
+          "opaque_pixel_count": 66976,
+          "pivot": [
+            148.5,
+            288
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize; detached source debris removed (threshold 1800 px for rubble, 80 px for mixed pedestal sheet)",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Official-ID association is a candidate by subject; no motion/puzzle state delivered."
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_prop_023_small_altar_support_candidate.png"
+        ]
+      }
+    ],
+    "exports": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-023/exports/organized_v1/C3-PROP-023_00_c3_prop_023_mirror_pedestal_candidate.png",
+        "sha256": "4e9a95013014c98be73eed8e5b50669d5ae70e19eedeca2dcac2b9aa9c5ac4c7",
+        "bytes": 854667,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_prop_023_mirror_pedestal_candidate.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-023/exports/organized_v1/C3-PROP-023_01_c3_prop_023_small_pedestal_candidate.png",
+        "sha256": "75fae0f7469de05cc2c87542c1b87800df7735fa7eaf758059292dc63f03e3af",
+        "bytes": 315091,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_prop_023_small_pedestal_candidate.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/props/C3-PROP-023/exports/organized_v1/C3-PROP-023_02_c3_prop_023_small_altar_support_candidate.png",
+        "sha256": "a2660e20f2e11e410444dc66f751a992b344ca1acf057f38e27059ec4edf276b",
+        "bytes": 213114,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_prop_023_small_altar_support_candidate.png",
+        "kind": "environment"
+      }
+    ],
+    "native_resources": [],
+    "missing_or_blocked": [],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Texture2D" path="res://resources/chapter_03/lighting/C3-TILE-012_source142_canvas_texture.tres" id="1"]
+[node name="C3WallReliefMapped" type="Node2D"]
+metadata/official_id = "C3-TILE-012"
+metadata/source = "ZIP source142; mapped material handoff docs/chapter03/lighting-vfx-preparation-depth.json"
+metadata/pivot = "bottom-center; native diffuse487x815"
+metadata/collision = "None. This carved-wall sprite is not a tile collision atlas. Author collision/occluders from intended level geometry separately."
+metadata/light_response = "Supplied height-derived bump normal and registered supplied bitmap via CanvasTexture. No emitter in this unlit architecture."
+metadata/production_approved = false
+[node name="Artwork" type="Sprite2D" parent="."]
+texture = ExtResource("1")
+offset = Vector2(0, -407.5)
+light_mask = 1
+[node name="GroundAnchor" type="Marker2D" parent="."]

@@ -1,0 +1,101 @@
+C3-BG-008-LGT-001 — GOLDEN SHRINE LIGHT
+Godot 4 Setup & Implementation Guide
+=====================================
+
+Purpose
+-------
+Create a dynamic golden shrine-light effect for Chapter 3, Scene S06 (Ancient Shrine).
+The golden shrine emblem, rays, and particles should be separate from the shrine
+architecture so they can be animated and lit independently.
+
+ASSET DELIVERABLES
+------------------
+1. Color / RGBA sprite
+   - Golden sunburst emblem, rings, rays, and/or sparks.
+   - Export as PNG with a real alpha channel.
+   - Keep the shrine architecture out of this sprite.
+   - For flexible animation, separate the core, rings, rays, and particles into
+     individual textures when possible.
+
+2. Glow heatmap (optional)
+   - Grayscale intensity mask: white = strongest emission, gray = weaker emission,
+     black = no emission.
+   - Keep its canvas size, center, and alignment identical to the color sprite.
+   - Use it in a custom CanvasItem shader to control glow/emission intensity.
+   - It is not required for ordinary PointLight2D lighting.
+
+3. Depth map (optional)
+   - Grayscale relative-depth/height reference for custom effects.
+   - Keep it aligned to the color sprite.
+   - It can support custom depth-aware distortion, parallax, or compositing.
+   - It does not automatically control Godot's 2D lighting and is not a normal map.
+
+GODOT 4 SCENE TREE
+------------------
+ShrineVFX (Node2D)
+├── GlowSprite (Sprite2D)
+├── CoreSprite (Sprite2D)
+├── RaysSprite (Sprite2D)
+├── PointLight2D
+├── GPUParticles2D
+└── AnimationPlayer
+
+IMPLEMENTATION STEPS
+--------------------
+1. Import textures
+   - Import the color sprite as PNG and verify the alpha channel is genuinely
+     transparent (not a checkerboard baked into the image).
+   - Use lossless compression where crisp rune details matter.
+   - Import the heatmap and depth map as separate textures if they are being used.
+   - Confirm all maps have matching dimensions, pivot/center, and frame alignment.
+
+2. Place the effect
+   - Add ShrineVFX at the shrine emblem's world position in S06.
+   - Align the sprite center to the shrine's sunburst emblem.
+   - Keep the VFX independent from collision geometry and background art.
+
+3. Add dynamic 2D lighting
+   - Add PointLight2D and assign a soft radial light texture.
+   - Set a warm gold/amber color.
+   - Adjust energy and texture scale/range to illuminate nearby compatible 2D
+     canvas items naturally.
+   - Check the scene's CanvasItem light settings and occluders if shadows are used.
+   - The sprite's own glow is visual artwork; PointLight2D supplies scene lighting.
+
+4. Animate the effect
+   - Use AnimationPlayer or a shader to pulse the core and glow gently.
+   - Rotate outer rings/rays slowly if those layers are separate.
+   - Keep the central rune relatively stable so it remains readable.
+   - Animate light energy subtly rather than flashing aggressively.
+
+5. Optional heatmap shader
+   - Sample the grayscale heatmap as an intensity mask.
+   - Use its values to vary glow strength over time or create a moving glow.
+   - Keep the heatmap aligned with the color texture.
+   - Bloom/glow post-processing is optional and depends on project rendering setup.
+
+6. Optional depth-map effects
+   - Use the grayscale map only in a custom shader or compositing workflow that
+     explicitly reads it.
+   - Define and document what black and white mean for that shader (for example,
+     far/near or low/high).
+   - Do not expect a depth map alone to make PointLight2D understand sprite depth.
+
+7. Add particles
+   - Use GPUParticles2D for small floating sparks or shards.
+   - Use a low emission rate, gentle upward drift, short lifetime, and warm gold
+     colors.
+   - Keep particles separate so they can be enabled/disabled independently.
+
+8. Final checks
+   - Verify true alpha transparency.
+   - Check edge halos/fringing against the dark teal shrine background.
+   - Confirm map registration and pivot alignment.
+   - Test the effect at gameplay camera zoom.
+   - Keep the golden shrine light separate from the dynamic blue waterfall VFX.
+
+IMPORTANT PRODUCTION NOTE
+-------------------------
+A combined infographic is only a visual reference. It is not a set of independently
+verified production textures. Export or generate the RGBA sprite, heatmap, and depth
+map as separate files and inspect each one before integrating it into Godot.

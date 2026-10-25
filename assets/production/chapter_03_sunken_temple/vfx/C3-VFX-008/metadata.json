@@ -1,0 +1,22 @@
+{
+  "asset_id": "C3-VFX-008",
+  "title": "Water splash",
+  "sources": [],
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [],
+    "exports": [],
+    "native_resources": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/vfx/chapter_03/c3_water_splash.tscn",
+        "sha256": "b13edcb33a047ff143ccd3f11a7ad585caa046bebb937452ebf1bf4b779ed8b6",
+        "bytes": 1358
+      }
+    ],
+    "missing_or_blocked": [],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "asset_id": "C3-DEC-003",
+  "title": "Hanging vines long",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/foliage/C3-DEC-003/source_images/C3-DEC-003_organized_image-137-3c7e75a3.png",
+      "sha256": "8f3848f6023c17ead916d1c3ae0694d83b6bd9b38f6c566f48fc107e59b9a6de",
+      "bytes": 1876594,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-137-3c7e75a3.png",
+      "source_message_id": "1e1188f9-f92e-4063-b8d1-57b390d26b0b",
+      "source_requested_ids": [
+        "C3-BG-011-013"
+      ],
+      "generated_subject_title": "Hanging Vines Asset Map Sheet",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-DEC-003",
+          "source_index": 137,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-137-3c7e75a3.png",
+          "source_sha256": "8f3848f6023c17ead916d1c3ae0694d83b6bd9b38f6c566f48fc107e59b9a6de",
+          "source_message_id": "1e1188f9-f92e-4063-b8d1-57b390d26b0b",
+          "requested_ids": [
+            "C3-BG-011-013"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            23,
+            42,
+            508,
+            873
+          ],
+          "export": "art/environment/chapter_03/props/c3_dec_003_hanging_vines_large.png",
+          "export_sha256": "0c74d2c3ceadf91413a62d0cc06a9e54450ce4ff3b5aa222d692bb54f243090e",
+          "dimensions": [
+            485,
+            831
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            485,
+            831
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 229177,
+          "nonopaque_pixel_count": 229177,
+          "opaque_pixel_count": 173858,
+          "pivot": [
+            242.5,
+            831
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "scenery / prop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_dec_003_137_depth_reference.png",
+              "sha256": "9c3575bf3538f7410298ad9ac0e15798c1894c7a0aa2f88c096017cea7efaa80",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_dec_003_137_mask_reference.png",
+              "sha256": "e8e8f48b42d944b1c2a11589f4e50fd070bea51323e022b753ecc703b872d902",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/props/c3_dec_003_hanging_vines_large.png"
+        ]
+      }
+    ],
+    "exports": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/foliage/C3-DEC-003/exports/organized_v1/C3-DEC-003_00_c3_dec_003_hanging_vines_large.png",
+        "sha256": "0c74d2c3ceadf91413a62d0cc06a9e54450ce4ff3b5aa222d692bb54f243090e",
+        "bytes": 769549,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/props/c3_dec_003_hanging_vines_large.png",
+        "kind": "environment"
+      }
+    ],
+    "native_resources": [],
+    "missing_or_blocked": [],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

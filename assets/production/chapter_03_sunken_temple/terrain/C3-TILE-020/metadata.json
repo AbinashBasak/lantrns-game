@@ -1,0 +1,96 @@
+{
+  "asset_id": "C3-TILE-020",
+  "title": "Waterfall collision-free visual strip",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-020/source_images/C3-TILE-020_organized_image-107-4e876289.png",
+      "sha256": "3c84443442b6e0513aca06cede5a235b1f78c020e006d42a3a941eaaac5b240b",
+      "bytes": 1996481,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-107-4e876289.png",
+      "source_message_id": "a4437728-e85b-44dc-9fcc-cf2aa1cc5a8d",
+      "source_requested_ids": [
+        "C3-BG-008-VFX-002"
+      ],
+      "generated_subject_title": "Three-Panel Fantasy Waterfall Asset Sheet",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "effect_texture",
+        "details": {
+          "official_ids": [
+            "C3-TILE-020",
+            "C3-BG-003"
+          ],
+          "role": "transparent waterfall artwork",
+          "source_path": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-107-4e876289.png",
+          "source_sha256": "3c84443442b6e0513aca06cede5a235b1f78c020e006d42a3a941eaaac5b240b",
+          "source_message_id": "a4437728-e85b-44dc-9fcc-cf2aa1cc5a8d",
+          "source_crop": [
+            2,
+            0,
+            505,
+            815
+          ],
+          "output_path": "art/vfx/chapter_03/C3-TILE-020_waterfall_stream.png",
+          "output_sha256": "7460a56511aecf2b84fc87ff43864d6bdbf50694b03bf2b4743583243ba91e58",
+          "dimensions": [
+            503,
+            815
+          ],
+          "visible_bounds": [
+            26,
+            0,
+            503,
+            815
+          ],
+          "alpha_extrema": [
+            0,
+            254
+          ],
+          "provenance": "derived rectangular crop from unchanged ZIP source",
+          "notes": "Caption/map panels excluded. Static illustrated stream animated by subtle native shader; not a recovered animation sheet. No collision. Top-center pivot.",
+          "production_approved": false,
+          "pivot": "top-center",
+          "receives_light": true,
+          "casts_shadows": false,
+          "emits_light": false,
+          "collision_shape": "none; author water collision separately",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "z_index": "-30..-10 for distant waterfall; +10 caustic water overlay",
+          "frame_count": 1,
+          "fps": null,
+          "animation_timing": "native shader motion; not a sprite animation sheet",
+          "status": "imported and resource-review passed; actual-section QA pending"
+        },
+        "output_paths": [
+          "art/vfx/chapter_03/C3-TILE-020_waterfall_stream.png"
+        ]
+      }
+    ],
+    "exports": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-020/exports/organized_v1/C3-TILE-020_00_C3-TILE-020_waterfall_stream.png",
+        "sha256": "7460a56511aecf2b84fc87ff43864d6bdbf50694b03bf2b4743583243ba91e58",
+        "bytes": 680161,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/vfx/chapter_03/C3-TILE-020_waterfall_stream.png",
+        "kind": "effect_texture"
+      }
+    ],
+    "native_resources": [],
+    "missing_or_blocked": [],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "asset_id": "C3-ITM-002",
+  "title": "Temple Key",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/source_images/C3-ITM-002_organized_C3-ITM-002_archive_image-066-493bec8e.png",
+      "sha256": "4a0696aff99b24f1373cdf89213d889d419ec9af4f8cb324233cbee606fdcf07",
+      "bytes": 2652303,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/source_images/C3-ITM-002_archive_image-066-493bec8e.png",
+      "source_message_id": "a1301b1c-3f28-4e61-b423-683ef54b836d",
+      "source_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "generated_subject_title": "Temple Key Animation Sprite Sheet",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/source_images/C3-ITM-002_organized_C3-ITM-002_archive_image-051-bcafa605.png",
+      "sha256": "e1a0929f9913f8d92726d4defa38bf2b56c08920e1239d28723948d0b79913ea",
+      "bytes": 2674427,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/source_images/C3-ITM-002_archive_image-051-bcafa605.png",
+      "source_message_id": "7058dfdc-f33e-4f24-a747-8e5a09232b5c",
+      "source_requested_ids": [
+        "C3-ITM-002"
+      ],
+      "generated_subject_title": "Enchanted Key Sprite Animation Sheet",
+      "production_approved": false,
+      "dimensions": [
+        1774,
+        887
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/source_images/C3-ITM-002_organized_C3-ITM-002_archive_image-067-e35d51de.png",
+      "sha256": "f47894ac4ced6875b80a1dbb0130d40a79ec1d3b0307e4c8f8f1ab0e90945caa",
+      "bytes": 3256586,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/source_images/C3-ITM-002_archive_image-067-e35d51de.png",
+      "source_message_id": "119e8c96-792a-4cc4-ba96-d3e84c9d580b",
+      "source_requested_ids": [
+        "C3-ITM-007"
+      ],
+      "generated_subject_title": "Temple Key: Base and Glowing Animation Frames",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "collectible",
+        "details": {
+          "asset_id": "C3-ITM-002",
+          "title": "Temple Key",
+          "sources": [
+            {
+              "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/source_images/C3-ITM-002_archive_image-066-493bec8e.png",
+              "sha256": "4a0696aff99b24f1373cdf89213d889d419ec9af4f8cb324233cbee606fdcf07",
+              "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-066-493bec8e.png",
+              "source_message_id": "a1301b1c-3f28-4e61-b423-683ef54b836d",
+              "source_message_index": 249,
+              "source_requested_ids": [
+                "C3-ITM-007"
+              ],
+              "source_official_requested_ids": [
+                "C3-ITM-007"
+              ],
+              "verified_actual_asset_id": "C3-ITM-002",
+              "generated_subject_title": "Temple Key Animation Sprite Sheet",
+              "dimensions": [
+                1536,
+                1024
+              ],
+              "mode": "RGBA",
+              "provenance": "unchanged original bytes supplied in user ZIP",
+              "requested_vs_actual_mismatch": true
+            },
+            {
+              "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/source_images/C3-ITM-002_archive_image-051-bcafa605.png",
+              "sha256": "e1a0929f9913f8d92726d4defa38bf2b56c08920e1239d28723948d0b79913ea",
+              "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-051-bcafa605.png",
+              "source_message_id": "7058dfdc-f33e-4f24-a747-8e5a09232b5c",
+              "source_message_index": 208,
+              "source_requested_ids": [
+                "C3-ITM-002"
+              ],
+              "source_official_requested_ids": [
+                "C3-ITM-002"
+              ],
+              "verified_actual_asset_id": "C3-ITM-002",
+              "generated_subject_title": "Enchanted Key Sprite Animation Sheet",
+              "dimensions": [
+                1774,
+                887
+              ],
+              "mode": "RGBA",
+              "provenance": "unchanged original bytes supplied in user ZIP",
+              "requested_vs_actual_mismatch": false,
+              "review_result": "alternate/mixed lit-body, pickup, depth or reference attempt; source retained, not a separated production effect"
+            },
+            {
+              "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/source_images/C3-ITM-002_archive_image-067-e35d51de.png",
+              "sha256": "f47894ac4ced6875b80a1dbb0130d40a79ec1d3b0307e4c8f8f1ab0e90945caa",
+              "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-067-e35d51de.png",
+              "source_message_id": "119e8c96-792a-4cc4-ba96-d3e84c9d580b",
+              "source_message_index": 251,
+              "source_requested_ids": [
+                "C3-ITM-007"
+              ],
+              "source_official_requested_ids": [
+                "C3-ITM-007"
+              ],
+              "verified_actual_asset_id": "C3-ITM-002",
+              "generated_subject_title": "Temple Key: Base and Glowing Animation Frames",
+              "dimensions": [
+                1536,
+                1024
+              ],
+              "mode": "RGB",
+              "provenance": "unchanged original bytes supplied in user ZIP",
+              "requested_vs_actual_mismatch": true,
+              "review_result": "RGB checkerboard; no invented alpha export"
+            }
+          ],
+          "source_recipe": {
+            "image": 66,
+            "regions": [
+              [
+                0,
+                540,
+                207,
+                1000
+              ],
+              [
+                207,
+                540,
+                394,
+                1000
+              ],
+              [
+                394,
+                540,
+                578,
+                1000
+              ],
+              [
+                578,
+                540,
+                774,
+                1000
+              ]
+            ],
+            "note": "Requested Lore tablet; actual Temple Key. First four intact unlit lower-row keys only. Fifth key disintegrates and is not idle."
+          },
+          "normalization": "Alpha>32 largest connected body per explicit cell plus original two-pixel antialias fringe. Source RGB/retained alpha unchanged; no scale or repainted pixels. Common per-family canvas; center pivot. Detached stones/leaves/labels/depth rows and faint canvas noise excluded.",
+          "runtime_exports": [
+            {
+              "path": "art/environment/chapter_03/collectibles/c3_itm_002/idle_unlit/C3-ITM-002_idle_unlit_00.png",
+              "sha256": "c40327f282b7cede4d0362d87354c42da0e53a0f2097ba818b3899e3435a4ccb",
+              "dimensions": [
+                206,
+                436
+              ],
+              "visible_bounds": [
+                15,
+                16,
+                190,
+                419
+              ],
+              "source_crop_bounds": [
+                25,
+                547,
+                200,
+                950
+              ]
+            },
+            {
+              "path": "art/environment/chapter_03/collectibles/c3_itm_002/idle_unlit/C3-ITM-002_idle_unlit_01.png",
+              "sha256": "eb0c7ce29c259eccb7d03a0e55d71766a32507e43c5df80385dbcbb480e6515e",
+              "dimensions": [
+                206,
+                436
+              ],
+              "visible_bounds": [
+                18,
+                14,
+                188,
+                422
+              ],
+              "source_crop_bounds": [
+                213,
+                559,
+                383,
+                967
+              ]
+            },
+            {
+              "path": "art/environment/chapter_03/collectibles/c3_itm_002/idle_unlit/C3-ITM-002_idle_unlit_02.png",
+              "sha256": "5703208359a3dc46a2286883099725b100b9e0a8b932c936b42e1eb9be611c29",
+              "dimensions": [
+                206,
+                436
+              ],
+              "visible_bounds": [
+                17,
+                12,
+                188,
+                424
+              ],
+              "source_crop_bounds": [
+                399,
+                561,
+                570,
+                973
+              ]
+            },
+            {
+              "path": "art/environment/chapter_03/collectibles/c3_itm_002/idle_unlit/C3-ITM-002_idle_unlit_03.png",
+              "sha256": "f10625ea07d3cdb50c6c6f52ac638df772030f9da9dd6e8a1bab09b8403b09bd",
+              "dimensions": [
+                206,
+                436
+              ],
+              "visible_bounds": [
+                12,
+                12,
+                193,
+                423
+              ],
+              "source_crop_bounds": [
+                580,
+                560,
+                761,
+                971
+              ]
+            }
+          ],
+          "production_exports": [
+            {
+              "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/exports/native_base_review_v1/idle_unlit/C3-ITM-002_idle_unlit_00.png",
+              "sha256": "c40327f282b7cede4d0362d87354c42da0e53a0f2097ba818b3899e3435a4ccb"
+            },
+            {
+              "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/exports/native_base_review_v1/idle_unlit/C3-ITM-002_idle_unlit_01.png",
+              "sha256": "eb0c7ce29c259eccb7d03a0e55d71766a32507e43c5df80385dbcbb480e6515e"
+            },
+            {
+              "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/exports/native_base_review_v1/idle_unlit/C3-ITM-002_idle_unlit_02.png",
+              "sha256": "5703208359a3dc46a2286883099725b100b9e0a8b932c936b42e1eb9be611c29"
+            },
+            {
+              "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/exports/native_base_review_v1/idle_unlit/C3-ITM-002_idle_unlit_03.png",
+              "sha256": "f10625ea07d3cdb50c6c6f52ac638df772030f9da9dd6e8a1bab09b8403b09bd"
+            }
+          ],
+          "frame_count": 4,
+          "fps": 6,
+          "timing_status": "authored review idle playback; source chat does not prove production timing",
+          "canvas_size": [
+            206,
+            436
+          ],
+          "pivot": [
+            103,
+            218
+          ],
+          "pivot_type": "center",
+          "z_index": 15,
+          "receives_light": true,
+          "casts_shadows": false,
+          "emits_light": "separate native optional PointLight2D, disabled by default",
+          "collision_shape": "none inferred from sprite; author pickup interaction Area2D separately",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "native_spriteframes": "resources/chapter_03/animations/collectibles/c3_itm_002_review.tres",
+          "native_spriteframes_sha256": "d1d4aa03f73b7964aae79484bf742bf97b33578a561958bf245c4a75530574b3",
+          "native_review_scene": "scenes/props/chapter_03/review/c3_collectible_itm_002_review.tscn",
+          "native_review_scene_sha256": "2318f5e020ba93fc6e840993d6cbb5943b1962aa382f62d795c88b0d1aefee2e",
+          "preview_path": "docs/chapter03/collectible-asset-preparation-c3-itm-002.png",
+          "production_preview_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/previews/native_base_review_v1/C3-ITM-002_unlit_preview.png",
+          "stage": "native base review imported; actual gameplay and final approval pending",
+          "production_approved": false,
+          "blockers": [
+            "cross-pose identity/volume/tip stability requires visual approval",
+            "pickup burst/activation families and separated source overlays not delivered as clean independent assets",
+            "actual gameplay-scale/collision/light tuning pending"
+          ],
+          "native_captures": [
+            {
+              "path": "docs/chapter03/collectible-asset-preparation-c3-itm-002-native-light-off.png",
+              "sha256": "1144515b0325ca05361fb48ed263051db1bf4b1f43782c9752b36acd39c34255"
+            },
+            {
+              "path": "docs/chapter03/collectible-asset-preparation-c3-itm-002-native-light-on.png",
+              "sha256": "618cd817071495902282047f24c1829e63cbb836bce81df6c1b046827d7b3798"
+            }
+          ],
+          "technical_validation": "docs/chapter03/collectible-asset-preparation-validation.json",
+          "separate_source_vfx_exports": [],
+          "lighting_implementation": {
+            "native_node": "Actor/EmissionLight",
+            "type": "PointLight2D",
+            "enabled_by_default": false,
+            "texture": "assets/runtime/shared/lighting/soft_radial.tres",
+            "energy": 0.35,
+            "shadow_enabled": false,
+            "body_sprite_unchanged": true
+          },
+          "native_animation_graph": {
+            "available_states": [
+              "idle_unlit"
+            ],
+            "transition_count": 1,
+            "native_travel_verified": true,
+            "loop_frame_progression_verified": true,
+            "missing_action_states_inferred": false,
+            "proof": "docs/chapter03/collectible-asset-preparation-validation.json"
+          }
+        },
+        "output_paths": [
+          "art/environment/chapter_03/collectibles/c3_itm_002/idle_unlit/C3-ITM-002_idle_unlit_00.png",
+          "art/environment/chapter_03/collectibles/c3_itm_002/idle_unlit/C3-ITM-002_idle_unlit_01.png",
+          "art/environment/chapter_03/collectibles/c3_itm_002/idle_unlit/C3-ITM-002_idle_unlit_02.png",
+          "art/environment/chapter_03/collectibles/c3_itm_002/idle_unlit/C3-ITM-002_idle_unlit_03.png"
+        ]
+      }
+    ],
+    "exports": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/exports/organized_v1/C3-ITM-002_00_C3-ITM-002_idle_unlit_00.png",
+        "sha256": "c40327f282b7cede4d0362d87354c42da0e53a0f2097ba818b3899e3435a4ccb",
+        "bytes": 108514,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/collectibles/c3_itm_002/idle_unlit/C3-ITM-002_idle_unlit_00.png",
+        "kind": "collectible"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/exports/organized_v1/C3-ITM-002_00_C3-ITM-002_idle_unlit_01.png",
+        "sha256": "eb0c7ce29c259eccb7d03a0e55d71766a32507e43c5df80385dbcbb480e6515e",
+        "bytes": 104022,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/collectibles/c3_itm_002/idle_unlit/C3-ITM-002_idle_unlit_01.png",
+        "kind": "collectible"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/exports/organized_v1/C3-ITM-002_00_C3-ITM-002_idle_unlit_02.png",
+        "sha256": "5703208359a3dc46a2286883099725b100b9e0a8b932c936b42e1eb9be611c29",
+        "bytes": 104619,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/collectibles/c3_itm_002/idle_unlit/C3-ITM-002_idle_unlit_02.png",
+        "kind": "collectible"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-002/exports/organized_v1/C3-ITM-002_00_C3-ITM-002_idle_unlit_03.png",
+        "sha256": "f10625ea07d3cdb50c6c6f52ac638df772030f9da9dd6e8a1bab09b8403b09bd",
+        "bytes": 112278,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/collectibles/c3_itm_002/idle_unlit/C3-ITM-002_idle_unlit_03.png",
+        "kind": "collectible"
+      }
+    ],
+    "native_resources": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/resources/chapter_03/animations/collectibles/c3_itm_002_review.tres",
+        "sha256": "d1d4aa03f73b7964aae79484bf742bf97b33578a561958bf245c4a75530574b3",
+        "bytes": 917
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/props/chapter_03/review/c3_collectible_itm_002_review.tscn",
+        "sha256": "2318f5e020ba93fc6e840993d6cbb5943b1962aa382f62d795c88b0d1aefee2e",
+        "bytes": 3329
+      }
+    ],
+    "missing_or_blocked": [
+      "cross-pose identity/volume/tip stability requires visual approval",
+      "pickup burst/activation families and separated source overlays not delivered as clean independent assets",
+      "actual gameplay-scale/collision/light tuning pending"
+    ],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

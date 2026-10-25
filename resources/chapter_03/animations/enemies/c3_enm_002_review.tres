@@ -1,0 +1,35 @@
+[gd_resource type="SpriteFrames" load_steps=12 format=3]
+
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_00.png" id="1"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_01.png" id="2"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_02.png" id="3"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_03.png" id="4"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_04.png" id="5"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_002/hover/C3-ENM-002_hover_05.png" id="6"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_002/charge/C3-ENM-002_charge_00.png" id="7"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_002/charge/C3-ENM-002_charge_01.png" id="8"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_002/charge/C3-ENM-002_charge_02.png" id="9"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_002/projectile_body_partial/C3-ENM-002_projectile_body_partial_00.png" id="10"]
+[ext_resource type="Texture2D" path="res://art/enemies/chapter_03/c3_enm_002/projectile_body_partial/C3-ENM-002_projectile_body_partial_01.png" id="11"]
+
+[resource]
+animations = [
+{
+"frames": [{"duration": 1.0, "texture": ExtResource("1")}, {"duration": 1.0, "texture": ExtResource("2")}, {"duration": 1.0, "texture": ExtResource("3")}, {"duration": 1.0, "texture": ExtResource("4")}, {"duration": 1.0, "texture": ExtResource("5")}, {"duration": 1.0, "texture": ExtResource("6")}],
+"loop": true,
+"name": &"hover",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": ExtResource("7")}, {"duration": 1.0, "texture": ExtResource("8")}, {"duration": 1.0, "texture": ExtResource("9")}],
+"loop": false,
+"name": &"charge",
+"speed": 8.0
+},
+{
+"frames": [{"duration": 1.0, "texture": ExtResource("10")}, {"duration": 1.0, "texture": ExtResource("11")}],
+"loop": false,
+"name": &"projectile_body_partial",
+"speed": 8.0
+},
+]

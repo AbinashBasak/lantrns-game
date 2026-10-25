@@ -1,0 +1,270 @@
+{
+  "asset_id": "C3-TILE-012",
+  "title": "Wall collision tile atlas candidate",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-012/source_images/C3-TILE-012_organized_image-142-ed1162de.png",
+      "sha256": "ff6487baf1d99c268a087e8cb76f95d88d2d2906a53c42dcb0371142e9210eda",
+      "bytes": 2095753,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-142-ed1162de.png",
+      "source_message_id": "a3c92dca-9806-4abf-9f4c-5336fb82b34a",
+      "source_requested_ids": [
+        "C3-BG-011-017"
+      ],
+      "generated_subject_title": "Fantasy Ruined Wall Texture Maps",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-TILE-012",
+          "source_index": 142,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-142-ed1162de.png",
+          "source_sha256": "ff6487baf1d99c268a087e8cb76f95d88d2d2906a53c42dcb0371142e9210eda",
+          "source_message_id": "a3c92dca-9806-4abf-9f4c-5336fb82b34a",
+          "requested_ids": [
+            "C3-BG-011-017"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            18,
+            43,
+            505,
+            858
+          ],
+          "export": "art/environment/chapter_03/tiles/c3_tile_012_temple_wall_relief.png",
+          "export_sha256": "83da0d46ff037d6b41fbc4c1e67c82bd4d0c25d38f8ae941ad565ae047f1737f",
+          "dimensions": [
+            487,
+            815
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            487,
+            815
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 94147,
+          "nonopaque_pixel_count": 94147,
+          "opaque_pixel_count": 302758,
+          "pivot": [
+            243.5,
+            815
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "solid modular art candidate",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Seams and gameplay collision are not approved; not substituted for missing TILE001/002/003 terrain."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_tile_012_142_depth_reference.png",
+              "sha256": "b70e6aef4d926a13ae265b79c7f5116e86ed98eccfe0209be3c3f2a32fa236a4",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_tile_012_142_mask_reference.png",
+              "sha256": "4d4e3c2e381d7043e74004b93e4d700d65b24421e0b7242746b37228b1cd6db4",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/tiles/c3_tile_012_temple_wall_relief.png"
+        ]
+      },
+      {
+        "kind": "depth_bitmap_material",
+        "details": {
+          "official_id": "C3-TILE-012",
+          "source_index": 142,
+          "diffuse_path": "art/environment/chapter_03/tiles/c3_tile_012_temple_wall_relief.png",
+          "diffuse_sha256": "83da0d46ff037d6b41fbc4c1e67c82bd4d0c25d38f8ae941ad565ae047f1737f",
+          "dimensions": [
+            487,
+            815
+          ],
+          "maps": [
+            {
+              "source": "art/source/chapter_03/environment/guide_panels/c3_tile_012_142_depth_reference.png",
+              "source_sha256": "b70e6aef4d926a13ae265b79c7f5116e86ed98eccfe0209be3c3f2a32fa236a4",
+              "source_panel_crop": [
+                20,
+                44,
+                500,
+                856
+              ],
+              "transform": "axis-aligned silhouette bounding-box scale to exported diffuse canvas",
+              "target_dimensions": [
+                487,
+                815
+              ],
+              "silhouette_iou": 0.962376728856643,
+              "threshold": 30,
+              "output": "art/vfx/chapter_03/derived_normals/C3-TILE-012_source142_height_registered.png",
+              "output_sha256": "9a32909687abc3c2cb1983a6145fee6a15f99b625c56f0bb6a3995accee07053"
+            },
+            {
+              "source": "art/source/chapter_03/environment/guide_panels/c3_tile_012_142_mask_reference.png",
+              "source_sha256": "4d4e3c2e381d7043e74004b93e4d700d65b24421e0b7242746b37228b1cd6db4",
+              "source_panel_crop": [
+                15,
+                46,
+                498,
+                856
+              ],
+              "transform": "axis-aligned silhouette bounding-box scale to exported diffuse canvas",
+              "target_dimensions": [
+                487,
+                815
+              ],
+              "silhouette_iou": 0.9603180276308436,
+              "threshold": 30,
+              "output": "art/vfx/chapter_03/derived_normals/C3-TILE-012_source142_bitmap_registered.png",
+              "output_sha256": "5dff004d21c25d6bacc0f4f06c5a14007767c3a1fcce5fbfd836503dd09236a7"
+            }
+          ],
+          "derived_normal_path": "art/vfx/chapter_03/derived_normals/C3-TILE-012_source142_bump_normal_derived.png",
+          "derived_normal_sha256": "e07f3d0afd0b8435646a262bdbf1cb7d3de0ca10bed9cf06e56672665da171e2",
+          "method": "supplied grayscale height -> Gaussian blur radius1.5px -> central gradients -> normalize(-8*dx,+8*dy,1); RGB=(n+1)/2; 4px alpha-edge exclusion resets normal flat",
+          "normal_convention": "Godot X+, Y+, Z+; green positive for increasing raster height slope downward",
+          "bitmap_use": "Registered supplied bitmap as restrained specular mask; source is a tonal guide, not physically authored roughness",
+          "canvas_texture": "resources/chapter_03/lighting/C3-TILE-012_source142_canvas_texture.tres",
+          "canvas_texture_sha256": "a2d5eb49bc90f6aec3ccdaffd9226d3fb7eb3e52751f5f1fd8d9e9d48d7ced89",
+          "registration_limitations": "Silhouette registration only; grayscale panels are generated tonal interpretations. Internal feature correspondence requires actual art review; no nonrigid warping.",
+          "production_approved": false
+        },
+        "output_paths": [
+          "art/vfx/chapter_03/derived_normals/C3-TILE-012_source142_bump_normal_derived.png",
+          "resources/chapter_03/lighting/C3-TILE-012_source142_canvas_texture.tres",
+          "art/vfx/chapter_03/derived_normals/C3-TILE-012_source142_height_registered.png",
+          "art/vfx/chapter_03/derived_normals/C3-TILE-012_source142_bitmap_registered.png"
+        ]
+      },
+      {
+        "kind": "reusable_native_prefab",
+        "details": {
+          "official_id": "C3-TILE-012",
+          "native_path": "scenes/props/chapter_03/c3_wall_relief_mapped.tscn",
+          "dependencies": [
+            {
+              "path": "scenes/props/chapter_03/c3_wall_relief_mapped.tscn",
+              "sha256": "c4dc3fdbdf9932bdc0649dd91ff06f81762e424bfbd865962a053eafdfcc54d1"
+            },
+            {
+              "path": "resources/chapter_03/lighting/C3-TILE-012_source142_canvas_texture.tres",
+              "sha256": "a2d5eb49bc90f6aec3ccdaffd9226d3fb7eb3e52751f5f1fd8d9e9d48d7ced89"
+            },
+            {
+              "path": "art/environment/chapter_03/tiles/c3_tile_012_temple_wall_relief.png",
+              "sha256": "83da0d46ff037d6b41fbc4c1e67c82bd4d0c25d38f8ae941ad565ae047f1737f"
+            },
+            {
+              "path": "art/vfx/chapter_03/derived_normals/C3-TILE-012_source142_bump_normal_derived.png",
+              "sha256": "e07f3d0afd0b8435646a262bdbf1cb7d3de0ca10bed9cf06e56672665da171e2"
+            },
+            {
+              "path": "art/vfx/chapter_03/derived_normals/C3-TILE-012_source142_bitmap_registered.png",
+              "sha256": "5dff004d21c25d6bacc0f4f06c5a14007767c3a1fcce5fbfd836503dd09236a7"
+            }
+          ],
+          "stage": "reusable editable prefab; native instantiation and graphical resource review passed",
+          "notes": "Bottom-center origin; native diffuse487x815. This wall relief is not a wall-collision atlas; no collision inferred. Stronger supplied map registration .962/.960.",
+          "production_approved": false
+        },
+        "output_paths": []
+      }
+    ],
+    "exports": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-012/exports/organized_v1/C3-TILE-012_00_c3_tile_012_temple_wall_relief.png",
+        "sha256": "83da0d46ff037d6b41fbc4c1e67c82bd4d0c25d38f8ae941ad565ae047f1737f",
+        "bytes": 855625,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/tiles/c3_tile_012_temple_wall_relief.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-012/exports/organized_v1/C3-TILE-012_01_C3-TILE-012_source142_bump_normal_derived.png",
+        "sha256": "e07f3d0afd0b8435646a262bdbf1cb7d3de0ca10bed9cf06e56672665da171e2",
+        "bytes": 320944,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/vfx/chapter_03/derived_normals/C3-TILE-012_source142_bump_normal_derived.png",
+        "kind": "depth_bitmap_material"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-012/exports/organized_v1/C3-TILE-012_01_C3-TILE-012_source142_canvas_texture.tres",
+        "sha256": "a2d5eb49bc90f6aec3ccdaffd9226d3fb7eb3e52751f5f1fd8d9e9d48d7ced89",
+        "bytes": 692,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/resources/chapter_03/lighting/C3-TILE-012_source142_canvas_texture.tres",
+        "kind": "depth_bitmap_material"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-012/exports/organized_v1/C3-TILE-012_01_C3-TILE-012_source142_height_registered.png",
+        "sha256": "9a32909687abc3c2cb1983a6145fee6a15f99b625c56f0bb6a3995accee07053",
+        "bytes": 185492,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/vfx/chapter_03/derived_normals/C3-TILE-012_source142_height_registered.png",
+        "kind": "depth_bitmap_material"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-012/exports/organized_v1/C3-TILE-012_01_C3-TILE-012_source142_bitmap_registered.png",
+        "sha256": "5dff004d21c25d6bacc0f4f06c5a14007767c3a1fcce5fbfd836503dd09236a7",
+        "bytes": 208784,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/vfx/chapter_03/derived_normals/C3-TILE-012_source142_bitmap_registered.png",
+        "kind": "depth_bitmap_material"
+      }
+    ],
+    "native_resources": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/vfx/chapter_03/c3_depth_lighting_review.tscn",
+        "sha256": "c0b38e4fd02d63cbb39240bcd7b5ff6ba1ae305afed63a8220776722e84a181f",
+        "bytes": 3123
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/props/chapter_03/c3_wall_relief_mapped.tscn",
+        "sha256": "c4dc3fdbdf9932bdc0649dd91ff06f81762e424bfbd865962a053eafdfcc54d1",
+        "bytes": 922
+      }
+    ],
+    "missing_or_blocked": [],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

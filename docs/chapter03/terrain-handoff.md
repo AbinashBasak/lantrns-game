@@ -1,0 +1,9 @@
+# Chapter 3 terrain recovery candidate
+
+Recovered real orthographic mossy blue-gray rock pixels from existing reusable TILE-004 original (1254×1254, genuine alpha). This is reusable material, not a forced perspective arch or enlarged atlas miniature. Eight 256×256 exports retain source pixels; three native crops provide moss top, middle and underside, with explicitly mirrored arrangements for repeated joins. The TileSet uses native 256px regions and a TileMapLayer scale of 0.25 (64 world units). No color changes, synthesized pixels or texture painting.
+
+`scenes/chapter_03/review/c3_terrain_seam_review.tscn` contains a native editable 60-cell TileMapLayer and separate flat collision. It is a seam/collision review, not campaign integration. The JSON records original hashes, crop rectangles, alpha bounds and measured seam differences. Mirrored repetition remains visible. Odd alternating middle-row sequences retain the original vertical joins; corners, arbitrary-depth transitions and autoterrain peering are not claimed.
+
+ZIP images124/125 are ornate archways. They cannot supply the orthographic horizontal top/middle/underside prerequisite. Broken arch/wall buttresses138/139/146 are broken-architecture PROP008 candidates only; complete arches remain PROP009. No clean three-piece broken-pillar completion is inferred.
+
+Actual Godot graphical review saved in `terrain-native-review.png`: continuous top/fill/underside, no open tile-join holes. Twelve vertical rays hit the separate top surface at y=183; both outside-edge rays remain clear. Resource reference checks report zero errors/warnings. Texture symmetry and original dark mortar bands remain visible and require art acceptance. This resolves absence of a technically usable terrain candidate while keeping final approval pending.

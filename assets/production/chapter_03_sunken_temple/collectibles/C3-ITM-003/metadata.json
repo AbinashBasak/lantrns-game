@@ -1,0 +1,75 @@
+{
+  "asset_id": "C3-ITM-003",
+  "title": "Drainage Sigil",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-003/source_images/C3-ITM-003_organized_C3-ITM-003_archive_image-052-6d910d05.png",
+      "sha256": "e2bd387b00de6191f531db32b55a9f2a679341e8c75a352590260d24f90349e0",
+      "bytes": 2920796,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-003/source_images/C3-ITM-003_archive_image-052-6d910d05.png",
+      "source_message_id": "766e2c31-116a-4d8a-bcc7-5c467cd4a77a",
+      "source_requested_ids": [
+        "C3-ITM-003"
+      ],
+      "generated_subject_title": "Mystic Water Amulet Animation Sheet",
+      "production_approved": false,
+      "dimensions": [
+        1774,
+        887
+      ]
+    }
+  ],
+  "stage": "sources organized; clean deliverables blocked; see metadata",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "collectible",
+        "details": {
+          "asset_id": "C3-ITM-003",
+          "title": "Drainage Sigil",
+          "sources": [
+            {
+              "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-003/source_images/C3-ITM-003_archive_image-052-6d910d05.png",
+              "sha256": "e2bd387b00de6191f531db32b55a9f2a679341e8c75a352590260d24f90349e0",
+              "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-052-6d910d05.png",
+              "source_message_id": "766e2c31-116a-4d8a-bcc7-5c467cd4a77a",
+              "source_message_index": 212,
+              "source_requested_ids": [
+                "C3-ITM-003"
+              ],
+              "source_official_requested_ids": [
+                "C3-ITM-003"
+              ],
+              "verified_actual_asset_id": "C3-ITM-003",
+              "generated_subject_title": "Mystic Water Amulet Animation Sheet",
+              "dimensions": [
+                1774,
+                887
+              ],
+              "mode": "RGBA",
+              "provenance": "unchanged original bytes supplied in user ZIP",
+              "requested_vs_actual_mismatch": false
+            }
+          ],
+          "stage": "source archive reviewed; no clean base export",
+          "blockers": [
+            "Only combined glowing sigil/burst artwork. No matching unlit base or isolated overlay; subtracting the glow would infer missing body pixels."
+          ],
+          "runtime_exports": [],
+          "production_approved": false
+        },
+        "output_paths": []
+      }
+    ],
+    "exports": [],
+    "native_resources": [],
+    "missing_or_blocked": [
+      "Only combined glowing sigil/burst artwork. No matching unlit base or isolated overlay; subtracting the glow would infer missing body pixels."
+    ],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

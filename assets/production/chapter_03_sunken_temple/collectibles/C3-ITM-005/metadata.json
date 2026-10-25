@@ -1,0 +1,75 @@
+{
+  "asset_id": "C3-ITM-005",
+  "title": "Sunken Seal",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-005/source_images/C3-ITM-005_organized_C3-ITM-005_archive_image-054-16b7c231.png",
+      "sha256": "9e4cd46f2db0704be4ed8def2a783fe0fb94b22fce20340d3614d927ce3160c0",
+      "bytes": 2912222,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-005/source_images/C3-ITM-005_archive_image-054-16b7c231.png",
+      "source_message_id": "bca0ce6f-356c-4bc7-a354-891c55b49f02",
+      "source_requested_ids": [
+        "C3-ITM-005"
+      ],
+      "generated_subject_title": "Sunken Seal Orb Activation Sprite Sheet",
+      "production_approved": false,
+      "dimensions": [
+        1774,
+        887
+      ]
+    }
+  ],
+  "stage": "sources organized; clean deliverables blocked; see metadata",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "collectible",
+        "details": {
+          "asset_id": "C3-ITM-005",
+          "title": "Sunken Seal",
+          "sources": [
+            {
+              "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/collectibles/C3-ITM-005/source_images/C3-ITM-005_archive_image-054-16b7c231.png",
+              "sha256": "9e4cd46f2db0704be4ed8def2a783fe0fb94b22fce20340d3614d927ce3160c0",
+              "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-054-16b7c231.png",
+              "source_message_id": "bca0ce6f-356c-4bc7-a354-891c55b49f02",
+              "source_message_index": 220,
+              "source_requested_ids": [
+                "C3-ITM-005"
+              ],
+              "source_official_requested_ids": [
+                "C3-ITM-005"
+              ],
+              "verified_actual_asset_id": "C3-ITM-005",
+              "generated_subject_title": "Sunken Seal Orb Activation Sprite Sheet",
+              "dimensions": [
+                1774,
+                887
+              ],
+              "mode": "RGBA",
+              "provenance": "unchanged original bytes supplied in user ZIP",
+              "requested_vs_actual_mismatch": false
+            }
+          ],
+          "stage": "source archive reviewed; no clean base export",
+          "blockers": [
+            "Only combined Sunken Seal glow/activation artwork. No unlit base or standalone overlay delivered."
+          ],
+          "runtime_exports": [],
+          "production_approved": false
+        },
+        "output_paths": []
+      }
+    ],
+    "exports": [],
+    "native_resources": [],
+    "missing_or_blocked": [
+      "Only combined Sunken Seal glow/activation artwork. No unlit base or standalone overlay delivered."
+    ],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "asset_id": "C3-AUD-005",
+  "title": "Fragment pickup",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/audio/C3-AUD-005/source_audio/C3-AUD-005_organized_AUD-SFX-011_collectible_pickup.wav",
+      "sha256": "54498281d7ef6524fe3cf7739b94c29783e253719cc834d2c6ed573b3550fbe4",
+      "bytes": 79424,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-011/exports/AUD-SFX-011_collectible_pickup.wav",
+      "source_message_id": null,
+      "source_requested_ids": [],
+      "generated_subject_title": null,
+      "production_approved": false
+    }
+  ],
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "audio",
+        "details": {
+          "official_id": "C3-AUD-005",
+          "source_asset_id": "AUD-SFX-011",
+          "source_path": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-011/exports/AUD-SFX-011_collectible_pickup.wav",
+          "source_metadata": "assets/production/phase_09_audio_asset_inventory/sound_effects/AUD-SFX-011/metadata.json",
+          "source_sha256": "54498281d7ef6524fe3cf7739b94c29783e253719cc834d2c6ed573b3550fbe4",
+          "runtime_path": "audio/chapter_03/interactions/C3-AUD-005_fragment_pickup.wav",
+          "runtime_sha256": "54498281d7ef6524fe3cf7739b94c29783e253719cc834d2c6ed573b3550fbe4",
+          "copied_bytes_unchanged": true,
+          "native_path": "scenes/audio/chapter_03/c3_audio_fragment_pickup.tscn",
+          "native_sha256": "ba64a7f82ec8e8cf5dd3bdf45829d41b961c6b0859f1244956262c5f3c0e0727",
+          "bus": "Effects",
+          "loop": false,
+          "format": "wav",
+          "volume_db": -6.0,
+          "semantic_mapping": "Existing rising collectible bell arpeggio matches fragment pickup; chapter mix approval pending.",
+          "measurements": {
+            "duration_s": 0.9,
+            "channels": 1,
+            "sample_rate": 44100,
+            "peak_dbfs": -1.5,
+            "rms_dbfs": -15.09,
+            "lufs_integrated": null,
+            "clipped_samples": 0,
+            "dc_offset": -2e-06,
+            "loop_seam_ratio": null
+          },
+          "measurements_provenance": "Copied from original source metadata; not a new loudness/listening measurement",
+          "source_kind": "Pre-existing code-synthesized procedural prototype; no new audio generation",
+          "stage": "unchanged-byte runtime copy; native play/stop and bus routing QA passed; listening/final mix pending",
+          "production_approved": false,
+          "native_import_config": "audio/chapter_03/interactions/C3-AUD-005_fragment_pickup.wav.import",
+          "native_import_sha256": "e10201f0ec882e5510a32d783dac359a8a13167a62be64920fae7e83ed35df57"
+        },
+        "output_paths": [
+          "audio/chapter_03/interactions/C3-AUD-005_fragment_pickup.wav"
+        ]
+      }
+    ],
+    "exports": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/audio/C3-AUD-005/exports/organized_v1/C3-AUD-005_00_C3-AUD-005_fragment_pickup.wav",
+        "sha256": "54498281d7ef6524fe3cf7739b94c29783e253719cc834d2c6ed573b3550fbe4",
+        "bytes": 79424,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/audio/chapter_03/interactions/C3-AUD-005_fragment_pickup.wav",
+        "kind": "audio"
+      }
+    ],
+    "native_resources": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/audio/chapter_03/c3_audio_fragment_pickup.tscn",
+        "sha256": "ba64a7f82ec8e8cf5dd3bdf45829d41b961c6b0859f1244956262c5f3c0e0727",
+        "bytes": 544
+      }
+    ],
+    "missing_or_blocked": [],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

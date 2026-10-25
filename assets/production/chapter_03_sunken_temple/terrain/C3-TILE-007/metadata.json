@@ -1,0 +1,576 @@
+{
+  "asset_id": "C3-TILE-007",
+  "title": "Ancient temple floor candidate",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-007/source_images/C3-TILE-007_organized_image-128-d3501f0d.png",
+      "sha256": "f2d755456c2caaf128b1ee64be8d1b17eba44520e4d91ce33d47860f5a79f524",
+      "bytes": 1479312,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-128-d3501f0d.png",
+      "source_message_id": "f6a46635-e91f-47ec-bec5-417a866188c5",
+      "source_requested_ids": [
+        "C3-BG-011-005"
+      ],
+      "generated_subject_title": "Fantasy Platform Texture Map Triptych",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-007/source_images/C3-TILE-007_organized_image-143-bab60a8d.png",
+      "sha256": "fcbbf1ea81a10fa06622811b1750fd30d11353ba312aaddf9ac89cc497c77282",
+      "bytes": 2102294,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-143-bab60a8d.png",
+      "source_message_id": "f0557620-b940-4d81-980e-31724a63a5ab",
+      "source_requested_ids": [
+        "C3-BG-011-018"
+      ],
+      "generated_subject_title": "Fantasy Tile Texture Map Triptych",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-007/source_images/C3-TILE-007_organized_image-144-b072d8c8.png",
+      "sha256": "f40c50c40cc93f015e0cef24603af21a3b082a1024b85a060741edadda1eee76",
+      "bytes": 1870264,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-144-b072d8c8.png",
+      "source_message_id": "bf9bbdcc-e810-4e7c-9504-c2a1c5b11cf2",
+      "source_requested_ids": [
+        "C3-BG-011-019"
+      ],
+      "generated_subject_title": "Ruined Temple Ledge Asset Sheet",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-007/source_images/C3-TILE-007_organized_image-148-5ba5f81e.png",
+      "sha256": "3bbfc00464ee08ed6502f99acd7e9e465a7e03e34e75d0b9981c4c9ecf479120",
+      "bytes": 1741962,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-148-5ba5f81e.png",
+      "source_message_id": "a4898d16-5a17-4046-a176-b04dec0ad85b",
+      "source_requested_ids": [
+        "C3-BG-011-023"
+      ],
+      "generated_subject_title": "Ornate Vined Stone Trim Texture Sheet",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-007/source_images/C3-TILE-007_organized_image-149-26b61613.png",
+      "sha256": "a6da8bca8e9ea28842dc01fc394a5a1fc97723adb436eaa1d262b1e3bb2728b5",
+      "bytes": 1826391,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-149-26b61613.png",
+      "source_message_id": "9569b88d-db1a-4b05-ae75-b0eb689b7d2c",
+      "source_requested_ids": [
+        "C3-BG-011-024"
+      ],
+      "generated_subject_title": "Ornamental Pendant Texture Map Triptych",
+      "production_approved": false,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-TILE-007",
+          "source_index": 128,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-128-d3501f0d.png",
+          "source_sha256": "f2d755456c2caaf128b1ee64be8d1b17eba44520e4d91ce33d47860f5a79f524",
+          "source_message_id": "f6a46635-e91f-47ec-bec5-417a866188c5",
+          "requested_ids": [
+            "C3-BG-011-005"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            12,
+            280,
+            500,
+            754
+          ],
+          "export": "art/environment/chapter_03/platforms/c3_tile_007_temple_platform_ornate_a.png",
+          "export_sha256": "9c21b5a99e2dbb550fc76bcc4847355ed8b7a7cd0271c7a968169a5263e24a39",
+          "dimensions": [
+            488,
+            474
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            488,
+            474
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 127833,
+          "nonopaque_pixel_count": 127833,
+          "opaque_pixel_count": 103479,
+          "pivot": [
+            244.0,
+            474
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "solid modular art candidate",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Seams and gameplay collision are not approved; not substituted for missing TILE001/002/003 terrain."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_tile_007_128_depth_reference.png",
+              "sha256": "c500761902f1321b8e289bc53e3fb405f4ca650236020aac17910f14ba1f04f2",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_tile_007_128_mask_reference.png",
+              "sha256": "24efa5c884514eccf7023007fc762b8a4a062abe3b705964564b09d4d66bc071",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/platforms/c3_tile_007_temple_platform_ornate_a.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-TILE-007",
+          "source_index": 143,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-143-bab60a8d.png",
+          "source_sha256": "fcbbf1ea81a10fa06622811b1750fd30d11353ba312aaddf9ac89cc497c77282",
+          "source_message_id": "f0557620-b940-4d81-980e-31724a63a5ab",
+          "requested_ids": [
+            "C3-BG-011-018"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            7,
+            161,
+            507,
+            789
+          ],
+          "export": "art/environment/chapter_03/tiles/c3_tile_007_temple_stone_inlay.png",
+          "export_sha256": "913cb319e924229227d46b97de5c48536c8a9c77b8dde3a7372f731181926e2f",
+          "dimensions": [
+            500,
+            628
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            500,
+            628
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 50834,
+          "nonopaque_pixel_count": 50834,
+          "opaque_pixel_count": 263166,
+          "pivot": [
+            250.0,
+            628
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "solid modular art candidate",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Seams and gameplay collision are not approved; not substituted for missing TILE001/002/003 terrain."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_tile_007_143_depth_reference.png",
+              "sha256": "89582285e4e06d7d006cba336179214ab3849eff081576fd7b14e327832fdcf5",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_tile_007_143_mask_reference.png",
+              "sha256": "931b7c7c9fad41da4d3f22cf3bd7a8a3369905a8c2e0388f57607c7ba2bb51fc",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/tiles/c3_tile_007_temple_stone_inlay.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-TILE-007",
+          "source_index": 144,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-144-b072d8c8.png",
+          "source_sha256": "f40c50c40cc93f015e0cef24603af21a3b082a1024b85a060741edadda1eee76",
+          "source_message_id": "bf9bbdcc-e810-4e7c-9504-c2a1c5b11cf2",
+          "requested_ids": [
+            "C3-BG-011-019"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            7,
+            31,
+            510,
+            819
+          ],
+          "export": "art/environment/chapter_03/platforms/c3_tile_007_temple_platform_ornate_b.png",
+          "export_sha256": "01019b567d084dc2531af6248dec1cd2ccbcb32c0d4875c6092664c5014b3e68",
+          "dimensions": [
+            503,
+            788
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            503,
+            788
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 226184,
+          "nonopaque_pixel_count": 226184,
+          "opaque_pixel_count": 170180,
+          "pivot": [
+            251.5,
+            788
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "solid modular art candidate",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Seams and gameplay collision are not approved; not substituted for missing TILE001/002/003 terrain.",
+            "Visible content touches a source crop boundary; inspect source for clipping before use."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_tile_007_144_depth_reference.png",
+              "sha256": "dc202edc62fed57f39297b1e2051d93584b2289e6904dbea78dde32602c360f8",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_tile_007_144_mask_reference.png",
+              "sha256": "fb578512ea9978be9d44f5641e482a463c36df4b6ad0d10ef31acc6b5bdbc56c",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/platforms/c3_tile_007_temple_platform_ornate_b.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-TILE-007",
+          "source_index": 148,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-148-5ba5f81e.png",
+          "source_sha256": "3bbfc00464ee08ed6502f99acd7e9e465a7e03e34e75d0b9981c4c9ecf479120",
+          "source_message_id": "a4898d16-5a17-4046-a176-b04dec0ad85b",
+          "requested_ids": [
+            "C3-BG-011-023"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            10,
+            0,
+            506,
+            878
+          ],
+          "export": "art/environment/chapter_03/platforms/c3_tile_007_temple_platform_ornate_c.png",
+          "export_sha256": "e7d782f4ffdd438b32ea8f87cd6667c3543001dd010a75786fdfa6b236a9b10f",
+          "dimensions": [
+            496,
+            878
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            496,
+            878
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 311655,
+          "nonopaque_pixel_count": 311655,
+          "opaque_pixel_count": 123833,
+          "pivot": [
+            248.0,
+            878
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "solid modular art candidate",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Seams and gameplay collision are not approved; not substituted for missing TILE001/002/003 terrain.",
+            "Visible content touches a source crop boundary; inspect source for clipping before use."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_tile_007_148_depth_reference.png",
+              "sha256": "bdbef2a76a00019f2438ff7b8759073a987097cf0542d81eace339db2a574e1e",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_tile_007_148_mask_reference.png",
+              "sha256": "398b1cc6ea25c36c2f378a34ec51ca608a1da52993a1d93f15082ccad3fe478e",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/platforms/c3_tile_007_temple_platform_ornate_c.png"
+        ]
+      },
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-TILE-007",
+          "source_index": 149,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-149-26b61613.png",
+          "source_sha256": "a6da8bca8e9ea28842dc01fc394a5a1fc97723adb436eaa1d262b1e3bb2728b5",
+          "source_message_id": "9569b88d-db1a-4b05-ae75-b0eb689b7d2c",
+          "requested_ids": [
+            "C3-BG-011-024"
+          ],
+          "source_dimensions": [
+            1536,
+            1024
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            510,
+            880
+          ],
+          "content_trim": [
+            10,
+            5,
+            496,
+            876
+          ],
+          "export": "art/environment/chapter_03/platforms/c3_tile_007_temple_corbel_ornate.png",
+          "export_sha256": "5a6d46fa771317e885b7276b1cefa910b36e4cc82c552178857a3546ca8f3b79",
+          "dimensions": [
+            486,
+            871
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            486,
+            871
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 263585,
+          "nonopaque_pixel_count": 263585,
+          "opaque_pixel_count": 159721,
+          "pivot": [
+            243.0,
+            871
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -2,
+          "receives_light": true,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "derived alpha: neutral bright checker key (min RGB >125; channel spread <25); no resize",
+          "purpose": "solid modular art candidate",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Neutral-key cleanup may remove bright neutral paint; silhouette edge review needed. No painted checker remains opaque under the exact key criterion.",
+            "Seams and gameplay collision are not approved; not substituted for missing TILE001/002/003 terrain."
+          ],
+          "guide_panels": [
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_tile_007_149_depth_reference.png",
+              "sha256": "2eb2b46d26013e22e91abd12dc2f7d6cb7d496214bc07acc2f7f7a0e3723bec5",
+              "role": "depth_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            },
+            {
+              "path": "art/source/chapter_03/environment/guide_panels/c3_tile_007_149_mask_reference.png",
+              "sha256": "33db9c954feb0b72604b639e4a881aa2640215d2195c4d7a20c11a93758665c1",
+              "role": "mask_reference",
+              "usable_as_normal_map": false,
+              "alignment_verified": false
+            }
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/platforms/c3_tile_007_temple_corbel_ornate.png"
+        ]
+      }
+    ],
+    "exports": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-007/exports/organized_v1/C3-TILE-007_00_c3_tile_007_temple_platform_ornate_a.png",
+        "sha256": "9c21b5a99e2dbb550fc76bcc4847355ed8b7a7cd0271c7a968169a5263e24a39",
+        "bytes": 432787,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/platforms/c3_tile_007_temple_platform_ornate_a.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-007/exports/organized_v1/C3-TILE-007_01_c3_tile_007_temple_stone_inlay.png",
+        "sha256": "913cb319e924229227d46b97de5c48536c8a9c77b8dde3a7372f731181926e2f",
+        "bytes": 726167,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/tiles/c3_tile_007_temple_stone_inlay.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-007/exports/organized_v1/C3-TILE-007_02_c3_tile_007_temple_platform_ornate_b.png",
+        "sha256": "01019b567d084dc2531af6248dec1cd2ccbcb32c0d4875c6092664c5014b3e68",
+        "bytes": 750677,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/platforms/c3_tile_007_temple_platform_ornate_b.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-007/exports/organized_v1/C3-TILE-007_03_c3_tile_007_temple_platform_ornate_c.png",
+        "sha256": "e7d782f4ffdd438b32ea8f87cd6667c3543001dd010a75786fdfa6b236a9b10f",
+        "bytes": 773923,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/platforms/c3_tile_007_temple_platform_ornate_c.png",
+        "kind": "environment"
+      },
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/terrain/C3-TILE-007/exports/organized_v1/C3-TILE-007_04_c3_tile_007_temple_corbel_ornate.png",
+        "sha256": "5a6d46fa771317e885b7276b1cefa910b36e4cc82c552178857a3546ca8f3b79",
+        "bytes": 784170,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/platforms/c3_tile_007_temple_corbel_ornate.png",
+        "kind": "environment"
+      }
+    ],
+    "native_resources": [],
+    "missing_or_blocked": [],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

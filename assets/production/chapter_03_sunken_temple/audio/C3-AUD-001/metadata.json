@@ -1,0 +1,83 @@
+{
+  "asset_id": "C3-AUD-001",
+  "title": "Cavern ambience",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/audio/C3-AUD-001/source_audio/C3-AUD-001_organized_AUD-AMB-004_cave_drips.ogg",
+      "sha256": "47daa399bdfd06b1417defdd8a4572229f876e71448f3802839e18e6dcc99e76",
+      "bytes": 243820,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-004/exports/AUD-AMB-004_cave_drips.ogg",
+      "source_message_id": null,
+      "source_requested_ids": [],
+      "generated_subject_title": null,
+      "production_approved": false
+    }
+  ],
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "audio",
+        "details": {
+          "official_id": "C3-AUD-001",
+          "source_asset_id": "AUD-AMB-004",
+          "source_path": "assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-004/exports/AUD-AMB-004_cave_drips.ogg",
+          "source_metadata": "assets/production/phase_09_audio_asset_inventory/ambient_soundscapes/AUD-AMB-004/metadata.json",
+          "source_sha256": "47daa399bdfd06b1417defdd8a4572229f876e71448f3802839e18e6dcc99e76",
+          "runtime_path": "audio/chapter_03/ambience/C3-AUD-001_cavern_ambience.ogg",
+          "runtime_sha256": "47daa399bdfd06b1417defdd8a4572229f876e71448f3802839e18e6dcc99e76",
+          "copied_bytes_unchanged": true,
+          "native_path": "scenes/audio/chapter_03/c3_audio_cavern_ambience.tscn",
+          "native_sha256": "873f991eac397e3dc22fac0ab97aafa2f6ee82aa18e3dd58098529f19cb43edd",
+          "bus": "Ambience",
+          "loop": true,
+          "format": "ogg",
+          "volume_db": -8.0,
+          "semantic_mapping": "Existing cave drips, long reverb and low cavern air match cavern ambience.",
+          "measurements": {
+            "duration_s": 30.0,
+            "channels": 2,
+            "sample_rate": 44100,
+            "peak_dbfs": -8.59,
+            "rms_dbfs": -31.82,
+            "lufs_integrated": -28.0,
+            "clipped_samples": 0,
+            "dc_offset": -0.0,
+            "loop_seam_ratio": 0.0
+          },
+          "measurements_provenance": "Copied from original source metadata; not a new loudness/listening measurement",
+          "source_kind": "Pre-existing code-synthesized procedural prototype; no new audio generation",
+          "stage": "unchanged-byte runtime copy; native play/stop and bus routing QA passed; listening/final mix pending",
+          "production_approved": false,
+          "native_import_config": "audio/chapter_03/ambience/C3-AUD-001_cavern_ambience.ogg.import",
+          "native_import_sha256": "116f9367a01bea9e2dfa537284e31e0c8b18611928e8d2c00f9bfab6525d5f6f"
+        },
+        "output_paths": [
+          "audio/chapter_03/ambience/C3-AUD-001_cavern_ambience.ogg"
+        ]
+      }
+    ],
+    "exports": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/audio/C3-AUD-001/exports/organized_v1/C3-AUD-001_00_C3-AUD-001_cavern_ambience.ogg",
+        "sha256": "47daa399bdfd06b1417defdd8a4572229f876e71448f3802839e18e6dcc99e76",
+        "bytes": 243820,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/audio/chapter_03/ambience/C3-AUD-001_cavern_ambience.ogg",
+        "kind": "audio"
+      }
+    ],
+    "native_resources": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/audio/chapter_03/c3_audio_cavern_ambience.tscn",
+        "sha256": "873f991eac397e3dc22fac0ab97aafa2f6ee82aa18e3dd58098529f19cb43edd",
+        "bytes": 539
+      }
+    ],
+    "missing_or_blocked": [],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

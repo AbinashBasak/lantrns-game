@@ -1,0 +1,112 @@
+{
+  "asset_id": "C3-ENM-PRJ-001",
+  "title": "Crystal Wisp bolt",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-PRJ-001/source_images/C3-ENM-PRJ-001_organized_C3-ENM-002_attack_msg_325_00000000908482089171caf455ee7c0a.png",
+      "sha256": "29a1b0df8d28e71b14443ccfa672e7d4c82148083b11d1c88ad95ffdccc2bf61",
+      "bytes": 1632812,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/source_images/C3-ENM-002_attack_msg_325_00000000908482089171caf455ee7c0a.png",
+      "source_message_id": null,
+      "source_requested_ids": [],
+      "generated_subject_title": null,
+      "production_approved": false,
+      "dimensions": [
+        2172,
+        724
+      ]
+    }
+  ],
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "projectile",
+        "details": {
+          "asset_id": "C3-ENM-PRJ-001",
+          "path": "art/enemies/chapter_03/c3_enm_prj_001/C3-ENM-PRJ-001_crystal_wisp_bolt_review.png",
+          "sha256": "e46d6400626cf9737ed7e1ac365a7a1a69377f155fda2439343dbf88cf21f264",
+          "production_export": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-PRJ-001/exports/native_animation_review_v1/C3-ENM-PRJ-001_crystal_wisp_bolt_review.png",
+          "source_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/source_images/C3-ENM-002_attack_msg_325_00000000908482089171caf455ee7c0a.png",
+          "source_sha256": "29a1b0df8d28e71b14443ccfa672e7d4c82148083b11d1c88ad95ffdccc2bf61",
+          "source_message_id": "40ef8884-5a45-47eb-a5e3-41c4a6708dc1",
+          "source_crop_bounds": [
+            1461,
+            267,
+            1859,
+            488
+          ],
+          "dimensions": [
+            398,
+            221
+          ],
+          "frame_count": 1,
+          "fps": null,
+          "pivot_type": "center",
+          "pivot": [
+            199,
+            110
+          ],
+          "z_index": 15,
+          "receives_light": true,
+          "casts_shadows": false,
+          "emits_light": false,
+          "collision_shape": "none inferred; explicit projectile hitbox required",
+          "normalization": "Exact source RGBA pixels of the independent fifth component plus native antialias fringe. No resize.",
+          "stage": "isolated review export; dynamic lighting, native projectile scene and gameplay QA pending",
+          "production_approved": false
+        },
+        "output_paths": [
+          "art/enemies/chapter_03/c3_enm_prj_001/C3-ENM-PRJ-001_crystal_wisp_bolt_review.png"
+        ]
+      },
+      {
+        "kind": "reusable_native_prefab",
+        "details": {
+          "official_id": "C3-ENM-PRJ-001",
+          "native_path": "scenes/vfx/chapter_03/c3_crystal_wisp_bolt.tscn",
+          "dependencies": [
+            {
+              "path": "scenes/vfx/chapter_03/c3_crystal_wisp_bolt.tscn",
+              "sha256": "84a524839f6ffaef00cebe80fd46920078a3406ebfba169d4bd1a101bc984a40"
+            },
+            {
+              "path": "art/enemies/chapter_03/c3_enm_prj_001/C3-ENM-PRJ-001_crystal_wisp_bolt_review.png",
+              "sha256": "e46d6400626cf9737ed7e1ac365a7a1a69377f155fda2439343dbf88cf21f264"
+            },
+            {
+              "path": "assets/runtime/shared/lighting/soft_radial.tres",
+              "sha256": "a0e57289909dc3542c5c4a2efc741732a0c2feb332dad86bb563d154188a5dc9"
+            }
+          ],
+          "stage": "reusable editable prefab; native instantiation and graphical resource review passed",
+          "notes": "Centered original398x221 sprite; VisualBody/Artwork separate from CoreLight and AttackArea/AttackShape. Explicit24px optional attack circle disabled; monitoring/masks off. No movement, speed, lifetime, targeting or damage invented.",
+          "production_approved": false
+        },
+        "output_paths": []
+      }
+    ],
+    "exports": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-PRJ-001/exports/organized_v1/C3-ENM-PRJ-001_00_C3-ENM-PRJ-001_crystal_wisp_bolt_review.png",
+        "sha256": "e46d6400626cf9737ed7e1ac365a7a1a69377f155fda2439343dbf88cf21f264",
+        "bytes": 120771,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/enemies/chapter_03/c3_enm_prj_001/C3-ENM-PRJ-001_crystal_wisp_bolt_review.png",
+        "kind": "projectile"
+      }
+    ],
+    "native_resources": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/vfx/chapter_03/c3_crystal_wisp_bolt.tscn",
+        "sha256": "84a524839f6ffaef00cebe80fd46920078a3406ebfba169d4bd1a101bc984a40",
+        "bytes": 1707
+      }
+    ],
+    "missing_or_blocked": [],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

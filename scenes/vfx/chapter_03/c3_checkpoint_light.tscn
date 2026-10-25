@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="PackedScene" path="res://scenes/props/chapter_03/c3_lantern_light.tscn" id="1"]
+[node name="C3CheckpointLight" instance=ExtResource("1")]
+metadata/source_bible = "§6.2 C3-LIGHT-CHECKPOINT-01"
+metadata/placement = "Attach to actual active checkpoint flame. Set enabled false until activated; invoke set_reduced_effects to refresh."
+[node name="PointLight2D" parent="." index="0"]
+texture_scale = 1.1
+color = Color(1, 0.78, 0.36, 1)

@@ -1,0 +1,113 @@
+{
+  "asset_id": "C3-BG-004",
+  "title": "Crystal cavern silhouettes",
+  "sources": [
+    {
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/backgrounds/C3-BG-004/source_images/C3-BG-004_organized_image-090-ea6e19f3.png",
+      "sha256": "6e60c63253c1d8d262df6ab4ef15aa515d3c3f732d5fda4b81254a96d4de14ad",
+      "bytes": 2603973,
+      "provenance": "unchanged supplied original; organized by verified subject/role",
+      "archive_original_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-090-ea6e19f3.png",
+      "source_message_id": "eaac7b11-e71f-48de-8a22-18d3e611d5f8",
+      "source_requested_ids": [
+        "C3-BG-005"
+      ],
+      "generated_subject_title": "Bioluminescent Crystal Cave Panorama",
+      "production_approved": false,
+      "dimensions": [
+        2087,
+        754
+      ]
+    }
+  ],
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
+  "production_approved": false,
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [
+      {
+        "kind": "environment",
+        "details": {
+          "asset_id": "C3-BG-004",
+          "source_index": 90,
+          "source": "assets/production/source_archives/chat_export_6add021c/original_export/Continue Asset Generation [6add021c]/images/image-090-ea6e19f3.png",
+          "source_sha256": "6e60c63253c1d8d262df6ab4ef15aa515d3c3f732d5fda4b81254a96d4de14ad",
+          "source_message_id": "eaac7b11-e71f-48de-8a22-18d3e611d5f8",
+          "requested_ids": [
+            "C3-BG-005"
+          ],
+          "source_dimensions": [
+            2087,
+            754
+          ],
+          "removed_neighbor_components": 0,
+          "source_crop": [
+            0,
+            0,
+            2087,
+            754
+          ],
+          "content_trim": [
+            0,
+            0,
+            2087,
+            754
+          ],
+          "export": "art/environment/chapter_03/backgrounds/c3_bg_004_crystal_cavern_silhouettes.png",
+          "export_sha256": "580b3103d6100b24a0d08b92c43596a2ef9bebd32e55e433e5d753189447ce40",
+          "dimensions": [
+            2087,
+            754
+          ],
+          "visible_bounds": [
+            0,
+            0,
+            2087,
+            754
+          ],
+          "transparent_background": true,
+          "transparent_pixel_count": 413910,
+          "nonopaque_pixel_count": 1573482,
+          "opaque_pixel_count": 116,
+          "pivot": [
+            1043.5,
+            754
+          ],
+          "pivot_role": "bottom-center",
+          "animation_frames": 1,
+          "fps": 0,
+          "z_index": -60,
+          "receives_light": false,
+          "casts_shadow": "author simple polygon separately for solid props",
+          "emits_light": false,
+          "collision": "none for backgrounds/decoration; manual authored shape for platforms",
+          "import_filter": "linear",
+          "compression": "lossless",
+          "method": "unchanged native alpha crop",
+          "purpose": "distant backdrop",
+          "stage": "alpha/crop prepared; native review gallery; final approval pending",
+          "approved": false,
+          "limitations": [
+            "Visible content touches a source crop boundary; inspect source for clipping before use."
+          ]
+        },
+        "output_paths": [
+          "art/environment/chapter_03/backgrounds/c3_bg_004_crystal_cavern_silhouettes.png"
+        ]
+      }
+    ],
+    "exports": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/backgrounds/C3-BG-004/exports/organized_v1/C3-BG-004_00_c3_bg_004_crystal_cavern_silhouettes.png",
+        "sha256": "580b3103d6100b24a0d08b92c43596a2ef9bebd32e55e433e5d753189447ce40",
+        "bytes": 2724936,
+        "runtime_review_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/environment/chapter_03/backgrounds/c3_bg_004_crystal_cavern_silhouettes.png",
+        "kind": "environment"
+      }
+    ],
+    "native_resources": [],
+    "missing_or_blocked": [],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
+}

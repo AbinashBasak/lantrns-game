@@ -14,8 +14,8 @@ func run() -> void:
 	scene.reset_review()
 	assert(not particles.emitting, "Closed animation must stop native gold particles")
 	assert(scene.get_node("Chest/BaseOccluder").occluder.polygon.size() == 4)
-	for path in ["lighting/c3_lantern_light", "vfx/c3_lantern_sparks", "vfx/c3_crystal_motes", "vfx/c3_waterfall_mist"]:
-		var rig = load("res://scenes/chapter_03/%s.tscn" % path).instantiate()
+	for path in ["props/chapter_03/c3_lantern_light", "vfx/chapter_03/c3_lantern_sparks", "vfx/chapter_03/c3_crystal_motes", "vfx/chapter_03/c3_waterfall_mist"]:
+		var rig = load("res://scenes/%s.tscn" % path).instantiate()
 		root.add_child(rig)
 		assert(rig.get_child_count() > 0)
 		rig.queue_free()

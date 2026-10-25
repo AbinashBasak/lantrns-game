@@ -25,7 +25,7 @@ The coordinator selects the closest valid visible target within its exported rad
 
 ## Explicit section exits
 
-Instance `scenes/chapter_03/core/section_exit.tscn`. Its Area2D collision shape, CanvasLayer fade and fade-in/out AnimationPlayer tracks are editable in Godot. The reusable scene starts disabled until its destination is configured.
+Instance `scenes/interactables/chapter_03/section_exit.tscn`. Its Area2D collision shape, CanvasLayer fade and fade-in/out AnimationPlayer tracks are editable in Godot. The reusable scene starts disabled until its destination is configured.
 
 Set `destination_scene`, `destination_spawn_id` and `chapter_state`, then enable it. The destination must contain the normal player and a Marker2D whose name or `spawn_id` metadata matches the exported ID. Validation rejects missing scenes, markers and players before fading or disabling the source player. This implementation passes a spawn ID rather than an absolute map coordinate.
 

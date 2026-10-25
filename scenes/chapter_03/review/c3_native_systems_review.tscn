@@ -1,10 +1,10 @@
 [gd_scene load_steps=6 format=3]
 
 [ext_resource type="PackedScene" path="res://scenes/chapter_03/review/c3_chest_animation_review.tscn" id="1_chest"]
-[ext_resource type="PackedScene" path="res://scenes/chapter_03/lighting/c3_lantern_light.tscn" id="2_light"]
-[ext_resource type="PackedScene" path="res://scenes/chapter_03/vfx/c3_lantern_sparks.tscn" id="3_sparks"]
-[ext_resource type="PackedScene" path="res://scenes/chapter_03/vfx/c3_crystal_motes.tscn" id="4_motes"]
-[ext_resource type="PackedScene" path="res://scenes/chapter_03/vfx/c3_waterfall_mist.tscn" id="5_mist"]
+[ext_resource type="PackedScene" path="res://scenes/props/chapter_03/c3_lantern_light.tscn" id="2_light"]
+[ext_resource type="PackedScene" path="res://scenes/vfx/chapter_03/c3_lantern_sparks.tscn" id="3_sparks"]
+[ext_resource type="PackedScene" path="res://scenes/vfx/chapter_03/c3_crystal_motes.tscn" id="4_motes"]
+[ext_resource type="PackedScene" path="res://scenes/vfx/chapter_03/c3_waterfall_mist.tscn" id="5_mist"]
 
 [node name="C3NativeSystemsReview" type="Node2D"]
 metadata/review_only = true

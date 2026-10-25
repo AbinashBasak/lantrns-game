@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="AudioStream" path="res://audio/chapter_03/ambience/C3-AUD-001_cavern_ambience.ogg" id="1"]
+[node name="CavernAmbience" type="AudioStreamPlayer"]
+stream = ExtResource("1")
+bus = &"Ambience"
+volume_db = -8.0
+autoplay = false
+max_polyphony = 1
+metadata/official_id = "C3-AUD-001"
+metadata/source_asset_id = "AUD-AMB-004"
+metadata/source_status = "Existing procedural prototype reused unchanged; hearing/listening and actual scene mix approval pending"
+metadata/production_approved = false

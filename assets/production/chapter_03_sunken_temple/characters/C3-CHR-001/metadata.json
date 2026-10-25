@@ -2,7 +2,7 @@
   "asset_id": "C3-CHR-001",
   "title": "Player idle",
   "source_chat": "https://chatgpt.com/share/6adcfe72-eeb4-83ee-b43a-a08319abf676",
-  "stage": "originals recovered; cleanup and in-engine approval pending",
+  "stage": "prepared exports and editable native resources; final art/gameplay approval pending",
   "production_approved": false,
   "notes": "Original blue-haired idle sources preserved. User supplied a mixed blue-haired action source (attachment14), plus historical brown-haired variants. The blue-haired action sheet is RGB with a painted checkerboard; clean action exports remain pending. Do not substitute brown-haired designs or count variants as production approval.",
   "sources": [
@@ -372,7 +372,7 @@
   "attachment_review_status": "All supplied originals cataloged; no production approval inferred.",
   "review_scene": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/chapter_03/review/c3_player_animation_review.tscn",
   "review_export": {
-    "source_copy": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/export/chapter_03/review/C3-CHR-001_idle_review_source.png",
+    "source_copy": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/characters/chapter_03/review/C3-CHR-001_idle_review_source.png",
     "sha256": "836d6cd9244f4bf0848a6c4162203b21a56fdae392091bc2922d88db44a21979",
     "regions": [
       [
@@ -420,5 +420,22 @@
       "Source poses vary scale and alignment. Bottom-aligned crop canvases are stable; source foot baselines still vary."
     ]
   },
-  "review_details": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/player-animation-review.json"
+  "review_details": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/player-animation-review.json",
+  "governing_bible": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/lanterns_underroot_chapter_3_production_bible.md",
+  "organized_v1": {
+    "prepared": [],
+    "exports": [],
+    "native_resources": [
+      {
+        "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/chapter_03/review/c3_player_animation_review.tscn",
+        "sha256": "8b5cdfaf69d64a87098eeb1e0e4a4210325f54581d61cfbde2e3fbb4fc96c4ab",
+        "bytes": 7022
+      }
+    ],
+    "missing_or_blocked": [
+      "Original blue-haired idle sources preserved. User supplied a mixed blue-haired action source (attachment14), plus historical brown-haired variants. The blue-haired action sheet is RGB with a painted checkerboard; clean action exports remain pending. Do not substitute brown-haired designs or count variants as production approval."
+    ],
+    "actual_scene_scope": "isolated native review; not campaign section approval",
+    "editor_ui_inspection": "blocked: native app-control pipe unavailable"
+  }
 }
