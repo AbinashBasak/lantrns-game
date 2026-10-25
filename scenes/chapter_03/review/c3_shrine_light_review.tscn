@@ -1,0 +1,104 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/chapter_03/vfx/c3_shrine_light.tscn" id="1_effect"]
+[ext_resource type="Script" path="res://scripts/chapter_03/review/shrine_light_review.gd" id="2_script"]
+[ext_resource type="Texture2D" path="res://art/export/chapter_03/review/C3-CHEST-ASSET-001_opening_review_source.png" id="3_chest"]
+
+[sub_resource type="AtlasTexture" id="Chest_closed"]
+atlas = ExtResource("3_chest")
+region = Rect2(10, 275, 288, 392)
+filter_clip = true
+
+[sub_resource type="Environment" id="Environment"]
+background_mode = 1
+background_color = Color(0.025, 0.045, 0.05, 1)
+
+[node name="C3ShrineLightReview" type="Node2D"]
+script = ExtResource("2_script")
+metadata/review_only = true
+metadata/production_approved = false
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment")
+
+[node name="CanvasModulate" type="CanvasModulate" parent="."]
+color = Color(0.57, 0.57, 0.57, 1)
+
+[node name="ChestReceiver" type="Sprite2D" parent="."]
+position = Vector2(825, 420)
+texture = SubResource("Chest_closed")
+light_mask = 1
+metadata/purpose = "Existing chest source used only as real painted light receiver; no substitute shrine architecture"
+
+[node name="ShrineLight" parent="." instance=ExtResource("1_effect")]
+position = Vector2(565, 335)
+
+[node name="UI" type="CanvasLayer" parent="."]
+layer = 10
+
+[node name="Title" type="Label" parent="UI"]
+offset_left = 30.0
+offset_top = 25.0
+offset_right = 1250.0
+offset_bottom = 80.0
+theme_override_font_sizes/font_size = 27
+text = "CHAPTER 3 · NATIVE SHRINE LIGHT REVIEW"
+horizontal_alignment = 1
+
+[node name="Notice" type="Label" parent="UI"]
+offset_left = 30.0
+offset_top = 88.0
+offset_right = 1250.0
+offset_bottom = 155.0
+text = "Editable Godot gradient core, rings, rays, particles and PointLight2D.\nShrine emblem illustration and architecture remain separate pending assets."
+horizontal_alignment = 1
+
+[node name="ReceiverLabel" type="Label" parent="UI"]
+offset_left = 675.0
+offset_top = 620.0
+offset_right = 975.0
+offset_bottom = 650.0
+text = "Existing chest art · light receiver only"
+horizontal_alignment = 1
+
+[node name="Activate" type="Button" parent="UI"]
+offset_left = 220.0
+offset_top = 665.0
+offset_right = 360.0
+offset_bottom = 705.0
+text = "Activate"
+
+[node name="Idle" type="Button" parent="UI"]
+offset_left = 370.0
+offset_top = 665.0
+offset_right = 480.0
+offset_bottom = 705.0
+text = "Idle"
+
+[node name="Dormant" type="Button" parent="UI"]
+offset_left = 490.0
+offset_top = 665.0
+offset_right = 610.0
+offset_bottom = 705.0
+text = "Dormant"
+
+[node name="Light" type="CheckButton" parent="UI"]
+offset_left = 625.0
+offset_top = 665.0
+offset_right = 835.0
+offset_bottom = 705.0
+button_pressed = true
+text = "Dynamic light"
+
+[node name="Reduced" type="CheckButton" parent="UI"]
+offset_left = 845.0
+offset_top = 665.0
+offset_right = 1080.0
+offset_bottom = 705.0
+text = "Reduced effects"
+
+[connection signal="pressed" from="UI/Activate" to="." method="_on_activate_pressed"]
+[connection signal="pressed" from="UI/Idle" to="." method="_on_idle_pressed"]
+[connection signal="pressed" from="UI/Dormant" to="." method="_on_dormant_pressed"]
+[connection signal="toggled" from="UI/Light" to="." method="_on_light_toggled"]
+[connection signal="toggled" from="UI/Reduced" to="." method="_on_reduced_toggled"]

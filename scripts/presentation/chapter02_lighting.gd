@@ -8,6 +8,8 @@ var player_light: PointLight2D
 var mote_light: PointLight2D
 var chest_light: PointLight2D
 var fragment_light: PointLight2D
+var binding_lights: Array[PointLight2D] = []
+const BINDING_SOURCES := [Vector2(1500,378),Vector2(3300,548),Vector2(4300,548)]
 var actor_shadow: LightOccluder2D
 var reference_emitters: Array[PointLight2D] = []
 var prop_emitters: Array[PointLight2D] = []
@@ -33,6 +35,8 @@ func _ready() -> void:
 	fragment_light = _light(Vector2(6720,497),Color("ffcf75"),0.0,195.0)
 	for light in [player_light,mote_light,chest_light,fragment_light]:
 		light.set_meta("shadow_candidate",false)
+	for point: Vector2 in BINDING_SOURCES:
+		binding_lights.append(_light(point,Color("ffd681"),0.18,120.0))
 	actor_shadow = _occluder(PackedVector2Array([Vector2(-9,-2),Vector2(-12,-48),Vector2(-8,-68),Vector2(8,-68),Vector2(12,-48),Vector2(9,-2)]),Vector2.ZERO,2)
 	if is_instance_valid(game) and is_instance_valid(game.player) and game.player.has_signal("action_event"):
 		game.player.action_event.connect(_on_action)
@@ -130,10 +134,24 @@ func _process(delta: float) -> void:
 	var center: Vector2 = camera.get_screen_center_position() if camera else game.player.global_position
 	_visible_light(player_light,_in_view(player_light,center))
 	_visible_light(mote_light,mote_visible and _in_view(mote_light,center))
+	_update_bindings(delta if animating else 0.0,center)
 	_update_reference(center)
 	_update_props(center)
 	_update_rewards(delta if animating else 0.0,center)
 	_update_shadows(center)
+
+func _update_bindings(delta: float, center: Vector2) -> void:
+	var freed: Variant = game.get("bindings_freed")
+	for index in binding_lights.size():
+		var light := binding_lights[index]
+		var restored: bool = freed is Array and index < freed.size() and bool(freed[index])
+		var tint := Color("b6eddd") if restored else Color("ffd681")
+		var energy := 0.08 if restored else 0.18
+		var blend := 1.0-exp(-delta*3.0)
+		light.color = light.color.lerp(tint,blend)
+		light.energy = lerpf(light.energy,energy,blend)
+		light.position.y = BINDING_SOURCES[index].y + (42.0 if restored else 0.0)
+		_visible_light(light,region == "orchard" and _in_view(light,center))
 
 func _update_reference(center: Vector2) -> void:
 	var source := _source()
@@ -200,7 +218,7 @@ func _update_rewards(delta: float, center: Vector2) -> void:
 		var opening: Variant = rewards.get("animation_time")
 		if opening != null and bool(rewards.get("chest_opened")):
 			chest += 0.24*exp(-pow((float(opening)-0.95)/0.52,2.0))
-	var fragment := 0.28 if defeated and not collected else 0.0
+	var fragment := 0.28 if available and bool(rewards.get("chest_opened")) and not collected else 0.0
 	var blend := 1.0-exp(-delta*5.0)
 	reward_glow = reward_glow.lerp(Vector2(chest,fragment),blend)
 	if not defeated: reward_glow = Vector2.ZERO
@@ -208,7 +226,7 @@ func _update_rewards(delta: float, center: Vector2) -> void:
 	fragment_light.energy = reward_glow.y*_flicker(1.3)
 	var environment: Variant = game.get("environment")
 	var source_time := float(environment.get("clock")) if is_instance_valid(environment) and "clock" in environment else clock
-	fragment_light.position.y = 497.0+sin(source_time*2.0)*4.0
+	fragment_light.position.y = 497.0+(0.0 if reduced_effects else sin(source_time*2.0)*4.0)
 	for light in [chest_light,fragment_light]:
 		_visible_light(light,light.energy > 0.005 and _in_view(light,center))
 

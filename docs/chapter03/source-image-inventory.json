@@ -1,0 +1,1216 @@
+{
+  "source_chat": "https://chatgpt.com/share/6adcfe72-eeb4-83ee-b43a-a08319abf676",
+  "images": [
+    {
+      "message_index": 85,
+      "message_id": "4d1ae074-f375-4d79-95ba-0686eaa64839",
+      "title": "Sunken Temple: Bioluminescent Ruins",
+      "source_pointer": "sediment://file_00000000241c8208b448a6cac5370d98?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1942,
+        809
+      ],
+      "file_id": "file_00000000241c8208b448a6cac5370d98",
+      "stage": "local original concept reference archived; not playable terrain",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/source_references/Sunken Temple_ Bioluminescent Ruins.png",
+      "sha256": "6074bbca5c6ca2a88cea137b02f83d986927037a58b342cd6083e5443b897fcd"
+    },
+    {
+      "message_index": 89,
+      "message_id": "30be1077-0e96-41f8-a1b2-bba7a4acfa82",
+      "title": "Chapter 3: The Sunken Temple Map",
+      "source_pointer": "sediment://file_00000000772c8208b8ec9f4f05bdbad1?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1942,
+        809
+      ],
+      "file_id": "file_00000000772c8208b8ec9f4f05bdbad1",
+      "stage": "local original concept reference archived; not playable terrain",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/source_references/Chapter 3_ The Sunken Temple Map.png",
+      "sha256": "c09207612bfc902d1c17aea2dfba707f4fc24bf8f324b313619ba8afb14c0548"
+    },
+    {
+      "message_index": 104,
+      "message_id": "681c4a8b-4151-4c39-9b26-aae4b936f5ca",
+      "title": "The Sunken Temple: Level Design Atlas",
+      "source_pointer": "sediment://file_0000000097f4821198ee611bcc5e855b?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1536,
+        1024
+      ],
+      "file_id": "file_0000000097f4821198ee611bcc5e855b",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/source_references/chapter03_supplemental_atlas_b7ca2f8d-6871-4bbc-8897-4011f078cae2.png",
+      "sha256": "17044c2feef2ffc95d563bbf0a21e3ed41751a9f894f2253444398ab37e9df08",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 129,
+      "message_id": "3a369497-5938-4e2c-9bca-3da1fa442066",
+      "title": "Sunken Temple Scale Reference Sheet",
+      "source_pointer": "sediment://file_00000000f754820888e3a75b22f07efd?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1536,
+        1024
+      ],
+      "file_id": "file_00000000f754820888e3a75b22f07efd",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/references/C3-REF-002/source_images/C3-REF-002_user_attachment_26_be55f028-0c11-4725-90f1-491b3804813d.png",
+      "sha256": "d98e982e1654056b463380e5353f82be002968a75056cbcf5cb60d54f7631d15",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 131,
+      "message_id": "301aba13-91aa-4c43-9a9b-4af21a2571ac",
+      "title": "Sunken Temple Player Scale Guide",
+      "source_pointer": "sediment://file_00000000551482088fa7e276cf2757b1?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000551482088fa7e276cf2757b1",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/references/C3-REF-002/source_images/C3-REF-002_user_attachment_03_1bcf6959-8c86-47e5-af3a-bc0270bd7d9a.png",
+      "sha256": "03ae646e46d92be748c68731270650012f8be6b3deb71e6afa1e3d01b29eb639",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 134,
+      "message_id": "bdd14a52-fa2f-44ce-bcba-e667cac5d3c0",
+      "title": "Lanterns Underroot: Player Scale Reference",
+      "source_pointer": "sediment://file_0000000002448208a5a54bcec47349bc?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1536,
+        1024
+      ],
+      "file_id": "file_0000000002448208a5a54bcec47349bc",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/references/C3-REF-002/source_images/C3-REF-002_user_attachment_28_e64ff055-ae0a-45eb-9ca4-ae522530f8cf.png",
+      "sha256": "1121326188f5ea9e7eaaf2082f427a1ab721de9a62f1c9e8d8fa71d7827e1632",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 141,
+      "message_id": "31028558-fc95-4589-8d07-54df28cb61dc",
+      "title": "Sunken Temple Treasure Chest Sprite Sheet",
+      "source_pointer": "sediment://file_0000000087988208bad9b15f428821a1?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_0000000087988208bad9b15f428821a1",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_04_2fc97e2d-a412-46ab-8b07-2eeab1a444fe.png",
+      "sha256": "8f3215d6dc0fc3d05039e8b3cfb120252935807ea4d19fcf776be85a599a4531",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 143,
+      "message_id": "f070aa8f-eb8b-48dc-a9dd-b7e3835ca8f3",
+      "title": "Temple Mite Animation Spritesheet",
+      "source_pointer": "sediment://file_00000000091882089772f6a0669288bb?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000091882089772f6a0669288bb",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_user_attachment_21_aa90e2ad-4308-4ede-b3e1-4c2dfec8a50e.png",
+      "sha256": "272a4bc21f5eb331e62133b9b99cadbf3999b9e7ab196a6fdc08e6dc3b1a0484",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 145,
+      "message_id": "41205904-2455-47bd-a45b-b30101a8b782",
+      "title": "Treasure Chest Sprite Sheet",
+      "source_pointer": "sediment://file_00000000d2cc8208a1318e936b34539d?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000d2cc8208a1318e936b34539d",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_17_30688a41-bb85-4b62-8f98-676089852de9.png",
+      "sha256": "ba8abd365945f23a82814574b7c2cd52681e546ad8f451a8e0ac1719f22c0008",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 147,
+      "message_id": "406e3b51-c042-49cd-a346-8d3630944a13",
+      "title": "Sunken Temple Hero Sprite Sheet",
+      "source_pointer": "sediment://file_00000000b1f8820892bf1ac8d1c432c1?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000b1f8820892bf1ac8d1c432c1",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_02_1b0f273d-7d62-479a-a1df-f05b46cdddf5.png",
+      "sha256": "bd28d43ee24fba92911085a9f6eb035dacbb632c63f9c8d3d05536b4ee31f2dc",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 150,
+      "message_id": "f4dc8698-2343-4066-9f8f-8be0284643cc",
+      "title": "Sunken Temple Treasure Chest Sprite Sheet",
+      "source_pointer": "sediment://file_0000000038ec8208864c12163d97dd67?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1536,
+        1024
+      ],
+      "file_id": "file_0000000038ec8208864c12163d97dd67",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_13_584d93a2-71ec-4e97-adc4-066745a94bb3.png",
+      "sha256": "22d6a415327d6c3d260874b7472e4142f51d67ec185ff30a71d380dd368b616f",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 152,
+      "message_id": "be7370d4-0b3e-46b4-82f2-faae9e6e4942",
+      "title": "Chapter 3 Treasure Chest Animation Sheet",
+      "source_pointer": "sediment://file_0000000024548208b25889f10991b503?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1536,
+        1024
+      ],
+      "file_id": "file_0000000024548208b25889f10991b503",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_30_ea4950f3-cd1d-445f-b45f-a0c159cfe190.png",
+      "sha256": "52006db821b21d1928f9a9e65f660d3c1786c001465a287b346454d082c8f56c",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 154,
+      "message_id": "865e8b05-90ff-4f06-bad5-59ebfb66155a",
+      "title": "Mossy Underwater Treasure Chest Sprite Sheet",
+      "source_pointer": "sediment://file_00000000337c8208ba2ca026ca741300?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000337c8208ba2ca026ca741300",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_12_401bc09d-43fc-4dff-aa26-3bd6b19b6d3e.png",
+      "sha256": "52abe7dc901077723cc19f696ad36baa6636d0537adebe91ff10192cf8e59a7b",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 156,
+      "message_id": "87634ba2-5cf8-41cf-b329-eff8c1713263",
+      "title": "Sunken Temple Hero Animation Sheet",
+      "source_pointer": "sediment://file_00000000628c8208b5c6fc7d815f35dd?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1536,
+        1024
+      ],
+      "file_id": "file_00000000628c8208b5c6fc7d815f35dd",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_09_73ff3f3c-db23-47cf-b6c9-313a45b56a6f.png",
+      "sha256": "6842537ae9464ad6f2eba72928454a750c0837b052008b4abaa8e1a42d95d76e",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 159,
+      "message_id": "f56c3642-e8a3-4784-b3ed-7a088daa80f1",
+      "title": "Temple Mite Enemy Sprite Sheet",
+      "source_pointer": "sediment://file_00000000afa882118ed694b56191b126?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000afa882118ed694b56191b126",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_user_attachment_08_34ec6c51-657b-4f40-b5f1-84660a95d919.png",
+      "sha256": "bcbda551092e6590197e4732a877fdff8df61add664f14d39b852121afbc01f3",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 161,
+      "message_id": "e1f18688-c8f0-48f2-96c2-7016d78af215",
+      "title": "Sunken Temple Hero Animation Sprite Sheet",
+      "source_pointer": "sediment://file_00000000d0a88208aeb025ed5f063c65?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000d0a88208aeb025ed5f063c65",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_31_ebae1ca9-3a5a-45c7-9b00-69db5fac2dc8.png",
+      "sha256": "8e1dfc4764ffc81db098bb33750f5813f5b6c6e6b74b6c5d66c5f21afc08ee97",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 164,
+      "message_id": "da142f83-600b-4530-b940-5253438ec1e2",
+      "title": "Sunken Temple Hero Sprite Sheet",
+      "source_pointer": "sediment://file_000000003df882089f2f31d7fc8b4379?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_000000003df882089f2f31d7fc8b4379",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_07_33a70ad6-3909-41a3-9571-e603e3450393.png",
+      "sha256": "8ad8d746fafc497569c926c75dc92998b92cd80207cbd92604bba822ce09e521",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 166,
+      "message_id": "66bab79e-e995-4f21-bc48-2c78dc4d4d13",
+      "title": "Sunken Temple Treasure Chest Sprite Sheet",
+      "source_pointer": "sediment://file_00000000416082089fe8df24379c02b5?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1536,
+        1024
+      ],
+      "file_id": "file_00000000416082089fe8df24379c02b5",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_06_20df7b65-6b42-4dc9-af58-6484080567b0.png",
+      "sha256": "572e57e01d2969a02b411cfc55931df1a641d9ac92729d1cdec3ea62097cbb5e",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 169,
+      "message_id": "1cac776d-c52e-455e-9a8c-50dad93fbfd3",
+      "title": "Mossy Treasure Chest Sprite Sheet",
+      "source_pointer": "sediment://file_000000003d788208ae1f6bbc522b0af2?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1536,
+        1024
+      ],
+      "file_id": "file_000000003d788208ae1f6bbc522b0af2",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_22_b1c47ec2-5c90-404d-babc-b9253a8e20f8.png",
+      "sha256": "4e3bc08ad5d1770237ab1c3abd6bb4349643706d3a7ccc5543483b5d17457188",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 171,
+      "message_id": "1ac8a6dd-1fd7-4aa6-ab8c-db35f650da58",
+      "title": "Mossy Treasure Chest Animation Sheet",
+      "source_pointer": "sediment://file_0000000096488208944685872c97338f?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_0000000096488208944685872c97338f",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_18_68302203-e67b-4c7a-8d61-8f3c812db20d.png",
+      "sha256": "4f54b5933f477ea04ed8fcb8592a04deaf324ee33b58b609c1d189c473e40e9b",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 173,
+      "message_id": "b90793b8-3014-4636-a96e-5f0cb03e4c12",
+      "title": "Sunken Temple Hero Sprite Atlas",
+      "source_pointer": "sediment://file_00000000889482089a4bc74234f0495b?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000889482089a4bc74234f0495b",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_10_84a43bdd-2aaf-43b5-bbd6-e9f089df867b.png",
+      "sha256": "f9d3758bb51fe5879a9138b3ed42d8db81d15bd3e1cd83e099f68c6b32f747d3",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 175,
+      "message_id": "8764bc06-3845-4a5f-8e51-77e40045754a",
+      "title": "Sunken Temple Treasure Chest Sprite Sheet",
+      "source_pointer": "sediment://file_00000000aab08208af116e9ccc4ed679?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000aab08208af116e9ccc4ed679",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_29_e77d892b-1e50-4d41-bf8c-dbfb83f50b7d.png",
+      "sha256": "dea6b387d725cb1ddb89a07e1fee4b353979ef3fa776a641350c6fcaac4d6429",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 177,
+      "message_id": "f0cac7ba-40f5-41ec-bdd3-c34f0475d852",
+      "title": "Chapter 3 Common Treasure Chest Sheet",
+      "source_pointer": "sediment://file_000000006c0482088acba2e1d1884675?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1536,
+        1024
+      ],
+      "file_id": "file_000000006c0482088acba2e1d1884675",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_33_f89ca522-48ef-4148-9f49-62adc0b39da0.png",
+      "sha256": "5b709669a48822ffa0d589f26fda5d6033ba3cb26504d026fa155fbeab8c39f2",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 179,
+      "message_id": "7e6626ef-86e6-40b8-8a72-58d462a931e5",
+      "title": "Sunken Temple Player Sprite Sheet",
+      "source_pointer": "sediment://file_000000005e408208bac09ed803cfaf12?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1536,
+        1024
+      ],
+      "file_id": "file_000000005e408208bac09ed803cfaf12",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_25_bad5ee13-2ca6-41ac-bc93-0b829c7cf7cb.png",
+      "sha256": "f53b4633338f05976314e1a29b5523b540c712ac25b5017a8c5e17e4e3e39d9e",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 181,
+      "message_id": "177009fe-0729-4262-ad6f-44d7eeb2e15a",
+      "title": "Sunken Temple Mite Sprite Sheet",
+      "source_pointer": "sediment://file_000000007fa48208bdc690f93242242a?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_000000007fa48208bdc690f93242242a",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_user_attachment_24_b75c8c4d-a47d-4844-9996-1241febe7a6d.png",
+      "sha256": "7882b572640d879d7c74f8219108e4e081f866b8a9e2eeeda6d570ae78a2ea4e",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 183,
+      "message_id": "579dbf7f-4605-4bb3-87e0-a1da15294910",
+      "title": "Heroic Adventurer Animation Sprite Sheet",
+      "source_pointer": "sediment://file_00000000ad548208ac3186e56fb8f6af?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000ad548208ac3186e56fb8f6af",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_15_4877becd-d7db-47fe-a282-925b5eb40764.png",
+      "sha256": "3e23da50108397c9c554f01b81297dff3af1540ceb1de8c229cd3db6a25f0587",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 185,
+      "message_id": "6d0b4d86-0fd9-4ca1-b672-038eb3ce4afa",
+      "title": "Treasure Chest Animation Asset Sheet",
+      "source_pointer": "sediment://file_000000000fcc820898c1c66365b44742?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1536,
+        1024
+      ],
+      "file_id": "file_000000000fcc820898c1c66365b44742",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_27_e7b3e97c-f3a3-4325-9e09-b6fe5fe18253.png",
+      "sha256": "682919de436313fb99bb067c318b6a4d4b3b793fc0d16eb84a6bc9ea46aef841",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 187,
+      "message_id": "f833e81c-c4be-44a5-a8c9-cd68ea6e8e60",
+      "title": "Sunken Temple Treasure Chest Spritesheet",
+      "source_pointer": "sediment://file_000000004e848208b49012f7627292cc?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1536,
+        1024
+      ],
+      "file_id": "file_000000004e848208b49012f7627292cc",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_11_91f6deb9-8d4b-409f-817b-6d4e55404c3c.png",
+      "sha256": "636c20bdfdcc6623e5a0f28013a487531bf6cba1d1705ec74aba4b47c80871c5",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 189,
+      "message_id": "875fedda-d43a-4900-99ad-c7aca821bbe9",
+      "title": "Temple Mite Animation Sheet",
+      "source_pointer": "sediment://file_00000000321c8208b32e64c0560f350e?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000321c8208b32e64c0560f350e",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_user_attachment_20_a336de21-5853-4cbe-a5a2-f22f5ce1214b.png",
+      "sha256": "cc9478b5c5d2f99c9d7864a2d7b412c6cbdc4f673778bf0cd328a86ea6637d57",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 195,
+      "message_id": "95bfc351-17a3-4d78-8afc-1b6a85612d85",
+      "title": "Fantasy Hero Animation Sprite Sheet",
+      "source_pointer": "sediment://file_00000000906c8208870d543335ece6b7?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1536,
+        1024
+      ],
+      "file_id": "file_00000000906c8208870d543335ece6b7",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_14_1637c1f0-02b6-4d8c-a97f-bde8a0115ed6.png",
+      "sha256": "b980a16521ba7fb64e38ba12cb3a987a4b92a8605306c86027b9dde6b44a146d",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 202,
+      "message_id": "d236bf02-edef-402b-b38d-15752e43ac34",
+      "title": "Blue-Haired Hero Idle Animation Sheet",
+      "source_pointer": "sediment://file_00000000ef58820885b82be6b68c6e2a?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000ef58820885b82be6b68c6e2a",
+      "stage": "unchanged original archived; frame/identity/lighting review pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_idle_attempt_202_msg_202_00000000ef58820885b82be6b68c6e2a.png",
+      "asset_id": "C3-CHR-001",
+      "animation": "idle_attempt_202",
+      "sha256": "836d6cd9244f4bf0848a6c4162203b21a56fdae392091bc2922d88db44a21979"
+    },
+    {
+      "message_index": 205,
+      "message_id": "57b38e50-934d-4592-85ed-e837aa5978eb",
+      "title": "Blue-Haired Hero Running Sprite Sheet",
+      "source_pointer": "sediment://file_00000000ab108208a6f6305386a18d25?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000ab108208a6f6305386a18d25",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-002/source_images/C3-CHR-002_user_attachment_19_a75b6832-236e-4ed8-93f0-a0522d6907e3.png",
+      "sha256": "287bba036efa40ae43cf4bc443cce1891d2755a20bebbe2230658a17906d86b2",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 207,
+      "message_id": "221dc971-1017-4764-80fc-ac6bc640592b",
+      "title": "Blue-Haired Hero Idle Sprite Sheet",
+      "source_pointer": "sediment://file_000000002dc88208ab3aafbc298bcfc4?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_000000002dc88208ab3aafbc298bcfc4",
+      "stage": "source record recovered; original not yet downloaded",
+      "local_path": null
+    },
+    {
+      "message_index": 209,
+      "message_id": "5da54d43-3db5-4370-b311-79935c9a6577",
+      "title": "Blue-Haired Hero Run Cycle",
+      "source_pointer": "sediment://file_000000008b68821185c96e0dfbd3a6dc?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_000000008b68821185c96e0dfbd3a6dc",
+      "stage": "source record recovered; original not yet downloaded",
+      "local_path": null
+    },
+    {
+      "message_index": 211,
+      "message_id": "e824f9cc-8f2a-44f7-84be-eca79f9ef119",
+      "title": "Blue-Haired Hero Idle Sprite Sheet",
+      "source_pointer": "sediment://file_00000000dcb08208ab78e89fb99c150c?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000dcb08208ab78e89fb99c150c",
+      "stage": "source record recovered; original not yet downloaded",
+      "local_path": null
+    },
+    {
+      "message_index": 213,
+      "message_id": "faa2c1e7-b987-4836-bd1e-a0de4623063f",
+      "title": "Blue-Haired Hero Idle Animation Sheet",
+      "source_pointer": "sediment://file_0000000006d082088137cf731b05fa01?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1983,
+        793
+      ],
+      "file_id": "file_0000000006d082088137cf731b05fa01",
+      "stage": "source record recovered; original not yet downloaded",
+      "local_path": null
+    },
+    {
+      "message_index": 215,
+      "message_id": "0bee7411-34e4-4349-95a2-3a379efbbde1",
+      "title": "Blue-Haired Hero Idle Sprite Sheet",
+      "source_pointer": "sediment://file_000000004098820897362ad2a6671da4?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_000000004098820897362ad2a6671da4",
+      "stage": "source record recovered; original not yet downloaded",
+      "local_path": null
+    },
+    {
+      "message_index": 218,
+      "message_id": "83888992-bb00-44b8-84cf-eb5f1547df1f",
+      "title": "Blue-Haired Fantasy Hero Idle Animation",
+      "source_pointer": "sediment://file_0000000036288208bab318a0422e3364?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_0000000036288208bab318a0422e3364",
+      "stage": "source record recovered; original not yet downloaded",
+      "local_path": null
+    },
+    {
+      "message_index": 220,
+      "message_id": "d4b1a39d-7780-462c-8858-9075e7ed9e4d",
+      "title": "Blue-Haired Hero Idle Sprite Sheet",
+      "source_pointer": "sediment://file_00000000520482089a97e9d6aa17cfec?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000520482089a97e9d6aa17cfec",
+      "stage": "source record recovered; original not yet downloaded",
+      "local_path": null
+    },
+    {
+      "message_index": 222,
+      "message_id": "4d673387-9c9a-48e8-bb25-d77d34670544",
+      "title": "Blue-haired Fantasy Hero Idle Sprite Sheet",
+      "source_pointer": "sediment://file_00000000dcc48208aefa6b56f6f70706?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1983,
+        793
+      ],
+      "file_id": "file_00000000dcc48208aefa6b56f6f70706",
+      "stage": "source record recovered; original not yet downloaded",
+      "local_path": null
+    },
+    {
+      "message_index": 224,
+      "message_id": "49b9b523-e39d-4ee1-9728-7a6aab6e1ca8",
+      "title": "Fantasy Hero Idle Animation Sprite Sheet",
+      "source_pointer": "sediment://file_00000000fc708208a38611897bb713e2?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000fc708208a38611897bb713e2",
+      "stage": "source record recovered; original not yet downloaded",
+      "local_path": null
+    },
+    {
+      "message_index": 226,
+      "message_id": "2195612b-b5b5-4606-ba73-8c50c8d3ddd5",
+      "title": "Blue-Haired Hero Idle Animation",
+      "source_pointer": "sediment://file_000000003b8482088c9f8d6df54531db?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_000000003b8482088c9f8d6df54531db",
+      "stage": "source record recovered; original not yet downloaded",
+      "local_path": null
+    },
+    {
+      "message_index": 228,
+      "message_id": "0d2ff7b6-a390-4154-a390-51b1a1611106",
+      "title": "Blue-Haired Adventurer Idle Sprite Sheet",
+      "source_pointer": "sediment://file_0000000082248208bdf9619c06e4ad16?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_0000000082248208bdf9619c06e4ad16",
+      "stage": "source record recovered; original not yet downloaded",
+      "local_path": null
+    },
+    {
+      "message_index": 230,
+      "message_id": "71fae328-6ab2-4798-9a9f-b4701c8d88f7",
+      "title": "Blue-Haired Hero Idle Sprite Sheet",
+      "source_pointer": "sediment://file_000000009b608208b740da5ecf0ea490?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_000000009b608208b740da5ecf0ea490",
+      "stage": "source record recovered; original not yet downloaded",
+      "local_path": null
+    },
+    {
+      "message_index": 232,
+      "message_id": "2c3a51e3-3cdc-40e6-a393-0af48be709de",
+      "title": "Blue-Haired Hero Idle Animation Sheet",
+      "source_pointer": "sediment://file_00000000e13082088a73531925428a6e?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000e13082088a73531925428a6e",
+      "stage": "source record recovered; original not yet downloaded",
+      "local_path": null
+    },
+    {
+      "message_index": 234,
+      "message_id": "3d64fccf-b9c6-403a-b873-138fd31fd837",
+      "title": "Anime RPG Hero Idle Animation Sprite Sheet",
+      "source_pointer": "sediment://file_00000000dda88208a570ffc73ac866ab?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000dda88208a570ffc73ac866ab",
+      "stage": "source record recovered; original not yet downloaded",
+      "local_path": null
+    },
+    {
+      "message_index": 236,
+      "message_id": "2b19a746-df0c-43f1-bb83-1da7f471bae1",
+      "title": "Blue-Haired Fantasy Hero Idle Sprite Sheet",
+      "source_pointer": "sediment://file_000000002d688208b49bbf38f73b3575?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_000000002d688208b49bbf38f73b3575",
+      "stage": "source record recovered; original not yet downloaded",
+      "local_path": null
+    },
+    {
+      "message_index": 238,
+      "message_id": "35a7b26d-6c1f-4f29-bd46-b950475e3904",
+      "title": "Blue-Haired Fantasy Boy Walk Cycle",
+      "source_pointer": "sediment://file_00000000f18882089619cfd29a718cdc?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000f18882089619cfd29a718cdc",
+      "stage": "source record recovered; original not yet downloaded",
+      "local_path": null
+    },
+    {
+      "message_index": 240,
+      "message_id": "6d84b1ed-af00-41f8-8abb-2590965176fa",
+      "title": "Blue-Haired Fantasy Hero Idle Sprite Sheet",
+      "source_pointer": "sediment://file_00000000400082088425739ca8a2d96b?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1983,
+        793
+      ],
+      "file_id": "file_00000000400082088425739ca8a2d96b",
+      "stage": "source record recovered; original not yet downloaded",
+      "local_path": null
+    },
+    {
+      "message_index": 242,
+      "message_id": "0c8ca91b-8eed-4960-9074-b897e152a84b",
+      "title": "Blue-Haired Hero Idle Animation Sprite Sheet",
+      "source_pointer": "sediment://file_00000000b7e882088d9583c462ce5167?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000b7e882088d9583c462ce5167",
+      "stage": "source record recovered; original not yet downloaded",
+      "local_path": null
+    },
+    {
+      "message_index": 244,
+      "message_id": "5053c62a-8795-4f81-8a85-24fc7ade7820",
+      "title": "Blue-Haired Hero Running Cycle",
+      "source_pointer": "sediment://file_0000000041648208ad185d80f8ff6f81?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1983,
+        793
+      ],
+      "file_id": "file_0000000041648208ad185d80f8ff6f81",
+      "stage": "unchanged original archived; frame/identity/lighting review pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-002/source_images/C3-CHR-002_run_msg_244_0000000041648208ad185d80f8ff6f81.png",
+      "asset_id": "C3-CHR-002",
+      "animation": "run",
+      "sha256": "daa18d4ba7e82dd27fc16aed74af7c22cf8b338c4296e468a33b6aa247fbab9b"
+    },
+    {
+      "message_index": 246,
+      "message_id": "2c90f54d-0c2a-4443-bbd6-7c61de7f30c1",
+      "title": "Blue-Haired Hero Walk Cycle",
+      "source_pointer": "sediment://file_000000009c688208ba52f73b3094bc9e?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1904,
+        826
+      ],
+      "file_id": "file_000000009c688208ba52f73b3094bc9e",
+      "stage": "unchanged original archived; frame/identity/lighting review pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-002/source_images/C3-CHR-002_walk_msg_246_000000009c688208ba52f73b3094bc9e.png",
+      "asset_id": "C3-CHR-002",
+      "animation": "walk",
+      "sha256": "ad78ba474bcf13da65d4c1a1a1f8c68ce2d309a74f8a88dffa6772ddb04974e9"
+    },
+    {
+      "message_index": 248,
+      "message_id": "fc51933b-2583-4805-8014-fb4f7301f1e1",
+      "title": "Blue-Haired Hero Idle Sprite Sheet",
+      "source_pointer": "sediment://file_000000008c2882088d3b344aec133909?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_000000008c2882088d3b344aec133909",
+      "stage": "source record recovered; original not yet downloaded",
+      "local_path": null
+    },
+    {
+      "message_index": 250,
+      "message_id": "43de74f5-24a7-46a5-801f-2157a44247d0",
+      "title": "Fantasy Hero Running Sprite Sheet",
+      "source_pointer": "sediment://file_000000006ebc8208be1dc30c477db953?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1983,
+        793
+      ],
+      "file_id": "file_000000006ebc8208be1dc30c477db953",
+      "stage": "source record recovered; original not yet downloaded",
+      "local_path": null
+    },
+    {
+      "message_index": 252,
+      "message_id": "160740d4-5bb5-4022-bdbd-0f3f5fb9e0d0",
+      "title": "Blue-Haired Hero Idle Sprite Sheet",
+      "source_pointer": "sediment://file_0000000040e48208b3f5380529664a4b?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1983,
+        793
+      ],
+      "file_id": "file_0000000040e48208b3f5380529664a4b",
+      "stage": "source record recovered; original not yet downloaded",
+      "local_path": null
+    },
+    {
+      "message_index": 254,
+      "message_id": "2615056c-5a60-40f7-b4d5-71e2a9b14896",
+      "title": "Blue-Haired Hero Idle Animation Sheet",
+      "source_pointer": "sediment://file_00000000decc8208b5705e8f175eab07?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000decc8208b5705e8f175eab07",
+      "stage": "unchanged original archived; frame/identity/lighting review pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_idle_attempt_254_msg_254_00000000decc8208b5705e8f175eab07.png",
+      "asset_id": "C3-CHR-001",
+      "animation": "idle_attempt_254",
+      "sha256": "73d57a16312539dd3ff301ea51b46dc60af36332478832b1804cf9a5ab7eddd9"
+    },
+    {
+      "message_index": 261,
+      "message_id": "66b27022-1383-4386-8abd-6900cc498154",
+      "title": "Six-Stage Enchanted Treasure Chest Animation",
+      "source_pointer": "sediment://file_000000006bf082088cf88cc37cce9e7a?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_000000006bf082088cf88cc37cce9e7a",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_opening_msg_261_000000006bf082088cf88cc37cce9e7a.png",
+      "asset_id": "C3-CHEST-ASSET-001",
+      "animation": "opening",
+      "sha256": "08ca59019946cffa88adfedfea4e891f3860b1ba46f7ff3c380e50c90eff4967",
+      "source_match_status": "exact_archived_hash",
+      "source_match_evidence": "SHA256 identical to previously archived original"
+    },
+    {
+      "message_index": 270,
+      "message_id": "8d397d92-1305-44a8-8f15-79b2e50342eb",
+      "title": "Six-Frame Mossy Temple Beetle Sprite Sheet",
+      "source_pointer": "sediment://file_00000000380c8208858cc223b3862d5f?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1993,
+        789
+      ],
+      "file_id": "file_00000000380c8208858cc223b3862d5f",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_user_attachment_01_0bafb9af-cc55-48f0-8ef9-8aa626e0a609.png",
+      "sha256": "4430cece23b6371ebba38e5a4145972424ce144731b9d02a2c5b29aad48bfb46",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 273,
+      "message_id": "e08eef78-c4cf-474c-83f1-389c3e1f50fa",
+      "title": "Crystal Moss Creature Idle Sprite Sheet",
+      "source_pointer": "sediment://file_000000002aa48208ba5592f225c7240b?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        2172,
+        724
+      ],
+      "file_id": "file_000000002aa48208ba5592f225c7240b",
+      "stage": "source record recovered; original not yet downloaded",
+      "local_path": null
+    },
+    {
+      "message_index": 275,
+      "message_id": "186cc3b6-c85f-4ea5-a9fd-660275a97e0c",
+      "title": "Temple Mite Animation Sprite Sheet",
+      "source_pointer": "sediment://file_00000000a01c8208ac39e101decdd736?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000a01c8208ac39e101decdd736",
+      "stage": "source record recovered; original not yet downloaded",
+      "local_path": null
+    },
+    {
+      "message_index": 277,
+      "message_id": "c4d158cb-22bb-4ff5-b0f1-b7e8d17016ba",
+      "title": "Mossy Crystal Crustacean Sprite Sheet",
+      "source_pointer": "sediment://file_00000000c6cc82089c4c0d2b679c6c60?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000c6cc82089c4c0d2b679c6c60",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_user_attachment_32_f31b20c9-e7e7-4253-bb05-677df22330ca.png",
+      "sha256": "6fe09cd1c6be1f14719b8cb441018477bd890c11906af744734a13e9b649d5ff",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 279,
+      "message_id": "dad7bcf1-95b6-4313-b699-86a86ae2f1d1",
+      "title": "Crystal-Crusted Crab Sprite Animation",
+      "source_pointer": "sediment://file_00000000a3088208a12005c880f0d822?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        2172,
+        724
+      ],
+      "file_id": "file_00000000a3088208a12005c880f0d822",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_user_attachment_05_2fe76b06-949b-470c-8cc2-45da56895122.png",
+      "sha256": "142bd166f6d2da9a275c059b6825b5991b764ebe08563f667983a6f7e75cb742",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+      "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+    },
+    {
+      "message_index": 281,
+      "message_id": "317779b4-66e1-4834-b8bf-8c58c3d3258a",
+      "title": "Crystal Moss Crab Idle Animation Sprite Sheet",
+      "source_pointer": "sediment://file_00000000e7408208b7e2dc2e9a9ed7f1?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        1774,
+        887
+      ],
+      "file_id": "file_00000000e7408208b7e2dc2e9a9ed7f1",
+      "stage": "unchanged original archived; frame/identity/lighting review pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_idle_msg_281_00000000e7408208b7e2dc2e9a9ed7f1.png",
+      "asset_id": "C3-ENM-001",
+      "animation": "idle",
+      "sha256": "4f9d344ceb3fa17548b9000732e7f668d0dec9c674a12dcf09dc5f1332da3a87"
+    },
+    {
+      "message_index": 289,
+      "message_id": "bfa0c6a5-377a-45b6-85f4-1a6984cb60eb",
+      "title": "Six-Frame Crystal Bug Walk Cycle",
+      "source_pointer": "sediment://file_00000000344c8208a250b021ba4ce070?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        2172,
+        724
+      ],
+      "file_id": "file_00000000344c8208a250b021ba4ce070",
+      "stage": "User-supplied original archived and visually reviewed; production approval pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_walk_msg_289_00000000344c8208a250b021ba4ce070.png",
+      "asset_id": "C3-ENM-001",
+      "animation": "walk",
+      "sha256": "25fbe17cbaa11fa176646744884ad6961288f5604eda4cad667dc0eeeb656b36",
+      "source_match_status": "exact_archived_hash",
+      "source_match_evidence": "SHA256 identical to previously archived original"
+    },
+    {
+      "message_index": 298,
+      "message_id": "b5c2c469-c4a5-4cc1-9800-05897f25fc13",
+      "title": "Crystal Golem Attack Sequence",
+      "source_pointer": "sediment://file_000000003cdc8211af329f68a3691ac1?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        2172,
+        724
+      ],
+      "file_id": "file_000000003cdc8211af329f68a3691ac1",
+      "stage": "unchanged original archived; frame/identity/lighting review pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_attack_msg_298_000000003cdc8211af329f68a3691ac1.png",
+      "asset_id": "C3-ENM-001",
+      "animation": "attack",
+      "sha256": "dafef54ba60489a23bdc5e6dc2e8d5d6cb4556ea5585302686df7289bf42765a"
+    },
+    {
+      "message_index": 304,
+      "message_id": "04d8231b-b9dd-4cb0-8d23-0194ca7537c6",
+      "title": "Crystal Crab Damage Animation Strip",
+      "source_pointer": "sediment://file_000000000e2c8208a6ed584dcc05e8d2?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        2172,
+        724
+      ],
+      "file_id": "file_000000000e2c8208a6ed584dcc05e8d2",
+      "stage": "unchanged original archived; frame/identity/lighting review pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_hurt_msg_304_000000000e2c8208a6ed584dcc05e8d2.png",
+      "asset_id": "C3-ENM-001",
+      "animation": "hurt",
+      "sha256": "a1634ee7f10c28f530e7f7a8c6f6c6523d33f75699e307749cd9edcaa2c7c5e7"
+    },
+    {
+      "message_index": 313,
+      "message_id": "80e67e61-0e8a-4ede-8755-0cdc67ed9287",
+      "title": "Crystalline Stone Crab Destruction Sequence",
+      "source_pointer": "sediment://file_000000006b3c8208b6e32cec36d799ad?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        2172,
+        724
+      ],
+      "file_id": "file_000000006b3c8208b6e32cec36d799ad",
+      "stage": "unchanged original archived; frame/identity/lighting review pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_death_msg_313_000000006b3c8208b6e32cec36d799ad.png",
+      "asset_id": "C3-ENM-001",
+      "animation": "death",
+      "sha256": "861857908eff3fb75a943d7d3ab0c4bf7b7b05c945c5e89fd7807e8d08d995b2"
+    },
+    {
+      "message_index": 319,
+      "message_id": "cf6ebaa6-f0ff-47a2-b7da-c6a32229232d",
+      "title": "Glowing Crystal Spirit Animation Frames",
+      "source_pointer": "sediment://file_00000000437882088ef1167d3c2dead2?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        2172,
+        724
+      ],
+      "file_id": "file_00000000437882088ef1167d3c2dead2",
+      "stage": "unchanged original archived; frame/identity/lighting review pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/source_images/C3-ENM-002_hover_msg_319_00000000437882088ef1167d3c2dead2.png",
+      "asset_id": "C3-ENM-002",
+      "animation": "hover",
+      "sha256": "862ca67c5d7b769b55fae09c6578225493e8bead6e7e68d1a6689712e7e215cf"
+    },
+    {
+      "message_index": 325,
+      "message_id": "40ef8884-5a45-47eb-a5e3-41c4a6708dc1",
+      "title": "Cyan Orb Attack Sequence",
+      "source_pointer": "sediment://file_00000000908482089171caf455ee7c0a?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        2172,
+        724
+      ],
+      "file_id": "file_00000000908482089171caf455ee7c0a",
+      "stage": "unchanged original archived; frame/identity/lighting review pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/source_images/C3-ENM-002_attack_msg_325_00000000908482089171caf455ee7c0a.png",
+      "asset_id": "C3-ENM-002",
+      "animation": "attack",
+      "sha256": "29a1b0df8d28e71b14443ccfa672e7d4c82148083b11d1c88ad95ffdccc2bf61"
+    },
+    {
+      "message_index": 334,
+      "message_id": "bbd286a3-2447-464e-b2e9-98c8d50f4d6a",
+      "title": "Six-Frame Crystal Orb Animation Sheet",
+      "source_pointer": "sediment://file_00000000d2508208af0083d053af39de?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        2172,
+        724
+      ],
+      "file_id": "file_00000000d2508208af0083d053af39de",
+      "stage": "unchanged original archived; frame/identity/lighting review pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/source_images/C3-ENM-002_hurt_msg_334_00000000d2508208af0083d053af39de.png",
+      "asset_id": "C3-ENM-002",
+      "animation": "hurt",
+      "sha256": "78fb784ca73041c4dcb979bf5f75c898c2741f55b54953ced2f14267d85c192d"
+    },
+    {
+      "message_index": 339,
+      "message_id": "1fbfb275-29d2-4ee6-a055-58378e3b046a",
+      "title": "Crystalline Guardian: Six-Stage Dissipation",
+      "source_pointer": "sediment://file_000000003f80820881353e8ac3f8b673?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        2172,
+        724
+      ],
+      "file_id": "file_000000003f80820881353e8ac3f8b673",
+      "stage": "unchanged original archived; frame/identity/lighting review pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/source_images/C3-ENM-002_death_msg_339_000000003f80820881353e8ac3f8b673.png",
+      "asset_id": "C3-ENM-002",
+      "animation": "death",
+      "sha256": "cfc6d2096bca29773336333ed8219586d27f2dc0fa43003abcebf566a61b6d33"
+    },
+    {
+      "message_index": 347,
+      "message_id": "14338a7f-2337-4b2b-8ae3-3958d27f4b91",
+      "title": "Spectral Guardian Animation Cycle",
+      "source_pointer": "sediment://file_00000000b45c8208bf485d87f3819d5a?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        2172,
+        724
+      ],
+      "file_id": "file_00000000b45c8208bf485d87f3819d5a",
+      "stage": "unchanged original archived; frame/identity/lighting review pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-003/source_images/C3-ENM-003_idle_msg_347_00000000b45c8208bf485d87f3819d5a.png",
+      "asset_id": "C3-ENM-003",
+      "animation": "idle",
+      "sha256": "6cccb9b8727a2a5c4c8b41edbc02320e0cee6da3810cca66e040a3fa059f72fc"
+    },
+    {
+      "message_index": 353,
+      "message_id": "c7b33195-fe62-4a15-81dc-47a1169473cf",
+      "title": "Spectral Mage Animation Sprite Sheet",
+      "source_pointer": "sediment://file_0000000053d482089b3d04fa884f3026?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        2172,
+        724
+      ],
+      "file_id": "file_0000000053d482089b3d04fa884f3026",
+      "stage": "unchanged original archived; frame/identity/lighting review pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-003/source_images/C3-ENM-003_glide_msg_353_0000000053d482089b3d04fa884f3026.png",
+      "asset_id": "C3-ENM-003",
+      "animation": "glide",
+      "sha256": "456cf99dce581719d8e2dad4e7dd0468d4a333835b3dad50e4ce01d1e2da5507"
+    },
+    {
+      "message_index": 359,
+      "message_id": "12ea2a91-38e5-4258-9501-39f1d6a7d306",
+      "title": "Spectral Mage\u2019s Cyan Spell Sequence",
+      "source_pointer": "sediment://file_00000000c4d482088965cb7ca6faace0?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        2172,
+        724
+      ],
+      "file_id": "file_00000000c4d482088965cb7ca6faace0",
+      "stage": "unchanged original archived; frame/identity/lighting review pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-003/source_images/C3-ENM-003_attack_msg_359_00000000c4d482088965cb7ca6faace0.png",
+      "asset_id": "C3-ENM-003",
+      "animation": "attack",
+      "sha256": "c8e0d8e009ac59fcf7cf5e5933d3c6a72691fd5a4d00b66cedab15099a220bc6"
+    },
+    {
+      "message_index": 365,
+      "message_id": "f182e095-c9c1-4f06-9ffe-3b57d2ebf9b5",
+      "title": "Arcane Wraith Mage Impact Sequence",
+      "source_pointer": "sediment://file_00000000e4d082089108fa4191e590b1?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        2172,
+        724
+      ],
+      "file_id": "file_00000000e4d082089108fa4191e590b1",
+      "stage": "unchanged original archived; frame/identity/lighting review pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-003/source_images/C3-ENM-003_hurt_msg_365_00000000e4d082089108fa4191e590b1.png",
+      "asset_id": "C3-ENM-003",
+      "animation": "hurt",
+      "sha256": "ef8c00c6234af3ba417055e5d43c50e6ac9075f8799711ee4ca400c662edc7b9"
+    },
+    {
+      "message_index": 371,
+      "message_id": "0524c8aa-28b3-4e1e-ba8a-81952c60b0d3",
+      "title": "Spectral Mage\u2019s Six-Stage Disintegration",
+      "source_pointer": "sediment://file_00000000216c8208841042af826103be?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        2172,
+        724
+      ],
+      "file_id": "file_00000000216c8208841042af826103be",
+      "stage": "unchanged original archived; frame/identity/lighting review pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-003/source_images/C3-ENM-003_death_msg_371_00000000216c8208841042af826103be.png",
+      "asset_id": "C3-ENM-003",
+      "animation": "death",
+      "sha256": "34c45c75dd333c33022791d52a771a0397560f6540448dc3a68ce18d50ba9693"
+    },
+    {
+      "message_index": 377,
+      "message_id": "ba1380c2-e516-4f51-abda-f1889f5592a4",
+      "title": "Six-Frame Aquatic Guardian Sprite Sheet",
+      "source_pointer": "sediment://file_00000000a61c820897dab0c7f746d271?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        2172,
+        724
+      ],
+      "file_id": "file_00000000a61c820897dab0c7f746d271",
+      "stage": "unchanged original archived; frame/identity/lighting review pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-004/source_images/C3-ENM-004_idle_msg_377_00000000a61c820897dab0c7f746d271.png",
+      "asset_id": "C3-ENM-004",
+      "animation": "idle",
+      "sha256": "970a066c5850e70fbb51f0bfb6a849ce482e5fd6682091fcc00cfdbaa4fab5b4"
+    },
+    {
+      "message_index": 384,
+      "message_id": "cdde0e7e-a239-488b-a941-b0d7935f1bdc",
+      "title": "Spectral Knight Aquatic Stride Sequence",
+      "source_pointer": "sediment://file_000000004e0c8208b77f978a0151180a?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        2172,
+        724
+      ],
+      "file_id": "file_000000004e0c8208b77f978a0151180a",
+      "stage": "unchanged original archived; frame/identity/lighting review pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-004/source_images/C3-ENM-004_walk_msg_384_000000004e0c8208b77f978a0151180a.png",
+      "asset_id": "C3-ENM-004",
+      "animation": "walk",
+      "sha256": "b2620b343db6687811f42ee49b8c6efe330f6ee9ac9d69e14d04b49597474503"
+    },
+    {
+      "message_index": 393,
+      "message_id": "4cfd4c8e-9d80-4d74-baba-b485aa4d74bd",
+      "title": "Spectral Knight Ice Slam Animation Sequence",
+      "source_pointer": "sediment://file_00000000411c8208a402afe6d36c9091?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        2172,
+        724
+      ],
+      "file_id": "file_00000000411c8208a402afe6d36c9091",
+      "stage": "unchanged original archived; frame/identity/lighting review pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-004/source_images/C3-ENM-004_attack_msg_393_00000000411c8208a402afe6d36c9091.png",
+      "asset_id": "C3-ENM-004",
+      "animation": "attack",
+      "sha256": "8e0bdd796d9ddeae8f89e71fc1d7dff2d399af399cd4b815df3d8b2da12323ab"
+    },
+    {
+      "message_index": 399,
+      "message_id": "aa075a70-0781-4872-8086-e638419c6b0f",
+      "title": "Spectral Ice Knight Hit-Reaction Sprite Sheet",
+      "source_pointer": "sediment://file_000000002c54820884a6db9173f3e47a?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "reported_dimensions": [
+        2172,
+        724
+      ],
+      "file_id": "file_000000002c54820884a6db9173f3e47a",
+      "stage": "unchanged original archived; frame/identity/lighting review pending",
+      "local_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-004/source_images/C3-ENM-004_hurt_msg_399_000000002c54820884a6db9173f3e47a.png",
+      "asset_id": "C3-ENM-004",
+      "animation": "hurt",
+      "sha256": "a9653c32089db1884c08794036c117e05b1cd2a7174dc3f12970a9f37166a132"
+    }
+  ]
+}

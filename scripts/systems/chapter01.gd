@@ -9,6 +9,8 @@ const BASE_PLATFORMS: Array[Rect2] = [Rect2(0,620,900,300),Rect2(1060,620,640,30
 const BRIDGE_PLATFORMS: Array[Rect2] = [Rect2(3320,610,150,28),Rect2(3510,560,150,28),Rect2(3710,610,150,28)]
 const RUNE_ORDER: Array[int] = [0,1,2,1,2]
 var rewards: Node2D
+var combat_feedback: Node
+var previous_boss_health := 24
 var jungle_cleared: Array[int] = []
 var jungle_rooms: Array[Node2D] = []
 var jungle_area := -1
@@ -70,6 +72,10 @@ func _ready() -> void:
 	presentation.process_mode = Node.PROCESS_MODE_PAUSABLE
 	add_child(presentation)
 	player.action_event.connect(presentation.cue)
+	combat_feedback = load("res://scripts/presentation/combat_feedback.gd").new()
+	combat_feedback.game = self
+	add_child(combat_feedback)
+	player.action_event.connect(_player_combat_feedback)
 	_reset_trail_enemies()
 	boss = get_node("HollowSentinel")
 	boss.health_changed.connect(_on_boss_health)
@@ -348,9 +354,16 @@ func _on_boss_phase(phase: String) -> void:
 	elif phase == "berserk": _notice("BERSERK · Faster attacks and stronger strikes")
 
 func _on_boss_health(value: int, maximum: int) -> void:
+	if value < previous_boss_health and is_instance_valid(combat_feedback):
+		combat_feedback.pulse("sentinel_hit",0.28)
+	previous_boss_health = value
 	if is_instance_valid(boss_health):
 		boss_health.max_value = maximum
 		boss_health.value = value
+
+func _player_combat_feedback(kind: String, _at: Vector2) -> void:
+	if kind == "hurt" and is_instance_valid(combat_feedback):
+		combat_feedback.pulse("player_hurt",0.65)
 
 func _on_boss_defeated() -> void:
 	boss_active = false
@@ -410,6 +423,7 @@ func _reset_trail_enemies() -> void:
 		if rewards: rewards.watch_enemy(enemy,"trail:%d" % int(at.x))
 
 func _respawn() -> void:
+	if is_instance_valid(combat_feedback): combat_feedback.clear()
 	if jungle_area >= 0:
 		player.reset_at(Vector2(10150+jungle_area*JungleArea.SPACING,590))
 		for enemy in jungle_enemies:

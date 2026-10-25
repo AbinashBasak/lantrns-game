@@ -99,3 +99,9 @@ func cue(key: String, at: Vector2) -> void:
 func _process(_delta: float) -> void:
 	if not is_instance_valid(game): return
 	lantern.visible = game.beat < game.Beat.FAILURE and not reduced_effects
+
+func _exit_tree() -> void:
+	for child in get_children():
+		if child is AudioStreamPlayer:
+			child.stop()
+			child.stream = null

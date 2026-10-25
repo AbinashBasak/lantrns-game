@@ -101,6 +101,7 @@ func _physics_process(delta: float) -> void:
 		sprite.pause()
 		narrative_frozen = true
 		if not active: _clear_projectiles()
+		queue_redraw()
 		return
 	var offset: Vector2 = player.global_position-global_position
 	engaged = absf(offset.x)<600 and absf(player.global_position.y-floor_y)<230
@@ -272,6 +273,7 @@ func _update_visual() -> void:
 	var tint := Color(1.25, 1.15, 1.0) if flash > 0 or state == "telegraph" else Color.WHITE
 	tint.a = 1.0 - progress if state == "defeated" else 1.0
 	sprite.modulate = tint
+	queue_redraw()
 
 func take_damage(amount: int, hit_direction: float = 1.0) -> void:
 	if state=="defeated" or defeat_emitted or not active or not art_ready or amount<=0 or flash>0: return
@@ -293,3 +295,17 @@ func take_damage(amount: int, hit_direction: float = 1.0) -> void:
 
 func _exit_tree() -> void:
 	_clear_projectiles()
+
+func _draw() -> void:
+	if not active or narrative_frozen or not engaged or state != "telegraph": return
+	# The filling arc communicates time-to-strike without recoloring the creature.
+	var progress := clampf(1.0 - state_time / maxf(state_duration, 0.001), 0.0, 1.0)
+	var center := Vector2(0, -100 if variant != 2 else -87)
+	var gold := Color(1.0, 0.84, 0.55, 0.85)
+	draw_arc(center, 13, PI, TAU, 20, Color(1, 0.84, 0.55, 0.2), 2, true)
+	if progress > 0.01:
+		draw_arc(center, 13, PI, PI + progress * PI, 20, gold, 2.5, true)
+	# Direction stays fixed with the locked aim; the warning never follows Tavi.
+	var tip := center + Vector2(direction * 5, 7)
+	draw_line(tip - Vector2(direction * 5, 4), tip, gold, 2, true)
+	draw_line(tip - Vector2(direction * 5, -4), tip, gold, 2, true)

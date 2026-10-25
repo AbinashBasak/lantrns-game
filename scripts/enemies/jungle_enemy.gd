@@ -20,6 +20,7 @@ var spawn_position: Vector2
 var projectiles: Array[Dictionary] = []
 var size := 0.22
 var pack: String
+var projectile_epoch := 0
 
 func _ready() -> void:
 	spawn_position = global_position
@@ -53,14 +54,17 @@ func reset_encounter() -> void:
 	state_time = 0
 	flash = 0
 	velocity = Vector2.ZERO
-	projectiles.clear()
+	_clear_projectiles()
 	visible = true
 	if not is_in_group("enemies"): add_to_group("enemies")
-	if sprite: sprite.play("idle")
+	if sprite:
+		sprite.play("idle")
+		_update_animation()
+	queue_redraw()
 
 func _physics_process(delta: float) -> void:
 	if not active:
-		projectiles.clear()
+		_clear_projectiles()
 		queue_redraw()
 		return
 	if state == "defeated": return
@@ -68,11 +72,13 @@ func _physics_process(delta: float) -> void:
 	var engaged: bool = is_instance_valid(player) and player.active
 	# Narrative/pause inactivity must not leave invisible travelling hazards.
 	if not engaged:
-		projectiles.clear()
+		_clear_projectiles()
 		state = "idle"
 		velocity.x = 0
 	else:
 		_update_projectiles(delta)
+		if not active or not is_instance_valid(player) or not player.active:
+			return
 	state_time = maxf(0, state_time - delta)
 	flash = maxf(0, flash - delta)
 	if engaged:
@@ -118,17 +124,29 @@ func _release_attack() -> void:
 	if variant == "sporeling":
 		projectiles.append({"position": global_position + Vector2(direction * 32, -42), "velocity": Vector2(direction * 230, 0), "life": 2.6})
 
+func _clear_projectiles() -> void:
+	projectile_epoch += 1
+	projectiles.clear()
+
 func _update_projectiles(delta: float) -> void:
-	for i in range(projectiles.size() - 1, -1, -1):
-		var shot: Dictionary = projectiles[i]
+	# A hit may synchronously reset the room. Detached shots must never survive it.
+	var batch: Array[Dictionary] = projectiles
+	projectiles = []
+	var epoch := projectile_epoch
+	for shot in batch:
+		if epoch != projectile_epoch or not active or not is_instance_valid(player) or not player.active:
+			continue
 		var before: Vector2 = shot.position
 		shot.position += shot.velocity * delta
 		shot.life -= delta
 		var ray := PhysicsRayQueryParameters2D.create(before, shot.position, 1)
 		var blocked := not get_world_2d().direct_space_state.intersect_ray(ray).is_empty()
-		var hit := (player.global_position + Vector2(0, -30)).distance_to(shot.position) < 28
-		if hit: player.take_damage(attack_damage, signf(shot.velocity.x))
-		if hit or blocked or shot.life <= 0: projectiles.remove_at(i)
+		var body := player.global_position + Vector2(0, -30)
+		var nearest := Geometry2D.get_closest_point_to_segment(body, before, shot.position)
+		var hit := nearest.distance_to(body) < 28
+		if hit and not blocked: player.take_damage(attack_damage, signf(shot.velocity.x))
+		if not hit and not blocked and shot.life > 0 and epoch == projectile_epoch:
+			projectiles.append(shot)
 
 func _update_animation() -> void:
 	var clip := "idle"
@@ -148,7 +166,26 @@ func _update_animation() -> void:
 		sprite.set_frame_and_progress(5, 0)
 		sprite.pause()
 	else: sprite.speed_scale = 2.0 if state == "hurt" else 1.0
-	sprite.scale.x = size * direction
+	# Animate the artwork only: the feet and damage geometry remain fixed.
+	var stretch := Vector2.ONE
+	sprite.position = Vector2.ZERO
+	sprite.rotation = 0
+	if state == "telegraph":
+		var duration := 1.0 if variant == "sporeling" else 1.15
+		var progress := clampf(1.0 - state_time / duration, 0.0, 1.0)
+		stretch = Vector2(1.0 + progress * 0.05, 1.0 - progress * 0.06)
+		sprite.position.x = -direction * progress * 7
+	elif state == "attack":
+		var progress := clampf(1.0 - state_time / 0.32, 0.0, 1.0)
+		stretch = Vector2(1.06, 0.96)
+		sprite.position.x = direction * sin(progress * PI) * 8
+	elif state == "recovery":
+		var duration := 1.2 if variant == "brambleguard" else 1.5
+		var remaining := clampf(state_time / duration, 0.0, 1.0)
+		stretch.y = 1.0 - remaining * 0.05
+	elif state == "hurt":
+		sprite.rotation = -direction * sin(clampf(state_time / 0.5, 0, 1) * PI) * 0.09
+	sprite.scale = Vector2(size * direction, size) * stretch
 	sprite.modulate = Color(1.4, 1.2, 1.0) if flash > 0 else Color.WHITE
 
 func take_damage(amount: int, hit_direction: float) -> void:
@@ -162,7 +199,7 @@ func take_damage(amount: int, hit_direction: float) -> void:
 	if health <= 0:
 		state = "defeated"
 		collision_layer = 0
-		projectiles.clear()
+		_clear_projectiles()
 		remove_from_group("enemies")
 		Generated.one_shot(get_parent(), global_position, pack, "defeat", size, Vector2(256, 480), direction)
 		get_tree().call_group("prologue_presentation", "cue", "enemy_defeat", global_position)
@@ -172,11 +209,18 @@ func take_damage(amount: int, hit_direction: float) -> void:
 
 func _draw() -> void:
 	if state == "telegraph":
-		draw_arc(Vector2(0, -30), 43 if variant == "sporeling" else 66, PI, TAU, 24, Color("ffd58c"), 3)
+		var duration := 1.0 if variant == "sporeling" else 1.15
+		var progress := clampf(1.0 - state_time / duration, 0, 1)
+		var radius := 43.0 if variant == "sporeling" else 66.0
+		draw_arc(Vector2(0, -30), radius, PI, TAU, 24, Color(1, 0.84, 0.55, 0.18), 2, true)
+		if progress > 0.01:
+			draw_arc(Vector2(0, -30), radius, PI, PI + PI * progress, 24, Color("ffd58c"), 3, true)
 		draw_line(Vector2(0, -108), Vector2(0, -91), Color("ffd58c"), 4)
 		draw_circle(Vector2(0, -84), 2.5, Color("ffd58c"))
 	for shot in projectiles:
 		var at: Vector2 = to_local(shot.position)
+		var travel: Vector2 = shot.velocity.normalized()
+		draw_line(at - travel * 22, at, Color(1.0, 0.72, 0.3, 0.3), 5, true)
 		draw_circle(at, 13, Color(1.0, 0.67, 0.15, 0.16))
 		draw_circle(at, 7, Color("f7d370"))
 		draw_circle(at + Vector2(-2, -2), 2, Color.WHITE)

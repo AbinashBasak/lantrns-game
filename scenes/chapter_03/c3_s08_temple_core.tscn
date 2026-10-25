@@ -1,0 +1,71 @@
+[gd_scene format=3]
+
+[node name="C3_S08_TempleCore" type="Node2D"]
+metadata/scaffold = true
+metadata/section_id = "C3-S08"
+metadata/source_bible = "lanterns_underroot_chapter_3_production_bible.md §4.2"
+metadata/production_status = "Unpopulated authoring scaffold; not playable or approved"
+
+[node name="Environment" type="Node2D" parent="."]
+
+[node name="BackgroundFar" type="Parallax2D" parent="Environment"]
+
+[node name="BackgroundMid" type="Parallax2D" parent="Environment"]
+
+[node name="BackgroundNear" type="Parallax2D" parent="Environment"]
+
+[node name="TileMapLayer_Background" type="TileMapLayer" parent="Environment"]
+
+[node name="TileMapLayer_Solid" type="TileMapLayer" parent="Environment"]
+
+[node name="TileMapLayer_Deco" type="TileMapLayer" parent="Environment"]
+
+[node name="ForegroundOverlay" type="Node2D" parent="Environment"]
+
+[node name="Lighting" type="Node2D" parent="."]
+
+[node name="CanvasModulate" type="CanvasModulate" parent="Lighting"]
+color = Color(1, 1, 1, 1)
+metadata/authoring_note = "Neutral until approved art is placed; tune native Godot lighting against that art"
+
+[node name="LanternLights" type="Node2D" parent="Lighting"]
+
+[node name="CrystalLights" type="Node2D" parent="Lighting"]
+
+[node name="LightOccluders" type="Node2D" parent="Lighting"]
+
+[node name="Gameplay" type="Node2D" parent="."]
+
+[node name="PlayerSpawn" type="Marker2D" parent="Gameplay"]
+metadata/authoring_note = "Layout pending approved terrain and measured player traversal; default origin is not an authored gameplay position"
+
+[node name="Enemies" type="Node2D" parent="Gameplay"]
+
+[node name="Interactables" type="Node2D" parent="Gameplay"]
+
+[node name="Chests" type="Node2D" parent="Gameplay"]
+
+[node name="Collectibles" type="Node2D" parent="Gameplay"]
+
+[node name="Hazards" type="Node2D" parent="Gameplay"]
+
+[node name="Checkpoints" type="Node2D" parent="Gameplay"]
+
+[node name="ExitTrigger" type="Area2D" parent="Gameplay"]
+monitoring = false
+monitorable = false
+collision_layer = 0
+collision_mask = 0
+metadata/authoring_note = "Disabled until authored exit collider and destination spawn ID are reviewed"
+
+[node name="VFX" type="Node2D" parent="."]
+
+[node name="AmbientParticles" type="Node2D" parent="VFX"]
+metadata/authoring_note = "Empty VFX group; add configured native particle emitters after art review"
+
+[node name="OneShotEffects" type="Node2D" parent="VFX"]
+
+[node name="CameraBounds" type="Node2D" parent="."]
+metadata/authoring_note = "Layout pending approved terrain and measured player traversal; default origin is not an authored gameplay position"
+
+[node name="WorldTriggers" type="Node2D" parent="."]

@@ -7,6 +7,7 @@ var art_target: Node2D
 const ReferenceDecor = preload("res://scripts/systems/reference_jungle_decor.gd")
 var reference_decor = ReferenceDecor.new()
 const ART := "res://assets/runtime/chapter01/environment/"
+const RADIAL = preload("res://assets/runtime/shared/lighting/soft_radial.tres")
 var platforms: Array[Rect2] = []
 var bridge_open := false
 var checkpoint_active := false
@@ -20,6 +21,8 @@ var prop_regions: Dictionary = {}
 var forest_layers: Array[Parallax2D] = []
 var temple_layers: Array[Parallax2D] = []
 var clock := 0.0
+var checkpoint_light: PointLight2D
+var reduced_effects := false
 
 func _ready() -> void:
 	load_assets()
@@ -32,6 +35,22 @@ func _ready() -> void:
 	_build_layers("ENV-02", forest_layers)
 	_build_layers("ENV-03", temple_layers)
 	for layer in temple_layers: layer.modulate.a = 0.0
+	if not Engine.is_editor_hint():
+		# A saved checkpoint is an actual illuminated shrine. This local source
+		# follows the shrine when this environment is hidden for jungle journeys.
+		checkpoint_light = PointLight2D.new()
+		checkpoint_light.name = "CheckpointGlow"
+		checkpoint_light.texture = RADIAL
+		checkpoint_light.position = Vector2(6100,525)
+		checkpoint_light.color = Color("ffc76a")
+		checkpoint_light.texture_scale = 1.5
+		checkpoint_light.energy = 0.0
+		checkpoint_light.shadow_enabled = false
+		checkpoint_light.range_layer_min = 0
+		checkpoint_light.range_layer_max = 0
+		checkpoint_light.range_item_cull_mask = 1
+		checkpoint_light.hide()
+		add_child(checkpoint_light)
 
 func load_assets() -> void:
 	if not textures.is_empty(): return
@@ -105,11 +124,20 @@ func _process(delta: float) -> void:
 		queue_redraw()
 		return
 	clock += delta
+	var presentation := get_tree().get_first_node_in_group("chapter_presentation")
+	reduced_effects = is_instance_valid(presentation) and bool(presentation.get("reduced_effects"))
 	var camera := get_viewport().get_camera_2d()
 	var camera_x: float = camera.get_screen_center_position().x if camera else 0.0
 	var blend := smoothstep(4100.0, 4900.0, camera_x)
 	for layer in forest_layers: layer.modulate.a = 1.0 - blend
 	for layer in temple_layers: layer.modulate.a = blend
+	if is_instance_valid(checkpoint_light):
+		var glow_target := 0.21 if checkpoint_active else 0.0
+		if not reduced_effects and checkpoint_active: glow_target += sin(clock * 1.8) * 0.008
+		checkpoint_light.energy = lerpf(checkpoint_light.energy, glow_target, 1.0-exp(-delta*5.0))
+		var near_shrine := absf(camera_x - 6100.0) < 1150.0
+		checkpoint_light.visible = checkpoint_active and near_shrine and is_visible_in_tree()
+		checkpoint_light.enabled = checkpoint_light.visible
 	queue_redraw()
 
 func _image(key: String, rect: Rect2, tint := Color.WHITE) -> void:
@@ -206,7 +234,7 @@ func _draw() -> void:
 	for i in range(3):
 		var active := i < rune_progress
 		var color := Color.WHITE if active else Color(0.70,0.84,0.80)
-		if i == rune_hint: color = Color(1.0,0.86,0.45) * (1.0 + sin(clock*5.0)*0.22)
+		if i == rune_hint: color = Color(1.0,0.86,0.45) * (1.0 if reduced_effects else 1.0 + sin(clock*3.0)*0.10)
 		_prop("ENV-02_interactive_props_%02d" % (4 if active else 1), Vector2(2860+i*140,620), Vector2(75,122),color)
 		draw_string(ThemeDB.fallback_font,Vector2(2852+i*140,480),["I","II","III"][i],HORIZONTAL_ALIGNMENT_LEFT,-1,20,Color("f4d68c"))
 
@@ -227,5 +255,9 @@ func get_reference_light_anchors() -> Array[Dictionary]:
 	for rect in platforms:
 		if rect.position.x < 4500: forest_platforms.append(Rect2(rect.position,Vector2(minf(rect.end.x,4500)-rect.position.x,rect.size.y)))
 	var anchors: Array[Dictionary] = reference_decor.light_anchors(forest_platforms,4500,global_position)
+	for i in 3:
+		# Rune illumination answers the puzzle state and stays anchored to the
+		# carved glyph, rather than creating an unrelated pool on the ground.
+		anchors.append({"world_position":to_global(Vector2(2860+i*140,558)),"color":Color("ffc75a"),"energy":0.18,"radius":125.0,"active":i < rune_progress or bridge_open})
 	if not bridge_open: anchors.append({"world_position":global_position+Vector2(3270,480),"color":Color("ffc75a"),"energy":0.5,"radius":165.0,"active":true})
 	return anchors

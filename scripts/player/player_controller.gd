@@ -27,9 +27,19 @@ var active: bool = true
 var attack_enabled: bool = true
 var landing_time: float = 0.0
 @onready var visual: AnimatedSprite2D = $AnimatedSprite2D
+@onready var animation_tree: AnimationTree = $AnimationTree
+@onready var animation_playback: AnimationNodeStateMachinePlayback = animation_tree.get("parameters/playback")
+@onready var native_effects: Node2D = $Effects
+@onready var jump_dust: CPUParticles2D = $Effects/JumpDust
+@onready var landing_dust: CPUParticles2D = $Effects/LandingDust
+@onready var sword_hit: CPUParticles2D = $Effects/SwordHit
+@onready var sword_light: PointLight2D = $Effects/SwordLight
 
 func _ready() -> void:
 	add_to_group("player")
+	# AnimationTree owns frame timing; AnimatedSprite2D is the texture carrier.
+	visual.stop()
+	animation_playback.start(&"idle")
 
 func _physics_process(delta: float) -> void:
 	if not active:
@@ -50,6 +60,8 @@ func _physics_process(delta: float) -> void:
 		jump_buffer = 0.12
 	if jump_buffer > 0 and coyote > 0:
 		velocity.y = -jump_speed
+		if _native_effects_enabled():
+			jump_dust.restart()
 		action_event.emit("jump", global_position)
 		jump_buffer = 0
 		coyote = 0
@@ -80,8 +92,14 @@ func _physics_process(delta: float) -> void:
 			if reaches:
 				hit_targets.append(enemy)
 				enemy.take_damage(attack_damage, facing)
+				sword_hit.position.x = facing * 54.0
+				sword_hit.direction.x = facing
+				if _native_effects_enabled():
+					sword_hit.restart()
 	if is_on_floor() and not was_grounded:
 		landing_time = 0.22
+		if _native_effects_enabled():
+			landing_dust.restart()
 		action_event.emit("land", global_position)
 	_update_animation()
 	if position.y > 950:
@@ -106,9 +124,9 @@ func _start_attack() -> void:
 	attack_cooldown = attack_duration
 	combo_window = attack_duration + 0.28
 	hit_targets.clear()
-	var clip := "attack_2" if combo_index == 1 and visual.sprite_frames.has_animation("attack_2") else "attack_1"
-	visual.play(clip)
-	visual.set_frame_and_progress(0, 0)
+	# Restart only for a new gameplay swing, including the buffered follow-up.
+	animation_playback.start(&"attack_combo" if combo_index == 1 else &"attack_1", true)
+	animation_tree.advance(0.0)
 	action_event.emit("swing", global_position + Vector2(facing * 15, -35))
 
 func take_damage(amount: int, direction: float = -1.0) -> void:
@@ -137,6 +155,8 @@ func reset_at(point: Vector2) -> void:
 	health = 5
 	restore_vitality()
 	attack_time = 0
+	sword_light.energy = 0.0
+	animation_playback.start(&"idle", true)
 	attack_cooldown = 0
 	combo_window = 0
 	queued_attack = false
@@ -144,24 +164,27 @@ func reset_at(point: Vector2) -> void:
 	health_changed.emit(health)
 	action_event.emit("respawn", global_position)
 
+func _native_effects_enabled() -> bool:
+	var presentation := get_tree().get_first_node_in_group("chapter_presentation")
+	return presentation == null or not presentation.reduced_effects
+
 func _update_animation() -> void:
+	native_effects.visible = _native_effects_enabled()
 	visual.flip_h = facing < 0
 	visual.visible = not (invincible > 0 and int(animation_time * 16) % 2 == 0)
-	var state := "idle"
+	var state: StringName = &"idle"
 	if attack_time > 0:
-		state = "attack_2" if combo_index == 1 and visual.sprite_frames.has_animation("attack_2") else "attack_1"
+		state = &"attack_combo" if combo_index == 1 else &"attack_1"
 	elif not is_on_floor():
-		state = "jump_rise" if velocity.y < 0 else "jump_fall"
+		state = &"jump_rise" if velocity.y < 0 else &"jump_fall"
 	elif landing_time > 0:
-		state = "landing"
+		state = &"landing"
 	elif absf(velocity.x) > 20:
-		state = "run"
-	visual.speed_scale = 1.0
-	if attack_time > 0:
-		# Fit all eight generated frames to the hit/recovery window.
-		visual.speed_scale = float(visual.sprite_frames.get_frame_count(state)) / (visual.sprite_frames.get_animation_speed(state) * attack_duration)
-	if visual.animation != state:
-		visual.play(state)
+		state = &"run"
+	if animation_playback.get_current_node() != state:
+		animation_playback.travel(state)
+	# Keep the native sword-light origin aligned when the character turns.
+	sword_light.position.x = facing * 54.0
 
 func _draw() -> void:
 	if is_instance_valid(visual):

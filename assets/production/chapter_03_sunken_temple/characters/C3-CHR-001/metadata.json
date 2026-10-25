@@ -1,0 +1,424 @@
+{
+  "asset_id": "C3-CHR-001",
+  "title": "Player idle",
+  "source_chat": "https://chatgpt.com/share/6adcfe72-eeb4-83ee-b43a-a08319abf676",
+  "stage": "originals recovered; cleanup and in-engine approval pending",
+  "production_approved": false,
+  "notes": "Original blue-haired idle sources preserved. User supplied a mixed blue-haired action source (attachment14), plus historical brown-haired variants. The blue-haired action sheet is RGB with a painted checkerboard; clean action exports remain pending. Do not substitute brown-haired designs or count variants as production approval.",
+  "sources": [
+    {
+      "action": "idle_attempt_202",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_idle_attempt_202_msg_202_00000000ef58820885b82be6b68c6e2a.png",
+      "sha256": "836d6cd9244f4bf0848a6c4162203b21a56fdae392091bc2922d88db44a21979",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "visible_bounds": [
+        0,
+        32,
+        1763,
+        887
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": "d236bf02-edef-402b-b38d-15752e43ac34",
+      "source_message_index": 202,
+      "source_pointer": "sediment://file_00000000ef58820885b82be6b68c6e2a?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "provenance": "downloaded original; unchanged; no reconstructed pixels",
+      "frame_count_claimed_in_chat": 6,
+      "frame_count_verified": false,
+      "timing_status": "source chat suggestions only; not yet timed in engine",
+      "pivot_status": "not normalized",
+      "production_approved": false
+    },
+    {
+      "action": "idle_attempt_254",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_idle_attempt_254_msg_254_00000000decc8208b5705e8f175eab07.png",
+      "sha256": "73d57a16312539dd3ff301ea51b46dc60af36332478832b1804cf9a5ab7eddd9",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "visible_bounds": [
+        12,
+        148,
+        1764,
+        845
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": "2615056c-5a60-40f7-b4d5-71e2a9b14896",
+      "source_message_index": 254,
+      "source_pointer": "sediment://file_00000000decc8208b5705e8f175eab07?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "provenance": "downloaded original; unchanged; no reconstructed pixels",
+      "frame_count_claimed_in_chat": 6,
+      "frame_count_verified": false,
+      "timing_status": "source chat suggestions only; not yet timed in engine",
+      "pivot_status": "not normalized",
+      "production_approved": false
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_02_1b0f273d-7d62-479a-a1df-f05b46cdddf5.png",
+      "sha256": "bd28d43ee24fba92911085a9f6eb035dacbb632c63f9c8d3d05536b4ee31f2dc",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "visible_bounds": null,
+      "has_alpha_channel": false,
+      "alpha_extrema": null,
+      "transparent_pixels_present": false,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 2,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/1b0f273d-7d62-479a-a1df-f05b46cdddf5.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 147,
+        "source_message_id": "406e3b51-c042-49cd-a346-8d3630944a13",
+        "source_image_title": "Sunken Temple Hero Sprite Sheet",
+        "source_file_id": "file_00000000b1f8820892bf1ac8d1c432c1",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Brown-haired player action concept board with baked checkerboard",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_07_33a70ad6-3909-41a3-9571-e603e3450393.png",
+      "sha256": "8ad8d746fafc497569c926c75dc92998b92cd80207cbd92604bba822ce09e521",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "visible_bounds": [
+        0,
+        9,
+        1766,
+        887
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 7,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/33a70ad6-3909-41a3-9571-e603e3450393.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 164,
+        "source_message_id": "da142f83-600b-4530-b940-5253438ec1e2",
+        "source_image_title": "Sunken Temple Hero Sprite Sheet",
+        "source_file_id": "file_000000003df882089f2f31d7fc8b4379",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Brown-haired player action atlas, transparent; effects combined",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_09_73ff3f3c-db23-47cf-b6c9-313a45b56a6f.png",
+      "sha256": "6842537ae9464ad6f2eba72928454a750c0837b052008b4abaa8e1a42d95d76e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 9,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/73ff3f3c-db23-47cf-b6c9-313a45b56a6f.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 156,
+        "source_message_id": "87634ba2-5cf8-41cf-b329-eff8c1713263",
+        "source_image_title": "Sunken Temple Hero Animation Sheet",
+        "source_file_id": "file_00000000628c8208b5c6fc7d815f35dd",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Brown-haired player action concept board; backdrop, fairy and VFX combined",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_10_84a43bdd-2aaf-43b5-bbd6-e9f089df867b.png",
+      "sha256": "f9d3758bb51fe5879a9138b3ed42d8db81d15bd3e1cd83e099f68c6b32f747d3",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 10,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/84a43bdd-2aaf-43b5-bbd6-e9f089df867b.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 173,
+        "source_message_id": "b90793b8-3014-4636-a96e-5f0cb03e4c12",
+        "source_image_title": "Sunken Temple Hero Sprite Atlas",
+        "source_file_id": "file_00000000889482089a4bc74234f0495b",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Brown-haired player action atlas with labels, dust and VFX combined",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_blue_hero_action_reference",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_14_1637c1f0-02b6-4d8c-a97f-bde8a0115ed6.png",
+      "sha256": "b980a16521ba7fb64e38ba12cb3a987a4b92a8605306c86027b9dde6b44a146d",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "visible_bounds": null,
+      "has_alpha_channel": false,
+      "alpha_extrema": null,
+      "transparent_pixels_present": false,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 14,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/1637c1f0-02b6-4d8c-a97f-bde8a0115ed6.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 195,
+        "source_message_id": "95bfc351-17a3-4d78-8afc-1b6a85612d85",
+        "source_image_title": "Fantasy Hero Animation Sprite Sheet",
+        "source_file_id": "file_00000000906c8208870d543335ece6b7",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Blue-haired hero action concept board; baked checkerboard, lantern and VFX combined",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_15_4877becd-d7db-47fe-a282-925b5eb40764.png",
+      "sha256": "3e23da50108397c9c554f01b81297dff3af1540ceb1de8c229cd3db6a25f0587",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 15,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/4877becd-d7db-47fe-a282-925b5eb40764.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 183,
+        "source_message_id": "579dbf7f-4605-4bb3-87e0-a1da15294910",
+        "source_image_title": "Heroic Adventurer Animation Sprite Sheet",
+        "source_file_id": "file_00000000ad548208ac3186e56fb8f6af",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Brown-haired player multiview and action atlas",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_25_bad5ee13-2ca6-41ac-bc93-0b829c7cf7cb.png",
+      "sha256": "f53b4633338f05976314e1a29b5523b540c712ac25b5017a8c5e17e4e3e39d9e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "visible_bounds": null,
+      "has_alpha_channel": false,
+      "alpha_extrema": null,
+      "transparent_pixels_present": false,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 25,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/bad5ee13-2ca6-41ac-bc93-0b829c7cf7cb.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 179,
+        "source_message_id": "7e6626ef-86e6-40b8-8a72-58d462a931e5",
+        "source_image_title": "Sunken Temple Player Sprite Sheet",
+        "source_file_id": "file_000000005e408208bac09ed803cfaf12",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Brown-haired player action concept board, baked checkerboard",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_31_ebae1ca9-3a5a-45c7-9b00-69db5fac2dc8.png",
+      "sha256": "8e1dfc4764ffc81db098bb33750f5813f5b6c6e6b74b6c5d66c5f21afc08ee97",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1768,
+        887
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 31,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/ebae1ca9-3a5a-45c7-9b00-69db5fac2dc8.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 161,
+        "source_message_id": "e1f18688-c8f0-48f2-96c2-7016d78af215",
+        "source_image_title": "Sunken Temple Hero Animation Sprite Sheet",
+        "source_file_id": "file_00000000d0a88208aeb025ed5f063c65",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Brown-haired player action atlas with fairy, labels and VFX combined",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    }
+  ],
+  "runtime_exports": [],
+  "preview_paths": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/previews/C3-CHR-001_source_contact_review.jpg",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/player-animation-review.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/player-animation-review-run.png"
+  ],
+  "attachment_review_status": "All supplied originals cataloged; no production approval inferred.",
+  "review_scene": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/chapter_03/review/c3_player_animation_review.tscn",
+  "review_export": {
+    "source_copy": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/export/chapter_03/review/C3-CHR-001_idle_review_source.png",
+    "sha256": "836d6cd9244f4bf0848a6c4162203b21a56fdae392091bc2922d88db44a21979",
+    "regions": [
+      [
+        300,
+        270,
+        277,
+        455
+      ],
+      [
+        577,
+        270,
+        285,
+        455
+      ],
+      [
+        862,
+        270,
+        285,
+        455
+      ],
+      [
+        1147,
+        270,
+        292,
+        455
+      ]
+    ],
+    "canvas": [
+      320,
+      455
+    ],
+    "pivot": [
+      160,
+      455
+    ],
+    "fps": 6,
+    "original_pose_count": 6,
+    "review_pose_count": 4,
+    "stage": "native AnimationPlayer/AnimationTree source review only",
+    "game_ready": false,
+    "quality_warnings": [
+      "No alpha cleanup, masking, recolor or synthesized frames.",
+      "Run rectangular cells cannot isolate touching neighboring capes. Narrow crops truncate cape and may contain neighboring source pixels.",
+      "Idle source has touching capes and low-alpha speckle; interior selection is not production cleanup.",
+      "Source poses vary scale and alignment. Bottom-aligned crop canvases are stable; source foot baselines still vary."
+    ]
+  },
+  "review_details": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/player-animation-review.json"
+}

@@ -50,3 +50,37 @@ Follow the root AGENTS.md asset workflow. Preserve source images unchanged and o
 - Same-chapter scene/area handoffs and checkpoint activation preserve current hearts/vitality. Only actual death/retry or explicit healing rewards restore health.
 - All new species must visibly anticipate/strike/recover; ranged throws solve an arc to the locked player body position and remain dodgeable, without homing.
 - Combat camera shake stays bounded and clears on pause/dialogue/reduced effects. Projectile loops must tolerate synchronous player death resetting/clearing hazards mid-hit.
+
+## Chapter 3 intake — 2026-10-25
+
+- User requires **The Sunken Temple** production bible and locked Chapter 3 map. Read `docs/chapter03/intake.md` and `docs/lanterns_underroot_chapter_3_production_bible.md` before continuing.
+- Shared-chat visible messages and 80 image records are saved in `docs/chapter03/`. 23 animation originals plus 2 concept references recovered so far; other 55 records are not assumed downloaded or reviewed.
+- Later user sheet rules: one asset + one animation family per image; 5–6 large frames; no mixed catalog/scale boards, unchanged map/character design. Repeated attempts are not completed missing animations.
+- Author scene structure/art/lights/collision as native editable Godot nodes/resources. Player and enemies use AnimationPlayer/AnimationTree state machines; timed attack hitboxes and VFX remain separate. No runtime script-built full scenes or baked emission halos as lighting.
+- Eight `scenes/chapter_03/c3_s*.tscn` files are EMPTY scaffolds, not playable or campaign-connected. The chest review scene demonstrates native animation states/light only; no production approval inferred.
+- Missing modular terrain/layers and incomplete clean player actions block playable entrance art. More assets will be supplied; do not generate replacements or redesign mechanics without instruction.
+- Preserve Mite hop-vs-generated-slam and Keeper melee/swim-vs-generated-glide/cast discrepancies for resolution. Last source-chat generation is Sentinel hurt; death is pending. Older Glasswater Fen references remain untouched.
+
+## Chapter 3 supplied-image correction — 2026-10-25
+
+- User supplied 34 PNGs after the partial shared-chat recovery. All are archived/cataloged: 32 additional unique originals, two previously saved duplicates. Read `docs/chapter03/supplied-image-review.md` and its JSON before asserting assets are absent.
+- Attachment 14 contains the blue-haired hero's mixed actions including jump/fall/land/attacks/hurt/death/lantern power; it is opaque RGB with a painted checkerboard, pending cleanup. Attachment 19 is a genuine-alpha blue-haired run strip with eight poses, selected for native animation review. Brown-haired sheets remain historical references under the chat's blue-haired design correction.
+- Three scale boards and one supplemental chapter atlas are now archived. Their inconsistent printed scales and miniature terrain thumbnails do not approve a new world scale or replace standalone terrain/background deliverables. Original locked map remains in effect.
+
+- Native `scenes/chapter_03/review/c3_player_animation_review.tscn` now demonstrates Idle ↔ Run via AnimationPlayer/AnimationTree; four idle/six run review crops, source hashes/pivots/timing in asset metadata. Actual rendered captures inspected and state/source checks pass. Neighboring cape/boot pixels and source clipping remain: this is a diagnostic review, not clean runtime animation approval.
+
+## Native gameplay systems correction — 2026-10-25
+
+- User reiterated that animation, VFX and lights must use editable Godot features. Actual shared `scenes/player/player.tscn` now has active AnimationTree states and AnimationPlayer frame/light tracks for all seven existing runtime animation families plus the existing combo tempo. Controller selects states; sprite playback is owned by Godot. Prologue dialogue uses the same tree.
+- Player Effects contains authored CPUParticles2D jump/landing/sword emitters and a strike-timed PointLight2D matched to the existing golden sword art. Existing reduced-effects setting suppresses these. Actual Chapter 1 render inspected; capture shutdown reports resource leaks, so do not claim clean full-level teardown.
+- Actual Thornling and Hollow Sentinel scenes have native AnimationTree/AnimationPlayer resources and impact particles. Thornling warning cues use Line2D. Sentinel's procedural hazard-region warnings remain in its controller; do not claim every warning is migrated.
+- Chapter 3 reusable native lantern light/flicker, sparks, motes, mist, chest burst and occluder are saved in `scenes/chapter_03/{lighting,vfx,review}/`. Run `review/c3_native_systems_review.tscn` for the combined systems demo. Render on/off proof changes 42,707 pixels with unchanged UI. Eight Chapter 3 sections remain empty scaffolds pending planned assets; this is not a completed playable chapter.
+- Editor entry points and validation details: `docs/native-godot-systems.md`. Source archive/checklist approval is separate from these runtime integrations.
+
+## Remaining native fixes — 2026-10-25
+
+- The bible at project root `lanterns_underroot_chapter_3_production_bible.md` is identical to the docs copy, SHA256 `403707c2bdbef1906b87b126ee6a89c99f5c06f7316f57840ccc6f25f083d158`. Root is the user-designated entry point.
+- Shutdown leaks are fixed: duplicate inherited actor/jungle children in Chapter 1 and prologue were removed, presentation audio streams stop/release at exit. Actual graphical capture now exits with no warnings/errors/leaks; Prologue/C1/C2 lifecycle checks pass. This supersedes the earlier teardown limitation.
+- Hollow Sentinel warning/root/revival VFX are now native authored nodes and timelines; no procedural drawing remains in that controller. All 12 rage checks and native warning tests pass. This supersedes the earlier warning limitation.
+- Native shrine VFX, Chapter 3 progression Resource/interaction/exit components and moving-platform mechanism are saved and tested. See `docs/native-godot-systems.md`. They are reusable components; eight section layouts remain unpopulated.
+- Completed source audit in `docs/chapter03/completion-audit.md` confirms missing standalone C3 environment/architecture and both boss assets. Do not substitute older forest assets or enlarge reference minis. User was asked whether to generate missing items in bible order or recover more originals; answer is pending. No new art was generated and approval/checklist states remain unchanged.

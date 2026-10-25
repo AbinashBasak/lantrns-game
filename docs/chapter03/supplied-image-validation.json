@@ -1,0 +1,24 @@
+{
+  "attached_files_reviewed": 34,
+  "additional_unique_originals": 32,
+  "exact_previously_archived_duplicates": 2,
+  "all_source_and_archive_hashes_verified": true,
+  "source_match_exact": 2,
+  "source_match_strong_probable": 32,
+  "chat_image_records_with_local_originals": 57,
+  "total_chat_image_records": 80,
+  "checklist_copies_identical": true,
+  "existing_checked_asset_count": 197,
+  "production_approval": false,
+  "remaining_dependencies": [
+    "Clean independent animation frames without checkerboard, clipping or neighboring pose contamination",
+    "Standalone modular terrain and background layer exports",
+    "Playable chapter scene authoring and gameplay QA"
+  ],
+  "native_player_state_machine_test": "passed: Idle/Run travel, correct source atlas per state, original source sizes, fixed review canvases, repeated-request guard",
+  "native_renderer_review": "Idle and actual Run captures inspected; source clipping and neighboring fragments remain visible",
+  "godot_reference_check": {
+    "errors": 0,
+    "existing_warnings": 1
+  }
+}

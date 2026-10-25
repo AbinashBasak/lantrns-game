@@ -1,0 +1,70 @@
+[gd_scene format=3 uid="uid://jnflo78kitxh"]
+
+[node name="C3_S01_EntranceRuins" type="Node2D" unique_id=397234605]
+metadata/scaffold = true
+metadata/section_id = "C3-S01"
+metadata/source_bible = "lanterns_underroot_chapter_3_production_bible.md §4.2"
+metadata/production_status = "Unpopulated authoring scaffold; not playable or approved"
+
+[node name="Environment" type="Node2D" parent="." unique_id=712110493]
+
+[node name="BackgroundFar" type="Parallax2D" parent="Environment" unique_id=652465920]
+
+[node name="BackgroundMid" type="Parallax2D" parent="Environment" unique_id=1573741984]
+
+[node name="BackgroundNear" type="Parallax2D" parent="Environment" unique_id=371702978]
+
+[node name="TileMapLayer_Background" type="TileMapLayer" parent="Environment" unique_id=2107296063]
+
+[node name="TileMapLayer_Solid" type="TileMapLayer" parent="Environment" unique_id=1944557454]
+
+[node name="TileMapLayer_Deco" type="TileMapLayer" parent="Environment" unique_id=507678807]
+
+[node name="ForegroundOverlay" type="Node2D" parent="Environment" unique_id=1724654046]
+
+[node name="Lighting" type="Node2D" parent="." unique_id=993072517]
+
+[node name="CanvasModulate" type="CanvasModulate" parent="Lighting" unique_id=560239469]
+metadata/authoring_note = "Neutral until approved art is placed; tune native Godot lighting against that art"
+
+[node name="LanternLights" type="Node2D" parent="Lighting" unique_id=719916006]
+
+[node name="CrystalLights" type="Node2D" parent="Lighting" unique_id=1193397161]
+
+[node name="LightOccluders" type="Node2D" parent="Lighting" unique_id=1433757290]
+
+[node name="Gameplay" type="Node2D" parent="." unique_id=361688903]
+
+[node name="PlayerSpawn" type="Marker2D" parent="Gameplay" unique_id=214318075]
+metadata/authoring_note = "Layout pending approved terrain and measured player traversal; default origin is not an authored gameplay position"
+
+[node name="Enemies" type="Node2D" parent="Gameplay" unique_id=1240228213]
+
+[node name="Interactables" type="Node2D" parent="Gameplay" unique_id=614810815]
+
+[node name="Chests" type="Node2D" parent="Gameplay" unique_id=1018600610]
+
+[node name="Collectibles" type="Node2D" parent="Gameplay" unique_id=1071077124]
+
+[node name="Hazards" type="Node2D" parent="Gameplay" unique_id=1718636150]
+
+[node name="Checkpoints" type="Node2D" parent="Gameplay" unique_id=1942886297]
+
+[node name="ExitTrigger" type="Area2D" parent="Gameplay" unique_id=266438511]
+collision_layer = 0
+collision_mask = 0
+monitoring = false
+monitorable = false
+metadata/authoring_note = "Disabled until authored exit collider and destination spawn ID are reviewed"
+
+[node name="VFX" type="Node2D" parent="." unique_id=1944548432]
+
+[node name="AmbientParticles" type="Node2D" parent="VFX" unique_id=160963246]
+metadata/authoring_note = "Empty VFX group; add configured native particle emitters after art review"
+
+[node name="OneShotEffects" type="Node2D" parent="VFX" unique_id=2112307407]
+
+[node name="CameraBounds" type="Node2D" parent="." unique_id=1169803505]
+metadata/authoring_note = "Layout pending approved terrain and measured player traversal; default origin is not an authored gameplay position"
+
+[node name="WorldTriggers" type="Node2D" parent="." unique_id=624301099]

@@ -2893,17 +2893,6 @@ position = Vector2(150, 590)
 process_mode = 1
 position = Vector2(150, 590)
 
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="Player" unique_id=1858059241]
-position = Vector2(0, -32)
-shape = SubResource("Body")
-
-[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Player" unique_id=864321771]
-position = Vector2(-3.9999998, -40)
-scale = Vector2(0.2, 0.2)
-sprite_frames = ExtResource("40_8qksy")
-animation = &"idle"
-autoplay = "idle"
-
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=2133112318]
 position = Vector2(0, -205)
 limit_left = 0

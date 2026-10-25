@@ -1,0 +1,1265 @@
+{
+  "received_date": "2026-10-25",
+  "attached_count": 34,
+  "new_unique_originals": 32,
+  "already_archived_duplicates": 2,
+  "records": [
+    {
+      "attachment_number": 1,
+      "provided_path": "/Users/abinashbasak/Downloads/0bafb9af-cc55-48f0-8ef9-8aa626e0a609.png",
+      "sha256": "4430cece23b6371ebba38e5a4145972424ce144731b9d02a2c5b29aad48bfb46",
+      "dimensions": [
+        1993,
+        789
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        35,
+        1992,
+        767
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-ENM-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_user_attachment_01_0bafb9af-cc55-48f0-8ef9-8aa626e0a609.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Temple Mite variant/source; compare silhouette and behavior across families before selection. Labels, glow and checkerboard need per-sheet review.",
+      "source_correspondence": {
+        "source_message_index": 270,
+        "source_message_id": "8d397d92-1305-44a8-8f15-79b2e50342eb",
+        "source_image_title": "Six-Frame Mossy Temple Beetle Sprite Sheet",
+        "source_file_id": "file_00000000380c8208858cc223b3862d5f",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Six-frame moss temple beetle idle attempt; shell identity differs from final Mite"
+    },
+    {
+      "attachment_number": 2,
+      "provided_path": "/Users/abinashbasak/Downloads/1b0f273d-7d62-479a-a1df-f05b46cdddf5.png",
+      "sha256": "bd28d43ee24fba92911085a9f6eb035dacbb632c63f9c8d3d05536b4ee31f2dc",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "image_mode": "RGB",
+      "alpha_extrema": null,
+      "transparent_pixels_present": false,
+      "visible_bounds": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-CHR-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_02_1b0f273d-7d62-479a-a1df-f05b46cdddf5.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Historical mixed brown-haired hero sheet; retain as source/reference. Source-chat correction locks blue hair; do not substitute into runtime.",
+      "source_correspondence": {
+        "source_message_index": 147,
+        "source_message_id": "406e3b51-c042-49cd-a346-8d3630944a13",
+        "source_image_title": "Sunken Temple Hero Sprite Sheet",
+        "source_file_id": "file_00000000b1f8820892bf1ac8d1c432c1",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Brown-haired player action concept board with baked checkerboard"
+    },
+    {
+      "attachment_number": 3,
+      "provided_path": "/Users/abinashbasak/Downloads/1bcf6959-8c86-47e5-af3a-bc0270bd7d9a.png",
+      "sha256": "03ae646e46d92be748c68731270650012f8be6b3deb71e6afa1e3d01b29eb639",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        5,
+        252
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-REF-002",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/references/C3-REF-002/source_images/C3-REF-002_user_attachment_03_1bcf6959-8c86-47e5-af3a-bc0270bd7d9a.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Scale/style reference only, includes brown-haired hero and inconsistent printed sizes. Keep as reference; no terrain delivery/scale approval inferred.",
+      "source_correspondence": {
+        "source_message_index": 131,
+        "source_message_id": "301aba13-91aa-4c43-9a9b-4af21a2571ac",
+        "source_image_title": "Sunken Temple Player Scale Guide",
+        "source_file_id": "file_00000000551482088fa7e276cf2757b1",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Player scale guide, 56\u201360 pixel hero with 64-pixel tile"
+    },
+    {
+      "attachment_number": 4,
+      "provided_path": "/Users/abinashbasak/Downloads/2fc97e2d-a412-46ab-8b07-2eeab1a444fe.png",
+      "sha256": "8f3215d6dc0fc3d05039e8b3cfb120252935807ea4d19fcf776be85a599a4531",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        17,
+        1772,
+        887
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-CHEST-ASSET-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_04_2fc97e2d-a412-46ab-8b07-2eeab1a444fe.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Chest variant/mixed states. Preserve source; exported sequence must use a consistent body and separate native lighting/effects.",
+      "source_correspondence": {
+        "source_message_index": 141,
+        "source_message_id": "31028558-fc95-4589-8d07-54df28cb61dc",
+        "source_image_title": "Sunken Temple Treasure Chest Sprite Sheet",
+        "source_file_id": "file_0000000087988208bad9b15f428821a1",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Chest multi-state atlas, transparent"
+    },
+    {
+      "attachment_number": 5,
+      "provided_path": "/Users/abinashbasak/Downloads/2fe76b06-949b-470c-8cc2-45da56895122.png",
+      "sha256": "142bd166f6d2da9a275c059b6825b5991b764ebe08563f667983a6f7e75cb742",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        16,
+        53,
+        2156,
+        724
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-ENM-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_user_attachment_05_2fe76b06-949b-470c-8cc2-45da56895122.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Temple Mite variant/source; compare silhouette and behavior across families before selection. Labels, glow and checkerboard need per-sheet review.",
+      "source_correspondence": {
+        "source_message_index": 279,
+        "source_message_id": "dad7bcf1-95b6-4313-b699-86a86ae2f1d1",
+        "source_image_title": "Crystal-Crusted Crab Sprite Animation",
+        "source_file_id": "file_00000000a3088208a12005c880f0d822",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Six-frame crystal-crusted Mite idle attempt"
+    },
+    {
+      "attachment_number": 6,
+      "provided_path": "/Users/abinashbasak/Downloads/20df7b65-6b42-4dc9-af58-6484080567b0.png",
+      "sha256": "572e57e01d2969a02b411cfc55931df1a641d9ac92729d1cdec3ea62097cbb5e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        1,
+        253
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-CHEST-ASSET-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_06_20df7b65-6b42-4dc9-af58-6484080567b0.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Chest variant/mixed states. Preserve source; exported sequence must use a consistent body and separate native lighting/effects.",
+      "source_correspondence": {
+        "source_message_index": 166,
+        "source_message_id": "66bab79e-e995-4f21-bc48-2c78dc4d4d13",
+        "source_image_title": "Sunken Temple Treasure Chest Sprite Sheet",
+        "source_file_id": "file_00000000416082089fe8df24379c02b5",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Chest multi-state concept board; baked backdrop and glow"
+    },
+    {
+      "attachment_number": 7,
+      "provided_path": "/Users/abinashbasak/Downloads/33a70ad6-3909-41a3-9571-e603e3450393.png",
+      "sha256": "8ad8d746fafc497569c926c75dc92998b92cd80207cbd92604bba822ce09e521",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        9,
+        1766,
+        887
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-CHR-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_07_33a70ad6-3909-41a3-9571-e603e3450393.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Historical mixed brown-haired hero sheet; retain as source/reference. Source-chat correction locks blue hair; do not substitute into runtime.",
+      "source_correspondence": {
+        "source_message_index": 164,
+        "source_message_id": "da142f83-600b-4530-b940-5253438ec1e2",
+        "source_image_title": "Sunken Temple Hero Sprite Sheet",
+        "source_file_id": "file_000000003df882089f2f31d7fc8b4379",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Brown-haired player action atlas, transparent; effects combined"
+    },
+    {
+      "attachment_number": 8,
+      "provided_path": "/Users/abinashbasak/Downloads/34ec6c51-657b-4f40-b5f1-84660a95d919.png",
+      "sha256": "bcbda551092e6590197e4732a877fdff8df61add664f14d39b852121afbc01f3",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        19,
+        1774,
+        887
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-ENM-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_user_attachment_08_34ec6c51-657b-4f40-b5f1-84660a95d919.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Temple Mite variant/source; compare silhouette and behavior across families before selection. Labels, glow and checkerboard need per-sheet review.",
+      "source_correspondence": {
+        "source_message_index": 159,
+        "source_message_id": "f56c3642-e8a3-4784-b3ed-7a088daa80f1",
+        "source_image_title": "Temple Mite Enemy Sprite Sheet",
+        "source_file_id": "file_00000000afa882118ed694b56191b126",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Red-eyed Mite action atlas with labels"
+    },
+    {
+      "attachment_number": 9,
+      "provided_path": "/Users/abinashbasak/Downloads/73ff3f3c-db23-47cf-b6c9-313a45b56a6f.png",
+      "sha256": "6842537ae9464ad6f2eba72928454a750c0837b052008b4abaa8e1a42d95d76e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-CHR-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_09_73ff3f3c-db23-47cf-b6c9-313a45b56a6f.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Historical mixed brown-haired hero sheet; retain as source/reference. Source-chat correction locks blue hair; do not substitute into runtime.",
+      "source_correspondence": {
+        "source_message_index": 156,
+        "source_message_id": "87634ba2-5cf8-41cf-b329-eff8c1713263",
+        "source_image_title": "Sunken Temple Hero Animation Sheet",
+        "source_file_id": "file_00000000628c8208b5c6fc7d815f35dd",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Brown-haired player action concept board; backdrop, fairy and VFX combined"
+    },
+    {
+      "attachment_number": 10,
+      "provided_path": "/Users/abinashbasak/Downloads/84a43bdd-2aaf-43b5-bbd6-e9f089df867b.png",
+      "sha256": "f9d3758bb51fe5879a9138b3ed42d8db81d15bd3e1cd83e099f68c6b32f747d3",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-CHR-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_10_84a43bdd-2aaf-43b5-bbd6-e9f089df867b.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Historical mixed brown-haired hero sheet; retain as source/reference. Source-chat correction locks blue hair; do not substitute into runtime.",
+      "source_correspondence": {
+        "source_message_index": 173,
+        "source_message_id": "b90793b8-3014-4636-a96e-5f0cb03e4c12",
+        "source_image_title": "Sunken Temple Hero Sprite Atlas",
+        "source_file_id": "file_00000000889482089a4bc74234f0495b",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Brown-haired player action atlas with labels, dust and VFX combined"
+    },
+    {
+      "attachment_number": 11,
+      "provided_path": "/Users/abinashbasak/Downloads/91f6deb9-8d4b-409f-817b-6d4e55404c3c.png",
+      "sha256": "636c20bdfdcc6623e5a0f28013a487531bf6cba1d1705ec74aba4b47c80871c5",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        17,
+        1535,
+        1024
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-CHEST-ASSET-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_11_91f6deb9-8d4b-409f-817b-6d4e55404c3c.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Chest variant/mixed states. Preserve source; exported sequence must use a consistent body and separate native lighting/effects.",
+      "source_correspondence": {
+        "source_message_index": 187,
+        "source_message_id": "f833e81c-c4be-44a5-a8c9-cd68ea6e8e60",
+        "source_image_title": "Sunken Temple Treasure Chest Spritesheet",
+        "source_file_id": "file_000000004e848208b49012f7627292cc",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Chest action/loot concept board with baked backdrop and glow"
+    },
+    {
+      "attachment_number": 12,
+      "provided_path": "/Users/abinashbasak/Downloads/401bc09d-43fc-4dff-aa26-3bd6b19b6d3e.png",
+      "sha256": "52abe7dc901077723cc19f696ad36baa6636d0537adebe91ff10192cf8e59a7b",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        0,
+        1773,
+        887
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-CHEST-ASSET-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_12_401bc09d-43fc-4dff-aa26-3bd6b19b6d3e.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Chest variant/mixed states. Preserve source; exported sequence must use a consistent body and separate native lighting/effects.",
+      "source_correspondence": {
+        "source_message_index": 154,
+        "source_message_id": "865e8b05-90ff-4f06-bad5-59ebfb66155a",
+        "source_image_title": "Mossy Underwater Treasure Chest Sprite Sheet",
+        "source_file_id": "file_00000000337c8208ba2ca026ca741300",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Chest multi-state atlas, transparent; effects combined"
+    },
+    {
+      "attachment_number": 13,
+      "provided_path": "/Users/abinashbasak/Downloads/584d93a2-71ec-4e97-adc4-066745a94bb3.png",
+      "sha256": "22d6a415327d6c3d260874b7472e4142f51d67ec185ff30a71d380dd368b616f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        81,
+        252
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-CHEST-ASSET-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_13_584d93a2-71ec-4e97-adc4-066745a94bb3.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Chest variant/mixed states. Preserve source; exported sequence must use a consistent body and separate native lighting/effects.",
+      "source_correspondence": {
+        "source_message_index": 150,
+        "source_message_id": "f4dc8698-2343-4066-9f8f-8be0284643cc",
+        "source_image_title": "Sunken Temple Treasure Chest Sprite Sheet",
+        "source_file_id": "file_0000000038ec8208864c12163d97dd67",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Common chest specification board with labeled states, layers and effects"
+    },
+    {
+      "attachment_number": 14,
+      "provided_path": "/Users/abinashbasak/Downloads/1637c1f0-02b6-4d8c-a97f-bde8a0115ed6.png",
+      "sha256": "b980a16521ba7fb64e38ba12cb3a987a4b92a8605306c86027b9dde6b44a146d",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "image_mode": "RGB",
+      "alpha_extrema": null,
+      "transparent_pixels_present": false,
+      "visible_bounds": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-CHR-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_14_1637c1f0-02b6-4d8c-a97f-bde8a0115ed6.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Blue-haired mixed actions (idle/walk/run/jump/fall/land/slash/spin/hurt/death/lantern power); RGB painted checkerboard, labels and effects. Action coverage exists as source reference; clean transparent gameplay exports do not yet exist.",
+      "source_correspondence": {
+        "source_message_index": 195,
+        "source_message_id": "95bfc351-17a3-4d78-8afc-1b6a85612d85",
+        "source_image_title": "Fantasy Hero Animation Sprite Sheet",
+        "source_file_id": "file_00000000906c8208870d543335ece6b7",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Blue-haired hero action concept board; baked checkerboard, lantern and VFX combined"
+    },
+    {
+      "attachment_number": 15,
+      "provided_path": "/Users/abinashbasak/Downloads/4877becd-d7db-47fe-a282-925b5eb40764.png",
+      "sha256": "3e23da50108397c9c554f01b81297dff3af1540ceb1de8c229cd3db6a25f0587",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-CHR-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_15_4877becd-d7db-47fe-a282-925b5eb40764.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Historical mixed brown-haired hero sheet; retain as source/reference. Source-chat correction locks blue hair; do not substitute into runtime.",
+      "source_correspondence": {
+        "source_message_index": 183,
+        "source_message_id": "579dbf7f-4605-4bb3-87e0-a1da15294910",
+        "source_image_title": "Heroic Adventurer Animation Sprite Sheet",
+        "source_file_id": "file_00000000ad548208ac3186e56fb8f6af",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Brown-haired player multiview and action atlas"
+    },
+    {
+      "attachment_number": 16,
+      "provided_path": "/Users/abinashbasak/Downloads/6029a26a-d025-45a1-bad7-a13f6bd79380.png",
+      "sha256": "08ca59019946cffa88adfedfea4e891f3860b1ba46f7ff3c380e50c90eff4967",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        35,
+        1760,
+        887
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": "66b27022-1383-4386-8abd-6900cc498154",
+      "source_message_status": "exact_archived_hash",
+      "asset_id": "C3-CHEST-ASSET-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_opening_msg_261_000000006bf082088cf88cc37cce9e7a.png",
+      "duplicate_of_archived_source": true,
+      "review_note": "Chest variant/mixed states. Preserve source; exported sequence must use a consistent body and separate native lighting/effects.",
+      "source_correspondence": {
+        "source_message_index": 261,
+        "source_message_id": "66b27022-1383-4386-8abd-6900cc498154",
+        "source_image_title": "Six-Stage Enchanted Treasure Chest Animation",
+        "source_file_id": "file_000000006bf082088cf88cc37cce9e7a",
+        "source_match_status": "exact_archived_hash",
+        "source_match_evidence": "SHA256 identical to previously archived original"
+      },
+      "visual_description": "Six chest opening stages with numbered labels"
+    },
+    {
+      "attachment_number": 17,
+      "provided_path": "/Users/abinashbasak/Downloads/30688a41-bb85-4b62-8f98-676089852de9.png",
+      "sha256": "ba8abd365945f23a82814574b7c2cd52681e546ad8f451a8e0ac1719f22c0008",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-CHEST-ASSET-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_17_30688a41-bb85-4b62-8f98-676089852de9.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Chest variant/mixed states. Preserve source; exported sequence must use a consistent body and separate native lighting/effects.",
+      "source_correspondence": {
+        "source_message_index": 145,
+        "source_message_id": "41205904-2455-47bd-a45b-b30101a8b782",
+        "source_image_title": "Treasure Chest Sprite Sheet",
+        "source_file_id": "file_00000000d2cc8208a1318e936b34539d",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Common chest labeled multi-state atlas"
+    },
+    {
+      "attachment_number": 18,
+      "provided_path": "/Users/abinashbasak/Downloads/68302203-e67b-4c7a-8d61-8f3c812db20d.png",
+      "sha256": "4f54b5933f477ea04ed8fcb8592a04deaf324ee33b58b609c1d189c473e40e9b",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        0,
+        1756,
+        867
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-CHEST-ASSET-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_18_68302203-e67b-4c7a-8d61-8f3c812db20d.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Chest variant/mixed states. Preserve source; exported sequence must use a consistent body and separate native lighting/effects.",
+      "source_correspondence": {
+        "source_message_index": 171,
+        "source_message_id": "1ac8a6dd-1fd7-4aa6-ab8c-db35f650da58",
+        "source_image_title": "Mossy Treasure Chest Animation Sheet",
+        "source_file_id": "file_0000000096488208944685872c97338f",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Chest views and animation atlas, transparent"
+    },
+    {
+      "attachment_number": 19,
+      "provided_path": "/Users/abinashbasak/Downloads/a75b6832-236e-4ed8-93f0-a0522d6907e3.png",
+      "sha256": "287bba036efa40ae43cf4bc443cce1891d2755a20bebbe2230658a17906d86b2",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        21,
+        1774,
+        855
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-CHR-002",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-002/source_images/C3-CHR-002_user_attachment_19_a75b6832-236e-4ed8-93f0-a0522d6907e3.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Blue-haired single run family, eight original poses, true alpha. Candidate for native animation review; edge poses and neighboring overlap need inspection.",
+      "source_correspondence": {
+        "source_message_index": 205,
+        "source_message_id": "57b38e50-934d-4592-85ed-e837aa5978eb",
+        "source_image_title": "Blue-Haired Hero Running Sprite Sheet",
+        "source_file_id": "file_00000000ab108208a6f6305386a18d25",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Eight blue-haired running frames, true alpha; identity and baseline QA needed"
+    },
+    {
+      "attachment_number": 20,
+      "provided_path": "/Users/abinashbasak/Downloads/a336de21-5853-4cbe-a5a2-f22f5ce1214b.png",
+      "sha256": "cc9478b5c5d2f99c9d7864a2d7b412c6cbdc4f673778bf0cd328a86ea6637d57",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-ENM-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_user_attachment_20_a336de21-5853-4cbe-a5a2-f22f5ce1214b.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Temple Mite variant/source; compare silhouette and behavior across families before selection. Labels, glow and checkerboard need per-sheet review.",
+      "source_correspondence": {
+        "source_message_index": 189,
+        "source_message_id": "875fedda-d43a-4900-99ad-c7aca821bbe9",
+        "source_image_title": "Temple Mite Animation Sheet",
+        "source_file_id": "file_00000000321c8208b32e64c0560f350e",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Temple Mite labeled action/specification atlas"
+    },
+    {
+      "attachment_number": 21,
+      "provided_path": "/Users/abinashbasak/Downloads/aa90e2ad-4308-4ede-b3e1-4c2dfec8a50e.png",
+      "sha256": "272a4bc21f5eb331e62133b9b99cadbf3999b9e7ab196a6fdc08e6dc3b1a0484",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        0,
+        1761,
+        887
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-ENM-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_user_attachment_21_aa90e2ad-4308-4ede-b3e1-4c2dfec8a50e.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Temple Mite variant/source; compare silhouette and behavior across families before selection. Labels, glow and checkerboard need per-sheet review.",
+      "source_correspondence": {
+        "source_message_index": 143,
+        "source_message_id": "f070aa8f-eb8b-48dc-a9dd-b7e3835ca8f3",
+        "source_image_title": "Temple Mite Animation Spritesheet",
+        "source_file_id": "file_00000000091882089772f6a0669288bb",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Red-core Temple Mite labeled action atlas"
+    },
+    {
+      "attachment_number": 22,
+      "provided_path": "/Users/abinashbasak/Downloads/b1c47ec2-5c90-404d-babc-b9253a8e20f8.png",
+      "sha256": "4e3bc08ad5d1770237ab1c3abd6bb4349643706d3a7ccc5543483b5d17457188",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        1,
+        252
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-CHEST-ASSET-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_22_b1c47ec2-5c90-404d-babc-b9253a8e20f8.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Chest variant/mixed states. Preserve source; exported sequence must use a consistent body and separate native lighting/effects.",
+      "source_correspondence": {
+        "source_message_index": 169,
+        "source_message_id": "1cac776d-c52e-455e-9a8c-50dad93fbfd3",
+        "source_image_title": "Mossy Treasure Chest Sprite Sheet",
+        "source_file_id": "file_000000003d788208ae1f6bbc522b0af2",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Chest views and opening board, baked backdrop and glow"
+    },
+    {
+      "attachment_number": 23,
+      "provided_path": "/Users/abinashbasak/Downloads/b7ca2f8d-6871-4bbc-8897-4011f078cae2.png",
+      "sha256": "17044c2feef2ffc95d563bbf0a21e3ed41751a9f894f2253444398ab37e9df08",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "image_mode": "RGB",
+      "alpha_extrema": null,
+      "transparent_pixels_present": false,
+      "visible_bounds": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": null,
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/source_references/chapter03_supplemental_atlas_b7ca2f8d-6871-4bbc-8897-4011f078cae2.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Supplemental chapter journey atlas including asset thumbnails; original locked map retained. No thumbnail becomes high-resolution playable scenery.",
+      "source_correspondence": {
+        "source_message_index": 104,
+        "source_message_id": "681c4a8b-4151-4c39-9b26-aae4b936f5ca",
+        "source_image_title": "The Sunken Temple: Level Design Atlas",
+        "source_file_id": "file_0000000097f4821198ee611bcc5e855b",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Full chapter journey atlas, eight sections and gameplay asset reference"
+    },
+    {
+      "attachment_number": 24,
+      "provided_path": "/Users/abinashbasak/Downloads/b75c8c4d-a47d-4844-9996-1241febe7a6d.png",
+      "sha256": "7882b572640d879d7c74f8219108e4e081f866b8a9e2eeeda6d570ae78a2ea4e",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        9,
+        1774,
+        887
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-ENM-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_user_attachment_24_b75c8c4d-a47d-4844-9996-1241febe7a6d.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Temple Mite variant/source; compare silhouette and behavior across families before selection. Labels, glow and checkerboard need per-sheet review.",
+      "source_correspondence": {
+        "source_message_index": 181,
+        "source_message_id": "177009fe-0729-4262-ad6f-44d7eeb2e15a",
+        "source_image_title": "Sunken Temple Mite Sprite Sheet",
+        "source_file_id": "file_000000007fa48208bdc690f93242242a",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Blue-eyed Mite multistate animation atlas"
+    },
+    {
+      "attachment_number": 25,
+      "provided_path": "/Users/abinashbasak/Downloads/bad5ee13-2ca6-41ac-bc93-0b829c7cf7cb.png",
+      "sha256": "f53b4633338f05976314e1a29b5523b540c712ac25b5017a8c5e17e4e3e39d9e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "image_mode": "RGB",
+      "alpha_extrema": null,
+      "transparent_pixels_present": false,
+      "visible_bounds": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-CHR-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_25_bad5ee13-2ca6-41ac-bc93-0b829c7cf7cb.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Historical mixed brown-haired hero sheet; retain as source/reference. Source-chat correction locks blue hair; do not substitute into runtime.",
+      "source_correspondence": {
+        "source_message_index": 179,
+        "source_message_id": "7e6626ef-86e6-40b8-8a72-58d462a931e5",
+        "source_image_title": "Sunken Temple Player Sprite Sheet",
+        "source_file_id": "file_000000005e408208bac09ed803cfaf12",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Brown-haired player action concept board, baked checkerboard"
+    },
+    {
+      "attachment_number": 26,
+      "provided_path": "/Users/abinashbasak/Downloads/be55f028-0c11-4725-90f1-491b3804813d.png",
+      "sha256": "d98e982e1654056b463380e5353f82be002968a75056cbcf5cb60d54f7631d15",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        2,
+        252
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-REF-002",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/references/C3-REF-002/source_images/C3-REF-002_user_attachment_26_be55f028-0c11-4725-90f1-491b3804813d.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Scale/style reference only, includes brown-haired hero and inconsistent printed sizes. Keep as reference; no terrain delivery/scale approval inferred.",
+      "source_correspondence": {
+        "source_message_index": 129,
+        "source_message_id": "3a369497-5938-4e2c-9bca-3da1fa442066",
+        "source_image_title": "Sunken Temple Scale Reference Sheet",
+        "source_file_id": "file_00000000f754820888e3a75b22f07efd",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Player scale reference 160-pixel hero and 64-pixel tile"
+    },
+    {
+      "attachment_number": 27,
+      "provided_path": "/Users/abinashbasak/Downloads/e7b3e97c-f3a3-4325-9e09-b6fe5fe18253.png",
+      "sha256": "682919de436313fb99bb067c318b6a4d4b3b793fc0d16eb84a6bc9ea46aef841",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-CHEST-ASSET-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_27_e7b3e97c-f3a3-4325-9e09-b6fe5fe18253.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Chest variant/mixed states. Preserve source; exported sequence must use a consistent body and separate native lighting/effects.",
+      "source_correspondence": {
+        "source_message_index": 185,
+        "source_message_id": "6d0b4d86-0fd9-4ca1-b672-038eb3ce4afa",
+        "source_image_title": "Treasure Chest Animation Asset Sheet",
+        "source_file_id": "file_000000000fcc820898c1c66365b44742",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Common chest views and animation concept board, baked backdrop"
+    },
+    {
+      "attachment_number": 28,
+      "provided_path": "/Users/abinashbasak/Downloads/e64ff055-ae0a-45eb-9ca4-ae522530f8cf.png",
+      "sha256": "1121326188f5ea9e7eaaf2082f427a1ab721de9a62f1c9e8d8fa71d7827e1632",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        1,
+        252
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-REF-002",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/references/C3-REF-002/source_images/C3-REF-002_user_attachment_28_e64ff055-ae0a-45eb-9ca4-ae522530f8cf.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Scale/style reference only, includes brown-haired hero and inconsistent printed sizes. Keep as reference; no terrain delivery/scale approval inferred.",
+      "source_correspondence": {
+        "source_message_index": 134,
+        "source_message_id": "bdd14a52-fa2f-44ce-bcba-e667cac5d3c0",
+        "source_image_title": "Lanterns Underroot: Player Scale Reference",
+        "source_file_id": "file_0000000002448208a5a54bcec47349bc",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Player scale reference 96-pixel hero and 64-pixel tile"
+    },
+    {
+      "attachment_number": 29,
+      "provided_path": "/Users/abinashbasak/Downloads/e77d892b-1e50-4d41-bf8c-dbfb83f50b7d.png",
+      "sha256": "dea6b387d725cb1ddb89a07e1fee4b353979ef3fa776a641350c6fcaac4d6429",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        9,
+        1774,
+        887
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-CHEST-ASSET-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_29_e77d892b-1e50-4d41-bf8c-dbfb83f50b7d.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Chest variant/mixed states. Preserve source; exported sequence must use a consistent body and separate native lighting/effects.",
+      "source_correspondence": {
+        "source_message_index": 175,
+        "source_message_id": "8764bc06-3845-4a5f-8e51-77e40045754a",
+        "source_image_title": "Sunken Temple Treasure Chest Sprite Sheet",
+        "source_file_id": "file_00000000aab08208af116e9ccc4ed679",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Chest opening, variants and loot animation atlas"
+    },
+    {
+      "attachment_number": 30,
+      "provided_path": "/Users/abinashbasak/Downloads/ea4950f3-cd1d-445f-b45f-a0c159cfe190.png",
+      "sha256": "52006db821b21d1928f9a9e65f660d3c1786c001465a287b346454d082c8f56c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        3,
+        253
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-CHEST-ASSET-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_30_ea4950f3-cd1d-445f-b45f-a0c159cfe190.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Chest variant/mixed states. Preserve source; exported sequence must use a consistent body and separate native lighting/effects.",
+      "source_correspondence": {
+        "source_message_index": 152,
+        "source_message_id": "be7370d4-0b3e-46b4-82f2-faae9e6e4942",
+        "source_image_title": "Chapter 3 Treasure Chest Animation Sheet",
+        "source_file_id": "file_0000000024548208b25889f10991b503",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Common chest specification/animation board, baked backdrop"
+    },
+    {
+      "attachment_number": 31,
+      "provided_path": "/Users/abinashbasak/Downloads/ebae1ca9-3a5a-45c7-9b00-69db5fac2dc8.png",
+      "sha256": "8e1dfc4764ffc81db098bb33750f5813f5b6c6e6b74b6c5d66c5f21afc08ee97",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        0,
+        1768,
+        887
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-CHR-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_user_attachment_31_ebae1ca9-3a5a-45c7-9b00-69db5fac2dc8.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Historical mixed brown-haired hero sheet; retain as source/reference. Source-chat correction locks blue hair; do not substitute into runtime.",
+      "source_correspondence": {
+        "source_message_index": 161,
+        "source_message_id": "e1f18688-c8f0-48f2-96c2-7016d78af215",
+        "source_image_title": "Sunken Temple Hero Animation Sprite Sheet",
+        "source_file_id": "file_00000000d0a88208aeb025ed5f063c65",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Brown-haired player action atlas with fairy, labels and VFX combined"
+    },
+    {
+      "attachment_number": 32,
+      "provided_path": "/Users/abinashbasak/Downloads/f31b20c9-e7e7-4253-bb05-677df22330ca.png",
+      "sha256": "6fe09cd1c6be1f14719b8cb441018477bd890c11906af744734a13e9b649d5ff",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "image_mode": "RGB",
+      "alpha_extrema": null,
+      "transparent_pixels_present": false,
+      "visible_bounds": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-ENM-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_user_attachment_32_f31b20c9-e7e7-4253-bb05-677df22330ca.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Temple Mite variant/source; compare silhouette and behavior across families before selection. Labels, glow and checkerboard need per-sheet review.",
+      "source_correspondence": {
+        "source_message_index": 277,
+        "source_message_id": "c4d158cb-22bb-4ff5-b0f1-b7e8d17016ba",
+        "source_image_title": "Mossy Crystal Crustacean Sprite Sheet",
+        "source_file_id": "file_00000000c6cc82089c4c0d2b679c6c60",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Six-frame Mite idle attempt with baked checkerboard"
+    },
+    {
+      "attachment_number": 33,
+      "provided_path": "/Users/abinashbasak/Downloads/f89ca522-48ef-4148-9f49-62adc0b39da0.png",
+      "sha256": "5b709669a48822ffa0d589f26fda5d6033ba3cb26504d026fa155fbeab8c39f2",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        253
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": null,
+      "source_message_status": "probable_strong_unique_size_dimensions_visual_category",
+      "asset_id": "C3-CHEST-ASSET-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_33_f89ca522-48ef-4148-9f49-62adc0b39da0.png",
+      "duplicate_of_archived_source": false,
+      "review_note": "Chest variant/mixed states. Preserve source; exported sequence must use a consistent body and separate native lighting/effects.",
+      "source_correspondence": {
+        "source_message_index": 177,
+        "source_message_id": "f0cac7ba-40f5-41ec-bdd3-c34f0475d852",
+        "source_image_title": "Chapter 3 Common Treasure Chest Sheet",
+        "source_file_id": "file_000000006c0482088acba2e1d1884675",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Common chest multiview and animation concept board, baked backdrop"
+    },
+    {
+      "attachment_number": 34,
+      "provided_path": "/Users/abinashbasak/Downloads/f9099a96-acc5-4e0e-95be-5e88ae7e2086.png",
+      "sha256": "25fbe17cbaa11fa176646744884ad6961288f5604eda4cad667dc0eeeb656b36",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "image_mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "visible_bounds": [
+        25,
+        9,
+        2152,
+        674
+      ],
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "production_approved": false,
+      "source_message_id": "bfa0c6a5-377a-45b6-85f4-1a6984cb60eb",
+      "source_message_status": "exact_archived_hash",
+      "asset_id": "C3-ENM-001",
+      "archive_path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_walk_msg_289_00000000344c8208a250b021ba4ce070.png",
+      "duplicate_of_archived_source": true,
+      "review_note": "Temple Mite variant/source; compare silhouette and behavior across families before selection. Labels, glow and checkerboard need per-sheet review.",
+      "source_correspondence": {
+        "source_message_index": 289,
+        "source_message_id": "bfa0c6a5-377a-45b6-85f4-1a6984cb60eb",
+        "source_image_title": "Six-Frame Crystal Bug Walk Cycle",
+        "source_file_id": "file_00000000344c8208a250b021ba4ce070",
+        "source_match_status": "exact_archived_hash",
+        "source_match_evidence": "SHA256 identical to previously archived original"
+      },
+      "visual_description": "Six-frame Mite walking strip, true alpha"
+    }
+  ],
+  "source_match_summary": {
+    "attachments": 34,
+    "exact_archived_hash_matches": 2,
+    "strong_probable_matches": 32
+  }
+}

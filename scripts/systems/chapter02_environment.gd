@@ -16,6 +16,7 @@ var platforms: Array[Rect2] = [Rect2(0, 620, 1900, 420), Rect2(2500, 620, 1900, 
 var decor = ReferenceDecor.new()
 var clock := 0.0
 var _lanterns: Array[Dictionary] = []
+var reduced_effects := false
 
 func _ready() -> void:
 	if game == null:
@@ -69,18 +70,35 @@ func _build_orchard() -> void:
 		decor.prop(scenery, "PROP-011_bush", Vector2(x, 626), Vector2(145, 65))
 	for x in [360.0, 1040.0, 2790.0, 3750.0, 4950.0, 7000.0]:
 		var item := {"key":"PROP-001_lantern_post", "foot":Vector2(x,620), "bounds":Vector2(84,210)}
-		_lanterns.append(item)
-		decor.prop(scenery, item.key, item.foot, item.bounds)
+		_build_lantern(scenery, item)
 	for x in [5540.0, 6400.0]:
 		var item := {"key":"PROP-002_lantern_hanging", "foot":Vector2(x,305), "bounds":Vector2(76,116)}
-		_lanterns.append(item)
-		decor.prop(scenery, item.key, item.foot, item.bounds)
+		_build_lantern(scenery, item)
 	decor.building_nodes = false
 	for entry in [[250.0, "BRIARWAKE ORCHARD"], [2620.0, "THE TANGLED BOUGHS"], [4940.0, "HEARTROOT CLEARING"], [7010.0, "THE WAY BELOW"]]:
 		SceneArt.text(scenery, Vector2(entry[0]-100, 390), entry[1], Color("ffe3a0"), 18)
 
+func _build_lantern(parent: Node2D, item: Dictionary) -> void:
+	var bounds := decor.prop_rect(item.key, item.foot, item.bounds)
+	var pivot := Node2D.new()
+	pivot.position = bounds.position + Vector2(bounds.size.x * 0.5, 0.0)
+	parent.add_child(pivot)
+	SceneArt.image(pivot, decor.textures[item.key], Rect2(bounds.position - pivot.position, bounds.size))
+	item["pivot"] = pivot
+	item["flame_offset"] = decor.lantern_flame(item) - pivot.position
+	_lanterns.append(item)
+
 func _process(delta: float) -> void:
-	clock += delta
+	var presentation: Variant = game.get("presentation") if is_instance_valid(game) else null
+	reduced_effects = is_instance_valid(presentation) and bool(presentation.get("reduced_effects"))
+	var player: Variant = game.get("player") if is_instance_valid(game) else null
+	if is_instance_valid(player) and bool(player.get("active")):
+		clock += delta
+	for index in _lanterns.size():
+		var item: Dictionary = _lanterns[index]
+		if item.key == "PROP-002_lantern_hanging":
+			var pivot: Node2D = item.pivot
+			pivot.rotation = 0.0 if reduced_effects else sin(clock * 1.15 + index * 1.7) * 0.025
 	queue_redraw()
 
 func _flag(property_name: String) -> bool:
@@ -103,10 +121,11 @@ func _draw() -> void:
 		else:
 			decor.prop(self, "OBJ-004_root_seal", Vector2(x,floor_y), Vector2(135,185))
 			# The knot's warm core marks an interactable, never a false landing.
-			var pulse := 0.65 + 0.15 * sin(clock * 2.2 + index)
+			var pulse := 0.65 if reduced_effects else 0.65 + 0.15 * sin(clock * 2.2 + index)
 			draw_arc(Vector2(x, floor_y-72), 22, 0, TAU, 32, Color(1.0, 0.76, 0.30, pulse), 2, true)
 		var label := "RESTORED" if freed else "ROOT BINDING %s" % ["I", "II", "III"][index]
 		draw_string(ThemeDB.fallback_font, Vector2(x-70, floor_y-208), label, HORIZONTAL_ALIGNMENT_LEFT, -1, 15, Color("ffe3a0"))
+	_draw_lantern_embers()
 	_draw_column()
 	var defeated := _flag("boss_defeated")
 	if _flag("boss_active") and not defeated:
@@ -119,10 +138,10 @@ func _draw() -> void:
 	# Gameplay owns pickup distance; the icon shares the grounded plinth's location.
 	decor.prop(self, "PROP-012_stump", Vector2(6720, 620), Vector2(100, 90))
 	if defeated and not _flag("fragment_collected") and is_instance_valid(game.get("rewards")) and game.rewards.chest_opened:
-		draw_arc(Vector2(6720, 497), 35 + sin(clock*2.0)*3, PI, TAU, 32, Color("ffd681"), 2, true)
+		draw_arc(Vector2(6720, 497), 35 + (0.0 if reduced_effects else sin(clock*2.0)*3), PI, TAU, 32, Color("ffd681"), 2, true)
 		var icon_size: Vector2 = FRAGMENT.get_size()
 		icon_size *= minf(1.0, 54.0 / maxf(icon_size.x, icon_size.y))
-		draw_texture_rect(FRAGMENT, Rect2(Vector2(6720,497 + sin(clock*2.0)*4)-icon_size*0.5, icon_size), false)
+		draw_texture_rect(FRAGMENT, Rect2(Vector2(6720,497 + (0.0 if reduced_effects else sin(clock*2.0)*4))-icon_size*0.5, icon_size), false)
 
 func _draw_column() -> void:
 	var hits := 0
@@ -142,9 +161,22 @@ func _draw_column() -> void:
 	if _flag("boss_active") and not broken:
 		draw_string(ThemeDB.fallback_font, Vector2(6335,620-size.y-16), "OPTIONAL COLUMN  %d / 3" % hits, HORIZONTAL_ALIGNMENT_LEFT, -1, 13, Color("ffe3a0"))
 
+func _draw_lantern_embers() -> void:
+	if reduced_effects: return
+	# Sparse embers stay at actual flame sources, clear of the combat silhouette.
+	for index in _lanterns.size():
+		var item: Dictionary = _lanterns[index]
+		var pivot: Node2D = item.pivot
+		var flame := to_local(pivot.to_global(item.flame_offset))
+		for ember in 3:
+			var life := fposmod(clock * 0.28 + index * 0.37 + ember / 3.0, 1.0)
+			var at := flame + Vector2(sin(life * TAU + index) * 6.0, -life * 31.0)
+			draw_circle(at, 1.2, Color(1.0, 0.78, 0.38, sin(life * PI) * 0.40))
+
 func get_reference_light_anchors() -> Array[Dictionary]:
 	var anchors: Array[Dictionary] = []
 	for item in _lanterns:
-		var flame: Vector2 = decor.lantern_flame(item)
-		anchors.append({"world_position":global_position+flame, "local_position":flame, "color":Color("ffc75a"), "energy":0.55, "radius":190.0, "active":true})
+		var pivot: Node2D = item.pivot
+		var flame := to_local(pivot.to_global(item.flame_offset))
+		anchors.append({"world_position":to_global(flame), "local_position":flame, "color":Color("ffc75a"), "energy":0.55, "radius":190.0, "active":true})
 	return anchors

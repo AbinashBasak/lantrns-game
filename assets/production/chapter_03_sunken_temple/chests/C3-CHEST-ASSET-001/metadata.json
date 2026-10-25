@@ -1,0 +1,545 @@
+{
+  "asset_id": "C3-CHEST-ASSET-001",
+  "title": "Common chest opening",
+  "source_chat": "https://chatgpt.com/share/6adcfe72-eeb4-83ee-b43a-a08319abf676",
+  "stage": "originals recovered; cleanup and in-engine approval pending",
+  "production_approved": false,
+  "notes": "Number labels and bright painted interior effects are present. Remove labels by export cropping; emitted illumination remains native Godot. Lid/base consistency needs review.",
+  "sources": [
+    {
+      "action": "opening",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_opening_msg_261_000000006bf082088cf88cc37cce9e7a.png",
+      "sha256": "08ca59019946cffa88adfedfea4e891f3860b1ba46f7ff3c380e50c90eff4967",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "visible_bounds": [
+        0,
+        35,
+        1760,
+        887
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": "66b27022-1383-4386-8abd-6900cc498154",
+      "source_message_index": 261,
+      "source_pointer": "sediment://file_000000006bf082088cf88cc37cce9e7a?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "provenance": "downloaded original; unchanged; no reconstructed pixels",
+      "frame_count_claimed_in_chat": 6,
+      "frame_count_verified": false,
+      "timing_status": "source chat suggestions only; not yet timed in engine",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 261,
+        "source_message_id": "66b27022-1383-4386-8abd-6900cc498154",
+        "source_image_title": "Six-Stage Enchanted Treasure Chest Animation",
+        "source_file_id": "file_000000006bf082088cf88cc37cce9e7a",
+        "source_match_status": "exact_archived_hash",
+        "source_match_evidence": "SHA256 identical to previously archived original"
+      },
+      "visual_description": "Six chest opening stages with numbered labels",
+      "source_match_status": "exact_archived_hash"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_04_2fc97e2d-a412-46ab-8b07-2eeab1a444fe.png",
+      "sha256": "8f3215d6dc0fc3d05039e8b3cfb120252935807ea4d19fcf776be85a599a4531",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "visible_bounds": [
+        0,
+        17,
+        1772,
+        887
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 4,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/2fc97e2d-a412-46ab-8b07-2eeab1a444fe.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 141,
+        "source_message_id": "31028558-fc95-4589-8d07-54df28cb61dc",
+        "source_image_title": "Sunken Temple Treasure Chest Sprite Sheet",
+        "source_file_id": "file_0000000087988208bad9b15f428821a1",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Chest multi-state atlas, transparent",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_06_20df7b65-6b42-4dc9-af58-6484080567b0.png",
+      "sha256": "572e57e01d2969a02b411cfc55931df1a641d9ac92729d1cdec3ea62097cbb5e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        1,
+        253
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 6,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/20df7b65-6b42-4dc9-af58-6484080567b0.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 166,
+        "source_message_id": "66bab79e-e995-4f21-bc48-2c78dc4d4d13",
+        "source_image_title": "Sunken Temple Treasure Chest Sprite Sheet",
+        "source_file_id": "file_00000000416082089fe8df24379c02b5",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Chest multi-state concept board; baked backdrop and glow",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_11_91f6deb9-8d4b-409f-817b-6d4e55404c3c.png",
+      "sha256": "636c20bdfdcc6623e5a0f28013a487531bf6cba1d1705ec74aba4b47c80871c5",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "visible_bounds": [
+        0,
+        17,
+        1535,
+        1024
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 11,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/91f6deb9-8d4b-409f-817b-6d4e55404c3c.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 187,
+        "source_message_id": "f833e81c-c4be-44a5-a8c9-cd68ea6e8e60",
+        "source_image_title": "Sunken Temple Treasure Chest Spritesheet",
+        "source_file_id": "file_000000004e848208b49012f7627292cc",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Chest action/loot concept board with baked backdrop and glow",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_12_401bc09d-43fc-4dff-aa26-3bd6b19b6d3e.png",
+      "sha256": "52abe7dc901077723cc19f696ad36baa6636d0537adebe91ff10192cf8e59a7b",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1773,
+        887
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 12,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/401bc09d-43fc-4dff-aa26-3bd6b19b6d3e.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 154,
+        "source_message_id": "865e8b05-90ff-4f06-bad5-59ebfb66155a",
+        "source_image_title": "Mossy Underwater Treasure Chest Sprite Sheet",
+        "source_file_id": "file_00000000337c8208ba2ca026ca741300",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Chest multi-state atlas, transparent; effects combined",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_13_584d93a2-71ec-4e97-adc4-066745a94bb3.png",
+      "sha256": "22d6a415327d6c3d260874b7472e4142f51d67ec185ff30a71d380dd368b616f",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        81,
+        252
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 13,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/584d93a2-71ec-4e97-adc4-066745a94bb3.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 150,
+        "source_message_id": "f4dc8698-2343-4066-9f8f-8be0284643cc",
+        "source_image_title": "Sunken Temple Treasure Chest Sprite Sheet",
+        "source_file_id": "file_0000000038ec8208864c12163d97dd67",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Common chest specification board with labeled states, layers and effects",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_17_30688a41-bb85-4b62-8f98-676089852de9.png",
+      "sha256": "ba8abd365945f23a82814574b7c2cd52681e546ad8f451a8e0ac1719f22c0008",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 17,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/30688a41-bb85-4b62-8f98-676089852de9.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 145,
+        "source_message_id": "41205904-2455-47bd-a45b-b30101a8b782",
+        "source_image_title": "Treasure Chest Sprite Sheet",
+        "source_file_id": "file_00000000d2cc8208a1318e936b34539d",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Common chest labeled multi-state atlas",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_18_68302203-e67b-4c7a-8d61-8f3c812db20d.png",
+      "sha256": "4f54b5933f477ea04ed8fcb8592a04deaf324ee33b58b609c1d189c473e40e9b",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1756,
+        867
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 18,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/68302203-e67b-4c7a-8d61-8f3c812db20d.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 171,
+        "source_message_id": "1ac8a6dd-1fd7-4aa6-ab8c-db35f650da58",
+        "source_image_title": "Mossy Treasure Chest Animation Sheet",
+        "source_file_id": "file_0000000096488208944685872c97338f",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Chest views and animation atlas, transparent",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_22_b1c47ec2-5c90-404d-babc-b9253a8e20f8.png",
+      "sha256": "4e3bc08ad5d1770237ab1c3abd6bb4349643706d3a7ccc5543483b5d17457188",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        1,
+        252
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 22,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/b1c47ec2-5c90-404d-babc-b9253a8e20f8.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 169,
+        "source_message_id": "1cac776d-c52e-455e-9a8c-50dad93fbfd3",
+        "source_image_title": "Mossy Treasure Chest Sprite Sheet",
+        "source_file_id": "file_000000003d788208ae1f6bbc522b0af2",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Chest views and opening board, baked backdrop and glow",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_27_e7b3e97c-f3a3-4325-9e09-b6fe5fe18253.png",
+      "sha256": "682919de436313fb99bb067c318b6a4d4b3b793fc0d16eb84a6bc9ea46aef841",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 27,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/e7b3e97c-f3a3-4325-9e09-b6fe5fe18253.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 185,
+        "source_message_id": "6d0b4d86-0fd9-4ca1-b672-038eb3ce4afa",
+        "source_image_title": "Treasure Chest Animation Asset Sheet",
+        "source_file_id": "file_000000000fcc820898c1c66365b44742",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Common chest views and animation concept board, baked backdrop",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_29_e77d892b-1e50-4d41-bf8c-dbfb83f50b7d.png",
+      "sha256": "dea6b387d725cb1ddb89a07e1fee4b353979ef3fa776a641350c6fcaac4d6429",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "visible_bounds": [
+        0,
+        9,
+        1774,
+        887
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 29,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/e77d892b-1e50-4d41-bf8c-dbfb83f50b7d.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 175,
+        "source_message_id": "8764bc06-3845-4a5f-8e51-77e40045754a",
+        "source_image_title": "Sunken Temple Treasure Chest Sprite Sheet",
+        "source_file_id": "file_00000000aab08208af116e9ccc4ed679",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Chest opening, variants and loot animation atlas",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_30_ea4950f3-cd1d-445f-b45f-a0c159cfe190.png",
+      "sha256": "52006db821b21d1928f9a9e65f660d3c1786c001465a287b346454d082c8f56c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        3,
+        253
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 30,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/ea4950f3-cd1d-445f-b45f-a0c159cfe190.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 152,
+        "source_message_id": "be7370d4-0b3e-46b4-82f2-faae9e6e4942",
+        "source_image_title": "Chapter 3 Treasure Chest Animation Sheet",
+        "source_file_id": "file_0000000024548208b25889f10991b503",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Common chest specification/animation board, baked backdrop",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_user_attachment_33_f89ca522-48ef-4148-9f49-62adc0b39da0.png",
+      "sha256": "5b709669a48822ffa0d589f26fda5d6033ba3cb26504d026fa155fbeab8c39f2",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        253
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 33,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/f89ca522-48ef-4148-9f49-62adc0b39da0.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 177,
+        "source_message_id": "f0cac7ba-40f5-41ec-bdd3-c34f0475d852",
+        "source_image_title": "Chapter 3 Common Treasure Chest Sheet",
+        "source_file_id": "file_000000006c0482088acba2e1d1884675",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Common chest multiview and animation concept board, baked backdrop",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    }
+  ],
+  "runtime_exports": [],
+  "preview_paths": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/previews/C3-CHEST-ASSET-001_source_contact_review.jpg",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/chest-animation-review.png"
+  ],
+  "review_scene": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/chapter_03/review/c3_chest_animation_review.tscn",
+  "review_source_copy": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/export/chapter_03/review/C3-CHEST-ASSET-001_opening_review_source.png",
+  "review_validation": {
+    "native_animation_tree": "Closed \u2192 Opening \u2192 Open; transition/repeat guard/reset passed",
+    "rendered_review": "Godot Compatibility final opening frame visually inspected",
+    "label_handling": "AtlasTexture crops exclude numeric labels",
+    "lighting": "Mouth-attached native PointLight2D energy keyed in AnimationPlayer; painted interior glow remains; terrain response not validated",
+    "production_approved": false
+  },
+  "attachment_review_status": "All supplied originals cataloged; no production approval inferred."
+}

@@ -1,0 +1,60 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Script" path="res://scripts/chapter_03/mechanisms/moving_platform.gd" id="1_script"]
+
+[sub_resource type="RectangleShape2D" id="Shape"]
+size = Vector2(128, 16)
+
+[sub_resource type="OccluderPolygon2D" id="Occlusion"]
+polygon = PackedVector2Array(-64, 0, 64, 0, 64, 16, -64, 16)
+
+[sub_resource type="Animation" id="Travel"]
+resource_name = "travel"
+length = 5.2
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/update_mode = 0
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.6, 2.6, 3.2, 5.2),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, 0), Vector2(0, -192), Vector2(0, -192), Vector2(0, 0)]
+}
+
+[sub_resource type="Animation" id="Reset"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/update_mode = 0
+tracks/0/keys = {"times": PackedFloat32Array(0), "transitions": PackedFloat32Array(1), "update": 0, "values": [Vector2(0, 0)]}
+
+[sub_resource type="AnimationLibrary" id="Library"]
+_data = {&"RESET": SubResource("Reset"), &"travel": SubResource("Travel")}
+
+[node name="C3MovingPlatform" type="Node2D"]
+metadata/authoring_status = "Reusable native lift mechanism; assign matching C3 platform artwork before section placement"
+metadata/placement_note = "Position this root at lower stop. Edit Body position keys for actual route endpoints; default 192-unit rise is a component test, not locked-map placement."
+
+[node name="Body" type="AnimatableBody2D" parent="."]
+collision_layer = 1
+collision_mask = 0
+sync_to_physics = true
+script = ExtResource("1_script")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Body"]
+position = Vector2(0, 8)
+shape = SubResource("Shape")
+
+[node name="Artwork" type="Sprite2D" parent="Body"]
+metadata/asset_id = "C3-PROP-028"
+metadata/texture_status = "Standalone source art pending; no placeholder illustration supplied"
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="Body"]
+occluder = SubResource("Occlusion")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Body"]
+callback_mode_process = 0
+libraries = {&"": SubResource("Library")}

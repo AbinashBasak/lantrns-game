@@ -1607,3 +1607,47 @@ The player heart list and health bar are restored to their prior artwork, sizing
 ## High-resolution reference jungle and real-time lighting — 2026-10-21
 
 The main forest and all three jungle rooms now use source-palette modular vegetation, supported treehouses/arches, waterfalls and capped terrain. Five new high-resolution generations replace magnified thumbnail scenery; original sources and earlier exports are preserved. Original player health UI stays unchanged; supplied guidance and keycaps retain live text. Native on/off frames verify dynamic world illumination. The lighting skill is installed and project memory updated. Existing checkboxes and final approvals remain unchanged. [Implementation](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/reference-jungle-and-lighting.md) · [Preview](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/reference-jungle-0-preview.png) · [Lighting proof](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/reference-lighting-render-proof.json) · [Persistent memory](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/project-memory.md).
+
+
+# Chapter 3 — The Sunken Temple: recovered sources
+
+The new Chapter 3 bible and locked map are recorded separately from the older Glasswater Fen campaign placeholders. Existing checkboxes are unchanged. Recovered generations are not production approval.
+- Production bible: [Chapter 3 production bible](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/lanterns_underroot_chapter_3_production_bible.md)
+- Source/progress report: [Chapter 3 intake](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/intake.md)
+- [ ] C3-CHR-001 — Player idle
+  - Saved folder: [C3-CHR-001](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001)
+  - Record: [metadata.json](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/metadata.json)
+  - Stage: originals recovered; cleanup and in-engine approval pending. Repeated idle attempts; edge clipping and identity/pivot review pending. Blue-haired mixed action reference supplied; transparent action exports remain pending.
+- [ ] C3-CHR-002 — Player run / recovered walk variant
+  - Saved folder: [C3-CHR-002](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-002)
+  - Record: [metadata.json](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-002/metadata.json)
+  - Stage: originals recovered; cleanup and in-engine approval pending. Run and walk source sheets; frame and pivot review pending. Walk is a source variant, not a newly invented asset ID.
+- [ ] C3-CHEST-ASSET-001 — Common chest opening
+  - Saved folder: [C3-CHEST-ASSET-001](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001)
+  - Record: [metadata.json](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/metadata.json)
+  - Stage: originals recovered; cleanup and in-engine approval pending. Number labels and bright painted interior effects are present. Remove labels by export cropping; emitted illumination remains native Godot. Lid/base consistency needs review.
+- [ ] C3-ENM-001 — Temple Mite
+  - Saved folder: [C3-ENM-001](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001)
+  - Record: [metadata.json](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/metadata.json)
+  - Stage: originals recovered; cleanup and in-engine approval pending. Selected idle has baked checkerboard and differs in silhouette from walk/attack family. Attack art is a slam; bible specifies hop. Do not silently change mechanics or approve this mixed family.
+- [ ] C3-ENM-002 — Crystal Wisp
+  - Saved folder: [C3-ENM-002](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002)
+  - Record: [metadata.json](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/metadata.json)
+  - Stage: originals recovered; cleanup and in-engine approval pending. Projectile and emitted light must be separate native scenes/nodes. Frame dimensions, clipping, and poses need review.
+- [ ] C3-ENM-003 — Drowned Archive Keeper
+  - Saved folder: [C3-ENM-003](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-003)
+  - Record: [metadata.json](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-003/metadata.json)
+  - Stage: originals recovered; cleanup and in-engine approval pending. Generated spectral glide/cast art conflicts with bible ground/swim/melee behavior. Preserve sources; no mechanic replacement approved.
+- [ ] C3-ENM-004 — Drowned Sentinel
+  - Saved folder: [C3-ENM-004](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-004)
+  - Record: [metadata.json](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-004/metadata.json)
+  - Stage: originals recovered; cleanup and in-engine approval pending. Death sheet absent. Shield/weapon continuity and core/VFX separation need review.
+
+- [ ] C3-REF-002 — Player scale reference boards
+  - Saved folder: [C3-REF-002](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/references/C3-REF-002)
+  - Record: [metadata.json](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/references/C3-REF-002/metadata.json)
+  - Stage: three user-supplied reference boards archived; printed scales conflict; final scale and production approval pending.
+
+## Chapter 3 supplied originals — 2026-10-25
+
+All 34 user attachments were checked and preserved (32 new unique originals, two exact duplicates). New material includes the mixed blue-haired action source, a transparent run strip, three scale boards, an additional chapter atlas and Mite/chest variants. Reference sheets do not imply finished transparent exports, approved animation families, standalone terrain or final gameplay integration. [Complete review](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/supplied-image-review.md) · [Every file and hash](/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/supplied-image-review.json).

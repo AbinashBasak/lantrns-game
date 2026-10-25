@@ -6,6 +6,151 @@
 [sub_resource type="CircleShape2D" id="Body"]
 radius = 20.0
 
+[sub_resource type="Animation" id="Clip_attack"]
+resource_name = "attack"
+length = 0.850000
+loop_mode = 0
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 0
+tracks/0/update_mode = 1
+tracks/0/keys = {"times": PackedFloat32Array(0), "transitions": PackedFloat32Array(1), "update": 1, "values": [&"attack"]}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 0
+tracks/1/update_mode = 1
+tracks/1/keys = {"times": PackedFloat32Array(0.000000, 0.140000, 0.300000, 0.420000, 0.510000, 0.650000), "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1), "update": 1, "values": [0, 1, 2, 3, 4, 5]}
+
+[sub_resource type="Animation" id="Clip_defeat"]
+resource_name = "defeat"
+length = 1.410000
+loop_mode = 0
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 0
+tracks/0/update_mode = 1
+tracks/0/keys = {"times": PackedFloat32Array(0), "transitions": PackedFloat32Array(1), "update": 1, "values": [&"defeat"]}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 0
+tracks/1/update_mode = 1
+tracks/1/keys = {"times": PackedFloat32Array(0.000000, 0.140000, 0.300000, 0.480000, 0.700000, 0.960000), "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1), "update": 1, "values": [0, 1, 2, 3, 4, 5]}
+
+[sub_resource type="Animation" id="Clip_hurt"]
+resource_name = "hurt"
+length = 0.880000
+loop_mode = 0
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 0
+tracks/0/update_mode = 1
+tracks/0/keys = {"times": PackedFloat32Array(0), "transitions": PackedFloat32Array(1), "update": 1, "values": [&"hurt"]}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 0
+tracks/1/update_mode = 1
+tracks/1/keys = {"times": PackedFloat32Array(0.000000, 0.140000, 0.230000, 0.370000, 0.540000, 0.700000), "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1), "update": 1, "values": [0, 1, 2, 3, 4, 5]}
+
+[sub_resource type="Animation" id="Clip_idle"]
+resource_name = "idle"
+length = 1.040000
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 0
+tracks/0/update_mode = 1
+tracks/0/keys = {"times": PackedFloat32Array(0), "transitions": PackedFloat32Array(1), "update": 1, "values": [&"idle"]}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 0
+tracks/1/update_mode = 1
+tracks/1/keys = {"times": PackedFloat32Array(0.000000, 0.180000, 0.360000, 0.520000, 0.700000, 0.880000), "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1), "update": 1, "values": [0, 1, 2, 3, 4, 5]}
+
+[sub_resource type="Animation" id="Clip_move"]
+resource_name = "move"
+length = 0.720000
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 0
+tracks/0/update_mode = 1
+tracks/0/keys = {"times": PackedFloat32Array(0), "transitions": PackedFloat32Array(1), "update": 1, "values": [&"move"]}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 0
+tracks/1/update_mode = 1
+tracks/1/keys = {"times": PackedFloat32Array(0.000000, 0.120000, 0.240000, 0.360000, 0.480000, 0.600000), "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1), "update": 1, "values": [0, 1, 2, 3, 4, 5]}
+
+[sub_resource type="Animation" id="Clip_telegraph"]
+resource_name = "telegraph"
+length = 1.000000
+loop_mode = 0
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 0
+tracks/0/update_mode = 1
+tracks/0/keys = {"times": PackedFloat32Array(0), "transitions": PackedFloat32Array(1), "update": 1, "values": [&"attack"]}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 0
+tracks/1/update_mode = 1
+tracks/1/keys = {"times": PackedFloat32Array(0.000000), "transitions": PackedFloat32Array(1), "update": 1, "values": [0]}
+
+[sub_resource type="AnimationLibrary" id="EnemyClips"]
+_data = {
+&"attack": SubResource("Clip_attack"),
+&"defeat": SubResource("Clip_defeat"),
+&"hurt": SubResource("Clip_hurt"),
+&"idle": SubResource("Clip_idle"),
+&"move": SubResource("Clip_move"),
+&"telegraph": SubResource("Clip_telegraph")
+}
+
+[sub_resource type="AnimationNodeAnimation" id="State_attack"]
+animation = &"attack"
+
+[sub_resource type="AnimationNodeAnimation" id="State_defeat"]
+animation = &"defeat"
+
+[sub_resource type="AnimationNodeAnimation" id="State_hurt"]
+animation = &"hurt"
+
+[sub_resource type="AnimationNodeAnimation" id="State_idle"]
+animation = &"idle"
+
+[sub_resource type="AnimationNodeAnimation" id="State_move"]
+animation = &"move"
+
+[sub_resource type="AnimationNodeAnimation" id="State_telegraph"]
+animation = &"telegraph"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="Immediate"]
+reset = true
+
+[sub_resource type="AnimationNodeStateMachine" id="EnemyStates"]
+states/attack/node = SubResource("State_attack")
+states/attack/position = Vector2(220, 80)
+states/defeat/node = SubResource("State_defeat")
+states/defeat/position = Vector2(440, 80)
+states/hurt/node = SubResource("State_hurt")
+states/hurt/position = Vector2(660, 80)
+states/idle/node = SubResource("State_idle")
+states/idle/position = Vector2(220, 220)
+states/move/node = SubResource("State_move")
+states/move/position = Vector2(440, 220)
+states/telegraph/node = SubResource("State_telegraph")
+states/telegraph/position = Vector2(660, 220)
+transitions = ["attack", "defeat", SubResource("Immediate"), "attack", "hurt", SubResource("Immediate"), "attack", "idle", SubResource("Immediate"), "attack", "move", SubResource("Immediate"), "attack", "telegraph", SubResource("Immediate"), "defeat", "attack", SubResource("Immediate"), "defeat", "hurt", SubResource("Immediate"), "defeat", "idle", SubResource("Immediate"), "defeat", "move", SubResource("Immediate"), "defeat", "telegraph", SubResource("Immediate"), "hurt", "attack", SubResource("Immediate"), "hurt", "defeat", SubResource("Immediate"), "hurt", "idle", SubResource("Immediate"), "hurt", "move", SubResource("Immediate"), "hurt", "telegraph", SubResource("Immediate"), "idle", "attack", SubResource("Immediate"), "idle", "defeat", SubResource("Immediate"), "idle", "hurt", SubResource("Immediate"), "idle", "move", SubResource("Immediate"), "idle", "telegraph", SubResource("Immediate"), "move", "attack", SubResource("Immediate"), "move", "defeat", SubResource("Immediate"), "move", "hurt", SubResource("Immediate"), "move", "idle", SubResource("Immediate"), "move", "telegraph", SubResource("Immediate"), "telegraph", "attack", SubResource("Immediate"), "telegraph", "defeat", SubResource("Immediate"), "telegraph", "hurt", SubResource("Immediate"), "telegraph", "idle", SubResource("Immediate"), "telegraph", "move", SubResource("Immediate")]
+
+[sub_resource type="AnimationNodeTimeScale" id="PlaybackSpeed"]
+
+[sub_resource type="AnimationNodeBlendTree" id="EnemyGraph"]
+nodes/States/node = SubResource("EnemyStates")
+nodes/States/position = Vector2(0, 0)
+nodes/Speed/node = SubResource("PlaybackSpeed")
+nodes/Speed/position = Vector2(240, 0)
+node_connections = [&"output", 0, &"Speed", &"Speed", 0, &"States"]
+
 [node name="Thornling" type="CharacterBody2D" unique_id=1801627723]
 collision_layer = 4
 script = ExtResource("1")
@@ -18,6 +163,53 @@ shape = SubResource("Body")
 scale = Vector2(0.18, 0.18)
 sprite_frames = ExtResource("2_mjafe")
 animation = &"idle"
-autoplay = "idle"
 centered = false
 offset = Vector2(-256, -480)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {&"": SubResource("EnemyClips")}
+
+[node name="AnimationTree" type="AnimationTree" parent="."]
+tree_root = SubResource("EnemyGraph")
+anim_player = NodePath("../AnimationPlayer")
+active = true
+parameters/Speed/scale = 1.0
+
+[node name="ImpactDust" type="CPUParticles2D" parent="."]
+position = Vector2(0, -28)
+emitting = false
+amount = 12
+lifetime = 0.35
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0, -1)
+spread = 100.0
+gravity = Vector2(0, 160)
+initial_velocity_min = 30.0
+initial_velocity_max = 75.0
+scale_amount_min = 1.0
+scale_amount_max = 2.5
+color = Color(0.94, 0.68, 0.29, 0.8)
+
+[node name="Telegraph" type="Node2D" parent="."]
+visible = false
+
+[node name="WarningArc" type="Line2D" parent="Telegraph"]
+points = PackedVector2Array(-34.0, -20.0, -33.581, -25.319, -32.336, -30.507, -30.294, -35.436, -27.507, -39.985, -24.042, -44.042, -19.985, -47.507, -15.436, -50.294, -10.507, -52.336, -5.319, -53.581, -0.0, -54.0, 5.319, -53.581, 10.507, -52.336, 15.436, -50.294, 19.985, -47.507, 24.042, -44.042, 27.507, -39.985, 30.294, -35.436, 32.336, -30.507, 33.581, -25.319, 34.0, -20.0)
+width = 3
+default_color = Color(1, 0.78, 0.46, 1)
+antialiased = true
+
+[node name="WarningMark" type="Line2D" parent="Telegraph"]
+points = PackedVector2Array(0, -68, 0, -54)
+width = 4.0
+default_color = Color(1, 0.89, 0.63, 1)
+
+[node name="Strike" type="Node2D" parent="."]
+visible = false
+
+[node name="StrikeArc" type="Line2D" parent="Strike"]
+points = PackedVector2Array(22.0, -50.0, 26.693, -49.631, 31.271, -48.532, 35.62, -46.73, 39.634, -44.271, 43.213, -41.213, 46.271, -37.634, 48.73, -33.62, 50.532, -29.271, 51.631, -24.693, 52.0, -20.0, 51.631, -15.307, 50.532, -10.729, 48.73, -6.38, 46.271, -2.366, 43.213, 1.213, 39.634, 4.271, 35.62, 6.73, 31.271, 8.532, 26.693, 9.631, 22.0, 10.0)
+width = 4
+default_color = Color(0.87, 0.67, 0.41, 1)
+antialiased = true

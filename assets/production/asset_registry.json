@@ -3,9 +3,9 @@
   "project_checklist_copy": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/lanterns_underroot_master_asset_checklist.md",
   "asset_library_root": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production",
   "source_chat": "https://chatgpt.com/share/6ad136a4-4cc8-83ee-9742-05bc90e2a1dc",
-  "last_updated": "2026-10-24T03:00:00+05:30",
+  "last_updated": "2026-10-25",
   "checked_count": 197,
-  "asset_count": 217,
+  "asset_count": 225,
   "assets": [
     {
       "asset_id": "ART-001",
@@ -10675,6 +10675,102 @@
       "subsection": null,
       "checked": false,
       "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/phase_11_release_assets/RELEASE-007"
+    },
+    {
+      "asset_id": "C3-CHR-001",
+      "title": "Player idle",
+      "phase": "C3",
+      "subsection": "source_recovery",
+      "checked": false,
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001",
+      "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/source_images/C3-CHR-001_idle_attempt_202_msg_202_00000000ef58820885b82be6b68c6e2a.png",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-001/metadata.json",
+      "source_count": 10,
+      "stage": "originals archived; native Idle/Run review authored; clean gameplay exports pending"
+    },
+    {
+      "asset_id": "C3-CHR-002",
+      "title": "Player run / recovered walk variant",
+      "phase": "C3",
+      "subsection": "source_recovery",
+      "checked": false,
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-002",
+      "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-002/source_images/C3-CHR-002_run_msg_244_0000000041648208ad185d80f8ff6f81.png",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-002/metadata.json",
+      "source_count": 3,
+      "stage": "originals archived; native Idle/Run review authored; clean gameplay exports pending"
+    },
+    {
+      "asset_id": "C3-CHEST-ASSET-001",
+      "title": "Common chest opening",
+      "phase": "C3",
+      "subsection": "source_recovery",
+      "checked": false,
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001",
+      "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/source_images/C3-CHEST-ASSET-001_opening_msg_261_000000006bf082088cf88cc37cce9e7a.png",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/chests/C3-CHEST-ASSET-001/metadata.json",
+      "source_count": 13,
+      "stage": "originals recovered; cleanup and in-engine approval pending"
+    },
+    {
+      "asset_id": "C3-ENM-001",
+      "title": "Temple Mite",
+      "phase": "C3",
+      "subsection": "source_recovery",
+      "checked": false,
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001",
+      "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_idle_msg_281_00000000e7408208b7e2dc2e9a9ed7f1.png",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/metadata.json",
+      "source_count": 12,
+      "stage": "originals recovered; cleanup and in-engine approval pending"
+    },
+    {
+      "asset_id": "C3-ENM-002",
+      "title": "Crystal Wisp",
+      "phase": "C3",
+      "subsection": "source_recovery",
+      "checked": false,
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002",
+      "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/source_images/C3-ENM-002_hover_msg_319_00000000437882088ef1167d3c2dead2.png",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-002/metadata.json",
+      "source_count": 4,
+      "stage": "originals recovered; cleanup and in-engine approval pending"
+    },
+    {
+      "asset_id": "C3-ENM-003",
+      "title": "Drowned Archive Keeper",
+      "phase": "C3",
+      "subsection": "source_recovery",
+      "checked": false,
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-003",
+      "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-003/source_images/C3-ENM-003_idle_msg_347_00000000b45c8208bf485d87f3819d5a.png",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-003/metadata.json",
+      "source_count": 5,
+      "stage": "originals recovered; cleanup and in-engine approval pending"
+    },
+    {
+      "asset_id": "C3-ENM-004",
+      "title": "Drowned Sentinel",
+      "phase": "C3",
+      "subsection": "source_recovery",
+      "checked": false,
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-004",
+      "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-004/source_images/C3-ENM-004_idle_msg_377_00000000a61c820897dab0c7f746d271.png",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-004/metadata.json",
+      "source_count": 4,
+      "stage": "originals recovered; cleanup and in-engine approval pending"
+    },
+    {
+      "asset_id": "C3-REF-002",
+      "title": "Chapter 3 player scale reference boards",
+      "phase": "C3",
+      "subsection": "style_and_scale",
+      "checked": false,
+      "folder": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/references/C3-REF-002",
+      "metadata": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/references/C3-REF-002/metadata.json",
+      "source_count": 3,
+      "stage": "supplied reference boards archived; final scale not approved",
+      "primary_image": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/references/C3-REF-002/source_images/C3-REF-002_user_attachment_03_1bcf6959-8c86-47e5-af3a-bc0270bd7d9a.png"
     }
   ],
   "phase_04_component_status": {
@@ -10726,5 +10822,6 @@
       "pack_count": 11,
       "stage": "reviewed prototype delivery complete; final production approval pending"
     }
-  }
+  },
+  "chapter_03_source_chat": "https://chatgpt.com/share/6adcfe72-eeb4-83ee-b43a-a08319abf676"
 }

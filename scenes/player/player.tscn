@@ -3,9 +3,352 @@
 [ext_resource type="Script" uid="uid://c1g1qvnfyg13j" path="res://scripts/player/player_controller.gd" id="1"]
 [ext_resource type="SpriteFrames" path="res://assets/characters/tavi/sprite_frames.tres" id="2"]
 
+[ext_resource type="Texture2D" path="res://assets/runtime/shared/lighting/soft_radial.tres" id="3_light"]
+
 [sub_resource type="CapsuleShape2D" id="Body"]
 radius = 14.0
 height = 64.0
+
+
+[sub_resource type="Animation" id="Anim_idle"]
+resource_name = "idle"
+length = 1.1428571428571428
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 0
+tracks/0/update_mode = 1
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"idle"]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 0
+tracks/1/update_mode = 1
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0, 0.1428571, 0.2857143, 0.4285714, 0.5714286, 0.7142857, 0.8571429, 1.0),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Effects/SwordLight:energy")
+tracks/2/interp = 0
+tracks/2/update_mode = 1
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="AnimationNodeAnimation" id="State_idle"]
+animation = &"idle"
+
+[sub_resource type="Animation" id="Anim_run"]
+resource_name = "run"
+length = 1
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 0
+tracks/0/update_mode = 1
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"run"]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 0
+tracks/1/update_mode = 1
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0, 0.0833333, 0.1666667, 0.25, 0.3333333, 0.4166667, 0.5, 0.5833333, 0.6666667, 0.75, 0.8333333, 0.9166667),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Effects/SwordLight:energy")
+tracks/2/interp = 0
+tracks/2/update_mode = 1
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="AnimationNodeAnimation" id="State_run"]
+animation = &"run"
+
+[sub_resource type="Animation" id="Anim_jump_start"]
+resource_name = "jump_start"
+length = 0.6666666666666666
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 0
+tracks/0/update_mode = 1
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"jump_start"]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 0
+tracks/1/update_mode = 1
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0, 0.0833333, 0.1666667, 0.25, 0.3333333, 0.4166667, 0.5, 0.5833333),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Effects/SwordLight:energy")
+tracks/2/interp = 0
+tracks/2/update_mode = 1
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="AnimationNodeAnimation" id="State_jump_start"]
+animation = &"jump_start"
+
+[sub_resource type="Animation" id="Anim_jump_rise"]
+resource_name = "jump_rise"
+length = 0.8
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 0
+tracks/0/update_mode = 1
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"jump_rise"]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 0
+tracks/1/update_mode = 1
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Effects/SwordLight:energy")
+tracks/2/interp = 0
+tracks/2/update_mode = 1
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="AnimationNodeAnimation" id="State_jump_rise"]
+animation = &"jump_rise"
+
+[sub_resource type="Animation" id="Anim_jump_fall"]
+resource_name = "jump_fall"
+length = 0.8
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 0
+tracks/0/update_mode = 1
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"jump_fall"]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 0
+tracks/1/update_mode = 1
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Effects/SwordLight:energy")
+tracks/2/interp = 0
+tracks/2/update_mode = 1
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="AnimationNodeAnimation" id="State_jump_fall"]
+animation = &"jump_fall"
+
+[sub_resource type="Animation" id="Anim_landing"]
+resource_name = "landing"
+length = 0.22
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 0
+tracks/0/update_mode = 1
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"landing"]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 0
+tracks/1/update_mode = 1
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0, 0.0275, 0.055, 0.0825, 0.11, 0.1375, 0.165, 0.1925),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Effects/SwordLight:energy")
+tracks/2/interp = 0
+tracks/2/update_mode = 1
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="AnimationNodeAnimation" id="State_landing"]
+animation = &"landing"
+
+[sub_resource type="Animation" id="Anim_attack_1"]
+resource_name = "attack_1"
+length = 0.44
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 0
+tracks/0/update_mode = 1
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"attack_1"]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 0
+tracks/1/update_mode = 1
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0, 0.055, 0.11, 0.165, 0.22, 0.275, 0.33, 0.385),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Effects/SwordLight:energy")
+tracks/2/interp = 0
+tracks/2/update_mode = 1
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.12, 0.3, 0.44),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [0, 0.55, 0, 0]
+}
+
+[sub_resource type="AnimationNodeAnimation" id="State_attack_1"]
+animation = &"attack_1"
+
+[sub_resource type="Animation" id="Anim_attack_combo"]
+resource_name = "attack_combo"
+length = 0.48
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 0
+tracks/0/update_mode = 1
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"attack_1"]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 0
+tracks/1/update_mode = 1
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0, 0.06, 0.12, 0.18, 0.24, 0.3, 0.36, 0.42),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Effects/SwordLight:energy")
+tracks/2/interp = 0
+tracks/2/update_mode = 1
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.12, 0.3, 0.48),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [0, 0.55, 0, 0]
+}
+
+[sub_resource type="AnimationNodeAnimation" id="State_attack_combo"]
+animation = &"attack_combo"
+
+[sub_resource type="AnimationLibrary" id="PlayerAnimationLibrary"]
+_data = {
+&"idle": SubResource("Anim_idle"),
+&"run": SubResource("Anim_run"),
+&"jump_start": SubResource("Anim_jump_start"),
+&"jump_rise": SubResource("Anim_jump_rise"),
+&"jump_fall": SubResource("Anim_jump_fall"),
+&"landing": SubResource("Anim_landing"),
+&"attack_1": SubResource("Anim_attack_1"),
+&"attack_combo": SubResource("Anim_attack_combo")
+}
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="Immediate"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="StartIdle"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachine" id="PlayerStateMachine"]
+states/idle/node = SubResource("State_idle")
+states/idle/position = Vector2(220, 80)
+states/run/node = SubResource("State_run")
+states/run/position = Vector2(420, 80)
+states/jump_start/node = SubResource("State_jump_start")
+states/jump_start/position = Vector2(620, 80)
+states/jump_rise/node = SubResource("State_jump_rise")
+states/jump_rise/position = Vector2(820, 80)
+states/jump_fall/node = SubResource("State_jump_fall")
+states/jump_fall/position = Vector2(220, 240)
+states/landing/node = SubResource("State_landing")
+states/landing/position = Vector2(420, 240)
+states/attack_1/node = SubResource("State_attack_1")
+states/attack_1/position = Vector2(620, 240)
+states/attack_combo/node = SubResource("State_attack_combo")
+states/attack_combo/position = Vector2(820, 240)
+transitions = ["Start", "idle", SubResource("StartIdle"), "idle", "run", SubResource("Immediate"), "idle", "jump_start", SubResource("Immediate"), "idle", "jump_rise", SubResource("Immediate"), "idle", "jump_fall", SubResource("Immediate"), "idle", "landing", SubResource("Immediate"), "idle", "attack_1", SubResource("Immediate"), "idle", "attack_combo", SubResource("Immediate"), "run", "idle", SubResource("Immediate"), "run", "jump_start", SubResource("Immediate"), "run", "jump_rise", SubResource("Immediate"), "run", "jump_fall", SubResource("Immediate"), "run", "landing", SubResource("Immediate"), "run", "attack_1", SubResource("Immediate"), "run", "attack_combo", SubResource("Immediate"), "jump_start", "idle", SubResource("Immediate"), "jump_start", "run", SubResource("Immediate"), "jump_start", "jump_rise", SubResource("Immediate"), "jump_start", "jump_fall", SubResource("Immediate"), "jump_start", "landing", SubResource("Immediate"), "jump_start", "attack_1", SubResource("Immediate"), "jump_start", "attack_combo", SubResource("Immediate"), "jump_rise", "idle", SubResource("Immediate"), "jump_rise", "run", SubResource("Immediate"), "jump_rise", "jump_start", SubResource("Immediate"), "jump_rise", "jump_fall", SubResource("Immediate"), "jump_rise", "landing", SubResource("Immediate"), "jump_rise", "attack_1", SubResource("Immediate"), "jump_rise", "attack_combo", SubResource("Immediate"), "jump_fall", "idle", SubResource("Immediate"), "jump_fall", "run", SubResource("Immediate"), "jump_fall", "jump_start", SubResource("Immediate"), "jump_fall", "jump_rise", SubResource("Immediate"), "jump_fall", "landing", SubResource("Immediate"), "jump_fall", "attack_1", SubResource("Immediate"), "jump_fall", "attack_combo", SubResource("Immediate"), "landing", "idle", SubResource("Immediate"), "landing", "run", SubResource("Immediate"), "landing", "jump_start", SubResource("Immediate"), "landing", "jump_rise", SubResource("Immediate"), "landing", "jump_fall", SubResource("Immediate"), "landing", "attack_1", SubResource("Immediate"), "landing", "attack_combo", SubResource("Immediate"), "attack_1", "idle", SubResource("Immediate"), "attack_1", "run", SubResource("Immediate"), "attack_1", "jump_start", SubResource("Immediate"), "attack_1", "jump_rise", SubResource("Immediate"), "attack_1", "jump_fall", SubResource("Immediate"), "attack_1", "landing", SubResource("Immediate"), "attack_1", "attack_combo", SubResource("Immediate"), "attack_combo", "idle", SubResource("Immediate"), "attack_combo", "run", SubResource("Immediate"), "attack_combo", "jump_start", SubResource("Immediate"), "attack_combo", "jump_rise", SubResource("Immediate"), "attack_combo", "jump_fall", SubResource("Immediate"), "attack_combo", "landing", SubResource("Immediate"), "attack_combo", "attack_1", SubResource("Immediate")]
+
+[sub_resource type="Gradient" id="DustFade"]
+colors = PackedColorArray(0.72, 0.68, 0.53, 0.38, 0.72, 0.68, 0.53, 0)
+
+[sub_resource type="Gradient" id="SparkFade"]
+colors = PackedColorArray(1, 0.85, 0.5, 0.9, 1, 0.55, 0.15, 0)
 
 [node name="Tavi" type="CharacterBody2D" unique_id=1185879407]
 collision_layer = 2
@@ -20,4 +363,73 @@ position = Vector2(-3.9999998, -40)
 scale = Vector2(0.2, 0.2)
 sprite_frames = ExtResource("2")
 animation = &"idle"
-autoplay = "idle"
+
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("PlayerAnimationLibrary")
+}
+
+[node name="AnimationTree" type="AnimationTree" parent="."]
+tree_root = SubResource("PlayerStateMachine")
+anim_player = NodePath("../AnimationPlayer")
+active = true
+
+[node name="Effects" type="Node2D" parent="."]
+
+[node name="JumpDust" type="CPUParticles2D" parent="Effects"]
+emitting = false
+amount = 10
+lifetime = 0.3
+one_shot = true
+explosiveness = 1.0
+local_coords = false
+direction = Vector2(0, -1)
+spread = 65.0
+gravity = Vector2(0, 100)
+initial_velocity_min = 28.0
+initial_velocity_max = 65.0
+scale_amount_min = 2.0
+scale_amount_max = 4.0
+color_ramp = SubResource("DustFade")
+
+[node name="LandingDust" type="CPUParticles2D" parent="Effects"]
+emitting = false
+amount = 16
+lifetime = 0.35
+one_shot = true
+explosiveness = 1.0
+local_coords = false
+direction = Vector2(1, -0.3)
+spread = 160.0
+gravity = Vector2(0, 80)
+initial_velocity_min = 30.0
+initial_velocity_max = 85.0
+scale_amount_min = 2.0
+scale_amount_max = 5.0
+color_ramp = SubResource("DustFade")
+
+[node name="SwordHit" type="CPUParticles2D" parent="Effects"]
+position = Vector2(54, -44)
+emitting = false
+amount = 14
+lifetime = 0.22
+one_shot = true
+explosiveness = 1.0
+local_coords = false
+direction = Vector2(1, -0.2)
+spread = 105.0
+gravity = Vector2(0, 100)
+initial_velocity_min = 45.0
+initial_velocity_max = 140.0
+scale_amount_min = 1.0
+scale_amount_max = 3.0
+color_ramp = SubResource("SparkFade")
+
+[node name="SwordLight" type="PointLight2D" parent="Effects"]
+position = Vector2(54, -44)
+color = Color(1, 0.78, 0.36, 1)
+energy = 0.0
+texture = ExtResource("3_light")
+texture_scale = 0.26
+shadow_enabled = false

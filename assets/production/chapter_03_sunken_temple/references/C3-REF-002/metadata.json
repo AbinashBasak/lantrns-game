@@ -1,0 +1,132 @@
+{
+  "asset_id": "C3-REF-002",
+  "title": "Chapter 3 player scale reference boards",
+  "stage": "supplied reference boards archived; final scale not approved",
+  "production_approved": false,
+  "notes": "Reference boards include inconsistent printed player scales (56\u201360,96,160 pixels) and brown-haired examples. Text inside boards does not replace the locked blue-haired design or approve a scale change. Do not upscale thumbnails into playable scenery.",
+  "sources": [
+    {
+      "action": "scale_reference_board",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/references/C3-REF-002/source_images/C3-REF-002_user_attachment_03_1bcf6959-8c86-47e5-af3a-bc0270bd7d9a.png",
+      "sha256": "03ae646e46d92be748c68731270650012f8be6b3deb71e6afa1e3d01b29eb639",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        5,
+        252
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 3,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/1bcf6959-8c86-47e5-af3a-bc0270bd7d9a.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 131,
+        "source_message_id": "301aba13-91aa-4c43-9a9b-4af21a2571ac",
+        "source_image_title": "Sunken Temple Player Scale Guide",
+        "source_file_id": "file_00000000551482088fa7e276cf2757b1",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Player scale guide, 56\u201360 pixel hero with 64-pixel tile",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "scale_reference_board",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/references/C3-REF-002/source_images/C3-REF-002_user_attachment_26_be55f028-0c11-4725-90f1-491b3804813d.png",
+      "sha256": "d98e982e1654056b463380e5353f82be002968a75056cbcf5cb60d54f7631d15",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        2,
+        252
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 26,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/be55f028-0c11-4725-90f1-491b3804813d.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 129,
+        "source_message_id": "3a369497-5938-4e2c-9bca-3da1fa442066",
+        "source_image_title": "Sunken Temple Scale Reference Sheet",
+        "source_file_id": "file_00000000f754820888e3a75b22f07efd",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Player scale reference 160-pixel hero and 64-pixel tile",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "scale_reference_board",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/references/C3-REF-002/source_images/C3-REF-002_user_attachment_28_e64ff055-ae0a-45eb-9ca4-ae522530f8cf.png",
+      "sha256": "1121326188f5ea9e7eaaf2082f427a1ab721de9a62f1c9e8d8fa71d7827e1632",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        1,
+        252
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 28,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/e64ff055-ae0a-45eb-9ca4-ae522530f8cf.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 134,
+        "source_message_id": "bdd14a52-fa2f-44ce-bcba-e667cac5d3c0",
+        "source_image_title": "Lanterns Underroot: Player Scale Reference",
+        "source_file_id": "file_0000000002448208a5a54bcec47349bc",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Player scale reference 96-pixel hero and 64-pixel tile",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    }
+  ],
+  "runtime_exports": [],
+  "preview_paths": [],
+  "attachment_review_status": "All supplied originals cataloged; no production approval inferred."
+}

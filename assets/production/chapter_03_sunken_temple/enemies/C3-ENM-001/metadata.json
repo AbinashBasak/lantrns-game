@@ -1,0 +1,439 @@
+{
+  "asset_id": "C3-ENM-001",
+  "title": "Temple Mite",
+  "source_chat": "https://chatgpt.com/share/6adcfe72-eeb4-83ee-b43a-a08319abf676",
+  "stage": "originals recovered; cleanup and in-engine approval pending",
+  "production_approved": false,
+  "notes": "Selected idle has baked checkerboard and differs in silhouette from walk/attack family. Attack art is a slam; bible specifies hop. Do not silently change mechanics or approve this mixed family.",
+  "sources": [
+    {
+      "action": "idle",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_idle_msg_281_00000000e7408208b7e2dc2e9a9ed7f1.png",
+      "sha256": "4f9d344ceb3fa17548b9000732e7f668d0dec9c674a12dcf09dc5f1332da3a87",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "visible_bounds": null,
+      "has_alpha_channel": false,
+      "alpha_extrema": null,
+      "transparent_pixels_present": false,
+      "source_message_id": "317779b4-66e1-4834-b8bf-8c58c3d3258a",
+      "source_message_index": 281,
+      "source_pointer": "sediment://file_00000000e7408208b7e2dc2e9a9ed7f1?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "provenance": "downloaded original; unchanged; no reconstructed pixels",
+      "frame_count_claimed_in_chat": 6,
+      "frame_count_verified": false,
+      "timing_status": "source chat suggestions only; not yet timed in engine",
+      "pivot_status": "not normalized",
+      "production_approved": false
+    },
+    {
+      "action": "walk",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_walk_msg_289_00000000344c8208a250b021ba4ce070.png",
+      "sha256": "25fbe17cbaa11fa176646744884ad6961288f5604eda4cad667dc0eeeb656b36",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "visible_bounds": [
+        25,
+        9,
+        2152,
+        674
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": "bfa0c6a5-377a-45b6-85f4-1a6984cb60eb",
+      "source_message_index": 289,
+      "source_pointer": "sediment://file_00000000344c8208a250b021ba4ce070?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "provenance": "downloaded original; unchanged; no reconstructed pixels",
+      "frame_count_claimed_in_chat": 6,
+      "frame_count_verified": false,
+      "timing_status": "source chat suggestions only; not yet timed in engine",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 289,
+        "source_message_id": "bfa0c6a5-377a-45b6-85f4-1a6984cb60eb",
+        "source_image_title": "Six-Frame Crystal Bug Walk Cycle",
+        "source_file_id": "file_00000000344c8208a250b021ba4ce070",
+        "source_match_status": "exact_archived_hash",
+        "source_match_evidence": "SHA256 identical to previously archived original"
+      },
+      "visual_description": "Six-frame Mite walking strip, true alpha",
+      "source_match_status": "exact_archived_hash"
+    },
+    {
+      "action": "attack",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_attack_msg_298_000000003cdc8211af329f68a3691ac1.png",
+      "sha256": "dafef54ba60489a23bdc5e6dc2e8d5d6cb4556ea5585302686df7289bf42765a",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "visible_bounds": [
+        0,
+        17,
+        2158,
+        724
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": "b5c2c469-c4a5-4cc1-9800-05897f25fc13",
+      "source_message_index": 298,
+      "source_pointer": "sediment://file_000000003cdc8211af329f68a3691ac1?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "provenance": "downloaded original; unchanged; no reconstructed pixels",
+      "frame_count_claimed_in_chat": 6,
+      "frame_count_verified": false,
+      "timing_status": "source chat suggestions only; not yet timed in engine",
+      "pivot_status": "not normalized",
+      "production_approved": false
+    },
+    {
+      "action": "hurt",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_hurt_msg_304_000000000e2c8208a6ed584dcc05e8d2.png",
+      "sha256": "a1634ee7f10c28f530e7f7a8c6f6c6523d33f75699e307749cd9edcaa2c7c5e7",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "visible_bounds": [
+        0,
+        9,
+        2172,
+        724
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": "04d8231b-b9dd-4cb0-8d23-0194ca7537c6",
+      "source_message_index": 304,
+      "source_pointer": "sediment://file_000000000e2c8208a6ed584dcc05e8d2?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "provenance": "downloaded original; unchanged; no reconstructed pixels",
+      "frame_count_claimed_in_chat": 6,
+      "frame_count_verified": false,
+      "timing_status": "source chat suggestions only; not yet timed in engine",
+      "pivot_status": "not normalized",
+      "production_approved": false
+    },
+    {
+      "action": "death",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_death_msg_313_000000006b3c8208b6e32cec36d799ad.png",
+      "sha256": "861857908eff3fb75a943d7d3ab0c4bf7b7b05c945c5e89fd7807e8d08d995b2",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "visible_bounds": [
+        0,
+        9,
+        2172,
+        724
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": "80e67e61-0e8a-4ede-8755-0cdc67ed9287",
+      "source_message_index": 313,
+      "source_pointer": "sediment://file_000000006b3c8208b6e32cec36d799ad?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "provenance": "downloaded original; unchanged; no reconstructed pixels",
+      "frame_count_claimed_in_chat": 6,
+      "frame_count_verified": false,
+      "timing_status": "source chat suggestions only; not yet timed in engine",
+      "pivot_status": "not normalized",
+      "production_approved": false
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_user_attachment_01_0bafb9af-cc55-48f0-8ef9-8aa626e0a609.png",
+      "sha256": "4430cece23b6371ebba38e5a4145972424ce144731b9d02a2c5b29aad48bfb46",
+      "dimensions": [
+        1993,
+        789
+      ],
+      "visible_bounds": [
+        0,
+        35,
+        1992,
+        767
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 1,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/0bafb9af-cc55-48f0-8ef9-8aa626e0a609.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 270,
+        "source_message_id": "8d397d92-1305-44a8-8f15-79b2e50342eb",
+        "source_image_title": "Six-Frame Mossy Temple Beetle Sprite Sheet",
+        "source_file_id": "file_00000000380c8208858cc223b3862d5f",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Six-frame moss temple beetle idle attempt; shell identity differs from final Mite",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_user_attachment_05_2fe76b06-949b-470c-8cc2-45da56895122.png",
+      "sha256": "142bd166f6d2da9a275c059b6825b5991b764ebe08563f667983a6f7e75cb742",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "visible_bounds": [
+        16,
+        53,
+        2156,
+        724
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 5,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/2fe76b06-949b-470c-8cc2-45da56895122.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 279,
+        "source_message_id": "dad7bcf1-95b6-4313-b699-86a86ae2f1d1",
+        "source_image_title": "Crystal-Crusted Crab Sprite Animation",
+        "source_file_id": "file_00000000a3088208a12005c880f0d822",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Six-frame crystal-crusted Mite idle attempt",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_user_attachment_08_34ec6c51-657b-4f40-b5f1-84660a95d919.png",
+      "sha256": "bcbda551092e6590197e4732a877fdff8df61add664f14d39b852121afbc01f3",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "visible_bounds": [
+        0,
+        19,
+        1774,
+        887
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 8,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/34ec6c51-657b-4f40-b5f1-84660a95d919.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 159,
+        "source_message_id": "f56c3642-e8a3-4784-b3ed-7a088daa80f1",
+        "source_image_title": "Temple Mite Enemy Sprite Sheet",
+        "source_file_id": "file_00000000afa882118ed694b56191b126",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Red-eyed Mite action atlas with labels",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_user_attachment_20_a336de21-5853-4cbe-a5a2-f22f5ce1214b.png",
+      "sha256": "cc9478b5c5d2f99c9d7864a2d7b412c6cbdc4f673778bf0cd328a86ea6637d57",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 20,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/a336de21-5853-4cbe-a5a2-f22f5ce1214b.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 189,
+        "source_message_id": "875fedda-d43a-4900-99ad-c7aca821bbe9",
+        "source_image_title": "Temple Mite Animation Sheet",
+        "source_file_id": "file_00000000321c8208b32e64c0560f350e",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Temple Mite labeled action/specification atlas",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_user_attachment_21_aa90e2ad-4308-4ede-b3e1-4c2dfec8a50e.png",
+      "sha256": "272a4bc21f5eb331e62133b9b99cadbf3999b9e7ab196a6fdc08e6dc3b1a0484",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        1761,
+        887
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 21,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/aa90e2ad-4308-4ede-b3e1-4c2dfec8a50e.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 143,
+        "source_message_id": "f070aa8f-eb8b-48dc-a9dd-b7e3835ca8f3",
+        "source_image_title": "Temple Mite Animation Spritesheet",
+        "source_file_id": "file_00000000091882089772f6a0669288bb",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Red-core Temple Mite labeled action atlas",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_user_attachment_24_b75c8c4d-a47d-4844-9996-1241febe7a6d.png",
+      "sha256": "7882b572640d879d7c74f8219108e4e081f866b8a9e2eeeda6d570ae78a2ea4e",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "visible_bounds": [
+        0,
+        9,
+        1774,
+        887
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 24,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/b75c8c4d-a47d-4844-9996-1241febe7a6d.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 181,
+        "source_message_id": "177009fe-0729-4262-ad6f-44d7eeb2e15a",
+        "source_image_title": "Sunken Temple Mite Sprite Sheet",
+        "source_file_id": "file_000000007fa48208bdc690f93242242a",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Blue-eyed Mite multistate animation atlas",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    },
+    {
+      "action": "mixed_or_variant_source",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/source_images/C3-ENM-001_user_attachment_32_f31b20c9-e7e7-4253-bb05-677df22330ca.png",
+      "sha256": "6fe09cd1c6be1f14719b8cb441018477bd890c11906af744734a13e9b649d5ff",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "visible_bounds": null,
+      "has_alpha_channel": false,
+      "alpha_extrema": null,
+      "transparent_pixels_present": false,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 32,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/f31b20c9-e7e7-4253-bb05-677df22330ca.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 277,
+        "source_message_id": "c4d158cb-22bb-4ff5-b0f1-b7e8d17016ba",
+        "source_image_title": "Mossy Crystal Crustacean Sprite Sheet",
+        "source_file_id": "file_00000000c6cc82089c4c0d2b679c6c60",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Six-frame Mite idle attempt with baked checkerboard",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    }
+  ],
+  "runtime_exports": [],
+  "preview_paths": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-001/previews/C3-ENM-001_source_contact_review.jpg"
+  ],
+  "attachment_review_status": "All supplied originals cataloged; no production approval inferred."
+}

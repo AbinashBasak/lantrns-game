@@ -1,0 +1,64 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/chapter_03/review/c3_chest_animation_review.tscn" id="1_chest"]
+[ext_resource type="PackedScene" path="res://scenes/chapter_03/lighting/c3_lantern_light.tscn" id="2_light"]
+[ext_resource type="PackedScene" path="res://scenes/chapter_03/vfx/c3_lantern_sparks.tscn" id="3_sparks"]
+[ext_resource type="PackedScene" path="res://scenes/chapter_03/vfx/c3_crystal_motes.tscn" id="4_motes"]
+[ext_resource type="PackedScene" path="res://scenes/chapter_03/vfx/c3_waterfall_mist.tscn" id="5_mist"]
+
+[node name="C3NativeSystemsReview" type="Node2D"]
+metadata/review_only = true
+metadata/production_approved = false
+metadata/placement_note = "Isolated emitter previews; crystal and waterfall source props still await standalone art. This is not a chapter section."
+
+[node name="ChestReview" parent="." instance=ExtResource("1_chest")]
+
+[node name="WarmEmitter" parent="." instance=ExtResource("2_light")]
+position = Vector2(640, 390)
+metadata/placement_note = "Demo attached to existing chest mouth; actual lantern placement requires lantern prop"
+
+[node name="LanternSparks" parent="." instance=ExtResource("3_sparks")]
+position = Vector2(300, 350)
+scale = Vector2(2, 2)
+
+[node name="CrystalMotes" parent="." instance=ExtResource("4_motes")]
+position = Vector2(950, 330)
+scale = Vector2(2, 2)
+
+[node name="WaterfallMist" parent="." instance=ExtResource("5_mist")]
+position = Vector2(950, 460)
+
+[node name="ReviewLegend" type="CanvasLayer" parent="."]
+layer = 2
+
+[node name="Label" type="Label" parent="ReviewLegend"]
+offset_left = 30.0
+offset_top = 120.0
+offset_right = 1250.0
+offset_bottom = 160.0
+text = "NATIVE EFFECTS REVIEW · Chest: Preview opening for gold burst · Side emitters preview separately"
+horizontal_alignment = 1
+
+[node name="SparksLabel" type="Label" parent="ReviewLegend"]
+offset_left = 180.0
+offset_top = 440.0
+offset_right = 420.0
+offset_bottom = 490.0
+text = "Lantern sparks\nEmitter preview"
+horizontal_alignment = 1
+
+[node name="MotesLabel" type="Label" parent="ReviewLegend"]
+offset_left = 830.0
+offset_top = 370.0
+offset_right = 1070.0
+offset_bottom = 420.0
+text = "Crystal motes\nEmitter preview"
+horizontal_alignment = 1
+
+[node name="MistLabel" type="Label" parent="ReviewLegend"]
+offset_left = 830.0
+offset_top = 490.0
+offset_right = 1070.0
+offset_bottom = 540.0
+text = "Waterfall mist\nEmitter preview"
+horizontal_alignment = 1

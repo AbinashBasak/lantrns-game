@@ -4,8 +4,6 @@ signal defeated
 signal health_changed(current: int, maximum: int)
 signal phase_changed(phase: String)
 signal rejuvenated
-const Generated = preload("res://scripts/companions/generated_animation.gd")
-const PACK := "res://assets/runtime/chapter01/boss/manifest.json"
 const ARENA_LEFT := 6500.0
 const ARENA_RIGHT := 8100.0
 const FLOOR_Y := 620.0
@@ -29,14 +27,16 @@ var pending_wave := false
 var safe_center := 0.0
 var flash := 0.0
 var sprite: AnimatedSprite2D
+@onready var animation_tree: AnimationTree = $AnimationTree
+@onready var animation_player: AnimationPlayer = $AnimationPlayer
+@onready var animation_state: AnimationNodeStateMachinePlayback = animation_tree.get("parameters/States/playback")
 
 func _ready() -> void:
 	collision_layer = 4
 	collision_mask = 1
 	sprite = get_node("AnimatedSprite2D")
-	_play("idle")
-	sprite.set_frame_and_progress(0, 0)
-	sprite.pause()
+	_play("dormant")
+	_sync_native_vfx()
 
 func activate(player: CharacterBody2D) -> void:
 	if activated or state == "defeated":
@@ -70,11 +70,9 @@ func reset_encounter() -> void:
 		remove_from_group("enemies")
 	if sprite != null:
 		sprite.modulate = Color.WHITE
-		_play("idle")
-		sprite.set_frame_and_progress(0, 0)
-		sprite.pause()
+		_play("dormant")
 	health_changed.emit(health, max_health)
-	queue_redraw()
+	_sync_native_vfx()
 
 func _physics_process(delta: float) -> void:
 	flash = maxf(0, flash - delta)
@@ -173,7 +171,7 @@ func _physics_process(delta: float) -> void:
 	global_position.x = clampf(global_position.x, ARENA_LEFT + 100, ARENA_RIGHT - 100)
 	sprite.scale.x = direction * 0.40
 	sprite.modulate = Color(1.35, 1.15, 0.8) if flash > 0 else (Color(1.25, 0.72, 0.5) if berserk else Color.WHITE)
-	queue_redraw()
+	_sync_native_vfx()
 
 func _begin_windup(wave: bool) -> void:
 	_begin_attack("rootwave" if wave else "swipe")
@@ -205,21 +203,21 @@ func _set_state(next: String, duration: float) -> void:
 			_play("wake", duration)
 		"transition": _play("transition", duration)
 		"recover": _play("idle")
+	_sync_native_vfx()
 
 func _play(clip: String, duration: float = 0) -> void:
-	sprite.speed_scale = 1.0
-	if duration > 0:
-		var total := 0.0
-		for frame in sprite.sprite_frames.get_frame_count(clip):
-			total += sprite.sprite_frames.get_frame_duration(clip, frame)
-		sprite.speed_scale = total / duration
-	sprite.play(clip)
+	var duration_scale := animation_player.get_animation(clip).length / duration if duration > 0 else 1.0
+	animation_tree.set("parameters/Speed/scale", duration_scale)
+	animation_state.travel(clip)
 
 func take_damage(amount: int, _hit_direction: float) -> void:
 	if not activated or health <= 0 or state == "wake" or state == "transition" or state == "collapse" or state == "rejuvenate":
 		return
 	health = maxi(0, health - amount)
 	flash = 0.16
+	var presentation := get_tree().get_first_node_in_group("chapter_presentation")
+	if presentation == null or not presentation.reduced_effects:
+		$ImpactDust.restart()
 	_cue("boss_hit")
 	health_changed.emit(health, max_health)
 	if health == 0:
@@ -238,57 +236,63 @@ func take_damage(amount: int, _hit_direction: float) -> void:
 		# AnimatedSprite2D retains the final kneeling frame rather than disappearing.
 		_cue("boss_defeat")
 		defeated.emit()
-		queue_redraw()
+		_sync_native_vfx()
 
 func _cue(event: String) -> void:
 	get_tree().call_group("chapter_presentation", "cue", event, global_position)
 
-func _draw() -> void:
-	if state == "rejuvenate":
-		draw_string(ThemeDB.fallback_font, Vector2(-90, -180), "REJUVENATING", HORIZONTAL_ALIGNMENT_LEFT, -1, 20, Color("ffdc96"))
-		var pulse := 1.0 + sin(attack_elapsed * 7.0) * 0.15
-		draw_arc(Vector2(0, -90), (65 + attack_elapsed * 20) * pulse, 0, TAU, 48, Color(1, 0.65, 0.25, 0.7), 5)
-		for i in 12:
-			var angle := float(i) * TAU / 12.0 + attack_elapsed
-			draw_circle(Vector2(0, -90) + Vector2.from_angle(angle) * (125 - attack_elapsed * 30), 4, Color("ffd38a"))
-	if state == "windup" and pending_attack == "charge":
-		draw_rect(Rect2(-40 if direction > 0 else -600, -12, 640, 12), Color(1, 0.55, 0.2, 0.4))
-		draw_string(ThemeDB.fallback_font, Vector2(-50, -155), "CHARGE — JUMP", HORIZONTAL_ALIGNMENT_LEFT, -1, 16, Color("ffdc96"))
-	if (state == "windup" and pending_attack == "eruption") or state == "eruption":
-		for center in eruption_centers:
-			var x := center - global_position.x
-			draw_ellipse_root(x, state == "eruption")
-	if state == "windup" and pending_wave or state == "rootwave":
-		var left := ARENA_LEFT - global_position.x
-		var right := ARENA_RIGHT - global_position.x
-		var safe := safe_center - global_position.x
-		var active := state == "rootwave"
-		var danger := Color(0.95, 0.46, 0.12, 0.8 if active else 0.35)
-		draw_rect(Rect2(left, -8, safe - 130 - left, 8), danger)
-		draw_rect(Rect2(safe + 130, -8, right - safe - 130, 8), danger)
-		draw_rect(Rect2(safe - 130, -95, 260, 95), Color(0.45,0.9,0.65,0.10))
-		draw_rect(Rect2(safe - 130, -6, 260, 6), Color("9be3b0"))
-		draw_line(Vector2(safe-130,-6),Vector2(safe-130,-85),Color("9be3b0"),2)
-		draw_line(Vector2(safe+130,-6),Vector2(safe+130,-85),Color("9be3b0"),2)
-		draw_string(ThemeDB.fallback_font,Vector2(safe-25,-65),"SAFE",HORIZONTAL_ALIGNMENT_LEFT,-1,18,Color("bff2ce"))
-		for x in range(int(left), int(right), 48):
-			if absf(float(x) - safe) > 130:
-				var rise := (sin(clampf(attack_elapsed / 0.55, 0, 1) * PI) * 95.0 + 25.0) if active else 12.0 + sin(attack_elapsed * 8 + x) * 4
-				_draw_root(float(x), rise, danger)
-	elif state == "windup":
-		draw_arc(Vector2(direction * 70, -60), 52, PI, TAU, 28, Color("ffca70"), 4)
-		draw_line(Vector2(direction * 70, -152), Vector2(direction * 70, -130), Color("ffde9b"), 5)
-		draw_circle(Vector2(direction * 70, -120), 3, Color("ffde9b"))
+var _vfx_cue := ""
+var _vfx_reduced := false
 
-func draw_ellipse_root(x: float, active: bool) -> void:
-	draw_arc(Vector2(x, -4), 65, PI, TAU, 24, Color("ffb265"), 3)
-	if active:
-		var rise := 35.0 + sin(clampf(attack_elapsed / 0.75, 0, 1) * PI) * 125.0
-		for n in 3:
-			_draw_root(x - 34 + n * 34, rise - n * 10, Color("db8d40"))
-
-func _draw_root(x: float, rise: float, tint: Color) -> void:
-	var bend := sin(attack_elapsed * 11 + x) * 15
-	var points := PackedVector2Array([Vector2(x - 11, -4), Vector2(x + bend + 8, -rise), Vector2(x + 12, -4)])
-	draw_colored_polygon(points, Color("4b3420"))
-	draw_polyline(PackedVector2Array([Vector2(x - 9, -5), Vector2(x - 5 + bend * 0.3, -rise * 0.45), Vector2(x + bend + 8, -rise)]), tint, 3, true)
+func _sync_native_vfx() -> void:
+	# All geometry and visual timing are authored in the scene. Only locked attack
+	# anchors and gameplay visibility are supplied here; damage stays in the FSM.
+	var warning := state == "windup"
+	var wave := (warning and pending_wave) or state == "rootwave"
+	var eruption := (warning and pending_attack == "eruption") or state == "eruption"
+	var charge := warning and pending_attack == "charge"
+	var reduced := false
+	var presentation := get_tree().get_first_node_in_group("chapter_presentation")
+	if presentation != null:
+		reduced = presentation.reduced_effects
+	$NativeVFX/Charge.visible = charge
+	$NativeVFX/Charge/GroundWarning.scale.x = direction
+	$NativeVFX/Anticipation.visible = warning and not wave and not eruption and not charge
+	$NativeVFX/Anticipation.position.x = direction * 70.0
+	$NativeVFX/Rootwave.visible = wave
+	$NativeVFX/Rootwave.global_position = Vector2(ARENA_LEFT, FLOOR_Y)
+	var safe_offset := safe_center - ARENA_LEFT
+	$NativeVFX/Rootwave/SafeGround.position.x = safe_offset
+	$NativeVFX/Rootwave/DangerLeft.scale.x = maxf(0.0, safe_offset - 130.0)
+	$NativeVFX/Rootwave/DangerRight.position.x = safe_offset + 130.0
+	$NativeVFX/Rootwave/DangerRight.scale.x = maxf(0.0, ARENA_RIGHT - safe_center - 130.0)
+	for visual: Node2D in $NativeVFX/Rootwave/Roots.get_children():
+		visual.visible = absf(visual.position.x - safe_offset) > 130.0
+	for i in 2:
+		var visual: Node2D = get_node("NativeVFX/Eruption%d" % i)
+		visual.visible = eruption and i < eruption_centers.size()
+		if visual.visible:
+			visual.global_position = Vector2(eruption_centers[i], FLOOR_Y)
+		visual.get_node("Roots").visible = state == "eruption"
+	$NativeVFX/Rejuvenation.visible = state == "rejuvenate"
+	$NativeVFX/Rejuvenation/RevivalMotes.emitting = state == "rejuvenate" and not reduced
+	$NativeVFX/Rejuvenation/RevivalLight.enabled = not reduced
+	var cue := ""
+	if state == "rejuvenate": cue = "rejuvenate"
+	elif state == "rootwave": cue = "rootwave"
+	elif state == "eruption": cue = "eruption"
+	elif warning: cue = "warning"
+	if cue != _vfx_cue or reduced != _vfx_reduced:
+		_vfx_cue = cue
+		_vfx_reduced = reduced
+		if cue.is_empty():
+			$VFXAnimationPlayer.stop()
+			$NativeVFX.modulate = Color.WHITE
+		elif reduced:
+			$VFXAnimationPlayer.play(cue)
+			$VFXAnimationPlayer.seek($VFXAnimationPlayer.current_animation_length * 0.5 if cue in ["rootwave", "eruption"] else 0.0, true)
+			$VFXAnimationPlayer.pause()
+		else:
+			$VFXAnimationPlayer.play(cue)
+		if warning:
+			$NativeVFX/Rootwave/Roots.scale.y = 0.12

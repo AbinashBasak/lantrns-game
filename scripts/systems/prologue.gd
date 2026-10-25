@@ -202,7 +202,7 @@ func _show_dialogue(key: String, on_done: Callable = Callable()) -> void:
 			player.position.x = speaker_x - 65 if player.position.x <= speaker_x else speaker_x + 65
 			player.facing = signf(speaker_x - player.position.x)
 			player.visual.flip_h = player.facing < 0
-			player.visual.play("idle")
+			player.animation_playback.start(&"idle", true)
 	dialogue_lines = dialogue_data.get(key, []).duplicate()
 	dialogue_index = 0
 	hint.text = ""
@@ -211,6 +211,8 @@ func _show_dialogue(key: String, on_done: Callable = Callable()) -> void:
 	mote.active = false
 	player.velocity = Vector2.ZERO
 	player.attack_time = 0
+	player.animation_playback.start(&"idle", true)
+	player.animation_tree.advance(0.0)
 	dialogue_box.show()
 	dialogue_label.text = dialogue_lines[0] if not dialogue_lines.is_empty() else ""
 
@@ -240,6 +242,8 @@ func _start_failure() -> void:
 	mote.active = false
 	player.velocity = Vector2.ZERO
 	player.attack_time = 0
+	player.animation_playback.start(&"idle", true)
+	player.animation_tree.advance(0.0)
 
 func _finish_failure() -> void:
 	village.hearth_failed = true

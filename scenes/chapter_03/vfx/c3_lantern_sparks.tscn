@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=3]
+
+[sub_resource type="Gradient" id="Gradient_dot"]
+offsets = PackedFloat32Array(0, 0.25, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0.65, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="Texture_dot"]
+gradient = SubResource("Gradient_dot")
+width = 32
+height = 32
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(1, 0.5)
+
+[sub_resource type="CanvasItemMaterial" id="Material_unshaded"]
+light_mode = 1
+
+[node name="C3LanternSparks" type="Node2D"]
+metadata/placement = "Attach at the corresponding actual prop emitter; no replacement artwork included"
+metadata/source_bible = "Chapter 3 production bible §6–7"
+
+[node name="Particles" type="CPUParticles2D" parent="."]
+material = SubResource("Material_unshaded")
+amount = 7
+lifetime = 1.2
+preprocess = 1
+texture = SubResource("Texture_dot")
+emission_shape = 3
+emission_rect_extents = Vector2(3, 2)
+direction = Vector2(0, -1)
+spread = 20
+gravity = Vector2(0, -5)
+initial_velocity_min = 15.950000000000001
+initial_velocity_max = 29
+scale_amount_min = 0.05600000000000001
+scale_amount_max = 0.14
+color = Color(1, 0.66, 0.18, 0.85)

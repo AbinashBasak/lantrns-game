@@ -1,0 +1,164 @@
+{
+  "asset_id": "C3-CHR-002",
+  "title": "Player run / recovered walk variant",
+  "source_chat": "https://chatgpt.com/share/6adcfe72-eeb4-83ee-b43a-a08319abf676",
+  "stage": "originals recovered; cleanup and in-engine approval pending",
+  "production_approved": false,
+  "notes": "Run and walk source sheets; frame and pivot review pending. Walk is a source variant, not a newly invented asset ID.",
+  "sources": [
+    {
+      "action": "run",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-002/source_images/C3-CHR-002_run_msg_244_0000000041648208ad185d80f8ff6f81.png",
+      "sha256": "daa18d4ba7e82dd27fc16aed74af7c22cf8b338c4296e468a33b6aa247fbab9b",
+      "dimensions": [
+        1983,
+        793
+      ],
+      "visible_bounds": null,
+      "has_alpha_channel": false,
+      "alpha_extrema": null,
+      "transparent_pixels_present": false,
+      "source_message_id": "5053c62a-8795-4f81-8a85-24fc7ade7820",
+      "source_message_index": 244,
+      "source_pointer": "sediment://file_0000000041648208ad185d80f8ff6f81?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "provenance": "downloaded original; unchanged; no reconstructed pixels",
+      "frame_count_claimed_in_chat": 6,
+      "frame_count_verified": false,
+      "timing_status": "source chat suggestions only; not yet timed in engine",
+      "pivot_status": "not normalized",
+      "production_approved": false
+    },
+    {
+      "action": "walk",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-002/source_images/C3-CHR-002_walk_msg_246_000000009c688208ba52f73b3094bc9e.png",
+      "sha256": "ad78ba474bcf13da65d4c1a1a1f8c68ce2d309a74f8a88dffa6772ddb04974e9",
+      "dimensions": [
+        1904,
+        826
+      ],
+      "visible_bounds": null,
+      "has_alpha_channel": false,
+      "alpha_extrema": null,
+      "transparent_pixels_present": false,
+      "source_message_id": "2c90f54d-0c2a-4443-bbd6-7c61de7f30c1",
+      "source_message_index": 246,
+      "source_pointer": "sediment://file_000000009c688208ba52f73b3094bc9e?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "provenance": "downloaded original; unchanged; no reconstructed pixels",
+      "frame_count_claimed_in_chat": 6,
+      "frame_count_verified": false,
+      "timing_status": "source chat suggestions only; not yet timed in engine",
+      "pivot_status": "not normalized",
+      "production_approved": false
+    },
+    {
+      "action": "run_candidate",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-002/source_images/C3-CHR-002_user_attachment_19_a75b6832-236e-4ed8-93f0-a0522d6907e3.png",
+      "sha256": "287bba036efa40ae43cf4bc443cce1891d2755a20bebbe2230658a17906d86b2",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "visible_bounds": [
+        0,
+        21,
+        1774,
+        855
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": null,
+      "source_message_index": null,
+      "provenance": "User-supplied original, unchanged; received 2026-10-25",
+      "attachment_number": 19,
+      "supplied_original_path": "/Users/abinashbasak/Downloads/a75b6832-236e-4ed8-93f0-a0522d6907e3.png",
+      "frame_count_verified": false,
+      "timing_status": "pending native animation review",
+      "pivot_status": "not normalized",
+      "production_approved": false,
+      "source_correspondence": {
+        "source_message_index": 205,
+        "source_message_id": "57b38e50-934d-4592-85ed-e837aa5978eb",
+        "source_image_title": "Blue-Haired Hero Running Sprite Sheet",
+        "source_file_id": "file_00000000ab108208a6f6305386a18d25",
+        "source_match_status": "probable_strong_unique_size_dimensions_visual_category",
+        "source_match_evidence": "Unique exact byte count and pixel dimensions match visible source image record; subject/layout agrees with title. No embedded generation identifier or prior source hash available."
+      },
+      "visual_description": "Eight blue-haired running frames, true alpha; identity and baseline QA needed",
+      "source_match_status": "probable_strong_unique_size_dimensions_visual_category"
+    }
+  ],
+  "runtime_exports": [],
+  "preview_paths": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/characters/C3-CHR-002/previews/C3-CHR-002_source_contact_review.jpg",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/player-animation-review.png",
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/player-animation-review-run.png"
+  ],
+  "attachment_review_status": "All supplied originals cataloged; no production approval inferred.",
+  "review_scene": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/scenes/chapter_03/review/c3_player_animation_review.tscn",
+  "review_export": {
+    "source_copy": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/art/export/chapter_03/review/C3-CHR-002_run_review_source.png",
+    "sha256": "287bba036efa40ae43cf4bc443cce1891d2755a20bebbe2230658a17906d86b2",
+    "regions": [
+      [
+        235,
+        330,
+        235,
+        340
+      ],
+      [
+        460,
+        330,
+        220,
+        340
+      ],
+      [
+        676,
+        330,
+        224,
+        340
+      ],
+      [
+        900,
+        330,
+        222,
+        340
+      ],
+      [
+        1122,
+        330,
+        208,
+        340
+      ],
+      [
+        1330,
+        330,
+        220,
+        340
+      ]
+    ],
+    "canvas": [
+      320,
+      455
+    ],
+    "pivot": [
+      160,
+      455
+    ],
+    "fps": 10,
+    "original_pose_count": 8,
+    "review_pose_count": 6,
+    "stage": "native AnimationPlayer/AnimationTree source review only",
+    "game_ready": false,
+    "quality_warnings": [
+      "No alpha cleanup, masking, recolor or synthesized frames.",
+      "Run rectangular cells cannot isolate touching neighboring capes. Narrow crops truncate cape and may contain neighboring source pixels.",
+      "Idle source has touching capes and low-alpha speckle; interior selection is not production cleanup.",
+      "Source poses vary scale and alignment. Bottom-aligned crop canvases are stable; source foot baselines still vary."
+    ]
+  },
+  "review_details": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/docs/chapter03/player-animation-review.json"
+}

@@ -1,0 +1,319 @@
+[gd_scene load_steps=26 format=3]
+
+[ext_resource type="Texture2D" path="res://art/export/chapter_03/review/C3-CHEST-ASSET-001_opening_review_source.png" id="1_sheet"]
+[ext_resource type="Script" path="res://scripts/chapter_03/review/chest_animation_review.gd" id="2_script"]
+[ext_resource type="Texture2D" path="res://assets/runtime/shared/lighting/soft_radial.tres" id="3_light"]
+
+[sub_resource type="Gradient" id="Gradient_dot"]
+offsets = PackedFloat32Array(0, 0.25, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0.65, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="Texture_dot"]
+gradient = SubResource("Gradient_dot")
+width = 32
+height = 32
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(1, 0.5)
+
+[sub_resource type="CanvasItemMaterial" id="Material_unshaded"]
+light_mode = 1
+
+[sub_resource type="OccluderPolygon2D" id="Occluder_chest_base"]
+polygon = PackedVector2Array(-115, -118, 115, -118, 122, -28, -122, -28)
+
+[sub_resource type="AtlasTexture" id="Atlas_1"]
+atlas = ExtResource("1_sheet")
+region = Rect2(10, 275, 288, 392)
+margin = Rect2(16.0, 0, 32, 0)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="Atlas_2"]
+atlas = ExtResource("1_sheet")
+region = Rect2(302, 275, 284, 392)
+margin = Rect2(18.0, 0, 36, 0)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="Atlas_3"]
+atlas = ExtResource("1_sheet")
+region = Rect2(590, 275, 286, 392)
+margin = Rect2(17.0, 0, 34, 0)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="Atlas_4"]
+atlas = ExtResource("1_sheet")
+region = Rect2(878, 275, 282, 392)
+margin = Rect2(19.0, 0, 38, 0)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="Atlas_5"]
+atlas = ExtResource("1_sheet")
+region = Rect2(1162, 275, 298, 392)
+margin = Rect2(11.0, 0, 22, 0)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="Atlas_6"]
+atlas = ExtResource("1_sheet")
+region = Rect2(1462, 275, 311, 392)
+margin = Rect2(4.5, 0, 9, 0)
+filter_clip = true
+
+[sub_resource type="Animation" id="Animation_Closed"]
+resource_name = "Closed"
+length = 0.125
+tracks/0/type = "value"
+tracks/0/path = NodePath("Chest/Sprite2D:texture")
+tracks/0/interp = 0
+tracks/0/update_mode = 1
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [SubResource("Atlas_1")]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Chest/MouthLight:energy")
+tracks/1/interp = 1
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+tracks/2/type = "value"
+tracks/2/path = NodePath("Chest/OpeningGoldParticles:emitting")
+tracks/2/interp = 0
+tracks/2/update_mode = 1
+tracks/2/keys = {"times": PackedFloat32Array(0), "transitions": PackedFloat32Array(1), "update": 1, "values": [false]}
+
+[sub_resource type="Animation" id="Animation_Opening"]
+resource_name = "Opening"
+length = 0.75
+tracks/0/type = "value"
+tracks/0/path = NodePath("Chest/Sprite2D:texture")
+tracks/0/interp = 0
+tracks/0/update_mode = 1
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.125, 0.25, 0.375, 0.5, 0.625),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [SubResource("Atlas_1"), SubResource("Atlas_2"), SubResource("Atlas_3"), SubResource("Atlas_4"), SubResource("Atlas_5"), SubResource("Atlas_6")]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Chest/MouthLight:energy")
+tracks/1/interp = 1
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.125, 0.25, 0.375, 0.5, 0.625, 0.75),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.02, 0.1, 0.35, 0.18, 0.4, 0.22]
+}
+
+tracks/2/type = "value"
+tracks/2/path = NodePath("Chest/OpeningGoldParticles:emitting")
+tracks/2/interp = 0
+tracks/2/update_mode = 1
+tracks/2/keys = {"times": PackedFloat32Array(0, 0.25, 0.65), "transitions": PackedFloat32Array(1, 1, 1), "update": 1, "values": [false, true, false]}
+
+[sub_resource type="Animation" id="Animation_Open"]
+resource_name = "Open"
+length = 0.125
+tracks/0/type = "value"
+tracks/0/path = NodePath("Chest/Sprite2D:texture")
+tracks/0/interp = 0
+tracks/0/update_mode = 1
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [SubResource("Atlas_6")]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Chest/MouthLight:energy")
+tracks/1/interp = 1
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.22]
+}
+
+tracks/2/type = "value"
+tracks/2/path = NodePath("Chest/OpeningGoldParticles:emitting")
+tracks/2/interp = 0
+tracks/2/update_mode = 1
+tracks/2/keys = {"times": PackedFloat32Array(0), "transitions": PackedFloat32Array(1), "update": 1, "values": [false]}
+
+[sub_resource type="AnimationLibrary" id="Library"]
+_data = {
+&"Closed": SubResource("Animation_Closed"),
+&"Opening": SubResource("Animation_Opening"),
+&"Open": SubResource("Animation_Open")
+}
+
+[sub_resource type="AnimationNodeAnimation" id="Node_Closed"]
+animation = &"Closed"
+
+[sub_resource type="AnimationNodeAnimation" id="Node_Opening"]
+animation = &"Opening"
+
+[sub_resource type="AnimationNodeAnimation" id="Node_Open"]
+animation = &"Open"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="Transition_Start"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="Transition_Opening"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="Transition_Open"]
+switch_mode = 2
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="Transition_Closed"]
+
+[sub_resource type="AnimationNodeStateMachine" id="StateMachine"]
+states/Closed/node = SubResource("Node_Closed")
+states/Closed/position = Vector2(260, 100)
+states/Opening/node = SubResource("Node_Opening")
+states/Opening/position = Vector2(450, 100)
+states/Open/node = SubResource("Node_Open")
+states/Open/position = Vector2(650, 100)
+transitions = ["Start", "Closed", SubResource("Transition_Start"), "Closed", "Opening", SubResource("Transition_Opening"), "Opening", "Open", SubResource("Transition_Open"), "Open", "Closed", SubResource("Transition_Closed")]
+
+[node name="C3ChestAnimationReview" type="Node2D"]
+script = ExtResource("2_script")
+metadata/review_only = true
+metadata/asset_id = "C3-CHEST-ASSET-001"
+metadata/source_bible = "lanterns_underroot_chapter_3_production_bible.md §17"
+metadata/production_approved = false
+metadata/atlas_note = "Six individual source regions; labels excluded; fixed 320x392 bottom-aligned virtual frame; painted glow retained"
+
+[node name="ReviewBackground" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="ColorRect" type="ColorRect" parent="ReviewBackground"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.075, 0.09, 0.1, 1)
+
+[node name="CanvasModulate" type="CanvasModulate" parent="."]
+color = Color(1, 1, 1, 1)
+
+[node name="Chest" type="Node2D" parent="."]
+position = Vector2(640, 550)
+
+[node name="Sprite2D" type="Sprite2D" parent="Chest"]
+texture = SubResource("Atlas_1")
+centered = false
+offset = Vector2(-160, -392)
+
+[node name="MouthLight" type="PointLight2D" parent="Chest"]
+position = Vector2(0, -150)
+texture = ExtResource("3_light")
+texture_scale = 1.1
+color = Color(1, 0.714, 0.259, 1)
+energy = 0.0
+shadow_enabled = false
+
+[node name="BaseOccluder" type="LightOccluder2D" parent="Chest"]
+occluder = SubResource("Occluder_chest_base")
+occluder_light_mask = 1
+metadata/shape_note = "Inside opaque lower chest body; excludes lid opening and surrounding alpha"
+
+[node name="OpeningGoldParticles" type="CPUParticles2D" parent="Chest"]
+position = Vector2(0, -140)
+material = SubResource("Material_unshaded")
+emitting = false
+amount = 18
+lifetime = 0.8
+texture = SubResource("Texture_dot")
+emission_shape = 3
+emission_rect_extents = Vector2(58, 3)
+direction = Vector2(0, -1)
+spread = 48.0
+gravity = Vector2(0, 34)
+initial_velocity_min = 35.0
+initial_velocity_max = 90.0
+scale_amount_min = 0.09
+scale_amount_max = 0.24
+color = Color(1, 0.69, 0.2, 0.95)
+metadata/vfx_id = "C3-VFX-006"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("Library")
+}
+
+[node name="AnimationTree" type="AnimationTree" parent="."]
+callback_mode_discrete = 0
+tree_root = SubResource("StateMachine")
+anim_player = NodePath("../AnimationPlayer")
+active = true
+
+[node name="ReviewUI" type="CanvasLayer" parent="."]
+layer = 1
+
+[node name="Panel" type="Control" parent="ReviewUI"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Title" type="Label" parent="ReviewUI/Panel"]
+anchor_right = 1.0
+offset_top = 20.0
+offset_bottom = 60.0
+theme_override_font_sizes/font_size = 26
+text = "C3-CHEST-ASSET-001 · Opening animation review"
+horizontal_alignment = 1
+
+[node name="ReviewNotice" type="Label" parent="ReviewUI/Panel"]
+anchor_right = 1.0
+offset_left = 24.0
+offset_top = 68.0
+offset_right = -24.0
+offset_bottom = 110.0
+text = "Source review · labels cropped · painted interior glow still present · not production approved"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Controls" type="VBoxContainer" parent="ReviewUI/Panel"]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -220.0
+offset_top = -150.0
+offset_right = 220.0
+offset_bottom = -18.0
+theme_override_constants/separation = 8
+
+[node name="Status" type="Label" parent="ReviewUI/Panel/Controls"]
+text = "Closed · six frames at 8 FPS"
+horizontal_alignment = 1
+
+[node name="Buttons" type="HBoxContainer" parent="ReviewUI/Panel/Controls"]
+alignment = 1
+theme_override_constants/separation = 16
+
+[node name="Preview" type="Button" parent="ReviewUI/Panel/Controls/Buttons"]
+custom_minimum_size = Vector2(190, 44)
+text = "Preview opening"
+
+[node name="Reset" type="Button" parent="ReviewUI/Panel/Controls/Buttons"]
+custom_minimum_size = Vector2(190, 44)
+text = "Reset to closed"
+
+[node name="Purpose" type="Label" parent="ReviewUI/Panel/Controls"]
+text = "Review only · no loot, collision or saved progress"
+horizontal_alignment = 1
+
+[connection signal="pressed" from="ReviewUI/Panel/Controls/Buttons/Preview" to="." method="preview_opening"]
+[connection signal="pressed" from="ReviewUI/Panel/Controls/Buttons/Reset" to="." method="reset_review"]

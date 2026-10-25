@@ -1,0 +1,164 @@
+{
+  "asset_id": "C3-ENM-003",
+  "title": "Drowned Archive Keeper",
+  "source_chat": "https://chatgpt.com/share/6adcfe72-eeb4-83ee-b43a-a08319abf676",
+  "stage": "originals recovered; cleanup and in-engine approval pending",
+  "production_approved": false,
+  "notes": "Generated spectral glide/cast art conflicts with bible ground/swim/melee behavior. Preserve sources; no mechanic replacement approved.",
+  "sources": [
+    {
+      "action": "idle",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-003/source_images/C3-ENM-003_idle_msg_347_00000000b45c8208bf485d87f3819d5a.png",
+      "sha256": "6cccb9b8727a2a5c4c8b41edbc02320e0cee6da3810cca66e040a3fa059f72fc",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "visible_bounds": [
+        0,
+        9,
+        2166,
+        724
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": "14338a7f-2337-4b2b-8ae3-3958d27f4b91",
+      "source_message_index": 347,
+      "source_pointer": "sediment://file_00000000b45c8208bf485d87f3819d5a?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "provenance": "downloaded original; unchanged; no reconstructed pixels",
+      "frame_count_claimed_in_chat": 6,
+      "frame_count_verified": false,
+      "timing_status": "source chat suggestions only; not yet timed in engine",
+      "pivot_status": "not normalized",
+      "production_approved": false
+    },
+    {
+      "action": "glide",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-003/source_images/C3-ENM-003_glide_msg_353_0000000053d482089b3d04fa884f3026.png",
+      "sha256": "456cf99dce581719d8e2dad4e7dd0468d4a333835b3dad50e4ce01d1e2da5507",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        2171,
+        724
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": "c7b33195-fe62-4a15-81dc-47a1169473cf",
+      "source_message_index": 353,
+      "source_pointer": "sediment://file_0000000053d482089b3d04fa884f3026?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "provenance": "downloaded original; unchanged; no reconstructed pixels",
+      "frame_count_claimed_in_chat": 6,
+      "frame_count_verified": false,
+      "timing_status": "source chat suggestions only; not yet timed in engine",
+      "pivot_status": "not normalized",
+      "production_approved": false
+    },
+    {
+      "action": "attack",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-003/source_images/C3-ENM-003_attack_msg_359_00000000c4d482088965cb7ca6faace0.png",
+      "sha256": "c8e0d8e009ac59fcf7cf5e5933d3c6a72691fd5a4d00b66cedab15099a220bc6",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "visible_bounds": [
+        0,
+        3,
+        2172,
+        724
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": "12ea2a91-38e5-4258-9501-39f1d6a7d306",
+      "source_message_index": 359,
+      "source_pointer": "sediment://file_00000000c4d482088965cb7ca6faace0?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "provenance": "downloaded original; unchanged; no reconstructed pixels",
+      "frame_count_claimed_in_chat": 6,
+      "frame_count_verified": false,
+      "timing_status": "source chat suggestions only; not yet timed in engine",
+      "pivot_status": "not normalized",
+      "production_approved": false
+    },
+    {
+      "action": "hurt",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-003/source_images/C3-ENM-003_hurt_msg_365_00000000e4d082089108fa4191e590b1.png",
+      "sha256": "ef8c00c6234af3ba417055e5d43c50e6ac9075f8799711ee4ca400c662edc7b9",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "visible_bounds": [
+        0,
+        6,
+        2172,
+        724
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": "f182e095-c9c1-4f06-9ffe-3b57d2ebf9b5",
+      "source_message_index": 365,
+      "source_pointer": "sediment://file_00000000e4d082089108fa4191e590b1?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "provenance": "downloaded original; unchanged; no reconstructed pixels",
+      "frame_count_claimed_in_chat": 6,
+      "frame_count_verified": false,
+      "timing_status": "source chat suggestions only; not yet timed in engine",
+      "pivot_status": "not normalized",
+      "production_approved": false
+    },
+    {
+      "action": "death",
+      "path": "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-003/source_images/C3-ENM-003_death_msg_371_00000000216c8208841042af826103be.png",
+      "sha256": "34c45c75dd333c33022791d52a771a0397560f6540448dc3a68ce18d50ba9693",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "visible_bounds": [
+        0,
+        0,
+        2172,
+        724
+      ],
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels_present": true,
+      "source_message_id": "0524c8aa-28b3-4e1e-ba8a-81952c60b0d3",
+      "source_message_index": 371,
+      "source_pointer": "sediment://file_00000000216c8208841042af826103be?shared_conversation_id=6adcfe72-eeb4-83ee-b43a-a08319abf676",
+      "provenance": "downloaded original; unchanged; no reconstructed pixels",
+      "frame_count_claimed_in_chat": 6,
+      "frame_count_verified": false,
+      "timing_status": "source chat suggestions only; not yet timed in engine",
+      "pivot_status": "not normalized",
+      "production_approved": false
+    }
+  ],
+  "runtime_exports": [],
+  "preview_paths": [
+    "/Users/abinashbasak/Desktop/games/lantrns/lantrns-game/assets/production/chapter_03_sunken_temple/enemies/C3-ENM-003/previews/C3-ENM-003_source_contact_review.jpg"
+  ]
+}
